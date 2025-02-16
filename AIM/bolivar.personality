@@ -1,0 +1,13 @@
+<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>781621</nameID>
+   <tooltipID>781621</tooltipID>
+   <forcedciv>Colombians</forcedciv>
+   <rushboom>0</rushboom>
+   <icon>ui\singleplayer\cpai_avatar_colombia</icon>
+   <chatset>bolivar</chatset>
+   <playerNames>
+      <nameID>781621<civ>Colombians</civ></nameID> 
+	</playerNames>
+</AI>

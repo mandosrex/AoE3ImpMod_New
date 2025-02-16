@@ -1,0 +1,4 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130106" imagepath = "ui\random_maps\cerrado\cerrado" displayNameID = "130105" cannotReplace = "" loadDetails="130107" loadBackground="ui\random_maps\default_map">
+	<loadss>ui\random_maps\cerrado\cerrado</loadss>
+</mapinfo>

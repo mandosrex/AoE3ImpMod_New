@@ -1,0 +1,4 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130201" imagepath = "ui\random_maps\nepal\nepal" displayNameID = "130200" cannotReplace = "" loadDetails="130202" loadBackground="ui\random_maps\asian_map">
+	<loadss>ui\random_maps\nepal\nepal</loadss>
+</mapinfo>

@@ -1,0 +1,4 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130097" imagepath = "ui\random_maps\great_plains\highplains" displayNameID = "130096" cannotReplace = "" loadDetails="130098" loadBackground="ui\random_maps\american_map">
+	<loadss>ui\random_maps\great_plains\highplains</loadss>
+</mapinfo>

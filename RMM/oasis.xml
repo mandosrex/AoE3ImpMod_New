@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130178" imagepath = "ui\random_maps\oasis\oasis" displayNameID = "130177" cannotReplace = ""
+		loadDetails="130179" loadBackground="ui\random_maps\african_map">
+   <loadss>ui\random_maps\oasis\oasis</loadss>
+</mapinfo>

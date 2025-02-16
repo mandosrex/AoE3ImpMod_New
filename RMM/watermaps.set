@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomMaps displayNameID="781330" imagepath="ui\random_maps\watermaps" helpTextID="781319" cannotReplace="">
+  <map>alaska</map>
+  <map>amazonia</map>
+  <map>araucania</map>
+  <map>bajacalifornia</map>
+  <map>borneo</map>
+  <map>california</map>
+  <map>caribbean</map>
+  <map>carolina</map>
+  <map>ceylon</map>
+  <map>delta</map>
+  <map>dhaka</map>
+  <map>florida</map>
+  <map>greatlakes</map>
+  <map>hispaniola</map>
+  <map>honshu</map>
+  <map>indochina</map>
+  <map>indonesia</map>
+  <map>korea</map>
+  <map>malaysia</map>
+  <map>manchuria</map>
+  <map>micronesia</map>
+  <map>newengland</map>
+  <map>newguinea</map>
+  <map>patagonia</map>
+  <map>saguenay</map>
+  <map>shikoku</map>
+  <map>southafrica</map>
+  <map>thailand</map>
+  <map>yellowriver</map>
+  <map>yucatan</map>
+</randomMaps>

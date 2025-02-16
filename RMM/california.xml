@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "28831" imagepath = "ui\random_maps\california\california" displayNameID = "43636" cannotReplace = ""
+		loadDetails="43633" loadBackground="ui\random_maps\american_map">
+   <loadss>ui\random_maps\california\california</loadss>
+</mapinfo>

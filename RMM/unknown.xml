@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "45467" imagepath = "ui\random_maps\unknown\unknown" displayNameID = "45466" cannotReplace = ""
+		loadDetails="45468" loadBackground="ui\random_maps\default_map">
+   <loadss>ui\random_maps\unknown\unknown</loadss>
+</mapinfo>

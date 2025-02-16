@@ -1,0 +1,4 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130067" imagepath = "ui\random_maps\adirondacks\adirondacks" displayNameID = "130066" cannotReplace = "" loadDetails="130068" loadBackground="ui\random_maps\american_map">
+	<loadss>ui\random_maps\adirondacks\adirondacks</loadss>
+</mapinfo>

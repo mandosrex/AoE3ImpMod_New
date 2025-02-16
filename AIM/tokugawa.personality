@@ -1,0 +1,13 @@
+<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>60007</nameID>
+   <tooltipID>64484</tooltipID>
+   <forcedciv>Japanese</forcedciv>
+   <rushboom>0</rushboom>
+   <icon>ui\singleplayer\cpai_avatar_japanese</icon>
+   <chatset>tokugawa</chatset>
+   <playerNames>
+      <nameID>60007<civ>Japanese</civ></nameID> 
+	</playerNames>
+</AI>

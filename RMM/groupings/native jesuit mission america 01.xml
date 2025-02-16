@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>13</width>
+	<height>13</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>1</selectassingleunit>
+	<units>
+		<unit variation ="126" posx ="-3.5354" posz ="-6.7337" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">ypSocketJesuitAmerican</unit>
+		<unit variation ="165" posx ="7.1281" posz ="-8.4011" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleJesuit</unit>
+		<unit variation ="107" posx ="4.3151" posz ="-7.2705" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="232" posx ="5.8426" posz ="-9.4355" orientx ="0.5087" orienty ="0.0000" orientz ="0.8609">ypSMJesuitAccessory</unit>
+		<unit variation ="20" posx ="5.0131" posz ="-7.3097" orientx ="0.9336" orienty ="0.0000" orientz ="0.3582">ypSMJesuitAccessory</unit>
+		<unit variation ="225" posx ="9.8933" posz ="-7.5660" orientx ="-0.6240" orienty ="0.0000" orientz ="-0.7814">ypSMJesuitAccessory</unit>
+		<unit variation ="226" posx ="10.2138" posz ="-7.8097" orientx ="0.7456" orienty ="0.0000" orientz ="-0.6664">ypSMJesuitAccessory</unit>
+		<unit variation ="207" posx ="7.3942" posz ="-3.2641" orientx ="-0.9979" orienty ="0.0000" orientz ="-0.0651">ypSMJesuitLady</unit>
+		<unit variation ="41" posx ="1.2001" posz ="-1.6803" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">ypNativeTempleJesuit</unit>
+		<unit variation ="210" posx ="1.1158" posz ="-2.0641" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">Campfire</unit>
+		<unit variation ="19" posx ="5.8058" posz ="0.6546" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="41" posx ="-8.7628" posz ="0.8699" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">Cabin</unit>
+		<unit variation ="102" posx ="-9.6606" posz ="-1.8222" orientx ="0.9868" orienty ="0.0000" orientz ="-0.1620">ypSMJesuitAccessory</unit>
+		<unit variation ="83" posx ="4.5670" posz ="-0.7419" orientx ="-0.3731" orienty ="0.0000" orientz ="0.9278">ypSMJesuitAccessory</unit>
+		<unit variation ="123" posx ="-2.3808" posz ="1.4026" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="203" posx ="-11.9116" posz ="0.3968" orientx ="-0.9311" orienty ="0.0000" orientz ="-0.3648">ypSMJesuitAccessory</unit>
+		<unit variation ="159" posx ="-3.0663" posz ="0.8273" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">ypSMJesuitAccessory</unit>
+		<unit variation ="235" posx ="8.8208" posz ="1.4098" orientx ="-0.0104" orienty ="0.0000" orientz ="-0.9999">ypSMJesuitAccessory</unit>
+		<unit variation ="250" posx ="5.8657" posz ="3.1927" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">Cabin</unit>
+		<unit variation ="45" posx ="-5.5583" posz ="6.2323" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">ypNativeTempleJesuit</unit>
+		<unit variation ="55" posx ="-11.9429" posz ="3.4503" orientx ="1.0000" orienty ="0.0000" orientz ="0.0000">ypSMJesuitPilgrim</unit>
+		<unit variation ="57" posx ="-9.4167" posz ="4.0549" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">ypSMJesuitAccessory</unit>
+		<unit variation ="84" posx ="-9.7608" posz ="5.7023" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">ypSMJesuitAccessory</unit>
+		<unit variation ="138" posx ="-2.2094" posz ="4.5538" orientx ="-0.9261" orienty ="0.0000" orientz ="0.3772">ypSMJesuitAccessory</unit>
+		<unit variation ="165" posx ="1.7431" posz ="4.3257" orientx ="0.4971" orienty ="0.0000" orientz ="0.8677">ypSMJesuitAccessory</unit>
+		<unit variation ="0" posx ="3.1738" posz ="4.8855" orientx ="0.9022" orienty ="0.0000" orientz ="-0.4313">ypSMJesuitAccessory</unit>
+		<unit variation ="23" posx ="0.2073" posz ="7.7885" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="142" posx ="-9.3750" posz ="6.7514" orientx ="0.4227" orienty ="0.0000" orientz ="0.9063">ypSMJesuitAccessory</unit>
+		<unit variation ="42" posx ="-0.0795" posz ="7.8094" orientx ="-0.1765" orienty ="0.0000" orientz ="-0.9843">ypSMJesuitMan</unit>
+		<unit variation ="235" posx ="-9.3013" posz ="8.2112" orientx ="0.6630" orienty ="0.0000" orientz ="0.7486">ypSMJesuitAccessory</unit>
+		<unit variation ="35" posx ="-5.9598" posz ="11.2804" orientx ="-0.3557" orienty ="0.0000" orientz ="0.9346">ypSMJesuitAccessory</unit>
+	</units>
+	<tiles>
+		<heights>
+			<tiles x ="-6" z ="-6">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="-5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="-4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="-3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="-2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="-1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="0">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="6">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+		</heights>
+	</tiles>
+</grouping>

@@ -1,0 +1,4 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130109" imagepath = "ui\random_maps\fertilecrescent\fertilecrescent" displayNameID = "130108" cannotReplace = "" loadDetails="130110" loadBackground="ui\random_maps\african_map">
+	<loadss>ui\random_maps\fertilecrescent\fertilecrescent</loadss>
+</mapinfo>

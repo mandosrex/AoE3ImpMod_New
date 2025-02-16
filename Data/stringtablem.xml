@@ -32739,5 +32739,8 @@
 		<String _locID="782285">3 Economy Wagons\n1 Capitol Wagon\n4 Boers</String>
 		<String _locID="782286">3 Military Wagons\n1 Command Post Wagon\n4 Boers</String>
 		<String _locID="782287">3 Outpost Wagons\n1 Trading Post Wagon\n3 Boers</String>
+		<String _locID="782288">Lamb of God</String>
+		<String _locID="782289">Explorer Sheep</String>
+		<String _locID="782290">Explorer Sheep with unusual resistence and line of sight. Can gather Food from Houses.</String>
 	</Language>
 </StringTable>

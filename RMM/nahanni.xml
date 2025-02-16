@@ -1,0 +1,4 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130148" imagepath = "ui\random_maps\nahanni\nahanni" displayNameID = "130147" cannotReplace = "" loadDetails="130149" loadBackground="ui\random_maps\american_map">
+	<loadss>ui\random_maps\nahanni\nahanni</loadss>
+</mapinfo>

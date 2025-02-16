@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "30104" imagepath = "ui\random_maps\pampas\pampas" displayNameID = "26304" cannotReplace = ""
+		loadDetails="35946" loadBackground="ui\random_maps\default_map">
+   <loadss>ui\random_maps\pampas\pampas</loadss>
+</mapinfo>

@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130157" imagepath = "ui\random_maps\thailand\thailand" displayNameID = "130156" cannotReplace = ""
+		loadDetails="130158" loadBackground="ui\random_maps\asian_map">
+   <loadss>ui\random_maps\thailand\thailand</loadss>
+</mapinfo>

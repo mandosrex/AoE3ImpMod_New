@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "28984" imagepath = "ui\random_maps\patagonia\patagonia" displayNameID = "28983" cannotReplace = ""
+         loadDetails="35947" loadBackground="ui\random_maps\default_map">
+   <loadss>ui\random_maps\patagonia\patagonia</loadss>
+</mapinfo>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>10</width>
+	<height>11</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>1</selectassingleunit>
+	<units>
+		<unit variation ="116" posx ="-2.0450" posz ="-8.5499" orientx ="0.8902" orienty ="0.0000" orientz ="0.4555">ypSMZenAccessory</unit>
+		<unit variation ="39" posx ="6.2127" posz ="-9.3188" orientx ="0.0516" orienty ="0.0000" orientz ="-0.9987">ypSMZenMan</unit>
+		<unit variation ="104" posx ="1.4967" posz ="-8.9932" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleZen</unit>
+		<unit variation ="33" posx ="4.6681" posz ="-7.3338" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="37" posx ="2.5559" posz ="-5.1299" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="41" posx ="-5.3182" posz ="-5.0028" orientx ="-0.0000" orienty ="0.0000" orientz ="-1.0000">ypSocketZen</unit>
+		<unit variation ="130" posx ="3.9666" posz ="-6.0684" orientx ="0.0087" orienty ="0.0000" orientz ="1.0000">ypSMZenAccessory</unit>
+		<unit variation ="94" posx ="4.3596" posz ="-7.4881" orientx ="-0.9906" orienty ="0.0000" orientz ="0.1369">ypSMZenAccessory</unit>
+		<unit variation ="180" posx ="6.8982" posz ="-4.4250" orientx ="1.0000" orienty ="0.0000" orientz ="0.0000">ypNativeTempleZen</unit>
+		<unit variation ="41" posx ="6.0610" posz ="-4.8958" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">ypNativeTempleZen</unit>
+		<unit variation ="218" posx ="2.3375" posz ="-2.1931" orientx ="-0.0407" orienty ="0.0000" orientz ="0.9992">ypSMZenLady</unit>
+		<unit variation ="175" posx ="6.6118" posz ="-1.0030" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">ypNativeTempleZen</unit>
+		<unit variation ="97" posx ="-2.8919" posz ="-0.6222" orientx ="-0.2847" orienty ="0.0000" orientz ="0.9586">ypSMZenAccessory</unit>
+		<unit variation ="241" posx ="2.7952" posz ="2.5703" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="6" posx ="-5.2855" posz ="2.6697" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="41" posx ="4.5203" posz ="0.5092" orientx ="-0.7165" orienty ="0.0000" orientz ="-0.6976">ypSMZenAccessory</unit>
+		<unit variation ="15" posx ="-9.7128" posz ="3.4256" orientx ="-1.0000" orienty ="0.0000" orientz ="-0.0000">ypNativeTempleZen</unit>
+		<unit variation ="209" posx ="5.0817" posz ="3.9206" orientx ="-0.7071" orienty ="0.0000" orientz ="-0.7071">ypNativeTempleZen</unit>
+		<unit variation ="41" posx ="1.7727" posz ="3.4313" orientx ="-0.7165" orienty ="0.0000" orientz ="-0.6976">ypSMZenAccessory</unit>
+		<unit variation ="57" posx ="-2.7155" posz ="5.6255" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleZen</unit>
+		<unit variation ="15" posx ="-7.3074" posz ="5.7877" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleZen</unit>
+		<unit variation ="122" posx ="0.4058" posz ="4.1766" orientx ="-0.4668" orienty ="0.0000" orientz ="0.8844">ypSMZenAccessory</unit>
+		<unit variation ="128" posx ="-5.2151" posz ="4.0823" orientx ="0.9520" orienty ="0.0000" orientz ="0.3061">ypSMZenAccessory</unit>
+		<unit variation ="15" posx ="1.0324" posz ="6.6847" orientx ="-0.0000" orienty ="0.0000" orientz ="1.0000">ypNativeTempleZen</unit>
+	</units>
+	<tiles>
+		<heights>
+			<tiles x ="-5" z ="-5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="0">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+		</heights>
+	</tiles>
+</grouping>

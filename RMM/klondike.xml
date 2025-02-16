@@ -1,0 +1,4 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130133" imagepath = "ui\random_maps\klondike\klondike" displayNameID = "130132" cannotReplace = "" loadDetails="130134" loadBackground="ui\random_maps\default_map">
+	<loadss>ui\random_maps\klondike\klondike</loadss>
+</mapinfo>

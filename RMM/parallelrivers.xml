@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130154" imagepath = "ui\random_maps\parallelrivers\parallelrivers" displayNameID = "130153" cannotReplace = ""
+		loadDetails="130155" loadBackground="ui\random_maps\asian_map">
+   <loadss>ui\random_maps\parallelrivers\parallelrivers</loadss>
+</mapinfo>

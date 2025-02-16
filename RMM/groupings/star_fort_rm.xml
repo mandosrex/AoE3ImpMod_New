@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>48</width>
+	<height>47</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<units>
+		<unit variation ="21" posx ="-15.4159" posz ="-42.6081" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">SPCFortWallSmall</unit>
+		<unit variation ="51" posx ="-18.1351" posz ="-43.3257" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">SPCFortCorner</unit>
+		<unit variation ="208" posx ="15.4416" posz ="-42.5983" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">SPCFortWallSmall</unit>
+		<unit variation ="62" posx ="17.8083" posz ="-43.4761" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">SPCFortCorner</unit>
+		<unit variation ="228" posx ="-19.1899" posz ="-41.0181" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortWallSmall</unit>
+		<unit variation ="137" posx ="13.1985" posz ="-41.3716" orientx ="-0.7071" orienty ="0.0000" orientz ="-0.7071">SPCFortCorner</unit>
+		<unit variation ="140" posx ="-13.4574" posz ="-41.6859" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">SPCFortCorner</unit>
+		<unit variation ="43" posx ="19.2191" posz ="-41.0358" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortWallSmall</unit>
+		<unit variation ="62" posx ="12.2705" posz ="-39.3970" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortWallSmall</unit>
+		<unit variation ="121" posx ="-12.2279" posz ="-39.4006" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortWallSmall</unit>
+		<unit variation ="129" posx ="-19.9286" posz ="-38.5579" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">SPCFortCorner</unit>
+		<unit variation ="174" posx ="-19.1847" posz ="-36.5086" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortWallSmall</unit>
+		<unit variation ="16" posx ="-7.9760" posz ="-37.1731" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">SPCFortWallMedium</unit>
+		<unit variation ="119" posx ="7.9814" posz ="-37.1649" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">SPCFortWallMedium</unit>
+		<unit variation ="246" posx ="10.4767" posz ="-37.9661" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">SPCFortCorner</unit>
+		<unit variation ="153" posx ="-10.7327" posz ="-38.0918" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">SPCFortCorner</unit>
+		<unit variation ="130" posx ="19.9691" posz ="-38.9612" orientx ="1.0000" orienty ="0.0000" orientz ="0.0000">SPCFortCorner</unit>
+		<unit variation ="248" posx ="19.2085" posz ="-36.5084" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortWallSmall</unit>
+		<unit variation ="196" posx ="0.0188" posz ="-37.4853" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">SPCFortGate</unit>
+		<unit variation ="94" posx ="19.3183" posz ="-34.5964" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortCorner</unit>
+		<unit variation ="189" posx ="-19.4157" posz ="-34.1946" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortCorner</unit>
+		<unit variation ="47" posx ="-20.6149" posz ="-31.9317" orientx ="-0.7071" orienty ="0.0000" orientz ="-0.7071">SPCFortWallMedium</unit>
+		<unit variation ="3" posx ="20.6341" posz ="-31.8901" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">SPCFortWallMedium</unit>
+		<unit variation ="248" posx ="26.4974" posz ="-26.4781" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">SPCFortGate</unit>
+		<unit variation ="243" posx ="-26.4878" posz ="-26.5119" orientx ="-0.7071" orienty ="0.0000" orientz ="-0.7071">SPCFortGate</unit>
+		<unit variation ="73" posx ="-31.9059" posz ="-20.6460" orientx ="-0.7071" orienty ="0.0000" orientz ="-0.7071">SPCFortWallMedium</unit>
+		<unit variation ="72" posx ="31.9021" posz ="-20.6251" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">SPCFortWallMedium</unit>
+		<unit variation ="2" posx ="-36.4985" posz ="-19.2191" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">SPCFortWallSmall</unit>
+		<unit variation ="124" posx ="-40.9671" posz ="-19.2109" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">SPCFortWallSmall</unit>
+		<unit variation ="164" posx ="-38.9264" posz ="-19.9492" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">SPCFortCorner</unit>
+		<unit variation ="116" posx ="-34.5945" posz ="-19.2910" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">SPCFortCorner</unit>
+		<unit variation ="51" posx ="41.0028" posz ="-19.2025" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">SPCFortWallSmall</unit>
+		<unit variation ="78" posx ="38.5031" posz ="-19.9011" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">SPCFortCorner</unit>
+		<unit variation ="91" posx ="36.5142" posz ="-19.1971" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">SPCFortWallSmall</unit>
+		<unit variation ="145" posx ="34.2293" posz ="-19.3926" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">SPCFortCorner</unit>
+		<unit variation ="191" posx ="43.3111" posz ="-18.1466" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortCorner</unit>
+		<unit variation ="177" posx ="-43.4259" posz ="-17.7941" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortCorner</unit>
+		<unit variation ="252" posx ="-42.5309" posz ="-15.3938" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortWallSmall</unit>
+		<unit variation ="93" posx ="42.5790" posz ="-15.4121" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortWallSmall</unit>
+		<unit variation ="139" posx ="-41.3428" posz ="-13.1654" orientx ="-0.7071" orienty ="0.0000" orientz ="0.7071">SPCFortCorner</unit>
+		<unit variation ="206" posx ="41.6577" posz ="-13.4662" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">SPCFortCorner</unit>
+		<unit variation ="218" posx ="-39.3651" posz ="-12.2333" orientx ="-0.3827" orienty ="0.0000" orientz ="0.9239">SPCFortWallSmall</unit>
+		<unit variation ="191" posx ="-37.9138" posz ="-10.4539" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortCorner</unit>
+		<unit variation ="155" posx ="39.4007" posz ="-12.2331" orientx ="0.3827" orienty ="0.0000" orientz ="0.9239">SPCFortWallSmall</unit>
+		<unit variation ="2" posx ="38.1139" posz ="-10.8283" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortCorner</unit>
+		<unit variation ="228" posx ="-37.1569" posz ="-8.0037" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">SPCFortWallMedium</unit>
+		<unit variation ="93" posx ="37.1588" posz ="-7.9461" orientx ="1.0000" orienty ="0.0000" orientz ="0.0000">SPCFortWallMedium</unit>
+		<unit variation ="23" posx ="-37.4596" posz ="-0.0223" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">SPCFortGate</unit>
+		<unit variation ="3" posx ="37.4755" posz ="0.0028" orientx ="1.0000" orienty ="0.0000" orientz ="0.0000">SPCFortGate</unit>
+		<unit variation ="9" posx ="-37.1441" posz ="7.9627" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">SPCFortWallMedium</unit>
+		<unit variation ="69" posx ="37.1630" posz ="7.9484" orientx ="1.0000" orienty ="0.0000" orientz ="0.0000">SPCFortWallMedium</unit>
+		<unit variation ="224" posx ="-38.0152" posz ="10.6017" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortCorner</unit>
+		<unit variation ="199" posx ="37.9155" posz ="10.4864" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortCorner</unit>
+		<unit variation ="18" posx ="-39.3750" posz ="12.2281" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">SPCFortWallSmall</unit>
+		<unit variation ="136" posx ="39.3940" posz ="12.2435" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">SPCFortWallSmall</unit>
+		<unit variation ="168" posx ="41.3555" posz ="13.1666" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">SPCFortCorner</unit>
+		<unit variation ="10" posx ="-41.6267" posz ="13.4574" orientx ="-0.7071" orienty ="0.0000" orientz ="-0.7071">SPCFortCorner</unit>
+		<unit variation ="32" posx ="42.5758" posz ="15.4171" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortWallSmall</unit>
+		<unit variation ="211" posx ="-42.5411" posz ="15.4105" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortWallSmall</unit>
+		<unit variation ="185" posx ="-34.1483" posz ="19.5041" orientx ="-0.3827" orienty ="0.0000" orientz ="0.9239">SPCFortCorner</unit>
+		<unit variation ="121" posx ="41.0010" posz ="19.1918" orientx ="0.3827" orienty ="0.0000" orientz ="0.9239">SPCFortWallSmall</unit>
+		<unit variation ="72" posx ="-41.0162" posz ="19.1868" orientx ="-0.3827" orienty ="0.0000" orientz ="0.9239">SPCFortWallSmall</unit>
+		<unit variation ="105" posx ="-36.5330" posz ="19.1876" orientx ="0.3827" orienty ="0.0000" orientz ="0.9239">SPCFortWallSmall</unit>
+		<unit variation ="134" posx ="-43.2773" posz ="18.1636" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortCorner</unit>
+		<unit variation ="54" posx ="36.5120" posz ="19.1965" orientx ="-0.3827" orienty ="0.0000" orientz ="0.9239">SPCFortWallSmall</unit>
+		<unit variation ="252" posx ="43.4500" posz ="17.7562" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortCorner</unit>
+		<unit variation ="231" posx ="34.5582" posz ="19.2571" orientx ="0.3827" orienty ="0.0000" orientz ="0.9239">SPCFortCorner</unit>
+		<unit variation ="165" posx ="38.9716" posz ="19.9204" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">SPCFortCorner</unit>
+		<unit variation ="28" posx ="-31.9221" posz ="20.6400" orientx ="-0.7071" orienty ="0.0000" orientz ="0.7071">SPCFortWallMedium</unit>
+		<unit variation ="228" posx ="-38.5859" posz ="19.9277" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">SPCFortCorner</unit>
+		<unit variation ="88" posx ="31.9129" posz ="20.6386" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">SPCFortWallMedium</unit>
+		<unit variation ="129" posx ="26.4884" posz ="26.4900" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">SPCFortGate</unit>
+		<unit variation ="245" posx ="-26.5185" posz ="26.4870" orientx ="-0.7071" orienty ="0.0000" orientz ="0.7071">SPCFortGate</unit>
+		<unit variation ="20" posx ="-20.6706" posz ="31.8948" orientx ="-0.7071" orienty ="0.0000" orientz ="0.7071">SPCFortWallMedium</unit>
+		<unit variation ="192" posx ="20.6364" posz ="31.8996" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">SPCFortWallMedium</unit>
+		<unit variation ="213" posx ="-19.2873" posz ="34.5358" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortCorner</unit>
+		<unit variation ="147" posx ="19.4007" posz ="34.2128" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortCorner</unit>
+		<unit variation ="112" posx ="-19.2232" posz ="36.4929" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortWallSmall</unit>
+		<unit variation ="194" posx ="19.1978" posz ="36.5079" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortWallSmall</unit>
+		<unit variation ="248" posx ="-7.9818" posz ="37.1343" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">SPCFortWallMedium</unit>
+		<unit variation ="63" posx ="7.9580" posz ="37.1387" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">SPCFortWallMedium</unit>
+		<unit variation ="144" posx ="-19.9518" posz ="38.9659" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">SPCFortCorner</unit>
+		<unit variation ="230" posx ="12.2278" posz ="39.3736" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortWallSmall</unit>
+		<unit variation ="12" posx ="10.8463" posz ="38.0333" orientx ="-0.3827" orienty ="0.0000" orientz ="0.9239">SPCFortCorner</unit>
+		<unit variation ="229" posx ="-12.2612" posz ="39.3800" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortWallSmall</unit>
+		<unit variation ="228" posx ="-10.4984" posz ="37.9138" orientx ="0.3827" orienty ="0.0000" orientz ="0.9239">SPCFortCorner</unit>
+		<unit variation ="91" posx ="19.9340" posz ="38.5621" orientx ="1.0000" orienty ="0.0000" orientz ="-0.0000">SPCFortCorner</unit>
+		<unit variation ="48" posx ="-0.0189" posz ="37.4473" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">SPCFortGate</unit>
+		<unit variation ="136" posx ="-19.2236" posz ="40.9927" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortWallSmall</unit>
+		<unit variation ="213" posx ="13.4189" posz ="41.6023" orientx ="-0.7071" orienty ="0.0000" orientz ="0.7071">SPCFortCorner</unit>
+		<unit variation ="67" posx ="-13.1869" posz ="41.3272" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">SPCFortCorner</unit>
+		<unit variation ="65" posx ="19.2053" posz ="41.0042" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortWallSmall</unit>
+		<unit variation ="15" posx ="-15.4392" posz ="42.5656" orientx ="0.3827" orienty ="0.0000" orientz ="0.9239">SPCFortWallSmall</unit>
+		<unit variation ="167" posx ="-17.7807" posz ="43.4249" orientx ="-0.3827" orienty ="0.0000" orientz ="0.9239">SPCFortCorner</unit>
+		<unit variation ="151" posx ="15.4077" posz ="42.5423" orientx ="-0.3827" orienty ="0.0000" orientz ="0.9239">SPCFortWallSmall</unit>
+		<unit variation ="69" posx ="18.1660" posz ="43.2790" orientx ="0.3827" orienty ="0.0000" orientz ="0.9239">SPCFortCorner</unit>
+		<unit variation ="240" posx ="-15.9257" posz ="-38.9483" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">SPCFortTower</unit>
+		<unit variation ="244" posx ="16.2809" posz ="-38.8397" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">SPCFortTower</unit>
+		<unit variation ="204" posx ="-38.7627" posz ="-16.2622" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortTower</unit>
+		<unit variation ="221" posx ="38.9445" posz ="-15.9566" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortTower</unit>
+		<unit variation ="148" posx ="-38.9086" posz ="15.9552" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortTower</unit>
+		<unit variation ="171" posx ="38.8027" posz ="16.2203" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortTower</unit>
+		<unit variation ="88" posx ="-16.2769" posz ="38.8044" orientx ="-0.3827" orienty ="0.0000" orientz ="0.9239">SPCFortTower</unit>
+		<unit variation ="107" posx ="15.9599" posz ="38.9153" orientx ="0.3827" orienty ="0.0000" orientz ="0.9239">SPCFortTower</unit>
+	</units>
+</grouping>

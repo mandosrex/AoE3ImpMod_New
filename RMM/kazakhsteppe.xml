@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130261" imagepath = "ui\random_maps\kazakhsteppe\kazakhsteppe" displayNameID = "130260" cannotReplace = ""
+		loadDetails="130262" loadBackground="ui\random_maps\asian_map">
+   <loadss>ui\random_maps\kazakhsteppe\kazakhsteppe</loadss>
+</mapinfo>

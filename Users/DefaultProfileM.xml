@@ -43,7 +43,7 @@
       <Setting Name="optionfullrolloverhelp">true</Setting>
       <Setting Name="optioncamerarotation">true</Setting>
       <Setting Name="optionenableime">false</Setting>
-      <Setting Name="optionlanguagefilter">true</Setting>
+      <Setting Name="optionlanguagefilter">false</Setting>
       <Setting Name="optionrecordgame">false</Setting>
       <Setting Name="optioneasydragmilitary">true</Setting>
       <Setting Name="optionshowaitips">true</Setting>

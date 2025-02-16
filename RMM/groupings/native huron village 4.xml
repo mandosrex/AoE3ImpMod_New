@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>16</width>
+	<height>12</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>1</selectassingleunit>
+	<units>
+		<unit variation ="55" posx ="15.3877" posz ="-10.1099" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">WallWoodNative</unit>
+		<unit variation ="7" posx ="7.5259" posz ="-10.2050" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="8" posx ="13.5085" posz ="-10.2172" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="5" posx ="13.8965" posz ="-9.3795" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="14" posx ="10.6696" posz ="-6.1316" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">NativeTownObstruction</unit>
+		<unit variation ="136" posx ="2.5474" posz ="-7.3045" orientx ="0.0001" orienty ="0.0000" orientz ="-1.0000">SocketHuron</unit>
+		<unit variation ="105" posx ="-7.6171" posz ="-7.8186" orientx ="-0.7071" orienty ="0.0000" orientz ="0.7071">WallWoodNative</unit>
+		<unit variation ="84" posx ="8.8669" posz ="-6.2397" orientx ="1.0000" orienty ="0.0000" orientz ="0.0002">NativeHouseIroquois</unit>
+		<unit variation ="243" posx ="-9.7730" posz ="-5.5987" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">WallWoodNative</unit>
+		<unit variation ="109" posx ="15.2959" posz ="-6.0616" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">WallWoodNative</unit>
+		<unit variation ="109" posx ="-7.9211" posz ="-4.2479" orientx ="0.3990" orienty ="0.0000" orientz ="-0.9169">SMBuffaloStoryTelling</unit>
+		<unit variation ="9" posx ="-2.8239" posz ="-5.0830" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="8" posx ="-2.7736" posz ="-5.9101" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="84" posx ="12.5105" posz ="-5.7808" orientx ="1.0000" orienty ="0.0000" orientz ="0.0002">NativeHouseIroquois</unit>
+		<unit variation ="14" posx ="-5.5980" posz ="-2.5057" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">NativeTownObstruction</unit>
+		<unit variation ="14" posx ="-9.1539" posz ="-2.4428" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">NativeTownObstruction</unit>
+		<unit variation ="71" posx ="-12.6037" posz ="-2.7916" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">WallWoodNative</unit>
+		<unit variation ="9" posx ="-1.9204" posz ="-3.5957" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="14" posx ="-4.9165" posz ="-3.7151" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="14" posx ="-7.3431" posz ="1.1837" orientx ="-0.7071" orienty ="0.0000" orientz ="0.7071">NativeTownObstruction</unit>
+		<unit variation ="91" posx ="15.3356" posz ="-1.1121" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">WallWoodNative</unit>
+		<unit variation ="41" posx ="-13.7310" posz ="-1.0931" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">WallWoodNative</unit>
+		<unit variation ="15" posx ="-13.4097" posz ="-2.0440" orientx ="-0.7071" orienty ="0.0000" orientz ="-0.7071">WallWoodNative</unit>
+		<unit variation ="5" posx ="-10.8946" posz ="-2.4031" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="10" posx ="8.7201" posz ="-0.6606" orientx ="-0.7071" orienty ="0.0000" orientz ="-0.7071">PropsNative</unit>
+		<unit variation ="2" posx ="6.5543" posz ="-1.3470" orientx ="-0.7071" orienty ="0.0000" orientz ="-0.7071">PropsNative</unit>
+		<unit variation ="1" posx ="5.4090" posz ="-1.5302" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">PropsNative</unit>
+		<unit variation ="14" posx ="9.8063" posz ="0.9379" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">NativeTownObstruction</unit>
+		<unit variation ="14" posx ="2.5299" posz ="0.9317" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">NativeTownObstruction</unit>
+		<unit variation ="88" posx ="-9.9336" posz ="-0.2327" orientx ="0.7070" orienty ="0.0000" orientz ="0.7073">NativeHouseIroquois</unit>
+		<unit variation ="5" posx ="-12.0305" posz ="-2.0003" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="236" posx ="-13.6665" posz ="0.8239" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">WallWoodNative</unit>
+		<unit variation ="180" posx ="-14.1491" posz ="-0.1625" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">WallWoodNative</unit>
+		<unit variation ="236" posx ="14.9393" posz ="0.8222" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">WallWoodNative</unit>
+		<unit variation ="225" posx ="15.3916" posz ="-0.0671" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">WallWoodNative</unit>
+		<unit variation ="128" posx ="-5.4826" posz ="1.4561" orientx ="0.6578" orienty ="0.0000" orientz ="-0.7532">SMBuffaloCookpot</unit>
+		<unit variation ="120" posx ="9.4996" posz ="1.3589" orientx ="-0.9905" orienty ="0.0000" orientz ="0.1376">SMBuffaloPickerSitting</unit>
+		<unit variation ="145" posx ="2.3981" posz ="0.5957" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">Campfire</unit>
+		<unit variation ="14" posx ="-2.1777" posz ="4.6915" orientx ="-0.3827" orienty ="0.0000" orientz ="0.9239">NativeTownObstruction</unit>
+		<unit variation ="10" posx ="14.6527" posz ="1.7133" orientx ="-0.7071" orienty ="0.0000" orientz ="-0.7071">WallWoodNative</unit>
+		<unit variation ="56" posx ="-12.5965" posz ="2.4489" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">WallWoodNative</unit>
+		<unit variation ="220" posx ="-13.3522" posz ="1.7522" orientx ="-0.7071" orienty ="0.0000" orientz ="0.7071">WallWoodNative</unit>
+		<unit variation ="0" posx ="7.2138" posz ="2.6688" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="34" posx ="11.6863" posz ="4.5615" orientx ="-0.7071" orienty ="0.0000" orientz ="-0.7071">WallWoodNative</unit>
+		<unit variation ="8" posx ="1.7430" posz ="3.4767" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="164" posx ="-0.1138" posz ="4.7333" orientx ="-0.0742" orienty ="0.0000" orientz ="-0.9972">SMBuffaloMixerPoker</unit>
+		<unit variation ="14" posx ="3.7802" posz ="6.0201" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">NativeTownObstruction</unit>
+		<unit variation ="134" posx ="-9.0634" posz ="5.9315" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">WallWoodNative</unit>
+		<unit variation ="11" posx ="6.5211" posz ="6.3553" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="171" posx ="-5.3058" posz ="9.1869" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">WallWoodNative</unit>
+		<unit variation ="130" posx ="-6.2694" posz ="8.8649" orientx ="-0.7071" orienty ="0.0000" orientz ="0.7071">WallWoodNative</unit>
+		<unit variation ="171" posx ="6.5492" posz ="9.2155" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">WallWoodNative</unit>
+		<unit variation ="196" posx ="8.2107" posz ="8.0950" orientx ="-0.7071" orienty ="0.0000" orientz ="-0.7071">WallWoodNative</unit>
+		<unit variation ="250" posx ="7.4549" posz ="8.9216" orientx ="-0.7071" orienty ="0.0000" orientz ="0.7071">WallWoodNative</unit>
+		<unit variation ="84" posx ="1.5965" posz ="9.6064" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">WallWoodNative</unit>
+		<unit variation ="150" posx ="5.6316" posz ="9.6834" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">WallWoodNative</unit>
+		<unit variation ="181" posx ="-3.3859" posz ="9.6239" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">WallWoodNative</unit>
+		<unit variation ="240" posx ="-4.4197" posz ="9.6562" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">WallWoodNative</unit>
+	</units>
+	<tiles>
+		<heights>
+			<tiles x ="-8" z ="-6">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-8" z ="-5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-8" z ="-4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-8" z ="-3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-8" z ="-2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-8" z ="-1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-8" z ="0">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-8" z ="1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-8" z ="2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-8" z ="3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-8" z ="4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-8" z ="5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+		</heights>
+	</tiles>
+</grouping>

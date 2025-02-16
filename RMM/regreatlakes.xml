@@ -1,0 +1,6 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130064" imagepath = "ui\random_maps\great_lakes\great_lakes" displayNameID = "130063" cannotReplace = ""
+loadDetails="130065" 
+loadBackground="ui\random_maps\american_map">
+<loadss>ui\random_maps\great_lakes\great_lakes</loadss>
+</mapinfo>

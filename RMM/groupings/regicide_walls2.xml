@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>38</width>
+	<height>37</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<units>
+		<unit variation ="119" posx ="19.4461" posz ="-34.2231" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallConnector</unit>
+		<unit variation ="149" posx ="14.1233" posz ="-33.9554" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallStraight5</unit>
+		<unit variation ="119" posx ="30.2521" posz ="-34.8334" orientx ="-0.0622" orienty ="0.0000" orientz ="-0.9981">WallConnector</unit>
+		<unit variation ="149" posx ="24.9292" posz ="-34.5649" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallStraight5</unit>
+		<unit variation ="96" posx ="-13.2921" posz ="-32.2463" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallConnector</unit>
+		<unit variation ="119" posx ="8.6402" posz ="-33.6136" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallConnector</unit>
+		<unit variation ="111" posx ="-18.7753" posz ="-31.9044" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallStraight5</unit>
+		<unit variation ="201" posx ="-2.3259" posz ="-32.9299" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallConnector</unit>
+		<unit variation ="111" posx ="30.5718" posz ="-29.4380" orientx ="0.9981" orienty ="0.0000" orientz ="-0.0622">WallStraight5</unit>
+		<unit variation ="14" posx ="26.3282" posz ="-30.3997" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">HuariStrongholdAndes</unit>
+		<unit variation ="225" posx ="3.1031" posz ="-33.1953" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">CWallGate</unit>
+		<unit variation ="60" posx ="-8.1423" posz ="-32.5667" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">CWallGate</unit>
+		<unit variation ="119" posx ="-24.1897" posz ="-31.6006" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallConnector</unit>
+		<unit variation ="96" posx ="-35.0430" posz ="-30.9173" orientx ="0.9981" orienty ="0.0000" orientz ="-0.0622">WallConnector</unit>
+		<unit variation ="111" posx ="-29.6139" posz ="-31.2591" orientx ="-0.0622" orienty ="0.0000" orientz ="-0.9981">WallStraight5</unit>
+		<unit variation ="31" posx ="-30.6103" posz ="-27.0062" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">HuariStrongholdAndes</unit>
+		<unit variation ="111" posx ="-34.7012" posz ="-25.4342" orientx ="0.9981" orienty ="0.0000" orientz ="-0.0622">WallStraight5</unit>
+		<unit variation ="119" posx ="30.9132" posz ="-24.0138" orientx ="-0.0622" orienty ="0.0000" orientz ="-0.9981">WallConnector</unit>
+		<unit variation ="111" posx ="31.2170" posz ="-18.5994" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallStraight5</unit>
+		<unit variation ="119" posx ="-34.3596" posz ="-20.0099" orientx ="-0.0622" orienty ="0.0000" orientz ="-0.9981">WallConnector</unit>
+		<unit variation ="111" posx ="-34.0557" posz ="-14.5955" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallStraight5</unit>
+		<unit variation ="96" posx ="31.5588" posz ="-13.1162" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallConnector</unit>
+		<unit variation ="60" posx ="31.8792" posz ="-7.9664" orientx ="1.0000" orienty ="0.0000" orientz ="0.0000">CWallGate</unit>
+		<unit variation ="96" posx ="-33.7138" posz ="-9.1124" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallConnector</unit>
+		<unit variation ="60" posx ="-33.3933" posz ="-3.9626" orientx ="1.0000" orienty ="0.0000" orientz ="0.0000">CWallGate</unit>
+		<unit variation ="201" posx ="32.2423" posz ="-2.1500" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallConnector</unit>
+		<unit variation ="225" posx ="32.5077" posz ="3.2791" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">CWallGate</unit>
+		<unit variation ="201" posx ="-33.0300" posz ="1.8538" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallConnector</unit>
+		<unit variation ="225" posx ="-32.7646" posz ="7.2829" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">CWallGate</unit>
+		<unit variation ="119" posx ="32.9259" posz ="8.8161" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallConnector</unit>
+		<unit variation ="149" posx ="33.2677" posz ="14.2992" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallStraight5</unit>
+		<unit variation ="119" posx ="-32.3462" posz ="12.8199" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallConnector</unit>
+		<unit variation ="149" posx ="-32.0043" posz ="18.3030" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallStraight5</unit>
+		<unit variation ="119" posx ="33.5353" posz ="19.6220" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallConnector</unit>
+		<unit variation ="149" posx ="33.8770" posz ="25.1051" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallStraight5</unit>
+		<unit variation ="119" posx ="-31.7366" posz ="23.6258" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallConnector</unit>
+		<unit variation ="149" posx ="-31.3947" posz ="29.1089" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallStraight5</unit>
+		<unit variation ="41" posx ="29.7523" posz ="26.4439" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">HuariStrongholdAndes</unit>
+		<unit variation ="72" posx ="-27.1221" posz ="29.8311" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">HuariStrongholdAndes</unit>
+		<unit variation ="119" posx ="12.5629" posz ="31.6537" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallConnector</unit>
+		<unit variation ="119" posx ="23.3688" posz ="31.0443" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallConnector</unit>
+		<unit variation ="119" posx ="34.1455" posz ="30.4280" orientx ="0.9981" orienty ="0.0000" orientz ="-0.0622">WallConnector</unit>
+		<unit variation ="149" posx ="28.8519" posz ="30.7025" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallStraight5</unit>
+		<unit variation ="225" posx ="7.0259" posz ="32.0720" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">CWallGate</unit>
+		<unit variation ="149" posx ="18.0460" posz ="31.3119" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallStraight5</unit>
+		<unit variation ="119" posx ="-20.2669" posz ="33.6667" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallConnector</unit>
+		<unit variation ="201" posx ="1.5968" posz ="32.3374" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallConnector</unit>
+		<unit variation ="60" posx ="-4.2196" posz ="32.7007" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">CWallGate</unit>
+		<unit variation ="111" posx ="-25.6912" posz ="34.0082" orientx ="-0.0622" orienty ="0.0000" orientz ="-0.9981">WallStraight5</unit>
+		<unit variation ="96" posx ="-9.3694" posz ="33.0211" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallConnector</unit>
+		<unit variation ="111" posx ="-14.8525" posz ="33.3629" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallStraight5</unit>
+		<unit variation ="119" posx ="-31.1261" posz ="34.4318" orientx ="0.9981" orienty ="0.0000" orientz ="-0.0622">WallConnector</unit>
+	</units>
+</grouping>

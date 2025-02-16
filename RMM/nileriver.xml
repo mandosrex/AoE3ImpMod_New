@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130225" imagepath = "ui\random_maps\nileriver\nileriver" displayNameID = "130224" cannotReplace = ""
+		loadDetails="130226" loadBackground="ui\random_maps\african_map">
+   <loadss>ui\random_maps\nileriver\nileriver</loadss>
+</mapinfo>

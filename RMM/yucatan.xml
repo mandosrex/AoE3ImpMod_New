@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "26957" imagepath = "ui\random_maps\yucatan\yucatan" displayNameID = "26956" cannotReplace = ""
+         loadDetails="35951" loadBackground="ui\random_maps\default_map">
+   <loadss>ui\random_maps\yucatan\yucatan</loadss>
+</mapinfo>

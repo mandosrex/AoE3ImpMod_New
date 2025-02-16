@@ -1,0 +1,6 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130049" imagepath="ui\random_maps\deccan\deccan"  displayNameID = "130048" cannotReplace = ""
+loadDetails="130050" 
+loadBackground="ui\random_maps\asia\asian_map">
+  <loadss>ui\random_maps\deccan\deccan</loadss>
+</mapinfo>

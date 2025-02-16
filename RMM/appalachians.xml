@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130258" imagepath = "ui\random_maps\appalachians\appalachians" displayNameID = "130257" cannotReplace = ""
+		loadDetails="130259" loadBackground="ui\random_maps\american_map">
+   <loadss>ui\random_maps\appalachians\appalachians</loadss>
+</mapinfo>

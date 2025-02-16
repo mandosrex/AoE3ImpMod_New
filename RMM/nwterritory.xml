@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "781822" imagepath = "ui\random_maps\northwest_territory\northwest_territory" displayNameID = "43637" cannotReplace = ""
+		loadDetails="43634" loadBackground="ui\random_maps\american_map">
+   <loadss>ui\random_maps\northwest_territory\northwest_territory</loadss>
+</mapinfo>

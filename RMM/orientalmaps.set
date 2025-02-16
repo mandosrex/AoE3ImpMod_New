@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomMaps displayNameID="781348" imagepath="ui\random_maps\orientalmaps" helpTextID="781349" cannotReplace="">
+  <map>australia</map>
+  <map>caucasus</map>
+  <map>fertilecrescent</map>
+  <map>nileriver</map>
+  <map>oasis</map>
+  <map>southafrica</map>
+  <map>tigrisflood</map>
+  <map>zagros</map>
+</randomMaps>

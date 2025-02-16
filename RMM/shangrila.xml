@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130210" imagepath = "ui\random_maps\shangrila\shangrila" displayNameID = "130209" cannotReplace = ""
+		loadDetails="130211" loadBackground="ui\random_maps\asian_map">
+   <loadss>ui\random_maps\shangrila\shangrila</loadss>
+</mapinfo>

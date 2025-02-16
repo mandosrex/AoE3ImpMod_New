@@ -1,0 +1,13 @@
+<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>60009</nameID>
+   <tooltipID>64485</tooltipID>
+   <forcedciv>Chinese</forcedciv>
+   <rushboom>0</rushboom>
+   <icon>ui\singleplayer\cpai_avatar_chinese</icon>
+   <chatset>kangxi</chatset>
+   <playerNames>
+      <nameID>60009<civ>Chinese</civ></nameID> 
+	</playerNames>
+</AI>

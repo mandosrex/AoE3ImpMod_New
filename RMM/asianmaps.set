@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomMaps displayNameID="66519" imagepath="ui\random_maps\asianmaps" helpTextID="66521" cannotReplace="">
+  <map>bengal</map>
+  <map>beringstrait</map>
+  <map>borneo</map>
+  <map>calcutta</map>
+  <map>ceylon</map>
+  <map>deccan</map>
+  <map>delta</map>
+  <map>desert</map>
+  <map>dhaka</map>
+  <map>himalayas</map>
+  <map>himalayasup</map>
+  <map>hokkaido</map>
+  <map>honshu</map>
+  <map>indochina</map>
+  <map>indochinainland</map>
+  <map>indonesia</map>
+  <map>kamchatka</map>
+  <map>kazakhsteppe</map>
+  <map>kyushu</map>
+  <map>korea</map>
+  <map>malaysia</map>
+  <map>manchuria</map>
+  <map>micronesia</map>
+  <map>mongolia</map>
+  <map>nepal</map>
+  <map>newguinea</map>
+  <map>parallelrivers</map>
+  <map>shangrila</map>
+  <map>shikoku</map>
+  <map>siberia</map>
+  <map>silkroad</map>
+  <map>thailand</map>
+  <map>tibet</map>
+  <map>urals</map>
+  <map>yellowriver</map>
+  <map>yellowriverdry</map>
+  <map>yaluriver</map>
+  <map>zavkhan</map>
+</randomMaps>

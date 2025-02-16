@@ -1,0 +1,4 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130094" imagepath = "ui\random_maps\beringstrait\beringstrait" displayNameID = "130093" cannotReplace = "" loadDetails="130095" loadBackground="ui\random_maps\arctic_map">
+	<loadss>ui\random_maps\beringstrait\beringstrait</loadss>
+</mapinfo>

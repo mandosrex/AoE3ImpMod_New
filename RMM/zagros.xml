@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130169" imagepath = "ui\random_maps\zagros\zagros" displayNameID = "130168" cannotReplace = ""
+		loadDetails="130170" loadBackground="ui\random_maps\african_map">
+   <loadss>ui\random_maps\zagros\zagros</loadss>
+</mapinfo>

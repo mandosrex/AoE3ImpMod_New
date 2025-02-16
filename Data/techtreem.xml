@@ -77351,6 +77351,9 @@
 			<Effect status="obtainable" type="TechStatus">IndustrialAgeMaltese</Effect>
 			<Effect status="obtainable" type="TechStatus">ImperialAgeMaltese</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">ExplorerSheep</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">GeneralMorgan</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">

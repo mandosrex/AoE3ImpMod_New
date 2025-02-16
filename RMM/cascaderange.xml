@@ -1,0 +1,4 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130103" imagepath = "ui\random_maps\cascaderange\cascaderange" displayNameID = "130102" cannotReplace = "" loadDetails="130104" loadBackground="ui\random_maps\american_map">
+	<loadss>ui\random_maps\cascaderange\cascaderange</loadss>
+</mapinfo>

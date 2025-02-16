@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130249" imagepath = "ui\random_maps\rainforest\rainforest" displayNameID = "130248" cannotReplace = ""
+         loadDetails="130250" loadBackground="ui\random_maps\default_map">
+   <loadss>ui\random_maps\rainforest\rainforest</loadss>
+</mapinfo>

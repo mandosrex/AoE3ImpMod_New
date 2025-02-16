@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "18786" imagepath = "ui\random_maps\everglades\everglades" displayNameID = "18912" cannotReplace = ""
+		loadDetails="35941" loadBackground="ui\random_maps\american_map">
+   <loadss>ui\random_maps\everglades\everglades</loadss>
+</mapinfo>

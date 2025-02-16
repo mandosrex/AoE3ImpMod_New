@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>37</width>
+	<height>38</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<units>
+		<unit variation ="119" posx ="20.4461" posz ="-35.2231" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallConnector</unit>
+		<unit variation ="119" posx ="31.2521" posz ="-35.8334" orientx ="-0.0622" orienty ="0.0000" orientz ="-0.9981">WallConnector</unit>
+		<unit variation ="149" posx ="25.9292" posz ="-35.5649" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallStraight5</unit>
+		<unit variation ="149" posx ="15.1233" posz ="-34.9554" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallStraight5</unit>
+		<unit variation ="119" posx ="9.6402" posz ="-34.6136" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallConnector</unit>
+		<unit variation ="225" posx ="4.1031" posz ="-34.1953" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">CWallGate</unit>
+		<unit variation ="60" posx ="-7.1423" posz ="-33.5667" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">CWallGate</unit>
+		<unit variation ="201" posx ="-1.3259" posz ="-33.9299" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallConnector</unit>
+		<unit variation ="96" posx ="-12.2921" posz ="-33.2463" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallConnector</unit>
+		<unit variation ="111" posx ="-17.7753" posz ="-32.9044" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallStraight5</unit>
+		<unit variation ="111" posx ="31.5718" posz ="-30.4380" orientx ="0.9981" orienty ="0.0000" orientz ="-0.0622">WallStraight5</unit>
+		<unit variation ="119" posx ="-23.1897" posz ="-32.6006" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallConnector</unit>
+		<unit variation ="96" posx ="-34.0430" posz ="-31.9173" orientx ="0.9981" orienty ="0.0000" orientz ="-0.0622">WallConnector</unit>
+		<unit variation ="111" posx ="-28.6139" posz ="-32.2591" orientx ="-0.0622" orienty ="0.0000" orientz ="-0.9981">WallStraight5</unit>
+		<unit variation ="111" posx ="-33.7012" posz ="-26.4342" orientx ="0.9981" orienty ="0.0000" orientz ="-0.0622">WallStraight5</unit>
+		<unit variation ="119" posx ="31.9132" posz ="-25.0138" orientx ="-0.0622" orienty ="0.0000" orientz ="-0.9981">WallConnector</unit>
+		<unit variation ="111" posx ="32.2170" posz ="-19.5994" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallStraight5</unit>
+		<unit variation ="119" posx ="-33.3596" posz ="-21.0099" orientx ="-0.0622" orienty ="0.0000" orientz ="-0.9981">WallConnector</unit>
+		<unit variation ="111" posx ="-33.0557" posz ="-15.5955" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallStraight5</unit>
+		<unit variation ="96" posx ="32.5588" posz ="-14.1162" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallConnector</unit>
+		<unit variation ="60" posx ="32.8792" posz ="-8.9664" orientx ="1.0000" orienty ="0.0000" orientz ="0.0000">CWallGate</unit>
+		<unit variation ="96" posx ="-32.7138" posz ="-10.1124" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallConnector</unit>
+		<unit variation ="60" posx ="-32.3933" posz ="-4.9626" orientx ="1.0000" orienty ="0.0000" orientz ="0.0000">CWallGate</unit>
+		<unit variation ="201" posx ="33.2423" posz ="-3.1500" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallConnector</unit>
+		<unit variation ="225" posx ="33.5077" posz ="2.2791" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">CWallGate</unit>
+		<unit variation ="201" posx ="-32.0300" posz ="0.8538" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallConnector</unit>
+		<unit variation ="225" posx ="-31.7646" posz ="6.2829" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">CWallGate</unit>
+		<unit variation ="119" posx ="33.9259" posz ="7.8161" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallConnector</unit>
+		<unit variation ="149" posx ="34.2677" posz ="13.2992" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallStraight5</unit>
+		<unit variation ="119" posx ="-31.3462" posz ="11.8199" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallConnector</unit>
+		<unit variation ="149" posx ="-31.0043" posz ="17.3030" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallStraight5</unit>
+		<unit variation ="119" posx ="34.5353" posz ="18.6220" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallConnector</unit>
+		<unit variation ="149" posx ="34.8770" posz ="24.1051" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallStraight5</unit>
+		<unit variation ="119" posx ="-30.7366" posz ="22.6258" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallConnector</unit>
+		<unit variation ="149" posx ="-30.3947" posz ="28.1089" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallStraight5</unit>
+		<unit variation ="149" posx ="29.8519" posz ="29.7025" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallStraight5</unit>
+		<unit variation ="119" posx ="35.1455" posz ="29.4280" orientx ="0.9981" orienty ="0.0000" orientz ="-0.0622">WallConnector</unit>
+		<unit variation ="119" posx ="24.3688" posz ="30.0443" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallConnector</unit>
+		<unit variation ="149" posx ="19.0460" posz ="30.3119" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallStraight5</unit>
+		<unit variation ="119" posx ="13.5629" posz ="30.6537" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallConnector</unit>
+		<unit variation ="225" posx ="8.0259" posz ="31.0720" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">CWallGate</unit>
+		<unit variation ="119" posx ="-19.2669" posz ="32.6667" orientx ="-0.9981" orienty ="0.0000" orientz ="0.0622">WallConnector</unit>
+		<unit variation ="201" posx ="2.5968" posz ="31.3374" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallConnector</unit>
+		<unit variation ="60" posx ="-3.2196" posz ="31.7007" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">CWallGate</unit>
+		<unit variation ="96" posx ="-8.3694" posz ="32.0211" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallConnector</unit>
+		<unit variation ="111" posx ="-13.8525" posz ="32.3629" orientx ="0.0622" orienty ="0.0000" orientz ="0.9981">WallStraight5</unit>
+		<unit variation ="111" posx ="-24.6912" posz ="33.0082" orientx ="-0.0622" orienty ="0.0000" orientz ="-0.9981">WallStraight5</unit>
+		<unit variation ="119" posx ="-30.1261" posz ="33.4318" orientx ="0.9981" orienty ="0.0000" orientz ="-0.0622">WallConnector</unit>
+	</units>
+</grouping>
