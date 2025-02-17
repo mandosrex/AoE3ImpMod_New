@@ -881,7 +881,7 @@ void regicideMonitor()
 	
 	//if the castle is up, put the guy in it
 
-	if (kbUnitCount(cMyID, cUnitTypeypDaimyoRegicide, cUnitStateAlive) > 0)
+	if (kbUnitCount(cMyID, cUnitTypeypCastleRegicide, cUnitStateAlive) > 0)
 	{
 		//gotta find the castle
 		static int castleQueryID = -1;
@@ -892,7 +892,7 @@ void regicideMonitor()
 			kbUnitQuerySetIgnoreKnockedOutUnits(castleQueryID, true);
 			kbUnitQuerySetPlayerRelation(castleQueryID, -1);
 			kbUnitQuerySetPlayerID(castleQueryID, cMyID,false);
-			kbUnitQuerySetUnitType(castleQueryID, cUnitTypeTownCenter);
+			kbUnitQuerySetUnitType(castleQueryID, cUnitTypeypCastleRegicide);
 			kbUnitQuerySetState(castleQueryID, cUnitStateAlive);
 		}
 		kbUnitQueryResetResults(castleQueryID);
@@ -1700,6 +1700,16 @@ void ageUpgradeMonitor(void)
 	{ //check for native 
 		debugRule("ageUpgradeMonitor - navtive age up",1);
 		gAgeUpResearchPlan = createSimpleResearchPlan(chooseNativeCouncilMember(), -1, cEmergencyEscrowID, 100);
+	} //end else if
+	else if (gCurrentCiv == cCivUSA)
+	{ //check for native 
+		debugRule("ageUpgradeMonitor - USA age up",1);
+		gAgeUpResearchPlan = createSimpleResearchPlan(chooseUSAPolitician(), -1, cEmergencyEscrowID, 100);
+	} //end else if
+	else if (gCurrentCiv == cCivColombians)
+	{ //check for native 
+		debugRule("ageUpgradeMonitor - Colombians age up",1);
+		gAgeUpResearchPlan = createSimpleResearchPlan(chooseColombiansPolitician(), -1, cEmergencyEscrowID, 100);
 	} //end else if
 	else
 	{ //euro age up

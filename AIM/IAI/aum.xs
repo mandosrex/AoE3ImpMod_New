@@ -4,6 +4,201 @@
 // Selects a politician for European civs
 // updatedOn 2022/02/16 By ageekhere
 //==============================================================================
+
+int chooseColombiansPolitician()
+{
+	//new chooseColombiansPolitician
+	static int politician = -1;
+	static int age = -1;
+	//more logic can be used to decided the best Politician to use
+	switch (gCurrentAge)
+	{
+		case cAge1:
+		{
+			if (kbBaseGetUnderAttack(cMyID, kbBaseGetMainID(cMyID)) == true)
+			{	
+				xsArraySetInt(gAge2ColombiansPoliticianList, 0, cTechPoliticianPanama2);
+				xsArraySetInt(gAge2ColombiansPoliticianList, 1, cTechPoliticianVenezuela2);
+				xsArraySetInt(gAge2ColombiansPoliticianList, 2, cTechPoliticianCundinamarca2 );
+				xsArraySetInt(gAge2ColombiansPoliticianList, 3, cTechPoliticianEcuador2);
+			}
+			for (i = 0; < xsArrayGetSize(gAge2ColombiansPoliticianList))
+			{
+				if (kbTechGetStatus(xsArrayGetInt(gAge2ColombiansPoliticianList, i)) == cTechStatusObtainable)
+				{
+					politician = xsArrayGetInt(gAge2ColombiansPoliticianList, i);
+					age = cAge2;
+					break;
+				}
+			}
+			break;
+		}	
+		case cAge2:
+		{
+			if (kbBaseGetUnderAttack(cMyID, kbBaseGetMainID(cMyID)) == true)
+			{
+				xsArraySetInt(gAge3ColombiansPoliticianList, 0, cTechPoliticianPanama3);
+				xsArraySetInt(gAge3ColombiansPoliticianList, 1, cTechPoliticianVenezuela3);
+				xsArraySetInt(gAge3ColombiansPoliticianList, 2, cTechPoliticianCundinamarca3);
+				xsArraySetInt(gAge3ColombiansPoliticianList, 3, cTechPoliticianEcuador3);
+			}
+			for (i = 0; < xsArrayGetSize(gAge3ColombiansPoliticianList))
+			{
+				if (kbTechGetStatus(xsArrayGetInt(gAge3ColombiansPoliticianList, i)) == cTechStatusObtainable)
+				{
+					politician = xsArrayGetInt(gAge3ColombiansPoliticianList, i);
+					age = cAge3;
+					break;
+				}
+			}
+			break;
+		}
+		
+		case cAge3:
+		{
+			if (kbBaseGetUnderAttack(cMyID, kbBaseGetMainID(cMyID)) == true)
+			{
+				xsArraySetInt(gAge4ColombiansPoliticianList, 0, cTechPoliticianPanama4);
+				xsArraySetInt(gAge4ColombiansPoliticianList, 1, cTechPoliticianVenezuela4);
+				xsArraySetInt(gAge4ColombiansPoliticianList, 2, cTechPoliticianCundinamarca4);
+				xsArraySetInt(gAge4ColombiansPoliticianList, 3, cTechPoliticianEcuador4);
+			}
+			for (i = 0; < xsArrayGetSize(gAge4ColombiansPoliticianList))
+			{
+				if (kbTechGetStatus(xsArrayGetInt(gAge4ColombiansPoliticianList, i)) == cTechStatusObtainable)
+				{
+					politician = xsArrayGetInt(gAge4ColombiansPoliticianList, i);
+					age = cAge4;
+					break;
+				}
+			}
+			break;
+		}
+		
+		case cAge4:
+		{
+			if (kbBaseGetUnderAttack(cMyID, kbBaseGetMainID(cMyID)) == true)
+			{	
+				xsArraySetInt(gAge5ColombiansPoliticianList, 0, cTechPoliticianPanama5);
+				xsArraySetInt(gAge5ColombiansPoliticianList, 1, cTechPoliticianVenezuela5);
+				xsArraySetInt(gAge5ColombiansPoliticianList, 2, cTechPoliticianCundinamarca5);
+				xsArraySetInt(gAge5ColombiansPoliticianList, 3, cTechPoliticianEcuador5);
+			}
+			for (i = 0; < xsArrayGetSize(gAge5ColombiansPoliticianList))
+			{
+				if (kbTechGetStatus(xsArrayGetInt(gAge5ColombiansPoliticianList, i)) == cTechStatusObtainable)
+				{
+					politician = xsArrayGetInt(gAge5ColombiansPoliticianList, i);
+					age = cAge5;
+					break;
+				}
+			}
+			break;
+		}
+		
+	}
+	aiSetPoliticianChoice(age, politician);
+	return (politician);
+}
+
+int chooseUSAPolitician()
+{
+	//new chooseUSAPolitician
+	static int politician = -1;
+	static int age = -1;
+	//more logic can be used to decided the best Politician to use
+	switch (gCurrentAge)
+	{
+		case cAge1:
+		{
+			if (kbBaseGetUnderAttack(cMyID, kbBaseGetMainID(cMyID)) == true)
+			{	
+				xsArraySetInt(gAge2USAPoliticianList, 0, cTechPoliticianFlorida2);
+				xsArraySetInt(gAge2USAPoliticianList, 1, cTechPoliticianCalifornia2);
+				xsArraySetInt(gAge2USAPoliticianList, 2, cTechPoliticianVermont2 );
+				xsArraySetInt(gAge2USAPoliticianList, 3, cTechPoliticianTexas2);
+			}
+			for (i = 0; < xsArrayGetSize(gAge2USAPoliticianList))
+			{
+				if (kbTechGetStatus(xsArrayGetInt(gAge2USAPoliticianList, i)) == cTechStatusObtainable)
+				{
+					politician = xsArrayGetInt(gAge2USAPoliticianList, i);
+					age = cAge2;
+					break;
+				}
+			}
+			break;
+		}	
+		case cAge2:
+		{
+			if (kbBaseGetUnderAttack(cMyID, kbBaseGetMainID(cMyID)) == true)
+			{
+				xsArraySetInt(gAge3USAPoliticianList, 0, cTechPoliticianFlorida3);
+				xsArraySetInt(gAge3USAPoliticianList, 1, cTechPoliticianCalifornia3);
+				xsArraySetInt(gAge3USAPoliticianList, 2, cTechPoliticianVermont3);
+				xsArraySetInt(gAge3USAPoliticianList, 3, cTechPoliticianTexas3);
+			}
+			for (i = 0; < xsArrayGetSize(gAge3USAPoliticianList))
+			{
+				if (kbTechGetStatus(xsArrayGetInt(gAge3USAPoliticianList, i)) == cTechStatusObtainable)
+				{
+					politician = xsArrayGetInt(gAge3USAPoliticianList, i);
+					age = cAge3;
+					break;
+				}
+			}
+			break;
+		}
+		
+		case cAge3:
+		{
+			if (kbBaseGetUnderAttack(cMyID, kbBaseGetMainID(cMyID)) == true)
+			{
+				xsArraySetInt(gAge4USAPoliticianList, 0, cTechPoliticianFlorida4);
+				xsArraySetInt(gAge4USAPoliticianList, 1, cTechPoliticianCalifornia4);
+				xsArraySetInt(gAge4USAPoliticianList, 2, cTechPoliticianVermont4);
+				xsArraySetInt(gAge4USAPoliticianList, 3, cTechPoliticianTexas4);
+			}
+			for (i = 0; < xsArrayGetSize(gAge4USAPoliticianList))
+			{
+				if (kbTechGetStatus(xsArrayGetInt(gAge4USAPoliticianList, i)) == cTechStatusObtainable)
+				{
+					politician = xsArrayGetInt(gAge4USAPoliticianList, i);
+					age = cAge4;
+					break;
+				}
+			}
+			break;
+		}
+		
+		case cAge4:
+		{
+			if (kbBaseGetUnderAttack(cMyID, kbBaseGetMainID(cMyID)) == true)
+			{	
+				xsArraySetInt(gAge5USAPoliticianList, 0, cTechPoliticianFlorida5);
+				xsArraySetInt(gAge5USAPoliticianList, 1, cTechPoliticianCalifornia5);
+				xsArraySetInt(gAge5USAPoliticianList, 2, cTechPoliticianVermont5);
+				xsArraySetInt(gAge5USAPoliticianList, 3, cTechPoliticianTexas5);
+			}
+			for (i = 0; < xsArrayGetSize(gAge5USAPoliticianList))
+			{
+				if (kbTechGetStatus(xsArrayGetInt(gAge5USAPoliticianList, i)) == cTechStatusObtainable)
+				{
+					politician = xsArrayGetInt(gAge5USAPoliticianList, i);
+					age = cAge5;
+					break;
+				}
+			}
+			break;
+		}
+		
+	}
+	aiSetPoliticianChoice(age, politician);
+	return (politician);
+}
+
+
+
 int chooseEuropeanPolitician()
 {
 	//new chooseEuropeanPolitician

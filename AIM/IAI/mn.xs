@@ -2,12 +2,12 @@
 ================================================================================
 The Improved AI
 Last updated by
-ageekhere 2024/07/04
-V 3.01
+ageekhere 2025/01/30
+V 3.02
 ================================================================================
 */
 //Global Variables
-extern const string gVersionNumber = "3.01 2024/07/04"; //AI version and last update info
+extern const string gVersionNumber = "3.02 2025/01/30"; //AI version and last update info
 extern const bool gDebugMessage = false; //Enables the debug logger so that it will wright debug logs 
 extern const int gDebugLevel = 100; //Sets the debug logger log depth, the higher the value the more depth
 extern const int gNumResourceTypes = 3; //Holds the number of resource types, which are Food, Wood and Gold, note Fame will not be counted as a resource type
@@ -215,6 +215,17 @@ extern int gAge2PoliticianList = -1; // List of Age 2 European politicians
 extern int gAge3PoliticianList = -1; // List of Age 3 European politicians
 extern int gAge4PoliticianList = -1; // List of Age 4 European politicians
 extern int gAge5PoliticianList = -1; // List of Age 5 European politicians
+
+extern int gAge2USAPoliticianList = -1; // List of Age 2 USA politicians
+extern int gAge3USAPoliticianList = -1; // List of Age 3 USA politicians
+extern int gAge4USAPoliticianList = -1; // List of Age 4 USA politicians
+extern int gAge5USAPoliticianList = -1; // List of Age 5 USA politicians
+
+extern int gAge2ColombiansPoliticianList = -1; // List of Age 2 Colombians politicians
+extern int gAge3ColombiansPoliticianList = -1; // List of Age 3 Colombians politicians
+extern int gAge4ColombiansPoliticianList = -1; // List of Age 4 Colombians politicians
+extern int gAge5ColombiansPoliticianList = -1; // List of Age 5 Colombians politicians
+
 extern int gAge2WonderList = -1; // List of Age 2 Asian age-up wonders
 extern int gAge3WonderList = -1; // List of Age 3 Asian age-up wonders
 extern int gAge4WonderList = -1; // List of Age 4 Asian age-up wonders
