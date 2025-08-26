@@ -15,7 +15,14 @@ void main(void)
 	// Which map - four possible variations (excluding which end the players start on, which is a separate thing)
 
    // Picks the map size
-   int playerTiles=10000;		
+	int playerTiles=13000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=12000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=11000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=10000;
+		
    int size=2.1*sqrt(cNumberNonGaiaPlayers*playerTiles);
    rmEchoInfo("Map size="+size+"m x "+size+"m");
    rmSetMapSize(size, size);
@@ -26,7 +33,7 @@ void main(void)
 	// Picks default terrain and water
 	rmSetBaseTerrainMix("nwt_grass1");
 	rmTerrainInitialize("NWterritory\ground_grass1_nwt", 5);
-	rmSetMapType("bayou");
+	rmSetMapType("greatPlains");
 	rmSetMapType("grass");
 	rmSetMapType("land");
 	rmSetMapType("namerica");

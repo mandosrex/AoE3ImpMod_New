@@ -57,9 +57,13 @@ void main(void)
    int teamOneCount = rmGetNumberPlayersOnTeam(1);
 
 	// Picks the map size
-	int playerTiles=12000;
+	int playerTiles=15000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=14000;
 	if (cNumberNonGaiaPlayers > 4)
-		playerTiles = 10250;
+		playerTiles=13000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=12000;
 
 	// Special case code for the 3v1s, 5v1s, 6v1s, and 7v1s - bigger map.
 	if (( teamZeroCount >= teamOneCount * 2 ) || ( teamOneCount >= teamZeroCount * 2 ))

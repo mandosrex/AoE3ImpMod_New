@@ -60,13 +60,13 @@ void main(void)
 
 	
 // Map Basics
-	int playerTiles = 9500;
-	if (cNumberNonGaiaPlayers == 2)
-		playerTiles = 13000;
-	if (cNumberNonGaiaPlayers >2)
-		playerTiles = 12000;
-	if (cNumberNonGaiaPlayers >4)
-		playerTiles = 11000;
+	int playerTiles = 15000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=14000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=13000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=12000;
 
 	int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles);
 	rmEchoInfo("Map size="+size+"m x "+size+"m");
@@ -396,7 +396,9 @@ void main(void)
 		rmPlacePlayer(2, 0.3, 0.5);
 		}
 	   }
-	   else
+	   else if ( cNumberTeams == 2 )
+	   {
+	   if (rmRandFloat(0,1)>0.5)
 	   {
 	   rmSetPlacementTeam(0);
 	   rmPlacePlayersLine(0.75,0.5,0.5,0.75,0,0);
@@ -404,6 +406,20 @@ void main(void)
 	   rmSetPlacementTeam(1);
 	   rmPlacePlayersLine(0.25,0.5,0.5,0.25,0,0);
 	   }
+	   else
+	   {
+	   rmSetPlacementTeam(1);
+	   rmPlacePlayersLine(0.75,0.5,0.5,0.75,0,0);
+
+	   rmSetPlacementTeam(0);
+	   rmPlacePlayersLine(0.25,0.5,0.5,0.25,0,0);
+	   }
+	   }
+	else
+	{
+  		rmSetPlacementSection(0.0, 0.95);
+  		rmPlacePlayersCircular(0.24, 0.24, 0.00);
+	}
 
 
     rmClearClosestPointConstraints();

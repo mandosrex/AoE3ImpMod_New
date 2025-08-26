@@ -18,13 +18,13 @@ void main(void)
 
 	
 	// Set size of map
-	int playerTiles=17500;
+	int playerTiles=15000;
 	if (cNumberNonGaiaPlayers >2)   
-		playerTiles = 13500;		
+		playerTiles = 14000;		
 	if (cNumberNonGaiaPlayers >4)	
-		playerTiles = 11000;
+		playerTiles = 13000;
 	if (cNumberNonGaiaPlayers >6)	
-		playerTiles = 10000;	
+		playerTiles = 12000;	
 	int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles);
 	rmSetMapSize(size, size);
 

@@ -22,11 +22,14 @@ void main(void)
 	// ************************************** GENERAL FEATURES *****************************************
 	
 	// Picks the map size
-	int playerTiles=11000;
-	if (cNumberNonGaiaPlayers >= 4)
-		playerTiles=10500;
-	if (cNumberNonGaiaPlayers >= 6)
-		playerTiles=10000;
+	int playerTiles=15000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=14000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=13000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=12000;
+
 	int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles); //2.1
 	rmEchoInfo("Map size="+size+"m x "+size+"m");
 	rmSetMapSize(size, size);
@@ -861,7 +864,7 @@ void main(void)
 		// ********** Forest **********
 	
 	// Forest
-	int forestcount = 5+5*cNumberNonGaiaPlayers; // 14*cNumberNonGaiaPlayers/2
+	int forestcount = 6+6*cNumberNonGaiaPlayers; // 14*cNumberNonGaiaPlayers/2
 	int stayInForest = -1;
 	
 	for (i=0; < forestcount)
@@ -912,7 +915,7 @@ void main(void)
 	}
 	
 	// Random trees
-	int randomforestcount = 4+4*cNumberNonGaiaPlayers; 
+	int randomforestcount = 5+5*cNumberNonGaiaPlayers; 
 	
 	for (i=0; < randomforestcount)
 	{	
@@ -946,7 +949,7 @@ void main(void)
 	// ********** Herds ***********
 
 	//South Elks
-	int elkcount = 2+3*cNumberNonGaiaPlayers;
+	int elkcount = 4+4*cNumberNonGaiaPlayers;
 	
 	for(i=0; < elkcount)
 	{

@@ -17,7 +17,14 @@ void main(void)
 	// ************************************** GENERAL FEATURES *****************************************
 	
 	// Picks the map size
-	int	playerTiles = 12000;
+	int playerTiles=14000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=13000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=12000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=11000;
+
 	int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles); 
 	rmEchoInfo("Map size="+size+"m x "+size+"m");
 	rmSetMapSize(size, size);
@@ -1092,17 +1099,37 @@ void main(void)
 	
 	// Starting market
 	int playerMarketID=rmCreateObjectDef("starting market");
-	rmAddObjectDefItem(playerMarketID, "Market", 1, 1.0);
+	rmAddObjectDefItem(playerMarketID, "Church", 1, 1.0);
 	rmSetObjectDefMinDistance(playerMarketID, 16.0);
 	rmSetObjectDefMaxDistance(playerMarketID, 20.0);
 	rmAddObjectDefConstraint(playerMarketID, avoidTradeRoute);
 	rmAddObjectDefConstraint(playerMarketID, avoidTradeRouteSocket);
     rmAddObjectDefConstraint(playerMarketID, avoidImpassableLand);
 	rmAddObjectDefConstraint(playerMarketID, avoidStartingResources);
+
+	// Starting ottoman market
+	int playerOttomanMarketID=rmCreateObjectDef("starting ottoman market");
+	rmAddObjectDefItem(playerOttomanMarketID, "Mosque", 1, 1.0);
+	rmSetObjectDefMinDistance(playerOttomanMarketID, 16.0);
+	rmSetObjectDefMaxDistance(playerOttomanMarketID, 20.0);
+	rmAddObjectDefConstraint(playerOttomanMarketID, avoidTradeRoute);
+	rmAddObjectDefConstraint(playerOttomanMarketID, avoidTradeRouteSocket);
+    rmAddObjectDefConstraint(playerOttomanMarketID, avoidImpassableLand);
+	rmAddObjectDefConstraint(playerOttomanMarketID, avoidStartingResources);
+
+	// Starting native market
+	int playerNativeMarketID=rmCreateObjectDef("starting native market");
+	rmAddObjectDefItem(playerNativeMarketID, "Firepit", 1, 1.0);
+	rmSetObjectDefMinDistance(playerNativeMarketID, 16.0);
+	rmSetObjectDefMaxDistance(playerNativeMarketID, 20.0);
+	rmAddObjectDefConstraint(playerNativeMarketID, avoidTradeRoute);
+	rmAddObjectDefConstraint(playerNativeMarketID, avoidTradeRouteSocket);
+    rmAddObjectDefConstraint(playerNativeMarketID, avoidImpassableLand);
+	rmAddObjectDefConstraint(playerNativeMarketID, avoidStartingResources);
 	
 	// Starting asian market
 	int playerAsianMarketID=rmCreateObjectDef("starting asian market");
-	rmAddObjectDefItem(playerAsianMarketID, "ypTradeMarketAsian", 1, 1.0);
+	rmAddObjectDefItem(playerAsianMarketID, "ypConsulate", 1, 1.0);
 	rmSetObjectDefMinDistance(playerAsianMarketID, 16.0);
 	rmSetObjectDefMaxDistance(playerAsianMarketID, 20.0);
 	rmAddObjectDefConstraint(playerAsianMarketID, avoidTradeRoute);
@@ -1195,6 +1222,14 @@ void main(void)
 			{
 				rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 1), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 				rmPlaceObjectDefAtLoc(playerAsianMarketID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));  
+			}
+			else if(rmGetPlayerCiv(i) ==  rmGetCivID("Ottomans"))
+			{
+				rmPlaceObjectDefAtLoc(playerOttomanMarketID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
+			}
+			else if (rmGetPlayerCiv(i) ==  rmGetCivID("XPAztec") || rmGetPlayerCiv(i) == rmGetCivID("XPIroquois") || rmGetPlayerCiv(i) == rmGetCivID("XPSioux"))
+			{
+				rmPlaceObjectDefAtLoc(playerNativeMarketID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));  
 			}
 			else 
 				rmPlaceObjectDefAtLoc(playerMarketID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));

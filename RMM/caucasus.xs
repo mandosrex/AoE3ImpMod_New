@@ -20,19 +20,13 @@ void main(void)
    	rmSetSubCiv(0, "Udasi");
 
 // Picks the map size
-   int playerTiles = 14500;
-   if (cNumberNonGaiaPlayers == 8)
-	playerTiles = 10000;
-   else if (cNumberNonGaiaPlayers == 7)
-	playerTiles = 11000;
-   else if (cNumberNonGaiaPlayers == 6)
-	playerTiles = 12000;
-   else if (cNumberNonGaiaPlayers == 5)
-	playerTiles = 13000;
-   else if (cNumberNonGaiaPlayers == 4)
-	playerTiles = 13500;
-   else if (cNumberNonGaiaPlayers == 3)
-	playerTiles = 14000;
+	int playerTiles = 15000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=14000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=13000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=12000;
 
    int size=2*sqrt(cNumberNonGaiaPlayers*playerTiles);
    int longSide=1.5*size; 

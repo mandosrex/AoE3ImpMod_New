@@ -88,9 +88,13 @@ void main(void)
 	}
 
 	// Picks the map size
-	int playerTiles=10000;
-	// if (cNumberNonGaiaPlayers >4)
-	//	playerTiles = 9500;
+	int playerTiles=13000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=12000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=11000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=10000;
 
 	int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles);
 	rmEchoInfo("Map size="+size+"m x "+size+"m");
@@ -258,8 +262,12 @@ void main(void)
 
    // *** Set up player starting locations. Circular around the outside of the map.
    // rmPlacePlayersCircular(0.1, 0.9, rmDegreesToRadians(5.0));
+
+	float teamStartLoc = rmRandFloat(0.0, 1.0);
+
 	if ( cNumberTeams == 2 )
 	{
+	if (teamStartLoc > 0.5) {
 		rmSetPlacementTeam(0);
 		rmSetPlacementSection(0.15, 0.35);
 		if (cNumberNonGaiaPlayers >6)
@@ -275,6 +283,25 @@ void main(void)
 			rmSetPlacementSection(0.63, 0.87);
 		}
 		rmPlacePlayersCircular(0.35, 0.40, 0.0);
+	}
+	else 
+	{
+		rmSetPlacementTeam(1);
+		rmSetPlacementSection(0.15, 0.35);
+		if (cNumberNonGaiaPlayers >6)
+		{
+			rmSetPlacementSection(0.13, 0.37);
+		}
+		rmPlacePlayersCircular(0.35, 0.40, 0.0);
+
+		rmSetPlacementTeam(0);
+		rmSetPlacementSection(0.65, 0.85);
+		if (cNumberNonGaiaPlayers >6)
+		{
+			rmSetPlacementSection(0.63, 0.87);
+		}
+		rmPlacePlayersCircular(0.35, 0.40, 0.0);
+	}
 	}
 	else
 	{
@@ -925,7 +952,7 @@ void main(void)
 		rmAddAreaToClass(cliffEastID, rmClassID("classCliff"));	// Attempt to keep cliffs away from each other.
 		rmSetAreaCliffEdge(cliffEastID, 2, 0.4, 0.1, 1.0, 0);
 		rmSetAreaCliffPainting(cliffEastID, true, true, true, 1.5, true);
-		rmSetAreaCliffHeight(cliffEastID, 7, 1.0, 1.0);
+		rmSetAreaCliffHeight(cliffEastID, 6, 1.0, 1.0);
 		rmSetAreaHeightBlend(cliffEastID, 1);
 		rmAddAreaTerrainLayer(cliffEastID, "texas\ground2_tex", 0, 2);
 
@@ -965,7 +992,7 @@ void main(void)
 		rmAddAreaToClass(cliffWestID, rmClassID("classCliff"));	// Attempt to keep cliffs away from each other.
 		rmSetAreaCliffEdge(cliffWestID, 2, 0.4, 0.1, 1.0, 0);
 		rmSetAreaCliffPainting(cliffWestID, true, true, true, 1.5, true);
-		rmSetAreaCliffHeight(cliffWestID, 7, 1.0, 1.0);
+		rmSetAreaCliffHeight(cliffWestID, 6, 1.0, 1.0);
 		rmSetAreaHeightBlend(cliffWestID, 1);
 		rmAddAreaTerrainLayer(cliffWestID, "texas\ground2_tex", 0, 2);
 

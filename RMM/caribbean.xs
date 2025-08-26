@@ -36,10 +36,13 @@ void main(void)
 	
    // Set size.
    int playerTiles=24000;
+	if (cNumberNonGaiaPlayers >2)
+		playerTiles = 23000;
 	if (cNumberNonGaiaPlayers >4)
+		playerTiles = 22000;
+	if (cNumberNonGaiaPlayers >6)
 		playerTiles = 21000;
-	if (cNumberNonGaiaPlayers >7)
-		playerTiles = 18000;			
+
    int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles);
    rmEchoInfo("Map size="+size+"m x "+size+"m");
    rmSetMapSize(size, size);

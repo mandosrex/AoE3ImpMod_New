@@ -5,12 +5,16 @@
 	include "ypKOTHInclude.xs";
 
 	void main(void) { 
-		float playerTiles=12000;
-			if (cNumberNonGaiaPlayers>4)
-				playerTiles = 10800;
-			if (cNumberNonGaiaPlayers>6)
-				playerTiles = 8800;			
+		float playerTiles=20000;
+		if (cNumberNonGaiaPlayers > 2)
+			playerTiles=19000;
+		if (cNumberNonGaiaPlayers > 4)
+			playerTiles=18000;
+		if (cNumberNonGaiaPlayers > 6)
+			playerTiles=17000;
+
 		int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles);
+
 		rmSetMapSize(size, size);
 		rmSetSeaType("great lakes");
 		rmSetSeaLevel(-7);
@@ -24,6 +28,7 @@
 		rmSetWorldCircleConstraint(true);
 		
 		rmDefineClass("classForest");
+		rmDefineClass("importantItem");
 		rmSetStatusText("",0.01);
 
 		int circleConstraint=rmCreatePieConstraint("circle Constraint", 0.5, 0.5, 0, rmZFractionToMeters(0.48), rmDegreesToRadians(0), rmDegreesToRadians(360));
@@ -48,6 +53,9 @@
 		int avoidTownCenterMore=rmCreateTypeDistanceConstraint("avoid Town Center more", "townCenter", 40.0);	
 		int avoidNugget=rmCreateTypeDistanceConstraint("nugget avoid nugget", "AbstractNugget", 50.0); 
 		int avoidNuggetSmall=rmCreateTypeDistanceConstraint("avoid nuggets by a little", "AbstractNugget", 15.0); 
+		int avoidAll=rmCreateTypeDistanceConstraint("avoid all", "all", 4.0);
+		int avoidImpassableLand=rmCreateTerrainDistanceConstraint("avoid impassable land", "Land", false, 6.0);
+		int avoidCastle=rmCreateTypeDistanceConstraint("vs Regicide Castle", "ypCastleRegicide", 5.0);
 		
 		rmDefineClass("classPlateau");
 		int avoidPlateau=rmCreateClassDistanceConstraint("stuff vs. cliffs", rmClassID("classPlateau"), 5.0);
@@ -56,36 +64,58 @@
 		rmDefineClass("classContinent");
 		int avoidContinent=rmCreateClassDistanceConstraint("stuff vs. Continent", rmClassID("classContinent"), 5.0);
 		
-		float spawnSwitch = rmRandFloat(0,1.2);
-	
-		if(cNumberNonGaiaPlayers == 2){
-			if (spawnSwitch<0.6) {	
-			rmPlacePlayer(1, 0.25, 0.25);
-			rmPlacePlayer(2, 0.75, 0.75);
-			}else{
-			rmPlacePlayer(1, 0.75, 0.75);
-			rmPlacePlayer(2, 0.25, 0.25);
-			}
-		}else if (cNumberTeams == 2){
-			if (spawnSwitch<0.6) {	
-				rmSetPlacementTeam(0);
-				rmSetPlacementSection(0.06, 0.18);
-				rmPlacePlayersCircular(0.35, 0.35, 0);
-				rmSetPlacementTeam(1);
-				rmSetPlacementSection(0.56, 0.68);
-				rmPlacePlayersCircular(0.35, 0.35, 0);
-			}else{
-				rmSetPlacementTeam(1);
-				rmSetPlacementSection(0.06, 0.18);
-				rmPlacePlayersCircular(0.35, 0.35, 0);
-				rmSetPlacementTeam(0);
-				rmSetPlacementSection(0.56, 0.68);
-				rmPlacePlayersCircular(0.35, 0.35, 0);
-			}
+	float teamStartLoc = rmRandFloat(0.0, 1.0);  //This chooses a number randomly between 0 and 1, used to pick whether team 1 is on top or bottom.
+  float teamStartRadius = 0.25;
+    
+  if(cNumberNonGaiaPlayers > 4)
+    teamStartRadius = 0.35;
 
-		}else{
+  if (cNumberTeams == 2 ) {
+    if (cNumberNonGaiaPlayers == 2) {
+      if (teamStartLoc > 0.5) {
+        rmSetPlacementTeam(0);
+        rmPlacePlayersLine(0.74, 0.74, 0.84, 0.84, 0.1, 0);
+          
+        rmSetPlacementTeam(1);
+        rmPlacePlayersLine(0.26, 0.26, 0.16, 0.16, 0.1, 0);                
+      }
+      else {
+        rmSetPlacementTeam(1);
+        rmPlacePlayersLine(0.74, 0.74, 0.84, 0.84, 0.1, 0);    
+          
+        rmSetPlacementTeam(0);
+        rmPlacePlayersLine(0.26, 0.26, 0.16, 0.16, 0.1, 0);                  
+      }
+    } 
+    else {
+      //Team 0 starts on top
+      if (teamStartLoc > 0.5) {
+        rmSetPlacementTeam(0);
+        rmSetPlayerPlacementArea(0.5, 0.5, 0.86, 0.86);    
+        rmPlacePlayersCircular(teamStartRadius, teamStartRadius, 0); 
+      
+        rmSetPlacementTeam(1);
+        rmSetPlayerPlacementArea(0.5, 0.5, 0.14, 0.14);    
+        rmPlacePlayersCircular(teamStartRadius, teamStartRadius, 0); 
+      }
+      else {
+        rmSetPlacementTeam(0);
+        rmSetPlayerPlacementArea(0.5, 0.5, 0.14, 0.14);    
+        rmPlacePlayersCircular(teamStartRadius, teamStartRadius, 0); 
+          
+        rmSetPlacementTeam(1);
+        rmSetPlayerPlacementArea(0.5, 0.5, 0.86, 0.86);    
+        rmPlacePlayersCircular(teamStartRadius, teamStartRadius, 0); 
+      }     
+    }
+  }
+
+	// otherwise FFA
+	else
+	{
 			rmPlacePlayersCircular(0.3, 0.3, 0.00);
-		}
+	}
+
 		chooseMercs();
 		rmSetStatusText("",0.1);
 
@@ -124,14 +154,14 @@
 		rmSetAreaLocation(blobAntiTree, 0.8, 0.8);
 		}else if(i == 3){
 		rmSetAreaSize(blobAntiTree, 0.17, 0.17);
-		rmSetAreaLocation(blobAntiTree, 0.2, 0.8);
+		rmSetAreaLocation(blobAntiTree, 0.7, 0.7);
 		}else if(i == 4){
 		rmSetAreaSize(blobAntiTree, 0.17, 0.17);
-		rmSetAreaLocation(blobAntiTree, 0.8, 0.2);
+		rmSetAreaLocation(blobAntiTree, 0.3, 0.3);
 		}else if(i == 5){
 		rmSetAreaSize(blobAntiTree, 0.1, 0.1);
-		rmSetAreaLocation(blobAntiTree, 0.0, 1.0);
-		rmAddAreaInfluenceSegment(blobAntiTree, 0.0, 1.0, 1.0, 0.0); 
+		rmSetAreaLocation(blobAntiTree, 0.2, 0.2);
+		rmAddAreaInfluenceSegment(blobAntiTree, 0.2, 0.2, .2, 0.8); 
 		}else if(i == 6){
 		rmSetAreaSize(blobAntiTree, 0.1, 0.1);
 		rmSetAreaLocation(blobAntiTree, 0.8, 0.8);
@@ -298,6 +328,26 @@
 		rmAddObjectDefConstraint(foodID2, circleConstraint);
 		rmSetObjectDefCreateHerd(foodID2, true);
 		
+
+  int playerCastle=rmCreateObjectDef("Castle");
+  rmAddObjectDefItem(playerCastle, "ypCastleRegicide", 1, 0.0);
+  rmAddObjectDefConstraint(playerCastle, avoidAll);
+  rmAddObjectDefConstraint(playerCastle, avoidImpassableLand);
+	rmSetObjectDefMinDistance(playerCastle, 18.0);	
+	rmSetObjectDefMaxDistance(playerCastle, 23.0);
+  
+  int playerWalls = rmCreateGrouping("regicide walls", "regicide_walls");
+  rmAddGroupingToClass(playerWalls, rmClassID("importantItem"));
+  rmSetGroupingMinDistance(playerWalls, 0.0);
+  rmSetGroupingMaxDistance(playerWalls, 2.0);
+  
+  int playerDaimyo=rmCreateObjectDef("Daimyo"+i);
+  rmAddObjectDefItem(playerDaimyo, "ypDaimyoRegicide", 1, 0.0);
+  rmAddObjectDefConstraint(playerDaimyo, avoidAll);
+  rmSetObjectDefMinDistance(playerDaimyo, 7.0);	
+  rmSetObjectDefMaxDistance(playerDaimyo, 10.0);
+
+
 		rmSetStatusText("",0.6);
 
 		for(i=1; <cNumberPlayers) { 
@@ -313,6 +363,12 @@
 		rmSetObjectDefMaxDistance(startID, 5.0);
 
 		rmPlaceObjectDefAtLoc(startID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i)); 
+		rmPlaceObjectDefAtLoc(playerDaimyo, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
+		if (rmGetNomadStart() == false)
+		{
+		rmPlaceGroupingAtLoc(playerWalls, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
+		}
+
 		rmPlaceObjectDefAtLoc(berryID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 		rmPlaceObjectDefAtLoc(treeID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 		rmPlaceObjectDefAtLoc(treeID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
@@ -355,6 +411,7 @@
 		rmSetObjectDefMinDistance(cornerNugget, 0.0); 
 		rmSetObjectDefMaxDistance(cornerNugget, rmXFractionToMeters(0.01)); 
 		rmAddObjectDefConstraint(cornerNugget, circleConstraint);
+		rmAddObjectDefConstraint(cornerNugget, avoidSocket);
 		rmSetNuggetDifficulty(3, 3); //level 3 nuggets go in the center
 		rmPlaceObjectDefAtLoc(cornerNugget, 0, 0.53, 0.53, 1);   
 		rmPlaceObjectDefAtLoc(cornerNugget, 0, 0.47, 0.47, 1);   
@@ -480,6 +537,39 @@
 			}
 	}
    
+
+  // Regicide Triggers
+	for(i=1; <= cNumberNonGaiaPlayers) {
+    
+    // Lose on Daimyo's death
+    rmCreateTrigger("DaimyoDeath"+i);
+    rmSwitchToTrigger(rmTriggerID("DaimyoDeath"+i));
+    rmSetTriggerPriority(4); 
+    rmSetTriggerActive(true);
+    rmSetTriggerRunImmediately(true);
+    rmSetTriggerLoop(false);
+    
+    rmAddTriggerCondition("Is Dead");
+    rmSetTriggerConditionParamInt("SrcObject", rmGetUnitPlacedOfPlayer(playerDaimyo, i), false);
+    
+    rmAddTriggerEffect("Set Player Defeated");
+    rmSetTriggerEffectParamInt("Player", i, false);
+    
+    // Setup Bastion
+    //~ rmCreateTrigger("Bastion"+i);
+    //~ rmSwitchToTrigger(rmTriggerID("Bastion"+i));
+    //~ rmSetTriggerPriority(3); 
+    //~ rmSetTriggerActive(true);
+    //~ rmSetTriggerRunImmediately(true);
+    //~ rmSetTriggerLoop(false);
+    
+    //~ rmAddTriggerCondition("Always");
+    
+    //~ rmAddTriggerEffect("Set Tech Status");
+    //~ rmSetTriggerEffectParamInt("PlayerID", i, false);
+    //~ rmSetTriggerEffectParam("TechID", "236", false);
+    //~ rmSetTriggerEffectParam("Status", "2", false);
+  }
 
 
    // check for KOTH game mode

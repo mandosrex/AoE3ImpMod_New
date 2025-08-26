@@ -58,9 +58,14 @@ void main(void)
 	chooseMercs();
 	
 	// Set size of map
-	int playerTiles=18000;
-  if(cNumberNonGaiaPlayers < 5)
-    playerTiles = 22000;
+	int playerTiles=23000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=22000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=21000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=20000;
+
 	int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles);
 	rmEchoInfo("Map size="+size+"m x "+size+"m");
 	rmSetMapSize(size, size);
@@ -157,13 +162,12 @@ void main(void)
 
 	// Make one big island.  
 	int bigIslandID=rmCreateArea("migration island");
-	rmSetAreaSize(bigIslandID, 0.18, 0.18);
-	rmSetAreaCoherence(bigIslandID, 0.65);
+	rmSetAreaSize(bigIslandID, 0.23, 0.23);
+	rmSetAreaCoherence(bigIslandID, 0.85);
 	rmSetAreaBaseHeight(bigIslandID, 2.0);
 	rmSetAreaSmoothDistance(bigIslandID, 20);
 	rmSetAreaMix(bigIslandID, baseMix);
 	rmAddAreaToClass(bigIslandID, classIsland);
-	rmAddAreaConstraint(bigIslandID, islandConstraint);
 	rmSetAreaObeyWorldCircleConstraint(bigIslandID, false);
 	rmSetAreaElevationType(bigIslandID, cElevTurbulence);
 	rmSetAreaElevationVariation(bigIslandID, 2.0);
@@ -172,10 +176,15 @@ void main(void)
 	rmSetAreaElevationPersistence(bigIslandID, 0.2);
 	rmSetAreaElevationNoiseBias(bigIslandID, 1);
   rmSetAreaLocation(bigIslandID, .5, .5);
-  rmAddAreaInfluenceSegment(bigIslandID, .4, .5, .5, .7);
-  rmAddAreaInfluenceSegment(bigIslandID, .6, .5, .5, .7);
+  rmAddAreaInfluenceSegment(bigIslandID, .4, .6, .5, .7);
+  rmAddAreaInfluenceSegment(bigIslandID, .6, .6, .5, .7);
+  rmAddAreaInfluenceSegment(bigIslandID, .35, .5, .5, .7);
+  rmAddAreaInfluenceSegment(bigIslandID, .65, .5, .5, .7);
+  rmAddAreaInfluenceSegment(bigIslandID, .4, .4, .5, .7);
+  rmAddAreaInfluenceSegment(bigIslandID, .6, .4, .5, .7);
   rmAddAreaInfluenceSegment(bigIslandID, .4, .5, .5, .39);
   rmAddAreaInfluenceSegment(bigIslandID, .6, .5, .5, .39);
+  rmAddAreaInfluenceSegment(bigIslandID, .5, .4, .5, .35);
   rmAddAreaTerrainLayer(bigIslandID, "Ceylon\ground_sand1_Ceylon", 0, 6);
   rmAddAreaTerrainLayer(bigIslandID, "Ceylon\ground_sand2_Ceylon", 6, 9);
   rmAddAreaTerrainLayer(bigIslandID, "Ceylon\ground_sand3_Ceylon", 9, 12);
@@ -192,19 +201,19 @@ void main(void)
     rmSetPlacementSection(0.57, 0.8);
     if(cNumberNonGaiaPlayers == 2)
       rmSetPlacementSection(.60, .61);
-    rmPlacePlayersCircular(.43, .43, 0);
+    rmPlacePlayersCircular(.32, .32, 0);
 
     rmSetPlacementTeam(1);
     rmSetPlacementSection(.2, .43);
     if(cNumberNonGaiaPlayers == 2)
       rmSetPlacementSection(.39, .40);
-    rmPlacePlayersCircular(.43, .43, 0);
+    rmPlacePlayersCircular(.32, .32, 0);
   }
   
   else
 	{
 	   rmSetPlacementSection(0.15, 0.85);
-	   rmPlacePlayersCircular(0.43, 0.43, 0);
+	   rmPlacePlayersCircular(0.32, 0.32, 0);
 	}
 
 	float playerFraction=rmAreaTilesToFraction(500 + cNumberNonGaiaPlayers*150);
@@ -222,7 +231,6 @@ void main(void)
     rmSetAreaSmoothDistance(id, 20);
     rmSetAreaMix(id, paintMix);
     rmAddAreaToClass(id, classIsland);
-    rmAddAreaConstraint(id, islandConstraint);
     rmAddAreaConstraint(id, islandEdgeConstraint);
     rmSetAreaElevationType(id, cElevTurbulence);
     rmSetAreaElevationVariation(id, 4.0);
@@ -234,14 +242,14 @@ void main(void)
 
 	//Create the bridges to the big island
 	int BridgeiD = rmCreateConnection("land bridge"+i);
-	rmSetConnectionType(BridgeiD, cConnectAreas, false, 1);
+	rmSetConnectionType(BridgeiD, cConnectAreas, true, 1);
 	rmAddConnectionArea(BridgeiD, id);
 	rmAddConnectionArea(BridgeiD, bigIslandID);
 	rmSetConnectionWidth(BridgeiD, 15, 0);
-	rmSetConnectionBaseHeight(BridgeiD, 1);
-	 rmSetConnectionPositionVariance(BridgeiD, 0);
-	rmAddConnectionTerrainReplacement(BridgeiD, "ceylon/ground_shoreline2_ceylon");
+	rmSetConnectionBaseHeight(BridgeiD, 2);
 	rmSetConnectionHeightBlend(BridgeiD, 2);
+	rmSetConnectionPositionVariance(BridgeiD, 0);
+	rmAddConnectionTerrainReplacement(BridgeiD, "ceylon/ground_sand4_ceylon");
 	rmSetAreaCoherence(BridgeiD, 0.9);
 	//rmBuildConnection(BridgeiD);
 	}
@@ -449,7 +457,12 @@ void main(void)
 	//Place player TCs and starting Gold Mines. 
 
 	int TCID = rmCreateObjectDef("player TC");
-	rmAddObjectDefItem(TCID, "coveredWagon", 1, 0);
+	if ( rmGetNomadStart())
+		rmAddObjectDefItem(TCID, "coveredWagon", 1, 0);
+	else
+		rmAddObjectDefItem(TCID, "townCenter", 1, 0);
+
+	//Prepare to place TCs
 	rmSetObjectDefMinDistance(TCID, 0.0);
 	rmSetObjectDefMaxDistance(TCID, 4.0);
 
@@ -470,7 +483,7 @@ void main(void)
 
 	//Prepare to place player starting food
 	int playerFoodID=rmCreateObjectDef("player food");
-  rmAddObjectDefItem(playerFoodID, "Tortoise", 8, 4.0);
+  rmAddObjectDefItem(playerFoodID, "Crab", 8, 4.0);
   rmSetObjectDefMinDistance(playerFoodID, 10);
 	rmSetObjectDefMaxDistance(playerFoodID, 15);	
 	rmAddObjectDefConstraint(playerFoodID, avoidAll);

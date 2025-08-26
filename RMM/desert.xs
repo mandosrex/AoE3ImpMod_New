@@ -64,13 +64,13 @@ void main(void)
 
    rmSetStatusText("",0.01);
 
-   int playerTiles=11000;
+   int playerTiles=13000;
    if (cNumberNonGaiaPlayers >2)
-		playerTiles = 10500;
+	playerTiles = 12000;
    if (cNumberNonGaiaPlayers >4)
-      playerTiles = 9800;
+	playerTiles = 11000;
    if (cNumberNonGaiaPlayers >6)
-      playerTiles = 9300;
+	playerTiles = 10000;
 
 	int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles);
 	rmSetMapSize(size, size);

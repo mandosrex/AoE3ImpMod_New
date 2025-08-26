@@ -14,14 +14,14 @@ void main(void)
    rmSetStatusText("",0.01);
 
   // Set size.
+	int playerTiles=13000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=12000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=11000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=10000;
 
-   int playerTiles=12000;
-
-   	if(rmRandFloat(0,1) > 0.25)
-	{
-		playerTiles=16000;
-		rmEchoInfo("Extra large map");
-	}
 	int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles);
 	rmEchoInfo("Map size="+size+"m x "+size+"m");
 	rmSetMapSize(size, size);

@@ -29,11 +29,13 @@ void main(void)
 
 // ***************** MAP PARAMETERS ***************
    // Picks the map size
-   int playerTiles = 15500;
-   if (cNumberNonGaiaPlayers >4)
-      playerTiles = 14000;
-   if (cNumberNonGaiaPlayers >6)
-      playerTiles = 13000;
+   	int playerTiles = 15000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=14000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=13000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=12000;
 		
 /*
    if(cMapSize == 1)

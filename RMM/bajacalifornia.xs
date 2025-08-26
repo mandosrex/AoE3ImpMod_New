@@ -21,13 +21,13 @@ void main(void){
 
 
 	// Picks the map size
-	int	playerTiles = 7500;
-	if (cNumberNonGaiaPlayers >= 4)
-		playerTiles = 7000;
-	if (cNumberNonGaiaPlayers >= 6)
-		playerTiles = 6500;
-	if (cNumberNonGaiaPlayers == 8)
-		playerTiles = 7500;
+	int	playerTiles = 13000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles = 12000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles = 11000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles = 10000;
 	int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles); //2.1
 	int longside = 1.55*size;
 	rmEchoInfo("Map size="+size+"m x "+size+"m");

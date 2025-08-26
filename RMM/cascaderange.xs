@@ -18,9 +18,14 @@ void main(void)
 	// ************************************** GENERAL FEATURES *****************************************
 	
 	// Picks the map size
-	int playerTiles=11500; //12000
-	if (cNumberNonGaiaPlayers >= 4)
-		playerTiles = 10500;
+	int playerTiles=14000; //12000
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=13000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=12000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=11000;
+
 	int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles); //2.1
 	rmEchoInfo("Map size="+size+"m x "+size+"m");
 	rmSetMapSize(size, size);

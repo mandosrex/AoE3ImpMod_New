@@ -18,11 +18,13 @@ void main(void) {
 
 
    // Picks the map size
-	int playerTiles=10000;
-	if (cNumberNonGaiaPlayers > 4){
-		playerTiles = 9500;
+	int playerTiles=13000;
+	if (cNumberNonGaiaPlayers > 2){
+		playerTiles = 12000;
+	}else if (cNumberNonGaiaPlayers > 4){
+		playerTiles = 11000;
 	}else if (cNumberNonGaiaPlayers > 6){
-		playerTiles = 8500;
+		playerTiles = 10000;
 	}
 
 	
@@ -38,9 +40,8 @@ void main(void) {
 	rmSetMapSize(size, size);
 
 	rmSetMapType("land");
-        rmSetMapType("grass");
         rmSetMapType("amazonia");
-	rmSetMapType("tropical");
+	rmSetMapType("desert");
 	rmSetMapType("samerica");
 	rmSetBaseTerrainMix("pampass_grass");
        	rmTerrainInitialize("pampas\ground6_pam");

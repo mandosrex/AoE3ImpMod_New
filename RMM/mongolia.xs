@@ -62,11 +62,13 @@ void main(void)
    }
 
    // Picks the map size
-	int playerTiles=12000;
-  if (cNumberNonGaiaPlayers >4)
-		playerTiles = 10500;
-  if (cNumberNonGaiaPlayers >6)
-      playerTiles = 9000;
+	int playerTiles=13000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=12000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=11000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=10000;
    
   if(cNumberTeams > 2)
     playerTiles = playerTiles*1.8;

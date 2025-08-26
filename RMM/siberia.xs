@@ -54,10 +54,12 @@ void main(void)
     weird = true;
     
 	int playerTiles = 13000;
-	if (cNumberNonGaiaPlayers >4)
-		playerTiles = 12500;
-	if (cNumberNonGaiaPlayers >6)
-		playerTiles = 12000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=12000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=11000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=10000;
     
   if (weird == true) 
     playerTiles = playerTiles*1.75;

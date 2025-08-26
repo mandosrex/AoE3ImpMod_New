@@ -238,7 +238,8 @@ void main(void)
 	if (cNumberNonGaiaPlayers >4)   // If 5 or 6 players...
 		playerTiles = 19000;		// ...give this many tiles per player.
 	if (cNumberNonGaiaPlayers >6)	// If more than 6 players...
-		playerTiles = 15000;		// ...give this many tiles per player.	
+		playerTiles = 16000;		// ...give this many tiles per player.	
+
 	int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles);
 	int longSide=1.35*size;
 	rmEchoInfo("Map size="+size+"m x "+size+"m");

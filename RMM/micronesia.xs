@@ -79,17 +79,17 @@ void main(void)
 // Picks the map size
    int playerTiles=34000;  
    if (cNumberNonGaiaPlayers == 8)
-	playerTiles = 17000;
+	playerTiles = 22000;
    else if (cNumberNonGaiaPlayers == 7)
-	playerTiles = 20000;  
+	playerTiles = 24000;  
    else if (cNumberNonGaiaPlayers == 6)
-	playerTiles = 23000;
+	playerTiles = 26000;
    else if (cNumberNonGaiaPlayers == 5)
-	playerTiles = 26000;  
+	playerTiles = 28000;  
    else if (cNumberNonGaiaPlayers == 4)
-	playerTiles = 28500;
+	playerTiles = 30000;
    else if (cNumberNonGaiaPlayers == 3)
-	playerTiles = 31000; 
+	playerTiles = 32000; 
 
    int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles/0.8);
    rmEchoInfo("Map size="+size+"m x "+size+"m");

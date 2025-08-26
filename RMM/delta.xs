@@ -29,13 +29,13 @@ void main(void)
    string mineType = "";
 
 // Picks the map size
-   int playerTiles=16500;
+   int playerTiles=18000;
    if (cNumberNonGaiaPlayers > 2)
-      playerTiles = 15000;
+      playerTiles = 17000;
    if (cNumberNonGaiaPlayers > 4)
-      playerTiles = 14000;
+      playerTiles = 16000;
    if (cNumberNonGaiaPlayers > 6)
-      playerTiles = 13000;
+      playerTiles = 15000;
 
    int teamZeroCount = rmGetNumberPlayersOnTeam(0);
    int teamOneCount = rmGetNumberPlayersOnTeam(1);
@@ -71,7 +71,7 @@ void main(void)
    if (patternChance == 1) // NE
    { 
       rmSetMapType("mongolia");
-	rmSetLightingSet("new england"); 
+	rmSetLightingSet("bayou"); 
       baseType = "korea_a";
 	forestType = "Delta Forest";
 	riverType = "Delta";
@@ -104,7 +104,7 @@ void main(void)
    else if (patternChance == 2) // bayou
    {
       rmSetMapType("mongolia");
-	rmSetLightingSet("new england"); 
+	rmSetLightingSet("bayou"); 
       baseType = "korea_a";
 	forestType = "Delta Forest";
 	riverType = "Delta";

@@ -26,7 +26,7 @@
       <Setting Name="optiongrfxdetail">1</Setting>
       <Setting Name="optiongrfxshaderquality">3</Setting>
       <Setting Name="OptionGrfxBitDepth">32</Setting>
-      <Setting Name="optiongrfxres">1280 x 768</Setting>
+      <Setting Name="optiongrfxres">1366 x 768</Setting>
       <Setting Name="optiongrfxwindowmode">true</Setting>
       <Setting Name="optiongrfxwatershader">3</Setting>
       <Setting Name="optiongrfxwaterreflections">true</Setting>
@@ -61,7 +61,7 @@
       <Setting Name="OptionShowObjectiveHints">2</Setting>
       <Setting Name="OptionUIShowShipments">true</Setting>
       <Setting Name="OptionEnableLDRBlooms">true</Setting>
-      <Setting Name="OptionEnableVsync">false</Setting>
+      <Setting Name="OptionEnableVsync">true</Setting>
       <Setting Name="OptionRenderAnisotropic">true</Setting>
       <Setting Name="OptionEnableBlooms">true</Setting>
       <Setting Name="OptionEnableStreaks">true</Setting>

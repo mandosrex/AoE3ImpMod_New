@@ -40010,7 +40010,7 @@
 		</Tag>
 		<Tag type="AIChat" name="ToAllyIntro" priority="Background">
 			<Sentence>
-				<String>Hello there. Are you Amelia's Black friend? I have heard a lot about you. How is she doing these days?</String>
+				<String>Hello there. Are you Amelia Black's friend? I have heard a lot about you. How is she doing these days?</String>
 				<Sound>imp\chats\BOLIV0260.mp3</Sound>
 				<StringID>70987</StringID>
 			</Sentence>

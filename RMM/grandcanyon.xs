@@ -2160,13 +2160,16 @@ else
 
 // Random trees
    int StragglerTreeID=rmCreateObjectDef("stragglers");
-   rmAddObjectDefItem(StragglerTreeID, "TreePaintedDesert", 1, 0.0);
+   rmAddObjectDefItem(StragglerTreeID, "TreePaintedDesert", 2, 4.0);
+   rmAddObjectDefToClass(StragglerTreeID, rmClassID("herdableFood"));
+   rmSetObjectDefMinDistance(StragglerTreeID, 35.0);
+   rmSetObjectDefMaxDistance(StragglerTreeID, size*0.5);
+   rmAddObjectDefConstraint(StragglerTreeID, avoidSheep);
    rmAddObjectDefConstraint(StragglerTreeID, avoidAll);
-   //rmAddObjectDefConstraint(StragglerTreeID, avoidCliffs2Short);
-   rmAddObjectDefConstraint(StragglerTreeID, avoidStartingUnitsSmall);
-   rmAddObjectDefConstraint(StragglerTreeID, avoidCoin);
-   rmAddObjectDefConstraint(StragglerTreeID, centerConstraintForest2);
-   rmPlaceObjectDefAtLoc(StragglerTreeID, 0, 0.5, 0.5, scalingFactor*40);
+   rmAddObjectDefConstraint(StragglerTreeID, playerConstraint);
+   rmAddObjectDefConstraint(StragglerTreeID, avoidCliffsShort);
+   rmAddObjectDefConstraint(StragglerTreeID, avoidImpassableLand);
+   rmPlaceObjectDefAtLoc(StragglerTreeID, 0, 0.5, 0.5, cNumberNonGaiaPlayers*10);
    
    // Text
    rmSetStatusText("",0.90);

@@ -66,11 +66,13 @@ void main(void)
    }
 
    // Picks the map size
-	int playerTiles= 10500;
-   if (cNumberNonGaiaPlayers >4)
-		playerTiles = 9500;
-   if (cNumberNonGaiaPlayers >6)
-      playerTiles = 8000;
+	int playerTiles= 13000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=12000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=11000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=10000;
 
 	int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles);
 	rmEchoInfo("Map size="+size+"m x "+size+"m");
@@ -564,9 +566,9 @@ void main(void)
 		rmAddAreaToClass(mesaID, rmClassID("canyon"));	// Attempt to keep cliffs away from each other.
 		rmSetAreaCliffEdge(mesaID, 2, 0.4, 0.0, 1.0, 0);
 		if (cliffHeight <= 5)
-			rmSetAreaCliffHeight(mesaID, rmRandInt(5,7), 1.0, 1.0);
+			rmSetAreaCliffHeight(mesaID, rmRandInt(4,5), 1.0, 1.0);
 		else
-			rmSetAreaCliffHeight(mesaID, 7, 1.0, 1.0);
+			rmSetAreaCliffHeight(mesaID, 5, 1.0, 1.0);
 		rmAddAreaConstraint(mesaID, largeAvoidCanyons);
 		rmAddAreaConstraint(mesaID, avoidNativesCanyons);
 		rmSetAreaMinBlobs(mesaID, 3);
@@ -604,7 +606,7 @@ void main(void)
 		rmSetAreaCliffPainting(smallMesaID, false, true, true, 1.5, true);
 		rmAddAreaToClass(smallMesaID, rmClassID("canyon"));	// Attempt to keep cliffs away from each other.
 		rmSetAreaCliffEdge(smallMesaID, 1, 1.0, 0.1, 1.0, 1);
-		rmSetAreaCliffHeight(smallMesaID, rmRandInt(5,7), 1.0, 1.0);
+		rmSetAreaCliffHeight(smallMesaID, rmRandInt(4,5), 1.0, 1.0);
 		rmAddAreaConstraint(smallMesaID, shortAvoidCanyons);
 		rmSetAreaMinBlobs(smallMesaID, 3);
 		rmSetAreaMaxBlobs(smallMesaID, 5);

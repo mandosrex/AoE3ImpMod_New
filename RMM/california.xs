@@ -61,16 +61,15 @@ void main(void)
    }
 
 	// Picks the map size
-	
-	if (rmGetNumberPlayersOnTeam(0) == rmGetNumberPlayersOnTeam(1))
-		int playerTiles=11000;
-	else
+	int playerTiles=15000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=14000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=13000;
+	if (cNumberNonGaiaPlayers > 6)
 		playerTiles=12000;
 
-	if (cNumberNonGaiaPlayers<5)
-		int size=2.4*sqrt(cNumberNonGaiaPlayers*playerTiles);
-	else
-		size=2*sqrt(cNumberNonGaiaPlayers*playerTiles);
+	size=2*sqrt(cNumberNonGaiaPlayers*playerTiles);
 	rmEchoInfo("Map size="+size+"m x "+size+"m");
 	rmSetMapSize(size, size);
 

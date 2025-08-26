@@ -1,0 +1,2836 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Fonts>
+	<Font Name="Arial 10">
+		<param TypeFace="Arial"/>
+		<param AscentHeight="10"/>
+		<param Antialiased="false"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="Arial 12">
+		<param TypeFace="Arial"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="false"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="Arial 14">
+		<param TypeFace="Arial"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="false"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="Arial 16">
+		<param TypeFace="Arial"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="false"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="Arial 32">
+		<param TypeFace="Arial"/>
+		<param AscentHeight="32"/>
+		<param Antialiased="false"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="Arial 48">
+		<param TypeFace="Arial"/>
+		<param AscentHeight="48"/>
+		<param Antialiased="false"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="Arial Outlined 12">
+		<param TypeFace="Arial"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="false"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="true"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="0"/>
+		<param BackgroundAlpha="1.0"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="Arial Nobold Nodrop 12">
+		<param TypeFace="Arial"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="false"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="0"/>
+		<param BackgroundAlpha="0.0"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="Arial Nodrop 12">
+		<param TypeFace="Arial"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="false"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="0"/>
+		<param BackgroundAlpha="0.0"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="Arial Nodrop 14">
+		<param TypeFace="Arial"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="false"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="0"/>
+		<param BackgroundAlpha="0.0"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="Arial Nodrop 16">
+		<param TypeFace="Arial"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="false"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="0"/>
+		<param BackgroundAlpha="0.0"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="ButtonFont 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="PostgameColumnHeadings 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="FieldLabels 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="EntryFields 12">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="ChatOutput 12">
+		<param TypeFace="Arial"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="0"/>
+		<param BackgroundAlpha="0.0"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="SmallLabels 12">
+		<param TypeFace="Arial"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="HelpTitle 18">
+		<param TypeFace="Arial"/>
+		<param AscentHeight="18"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="true"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="0"/>
+		<param BackgroundAlpha="0.0"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="HelpText 14">
+		<param TypeFace="Arial"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="true"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="0"/>
+		<param BackgroundAlpha="0.0"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="Watermark 10">
+		<param TypeFace="Arial"/>
+		<param AscentHeight="10"/>
+		<param Antialiased="false"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="0"/>
+		<param BackgroundAlpha="0.0"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="SmallOnScreenHelp 10">
+		<param TypeFace="Arial"/>
+		<param AscentHeight="10"/>
+		<param Antialiased="false"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="0"/>
+		<param BackgroundAlpha="0.0"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="ImeIndicator 20">
+		<param TypeFace="Arial"/>
+		<param AscentHeight="20"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="0"/>
+		<param BackgroundAlpha="0.0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="11"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1024">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="IPAddy 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="11"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="HistoryTitle 18">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="18"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="11"/>
+			<param BackgroundShadow="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="26"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="HistoryText 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="StatUnitName 18">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="18"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="24"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="28"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="StatUnitNameSmall 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="24"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="StatText 12">
+		<param TypeFace="Franklin Gothic Medium"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="0"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="IngameButtons 18">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="18"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+			<param BackgroundShadow="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="26"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="ScenarioTitle 24">
+		<param TypeFace="Monotype Corsiva"/>
+		<param AscentHeight="30"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="32"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="34"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="GoalText 18">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="18"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="24"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="28"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="ObjectivesText 16">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="24"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="28"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="TeamText 16">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="24"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="NewDescriptions 16">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="24"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="28"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="LargeIngame 24">
+		<param TypeFace="Monotype Corsiva"/>
+		<param AscentHeight="46"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="true"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="28"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="30"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="38"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="42"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="RegularIngame 12">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="true"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="SmallIngame 12">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="10"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="true"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="8"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="VoteIngame 12">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="10"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="true"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="7"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="InGameLabels 18">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="18"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="26"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="InGameDialogs 16">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="24"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="TimerDisplays 12">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="true"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="0"/>
+		<param BackgroundAlpha="1.0"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="TimerDisplays 18">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="18"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="true"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="11"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="26"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="TimerDisplays 16">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="true"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="24"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="28"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="ScoreFont 12">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="true"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="0"/>
+		<param BackgroundAlpha="1.0"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="FloatyText 20">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="20"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="true"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="0"/>
+		<param BackgroundAlpha="1.0"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="18"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="20"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="24"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="NumbersFont 12">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="9"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="SmallButtonFont 10">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="10"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="8"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="8"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="AgeText 12">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="1"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="ChatInput 12">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="0"/>
+		<param BackgroundAlpha="0.0"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="ChatOutline 12">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="true"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="0"/>
+		<param BackgroundAlpha="1.0"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="RolloverFont 12">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="SmallNumbers 10">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="10"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="OverlayNumbers 10">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="1"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="Tooltips_UI">
+		<param TypeFace="Franklin Gothic Medium"/>
+		<param AscentHeight="11"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="0"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="11"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="13"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="17"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="21"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="Tooltips_GameUI">
+		<param TypeFace="Franklin Gothic Medium"/>
+		<param AscentHeight="11"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="0"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="11"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="13"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="17"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="21"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="Tooltips_World">
+		<param TypeFace="Franklin Gothic Medium"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="0"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="Tooltips_HomeCity">
+		<param TypeFace="Franklin Gothic Medium"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="0"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="StatAreaText 12">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="0"/>
+		<param BackgroundAlpha="1.0"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="InGameTabs 18">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="TechTree 11">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="11"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="true"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="6"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="8"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+			<param Bold="true"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="16"/>
+			<param Bold="true"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="TechTreeRollover 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param TypeFace="Formal436 BT"/>
+			<param AscentHeight="8"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="11"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="TechTreeLargeLabels 16">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="AgeUpgradeLarge 26">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="26"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="30"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="32"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="AgeUpgradeMedium 17">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="17"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="11"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="24"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="AgeUpgradeSmall 12">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="InGameDialogsLarge 30">
+		<param TypeFace="Monotype Corsiva"/>
+		<param AscentHeight="32"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="24"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="32"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="34"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="VictoryPointUI 30">
+		<param TypeFace="Monotype Corsiva"/>
+		<param AscentHeight="30"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="true"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="30"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="32"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="ScenarioTitleLarge 26">
+		<param TypeFace="Monotype Corsiva"/>
+		<param AscentHeight="26"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="30"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="34"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="SPCLoadingTitle 40">
+		<param TypeFace="Monotype Corsiva"/>
+		<param AscentHeight="40"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="26"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="30"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="40"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="44"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="SPLoadingScreenText 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="Subtitles 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="SubtitleName 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="SubtitleNameNew 20">
+		<param TypeFace="Monotype Corsiva"/>
+		<param AscentHeight="20"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="16"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="26"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="32"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="RecordGame 12">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="StatsLabels 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="Stats 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="UnitName 16">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="24"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="28"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="SmallIngame 12">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="History 12">
+		<param TypeFace="Arial"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="bold"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="8"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="HelpHelp 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="HelpLabel 16">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="HelpTitleText 20">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="26"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="PostgameTableEntry 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="PostgameTableEntryShadow 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="1"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="PostgameTableEntrySmall 12">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="8"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="PostgameColumnHeader 12">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="8"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="PostgameTab 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="PostgameLabel 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="PostgameButton 18">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="18"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="11"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="26"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="PostgameRollover 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="PickerTitle 16">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+			<param TypeFace="Formal436 BT"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="GodPickerTitles 16">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="PregameHeaders 22">
+		<param TypeFace="Monotype Corsiva"/>
+		<param AscentHeight="28"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="24"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="26"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="30"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="34"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="PregameLarge 30">
+		<param TypeFace="Monotype Corsiva"/>
+		<param AscentHeight="34"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="24"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="30"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="42"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="44"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="ScrollFont 16">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="15"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha=".5"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+			<param TypeFace="Formal436 BT"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="PlayerNames 15">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="15"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param TypeFace="Formal436 BT"/>
+			<param AscentHeight="9"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="TabFont 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="RadioButtons 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="0.5"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="MainMenuButtons 18">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="18"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="11"/>
+			<param BackgroundShadow="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="26"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="PregameButtons 18">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="18"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="11"/>
+			<param BackgroundShadow="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="16"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="26"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="PregameButtonsSmall 16">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="24"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="PregameSmallLabels 15">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="15"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="26"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="PregameEntry 15">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="15"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="PregameRollover 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param TypeFace="Formal436 BT"/>
+			<param AscentHeight="9"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="11"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="PregameChat 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="MotD 16">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="PregameErrorText 16">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="26"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="PregameLabels 18">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="18"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="13"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="26"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="PeopleListItems 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param TypeFace="Formal436 BT"/>
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="CampaignListItem 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+			<param Bold="false"/>
+			<param TypeFace="Formal436 BT"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="GamesListSmallLabels 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="false"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="1"/>
+		<param SpacingAdjustment="0"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="9"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="14"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="GamesListMediumLabels 16">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="true"/>
+		<param BackgroundOffset="1"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="GamesListGameName 16">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="GamesListNumberPlayers 16">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="GamesListGameSetting 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="GamesListPlayerName 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="14"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="AboutBoxVersion 18">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="18"/>
+		<param Antialiased="true"/>
+		<param Bold="true"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="12"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="14"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="24"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="AboutBoxCopyright 18">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="18"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="14"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="24"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="AboutBoxWarning 16">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="14"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="24"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="AboutBoxEntry 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="14"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="24"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="AboutBoxPID 14">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="16"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="14"/>
+			<param Bold="false"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="20"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="24"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="CampaignDescription 15">
+		<param TypeFace="Formal436 BT"/>
+		<param AscentHeight="15"/>
+		<param Antialiased="true"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+		<param BackgroundOffset="2"/>
+		<param BackgroundAlpha="1"/>
+		<ResolutionOverride ResX="640">
+			<param AscentHeight="10"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="800">
+			<param AscentHeight="12"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1280">
+			<param AscentHeight="18"/>
+		</ResolutionOverride>
+		<ResolutionOverride ResX="1600">
+			<param AscentHeight="22"/>
+		</ResolutionOverride>
+	</Font>
+	<Font Name="Courier 12">
+		<param TypeFace="Courier New"/>
+		<param AscentHeight="12"/>
+		<param Antialiased="false"/>
+		<param Bold="false"/>
+		<param Italic="false"/>
+		<param BackgroundOutline="false"/>
+		<param BackgroundShadow="false"/>
+	</Font>
+</Fonts>

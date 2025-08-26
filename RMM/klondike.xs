@@ -17,11 +17,14 @@ void main(void)
 	// ************************************** GENERAL FEATURES *****************************************
 
 	// Picks the map size
-	int playerTiles = 5500; //12000
-	if (cNumberNonGaiaPlayers >= 4)
-		playerTiles = 5200;
-	if (cNumberNonGaiaPlayers >= 6)
-		playerTiles = 4800;
+	int playerTiles = 10000; //12000
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=9000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=8000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=7000;
+
 	int size = 2.0*sqrt(cNumberNonGaiaPlayers*playerTiles); //2.1
 	int longside = 1.6*size;
 	rmSetMapSize(longside, size);

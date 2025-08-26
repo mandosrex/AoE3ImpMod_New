@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomMaps displayNameID="782346" imagepath="ui\random_maps\freeforallmaps" helpTextID="782347" cannotReplace="">
+  <map>arizona</map>
+  <map>bajacalifornia</map>
+  <map>bayou</map>
+  <map>bengal</map>
+  <map>beringstrait</map>
+  <map>cerrado</map>
+  <map>colorado</map>
+  <map>fraserriver</map>
+  <map>granchaco</map>
+  <map>greenland</map>
+  <map>himalayas</map>
+  <map>himalayasup</map>
+  <map>iowa</map>
+  <map>kamchatka</map>
+  <map>karafuto</map>
+  <map>manitoba</map>
+  <map>mendocino</map>
+  <map>nahanni</map>
+  <map>oasis</map>
+  <map>oregon</map>
+  <map>painteddesert</map>
+  <map>rockies</map>
+  <map>texas</map>
+  <map>urals</map>
+  <map>viedma</map>
+  <map>zavkhan</map>
+</randomMaps>

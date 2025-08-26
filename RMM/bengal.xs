@@ -16,9 +16,14 @@ void main(void)
 	// ************************************** GENERAL FEATURES *****************************************
 	
 	// Picks the map size
-	int playerTiles=10500; 
-	if (cNumberNonGaiaPlayers >= 4)
-		playerTiles=10000; 
+	int playerTiles=14000; 
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=13000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=12000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=11000;
+
 	int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles); //2.1
 	rmEchoInfo("Map size="+size+"m x "+size+"m");
 	rmSetMapSize(size, size);
@@ -41,7 +46,7 @@ void main(void)
 	rmSetMapType("grass");
 	rmSetMapType("tropical");
 	rmSetMapType("asia");
-	rmSetLightingSet("deccan");
+	rmSetLightingSet("bayou");
 
 	// Choose Mercs
 	chooseMercs();

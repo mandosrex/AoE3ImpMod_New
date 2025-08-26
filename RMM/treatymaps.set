@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <randomMaps displayNameID="782134" imagepath="ui\random_maps\treatymaps" helpTextID="782135" cannotReplace="">
-  <map>andes</map>
+  <map>andeslow</map>
   <map>appalachians</map>
   <map>arkansas</map>
+  <map>bajacalifornia</map>
+  <map>caucasus</map>
+  <map>chattahoochee</map>
+  <map>colorado</map>
   <map>deccan</map>
   <map>fertilecrescent</map>
   <map>fraserriver</map>
   <map>greatbasin</map>
   <map>highplains</map>
   <map>himalayas</map>
-  <map>hokkaido</map>
   <map>kazakhsteppe</map>
   <map>klondike</map>
   <map>manchuria</map>

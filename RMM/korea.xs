@@ -16,7 +16,7 @@ include "ypKOTHInclude.xs";
   string cliffType = "Korea";
 
   string forestType = "Korean Forest";
-  string startTreeType = "TreeNewEngland";
+  string startTreeType = "TreeKorea";
   
   string mapType1 = "Japan";
 
@@ -230,15 +230,14 @@ void main(void)
    rmSetStatusText("",0.10);
 		
 // Set size of map
-	int playerTiles=27000;
-	if (cNumberNonGaiaPlayers == 3)   // If 3 players...
-		playerTiles = 25000;		// ...give this many tiles per player.
-	if (cNumberNonGaiaPlayers == 4)   // If 4 players...
-		playerTiles = 22000;		// ...give this many tiles per player.
-	if (cNumberNonGaiaPlayers >4)   // If 5 or 6 players...
-		playerTiles = 19000;		// ...give this many tiles per player.
-	if (cNumberNonGaiaPlayers >6)	// If more than 6 players...
-		playerTiles = 15000;		// ...give this many tiles per player.	
+	int playerTiles=25000;
+	if (cNumberNonGaiaPlayers >2)   
+		playerTiles = 24000;	
+	if (cNumberNonGaiaPlayers >4)   
+		playerTiles = 22000;	
+	if (cNumberNonGaiaPlayers >6)	
+		playerTiles = 20000;		
+
 	int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles);
 	int longSide=1.35*size;
 	rmEchoInfo("Map size="+size+"m x "+size+"m");
@@ -729,7 +728,7 @@ void main(void)
    for (i=0; <numCliffs)
    {
       cliffVariety = rmRandInt(1,3);
-	cliffHt = rmRandInt(5,7);    
+	cliffHt = rmRandInt(5,6);    
 	int bigCliffID=rmCreateArea("big cliff" +i);
 	rmSetAreaWarnFailure(bigCliffID, false);
 	rmSetAreaCliffType(bigCliffID, cliffType);

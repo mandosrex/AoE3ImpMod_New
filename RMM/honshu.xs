@@ -388,10 +388,13 @@ void main(void)
 	
 	// Set size of map
 	int playerTiles=29000;
-	if (cNumberNonGaiaPlayers >4)   // If more than 4 players...
-		playerTiles = 24000;		// ...give this many tiles per player.
-	if (cNumberNonGaiaPlayers >7)	// If more than 7 players...
-		playerTiles = 23500;		// ...give this many tiles per player.	
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=27000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=25000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=23000;
+
 	int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles);
 	rmEchoInfo("Map size="+size+"m x "+size+"m");
 	rmSetMapSize(size, size);

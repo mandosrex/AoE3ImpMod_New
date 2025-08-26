@@ -47,11 +47,13 @@ void main(void)
 
    // Picks the map size
    // Picks the map size
-	int playerTiles = 11000;
+	int playerTiles = 15000;
+	if (cNumberNonGaiaPlayers >2)
+		playerTiles = 14000;
 	if (cNumberNonGaiaPlayers >4)
-		playerTiles = 10000;
+		playerTiles = 13000;
 	if (cNumberNonGaiaPlayers >6)
-		playerTiles = 8000;			
+		playerTiles = 12000;			
 
    int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles);
    rmEchoInfo("Map size="+size+"m x "+size+"m");
@@ -132,10 +134,10 @@ void main(void)
    int fishVsFishID=rmCreateTypeDistanceConstraint("fish v fish", "fish", 18.0);
    int fishLand = rmCreateTerrainDistanceConstraint("fish land", "land", true, 8.0);
    int forestObjConstraint=rmCreateTypeDistanceConstraint("forest obj", "all", 6.0);
-   int forestConstraint=rmCreateClassDistanceConstraint("forest vs. forest", rmClassID("classForest"), 30.0);
+   int forestConstraint=rmCreateClassDistanceConstraint("forest vs. forest", rmClassID("classForest"), 20.0);
    int avoidResource=rmCreateTypeDistanceConstraint("resource avoid resource", "resource", 10.0);
    int avoidCoin=rmCreateTypeDistanceConstraint("avoid coin", "gold", 30.0);
-   int avoidNugget=rmCreateTypeDistanceConstraint("nugget avoid nugget", "AbstractNugget", 60.0);
+   int avoidNugget=rmCreateTypeDistanceConstraint("nugget avoid nugget", "AbstractNugget", 50.0);
    
    // Avoid impassable land
    int avoidImpassableLand=rmCreateTerrainDistanceConstraint("avoid impassable land", "Land", false, 4.0);
@@ -227,7 +229,7 @@ void main(void)
  
     // wood resources
    int randomTreeID=rmCreateObjectDef("random tree");
-   rmAddObjectDefItem(randomTreeID, "treeamazon", 1, 0.0);
+   rmAddObjectDefItem(randomTreeID, "treeamazon", 2, 0.0);
    rmSetObjectDefMinDistance(randomTreeID, 0.0);
    rmSetObjectDefMaxDistance(randomTreeID, rmXFractionToMeters(0.5));
    rmAddObjectDefConstraint(randomTreeID, avoidResource);
@@ -999,7 +1001,7 @@ void main(void)
    rmSetStatusText("",0.90);
 
 
-	rmPlaceObjectDefAtLoc(randomTreeID, 0, 0.5, 0.5, 6*cNumberNonGaiaPlayers);
+	rmPlaceObjectDefAtLoc(randomTreeID, 0, 0.5, 0.5, 10*cNumberNonGaiaPlayers);
 
 
 	int capybaraNID=rmCreateObjectDef("north capybara crash");

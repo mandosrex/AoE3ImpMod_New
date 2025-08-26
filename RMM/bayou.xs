@@ -52,12 +52,15 @@ void main(void)
 
    // Picks the map size
    //int playerTiles=14400; // OLD SIZE
-   int playerTiles = 11000;
+   int playerTiles = 14000;
+	if (cNumberNonGaiaPlayers >2)
+		playerTiles = 13000;
 	if (cNumberNonGaiaPlayers >4)
-		playerTiles = 9000;
+		playerTiles = 12000;
 	if (cNumberNonGaiaPlayers >6)
-		playerTiles = 7000;		
-   int size=1.8*sqrt(cNumberNonGaiaPlayers*playerTiles);
+		playerTiles = 11000;
+
+   int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles);
    rmEchoInfo("Map size="+size+"m x "+size+"m");
    rmSetMapSize(size, size);
 
@@ -806,6 +809,13 @@ if ( cNumberTeams == 2 )
 	//rmAddObjectDefConstraint(randomWaterTreeID, nearShore);
 	rmAddObjectDefConstraint(randomWaterTreeID, treeVsLand);
 
+	int randomTreeID=rmCreateObjectDef("random tree");
+	rmAddObjectDefItem(randomTreeID, "TreeBayou", 2, 0.0);
+	rmSetObjectDefMinDistance(randomTreeID, 0.0);
+	rmSetObjectDefMaxDistance(randomTreeID, rmXFractionToMeters(0.5));
+	//rmAddObjectDefConstraint(randomTreeID, nearShore);
+	rmAddObjectDefConstraint(randomTreeID, avoidWater8);
+
 	int randomTurtlesID=rmCreateObjectDef("random turtles in water");
 	rmAddObjectDefItem(randomTurtlesID, "propTurtles", 1, 3.0);
 	rmSetObjectDefMinDistance(randomTurtlesID, 0.0);
@@ -847,6 +857,7 @@ if ( cNumberTeams == 2 )
 	//rmPlaceObjectDefInArea(fishID, 0, bayID, 3*cNumberNonGaiaPlayers);
 
 	rmPlaceObjectDefAtLoc(randomWaterTreeID, 0, 0.5, 0.5, 10*cNumberNonGaiaPlayers);
+	rmPlaceObjectDefAtLoc(randomTreeID, 0, 0.5, 0.5, 20*cNumberNonGaiaPlayers);
 	rmPlaceObjectDefAtLoc(randomTurtlesID, 0, 0.5, 0.5, 2*cNumberNonGaiaPlayers);
 	rmPlaceObjectDefAtLoc(randomWaterRocksID, 0, 0.5, 0.5, 20*cNumberNonGaiaPlayers);
 	rmPlaceObjectDefAtLoc(randomGeeseID, 0, 0.5, 0.5, 2*cNumberNonGaiaPlayers);

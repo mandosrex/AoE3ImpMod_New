@@ -42,11 +42,13 @@ void main(void)
 	// Which map - four possible variations (excluding which end the players start on, which is a separate thing)
 
    // Picks the map size
-	int playerTiles=11500;
+	int playerTiles=12500;
 	if (cNumberNonGaiaPlayers<3)
-		int size=2.3*sqrt(cNumberNonGaiaPlayers*playerTiles);
+		int size=2.2*sqrt(cNumberNonGaiaPlayers*playerTiles);
+	else if (cNumberNonGaiaPlayers<7)
+		size=2.1*sqrt(cNumberNonGaiaPlayers*playerTiles);
 	else
-		size=2.2*sqrt(cNumberNonGaiaPlayers*playerTiles);
+		size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles);
 	rmEchoInfo("Map size="+size+"m x "+size+"m");
 	rmSetMapSize(size, size);
 	

@@ -52,11 +52,14 @@ void main(void)
 	}
 	
 	// Set size of map
-	int playerTiles=23500;
-	if (cNumberNonGaiaPlayers >4)   // If more than 4 players...
-		playerTiles = 18000;		// ...give this many tiles per player.
-	if (cNumberNonGaiaPlayers >7)	// If more than 7 players...
-		playerTiles = 20000;		// ...give this many tiles per player.	
+	int playerTiles=23000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=22000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=21000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=20000;
+
 	int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles);
 	rmSetMapSize(size, size);
 
@@ -65,7 +68,7 @@ void main(void)
 	rmSetSeaType("caribbean coast");
 	rmSetBaseTerrainMix("caribbean grass");
 	rmSetMapType("caribbean");
-	rmSetMapType("grass");
+	rmSetMapType("tropical");
 	rmSetMapType("water");
 	rmSetMapType("samerica");
 	rmSetMapType("AIFishingUseful");

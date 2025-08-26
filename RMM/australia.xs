@@ -49,13 +49,13 @@ void main(void)
    int trPattern = rmRandInt(1,2);
 
 // Picks the map size
-   int playerTiles = 15500;
-   if (cNumberNonGaiaPlayers >6)
-	playerTiles = 12000;
+   int playerTiles = 14000;
+   if (cNumberNonGaiaPlayers >2)
+	playerTiles = 13000;
    else if (cNumberNonGaiaPlayers >4)
-      playerTiles = 13500;
-   else if (cNumberNonGaiaPlayers >2)
-      playerTiles = 14500;			
+	playerTiles = 12000;
+   else if (cNumberNonGaiaPlayers >6)
+	playerTiles = 11000;			
 
    int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles);
    rmEchoInfo("Map size="+size+"m x "+size+"m");

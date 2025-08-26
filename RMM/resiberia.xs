@@ -55,7 +55,7 @@ void main(void)
 	if (cNumberNonGaiaPlayers >4)
 		playerTiles =20000;
 	if (cNumberNonGaiaPlayers >6)
-		playerTiles = 19000;
+		playerTiles = 18000;
     
   if (weird == true) 
     playerTiles = playerTiles*1.5;

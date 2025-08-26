@@ -1,0 +1,29 @@
+<ImeSettings>
+	<Appearance
+		symbolColor            = "0x00990099"
+		symbolColorOff         = "0x00990099"
+		symbolColorText        = "0xffffffff"
+		symbolHeight           = "24"
+		symbolTranslucence     = "0x40"
+		candColorBase          = "0xffffffff"
+		candColorBorder        = "0xff000000"
+		candColorText          = "0xff404040"
+		compColorInput         = "0x00FFFFCC"
+		compColorTargetConv    = "0x00c99ccff"
+		compColorConverted     = "0x009966ff"
+		compColorTargetNotConv = "0x00ff9933"
+		compColorInputErr      = "0x00c04040"
+		compTranslucence       = "0xc0"
+		compColorText          = "0"
+	/>
+	<ResolutionOverride ResX="640" symbolHeight="16"/>
+	<ResolutionOverride ResX="800" symbolHeight="20"/>
+	<ResolutionOverride ResX="1024" symbolHeight="26"/>
+	<ResolutionOverride ResX="1280" symbolHeight="32"/>
+	<ResolutionOverride ResX="1366" symbolHeight="32"/>
+	<ResolutionOverride ResX="1440" symbolHeight="42"/>
+	<ResolutionOverride ResX="1600" symbolHeight="42"/>
+	<ResolutionOverride ResX="1920" symbolHeight="52"/>
+	<ResolutionOverride ResX="2560" symbolHeight="52"/>
+	<ResolutionOverride ResX="3840" symbolHeight="62"/>
+</ImeSettings>

@@ -93,7 +93,14 @@ void main(void)
    */
 
    // Picks the map size
-   int playerTiles=11500;
+   	int playerTiles=13000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=12000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=11000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=10000;
+
    int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles);
    rmEchoInfo("Map size="+size+"m x "+size+"m");
    rmSetMapSize(size, size);
@@ -237,7 +244,7 @@ void main(void)
    if ( cNumberTeams > 2 )
    {
 		rmSetTeamSpacingModifier(0.75);
-		rmSetPlacementSection(0.15, 0.85); // 0.5
+		//rmSetPlacementSection(0.15, 0.85); // 0.5
 		rmPlacePlayersCircular(0.35, 0.35, 0);
    }
    else

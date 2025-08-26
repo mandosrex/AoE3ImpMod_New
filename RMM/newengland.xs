@@ -65,9 +65,13 @@ void main(void)
 	float handedness = rmRandFloat(0, 1);
 
    // Picks the map size
-	int playerTiles=12500;
-   if (cNumberNonGaiaPlayers >4)
-		playerTiles = 11500;
+	int playerTiles=15000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=14000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=13000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=12000;
 
    // Picks default terrain and water
    rmSetSeaType("new england coast");

@@ -18,13 +18,14 @@ void main(void)
 	// ____________________ General ____________________
 	
 	// Picks the map size
-	int playerTiles=11000;
-	if (cNumberNonGaiaPlayers >= 4){
-		playerTiles = 10000;
-	}
-	else if (cNumberNonGaiaPlayers >= 6){
-		playerTiles = 9000;
-	}
+	int playerTiles=13000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=12000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=11000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=10000;
+
 	int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles);
 	rmSetMapSize(size, size);
 
@@ -1048,7 +1049,7 @@ void main(void)
 	for (i=0; < 10+1*cNumberNonGaiaPlayers)
 	{
 		int randomtreeID = rmCreateObjectDef("random tree "+i);
-		rmAddObjectDefItem(randomtreeID, "TreeNorthwestTerritory", rmRandInt(3,6), 2.0);
+		rmAddObjectDefItem(randomtreeID, "TreeNorthwestTerritory", rmRandInt(4,8), 2.0);
 		rmSetObjectDefMinDistance(randomtreeID,  rmXFractionToMeters(0.15));
 		rmSetObjectDefMaxDistance(randomtreeID,  rmXFractionToMeters(0.48));
 		rmAddObjectDefToClass(randomtreeID, classForest);
@@ -1068,7 +1069,7 @@ void main(void)
 	for (i=0; < 10+1*cNumberNonGaiaPlayers)
 	{
 		int randomtree2ID = rmCreateObjectDef("random tree2 "+i);
-		rmAddObjectDefItem(randomtree2ID, "TreeNorthwestTerritory", rmRandInt(3,6), 2.0);
+		rmAddObjectDefItem(randomtree2ID, "TreeNorthwestTerritory", rmRandInt(4,8), 2.0);
 		rmSetObjectDefMinDistance(randomtree2ID,  rmXFractionToMeters(0.15));
 		rmSetObjectDefMaxDistance(randomtree2ID,  rmXFractionToMeters(0.48));
 		rmAddObjectDefToClass(randomtree2ID, classForest);

@@ -100,13 +100,14 @@ void main(void)
 
    // Picks the map size
    //int playerTiles=12000;	// old settings
-	int playerTiles = 10000;
-	if (cNumberNonGaiaPlayers == 2)
-		playerTiles = 12000;
-	if (cNumberNonGaiaPlayers >4)
-		playerTiles = 9000;
-	if (cNumberNonGaiaPlayers >6)
-		playerTiles = 9000;		
+	int playerTiles = 14000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=13000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=12000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=11000;
+
  /*  if(cMapSize == 1)
    {
       playerTiles = 16000;			// DAL modified from 18K

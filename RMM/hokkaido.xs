@@ -7,12 +7,13 @@ include "ypKOTHInclude.xs";
 void main(void) {
  
    // Picks the map size
-	int playerTiles=11000;
-	if (cNumberNonGaiaPlayers > 4){
-		playerTiles = 10000;
-	}else if (cNumberNonGaiaPlayers > 6){
-		playerTiles = 8500;
-	}
+	int playerTiles=21000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=20000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=19000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=18000;
 	
 	int size = 2.0 * sqrt(cNumberNonGaiaPlayers*playerTiles);
 	rmSetMapSize(size, size);
@@ -68,27 +69,60 @@ void main(void) {
        
 		int avoidNugget=rmCreateTypeDistanceConstraint("nugget avoid nugget", "AbstractNugget", 60.0);
 	int avoidImpassableLand=rmCreateTerrainDistanceConstraint("avoid impassable land", "Land", false, 6.0);
+		int avoidCastle=rmCreateTypeDistanceConstraint("vs Regicide Castle", "ypCastleRegicide", 5.0);
+	int avoidAll=rmCreateTypeDistanceConstraint("avoid all", "all", 4.0);
 
 		rmSetStatusText("",0.10);
 
        
  	// Player placing  
-    float spawnSwitch = rmRandFloat(0,1.2);
 
-	if (cNumberTeams == 2){
-		if (spawnSwitch <=0.6){
-			rmSetPlacementTeam(0);
-			rmPlacePlayersLine(0.2, 0.35, 0.4, 0.15, 0, 0);
-			rmSetPlacementTeam(1);
-			rmPlacePlayersLine(0.65, 0.8, 0.85, 0.6, 0, 0);
-		}else if(spawnSwitch <=1.2){
-			rmSetPlacementTeam(1);
-			rmPlacePlayersLine(0.65, 0.8, 0.85, 0.6, 0, 0);
-			rmSetPlacementTeam(0);
-			rmPlacePlayersLine(0.2, 0.35, 0.4, 0.15, 0, 0);
-		}
-	}else{
-		rmPlacePlayersCircular(0.38, 0.38, 0.02);
+	float teamStartLoc = rmRandFloat(0.0, 1.0);  //This chooses a number randomly between 0 and 1, used to pick whether team 1 is on top or bottom.
+
+  if (cNumberTeams == 2 ) {
+    if (cNumberNonGaiaPlayers == 2) {
+      if (teamStartLoc > 0.5) {
+        rmSetPlacementTeam(0);
+        rmPlacePlayersLine(0.75, 0.75, 0.7, 0.7, 0.1, 0);
+          
+        rmSetPlacementTeam(1);
+        rmPlacePlayersLine(0.25, 0.25, 0.3, 0.3, 0.1, 0);                
+      }
+      else {
+        rmSetPlacementTeam(1);
+        rmPlacePlayersLine(0.25, 0.25, 0.3, 0.3, 0.1, 0);    
+          
+        rmSetPlacementTeam(0);
+        rmPlacePlayersLine(0.75, 0.75, 0.7, 0.7, 0.1, 0);                  
+      }
+    } 
+    else {
+      //Team 0 starts on top
+      if (teamStartLoc > 0.5) {
+        rmSetPlacementTeam(0);
+        rmSetPlayerPlacementArea(0.4, 0.4, 0.2, 0.2);    
+        rmPlacePlayersCircular(10.5, 10.5, 0); 
+      
+        rmSetPlacementTeam(1);
+        rmSetPlayerPlacementArea(0.6, 0.6, 0.8, 0.8);    
+        rmPlacePlayersCircular(10.5, 10.5, 0);
+      }
+      else {
+        rmSetPlacementTeam(0);
+        rmSetPlayerPlacementArea(0.6, 0.6, 0.8, 0.8);    
+        rmPlacePlayersCircular(10.5, 10.5, 0);
+          
+        rmSetPlacementTeam(1);
+        rmSetPlayerPlacementArea(0.4, 0.4, 0.2, 0.2);    
+        rmPlacePlayersCircular(10.5, 10.5, 0); 
+      }     
+    }
+  }
+
+	// otherwise FFA
+	else
+	{
+    rmPlacePlayersLine(0.77, 0.77, 0.23, 0.23, 0.3, 0.2);
 	}
 	
 
@@ -269,6 +303,26 @@ void main(void) {
         rmSetObjectDefMinDistance(foodID3, 60.0);
         rmSetObjectDefMaxDistance(foodID3, 65.0);
         rmSetObjectDefCreateHerd(foodID3, true);
+
+  int playerCastle=rmCreateObjectDef("Castle");
+  rmAddObjectDefItem(playerCastle, "ypCastleRegicide", 1, 0.0);
+  rmAddObjectDefConstraint(playerCastle, avoidAll);
+  rmAddObjectDefConstraint(playerCastle, avoidImpassableLand);
+	rmSetObjectDefMinDistance(playerCastle, 18.0);	
+	rmSetObjectDefMaxDistance(playerCastle, 23.0);
+
+  int playerWalls = rmCreateGrouping("regicide walls", "regicide_walls");
+  rmAddGroupingToClass(playerWalls, rmClassID("importantItem"));
+  rmAddGroupingConstraint(playerWalls, avoidImpassableLand);
+  rmSetGroupingMinDistance(playerWalls, 0.0);
+  rmSetGroupingMaxDistance(playerWalls, 2.0);
+
+  int playerDaimyo=rmCreateObjectDef("Daimyo");
+  rmAddObjectDefItem(playerDaimyo, "ypDaimyoRegicide", 1, 0.0);
+  rmAddObjectDefConstraint(playerDaimyo, avoidAll);
+  rmSetObjectDefMinDistance(playerDaimyo, 7.0);	
+  rmSetObjectDefMaxDistance(playerDaimyo, 10.0);
+
                
     for(i=1; < cNumberNonGaiaPlayers + 1) {
 		int id=rmCreateArea("Player"+i);
@@ -283,9 +337,15 @@ void main(void) {
 	rmAddObjectDefItem(startID, "TownCenter", 1, 5.0);
 	}
 		rmSetObjectDefMinDistance(startID, 0.0);
-		rmSetObjectDefMaxDistance(startID, 7.0);
+		rmSetObjectDefMaxDistance(startID, 5.0);
 
 		rmPlaceObjectDefAtLoc(startID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
+		rmPlaceObjectDefAtLoc(playerDaimyo, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
+		if (rmGetNomadStart() == false)
+		{
+		rmPlaceGroupingAtLoc(playerWalls, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
+		}
+
         rmPlaceObjectDefAtLoc(berryID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
         rmPlaceObjectDefAtLoc(treeID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
         rmPlaceObjectDefAtLoc(foodID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
@@ -544,6 +604,25 @@ void main(void) {
 	rmAddObjectDefConstraint(rainMines, avoidSnow);
 	rmAddObjectDefConstraint(rainMines, avoidGrass);
 	rmPlaceObjectDefAtLoc(rainMines, 0, 0.5, 0.5, 2*cNumberNonGaiaPlayers);
+
+
+  // Regicide Triggers
+	for(i=1; <= cNumberNonGaiaPlayers) {
+    
+    // Lose on Daimyo's death
+    rmCreateTrigger("DaimyoDeath"+i);
+    rmSwitchToTrigger(rmTriggerID("DaimyoDeath"+i));
+    rmSetTriggerPriority(4); 
+    rmSetTriggerActive(true);
+    rmSetTriggerRunImmediately(true);
+    rmSetTriggerLoop(false);
+    
+    rmAddTriggerCondition("Is Dead");
+    rmSetTriggerConditionParamInt("SrcObject", rmGetUnitPlacedOfPlayer(playerDaimyo, i), false);
+    
+    rmAddTriggerEffect("Set Player Defeated");
+    rmSetTriggerEffectParamInt("Player", i, false);
+  }
 
 
    // check for KOTH game mode

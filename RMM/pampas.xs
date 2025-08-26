@@ -39,16 +39,22 @@ void main(void)
 
 // *************************** MAP PARAMETERS **************************
    //int playerTiles=11000;		// OLD SIZE
-	int playerTiles = 10000;
-	if (cNumberNonGaiaPlayers >4)
-		playerTiles = 8000;
-	if (cNumberNonGaiaPlayers >6)
-		playerTiles = 6000;		
+	int playerTiles = 13000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=12000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=11000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=10000;
+
+/*
 	if(cMapSize == 1)
 	{
 		playerTiles = 15000;			// DAL modified from 18K
 		rmEchoInfo("Large map");
 	}
+*/
+
 	int size=1.7*sqrt(cNumberNonGaiaPlayers*playerTiles);
 	int longSide=1.4*size;      // 'Longside' is used to make the map rectangular
 	rmEchoInfo("Map size="+size+"m x "+longSide+"m");

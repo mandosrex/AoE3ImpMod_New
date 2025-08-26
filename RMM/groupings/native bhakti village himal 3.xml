@@ -8,13 +8,10 @@
 	<units>
 		<unit variation ="158" posx ="9.6970" posz ="-8.6303" orientx ="0.9928" orienty ="0.0000" orientz ="-0.1195">ypSMDeccanAccessory</unit>
 		<unit variation ="171" posx ="-1.5648" posz ="-5.9531" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypSocketBhakti</unit>
-		<unit variation ="178" posx ="5.5510" posz ="-6.6962" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleBhakti</unit>
 		<unit variation ="10" posx ="5.7131" posz ="-6.6956" orientx ="0.0054" orienty ="0.0000" orientz ="-1.0000">ypSMBhaktiWoman</unit>
 		<unit variation ="78" posx ="-9.1283" posz ="-5.8582" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">ypNativeTempleBhakti</unit>
 		<unit variation ="217" posx ="6.3561" posz ="-2.0233" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
 		<unit variation ="237" posx ="-8.5724" posz ="-0.5027" orientx ="-0.1193" orienty ="0.0000" orientz ="0.9929">ypSMDeccanAccessory</unit>
-		<unit variation ="54" posx ="-1.1956" posz ="-0.9833" orientx ="-0.0073" orienty ="0.0000" orientz ="-1.0000">ypSMDeccanAccessory</unit>
-		<unit variation ="80" posx ="10.4269" posz ="-0.9768" orientx ="1.0000" orienty ="0.0000" orientz ="-0.0041">ypSMDeccanAccessory</unit>
 		<unit variation ="253" posx ="4.5821" posz ="1.7881" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">ypNativeTempleBhakti</unit>
 		<unit variation ="163" posx ="-2.2064" posz ="1.9731" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
 		<unit variation ="11" posx ="-7.6076" posz ="1.2755" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>

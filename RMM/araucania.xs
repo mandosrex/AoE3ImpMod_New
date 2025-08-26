@@ -42,7 +42,14 @@ void main(void)
 
 // Map Setup
    // Setting up how big the map is and that it is rectangular
-   int playerTiles = 13250;
+   int playerTiles = 15000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=14000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=13000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=12000;
+
    int size = 1.4 * sqrt(cNumberNonGaiaPlayers * playerTiles);
    int longSide = 1.7 * size;
    

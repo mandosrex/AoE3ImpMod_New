@@ -24,7 +24,7 @@ void main(void)
 
 
 	int playerTiles = 13000;
-	if (cNumberNonGaiaPlayers == 2)
+	if (cNumberNonGaiaPlayers >2)
 		playerTiles = 12000;
 	if (cNumberNonGaiaPlayers >4)
 		playerTiles = 11000;

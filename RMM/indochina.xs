@@ -67,11 +67,13 @@ void main(void)
   }
 	
 // Map Basics
-	int playerTiles = 15500;
-	if (cNumberNonGaiaPlayers >4)
-		playerTiles = 15000;
-	if (cNumberNonGaiaPlayers >6)
-		playerTiles = 14500;		
+	int playerTiles = 18000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=17000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=16000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=15000;
 
 	int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles);
 	rmEchoInfo("Map size="+size+"m x "+size+"m");

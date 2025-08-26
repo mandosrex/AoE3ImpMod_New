@@ -53,10 +53,13 @@ void main(void)
 	int whichMap=2;
 
    // Picks the map size
-	if (cNumberNonGaiaPlayers < 5)
-		int playerTiles=10000;
-	else
-		playerTiles=14000;
+	int playerTiles=14000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=13000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=12000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=11000;
 
 
 	int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles);

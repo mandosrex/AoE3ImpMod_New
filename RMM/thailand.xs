@@ -17,13 +17,13 @@ void main(void) {
 
 
    // Picks the map size
-	int playerTiles=11000;
-	if (cNumberNonGaiaPlayers > 4){
-		playerTiles = 10000;
-	}else if (cNumberNonGaiaPlayers > 6){
-		playerTiles = 8500;
-	}
-
+	int playerTiles=13000;
+	if (cNumberNonGaiaPlayers > 2)
+		playerTiles=12000;
+	if (cNumberNonGaiaPlayers > 4)
+		playerTiles=11000;
+	if (cNumberNonGaiaPlayers > 6)
+		playerTiles=10000;
 
 
 	int size = 2.0 * sqrt(cNumberNonGaiaPlayers*playerTiles);

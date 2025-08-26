@@ -62,7 +62,7 @@ void main(void)
    else if (cNumberNonGaiaPlayers == 5)
 	playerTiles = 13500;
    else if (cNumberNonGaiaPlayers == 4)
-	playerTiles = 4000;
+	playerTiles = 14000;
    else if (cNumberNonGaiaPlayers == 3)
 	playerTiles = 14500;
 
@@ -737,7 +737,7 @@ if (trPattern == 2) // 2 opposite inner semicircular routes
 	rmAddTradeRouteWaypoint(tradeRouteID, 0.65, 0.7);
 	rmAddTradeRouteWaypoint(tradeRouteID, 1.0, 0.6);
    }
-   rmBuildTradeRoute(tradeRouteID, "dirt");
+   rmBuildTradeRoute(tradeRouteID, "water");
 
    // second route
    int tradeRouteID2 = rmCreateTradeRoute();
@@ -757,7 +757,7 @@ if (trPattern == 2) // 2 opposite inner semicircular routes
 	rmAddTradeRouteWaypoint(tradeRouteID2, 0.65, 0.3);
 	rmAddTradeRouteWaypoint(tradeRouteID2, 1.0, 0.4);
    }
-   rmBuildTradeRoute(tradeRouteID2, "carolinas\trade_route");	
+   rmBuildTradeRoute(tradeRouteID2, "water");	
 }
 else if (trPattern == 4)  // two side-to-side
 {
@@ -800,7 +800,7 @@ else if (trPattern == 4)  // two side-to-side
 	rmAddTradeRouteWaypoint(tradeRouteID4, 0.22, 0.63);
 	rmAddTradeRouteWaypoint(tradeRouteID4, 0.0, 0.67);
    }
-   rmBuildTradeRoute(tradeRouteID4, "carolinas\trade_route");
+   rmBuildTradeRoute(tradeRouteID4, "water");
 
    int tradeRouteID4A = rmCreateTradeRoute();
    if (axisChance == 1) 
@@ -841,7 +841,7 @@ else if (trPattern == 4)  // two side-to-side
 	rmAddTradeRouteWaypoint(tradeRouteID4A, 0.22, 0.37);
 	rmAddTradeRouteWaypoint(tradeRouteID4A, 0.0, 0.33);
    }
-   rmBuildTradeRoute(tradeRouteID4A, "dirt");
+   rmBuildTradeRoute(tradeRouteID4A, "water");
 }
 else if (trPattern == 3)  // two opposite parabolas
 {
@@ -880,7 +880,7 @@ else if (trPattern == 3)  // two opposite parabolas
 	else
 	   rmAddTradeRouteWaypoint(tradeRouteID3, 0.0, 0.85);
    }
-   rmBuildTradeRoute(tradeRouteID3, "carolinas\trade_route");
+   rmBuildTradeRoute(tradeRouteID3, "water");
 
    int tradeRouteID3A = rmCreateTradeRoute();
    if (axisChance == 1) 
@@ -917,7 +917,7 @@ else if (trPattern == 3)  // two opposite parabolas
 	else
 	   rmAddTradeRouteWaypoint(tradeRouteID3A, 0.0, 0.15);
    }
-   rmBuildTradeRoute(tradeRouteID3A, "dirt");
+   rmBuildTradeRoute(tradeRouteID3A, "water");
 }
 else if (trPattern == 1)  // 2 'semicircular' middle routes
 {
@@ -932,7 +932,7 @@ else if (trPattern == 1)  // 2 'semicircular' middle routes
       rmAddTradeRouteWaypoint(tradeRouteID1, 0.75, 0.76);
       rmAddTradeRouteWaypoint(tradeRouteID1, 0.8, 0.72);
       rmAddTradeRouteWaypoint(tradeRouteID1, 1.0, 0.62);
-      rmBuildTradeRoute(tradeRouteID1, "carolinas\trade_route");	
+      rmBuildTradeRoute(tradeRouteID1, "water");	
 
       rmAddTradeRouteWaypoint(tradeRouteID1A, 1.0, 0.38);
       rmAddTradeRouteWaypoint(tradeRouteID1A, 0.8, 0.28);
@@ -941,7 +941,7 @@ else if (trPattern == 1)  // 2 'semicircular' middle routes
       rmAddTradeRouteWaypoint(tradeRouteID1A, 0.25, 0.24);
       rmAddTradeRouteWaypoint(tradeRouteID1A, 0.2, 0.28);
       rmAddTradeRouteWaypoint(tradeRouteID1A, 0.0, 0.38);
-      rmBuildTradeRoute(tradeRouteID1A, "dirt");
+      rmBuildTradeRoute(tradeRouteID1A, "water");
    }
    else if (axisChance == 1)
    {	
@@ -952,7 +952,7 @@ else if (trPattern == 1)  // 2 'semicircular' middle routes
       rmAddTradeRouteWaypoint(tradeRouteID1, 0.76, 0.25);
       rmAddTradeRouteWaypoint(tradeRouteID1, 0.72, 0.2);
       rmAddTradeRouteWaypoint(tradeRouteID1, 0.62, 0.0);
-      rmBuildTradeRoute(tradeRouteID1, "carolinas\trade_route");	
+      rmBuildTradeRoute(tradeRouteID1, "water");	
 
       rmAddTradeRouteWaypoint(tradeRouteID1A, 0.38, 0.0);
       rmAddTradeRouteWaypoint(tradeRouteID1A, 0.28, 0.2);
@@ -960,7 +960,7 @@ else if (trPattern == 1)  // 2 'semicircular' middle routes
       rmAddTradeRouteWaypoint(tradeRouteID1A, 0.2, 0.5);
       rmAddTradeRouteWaypoint(tradeRouteID1A, 0.28, 0.8);
       rmAddTradeRouteWaypoint(tradeRouteID1A, 0.38, 1.0);
-      rmBuildTradeRoute(tradeRouteID1A, "dirt");
+      rmBuildTradeRoute(tradeRouteID1A, "water");
    }
 }
 else if (trPattern == 5)  // 2 diagonal routes
@@ -976,7 +976,7 @@ else if (trPattern == 5)  // 2 diagonal routes
       rmAddTradeRouteWaypoint(tradeRouteID5, 0.75, 0.78);
       rmAddTradeRouteWaypoint(tradeRouteID5, 0.85, 0.82);
       rmAddTradeRouteWaypoint(tradeRouteID5, 1.0, 0.86);
-      rmBuildTradeRoute(tradeRouteID5, "carolinas\trade_route");	
+      rmBuildTradeRoute(tradeRouteID5, "water");	
 
       rmAddTradeRouteWaypoint(tradeRouteID5A, 1.0, 0.38);
       rmAddTradeRouteWaypoint(tradeRouteID5A, 0.85, 0.34);
@@ -985,7 +985,7 @@ else if (trPattern == 5)  // 2 diagonal routes
       rmAddTradeRouteWaypoint(tradeRouteID5A, 0.25, 0.22);
       rmAddTradeRouteWaypoint(tradeRouteID5A, 0.15, 0.18);
       rmAddTradeRouteWaypoint(tradeRouteID5A, 0.0, 0.14);
-      rmBuildTradeRoute(tradeRouteID5A, "dirt");
+      rmBuildTradeRoute(tradeRouteID5A, "water");
    }
    else if (axisChance == 1)
    {	
@@ -996,7 +996,7 @@ else if (trPattern == 5)  // 2 diagonal routes
       rmAddTradeRouteWaypoint(tradeRouteID5, 0.78, 0.25);
       rmAddTradeRouteWaypoint(tradeRouteID5, 0.82, 0.2);
       rmAddTradeRouteWaypoint(tradeRouteID5, 0.86, 0.0);
-      rmBuildTradeRoute(tradeRouteID5, "carolinas\trade_route");	
+      rmBuildTradeRoute(tradeRouteID5, "water");	
 
       rmAddTradeRouteWaypoint(tradeRouteID5A, 0.38, 0.0);
       rmAddTradeRouteWaypoint(tradeRouteID5A, 0.34, 0.15);
@@ -1005,7 +1005,7 @@ else if (trPattern == 5)  // 2 diagonal routes
       rmAddTradeRouteWaypoint(tradeRouteID5A, 0.22, 0.75);
       rmAddTradeRouteWaypoint(tradeRouteID5A, 0.18, 0.85);
       rmAddTradeRouteWaypoint(tradeRouteID5A, 0.14, 1.0);
-      rmBuildTradeRoute(tradeRouteID5A, "dirt");
+      rmBuildTradeRoute(tradeRouteID5A, "water");
    }
 }
 
@@ -1838,15 +1838,15 @@ else if (trPattern == 5) //  2 diagonals
 // Main forests
    int forestChance = -1;
 
-      numTries=11*cNumberNonGaiaPlayers;
+      numTries=19*cNumberNonGaiaPlayers;
       if (cNumberNonGaiaPlayers == 3)
-         numTries=10*cNumberNonGaiaPlayers; 
+         numTries=18*cNumberNonGaiaPlayers; 
       if (cNumberNonGaiaPlayers > 3)
-         numTries=9*cNumberNonGaiaPlayers;  
+         numTries=17*cNumberNonGaiaPlayers;  
       if (cNumberNonGaiaPlayers > 5)
-         numTries=8*cNumberNonGaiaPlayers;  
+         numTries=16*cNumberNonGaiaPlayers;  
       if (cNumberNonGaiaPlayers > 7)
-         numTries=7*cNumberNonGaiaPlayers;   
+         numTries=15*cNumberNonGaiaPlayers;   
 
    failCount=0;
    for (i=0; <numTries)
@@ -2052,13 +2052,13 @@ else if (trPattern == 5) //  2 diagonals
    rmSetStatusText("",0.90);
 
 // Random trees
-   int numTrees = cNumberNonGaiaPlayers*9;
+   int numTrees = cNumberNonGaiaPlayers*19;
    if (cNumberNonGaiaPlayers == 2)
-	numTrees = cNumberNonGaiaPlayers*15;
+	numTrees = cNumberNonGaiaPlayers*19;
    if (cNumberNonGaiaPlayers == 3)
-	numTrees = cNumberNonGaiaPlayers*13;
+	numTrees = cNumberNonGaiaPlayers*17;
    if (cNumberNonGaiaPlayers == 4)
-	numTrees = cNumberNonGaiaPlayers*11;
+	numTrees = cNumberNonGaiaPlayers*15;
    int StragglerTreeID=rmCreateObjectDef("stragglers");
    rmAddObjectDefItem(StragglerTreeID, treeType, 2, 0.0);
    rmAddObjectDefConstraint(StragglerTreeID, avoidAll);

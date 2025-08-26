@@ -77,13 +77,13 @@ void main(void)
    int forestDist = rmRandInt(10,15);
 
 // Picks the map size
-   int playerTiles=18500;  
-   if (cNumberNonGaiaPlayers > 7)
-	playerTiles = 15000;  
-   else if (cNumberNonGaiaPlayers > 5)
+   int playerTiles=18000;  
+   if (cNumberNonGaiaPlayers > 2)
+	playerTiles = 17000;  
+   else if (cNumberNonGaiaPlayers > 4)
 	playerTiles = 16000;  
-   else if (cNumberNonGaiaPlayers > 3)
-	playerTiles = 17000; 
+   else if (cNumberNonGaiaPlayers > 6)
+	playerTiles = 15000; 
 
    int size=2.0*sqrt(cNumberNonGaiaPlayers*playerTiles);
    rmEchoInfo("Map size="+size+"m x "+size+"m");

@@ -15,11 +15,12 @@ void main(void)
 
 // ********************** MAP PARAMETERS *********************
    // Map size
-   int playerTiles = 12000;
+   int playerTiles = 14000;
    if (cNumberNonGaiaPlayers >4)
-	playerTiles = 10000;
+	playerTiles = 12000;
    if (cNumberNonGaiaPlayers >6)
-	playerTiles = 8000;
+	playerTiles = 10000;
+
 // size reset for Regicide		
    int size=2.1*sqrt(cNumberNonGaiaPlayers*playerTiles);
    int longSide=1.4*size;      // 'Longside' is used to make the map rectangular
