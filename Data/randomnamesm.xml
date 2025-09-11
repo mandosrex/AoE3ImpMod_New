@@ -14,7 +14,7 @@
 		</civ>
 		<civ>
 			SPCAct1
-			<title>La Valette</title>
+			<title>Vittoriosa</title>
 			<title>St. Julian</title>
 			<title>St. Michel</title>
 			<title>Mdina</title>
@@ -188,6 +188,14 @@
 			<title>Werden</title>
 			<title>Ulrika Eleanora</title>
 		</civ>
+		<civ>
+			Maltese
+			<title>Vittoriosa</title>
+			<title>St. Julian</title>
+			<title>St. Michel</title>
+			<title>Mdina</title>
+			<title>Senglea</title>
+		</civ>
 	</protounit>
 	<protounit>
 		Corvette
@@ -241,6 +249,7 @@
 			<title>Cypress</title>
 			<title>Comino</title>
 			<title>Bormula</title>
+			<title>St. Louis</title>
 		</civ>
 		<civ>
 			SPCAct2
@@ -383,6 +392,14 @@
 			<title>Bramare</title>
 			<title>Vestervik</title>
 			<title>Wismar</title>
+		</civ>
+		<civ>
+			Maltese
+			<title>Gozo</title>
+			<title>Cypress</title>
+			<title>Comino</title>
+			<title>Bormula</title>
+			<title>St. Louis</title>
 		</civ>
 	</protounit>
 	<protounit>
@@ -590,6 +607,78 @@
 		</civ>
 	</protounit>
 	<protounit>
+		Battleship
+		<civ>
+			Default
+			<title>Battleship</title>
+		</civ>
+		<civ>
+			British
+			<title>HMS Dreadnought</title>
+			<title>HMS Bellerophon</title>
+		</civ>
+		<civ>
+			SPCAct3
+			<title>USS Iowa</title>
+			<title>USS Indiana</title>
+		</civ>
+		<civ>
+			USA
+			<title>USS Iowa</title>
+			<title>USS Indiana</title>
+		</civ>
+		<civ>
+			Dutch
+			<title>Zr.Ms. Holland</title>
+			<title>Zr.Ms. Zeeland</title>
+		</civ>
+		<civ>
+			French
+			<title>NMI Courbet</title>
+			<title>NMI Jean Bart</title>
+		</civ>
+		<civ>
+			Germans
+			<title>SMS Kaiser</title>
+			<title>SMS Kronprinz</title>
+		</civ>
+		<civ>
+			Ottomans
+			<title>KCG Resadiye</title>
+			<title>KCG Asar-i Tevfik</title>
+		</civ>
+		<civ>
+			Portuguese
+			<title>NRP Lima</title>
+			<title>NRP Vasco da Gama</title>
+		</civ>
+		<civ>
+			Russians
+			<title>KIF Gangut</title>
+			<title>KIF Petr Velikii</title>
+		</civ>
+		<civ>
+			Spanish
+			<title>BAE Alfonso</title>
+			<title>BAE Pelayo</title>
+		</civ>
+		<civ>
+			Italians
+			<title>RN Duilio</title>
+			<title>RN Enrico Dandolo</title>
+		</civ>
+		<civ>
+			Swedish
+			<title>KMS Svea</title>
+			<title>KMS Gota</title>
+		</civ>
+		<civ>
+			Maltese
+			<title>KOM Warspite</title>
+			<title>KOM St. John</title>
+		</civ>
+	</protounit>
+	<protounit>
 		Frigate
 		<civ>
 			Default
@@ -611,7 +700,7 @@
 		</civ>
 		<civ>
 			SPCAct1
-			<title>Holy Roman Emperor</title>
+			<title>Charlemagne</title>
 			<title>Zabbar</title>
 			<title>Salina</title>
 			<title>St. Angelo</title>
@@ -819,6 +908,13 @@
 			<title>Ostindiefarare</title>
 			<title>Gotheborg</title>
 		</civ>
+		<civ>
+			Maltese
+			<title>Charlemagne</title>
+			<title>Zabbar</title>
+			<title>Salina</title>
+			<title>St. Angelo</title>
+		</civ>
 	</protounit>
 	<protounit>
 		Monitor
@@ -828,6 +924,13 @@
 			<title>Le Duc Du Duras</title>
 			<title>La Vengeance</title>
 			<title>La Dauphine</title>
+		</civ>
+		<civ>
+			SPCAct1
+			<title>Lionheart</title>
+			<title>Santa Anna</title>
+			<title>St. Michael</title>
+			<title>Godfrey</title>
 		</civ>
 		<civ>
 			SPCAct2
@@ -961,6 +1064,13 @@
 			<title>Loke</title>
 			<title>Tirfing</title>
 			<title>Thordon</title>
+		</civ>
+		<civ>
+			Maltese
+			<title>Lionheart</title>
+			<title>Santa Anna</title>
+			<title>St. Michael</title>
+			<title>Godfrey</title>
 		</civ>
 	</protounit>
 	<protounit>
@@ -2648,6 +2758,25 @@
 			<title>Fort Plano</title>
 		</civ>
 		<civ>
+			SPCAct1
+			<title>Fort St. Elmo</title>
+			<title>Fort Chambray</title>
+			<title>Fort Manoel</title>
+			<title>Fort Ricasoli</title>
+			<title>Fort St. Angelo</title>
+			<title>Fort St. Michael</title>
+			<title>Fort Tigne</title>
+			<title>Fort Madalena</title>
+		</civ>
+		<civ>
+			SPCAct2
+			<title>Fort Brimstone Hill</title>
+			<title>Fort George</title>
+			<title>Fort Ingoldsby</title>
+			<title>Fort Pownall</title>
+			<title>Fort Good Hope</title>
+		</civ>
+		<civ>
 			British
 			<title>Fort Brimstone Hill</title>
 			<title>Fort George</title>
@@ -2746,6 +2875,17 @@
 			<title>Fort Nya Vasa</title>
 			<title>Fort Nyenschantz</title>
 		</civ>
+		<civ>
+			Maltese
+			<title>Fort St. Elmo</title>
+			<title>Fort Chambray</title>
+			<title>Fort Manoel</title>
+			<title>Fort Ricasoli</title>
+			<title>Fort St. Angelo</title>
+			<title>Fort St. Michael</title>
+			<title>Fort Tigne</title>
+			<title>Fort Madalena</title>
+		</civ>
 	</protounit>
 	<protounit>
 		NativeScout
@@ -2810,6 +2950,20 @@
 	</protounit>
 	<protounit>
 		SPCMorganFlagship
+		<civ>
+			Default
+			<title>St. Elmo</title>
+		</civ>
+	</protounit>
+	<protounit>
+		GeneralLizzieShip
+		<civ>
+			Default
+			<title>Paris Burning</title>
+		</civ>
+	</protounit>
+	<protounit>
+		GeneralMorganShip
 		<civ>
 			Default
 			<title>St. Elmo</title>
@@ -3408,6 +3562,20 @@
 			<title>Uppsala</title>
 			<title>Helsingborg</title>
 		</civ>
+		<civ>
+			Maltese
+			<title>St. Christopher</title>
+			<title>St. Martin</title>
+			<title>St. Barthelemy</title>
+			<title>St. Croix</title>
+			<title>Poincy</title>
+			<title>Rabat</title>
+			<title>Mdina</title>
+			<title>Senglea</title>
+			<title>Bormla</title>
+			<title>Qortin</title>
+			<title>Borgo Vilhena</title>
+		</civ>
 	</protounit>
 	<protounit>
 		WarLeader
@@ -3702,6 +3870,15 @@
 			<title>Church Bengtsfors</title>
 			<title>Church Biskopsgarden</title>
 			<title>Church Norrtalje</title>
+		</civ>
+		<civ>
+			Maltese
+			<title>Church St. Catherine</title>
+			<title>Church of the Assumption</title>
+			<title>Church St. Augustine</title>
+			<title>Church of the Annunciation</title>
+			<title>Church St. Francis of Assisi</title>
+			<title>Church St. Lawrence</title>
 		</civ>
 	</protounit>
 	<protounit>
@@ -5286,21 +5463,6 @@
 			<title>Flower</title>
 			<title>Dust</title>
 			<title>Moon</title>
-		</civ>
-	</protounit>
-	<protounit>
-		Brig
-		<civ>
-			Default
-			<title>Malakos</title>
-			<title>Wasa</title>
-			<title>Hemmema</title>
-			<title>Karlskrona</title>
-			<title>Musko</title>
-			<title>Berga</title>
-			<title>Falken</title>
-			<title>Gladan</title>
-			<title>Viksten</title>
 		</civ>
 	</protounit>
 	<protounit>

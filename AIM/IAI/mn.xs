@@ -565,7 +565,6 @@ void mainRun(void)
 			
 		}
 	}
-	if(kbGetCiv() == cCivColombians) messagePlayers("This civilization is still under development and not complete");
 	debugRule("mainRun - end", 0);
 } //end main
 

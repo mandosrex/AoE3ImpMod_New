@@ -502,6 +502,25 @@ void setUnitTypes(void)
 			gLivestockPenUnit = cUnitTypeHouseEast;
 			break;
 		}
+		case cCivSPCCompany:
+		{
+			gHouseUnit = cUnitTypeManor;
+			gLivestockPenUnit = cUnitTypeManor;
+			break;
+		}
+		case cCivPirate:
+		{
+			gHouseUnit = cUnitTypeManor;
+			gLivestockPenUnit = cUnitTypeManor;
+			break;
+		}
+		case cCivMexicans:
+		{
+			gHouseUnit = cUnitTypeHouseMed;
+			gLivestockPenUnit = cUnitTypeHouseMed;
+			gEconUnit = cUnitTypeSettlerAmerican;
+			break;
+		}
 		default:
 		{
 			debugRule("setUnitTypes - Warning no civ found", 1);
@@ -994,6 +1013,9 @@ void setPersonality(void)
 	if (civ == cCivTheCircle) civ = cCivGermans;
 	if (civ == cCivXPSPC) civ = cCivBritish;
 	if (civ == cCivSPCAct3) civ = cCivBritish;
+	if (civ == cCivSPCCompany) civ = cCivBritish;
+	if (civ == cCivPirate) civ = cCivBritish;
+	if (civ == cCivMexicans) civ = cCivColombians;
 	// Set behavior traits
 	//aiEcho("My civ is "+civ);
 	switch (civ)
