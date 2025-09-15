@@ -1532,7 +1532,7 @@
 		<String _locID="22924">Arsenal</String>
 		<String _locID="22927">Trains healers and provides colony improvements.</String>
 		<String _locID="22928">Church</String>
-		<String _locID="22934">Fast-moving sword and buckler infantry. Good against shock cavalry and long-range infantry.</String>
+		<String _locID="22934">Fast-moving sword and buckler infantry. Good against shock cavalry and long-ranged infantry.</String>
 		<String _locID="22935">Rodelero</String>
 		<String _locID="22936">Archaic archer. Good against heavy infantry and light cavalry.</String>
 		<String _locID="22938">Crossbowman</String>
@@ -1543,7 +1543,7 @@
 		<String _locID="22944">Halberdier</String>
 		<String _locID="22945">Light ranged cavalry. Good against shock cavalry.</String>
 		<String _locID="22946">Cavalry Archer</String>
-		<String _locID="22947">Shock Cavalry armed with cold steel. Good against skirmishers and artillery.</String>
+		<String _locID="22947">Shock Cavalry armed with cold steel. Good against long-ranged infantry and artillery.</String>
 		<String _locID="22948">Hussar</String>
 		<String _locID="22949">Light artillery. Good against other artillery and ships.</String>
 		<String _locID="22950">Culverin</String>
@@ -1739,9 +1739,9 @@
 		<String _locID="23644" symbol="cStringAlreadyAllied">You are currently allied with the %s.</String>
 		<String _locID="23651" symbol="cStringAllyButton">Ally with this village</String>
 		<String _locID="23652" symbol="cStringCannotAllyExclusive">You cannot ally with the %s because they are exclusively allied with the French.</String>
-		<String _locID="23655">Russian light hand cavalry. Good against skirmishers and artillery.</String>
+		<String _locID="23655">Russian light hand cavalry. Good against long-ranged infantry and artillery.</String>
 		<String _locID="23656">Cossack</String>
-		<String _locID="23657">Weak but cheap skirmisher who can build defenses. Good against heavy infantry and light cavalry.</String>
+		<String _locID="23657">Weak but cheap long-ranged infantry who can build defenses. Good against heavy infantry and light cavalry.</String>
 		<String _locID="23658">Strelet</String>
 		<String _locID="23659">Cossack attack and hitpoints increased.</String>
 		<String _locID="23660">Guard Cossacks</String>
@@ -1818,7 +1818,7 @@
 		<String _locID="23885">Coffee Trade</String>
 		<String _locID="23887">Ruyter attack and hitpoints greatly increased.</String>
 		<String _locID="23888">Carabineers</String>
-		<String _locID="23908">Skirmisher with low hitpoints, but a strong attack. Good against heavy infantry and light cavalry.</String>
+		<String _locID="23908">Long-ranged infantry with low hitpoints, but a strong attack. Good against heavy infantry and light cavalry.</String>
 		<String _locID="23909">Cassador</String>
 		<String _locID="23910">Rifleman attack and hitpoints increased.</String>
 		<String _locID="23911">Guard Riflemen</String>
@@ -1903,7 +1903,7 @@
 		<String _locID="24165">Howitzer</String>
 		<String _locID="24180">Short-ranged missile unit that fires poison darts. Good against heavy infantry and light cavalry.</String>
 		<String _locID="24181">Carib Blowgunner</String>
-		<String _locID="24182">Cherokee skirmisher that is accurate at long range.</String>
+		<String _locID="24182">Cherokee long-ranged infantry that is accurate at long range.</String>
 		<String _locID="24183">Cherokee Rifleman</String>
 		<String _locID="24184">Cree rifleman with a good line of sight and long range.</String>
 		<String _locID="24185">Cree Tracker</String>
@@ -2122,7 +2122,7 @@
 		<String _locID="25170">CAV Manchu</String>
 		<String _locID="25171">CAV Stradiot</String>
 		<String _locID="25172">INF Swiss Guard</String>
-		<String _locID="25173">Hessian skirmisher mercenary. Good against heavy infantry and light cavalry.</String>
+		<String _locID="25173">Hessian long-ranged infantry mercenary. Good against heavy infantry and light cavalry.</String>
 		<String _locID="25174">Jaeger</String>
 		<String _locID="25175">INF Jaeger</String>
 		<String _locID="25178">Light cavalry mercenary from Finland. Good against shock cavalry and artillery.</String>
@@ -2319,7 +2319,7 @@
 		<String _locID="25610">Infantry building</String>
 		<String _locID="25612">{E^&lt;icon="(32)(ui/ingame/resource_food)"&gt; Food source^}{J^&lt;icon="(16)(ui/ingame/stat_icon_huntable)"&gt; Enhances nearby Shrines^}</String>
 		<String _locID="25613">Russian Outpost / Barracks</String>
-		<String _locID="25614">Skirmisher</String>
+		<String _locID="25614">Long-ranged infantry</String>
 		<String _locID="25616">Heavy artillery</String>
 		<String _locID="25617">Exploration canoe</String>
 		<String _locID="25618">Light warship</String>
@@ -2352,7 +2352,7 @@
 		<String _locID="25654">Light cavalry mercenary</String>
 		<String _locID="25655">Shock Cavalry mercenary</String>
 		<String _locID="25657">Heavy infantry mercenary</String>
-		<String _locID="25658">Skirmisher Mercenary</String>
+		<String _locID="25658">Long-ranged infantry Mercenary</String>
 		<String _locID="25659">Hand infantry mercenary</String>
 		<String _locID="25660">Shock Cavalry mercenary</String>
 		<String _locID="25661">Light cavalry mercenary</String>
@@ -2403,7 +2403,7 @@
 		<String _locID="25712">Long-ranged infantry</String>
 		<String _locID="25713">Shock Cavalry</String>
 		<String _locID="25727">Cavalry building</String>
-		<String _locID="25729">Skirmisher</String>
+		<String _locID="25729">Long-ranged infantry</String>
 		<String _locID="25734">&lt;icon="(16)(ui/ingame/stat_icon_building)"&gt;  Town Center</String>
 		<String _locID="25735">Versatile trade building</String>
 		<String _locID="25736">Trade Route unit</String>
@@ -5063,7 +5063,7 @@
 		<String _locID="33308" gamecharacter="Colonist" soundfilename="GENR5106">Run for your lives!</String>
 		<String _locID="33310" symbol="cStringNoCliffSelected">You don't have a cliff selected</String>
 		<String _locID="33311" symbol="cStringNoCliffTypeSelected">You don't have a cliff type selected</String>
-		<String _locID="33314">Trading Posts are cheaper, stronger and Trade Route upgrades are cheaper.</String>
+		<String _locID="33314">Trading Posts and Trade Route upgrades are cheaper. Units now move faster around Trading Posts.</String>
 		<String _locID="33315">Advanced Trading Post</String>
 		<String _locID="33317">Shoreline Plant CAR</String>
 		<String _locID="33318">PROP Shoreline Plant CAR</String>
@@ -6108,11 +6108,11 @@
 		<String _locID="35108">Trade Monopoly</String>
 		<String _locID="35109">Launches a Four of a Kind victory condition</String>
 		<String _locID="35122">Dragoon and Lancer hitpoints increased.</String>
-		<String _locID="35123">Hand Cavalry Hitpoints</String>
+		<String _locID="35123">Cavalry Hitpoints</String>
 		<String _locID="35128">Pikeman and Rodelero attack and hitpoints increased.</String>
 		<String _locID="35129">Hand Infantry Combat</String>
 		<String _locID="35130">Dragoon and Lancer attack increased.</String>
-		<String _locID="35131">Hand Cavalry Attack</String>
+		<String _locID="35131">Cavalry Attack</String>
 		<String _locID="35132">Extensive Fortifications</String>
 		<String _locID="35133">Outpost, War Hut, Nobles' Hut, Lookout, Tower, Blockhouse, and Castle build limit and hitpoints increased.</String>
 		<String _locID="35134">Robber Barons</String>
@@ -6502,7 +6502,7 @@
 		<String _locID="35762">24 Pikemen</String>
 		<String _locID="35763">10 Crossbowmen</String>
 		<String _locID="35764">Crossbowman and Skirmisher hitpoints increased.</String>
-		<String _locID="35765">Long-range Infantry Hitpoints</String>
+		<String _locID="35765">Long-ranged Infantry Hitpoints</String>
 		<String _locID="35766">TEAM Ranged gunpowder infantry attack increased.</String>
 		<String _locID="35767">TEAM Ranged Infantry Attack</String>
 		<String _locID="35768">8 Musketeers</String>
@@ -6959,9 +6959,9 @@
 		<String _locID="36350">TEAM Warships are cheaper.</String>
 		<String _locID="36351">TEAM Cold Water Port</String>
 		<String _locID="36353">TEAM Warships cheaper.</String>
-		<String _locID="36354">TEAM Skirmisher-type units train faster. (For Chinese allies, it makes the Black Flag Army train slightly faster.)</String>
-		<String _locID="36355">TEAM Fast Skirmishers</String>
-		<String _locID="36357">TEAM Skirmishers train faster.</String>
+		<String _locID="36354">TEAM Long-ranged infantry train faster. (For Chinese allies, it makes the Black Flag Army train slightly faster.)</String>
+		<String _locID="36355">TEAM Fast Long-ranged infantry</String>
+		<String _locID="36357">TEAM Long-ranged infantry train faster.</String>
 		<String _locID="36358">TEAM Ranged infantry damage increased.</String>
 		<String _locID="36359">TEAM Churches, Mosques, and Field Hospitals are much cheaper and their non-advanced improvements are also cheaper. Monastaries are somewhat cheaper and Native Fire Pits become free.</String>
 		<String _locID="36360">TEAM Cheap Church</String>
@@ -7133,7 +7133,7 @@
 		<String _locID="36551">Cigar Roller</String>
 		<String _locID="36552">Villagers gather Coin from Plantations and Rice Paddies faster, +3 Uhlans.</String>
 		<String _locID="36553">Textile Mill</String>
-		<String _locID="36554">Villagers and wagons build buildings much faster, +2 Uhlans.</String>
+		<String _locID="36554">Villagers and wagons build buildings much faster.</String>
 		<String _locID="36555">Stonemasons</String>
 		<String _locID="36556" gamecharacter="Morgan" soundfilename="MORG2070">There seems to be plenty of fish near shore. We should take advantage of that.</String>
 		<String _locID="36557" gamecharacter="Lizzie" soundfilename="LIZZ2035">My ship! I'd better be paid well for this, Morgan!</String>
@@ -7475,7 +7475,7 @@
 		<String _locID="36930">The Market Place</String>
 		<String _locID="36931">Player Current (Not Total) XP</String>
 		<String _locID="36933">Crossbowman and Skirmisher hitpoints increased , +4 Uhlans.</String>
-		<String _locID="36934">Long-range Infantry Hitpoints</String>
+		<String _locID="36934">Long-ranged Infantry Hitpoints</String>
 		<String _locID="36935">10 Pikemen + 3 Uhlans</String>
 		<String _locID="36936">Blood, Ice and Steel</String>
 		<String _locID="36937">Through three generations, one family keeps a forgotten secret of the New World from falling into the hands of a dangerous enemy.</String>
@@ -12228,13 +12228,13 @@
 		<String _locID="41809">Cavalry Combat Shipment has arrived.</String>
 		<String _locID="41810">Cavalry Combat Shipment has arrived.</String>
 		<String _locID="41811">Cavalry Combat shipment has arrived.</String>
-		<String _locID="41812">Hand Cavalry Combat Shipment has arrived.</String>
+		<String _locID="41812">Cavalry Combat Shipment has arrived.</String>
 		<String _locID="41813">Cavalry Attack Shipment has arrived.</String>
-		<String _locID="41814">Hand Cavalry Attack Shipment has arrived.</String>
+		<String _locID="41814">Cavalry Attack Shipment has arrived.</String>
 		<String _locID="41815">Cavalry Hitpoints Shipment has arrived.</String>
 		<String _locID="41816">Hand Cavalry Hitpoints Shipment has arrived.</String>
 		<String _locID="41817">Cavalry Hitpoints Shipment has arrived.</String>
-		<String _locID="41818">Hand Cavalry Hitpoints Shipment has arrived.</String>
+		<String _locID="41818">Cavalry Hitpoints Shipment has arrived.</String>
 		<String _locID="41819">Virginia Company Shipment has arrived.</String>
 		<String _locID="41820">Cigar Roller Shipment has arrived.</String>
 		<String _locID="41821">Cigar Roller Shipment has arrived.</String>
@@ -12310,8 +12310,8 @@
 		<String _locID="41891">Amish Shipment has arrived.</String>
 		<String _locID="41892">Gunpowder Infantry Combat Shipment has arrived.</String>
 		<String _locID="41893">Gunpowder Infantry Attack Shipment has arrived.</String>
-		<String _locID="41894">Long-range Infantry Hitpoints Shipment has arrived.</String>
-		<String _locID="41895">Long-range Infantry Hitpoints Shipment has arrived.</String>
+		<String _locID="41894">Long-ranged Infantry Hitpoints Shipment has arrived.</String>
+		<String _locID="41895">Long-ranged Infantry Hitpoints Shipment has arrived.</String>
 		<String _locID="41896">Ransack Shipment has arrived.</String>
 		<String _locID="41897">Refrigeration Shipment has arrived.</String>
 		<String _locID="41898">Refrigeration Shipment has arrived.</String>
@@ -12390,7 +12390,7 @@
 		<String _locID="41971">Supports 10 population.</String>
 		<String _locID="41972">House</String>
 		<String _locID="41973">House Med</String>
-		<String _locID="41974" symbol="cStringGeneral">General</String>
+		<String _locID="41974" symbol="cStringGeneral">Shipment</String>
 		<String _locID="41975" symbol="cStringcStringMore">...more...</String>
 		<String _locID="41976" symbol="cStringChangeHitpointsEffect" comment="1 - effect, 2 - hitpoint change">%1s: Changes Hitpoints by %2.2f%%</String>
 		<String _locID="41977" symbol="cStringAddHitpointsEffect">%1s: Adds %2.2f Hitpoints</String>
@@ -12505,7 +12505,7 @@
 		<String _locID="42086">Short</String>
 		<String _locID="42087">Long</String>
 		<String _locID="42088" symbol="cStringHeavyCavalry">Shock Cavalry</String>
-		<String _locID="42089" symbol="cStringLightInfantry">Skirmisher</String>
+		<String _locID="42089" symbol="cStringLightInfantry">Long-ranged Infantry</String>
 		<String _locID="42090" symbol="cStringObtainable">Obtainable</String>
 		<String _locID="42091" symbol="cStringUnobtainable">Unobtainable</String>
 		<String _locID="42092" symbol="cStringActive">Active</String>
@@ -14262,8 +14262,8 @@
 		<String _locID="43844">Copper Mine</String>
 		<String _locID="43845">Mine Copper</String>
 		<String _locID="43846">Roger's Ranger</String>
-		<String _locID="43847">Native American skirmisher</String>
-		<String _locID="43848">Klamath skirmisher that is accurate to a long range.</String>
+		<String _locID="43847">Native American long-ranged infantry</String>
+		<String _locID="43848">Klamath long-ranged infantry that is accurate to a long range.</String>
 		<String _locID="43849">Klamath Rifleman</String>
 		<String _locID="43850">NAT Klamath Rifleman</String>
 		<String _locID="43851">Cavalry good against infantry.</String>
@@ -14299,8 +14299,8 @@
 		<String _locID="43881">Light ranged cavalry. Good against shock cavalry.</String>
 		<String _locID="43882">Apache Cavalry</String>
 		<String _locID="43883">NAT Apache Cavalry</String>
-		<String _locID="43884">Native American skirmisher</String>
-		<String _locID="43885">Stealthy Navajo skirmisher that runs quickly.</String>
+		<String _locID="43884">Native American long-ranged infantry</String>
+		<String _locID="43885">Stealthy Navajo long-ranged infantry that runs quickly.</String>
 		<String _locID="43886">Navajo Rifleman</String>
 		<String _locID="43887">NAT Navajo Rifleman</String>
 		<String _locID="43888">{E^&lt;icon="(32)(ui/ingame/resource_food)"&gt; Food source^}{J^&lt;icon="(16)(ui/ingame/stat_icon_huntable)"&gt; Enhances nearby Shrines^}</String>
@@ -14385,7 +14385,7 @@
 		<String _locID="43968">TEAM 2 Medicine Men</String>
 		<String _locID="43969">TEAM gets 2 free Surgeons.</String>
 		<String _locID="43970">Light hand infantry</String>
-		<String _locID="43971">Fast light hand infantry warrior. Good against skirmishers and artillery.</String>
+		<String _locID="43971">Fast light hand infantry warrior. Good against long-ranged infantry and artillery.</String>
 		<String _locID="43972">Coyote Runner</String>
 		<String _locID="43973">INF Coyote Runner</String>
 		<String _locID="43974">Slinger</String>
@@ -16370,7 +16370,7 @@
 		<String _locID="45962">Hidalgo</String>
 		<String _locID="45963">20 Tupi Archers\n \nIncreased Native warrior train limits</String>
 		<String _locID="45964">Bonifacio</String>
-		<String _locID="45965">15 Inca Warriors\n \nSlightly increased long-range infantry armor</String>
+		<String _locID="45965">15 Inca Warriors\n \nSlightly increased long-ranged infantry armor</String>
 		<String _locID="45966">Bolivar</String>
 		<String _locID="45967">4 Mortars\n \nIncreased Mortar attack range</String>
 		<String _locID="45968">San Martin</String>
@@ -18864,15 +18864,15 @@
 		<String _locID="48464">Zapotec warrior armed with a shield and a sword.</String>
 		<String _locID="48465">Zapotec Lightning Warrior</String>
 		<String _locID="48466">NAT MERC Zapotec Lightning Warrior</String>
-		<String _locID="48467">Native American skirmisher</String>
-		<String _locID="48468">Cherokee skirmisher that is accurate at long range.</String>
+		<String _locID="48467">Native American long-ranged infantry</String>
+		<String _locID="48468">Cherokee long-ranged infantry that is accurate at long range.</String>
 		<String _locID="48469">Cherokee Rifleman</String>
 		<String _locID="48470">NAT MERC Cherokee Rifleman</String>
 		<String _locID="48471">Native American siege unit</String>
 		<String _locID="48472">Iroquois short-ranged siege unit.</String>
 		<String _locID="48473">Iroquois Mantlet</String>
 		<String _locID="48474">NAT MERC Iroquois Mantlet</String>
-		<String _locID="48475">Native American skirmisher</String>
+		<String _locID="48475">Native American long-ranged infantry</String>
 		<String _locID="48476">Cree rifleman with a good line of sight and long range.</String>
 		<String _locID="48477">Cree Tracker</String>
 		<String _locID="48478">NAT MERC Cree Tracker</String>
@@ -19575,7 +19575,7 @@
 		<String _locID="60124">Zamburak</String>
 		<String _locID="60125">CAV Zamburak</String>
 		<String _locID="60126">Heavy Elephant, does area damage in hand combat</String>
-		<String _locID="60127">Heavy hand cavalry that inflicts wide-area damage. Exceptionally deadly against archers and skirmishers.</String>
+		<String _locID="60127">Heavy hand cavalry that inflicts wide-area damage. Exceptionally deadly against archers and long-ranged infantry.</String>
 		<String _locID="60128">Mahout Lancer</String>
 		<String _locID="60129">CAV Mahout Lancer</String>
 		<String _locID="60130">Ranged Elephant, good against shock cavalry and artillery</String>
@@ -19602,8 +19602,8 @@
 		<String _locID="60151">Archaic Chinese archer that fires at an extremely fast rate. Good against heavy infantry and light cavalry.</String>
 		<String _locID="60152">Chu Ko Nu</String>
 		<String _locID="60153">INF Chu Ko Nu</String>
-		<String _locID="60154">Skirmisher, good against heavy infantry and light cavalry</String>
-		<String _locID="60155">Cheap Chinese skirmisher armed with a rifle. Good against heavy infantry and light cavalry.</String>
+		<String _locID="60154">Long-ranged infantry, good against heavy infantry and light cavalry</String>
+		<String _locID="60155">Cheap Chinese long-ranged infantry armed with a rifle. Good against heavy infantry and light cavalry.</String>
 		<String _locID="60156">Jingal</String>
 		<String _locID="60157">INF Jingal</String>
 		<String _locID="60158">Hand infantry, good against cavalry, Shock Infantry and buildings</String>
@@ -20226,15 +20226,15 @@
 		<String _locID="60775">Flail Elephant</String>
 		<String _locID="60776">AR Flail Elephant</String>
 		<String _locID="60777">Hand cavalry</String>
-		<String _locID="60778">Mounted warrior good against skirmishers, foot archers, and artillery.</String>
+		<String _locID="60778">Mounted warrior good against long-ranged infantry, foot archers, and artillery.</String>
 		<String _locID="60779">Yojimbo</String>
 		<String _locID="60780">CAV Yojimbo</String>
-		<String _locID="60781">Native skirmisher, good against heavy infantry and light cavalry</String>
-		<String _locID="60782">Nepalese skirmisher that is accurate to a long range. Good against heavy infantry and light cavalry.</String>
+		<String _locID="60781">Native long-ranged infantry, good against heavy infantry and light cavalry</String>
+		<String _locID="60782">Nepalese long-ranged infantry that is accurate to a long range. Good against heavy infantry and light cavalry.</String>
 		<String _locID="60783">Gurkha</String>
 		<String _locID="60784">NAT Gurkha</String>
-		<String _locID="60785">Native Shock Infantry, good against skirmishers and artillery</String>
-		<String _locID="60786">Fast Chinese Shock Infantry warrior armed with a shield and a sword. Good against skirmishers and artillery.</String>
+		<String _locID="60785">Native Shock Infantry, good against long-ranged infantry and artillery</String>
+		<String _locID="60786">Fast Chinese Shock Infantry warrior armed with a shield and a sword. Good against long-ranged infantry and artillery.</String>
 		<String _locID="60787">Rattan Shield</String>
 		<String _locID="60788">NAT Rattan Shield</String>
 		<String _locID="60789">Hand infantry, good against cavalry, Shock Infantry and buildings</String>
@@ -20262,7 +20262,7 @@
 		<String _locID="60811">Chakram Thrower</String>
 		<String _locID="60812">NAT Chakram Thrower</String>
 		<String _locID="60813">Native African heavy Elephant, inflicts area damage in hand combat</String>
-		<String _locID="60814">Indian Heavy War Elephant powerful in close combat. Inflicts area damage. Good against archers and skirmishers.</String>
+		<String _locID="60814">Indian Heavy War Elephant powerful in close combat. Inflicts area damage. Good against archers and long-ranged infantry.</String>
 		<String _locID="60815">War Elephant</String>
 		<String _locID="60816">NAT War Elephant</String>
 		<String _locID="60817">Mercenary light cavalry, good against shock cavalry and artillery</String>
@@ -20717,8 +20717,8 @@
 		<String _locID="61266">Portuguese Monitors</String>
 		<String _locID="61267">Ships Gatling Guns.</String>
 		<String _locID="61268">American Relations 4</String>
-		<String _locID="61269">Skirmisher, good against heavy infantry and light cavalry</String>
-		<String _locID="61270">Indian skirmisher that is accurate to a long range. Good against heavy infantry and light cavalry.</String>
+		<String _locID="61269">Long-ranged infantry, good against heavy infantry and light cavalry</String>
+		<String _locID="61270">Indian long-ranged infantry that is accurate to a long range. Good against heavy infantry and light cavalry.</String>
 		<String _locID="61271">Gurkha</String>
 		<String _locID="61272">INF Gurkha</String>
 		<String _locID="61273">Native heavy ranged infantry</String>
@@ -20836,8 +20836,8 @@
 		<String _locID="61385">Light European adventurer armed with a gun and riding horseback. Good against shock cavalry and artillery.</String>
 		<String _locID="61386">Conquistador</String>
 		<String _locID="61387">NAT MERC Conquistador</String>
-		<String _locID="61388">Native Shock Infantry, good against skirmishers and artillery</String>
-		<String _locID="61389">Fast Chinese Shock Infantry warrior armed with a shield and a sword. Good against skirmishers and artillery.</String>
+		<String _locID="61388">Native Shock Infantry, good against long-ranged infantry and artillery</String>
+		<String _locID="61389">Fast Chinese Shock Infantry warrior armed with a shield and a sword. Good against long-ranged infantry and artillery.</String>
 		<String _locID="61390">Rattan Shield</String>
 		<String _locID="61391">NAT MERC Rattan Shield</String>
 		<String _locID="61392">Native Shock Infantry, good against infantry</String>
@@ -20845,7 +20845,7 @@
 		<String _locID="61394">Tiger Claw</String>
 		<String _locID="61395">NAT MERC Tiger Claw</String>
 		<String _locID="61396">Light cavalry</String>
-		<String _locID="61397">Light hand cavalry, good against skirmishers and artillery.</String>
+		<String _locID="61397">Light hand cavalry, good against long-ranged infantry and artillery.</String>
 		<String _locID="61398">War Elephant</String>
 		<String _locID="61399">NAT MERC War Elephant</String>
 		<String _locID="61400">Native hand infantry</String>
@@ -20865,7 +20865,7 @@
 		<String _locID="61414">Ships 5 War Elephants.</String>
 		<String _locID="61415">5 War Elephants</String>
 		<String _locID="61416">Native heavy Elephant, inflicts area damage in hand combat</String>
-		<String _locID="61417">Indian Heavy War Elephant powerful in close combat. Inflicts area damage. Good against archers and skirmishers.</String>
+		<String _locID="61417">Indian Heavy War Elephant powerful in close combat. Inflicts area damage. Good against archers and long-ranged infantry.</String>
 		<String _locID="61418">War Elephant</String>
 		<String _locID="61419">NAT MERC War Elephant</String>
 		<String _locID="61420">Ships 3 Flailiphants.</String>
@@ -20998,7 +20998,7 @@
 		<String _locID="61547">Black Flag Army Attack</String>
 		<String _locID="61548">Territorial Army Hitpoints Shipment has arrived.</String>
 		<String _locID="61549">Territorial Army Combat Shipment has arrived.</String>
-		<String _locID="61550">Steppe Riders do more damage against Villagers and buildings. Keshiks do more damage against shock cavalry and Coyote Runners. Iron Flails do more damage versus archers and skirmishers.</String>
+		<String _locID="61550">Steppe Riders do more damage against Villagers and buildings. Keshiks do more damage against shock cavalry and Coyote Runners. Iron Flails do more damage versus archers and long-ranged infantry.</String>
 		<String _locID="61551">Mongolian Scourge</String>
 		<String _locID="61552">Territorial Army Hitpoints Shipment has arrived.</String>
 		<String _locID="61553">Mongolian Shipment has arrived.</String>
@@ -21190,7 +21190,7 @@
 		<String _locID="61739">Camel Attack</String>
 		<String _locID="61740">Infantry Hitpoints Shipment has arrived.</String>
 		<String _locID="61741">Camel Attack Shipment has arrived.</String>
-		<String _locID="61742">Sowars inflict more damage against archers and skirmishers. Zamburaks inflict more damage against shock cavalry and Coyote Runners, +1 Shudra.</String>
+		<String _locID="61742">Sowars inflict more damage against archers and long-ranged infantry. Zamburaks inflict more damage against shock cavalry and Coyote Runners, +1 Shudra.</String>
 		<String _locID="61743">Desert Terror</String>
 		<String _locID="61744">Camel Attack Shipment has arrived.</String>
 		<String _locID="61745">Camel Frightening Shipment has arrived.</String>
@@ -21240,7 +21240,7 @@
 		<String _locID="61789">Kendo Dojo</String>
 		<String _locID="61790">Howdah, Mahouts, and Siege Elephants can be trained an Age early, +1 Shudra.</String>
 		<String _locID="61791">Early Elephants</String>
-		<String _locID="61792">TEAM allows Skirmishers in Commerce Age.</String>
+		<String _locID="61792">TEAM Allows Long-ranged Infantry in Commerce Age.</String>
 		<String _locID="61793">Kendo Dojo</String>
 		<String _locID="61794">Early Elephants has arrived.</String>
 		<String _locID="61795">Upgrades to Hombu Dojo, increasing Dojo hitpoints and decreasing Dojo unit train time.</String>
@@ -21354,7 +21354,7 @@
 		<String _locID="61903">Naginata Rider Hitpoints</String>
 		<String _locID="61904">Ashigaru Damage 1 Shipment has arrived.</String>
 		<String _locID="61905">Nagata Rider Damage 1 Shipment has arrived.</String>
-		<String _locID="61906">Naginata Riders do more damage against archers and skirmishers.</String>
+		<String _locID="61906">Naginata Riders do more damage against archers and long-ranged infantry.</String>
 		<String _locID="61907">Bloody Harvest</String>
 		<String _locID="61908">Nagata Rider Damage 1 Shipment has arrived.</String>
 		<String _locID="61909">Nagata Rider Damage 2 Shipment has arrived.</String>
@@ -21532,20 +21532,20 @@
 		<String _locID="62081">Silk Market</String>
 		<String _locID="62082">Tea Market</String>
 		<String _locID="62083">Silver Market</String>
-		<String _locID="62084">Ranged Shock Cavalry, good against skirmishers and artillery</String>
-		<String _locID="62085">Shock Cavalry that does hand damage from range. Good against skirmishers and artillery.</String>
+		<String _locID="62084">Ranged Shock Cavalry, good against long-ranged infantry and artillery</String>
+		<String _locID="62085">Shock Cavalry that does hand damage from range. Good against long-ranged infantry and artillery.</String>
 		<String _locID="62086">Meteor Hammer</String>
 		<String _locID="62087">CAV Meteor Hammer</String>
 		<String _locID="62088">Archaic army, good against heavy infantry / hand infantry, good against cavalry</String>
 		<String _locID="62089">Cheap, well-rounded army of archers and pikemen.\n3 Chu Ko Nu: Archaic archers good against heavy infantry.\n3 Qiang Pikemen: Archaic hand infantry good against cavalry and shock infantry.</String>
 		<String _locID="62090">Old Han Army</String>
 		<String _locID="62091">Regular Army</String>
-		<String _locID="62092">Long-ranged infantry, good against heavy infantry / Shock Cavalry, good against infantry, skirmishers, and artillery</String>
+		<String _locID="62092">Long-ranged infantry, good against heavy infantry / Shock Cavalry, good against infantry, long-ranged infantry, and artillery</String>
 		<String _locID="62093">An anti-infantry army of rifle infantry and shock cavalry.\n3 Jingal: Long-ranged infantry with low hitpoints, but good against heavy infantry and light cavalry.\n2 Iron Flail: Shock Cavalry, good against infantry and artillery.</String>
 		<String _locID="62094">Imperial Army</String>
 		<String _locID="62095">INF Territorial Army</String>
-		<String _locID="62096">Shock Cavalry, good against skirmishers and artillery / heavy ranged cavalry, good against shock cavalry</String>
-		<String _locID="62097">An army composed of two types of Shock Cavalry.\n2 Iron Flail: Shock Cavalry, good against infantry and artillery.\n2 Meteor Hammer: Heavy ranged cavalry good against skirmishers and artillery.</String>
+		<String _locID="62096">Shock Cavalry, good against long-ranged infantry and artillery / heavy ranged cavalry, good against shock cavalry</String>
+		<String _locID="62097">An army composed of two types of Shock Cavalry.\n2 Iron Flail: Shock Cavalry, good against infantry and artillery.\n2 Meteor Hammer: Heavy ranged cavalry good against long-ranged infantry and artillery.</String>
 		<String _locID="62098">Forbidden Army</String>
 		<String _locID="62099">CAV Steppe Rider</String>
 		<String _locID="62100">Hand infantry, good against cavalry / rifle infantry, good against heavy infantry</String>
@@ -22233,8 +22233,8 @@
 		<String _locID="62849">Recruit Wokou +10 Petards</String>
 		<String _locID="62850">Ships a Wokou Dhow containing Petards.</String>
 		<String _locID="62851">Recruit Wokou +4 Petards</String>
-		<String _locID="62852">Ships a Wokou Dhow containing Horse Artillery.</String>
-		<String _locID="62853">Recruit Wokou +5 Horse Artillery</String>
+		<String _locID="62852">Ships a Wokou Dhow containing Flying Crows.</String>
+		<String _locID="62853">Recruit Wokou +5 Flying Crows</String>
 		<String _locID="62854">Enables Mandarin Banner Army at the Village, composed of Iron Troops and Manchu Horse Archers.</String>
 		<String _locID="62855">Mandarin Banner Army</String>
 		<String _locID="62856">Dance Hall</String>
@@ -22336,7 +22336,7 @@
 		<String _locID="62964">Redcoat</String>
 		<String _locID="62965">CON Redcoat</String>
 		<String _locID="62966">Light cavalry</String>
-		<String _locID="62967">Light hand cavalry, good against skirmishers and artillery.</String>
+		<String _locID="62967">Light hand cavalry, good against long-ranged infantry and artillery.</String>
 		<String _locID="62968">Royal Hussar</String>
 		<String _locID="62969">CON Royal Hussar</String>
 		<String _locID="62970">Defensive building</String>
@@ -22789,7 +22789,7 @@
 		<String _locID="63450" symbol="cStringypGiveCavalryHP">El Pollo Guapo's guide to proper discipline, which increases cavalry HP of whomever recovers it by 10%.</String>
 		<String _locID="63451" symbol="cStringypGiveCavalryHPActivate">%1s has recovered El Pollo Guapo's guide to proper discipline, which increases cavalry HP by 10%.</String>
 		<String _locID="63452">Shock Infantry</String>
-		<String _locID="63453">Shock Infantry, disciple to the Chinese Monk. Good against skirmishers and artillery.</String>
+		<String _locID="63453">Shock Infantry, disciple to the Chinese Monk. Good against long-ranged infantry and artillery.</String>
 		<String _locID="63454">Disciple</String>
 		<String _locID="63455">MONK Disciple</String>
 		<String _locID="63456">Increases power of Divine Blow. Increases monk damage versus artillery.</String>
@@ -23029,7 +23029,7 @@
 		<String _locID="63696">Ships 8 Iron Flails and 3 Flying Crows.</String>
 		<String _locID="63697">Ships 22 Jingals and 8 Hand Mortars.</String>
 		<String _locID="63698">Ships 12 Changdao Swordsmen and 2 Flamethrowers.</String>
-		<String _locID="63699">Skirmisher good against heavy infantry</String>
+		<String _locID="63699">Long-ranged infantry good against heavy infantry</String>
 		<String _locID="63700">Long-ranged infantry with low hitpoints, but good against heavy infantry and light cavalry.</String>
 		<String _locID="63701">Voltigeur</String>
 		<String _locID="63702">CON Voltigeur</String>
@@ -24695,8 +24695,8 @@
 		<String _locID="65405">Stealthy assassin. Highly effective against villagers, heroes and mercenaries.</String>
 		<String _locID="65406">Spy</String>
 		<String _locID="65407">CON Spy</String>
-		<String _locID="65408">Hand cavalry, good against archers, skirmishers, and artillery</String>
-		<String _locID="65409">An army of Ottoman Gardeners (Hussars).\n3 Hussars: light hand cavalry, good against skirmishers and artillery.</String>
+		<String _locID="65408">Hand cavalry, good against archers, long-ranged infantry, and artillery</String>
+		<String _locID="65409">An army of Ottoman Gardeners (Hussars).\n3 Hussars: light hand cavalry, good against long-ranged infantry and artillery.</String>
 		<String _locID="65410">Ottoman Expeditionary Company</String>
 		<String _locID="65411">Ottoman Expeditionary Company</String>
 		<String _locID="65412">Ranged cavalry</String>
@@ -24707,7 +24707,7 @@
 		<String _locID="65417">An army of Dutch Fencibles.\n6 Fencibles: solid general-purpose heavy infantry that are good against heavy infantry.</String>
 		<String _locID="65418">Dutch Expeditionary Company</String>
 		<String _locID="65419">Dutch Expeditionary Company</String>
-		<String _locID="65420">Hand cavalry, good against archers, skirmishers, and artillery</String>
+		<String _locID="65420">Hand cavalry, good against archers, long-ranged infantry, and artillery</String>
 		<String _locID="65421">An army of Russian Siberian Cossacks.\n4 Siberian Cossacks: light cavalry.</String>
 		<String _locID="65422">Russian Expeditionary Company</String>
 		<String _locID="65423">Russian Expeditionary Company</String>
@@ -24727,7 +24727,7 @@
 		<String _locID="65437">An army of Portuguese Besteiros (Crossbowmen).\n7 Besteiros: archaic archer that is good against heavy infantry.</String>
 		<String _locID="65438">Portuguese Expeditionary Company</String>
 		<String _locID="65439">Portuguese Expeditionary Company</String>
-		<String _locID="65440" symbol="cStringFreeHomeCityUnitEffectShipped">Delivers %d %s with %d %s in it</String>
+		<String _locID="65440" symbol="cStringFreeHomeCityUnitEffectShipped">Delivers %d %s with %d %s inside</String>
 		<String _locID="65441">Janissaries\nHussars\nGreat Bombards\n \nShips economic units</String>
 		<String _locID="65442">Ottoman Allies\n+10 Land Unit / Building LOS</String>
 		<String _locID="65443" symbol="cStringypEggplant">Succulent eggplant worth %2d %3s.</String>
@@ -25056,7 +25056,7 @@
 		<String _locID="65766">"Find" Hotkeys centers camera on units</String>
 		<String _locID="65767">Pressing the "Find Unit" Hotkey causes your camera to center on that unit.</String>
 		<String _locID="65768">Fast hand infantry</String>
-		<String _locID="65769">Fast-moving sword and buckler infantry. Good against shock cavalry and long-range infantry.</String>
+		<String _locID="65769">Fast-moving sword and buckler infantry. Good against shock cavalry and long-ranged infantry.</String>
 		<String _locID="65770">Coseletes</String>
 		<String _locID="65771">CON Coseletes</String>
 		<String _locID="65772">Ranged cavalry</String>
@@ -25083,11 +25083,11 @@
 		<String _locID="65793">Heavy swordsman with a sweep attack. Good against cavalry and shock infantry.</String>
 		<String _locID="65794">Zweihander</String>
 		<String _locID="65795">CON Zweihander</String>
-		<String _locID="65796">Skirmisher good against heavy infantry</String>
+		<String _locID="65796">Long-ranged infantry good against heavy infantry</String>
 		<String _locID="65797">Long-ranged infantry with low hitpoints, but good against heavy infantry and light cavalry.</String>
 		<String _locID="65798">Roger's Ranger</String>
 		<String _locID="65799">CON Roger's Ranger</String>
-		<String _locID="65800">Hand cavalry, good against archers, skirmishers, and artillery / powerful heavy ranged infantry, good against cavalry and hand infantry</String>
+		<String _locID="65800">Hand cavalry, good against archers, long-ranged infantry, and artillery / powerful heavy ranged infantry, good against cavalry and hand infantry</String>
 		<String _locID="65801">An army of Ottoman Gardeners (Hussars) and Tufanci Corps (Janissaries).\n3 Hussars: light hand cavalry.\n6 Tufanci Corps: heavy ranged infantry that is good at melee against cavalry and shock infantry.</String>
 		<String _locID="65802">Ottoman Expeditionary Force</String>
 		<String _locID="65803">Ottoman Expeditionary Force</String>
@@ -25100,7 +25100,7 @@
 		<String _locID="65810">Portuguese Expeditionary Force</String>
 		<String _locID="65811">Portuguese Expeditionary Force</String>
 		<String _locID="65812">Heavy ranged infantry, good against cavalry and hand infantry / light artillery, good against artillery</String>
-		<String _locID="65813">An army of Portuguese Cassadores and Culverins.\n13 Cassadores: skirmishers with low hitpoints, but a strong attack which are good against heavy infantry.\n3 Culverins: light artillery that is good against other artillery and ships.</String>
+		<String _locID="65813">An army of Portuguese Cassadores and Culverins.\n13 Cassadores: long-ranged infantry with low hitpoints, but a strong attack which are good against heavy infantry.\n3 Culverins: light artillery that is good against other artillery and ships.</String>
 		<String _locID="65814">Portuguese Expeditionary Army</String>
 		<String _locID="65815">Portuguese Expeditionary Army</String>
 		<String _locID="65816">Heavy ranged infantry, good against cavalry and hand infantry / ranged cavalry, good against cavalry</String>
@@ -25111,7 +25111,7 @@
 		<String _locID="65821">An army of Dutch Carabineers (Ruyters) and Mortars.\n9 Carabineer: light cavalry that is good against shock cavalry.\n2 Mortars: artillery that fires an exploding shell at buildings or ships.</String>
 		<String _locID="65822">Dutch Expeditionary Army</String>
 		<String _locID="65823">Dutch Expeditionary Army</String>
-		<String _locID="65824">Hand cavalry, good against archers, skirmishers, and artillery / light artillery, good against artillery</String>
+		<String _locID="65824">Hand cavalry, good against archers, long-ranged infantry, and artillery / light artillery, good against artillery</String>
 		<String _locID="65825">An army of Russian Siberian Cossacks and a Culverin.\n5 Siberian Cossacks: light cavalry.\n1 Culverin: light artillery that is good against other artillery.</String>
 		<String _locID="65826">Russian Expeditionary Force</String>
 		<String _locID="65827">Russian Expeditionary Force</String>
@@ -25127,7 +25127,7 @@
 		<String _locID="65837">An army of British Redcoats (Musketeers) and a Falconet.\n8 Redcoats: heavy ranged infantry that are armed with a bayonet to beat cavalry and good at range against hand infantry.\n1 Falconet: light artillery that is better against infantry than buildings.</String>
 		<String _locID="65838">British Expeditionary Force</String>
 		<String _locID="65839">British Expeditionary Force</String>
-		<String _locID="65840">Hand cavalry, good against archers, skirmishers, and artillery / light artillery, good against infantry</String>
+		<String _locID="65840">Hand cavalry, good against archers, long-ranged infantry, and artillery / light artillery, good against infantry</String>
 		<String _locID="65841">An army of British Royal Hussars (Hussars) and Falconets.\n6 Royal Hussar: light cavalry.\n3 Falconet: light artillery that is better against infantry than buildings.</String>
 		<String _locID="65842">British Expeditionary Army</String>
 		<String _locID="65843">British Expeditionary Army</String>
@@ -25144,7 +25144,7 @@
 		<String _locID="65854">French Expeditionary Force</String>
 		<String _locID="65855">French Expeditionary Force</String>
 		<String _locID="65856">Shock Cavalry with a trample attack, good against infantry and artillery / light artillery, good against infantry</String>
-		<String _locID="65857">An army of French Gendarmes (Cuirassiers) and Horse Artillery.\n5 Gendarmes: Shock Cavalry with a trample attack, good against archers, skirmishers, and artillery.\n2 Horse Artillery: quick-moving artillery that is strong versus infantry.</String>
+		<String _locID="65857">An army of French Gendarmes (Cuirassiers) and Horse Artillery.\n5 Gendarmes: Shock Cavalry with a trample attack, good against archers, long-ranged infantry, and artillery.\n2 Horse Artillery: quick-moving artillery that is strong versus infantry.</String>
 		<String _locID="65858">French Expeditionary Army</String>
 		<String _locID="65859">French Expeditionary Army</String>
 		<String _locID="65860">Hand infantry, good against cavalry</String>
@@ -25170,7 +25170,7 @@
 		<String _locID="65880">Quatrefage Halberdier</String>
 		<String _locID="65881">CON Quatrefage Halberdier</String>
 		<String _locID="65882">Light cavalry</String>
-		<String _locID="65883">Light hand cavalry, good against skirmishers and artillery.</String>
+		<String _locID="65883">Light hand cavalry, good against long-ranged infantry and artillery.</String>
 		<String _locID="65884">Gardener</String>
 		<String _locID="65885">CON Gardener</String>
 		<String _locID="65886">Light cavalry, good against shock cavalry</String>
@@ -25178,10 +25178,10 @@
 		<String _locID="65888">Kalmuck</String>
 		<String _locID="65889">CON Kalmuck</String>
 		<String _locID="65890">Light cavalry</String>
-		<String _locID="65891">Light hand cavalry, good against skirmishers and artillery.</String>
+		<String _locID="65891">Light hand cavalry, good against long-ranged infantry and artillery.</String>
 		<String _locID="65892">Bashkir Pony</String>
 		<String _locID="65893">CON Bashkir Pony</String>
-		<String _locID="65894">Skirmisher, good against heavy infantry</String>
+		<String _locID="65894">long-ranged infantry, good against heavy infantry</String>
 		<String _locID="65895">Long-ranged infantry with low hitpoints, but good against heavy infantry and light cavalry.</String>
 		<String _locID="65896">Needle Gunner</String>
 		<String _locID="65897">CON Needle Gunner</String>
@@ -25229,7 +25229,7 @@
 		<String _locID="65939">Mansabdar Howdah</String>
 		<String _locID="65940">MAN Howdah</String>
 		<String _locID="65941">Mansabdar. Inspires nearby Mahouts</String>
-		<String _locID="65942">Inspires all nearby Mahout Lancers. Heavy hand cavalry that does wide area damage. Exceptionally deadly against archers and skirmishers.</String>
+		<String _locID="65942">Inspires all nearby Mahout Lancers. Heavy hand cavalry that does wide area damage. Exceptionally deadly against archers and long-ranged infantry.</String>
 		<String _locID="65943">Mansabdar Mahout</String>
 		<String _locID="65944">MAN Mahout</String>
 		<String _locID="65945">Mansabdar. Inspires nearby Siege Elephants</String>
@@ -25755,7 +25755,7 @@
 		<String _locID="66465">Use a Villager's "Advance to the Next Age" button to build one of the Japanese Wonders and advance.</String>
 		<String _locID="66466" gamecharacter="Daimyo Mototada" soundfilename="YMOTO5003">We have breached the outer walls, but to reach the castle we must build a wonder and improve our armies.</String>
 		<String _locID="66467">Light cavalry</String>
-		<String _locID="66468">Russian light hand cavalry. Good against skirmishers and artillery.</String>
+		<String _locID="66468">Russian light hand cavalry. Good against long-ranged infantry and artillery.</String>
 		<String _locID="66469">Siberian Cossack</String>
 		<String _locID="66470">CON Siberian Cossack</String>
 		<String _locID="66471">Villager attack and hitpoints increased.</String>
@@ -27691,8 +27691,8 @@
 		<String _locID="68405">Archers, good against heavy infantry / raiding cavalry, good against villagers and buildings</String>
 		<String _locID="68406">A flexible army of archers and hand cavalry.\n3 Chu Ko Nu: Archaic archer good against heavy infantry.\n2 Steppe Riders: Heavy hand cavalry good against infantry and villagers.</String>
 		<String _locID="68407">Regular Army</String>
-		<String _locID="68408">Heavy hand cavalry, good against archers, skirmishers, and artillery / heavy ranged cavalry, good against archers, skirmishers, and artillery</String>
-		<String _locID="68409">An army composed of two types of Shock Cavalry.\n2 Iron Flail: Shock Cavalry, good against infantry and artillery.\n2 Meteor Hammer: Heavy ranged cavalry good against skirmishers and artillery.</String>
+		<String _locID="68408">Heavy hand cavalry, good against archers, long-ranged infantry, and artillery / heavy ranged cavalry, good against archers, long-ranged infantry, and artillery</String>
+		<String _locID="68409">An army composed of two types of Shock Cavalry.\n2 Iron Flail: Shock Cavalry, good against infantry and artillery.\n2 Meteor Hammer: Heavy ranged cavalry good against long-ranged infantry and artillery.</String>
 		<String _locID="68410">Forbidden Army</String>
 		<String _locID="68411">Hand infantry, good against cavalry / ranged cavalry, good against cavalry</String>
 		<String _locID="68412">An anti-cavalry army of pikemen and ranged cavalry.\n2 Qiang Pikemen: Archaic hand infantry good against cavalry and shock infantry.\n3 Keshik: Light cavalry good against shock cavalry.</String>
@@ -27701,7 +27701,7 @@
 		<String _locID="68415">Cheap, well-rounded army of archers and pikemen.\n3 Chu Ko Nu: Archaic archer good against heavy infantry.\n3 Qiang Pikemen: Archaic hand infantry good against cavalry and shock infantry.</String>
 		<String _locID="68416">Old Han Army</String>
 		<String _locID="68417">Rifle infantry, good against heavy infantry / Shock Cavalry, good against infantry and artillery</String>
-		<String _locID="68418">An anti-infantry army of rifle infantry and shock cavalry.\n3 Jingal: Skirmisher with a long range and low hitpoints, good against heavy infantry.\n2 Iron Flail: Shock Cavalry, good against infantry and artillery.</String>
+		<String _locID="68418">An anti-infantry army of rifle infantry and shock cavalry.\n3 Jingal: Long-ranged infantry with a long range and low hitpoints, good against heavy infantry.\n2 Iron Flail: Shock Cavalry, good against infantry and artillery.</String>
 		<String _locID="68419">Imperial Army</String>
 		<String _locID="68420">Native Outpost / Barracks</String>
 		<String _locID="68421">Trains and upgrades infantry units as well as defends an area with a ranged attack. Can garrison 25 units.</String>
@@ -28230,7 +28230,7 @@
 		<String _locID="68945">Manchu Combat</String>
 		<String _locID="68946">Ming Army Hitpoints Shipment has arrived.</String>
 		<String _locID="68947">Manchu Attack Shipment has arrived.</String>
-		<String _locID="68948">Chu Ko Nu and Jingal attack increased and do extra damage to light cavalry and heavy infantry.</String>
+		<String _locID="68948">Chu Ko Nu and Jingal attack increased and they do extra damage to light cavalry and heavy infantry.</String>
 		<String _locID="68949">Repelling Volley</String>
 		<String _locID="68950">Territorial Army Advanced Combat Shipment has arrived.</String>
 		<String _locID="68951">Han Anti-Cavalry Attack Shipment has arrived.</String>
@@ -28414,12 +28414,12 @@
 		<String _locID="69130">British East India Company</String>
 		<String _locID="69131">Noble Combat Shipment has arrived.</String>
 		<String _locID="69132">East India Company Shipment has arrived.</String>
-		<String _locID="69133">Native skirmisher, good against heavy infantry</String>
-		<String _locID="69134">Nepalese skirmisher that is accurate to a long range. Good against heavy infantry.</String>
+		<String _locID="69133">Native long-ranged infantry, good against heavy infantry</String>
+		<String _locID="69134">Nepalese long-ranged infantry that is accurate to a long range. Good against heavy infantry.</String>
 		<String _locID="69135">Gurkha</String>
 		<String _locID="69136">INF Gurkha</String>
 		<String _locID="69137">Mansabdar. Inspires nearby Gurkhas</String>
-		<String _locID="69138">Inspires all nearby Gurkha. Indian skirmisher that is accurate to a long range. Good against heavy infantry.</String>
+		<String _locID="69138">Inspires all nearby Gurkha. Indian long-ranged infantry that is accurate to a long range. Good against heavy infantry.</String>
 		<String _locID="69139">Mansabdar Gurkha</String>
 		<String _locID="69140">MAN Gurkha</String>
 		<String _locID="69141" symbol="cStringAbstractNameGurkha">Gurkha</String>
@@ -28430,7 +28430,7 @@
 		<String _locID="69146">Auto Gather</String>
 		<String _locID="69147">Build</String>
 		<String _locID="69148">Discover</String>
-		<String _locID="69149">Export autogather</String>
+		<String _locID="69149">Export Auto Gather</String>
 		<String _locID="69150">Crate gather</String>
 		<String _locID="69151">Hunting</String>
 		<String _locID="69152">HP increase with similar units</String>
@@ -28800,8 +28800,8 @@
 		<String _locID="69516">Powerful Musketeer from Scotland.</String>
 		<String _locID="69517">Black Watch</String>
 		<String _locID="69518">REP Highlander</String>
-		<String _locID="69519">Skirmisher Mercenary</String>
-		<String _locID="69520">Hessian skirmisher mercenary. Good against heavy infantry.</String>
+		<String _locID="69519">Long-ranged Infantry Mercenary</String>
+		<String _locID="69520">Hessian long-ranged infantry mercenary. Good against heavy infantry.</String>
 		<String _locID="69521">Repentant Jaeger</String>
 		<String _locID="69522">REP Jaeger</String>
 		<String _locID="69523">Hand infantry mercenary</String>
@@ -29796,14 +29796,14 @@
 		<String _locID="70514">Tulip Speculation Shipment has arrived.</String>
 		<String _locID="70515">TEAM 5 Manchu has been received.</String>
 		<String _locID="70516">TEAM 4 Hand Mortars has been received.</String>
-		<String _locID="70517">Skirmisher</String>
-		<String _locID="70518">Skirmisher with low hitpoints, but a strong attack. Good against heavy infantry.</String>
+		<String _locID="70517">Long-ranged infantry</String>
+		<String _locID="70518">Long-ranged infantry with low hitpoints, but a strong attack. Good against heavy infantry.</String>
 		<String _locID="70519">Veteran Rifleman</String>
 		<String _locID="70520">INF Rifleman</String>
-		<String _locID="70521">Skirmisher</String>
+		<String _locID="70521">Long-ranged infantry</String>
 		<String _locID="77788">Reformed Government</String>
 		<String _locID="77789">Town Centers support 10 more population, and Villager and Fishing Boat limit is increased by 20.</String>
-		<String _locID="70522">Skirmisher with low hitpoints, but a strong attack. Good against heavy infantry.</String>
+		<String _locID="70522">Long-ranged infantry with low hitpoints, but a strong attack. Good against heavy infantry.</String>
 		<String _locID="70523">Veteran Rifleman</String>
 		<String _locID="70524">INF Rifleman</String>
 		<String _locID="70525">Put out another call to arms! We will not succumb to such cowardice!</String>
@@ -30997,7 +30997,7 @@
 		<String _locID="77927">14 Fencibles</String>
 		<String _locID="77928">Frontiersman</String>
 		<String _locID="77929">Frontiersmen</String>
-		<String _locID="77930">American Skirmisher attack and hitpoints increased.</String>
+		<String _locID="77930">American Long-ranged Infantry attack and hitpoints increased.</String>
 		<String _locID="77931">Imperial Frontiersmen</String>
 		<String _locID="77932">Imperial Frontiersman</String>
 		<String _locID="77933">Support building</String>
@@ -31038,7 +31038,7 @@
 		<String _locID="77968">8 Sabers</String>
 		<String _locID="77969">Provides important and unique improvements.</String>
 		<String _locID="77970">1 Supply Wagon</String>
-		<String _locID="77971">Light hand cavalry, good against skirmishers and artillery.</String>
+		<String _locID="77971">Light hand cavalry, good against long-ranged infantry and artillery.</String>
 		<String _locID="77972">Mounted Commander which fights and builds important buildings. Cannot die. If he falls unconscious, he can be rescued.</String>
 		<String _locID="77973">Commander</String>
 		<String _locID="77974">Transforms into a Command Center.</String>
@@ -31059,7 +31059,7 @@
 		<String _locID="77989">An army of Soheis.\n5 Sohei: Japanese warrior armed with a naginata, good against cavalry, Shock Infantry and buildings.</String>
 		<String _locID="77990">Boneguard</String>
 		<String _locID="77991">Templar Swordsman</String>
-		<String _locID="77992">Skirmisher with low hitpoints, but a high rate-of-fire. Good against heavy infantry.</String>
+		<String _locID="77992">Long-ranged infantry with low hitpoints, but a high rate-of-fire. Good against heavy infantry.</String>
 		<String _locID="77993">7 Riflemen</String>
 		<String _locID="77994">10 Riflemen</String>
 		<String _locID="77995">8 Riflemen</String>
@@ -31114,9 +31114,9 @@
 		<String _locID="78044">American Marines Team</String>
 		<String _locID="78045">Ships a small number of colonial Marines.\n6 Marines: heavy ranged infantry that are good against cavalry and shock infantry at melee.</String>
 		<String _locID="78046">American Riflemen Regiment</String>
-		<String _locID="78047">Ships a small number of Riflemen.\n8 Riflemen: skirmishers with low hitpoints, but a high rate-of-fire that are good against heavy infantry.</String>
+		<String _locID="78047">Ships a small number of Riflemen.\n8 Riflemen: long-ranged infantry with low hitpoints, but a high rate-of-fire that are good against heavy infantry.</String>
 		<String _locID="78048">American Saber Squad</String>
-		<String _locID="78049">Ships a small number of Sabers.\n7 Sabers: light hand cavalry, good against skirmishers and artillery.</String>
+		<String _locID="78049">Ships a small number of Sabers.\n7 Sabers: light hand cavalry, good against long-ranged infantry and artillery.</String>
 		<String _locID="78050">American Gatling Guns</String>
 		<String _locID="78051">Ships a small number of Gatling Guns.\n4 Gatling Guns: early automatic-fire weapons that are better against infantry than buildings.</String>
 		<String _locID="78052">6 Riflemen</String>
@@ -31219,7 +31219,7 @@
 		<String _locID="780748">Repentant Miner</String>
 		<String _locID="780749">You have used Fame to get 5 Shipments from your Home City.</String>
 		<String _locID="780750">An army of French Voltigeurs (Skirmishers).\n6 Voltigeurs: riflemen armed with a long-ranged attack, but low hitpoints.</String>
-		<String _locID="780751">An army of French Hussars.\n8 Hussars: light hand cavalry, good against skirmishers and artillery.</String>
+		<String _locID="780751">An army of French Hussars.\n8 Hussars: light hand cavalry, good against long-ranged infantry and artillery.</String>
 		<String _locID="780752">Imperial Gendarmes</String>
 		<String _locID="780753">Imperial Gendarme</String>
 		<String _locID="780754">Imperial Age Rush</String>
@@ -31252,7 +31252,7 @@
 		<String _locID="780781">An army of Japanese Ninja and German Black Riders.\n3 Ninja: assassin highly effective vs. mercs, explorers, and war chiefs.\n3 Black Riders: heavily armed mercenary cavalry.</String>
 		<String _locID="780782">An army of Swiss Reislaufer and Swedish Fusiliers.\n3 Reislaufer: elite mercenary armed with a pike, good against cavalry and shock infantry.\n4 Fusiliers: powerful ranged infantry mercenary.</String>
 		<String _locID="780783">An army of Chinese Manchu and Balkan Stradiots.\n3 Manchu: powerful cavalry archer mercenary.\n3 Stradiots: light cavalry mercenary, good against infantry.</String>
-		<String _locID="780784">An army of Polish Winged Hussars and Hessian Jaegers.\n2 Winged Hussars: powerful Shock Cavalry with a trample attack.\n4 Jaegers: skirmisher mercenary, good against heavy infantry.</String>
+		<String _locID="780784">An army of Polish Winged Hussars and Hessian Jaegers.\n2 Winged Hussars: powerful Shock Cavalry with a trample attack.\n4 Jaegers: long-ranged infantry mercenary, good against heavy infantry.</String>
 		<String _locID="780785">Hired Guns</String>
 		<String _locID="780786">Ships an army of 10 local mercenaries currently available at the Command Post and Monastery.</String>
 		<String _locID="780787">4. Regicide Maps</String>
@@ -31676,7 +31676,7 @@
 		<String _locID="781216">Continental Brigade</String>
 		<String _locID="781217">An army of American Marines.\n6 Marines: heavy ranged infantry, good against cavalry and shock infantry.</String>
 		<String _locID="781218">An army of American Marines and Gatling Guns.\n7 Marines: heavy ranged infantry, good against cavalry and shock infantry.\n2 Gatling Guns: early automatic-fire weapon, better against infantry than buildings.</String>
-		<String _locID="781219">An army of American Sabers and Gatling Guns.\n6 Sabers: light hand cavalry, good against skirmishers and artillery.\n3 Gatling Guns: early automatic-fire weapon, better against infantry than buildings.</String>
+		<String _locID="781219">An army of American Sabers and Gatling Guns.\n6 Sabers: light hand cavalry, good against long-ranged infantry and artillery.\n3 Gatling Guns: early automatic-fire weapon, better against infantry than buildings.</String>
 		<String _locID="781220">Mercenary Company</String>
 		<String _locID="781221">Mercenary Army</String>
 		<String _locID="781222">Mercenary Force</String>
@@ -31810,10 +31810,10 @@
 		<String _locID="781350">Dahomey</String>
 		<String _locID="781351">Gbeto</String>
 		<String _locID="781352">Dahomey Amazon warrior, good against heavy infantry.</String>
-		<String _locID="781353">Native African skirmisher</String>
+		<String _locID="781353">Native African Long-ranged Infantry</String>
 		<String _locID="781354">Political Asylum</String>
 		<String _locID="781355">The need for political asylum makes Trading Posts support 5 population.</String>
-		<String _locID="781356">Skirmisher type units armor increased.</String>
+		<String _locID="781356">Long-ranged infantry armor increased.</String>
 		<String _locID="781357">Amazons</String>
 		<String _locID="781358">Ships a regiment of Dahomey Amazons.</String>
 		<String _locID="781359">Dahomey Master Training</String>
@@ -31987,7 +31987,7 @@
 		<String _locID="781527">14 Vandrares</String>
 		<String _locID="781528">9 Vandrares</String>
 		<String _locID="781529">Boneguard</String>
-		<String _locID="781530">The Circle of Ossus sends Warwick and the elite Boneguard of men and beasts, and increases the hitpoints of all Skirmishers.</String>
+		<String _locID="781530">The Circle of Ossus sends Warwick and the elite Boneguard of men and beasts, and increases the hitpoints of all Long-ranged Infantry.</String>
 		<String _locID="781531">Knights of Malta</String>
 		<String _locID="781532">The Knights of St. John send Commander Alain Magnan and his cavalry vanguard.</String>
 		<String _locID="781533">Handgonne</String>
@@ -32477,8 +32477,8 @@
 		<String _locID="782019">Enables Longbowmen from the Commerce Age.</String>
 		<String _locID="782020">Train Green Jackets</String>
 		<String _locID="782021">Enables Green Jackets from the Fortress Age.</String>
-		<String _locID="782022">Gunpowder Skirmisher</String>
-		<String _locID="782023">Archaic Skirmisher</String>
+		<String _locID="782022">Gunpowder Long-ranged Infantry</String>
+		<String _locID="782023">Archaic Long-ranged Infantry</String>
 		<String _locID="782024">Bayonet Infantry</String>
 		<String _locID="782025">Ships the selected unit from the Barracks.</String>
 		<String _locID="782026">Ship Longbowmen</String>
@@ -32889,7 +32889,7 @@
 		<String _locID="782433">Ships 5 Waka Taua canoes to your colony.</String>
 		<String _locID="782434">Waka Taua</String>
 		<String _locID="782435">Waka Taua, heavy warship. General-purpose transport ship that can train units. Can garrison 25 units.</String>
-		<String _locID="782436">Maltese skirmisher armed with a rifle. Good against heavy infantry and light cavalry.</String>
+		<String _locID="782436">Maltese long-ranged infantry with a rifle. Good against heavy infantry and light cavalry.</String>
 		<String _locID="782437">Arquebusier</String>
 		<String _locID="782438">Veteran Arquebusiers</String>
 		<String _locID="782439">Veteran Arquebusier</String>
@@ -32998,5 +32998,21 @@
 		<String _locID="782542">The Province of Goshen sends X Desperados.</String>
 		<String _locID="782543">The Province of Zoutpansberg sends X Renegados.</String>
 		<String _locID="782544">Yuruks can only be trained from Town Centers.</String>
+		<String _locID="782545">Expeditions</String>
+		<String _locID="782546">Ships a Town Wagon to your colony and Hot Air Balloons to all your Home City drop off points. Permits you to have an extra Town Center.</String>
+		<String _locID="782547">Expeditions Shipment has arrived.</String>
+		<String _locID="782548">Peace of Munster</String>
+		<String _locID="782549">Envoys trickle a small amount of Fame over time.</String>
+		<String _locID="782550">Peace of Munster Shipment has arrived.</String>
+		<String _locID="782551">States-General</String>
+		<String _locID="782552">Team and Infinite shipments arrive faster.</String>
+		<String _locID="782553">States-General Shipment has arrived.</String>
+		<String _locID="782554">Fame Auto Gather</String>
+		<String _locID="782555">Mortar Production</String>
+		<String _locID="782556">Factories can now be configured to produce Mortars.</String>
+		<String _locID="782557">Mortar Production Shipment has arrived.</String>
+		<String _locID="782558">Configure this Factory to produce Mortars.</String>
+		<String _locID="782559">This Factory is producing Mortars.</String>
+		<String _locID="782560">Spawn Mortar</String>
 	</Language>
 </StringTable>

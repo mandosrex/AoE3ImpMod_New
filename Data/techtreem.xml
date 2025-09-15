@@ -43,9 +43,6 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Surgeon</Target>
 			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">LevyMin2</Target>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">EconomicAlliance</Effect>
 			<Effect status="obtainable" type="TechStatus">MilitaryAlliance</Effect>
 			<Effect status="obtainable" type="TechStatus">ypConsulateFrenchBrigadeFame</Effect>
@@ -614,6 +611,9 @@
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">LevyMin2</Target>
 			</Effect>
 			<Effect status="active" type="TechStatus">DefaultLongbowmen</Effect>
 			<Effect status="obtainable" type="TechStatus">EnableLongbowmen</Effect>
@@ -12541,283 +12541,13 @@
 		<RolloverTextID>24637</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="0.90" relativity="BasePercent" resource="Gold" subtype="Cost" type="Data">
+			<Effect amount="0.85" relativity="BasePercent" resource="Gold" subtype="Cost" type="Data">
 				<Target type="ProtoUnit">Mercenary</Target>
 			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsAsian</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsHackapells</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsCorsairs</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsBlackRiders</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsHessians</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsHighlanders</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsHighlandersIndia</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsHighland</Target>
-			</Effect>
-			<Effect amount="1125.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsHessians2</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsSwissPikemen</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsStradiots</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsRonin</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsMediterranean</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsManchu</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsMamelukes</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsLandsknecht2</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsHolyRoman</Target>
+			<Effect amount="0.75" relativity="Percent" resource="Gold" subtype="Cost" type="Data">
+				<Target type="techWithFlag">HomeCity</Target>
 			</Effect>
 			<Effect type="TextOutput">41873</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCPrivateers</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCPrivateersTeam</Target>
-			</Effect>
-			<Effect amount="637.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCPrivateers3</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCPrivateers2</Target>
-			</Effect>
-			<Effect amount="1800.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMercsCorsairsRepeat</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPCherokeeAllies1</Target>
-			</Effect>
-			<Effect amount="1800.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPCaribAlliesRepeat</Target>
-			</Effect>
-			<Effect amount="1800.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMercsFusiliersRepeat</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMercsNinja</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMercsGreatCannon</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMercsFusiliers</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMercsElmeti</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPCherokeeAllies2</Target>
-			</Effect>
-			<Effect amount="1800.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPCherokeeAlliesRepeat</Target>
-			</Effect>
-			<Effect amount="1800.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMayanAlliesRepeat</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMayanAllies2</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMayanAllies1</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPHuronAllies1</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPHuronAllies2</Target>
-			</Effect>
-			<Effect amount="1800.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPHuronAlliesRepeat</Target>
-			</Effect>
-			<Effect amount="1800.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPNootkaAlliesRepeat</Target>
-			</Effect>
-			<Effect amount="1800.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPTupiAlliesRepeat</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPCreeAlliesTeam</Target>
-			</Effect>
-			<Effect amount="900.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMercsHessiansRepeatTeam</Target>
-			</Effect>
-			<Effect amount="450.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCPrivateersRepeat</Target>
-			</Effect>
-			<Effect amount="1800.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsChakram3</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCWokouJapanese3</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCWokouJapanese2</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCWokouJapanese1</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsSohei3</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsSohei2</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsSohei1</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsJapaneseArmy</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsYojimbo1</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsRonin1</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsNinja2</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsNinja1</Target>
-			</Effect>
-			<Effect amount="1800.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsWarElephant1</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsTigerClaw3</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsTigerClaw2</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsTigerClaw1</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsChakram2</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsChakram1</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsIndianArmy</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsArsonist1</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsArsonist1Br</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsJatLancer1</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsJatLancer1Ot</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCWokouIndians3Double</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCWokouIndians2</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCWokouIndians1</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsMandarinArmy1</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsIronTroop1</Target>
-			</Effect>
-			<Effect amount="1800.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsRattanShield3</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsRattanShield2</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsRattanShield1</Target>
-			</Effect>
-			<Effect amount="900.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCWokouChinese3</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCWokouChinese2</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCWokouChinese1</Target>
-			</Effect>
-			<Effect amount="3000.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsRonin2</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCShipManchuTeam</Target>
-			</Effect>
-			<Effect amount="300.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPComancheroAllies</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">ChurchWaardgelders</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Wood" subtype="Cost" type="Data">
-				<Target type="Tech">ChurchTowerAndSword</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Food" subtype="Cost" type="Data">
-				<Target type="Tech">ChurchBlackWatch</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Food" subtype="Cost" type="Data">
-				<Target type="Tech">ChurchBlackWatchXP</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Food" subtype="Cost" type="Data">
-				<Target type="Tech">ChurchWildGeeseSpanish</Target>
-			</Effect>
-			<Effect amount="1000.00" relativity="Assign" resource="Food" subtype="Cost" type="Data">
-				<Target type="Tech">ChurchAxe</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">WingedKnights1</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCDahomey</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCKnightsTemplar</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCKnightsHospitaller</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCKnightsTeuton</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsHoopThrowersRepeat</Target>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCPrivateers" type="Normal">
@@ -12907,10 +12637,10 @@
 		<RolloverTextID>42376</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="HotAirBalloon">
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="HotAirBalloon">
 				<Target type="Player"/>
 			</Effect>
-			<Effect action="SpawnBalloons" amount="1.00" relativity="Absolute" subtype="ActionAdd" type="Data" unittype="HomeCityWaterSpawnFlag">
+			<Effect action="SpawnBalloons" amount="2.00" relativity="Absolute" subtype="ActionAdd" type="Data" unittype="HomeCityWaterSpawnFlag">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="TextOutput">42378</Effect>
@@ -13910,9 +13640,6 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="UpdateVisual" type="Data" unittype="Building">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="LOS" type="Data">
-				<Target type="ProtoUnit">Unit</Target>
-			</Effect>
 			<Effect amount="4.00" relativity="Absolute" subtype="LOS" type="Data">
 				<Target type="ProtoUnit">Building</Target>
 			</Effect>
@@ -14038,9 +13765,6 @@
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="UpdateVisual" type="Data" unittype="Building">
 				<Target type="Player"/>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="LOS" type="Data">
-				<Target type="ProtoUnit">Unit</Target>
 			</Effect>
 			<Effect amount="4.00" relativity="Absolute" subtype="LOS" type="Data">
 				<Target type="ProtoUnit">Building</Target>
@@ -15787,7 +15511,7 @@
 			<Effect amount="2.00" relativity="Absolute" subtype="LOS" type="Data">
 				<Target type="ProtoUnit">Unit</Target>
 			</Effect>
-			<Effect amount="5.00" relativity="Absolute" subtype="LOS" type="Data">
+			<Effect amount="6.00" relativity="Absolute" subtype="LOS" type="Data">
 				<Target type="ProtoUnit">Building</Target>
 			</Effect>
 			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
@@ -17570,16 +17294,13 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect culture="none" newName="33315" proto="TradingPost" type="SetName"/>
+			<Effect action="ExtraSpeed" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
+				<Target type="ProtoUnit">TradingPost</Target>
+			</Effect>
 			<Effect amount="0.70" relativity="Percent" resource="Wood" subtype="Cost" type="Data">
 				<Target type="ProtoUnit">TradingPost</Target>
 			</Effect>
-			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
-				<Target type="ProtoUnit">TradingPost</Target>
-			</Effect>
 			<Effect type="TextOutput">41794</Effect>
-			<Effect action="RangedAttack" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
-				<Target type="ProtoUnit">TradingPost</Target>
-			</Effect>
 			<Effect amount="100.00" relativity="Assign" resource="Food" subtype="Cost" type="Data">
 				<Target type="Tech">TradeRouteUpgrade1</Target>
 			</Effect>
@@ -18603,9 +18324,6 @@
 		<Effects>
 			<Effect amount="100.00" relativity="Absolute" resource="XP" subtype="Resource" type="Data">
 				<Target type="Player"/>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="LOS" type="Data">
-				<Target type="ProtoUnit">Unit</Target>
 			</Effect>
 			<Effect amount="4.00" relativity="Absolute" subtype="LOS" type="Data">
 				<Target type="ProtoUnit">Building</Target>
@@ -26087,12 +25805,6 @@
 			<Effect action="Build" amount="1.60" relativity="BasePercent" subtype="WorkRate" type="Data" unittype="Building">
 				<Target type="ProtoUnit">AbstractWagon</Target>
 			</Effect>
-			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="FreeUhlans" type="Data" unittype="Uhlan">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="FreeWings" type="Data" unittype="WingedK">
-				<Target type="Player"/>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCShipCaravels1German" type="Normal">
@@ -26264,54 +25976,12 @@
 		<Flag>HomeCity</Flag>
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
-			<Effect amount="0.90" relativity="BasePercent" resource="Gold" subtype="Cost" type="Data">
+			<Effect amount="0.85" relativity="BasePercent" resource="Gold" subtype="Cost" type="Data">
 				<Target type="ProtoUnit">Mercenary</Target>
 			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCPrivateers</Target>
-			</Effect>
-			<Effect amount="1800.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPCaribAlliesRepeat</Target>
-			</Effect>
-			<Effect amount="2000.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">ChurchWallensteinsContracts</Target>
-			</Effect>
 			<Effect type="TextOutput">41874</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsBlackRidersGerman</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsMediterraneanGerman</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsHighlandGerman</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsHolyRomanGerman</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsLandsknecht2German</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsHessiansGerman</Target>
-			</Effect>
-			<Effect amount="300.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsLandsknecht1German</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsHackapellsGerman</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPCreeAlliesTeam</Target>
-			</Effect>
-			<Effect amount="900.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMercsHessiansRepeatTeam</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMercsFusiliersGerman</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMercsElmetiGerman</Target>
+			<Effect amount="0.75" relativity="Percent" resource="Gold" subtype="Cost" type="Data">
+				<Target type="techWithFlag">HomeCity</Target>
 			</Effect>
 			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="FreeUhlans" type="Data" unittype="Uhlan">
 				<Target type="Player"/>
@@ -49048,7 +48718,6 @@
 	<Tech name="YPHCShipFuchuan1" type="Normal">
 		<DBID>2000</DBID>
 		<DisplayNameID>62821</DisplayNameID>
-		<Cost resourcetype="Gold">200.0000</Cost>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -49141,7 +48810,7 @@
 		<RolloverTextID>62852</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="1.00" amount2="5.00" relativity="Absolute" subtype="FreeHomeCityUnitShipped" type="Data2" unittype="ypWokouJunk" unittype2="xpHorseArtillery">
+			<Effect amount="1.00" amount2="5.00" relativity="Absolute" subtype="FreeHomeCityUnitShipped" type="Data2" unittype="ypWokouJunk" unittype2="ypFlyingCrow">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -60752,11 +60421,11 @@
 		<Flag>HomeCity</Flag>
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
-			<Effect amount="0.90" relativity="BasePercent" resource="Gold" subtype="Cost" type="Data">
+			<Effect amount="0.85" relativity="BasePercent" resource="Gold" subtype="Cost" type="Data">
 				<Target type="ProtoUnit">Mercenary</Target>
 			</Effect>
-			<Effect amount="1800.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPCaribAlliesRepeat</Target>
+			<Effect amount="0.75" relativity="Percent" resource="Gold" subtype="Cost" type="Data">
+				<Target type="techWithFlag">HomeCity</Target>
 			</Effect>
 			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ypFreeIndianSepoy" type="Data" unittype="ypSepoy">
 				<Target type="Player"/>
@@ -60764,234 +60433,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ypFreeIndianVillager" type="Data" unittype="ypSettlerIndian">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsAsian</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsBlackRiders</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsCorsairs</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPCreeAlliesTeam</Target>
-			</Effect>
-			<Effect amount="1800.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMercsCorsairsRepeat</Target>
-			</Effect>
-			<Effect amount="1800.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPCherokeeAlliesRepeat</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Absolute" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPCherokeeAllies2</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPCherokeeAllies1</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCPrivateersTeam</Target>
-			</Effect>
-			<Effect amount="637.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCPrivateers3</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCPrivateers2</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCPrivateers</Target>
-			</Effect>
-			<Effect amount="450.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCPrivateersRepeat</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsSwissPikemen</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Absolute" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsStradiots</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsRonin</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsMediterranean</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Absolute" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsManchu</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsMamelukes</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsLandsknecht2</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsHolyRoman</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsHighlanders</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsHighlandersIndia</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsHighland</Target>
-			</Effect>
-			<Effect amount="1125.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsHessians2</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsHessians</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCMercsHackapells</Target>
-			</Effect>
-			<Effect amount="1800.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPTupiAlliesRepeat</Target>
-			</Effect>
-			<Effect amount="1800.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPNootkaAlliesRepeat</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMercsNinja</Target>
-			</Effect>
-			<Effect amount="1800.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMayanAlliesRepeat</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMayanAllies2</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Absolute" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMayanAllies1</Target>
-			</Effect>
-			<Effect amount="1800.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPHuronAlliesRepeat</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPHuronAllies2</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPHuronAllies1</Target>
-			</Effect>
-			<Effect amount="900.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMercsHessiansRepeatTeam</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMercsGreatCannon</Target>
-			</Effect>
-			<Effect amount="1800.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMercsFusiliersRepeat</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Absolute" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMercsFusiliers</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">HCXPMercsElmeti</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCWokouJapanese3</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCWokouJapanese2</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCWokouJapanese1</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCWokouIndians3Double</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCWokouIndians2</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCWokouIndians1</Target>
-			</Effect>
-			<Effect amount="900.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCWokouChinese3</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCWokouChinese2</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCWokouChinese1</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsWarElephant1</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsYojimbo1</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsTigerClaw3</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsTigerClaw2</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsTigerClaw1</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsSohei3</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsSohei2</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsSohei1</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsRonin1</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsRattanShield3</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsRattanShield2</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsRattanShield1</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsNinja2</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsNinja1</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsMandarinArmy1</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsJatLancer1</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsJatLancer1Ot</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsJapaneseArmy</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsIronTroop1</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsIndianArmy</Target>
-			</Effect>
-			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsChakram3</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsArsonist1</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsArsonist1Br</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsChakram2</Target>
-			</Effect>
-			<Effect amount="375.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCMercsChakram1</Target>
-			</Effect>
-			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">YPHCShipManchuTeam</Target>
-			</Effect>
+			<Effect type="TextOutput">69206</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="YPHCShipMeteorHammer3" type="Normal">
@@ -67367,6 +66809,32 @@
 		<Prereqs>
 			<TechStatus status="Active">Fortressize</TechStatus>
 		</Prereqs>
+		<Effects>
+			<Effect action="CrackshotAttack" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
+				<Target type="ProtoUnit">Explorer</Target>
+			</Effect>
+			<Effect action="CrackshotAttack" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
+				<Target type="ProtoUnit">ExplorerMed</Target>
+			</Effect>
+			<Effect action="CrackshotAttack" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
+				<Target type="ProtoUnit">ExplorerMed2</Target>
+			</Effect>
+			<Effect action="CrackshotAttack" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
+				<Target type="ProtoUnit">ExplorerEast</Target>
+			</Effect>
+			<Effect action="CrackshotAttack" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
+				<Target type="ProtoUnit">ExplorerAmerican</Target>
+			</Effect>
+			<Effect action="CrackshotAttack" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
+				<Target type="ProtoUnit">ExplorerAmerican2</Target>
+			</Effect>
+			<Effect action="CrackshotAttack" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
+				<Target type="ProtoUnit">xpIroquoisWarChief</Target>
+			</Effect>
+			<Effect action="OberhauAttack" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
+				<Target type="ProtoUnit">xpAztecWarchief</Target>
+			</Effect>
+		</Effects>
 	</Tech>
 	<Tech name="IndustrializeAbilities" type="Normal">
 		<DBID>2680</DBID>
@@ -72262,16 +71730,16 @@
 		<RolloverTextID>781253</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect action="StaggerRangedAttack" amount="2.00" relativity="Absolute" subtype="MaximumRange" type="Data">
+			<Effect action="StaggerRangedAttack" amount="4.00" relativity="Absolute" subtype="MaximumRange" type="Data">
 				<Target type="ProtoUnit">Marine</Target>
 			</Effect>
-			<Effect action="DefendRangedAttack" amount="2.00" relativity="Absolute" subtype="MaximumRange" type="Data">
+			<Effect action="DefendRangedAttack" amount="4.00" relativity="Absolute" subtype="MaximumRange" type="Data">
 				<Target type="ProtoUnit">Marine</Target>
 			</Effect>
-			<Effect action="VolleyRangedAttack" amount="2.00" relativity="Absolute" subtype="MaximumRange" type="Data">
+			<Effect action="VolleyRangedAttack" amount="4.00" relativity="Absolute" subtype="MaximumRange" type="Data">
 				<Target type="ProtoUnit">Marine</Target>
 			</Effect>
-			<Effect amount="2.00" relativity="Absolute" subtype="LOS" type="Data">
+			<Effect amount="4.00" relativity="Absolute" subtype="LOS" type="Data">
 				<Target type="ProtoUnit">Marine</Target>
 			</Effect>
 			<Effect type="TextOutput">781254</Effect>
@@ -81810,7 +81278,7 @@
 			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
 				<Target type="ProtoUnit">ExplorerAmerican</Target>
 			</Effect>
-			<Effect action="SabotageAttack" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
+			<Effect action="DynamiteAttack" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
 				<Target type="ProtoUnit">ExplorerAmerican</Target>
 			</Effect>
 			<Effect type="TextOutput">782125</Effect>
@@ -81826,10 +81294,10 @@
 		<RolloverTextID>42377</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="HotAirBalloon">
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="HotAirBalloon">
 				<Target type="Player"/>
 			</Effect>
-			<Effect action="SpawnBalloons" amount="1.00" relativity="Absolute" subtype="ActionAdd" type="Data" unittype="HomeCityWaterSpawnFlag">
+			<Effect action="SpawnBalloons" amount="2.00" relativity="Absolute" subtype="ActionAdd" type="Data" unittype="HomeCityWaterSpawnFlag">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="FreeUhlans" type="Data" unittype="Uhlan">
@@ -85357,6 +84825,124 @@
 			<Effect amount="0.00" relativity="Absolute" subtype="UpdateVisual" type="Data" unittype="Lancer">
 				<Target type="Player"/>
 			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCExpeditions" type="Normal">
+		<DBID>3483</DBID>
+		<DisplayNameID>782545</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\expeditions</Icon>
+		<RolloverTextID>782546</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="CoveredWagon">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="BuildLimit" type="Data">
+				<Target type="ProtoUnit">TownCenter</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="HotAirBalloon">
+				<Target type="Player"/>
+			</Effect>
+			<Effect action="SpawnBalloons" amount="1.00" relativity="Absolute" subtype="ActionAdd" type="Data" unittype="HomeCityWaterSpawnFlag">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="TextOutput">782547</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCPeaceOfMunster" type="Normal">
+		<DBID>3484</DBID>
+		<DisplayNameID>782548</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\munster</Icon>
+		<RolloverTextID>782549</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect action="AutoGatherFame" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
+				<Target type="ProtoUnit">Envoy</Target>
+			</Effect>
+			<Effect type="TextOutput">782550</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCDutchStatesArmy" type="Normal">
+		<DBID>3485</DBID>
+		<DisplayNameID>782551</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\statesarmy</Icon>
+		<RolloverTextID>782552</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect amount="1.50" relativity="Percent" subtype="ResearchPoints" type="Data">
+				<Target type="Tech">HCEarlySkirmishersTeam</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="Percent" subtype="ResearchPoints" type="Data">
+				<Target type="Tech">HCShipEnvoyTeam</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="Percent" subtype="ResearchPoints" type="Data">
+				<Target type="Tech">HCInfantryHitpointsDutchTeam</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="Percent" subtype="ResearchPoints" type="Data">
+				<Target type="Tech">HCMortarsDamageDutchTeam</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="Percent" subtype="ResearchPoints" type="Data">
+				<Target type="Tech">HCXPShipMortarsTeam</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="Percent" subtype="ResearchPoints" type="Data">
+				<Target type="Tech">HCCheapMarketsTeam</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="Percent" subtype="ResearchPoints" type="Data">
+				<Target type="Tech">HCSpiceTradeTeam</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="Percent" subtype="ResearchPoints" type="Data">
+				<Target type="Tech">HCPrivateersTeam</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="Percent" subtype="ResearchPoints" type="Data">
+				<Target type="Tech">HCXPShipHalberdiersRepeat</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="Percent" subtype="ResearchPoints" type="Data">
+				<Target type="Tech">HCPrivateersRepeat</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="Percent" subtype="ResearchPoints" type="Data">
+				<Target type="Tech">HCXPCaribAlliesRepeat</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="Percent" subtype="ResearchPoints" type="Data">
+				<Target type="Tech">HCShipFoodCrates1</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="Percent" subtype="ResearchPoints" type="Data">
+				<Target type="Tech">HCShipWoodCrates1</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="Percent" subtype="ResearchPoints" type="Data">
+				<Target type="Tech">HCShipCoinCrates1</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="Percent" subtype="ResearchPoints" type="Data">
+				<Target type="Tech">HCShipSheep1Inf</Target>
+			</Effect>
+			<Effect type="TextOutput">782553</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCFactoryMortar" type="Normal">
+		<DBID>3486</DBID>
+		<DisplayNameID>782555</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\factorymortar</Icon>
+		<RolloverTextID>782556</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect action="SpawnMortar" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
+				<Target type="ProtoUnit">Factory</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="TacticEnable" tactic="Mortar" type="Data">
+				<Target type="ProtoUnit">Factory</Target>
+			</Effect>
+			<Effect type="TextOutput">782557</Effect>
 		</Effects>
 	</Tech>
 </TechTree>
