@@ -375,87 +375,51 @@ void initArrays(void)
         //...BHG: JFR:
         
      gAsianWonders = xsArrayCreateInt(5, 0, "Wonder Age IDs");
-     int wonderchoice = aiRandInt(4);
+     int wonderchoice = aiRandInt(2);
     
      if ((cMyCiv == cCivJapanese) || (cMyCiv == cCivSPCJapanese) || (cMyCiv == cCivSPCJapaneseEnemy)) {
      //Giant Buddha, Golden Pavillion, Shogunate, Torii Gates, Toshogu Shrine 
         if (wonderchoice == 0) {
-          xsArraySetInt(gAsianWonders, 0, cUnitTypeypWJGiantBuddha2);
-          xsArraySetInt(gAsianWonders, 1, cUnitTypeypWJGoldenPavillion3);
-          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWJShogunate4);
-          xsArraySetInt(gAsianWonders, 3, cUnitTypeypWJToshoguShrine5);
-        }
-        else if (wonderchoice == 1) {
-          xsArraySetInt(gAsianWonders, 0, cUnitTypeypWJGoldenPavillion2);
-          xsArraySetInt(gAsianWonders, 1, cUnitTypeypWJGiantBuddha3);
-          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWJToshoguShrine4);
-          xsArraySetInt(gAsianWonders, 3, cUnitTypeypWJShogunate5);
-        }
-        else if (wonderchoice == 2) {
-          xsArraySetInt(gAsianWonders, 0, cUnitTypeypWJShogunate2);
+          xsArraySetInt(gAsianWonders, 0, cUnitTypeypWJToshoguShrine2);
           xsArraySetInt(gAsianWonders, 1, cUnitTypeypWJToriiGates3);
-          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWJGiantBuddha4);
+          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWJShogunate4);
           xsArraySetInt(gAsianWonders, 3, cUnitTypeypWJGoldenPavillion5);
         }
         else {
-          xsArraySetInt(gAsianWonders, 0, cUnitTypeypWJToriiGates2);
-          xsArraySetInt(gAsianWonders, 1, cUnitTypeypWJToshoguShrine3);
-          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWJGoldenPavillion4);
-          xsArraySetInt(gAsianWonders, 3, cUnitTypeypWJShogunate5);
+          xsArraySetInt(gAsianWonders, 0, cUnitTypeypWJToshoguShrine2);
+          xsArraySetInt(gAsianWonders, 1, cUnitTypeypWJToriiGates3);
+          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWJShogunate4);
+          xsArraySetInt(gAsianWonders, 3, cUnitTypeypWJGiantBuddha5);
         }
      }
       if ((cMyCiv == cCivChinese) || (cMyCiv == cCivSPCChinese)) {
       //Confucian Academy, Porcelain Tower, Summer Palace, Temple of Heaven, White Pagoda
         if (wonderchoice == 0) {
-          xsArraySetInt(gAsianWonders, 0, cUnitTypeypWCConfucianAcademy2);
-          xsArraySetInt(gAsianWonders, 1, cUnitTypeypWCPorcelainTower3);
-          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWCSummerPalace4);
-          xsArraySetInt(gAsianWonders, 3, cUnitTypeypWCTempleOfHeaven5);
-        }
-        else if (wonderchoice == 1) {
           xsArraySetInt(gAsianWonders, 0, cUnitTypeypWCWhitePagoda2);
-          xsArraySetInt(gAsianWonders, 1, cUnitTypeypWCConfucianAcademy3);
-          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWCSummerPalace4);
-          xsArraySetInt(gAsianWonders, 3, cUnitTypeypWCPorcelainTower5);
-        }
-        else if (wonderchoice == 2) {
-          xsArraySetInt(gAsianWonders, 0, cUnitTypeypWCSummerPalace2);
-          xsArraySetInt(gAsianWonders, 1, cUnitTypeypWCWhitePagoda3);
-          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWCTempleOfHeaven4);
+          xsArraySetInt(gAsianWonders, 1, cUnitTypeypWCTempleOfHeaven3);
+          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWCPorcelainTower4);
           xsArraySetInt(gAsianWonders, 3, cUnitTypeypWCConfucianAcademy5);
         }
         else {
-          xsArraySetInt(gAsianWonders, 0, cUnitTypeypWCTempleOfHeaven2);
-          xsArraySetInt(gAsianWonders, 1, cUnitTypeypWCWhitePagoda3);
-          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWCSummerPalace4);
-          xsArraySetInt(gAsianWonders, 3, cUnitTypeypWCConfucianAcademy5);
+          xsArraySetInt(gAsianWonders, 0, cUnitTypeypWCWhitePagoda2);
+          xsArraySetInt(gAsianWonders, 1, cUnitTypeypWCTempleOfHeaven3);
+          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWCPorcelainTower4);
+          xsArraySetInt(gAsianWonders, 3, cUnitTypeypWCSummerPalace5);
         }
      }
      if ((cMyCiv == cCivIndians) || (cMyCiv == cCivSPCIndians)) {
      //Agra Fort, Charminar Gate, Karni Mata, Taj Mahal, Tower of Victory
         if (wonderchoice == 0) {
-          xsArraySetInt(gAsianWonders, 0, cUnitTypeypWIAgraFort2);
-          xsArraySetInt(gAsianWonders, 1, cUnitTypeypWICharminarGate3);
-          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWIKarniMata4);
-          xsArraySetInt(gAsianWonders, 3, cUnitTypeypWITajMahal5);
-        }
-        else if (wonderchoice == 1) {
-          xsArraySetInt(gAsianWonders, 0, cUnitTypeypWITowerOfVictory2);
-          xsArraySetInt(gAsianWonders, 1, cUnitTypeypWIAgraFort3);
-          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWICharminarGate4);
-          xsArraySetInt(gAsianWonders, 3, cUnitTypeypWIKarniMata5);
-        }
-        else if (wonderchoice == 2) {
           xsArraySetInt(gAsianWonders, 0, cUnitTypeypWICharminarGate2);
-          xsArraySetInt(gAsianWonders, 1, cUnitTypeypWITajMahal3);
-          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWIAgraFort4);
-          xsArraySetInt(gAsianWonders, 3, cUnitTypeypWITowerOfVictory5);
+          xsArraySetInt(gAsianWonders, 1, cUnitTypeypWIKarniMata3);
+          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWITajMahal4);
+          xsArraySetInt(gAsianWonders, 3, cUnitTypeypWIAgraFort5);
         }
         else {
-          xsArraySetInt(gAsianWonders, 0, cUnitTypeypWITajMahal2);
+          xsArraySetInt(gAsianWonders, 0, cUnitTypeypWICharminarGate2);
           xsArraySetInt(gAsianWonders, 1, cUnitTypeypWIKarniMata3);
-          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWITowerOfVictory4);
-          xsArraySetInt(gAsianWonders, 3, cUnitTypeypWICharminarGate5);
+          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWITajMahal4);
+          xsArraySetInt(gAsianWonders, 3, cUnitTypeypWITowerOfVictory5);
         }
      }
      
@@ -527,7 +491,7 @@ int getWonderToBuild(int the_age=-1)
     //Giant Buddha, Golden Pavillion, Shogunate, Torii Gates, Toshogu Shrine
     //age2
     if (the_age == cAge2) {
-      return (cUnitTypeypWJGiantBuddha2);
+      return (cUnitTypeypWJToshoguShrine2);
     }
     //age3
     else if (the_age == cAge3) {
@@ -539,25 +503,25 @@ int getWonderToBuild(int the_age=-1)
     }
     //age5
     else if (the_age == cAge5) {
-      return (cUnitTypeypWJToshoguShrine5);
+      return (cUnitTypeypWJGoldenPavillion5);
     }
   }
   if ((cMyCiv == cCivChinese) || (cMyCiv == cCivSPCChinese)) {
     //age2
     if (the_age == cAge2) {
-      return (cUnitTypeypWCPorcelainTower2);
+      return (cUnitTypeypWCWhitePagoda2);
     }
     //age3
     else if (the_age == cAge3) {
-      return (cUnitTypeypWCSummerPalace3);
+      return (cUnitTypeypWCTempleOfHeaven3);
     }
     //age4
     else if (the_age == cAge4) {
-      return (cUnitTypeypWCTempleOfHeaven4);
+      return (cUnitTypeypWCPorcelainTower4);
     }
     //age5
     else if (the_age == cAge5) {
-      return (cUnitTypeypWCWhitePagoda5);
+      return (cUnitTypeypWCSummerPalace5);
     }
   }
   if ((cMyCiv == cCivIndians) || (cMyCiv == cCivSPCIndians)) {
@@ -1521,6 +1485,14 @@ int createSimpleBuildPlan(int puid=-1, int number=1, int pri=100, bool economy=t
       if (puid  == cUnitTypeSPCFortCenter) {
         if (kbUnitCount(cMyID, cUnitTypeCommandWagon, cUnitStateAlive) > 0)
           builderType = cUnitTypeCommandWagon;
+      }
+      if ((puid  == cUnitTypeFortFrontier) || (kbGetAge() == cvMaxAge)) {
+        if (kbUnitCount(cMyID, cUnitTypeFortWagon, cUnitStateAlive) > 0)
+          builderType = cUnitTypeFortWagon;
+      }
+      if ((puid  == cUnitTypeFactory) || (kbGetAge() == cvMaxAge)) {
+        if (kbUnitCount(cMyID, cUnitTypeFactoryWagon, cUnitStateAlive) > 0)
+          builderType = cUnitTypeFactoryWagon;
       }
       }
       if (civIsNative() == true) {
@@ -4491,7 +4463,7 @@ if (kbGetCiv() == cCivFrench)
          aiSetResourceGathererPercentage(cResourceWood, 0.6, false, cRGPScript);    
          aiSetResourceGathererPercentage(cResourceFood, 0.4, false, cRGPScript);
       }
-      if ( (kbGetCiv() == cCivBritish) || (kbGetCiv() == cCivPirate) || (kbGetCiv() == cCivTheCircle)  || (kbGetCiv() == cCivSPCAct3))
+      if ( (kbGetCiv() == cCivBritish) || (kbGetCiv() == cCivPirate) || (kbGetCiv() == cCivSPCCompany))
       {  // Need extra wood
          aiSetResourceGathererPercentage(cResourceWood, 0.4, false, cRGPScript);    
          aiSetResourceGathererPercentage(cResourceFood, 0.6, false, cRGPScript);
@@ -4679,7 +4651,7 @@ void initEcon(void)
    }
    //...BHG
 
-   if ( (kbGetCiv() == cCivBritish) || (kbGetCiv() == cCivTheCircle) || (kbGetCiv() == cCivPirate) || (kbGetCiv() == cCivSPCAct3) )
+   if ( (kbGetCiv() == cCivBritish) || (kbGetCiv() == cCivPirate) || (kbGetCiv() == cCivSPCCompany) || (kbGetCiv() == cCivSPCAct3) )
       gHouseUnit = cUnitTypeManor;
       gLivestockPenUnit = cUnitTypeManor;
    
@@ -4687,7 +4659,7 @@ void initEcon(void)
       gHouseUnit = cUnitTypeHouse;
       gLivestockPenUnit = cUnitTypeHouse;
    
-   if ( (kbGetCiv() == cCivGermans) || (kbGetCiv() == cCivRussians) )
+   if ( (kbGetCiv() == cCivGermans) || (kbGetCiv() == cCivRussians) || (kbGetCiv() == cCivTheCircle) )
       gHouseUnit = cUnitTypeHouseEast;
       gLivestockPenUnit = cUnitTypeHouseEast;
       gExplorerUnit = cUnitTypeExplorerEast;
@@ -4717,7 +4689,7 @@ void initEcon(void)
       gLivestockPenUnit = cUnitTypeHouse;
       gExplorerUnit = cUnitTypeExplorerAmerican;
 
-   if ( kbGetCiv() == cCivColombians )
+   if ( (kbGetCiv() == cCivColombians) || (kbGetCiv() == cCivMexicans) )
       gHouseUnit = cUnitTypeHouseMed;
       gLivestockPenUnit = cUnitTypeHouseMed;
       gExplorerUnit = cUnitTypeExplorerAmerican;
@@ -5116,7 +5088,6 @@ void updateForecasts()
          {
             addItemToForecasts(gCaravelUnit, 2);
             addItemToForecasts(gGalleonUnit, 1);
-            addItemToForecasts(gFrigateUnit, 1);
          }
          
          // Dutch - two banks
@@ -5331,8 +5302,8 @@ void updateForecasts()
          if (gNavyMode == cNavyModeActive)
          {
             addItemToForecasts(gCaravelUnit, 4);
-            addItemToForecasts(gGalleonUnit, 2);
-            addItemToForecasts(gFrigateUnit, 1);
+            addItemToForecasts(gGalleonUnit, 3);
+            addItemToForecasts(gFrigateUnit, 2);
          }
          
          // Ottoman - mosque and tech
@@ -5444,8 +5415,8 @@ void updateForecasts()
          if (gNavyMode == cNavyModeActive)
          {
             addItemToForecasts(gCaravelUnit, 4);
-            addItemToForecasts(gGalleonUnit, 2);
-            addItemToForecasts(gFrigateUnit, 1);
+            addItemToForecasts(gGalleonUnit, 3);
+            addItemToForecasts(gFrigateUnit, 2);
          }
          
          // Ottoman - mosque and tech
@@ -6803,7 +6774,7 @@ minInterval 2
    if (kbUnitCount(cMyID, cUnitTypeypDaimyoRegicide, cUnitStateAlive) > 0)   
       xsEnableRule("regicideMonitor");
       
-   if (cRandomMapName=="Honshu" || cRandomMapName=="HonshuRegicide")  {
+   if (cRandomMapName=="Honshu")  {
      createSimpleBuildPlan(gDockUnit, 1, 100, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
      xsEnableRule("navyManager");
     }
@@ -7147,7 +7118,7 @@ minInterval 10
 { 
   //if the castle is up, put the guy in it
   
-  if (kbUnitCount(cMyID, cUnitTypeypCastleRegicide, cUnitStateAlive) > 0) {
+  if (kbUnitCount(cMyID, cUnitTypeypDaimyoRegicide, cUnitStateAlive) > 0) {
     //gotta find the castle
      static int castleQueryID=-1;
      //If we don't have the query yet, create one.
@@ -7160,7 +7131,7 @@ minInterval 10
     if (castleQueryID != -1) {
       kbUnitQuerySetPlayerRelation(castleQueryID, -1);
       kbUnitQuerySetPlayerID(castleQueryID, cMyID);
-      kbUnitQuerySetUnitType(castleQueryID, cUnitTypeypCastleRegicide);
+      kbUnitQuerySetUnitType(castleQueryID, cUnitTypeTownCenter);
       kbUnitQuerySetState(castleQueryID, cUnitStateAlive);
     }
     else {
@@ -7435,12 +7406,27 @@ minInterval 3
    // Mill construction is handled by updateFoodBreakdown, do not build mills here
    
    // Livestock pen if we own critters
-   planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, gLivestockPenUnit);
-   if ( (planID < 0) && (kbUnitCount(cMyID, gLivestockPenUnit, cUnitStateAlive) < 1) && (kbUnitCount(cMyID, cUnitTypeHerdable, cUnitStateAlive) > 0) )
-   {     // Start a new one
-         createSimpleBuildPlan(gLivestockPenUnit, 1, 65, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
+   if (civIsNative() == true)
+   {
+      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeLivestockPen);
+      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeLivestockPen, cUnitStateAlive) < 1) )
+      {     // Start a new one
+         createSimpleBuildPlan(cUnitTypeLivestockPen, 1, 65, false, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
          aiEcho("Starting a new livestock pen build plan.");
          xsEnableRule("herdMonitor");  // Relocate herd plan when it's done
+      }
+   }
+
+   // Sacred Field for Indians
+   if (kbGetCiv() == cCivIndians)
+   {
+      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeypSacredField);
+      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeypSacredField, cUnitStateAlive) < 1) )
+      {     // Start a new one
+         createSimpleBuildPlan(cUnitTypeypSacredField, 1, 65, false, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
+         aiEcho("Starting a new sacred field build plan.");
+         xsEnableRule("herdMonitor");  // Relocate herd plan when it's done
+      }
    }
    
    // At least one artillery depot
@@ -7458,7 +7444,7 @@ minInterval 3
       if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeypCastle, cUnitStateAlive) < 1) )
       {     // Start a new one
         createSimpleBuildPlan(cUnitTypeypCastle, 1, 70, false, cMilitaryEscrowID, kbBaseGetMainID(cMyID), 1);
-        aiEcho("Starting a new siege workshop build plan.");
+        aiEcho("Starting a new castle build plan.");
       }
     }
 
@@ -7485,6 +7471,17 @@ minInterval 3
             aiEcho("Starting a new church build plan.");
          }
       }
+   }
+
+   // At least five teepees
+   if ( cMyCiv == cCivXPSioux )
+   {
+      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeTeepee);
+      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeTeepee, cUnitStateAlive) < 4) )
+      {     // Start a new one
+         createSimpleBuildPlan(cUnitTypeTeepee, 1, 50, false, cMilitaryEscrowID, kbBaseGetMainID(cMyID), 1);
+         aiEcho("Starting a new teepee build plan.");
+      }   
    }
    
    // Need a Consulate
@@ -7528,7 +7525,7 @@ minInterval 3
 		}   
 	}
    else if ( civIsNative() == true )
-   {  // Natives, at least 1 war hut
+   {  // Natives, at least 2 war hut
 		planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeWarHut);
 		if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeWarHut, cUnitStateAlive) < 2) )
 		{     // Start a new one
@@ -7633,6 +7630,16 @@ minInterval 3
          aiEcho("Starting a new arsenal build plan.");
       }
    }
+
+   // At least 2 castles
+   if (civIsAsian() == true) {
+      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeypCastle);
+      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeypCastle, cUnitStateAlive) < 2) )
+      {     // Start a new one
+        createSimpleBuildPlan(cUnitTypeypCastle, 1, 70, false, cMilitaryEscrowID, kbBaseGetMainID(cMyID), 1);
+        aiEcho("Starting a new castle build plan.");
+      }
+    }
    
    // That's it for age 3
    if (kbGetAge() < cAge4)
@@ -7647,6 +7654,17 @@ minInterval 3
          aiEcho("Starting a new TC build plan.");
       }
 
+   // At least 3 war huts
+   else if ( civIsNative() == true )
+   {
+	planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeWarHut);
+	if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeWarHut, cUnitStateAlive) < 3) )
+	{     // Start a new one
+		createSimpleBuildPlan(cUnitTypeWarHut, 1, 70, false, cMilitaryEscrowID, kbBaseGetMainID(cMyID), 1);
+		aiEcho("Starting a new war hut build plan.");
+	}  
+   }
+
    // At least two artillery depot
    if ( (civIsNative() == false) && (civIsAsian() == false) )
    {
@@ -7659,7 +7677,7 @@ minInterval 3
    }
    if (civIsAsian() == true) {
       planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeypCastle);
-      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeypCastle, cUnitStateAlive) < 2) )
+      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeypCastle, cUnitStateAlive) < 3) )
       {     // Start a new one
         createSimpleBuildPlan(cUnitTypeypCastle, 1, 70, false, cMilitaryEscrowID, kbBaseGetMainID(cMyID), 1);
         aiEcho("Starting a new siege workshop build plan.");
@@ -7710,6 +7728,7 @@ minInterval 3
    if (kbGetAge() < cAge5)
       return;
    // **********************************************************
+
 
 
 }
@@ -8437,7 +8456,7 @@ void initPersonality(void)
 
    int civ = kbGetCiv();
    if (civ == cCivTheCircle)
-      civ = cCivBritish;
+      civ = cCivGermans;
    if (civ == cCivPirate)
       civ = cCivBritish;
    if (civ == cCivSPCAct3)
@@ -8456,6 +8475,8 @@ void initPersonality(void)
       civ = cCivIndians;
    if (civ == cCivSPCCompany)
       civ = cCivBritish;
+   if (civ == cCivMexicans)
+      civ = cCivColombians;
 
    // Set behavior traits
    aiEcho("My civ is "+civ);
@@ -14276,6 +14297,24 @@ minInterval 5
          aiPlanDestroy(upgradePlanID);
       createSimpleResearchPlan(cTechAICheatsAge4, getUnit(cUnitTypeTownCenter), cEconomyEscrowID, 50);
       return;
+   }
+}
+
+
+rule getBastion
+active
+minInterval 30
+{
+   if (kbTechGetStatus(cTechBastion) == cTechStatusActive)
+   {
+      xsDisableSelf();
+      return;
+   }
+   int walls = getUnit(cUnitTypeWallConnector, cMyID, cUnitStateAlive);
+   if (walls >= 0)
+   {
+      createSimpleResearchPlan(cTechBastion,walls,cMilitaryEscrowID, 50);
+      xsDisableSelf();
    }
 }
 

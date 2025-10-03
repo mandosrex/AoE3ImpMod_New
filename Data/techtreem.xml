@@ -615,6 +615,9 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">LevyMin2</Target>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="BuildLimit" type="Data">
+				<Target type="ProtoUnit">Factory</Target>
+			</Effect>
 			<Effect status="active" type="TechStatus">DefaultLongbowmen</Effect>
 			<Effect status="obtainable" type="TechStatus">EnableLongbowmen</Effect>
 			<Effect status="obtainable" type="TechStatus">EnableGreenJackets</Effect>
@@ -2697,9 +2700,6 @@
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Halberdier</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">LumberCampAct</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Arsenal</Target>
@@ -19104,6 +19104,24 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="BuildLimit" type="Data">
 				<Target type="ProtoUnit">Factory</Target>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Factory">
+				<Target type="ProtoUnit">Explorer</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Factory">
+				<Target type="ProtoUnit">ExplorerEast</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Factory">
+				<Target type="ProtoUnit">ExplorerMed</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Factory">
+				<Target type="ProtoUnit">ExplorerMed2</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Factory">
+				<Target type="ProtoUnit">ExplorerAmerican</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Factory">
+				<Target type="ProtoUnit">ExplorerAmerican2</Target>
+			</Effect>
 			<Effect type="TextOutput">41904</Effect>
 		</Effects>
 	</Tech>
@@ -23040,7 +23058,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\infantry_ranged\janissary\janissary_icon_64x64</Icon>
+		<Icon>units\infantry_ranged\janissary\janissary_icon_inf</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect amount="8.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Janissary">
@@ -27512,7 +27530,7 @@
 		<RolloverTextID>37362</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="40.00" relativity="Absolute" subtype="PopulationCapAddition" type="Data">
+			<Effect amount="35.00" relativity="Absolute" subtype="PopulationCapAddition" type="Data">
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 			<Effect type="TextOutput">41938</Effect>
@@ -28140,6 +28158,24 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="BuildLimit" type="Data">
 				<Target type="ProtoUnit">FortFrontier</Target>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Outpost">
+				<Target type="ProtoUnit">Explorer</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Outpost">
+				<Target type="ProtoUnit">ExplorerEast</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Outpost">
+				<Target type="ProtoUnit">ExplorerMed</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Outpost">
+				<Target type="ProtoUnit">ExplorerMed2</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Outpost">
+				<Target type="ProtoUnit">ExplorerAmerican</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Outpost">
+				<Target type="ProtoUnit">ExplorerAmerican2</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="VeteranSkirmishersShadow" type="Normal">
@@ -28393,6 +28429,24 @@
 			<Effect type="TextOutput">42204</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="BuildLimit" type="Data">
 				<Target type="ProtoUnit">Factory</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Factory">
+				<Target type="ProtoUnit">Explorer</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Factory">
+				<Target type="ProtoUnit">ExplorerEast</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Factory">
+				<Target type="ProtoUnit">ExplorerMed</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Factory">
+				<Target type="ProtoUnit">ExplorerMed2</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Factory">
+				<Target type="ProtoUnit">ExplorerAmerican</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Factory">
+				<Target type="ProtoUnit">ExplorerAmerican2</Target>
 			</Effect>
 			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="FreeUhlans" type="Data" unittype="Uhlan">
 				<Target type="Player"/>
@@ -39229,6 +39283,24 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="BuildLimit" type="Data">
 				<Target type="ProtoUnit">FortFrontier</Target>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="FortFrontier">
+				<Target type="ProtoUnit">Explorer</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="FortFrontier">
+				<Target type="ProtoUnit">ExplorerEast</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="FortFrontier">
+				<Target type="ProtoUnit">ExplorerMed</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="FortFrontier">
+				<Target type="ProtoUnit">ExplorerMed2</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="FortFrontier">
+				<Target type="ProtoUnit">ExplorerAmerican</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="FortFrontier">
+				<Target type="ProtoUnit">ExplorerAmerican2</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCXPIndustrialRevolution" type="Normal">
@@ -39246,6 +39318,24 @@
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="BuildLimit" type="Data">
 				<Target type="ProtoUnit">Factory</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Factory">
+				<Target type="ProtoUnit">Explorer</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Factory">
+				<Target type="ProtoUnit">ExplorerEast</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Factory">
+				<Target type="ProtoUnit">ExplorerMed</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Factory">
+				<Target type="ProtoUnit">ExplorerMed2</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Factory">
+				<Target type="ProtoUnit">ExplorerAmerican</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Factory">
+				<Target type="ProtoUnit">ExplorerAmerican2</Target>
 			</Effect>
 			<Effect type="TextOutput">46501</Effect>
 		</Effects>
@@ -39292,6 +39382,24 @@
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="BuildLimit" type="Data">
 				<Target type="ProtoUnit">FortFrontier</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="FortFrontier">
+				<Target type="ProtoUnit">Explorer</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="FortFrontier">
+				<Target type="ProtoUnit">ExplorerEast</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="FortFrontier">
+				<Target type="ProtoUnit">ExplorerMed</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="FortFrontier">
+				<Target type="ProtoUnit">ExplorerMed2</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="FortFrontier">
+				<Target type="ProtoUnit">ExplorerAmerican</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="FortFrontier">
+				<Target type="ProtoUnit">ExplorerAmerican2</Target>
 			</Effect>
 			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="FreeUhlans" type="Data" unittype="Uhlan">
 				<Target type="Player"/>
@@ -39937,10 +40045,10 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\infantry\dopplesoldner\dopplesoldner_icon_64x64</Icon>
+		<Icon>units\infantry\dopplesoldner\dopplesoldner_icon_inf</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="9.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Dopplesoldner">
+			<Effect amount="7.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Dopplesoldner">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="FreeUhlans" type="Data" unittype="Uhlan">
@@ -45825,10 +45933,10 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\asians\chuck\hc_infinite_naginata_rider</Icon>
+		<Icon>ui\techs\asians\chuck\hc_naginata_rider_shipment</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="6.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypNaginataRider">
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypNaginataRider">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -46923,6 +47031,7 @@
 		<Icon>ui\techs\hc_infantry_combat\hc_infantry_combat</Icon>
 		<RolloverTextID>61733</RolloverTextID>
 		<Flag>HomeCity</Flag>
+		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
 			<Effect type="TextOutput">69427</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ypFreeIndianVillager" type="Data" unittype="ypSettlerIndian">
@@ -47862,6 +47971,7 @@
 		<RolloverTextID>22961</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Flag>TeamTech</Flag>
+		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
 			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="AANativeStartingTechs" type="Data" unittype="FishingBoat">
 				<Target type="Player"/>
@@ -50915,7 +51025,7 @@
 		<Icon>ui\techs\asians\chuck\hc_infinite_naginata_rider</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypNaginataRider">
+			<Effect amount="6.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypNaginataRider">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -51801,6 +51911,12 @@
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="BuildLimit" type="Data">
 				<Target type="ProtoUnit">YPDojo</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="YPDojo">
+				<Target type="ProtoUnit">ypMonkJapanese</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="YPDojo">
+				<Target type="ProtoUnit">ypMonkJapanese2</Target>
 			</Effect>
 			<Effect type="TextOutput">64328</Effect>
 		</Effects>
@@ -68091,7 +68207,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\artillery\saker\icon</Icon>
+		<Icon>units\artillery\carronade\carronade_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Saker">
@@ -68346,7 +68462,7 @@
 		<Icon>units\cavalry\mounted_crossbowman\mounted_crossbowman_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="8.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MountedCrossbowman">
+			<Effect amount="9.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MountedCrossbowman">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -68360,7 +68476,7 @@
 		<Icon>units\cavalry\mounted_crossbowman\mounted_crossbowman_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="6.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MountedCrossbowman">
+			<Effect amount="7.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MountedCrossbowman">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -69776,10 +69892,10 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\asians\chuck\hc_sohei_shipment</Icon>
+		<Icon>ui\techs\asians\chuck\hc_sohei_inf</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="10.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Sohei">
+			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Sohei">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -71522,7 +71638,7 @@
 		<Icon>ui\techs\crossbow_inf</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="7.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MountedCrossbowman">
+			<Effect amount="8.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MountedCrossbowman">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -71635,7 +71751,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\artillery\saker\icon</Icon>
+		<Icon>units\artillery\carronade\carronade_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect amount="6.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Saker">
@@ -71649,7 +71765,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\artillery\saker\icon</Icon>
+		<Icon>units\artillery\carronade\carronade_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect amount="8.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Saker">
@@ -71809,7 +71925,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\cavalry\light_cavalry\wingedk_icon</Icon>
+		<Icon>units\cavalry\wingedk\wingedk_icon</Icon>
 		<RolloverTextID>781261</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -73289,10 +73405,10 @@
 				<Target type="ProtoUnit">ExplorerEast</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">LumberCampAct</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">BrigEx</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="WarCamp">
+				<Target type="ProtoUnit">ExplorerEast</Target>
 			</Effect>
 			<Effect type="TextOutput">781374</Effect>
 		</Effects>
@@ -76726,16 +76842,20 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_artillary_combat\hc_artillary_combat</Icon>
+		<Icon>ui\techs\grenadelaunchers</Icon>
 		<RolloverTextID>781691</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="1.20" relativity="BasePercent" subtype="Hitpoints" type="Data">
+			<Effect action="BuildingAttack" amount="8.00" relativity="Absolute" subtype="MaximumRange" type="Data">
 				<Target type="ProtoUnit">Handgonne</Target>
 			</Effect>
-			<Effect allactions="1" amount="1.20" relativity="BasePercent" subtype="Damage" type="Data">
+			<Effect action="BuildingAttack" amount="1.80" relativity="BasePercent" subtype="Damage" type="Data">
 				<Target type="ProtoUnit">Handgonne</Target>
 			</Effect>
+			<Effect amount="4.00" relativity="Absolute" subtype="LOS" type="Data">
+				<Target type="ProtoUnit">Handgonne</Target>
+			</Effect>
+
 			<Effect type="TextOutput">781693</Effect>
 		</Effects>
 	</Tech>
@@ -78798,7 +78918,7 @@
 		<Icon>ui\techs\crossbow_inf</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="7.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MountedCrossbowman">
+			<Effect amount="8.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MountedCrossbowman">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -83902,7 +84022,7 @@
 			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MercBlackRider">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="6.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MercLandsknecht">
+			<Effect amount="6.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Axeman">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -84284,24 +84404,26 @@
 			<Effect flagoverridebuttonset="french2FlagBtnLarge" flagoverridetex="objects\flags\french2" flagpostgameoverridetex="ui\ingame\ingame_ui_postgame_flag_french2" type="FlagOverride"/>
 		</Effects>
 	</Tech>
-	<Tech name="HCHouseBourbon" type="Normal">
+	<Tech name="HCFrenchRevolutionaries" type="Normal">
 		<DBID>3453</DBID>
 		<DisplayNameID>782489</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<Cost resourcetype="Gold">500.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\houses\house_of_bourbon</Icon>
+		<Icon>ui\techs\french_rev</Icon>
 		<RolloverTextID>782490</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="15.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypConsulateStadhouders2">
+			<Effect amount="16.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="xpColonialMilitia">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="FlagBearer">
 				<Target type="Player"/>
 			</Effect>
-			<Effect culture="none" newName="782491" proto="ypConsulateStadhouders2" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">xpColonialMilitia</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="GuardKnights" type="Normal">
@@ -84906,6 +85028,9 @@
 				<Target type="Tech">HCXPShipHalberdiersRepeat</Target>
 			</Effect>
 			<Effect amount="1.50" relativity="Percent" subtype="ResearchPoints" type="Data">
+				<Target type="Tech">HCShipRuytersRepeat</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="Percent" subtype="ResearchPoints" type="Data">
 				<Target type="Tech">HCPrivateersRepeat</Target>
 			</Effect>
 			<Effect amount="1.50" relativity="Percent" subtype="ResearchPoints" type="Data">
@@ -84943,6 +85068,203 @@
 				<Target type="ProtoUnit">Factory</Target>
 			</Effect>
 			<Effect type="TextOutput">782557</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCUnlockFactoryBritish" type="Normal">
+		<DBID>3487</DBID>
+		<DisplayNameID>782563</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>buildings\factory\shared_factory_icon</Icon>
+		<RolloverTextID>782564</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="FactoryWagon">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCShipRuytersRepeat" type="Normal">
+		<DBID>3488</DBID>
+		<DisplayNameID>782567</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\cavalry\reiter\reiter_icon_inf</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect amount="10.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Ruyter">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCShipCrossbowmenRepeat" type="Normal">
+		<DBID>3489</DBID>
+		<DisplayNameID>782568</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\infantry_ranged\crossbow\crossbow_icon_inf</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect amount="14.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Crossbowman">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCShipFalconetsRepeat" type="Normal">
+		<DBID>3490</DBID>
+		<DisplayNameID>35663</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\artillery\falconet\falconet_icon_inf</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Falconet">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCShipHussarsRepeat" type="Normal">
+		<DBID>3491</DBID>
+		<DisplayNameID>782569</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\cavalry\light_cavalry\light_cavalry_icon_inf</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect amount="6.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Hussar">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCShipDragoonsRepeat" type="Normal">
+		<DBID>3492</DBID>
+		<DisplayNameID>782570</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\cavalry\dragoon\dragoon_icon_inf</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect amount="7.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Dragoon">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCShipOprichniksRepeat" type="Normal">
+		<DBID>3493</DBID>
+		<DisplayNameID>782571</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\cavalry\oprichnik\oprichnik_icon_inf</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect amount="8.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Oprichnik">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCShipPikemenRepeat" type="Normal">
+		<DBID>3494</DBID>
+		<DisplayNameID>782572</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\infantry\pikeman\pikeman_icon_inf</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect amount="14.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Pikeman">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCShipCulverinsRepeat" type="Normal">
+		<DBID>3495</DBID>
+		<DisplayNameID>35847</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\artillery\culverin\culverin_icon_inf</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Culverin">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCShipSteamShipRepeat" type="Normal">
+		<DBID>3496</DBID>
+		<DisplayNameID>782573</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\naval\Paddle_Steamer\Paddle_Steamer_icon_inf</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SteamShip">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCShipFrigateRepeat" type="Normal">
+		<DBID>3497</DBID>
+		<DisplayNameID>35725</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\naval\frigate\frigate_icon_inf</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Frigate">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCShipMonitorRepeat" type="Normal">
+		<DBID>3498</DBID>
+		<DisplayNameID>35726</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\naval\monitor\monitor_icon_inf</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Monitor">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCXPShipMusketWarriorsRepeat" type="Normal">
+		<DBID>3499</DBID>
+		<DisplayNameID>43760</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\units\iro_forrest_runner_icon_inf</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect amount="9.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="xpMusketWarrior">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCXPShipWarBowsRepeat" type="Normal">
+		<DBID>3500</DBID>
+		<DisplayNameID>782575</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\units\sx_warbow_icon_inf</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect amount="10.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="xpWarBow">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 </TechTree>

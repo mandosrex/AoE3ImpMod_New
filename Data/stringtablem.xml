@@ -2441,7 +2441,7 @@
 		<String _locID="25922">Villagers gather Coin from Mines faster.</String>
 		<String _locID="25923">Incan Metalworking</String>
 		<String _locID="25931">Ships a Factory Wagon to your colony, allowing you to construct a powerful Factory to produce resources or heavy artillery.</String>
-		<String _locID="25932">Factory</String>
+		<String _locID="25932">1 Factory</String>
 		<String _locID="25942" symbol="cStringGCHomeCityBtn">Home City</String>
 		<String _locID="25956">&lt;icon="(32)(ui/ingame/stat_icon_guardian)"&gt; Treasure guardian</String>
 		<String _locID="25957">Defeat this guardian to collect its Treasure.</String>
@@ -3345,7 +3345,7 @@
 		<String _locID="27778">Master Eagle Warrior</String>
 		<String _locID="27779">Master Huron Mantlet</String>
 		<String _locID="27835">Ships a Fort Wagon to your colony, allowing you to construct a mighty Fort.</String>
-		<String _locID="27836">Fort</String>
+		<String _locID="27836">1 Fort</String>
 		<String _locID="27844">STARTING TECHS</String>
 		<String _locID="27845">Starting Techs</String>
 		<String _locID="27891">This Treasure has already been claimed.</String>
@@ -6116,7 +6116,7 @@
 		<String _locID="35132">Extensive Fortifications</String>
 		<String _locID="35133">Outpost, War Hut, Nobles' Hut, Lookout, Tower, Blockhouse, and Castle build limit and hitpoints increased.</String>
 		<String _locID="35134">Robber Barons</String>
-		<String _locID="35135">Ships a Factory Wagon to your colony, allowing you to construct a powerful Factory to produce resources or heavy artillery. Permits you to have an extra Factory.</String>
+		<String _locID="35135">Ships a Factory Wagon to your colony, allowing you to construct a powerful Factory to produce resources or heavy artillery. Permits your Explorer to replace lost Factories.</String>
 		<String _locID="35136">Villagers gather Food from hunted animals, berries, and Cherry Orchards faster.</String>
 		<String _locID="35137">Furrier</String>
 		<String _locID="35138">Villagers gather Food from Farms, Mills, and Rice Paddies faster.</String>
@@ -12090,7 +12090,7 @@
 		<String _locID="41671">Transforms into a Factory for economic and heavy artillery production.</String>
 		<String _locID="41672">Factory Wagon</String>
 		<String _locID="41673">VIL Factory Wagon</String>
-		<String _locID="41674">Ships a Fort Wagon to your colony, allowing you to construct a mighty Fort. Permits you to have an extra Fort.</String>
+		<String _locID="41674">Ships a Fort Wagon to your colony, allowing you to construct a mighty Fort. Permits your Explorer to build Outposts.</String>
 		<String _locID="41675">Cittadella</String>
 		<String _locID="41676">SPC Ossuary</String>
 		<String _locID="41677">Improvement building</String>
@@ -12618,7 +12618,7 @@
 		<String _locID="42199">Disable</String>
 		<String _locID="42200">10 Longbowmen / 10 Green Jackets</String>
 		<String _locID="42201">24 Crossbowmen</String>
-		<String _locID="42202">Ships a Factory Wagon to your colony, allowing you to construct a powerful Factory to produce resources or heavy artillery. Permits you to have an extra Factory, +4 Uhlans.</String>
+		<String _locID="42202">Ships a Factory Wagon to your colony, allowing you to construct a powerful Factory to produce resources or heavy artillery. Permits your Explorer to replace lost Factories, +4 Uhlans.</String>
 		<String _locID="42203">Robber Barons</String>
 		<String _locID="42204">Robber Barons Shipment has arrived.</String>
 		<String _locID="42205">Ships a number of German Black Rider Mercenaries. Instead of Uhlans, you get extra Riders.</String>
@@ -14174,7 +14174,7 @@
 		<String _locID="43756">Zapotec Lightning Warrior</String>
 		<String _locID="43757">NAT Zapotec Lightning Warrior</String>
 		<String _locID="43758">6 Forest Prowlers</String>
-		<String _locID="43759">9 Forest Prowlers</String>
+		<String _locID="43759">10 Forest Prowlers</String>
 		<String _locID="43760">8 Forest Prowlers</String>
 		<String _locID="43761">8 Aennas</String>
 		<String _locID="43762">6 Aennas</String>
@@ -16897,9 +16897,9 @@
 		<String _locID="46494" gamecharacter="Chayton" soundfilename="XCHAY9065">We must save more workers!</String>
 		<String _locID="46495" gamecharacter="Chayton" soundfilename="XCHAY9070">Upgrading the trade route to a railroad would increase our income and allow us to hire more mercenaries.</String>
 		<String _locID="46496" gamecharacter="Holme" soundfilename="XHOLM9055">We should put those workers on the mines so we have more coin coming in.</String>
-		<String _locID="46497">Ships a Fort Wagon to your colony, allowing you to construct a mighty Fort. Permits you to have an extra Fort.</String>
+		<String _locID="46497">Ships a Fort Wagon to your colony, allowing you to construct a mighty Fort. Permits your Explorer to replace lost Forts.</String>
 		<String _locID="46498">Castrametation</String>
-		<String _locID="46499">Ships a Factory Wagon to your colony, allowing you to construct a powerful Factory to produce resources or heavy artillery. Permits you to have an extra Factory.</String>
+		<String _locID="46499">Ships a Factory Wagon to your colony, allowing you to construct a powerful Factory to produce resources or heavy artillery. Permits your Explorer to replace lost Factories.</String>
 		<String _locID="46500">Industrial Revolution</String>
 		<String _locID="46501">Industrial Revolution Shipment has arrived.</String>
 		<String _locID="46502">Save 20 Railroad Workers from the Sioux.</String>
@@ -16911,7 +16911,7 @@
 		<String _locID="46508">Ships a Factory Wagon to your colony, allowing you to construct a powerful Factory to produce resources or heavy artillery, +4 Uhlans.</String>
 		<String _locID="46509">Industrial Revolution</String>
 		<String _locID="46510">Robber Barons Shipment has arrived.</String>
-		<String _locID="46511">Ships a Fort Wagon to your colony, allowing you to construct a mighty Fort. Permits you to have an extra Fort, +4 Uhlans.</String>
+		<String _locID="46511">Ships a Fort Wagon to your colony, allowing you to construct a mighty Fort. Permits your Explorer to replace lost Forts, +4 Uhlans.</String>
 		<String _locID="46512">Castrametation</String>
 		<String _locID="46513">TEAM 2 Mortars</String>
 		<String _locID="46514">TEAM gets 4 Sheep.</String>
@@ -17240,7 +17240,7 @@
 		<String _locID="46837">12 Oprichniks</String>
 		<String _locID="46838">17 Ruyters</String>
 		<String _locID="46839">5 Organ Guns</String>
-		<String _locID="46840">9 Doppelsoldners +4 Uhlans</String>
+		<String _locID="46840">7 Doppelsoldners</String>
 		<String _locID="46841">12 Abus Guns</String>
 		<String _locID="46842" gamecharacter="Nathaniel" soundfilename="XNATH9156">I'll get the signal fires built.</String>
 		<String _locID="46843" gamecharacter="Nathaniel" soundfilename="XNATH9317">We can get more food from the bakers near the town to the southeast, but we'll have to slip by the British patrols.</String>
@@ -17368,7 +17368,7 @@
 		<String _locID="46965">Friendly Territory Shipment has arrived.</String>
 		<String _locID="46966">2 Horse Artillery</String>
 		<String _locID="46967">3 Horse Artillery</String>
-		<String _locID="46968">1 Basilisk Cannon +4 Uhlans</String>
+		<String _locID="46968">1 Basilisk Cannon</String>
 		<String _locID="46969">10 Rodeleros</String>
 		<String _locID="46970">6 Grenadiers</String>
 		<String _locID="46971">8 Halberdiers</String>
@@ -17447,7 +17447,7 @@
 		<String _locID="47044">Arrow Knight attack and hitpoints increased.</String>
 		<String _locID="47045">Wildwest</String>
 		<String _locID="47046">Champion Arrow Knight</String>
-		<String _locID="47047">Warships have more range.</String>
+		<String _locID="47047">Warships have more range and damage.</String>
 		<String _locID="47048">Offshore Support</String>
 		<String _locID="47049">Offshore Bombardment shipment has arrived.</String>
 		<String _locID="47050">All manors slowly heal nearby units.</String>
@@ -20911,7 +20911,7 @@
 		<String _locID="61460">14 Ashigaru Musketeers</String>
 		<String _locID="61461">8 Ashigaru Musketeers</String>
 		<String _locID="61462">2 Naginata Riders</String>
-		<String _locID="61463">6 Naginata Riders</String>
+		<String _locID="61463">4 Naginata Riders</String>
 		<String _locID="61464">5 Naginata Riders</String>
 		<String _locID="61465">8 Naginata Riders</String>
 		<String _locID="61466">3 Samurai</String>
@@ -23196,7 +23196,7 @@
 		<String _locID="63895">Samurai Faster Training Shipment has arrived.</String>
 		<String _locID="63896">6 Samurai</String>
 		<String _locID="63897">TEAM 2 Kenseis shipment has been received.</String>
-		<String _locID="63898">4 Naginata Riders</String>
+		<String _locID="63898">6 Naginata Riders</String>
 		<String _locID="63899">6 Naginata Riders</String>
 		<String _locID="63900">Livestock generate more experience points when tasked to Sacred Fields.</String>
 		<String _locID="63901">Ritual Bovine</String>
@@ -23620,7 +23620,7 @@
 		<String _locID="64322">Stable Japanese</String>
 		<String _locID="64323">Edo Dojo Shipment has arrived.</String>
 		<String _locID="64324">Genbukan Dojo Shipment has arrived.</String>
-		<String _locID="64325">Ships a Dojo Rickshaw, allowing you to construct a powerful Dojo to produce your choice of military units.</String>
+		<String _locID="64325">Ships a Dojo Rickshaw, allowing you to construct a powerful Dojo to produce your choice of military units. Permits your Monks to replace lost Dojos.</String>
 		<String _locID="64326">Renpeikan Dojo</String>
 		<String _locID="64327">Genbukan Dojo Shipment has arrived.</String>
 		<String _locID="64328">Renpeikan Dojo Shipment has arrived.</String>
@@ -31051,12 +31051,12 @@
 		<String _locID="77981">Shipments arrive faster through Courier.</String>
 		<String _locID="77982">Town Centers support 10 more population and Villager limit is increased by 20.</String>
 		<String _locID="77983">10 Colonial Militia</String>
-		<String _locID="77984">10 Soheis</String>
+		<String _locID="77984">5 Soheis</String>
 		<String _locID="77985">Configure this Dojo to produce 5 Sohei warriors.</String>
 		<String _locID="77986">This Dojo is producing 5 Sohei warriors.</String>
 		<String _locID="77987">Sohei spawn</String>
 		<String _locID="77988">Sohei Army</String>
-		<String _locID="77989">An army of Soheis.\n5 Sohei: Japanese warrior armed with a naginata, good against cavalry, Shock Infantry and buildings.</String>
+		<String _locID="77989">An army of Soheis.\n4 Sohei: Japanese warrior armed with a naginata, good against cavalry, Shock Infantry and buildings.</String>
 		<String _locID="77990">Boneguard</String>
 		<String _locID="77991">Templar Swordsman</String>
 		<String _locID="77992">Long-ranged infantry with low hitpoints, but a high rate-of-fire. Good against heavy infantry.</String>
@@ -31156,9 +31156,9 @@
 		<String _locID="780685">Imperial Cranequinier</String>
 		<String _locID="780686">Cranequinier attack and hitpoints increased.</String>
 		<String _locID="780687">Imperial upgrade for Cranequinier.</String>
-		<String _locID="780688">4 Cranequinier</String>
-		<String _locID="780689">6 Cranequinier</String>
-		<String _locID="780690">8 Cranequinier</String>
+		<String _locID="780688">5 Cranequinier</String>
+		<String _locID="780689">7 Cranequinier</String>
+		<String _locID="780690">9 Cranequinier</String>
 		<String _locID="780691">Crossbow Combat</String>
 		<String _locID="780692">Genoese Crossbowman and Cranequinier attack and hitpoints increased.</String>
 		<String _locID="780693">Crossbow Combat Shipment has arrived.</String>
@@ -31689,8 +31689,8 @@
 		<String _locID="781229">TEAM Age Up becomes cheaper.</String>
 		<String _locID="781230">TEAM 3 Pilgrims</String>
 		<String _locID="781231">Ships a number of Italian Elmetto mercenaries.</String>
-		<String _locID="781232">Hire Genoese Elmetto</String>
-		<String _locID="781233">9 Cranequinier</String>
+		<String _locID="781232">Hire Venetian Elmetto</String>
+		<String _locID="781233">8 Cranequinier</String>
 		<String _locID="781234">TEAM Artillery Combat</String>
 		<String _locID="781235">TEAM All artillery attack and hitpoints increased.</String>
 		<String _locID="781236">TEAM Artillery Combat Shipment has arrived.</String>
@@ -31829,7 +31829,7 @@
 		<String _locID="781369">20 Dahomey Allies</String>
 		<String _locID="781370">Native Ambush</String>
 		<String _locID="781371">Native warriors are stronger when fighting near Trading Posts.</String>
-		<String _locID="781372">Improves your Swedish Explorer in combat, allows him to build Lumber Camps, and gives him a powerful flagship.</String>
+		<String _locID="781372">Improves your Swedish Explorer in combat, allows him to build Field Camps, and gives him a powerful flagship.</String>
 		<String _locID="781373">Skipper</String>
 		<String _locID="781374">Skipper Shipment has arrived.</String>
 		<String _locID="781375">Control Flags cannot be placed near other Control Flags.</String>
@@ -32148,9 +32148,9 @@
 		<String _locID="781688">Outlaw Privateer</String>
 		<String _locID="781689">Building auto-repair enabled (AI only).</String>
 		<String _locID="781690">Trickle cheat enabled (AI only).</String>
-		<String _locID="781691">Handgonne attack and hitpoints increased.</String>
-		<String _locID="781692">Handgonne Combat</String>
-		<String _locID="781693">Handgonne Combat Shipment has arrived.</String>
+		<String _locID="781691">Handgonne siege attack range and damage increased.</String>
+		<String _locID="781692">Grenade Launchers</String>
+		<String _locID="781693">Grenade Launchers Shipment has arrived.</String>
 		<String _locID="781694">Chicken</String>
 		<String _locID="781695">{E^Small ground bird. Harvest for Food.^}{J^Small ground bird. Attracted to nearby Shrines. Enhances resources generated by Shrines.^}</String>
 		<String _locID="781696">Save Camera Location</String>
@@ -32549,10 +32549,10 @@
 		<String _locID="782091">Explorer Lion. Your Explorer's loyal companion.</String>
 		<String _locID="782092">Explorer's Lion</String>
 		<String _locID="782093">Explorer Lion</String>
-		<String _locID="782094">Passive Ability: Your Warchief increases the XP rewards from bounties of nearby units.</String>
-		<String _locID="782095">Passive Ability: Your Warchief increases the hitpoints of nearby units.</String>
-		<String _locID="782096">Passive Ability: Your Warchief increases the speed of nearby units.</String>
-		<String _locID="782097">Passive Ability: Your Warchief increases the attack of nearby units.</String>
+		<String _locID="782094">Passive Ability: Your War Chief increases the XP rewards from bounties of nearby units.</String>
+		<String _locID="782095">Passive Ability: Your War Chief increases the hitpoints of nearby units.</String>
+		<String _locID="782096">Passive Ability: Your War Chief increases the speed of nearby units.</String>
+		<String _locID="782097">Passive Ability: Your War Chief increases the attack of nearby units.</String>
 		<String _locID="782098">Walls regenerate hitpoints over time.</String>
 		<String _locID="782099">Economic Rush</String>
 		<String _locID="782101">An aura that increases the gather rates of the allies around you for a short period.</String>
@@ -32860,7 +32860,7 @@
 		<String _locID="782404">Destroy</String>
 		<String _locID="782405">Sacrifices itself to destroy an enemy ship.</String>
 		<String _locID="782406">Teuton Knights</String>
-		<String _locID="782407">Ships a number of Black Rider and Landsknecht mercenaries.</String>
+		<String _locID="782407">Ships a number of Black Rider and Poleaxemen mercenaries.</String>
 		<String _locID="782408">Hospitaller Knights</String>
 		<String _locID="782409">Ships a number of Elmeti and Papal Guard mercenaries.</String>
 		<String _locID="782410">Templar Knights</String>
@@ -32942,9 +32942,9 @@
 		<String _locID="782486">House of Bonaparte</String>
 		<String _locID="782487">Raise the imperial Bonaparte flag to increase building hitpoints and line of sight.</String>
 		<String _locID="782488">House of Bonaparte Shipment has arrived.</String>
-		<String _locID="782489">Bourbon Regiment</String>
-		<String _locID="782490">Ships a number of rugged Grognard veterans.</String>
-		<String _locID="782491">Grognard</String>
+		<String _locID="782489">Revolutionaries</String>
+		<String _locID="782490">Ships a number of Colonial Militia and enables them to be trained from the Barracks.</String>
+		<String _locID="782491">Revolutionary</String>
 		<String _locID="782492">5 Paladinos</String>
 		<String _locID="782493">7 Paladinos</String>
 		<String _locID="782494">8 Paladinos</String>
@@ -32987,7 +32987,7 @@
 		<String _locID="782531">Forbidden alchemy increases the attack of all gunpowder units.</String>
 		<String _locID="782532">El Dorado</String>
 		<String _locID="782533">Ships coffers of 2,000 Coin from the hidden city of gold.</String>
-		<String _locID="782534">Order of Malta</String>
+		<String _locID="782534">Order of the Dragon</String>
 		<String _locID="782535">1 Factory Wagon\n \nMen-at-Arms can be trained from Field Camps</String>
 		<String _locID="782536">Increases building attack against ships.</String>
 		<String _locID="782537">Coastal Defenses</String>
@@ -33014,5 +33014,23 @@
 		<String _locID="782558">Configure this Factory to produce Mortars.</String>
 		<String _locID="782559">This Factory is producing Mortars.</String>
 		<String _locID="782560">Spawn Mortar</String>
+		<String _locID="782561">Trains sinister outlaws and mercenaries.</String>
+		<String _locID="782562">Tavern</String>
+		<String _locID="782563">1 Factory</String>
+		<String _locID="782564">Ships 1 Factory Wagon to your colony, allowing you to construct a powerful Factory to produce resources or heavy artillery.</String>
+		<String _locID="782565">Charged Attack</String>
+		<String _locID="782566">Passive Ability: This unit fires a special attack at the start of combat and every 10 seconds.</String>
+		<String _locID="782567">10 Ruyters</String>
+		<String _locID="782568">14 Crossbowmen</String>
+		<String _locID="782569">6 Hussars</String>
+		<String _locID="782570">7 Dragoons</String>
+		<String _locID="782571">8 Oprichniks</String>
+		<String _locID="782572">14 Pikemen</String>
+		<String _locID="782573">2 Paddle Steamers</String>
+		<String _locID="782574">9 Forest Prowlers</String>
+		<String _locID="782575">10 Cetan Bows</String>
+		<String _locID="782576">Grenade Launchers</String>
+		<String _locID="782577">Handgonne siege attack range and damage increased.</String>
+		<String _locID="782578">Grenade Launchers Shipment has arrived.</String>
 	</Language>
 </StringTable>
