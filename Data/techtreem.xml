@@ -2060,7 +2060,6 @@
 			<Effect action="AutoGather" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
 				<Target type="ProtoUnit">Dock</Target>
 			</Effect>
-			<Effect status="obtainable" type="TechStatus">TownGuard</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Sheep</Target>
 			</Effect>
@@ -4544,7 +4543,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">NatAxeRiderDogSoldier</Target>
 			</Effect>
-			<Effect status="obtainable" type="TechStatus">TownGuard</Effect>
+			<Effect status="obtainable" type="TechStatus">TownGuardNative</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">NativeEmbassy</Target>
 			</Effect>
@@ -4720,7 +4719,7 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect status="active" type="TechStatus">TownGuard</Effect>
+			<Effect status="active" type="TechStatus">TownGuardNative</Effect>
 			<Effect status="active" type="TechStatus">ConSupport</Effect>
 			<Effect status="active" type="TechStatus">AANativeStartingTechsPI</Effect>
 			<Effect status="active" type="TechStatus">Bastion</Effect>
@@ -4847,7 +4846,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">SPCIncaTemple</Target>
 			</Effect>
-			<Effect status="obtainable" type="TechStatus">TownGuard</Effect>
+			<Effect status="obtainable" type="TechStatus">TownGuardNative</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">NativeEmbassy</Target>
 			</Effect>
@@ -5082,7 +5081,7 @@
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">ChampionRams</Effect>
 			<Effect status="obtainable" type="TechStatus">ImpLegendaryRams</Effect>
-			<Effect status="obtainable" type="TechStatus">TownGuard</Effect>
+			<Effect status="obtainable" type="TechStatus">TownGuardNative</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">NativeEmbassy</Target>
 			</Effect>
@@ -5247,7 +5246,7 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect status="active" type="TechStatus">TownGuard</Effect>
+			<Effect status="active" type="TechStatus">TownGuardNative</Effect>
 			<Effect status="active" type="TechStatus">ConSupport</Effect>
 			<Effect status="active" type="TechStatus">AANativeStartingTechsPI</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades2</Effect>
@@ -5276,7 +5275,7 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect status="active" type="TechStatus">TownGuard</Effect>
+			<Effect status="active" type="TechStatus">TownGuardNative</Effect>
 			<Effect status="active" type="TechStatus">ConSupport</Effect>
 			<Effect status="active" type="TechStatus">AANativeStartingTechsPI</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades2</Effect>
@@ -16560,11 +16559,6 @@
 			<Effect status="active" type="TechStatus">FortifiedOutpost</Effect>
 			<Effect status="active" type="TechStatus">FortifiedBlockhouse</Effect>
 			<Effect status="active" type="TechStatus">Bastion</Effect>
-			<Effect status="active" type="TechStatus">StrongWarHut</Effect>
-			<Effect status="active" type="TechStatus">MightyWarHut</Effect>
-			<Effect status="active" type="TechStatus">StrongNoblesHut</Effect>
-			<Effect status="active" type="TechStatus">MightyNoblesHut</Effect>
-			<Effect status="active" type="TechStatus">TownGuard</Effect>
 			<Effect type="TextOutput">41855</Effect>
 		</Effects>
 	</Tech>
@@ -28110,6 +28104,9 @@
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
 			<Effect amount="-1.00" relativity="Absolute" subtype="AllowedAge" type="Data">
+				<Target type="ProtoUnit">SettlerWagon</Target>
+			</Effect>
+			<Effect amount="5.00" relativity="Absolute" subtype="BuildLimit" type="Data">
 				<Target type="ProtoUnit">SettlerWagon</Target>
 			</Effect>
 			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="FreeUhlans" type="Data" unittype="Uhlan">
@@ -63039,18 +63036,14 @@
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_heavy_fortifications\hc_heavy_fortifications</Icon>
-		<RolloverTextID>32722</RolloverTextID>
+		<RolloverTextID>782584</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect status="active" type="TechStatus">FrontierBlockhouse</Effect>
-			<Effect status="active" type="TechStatus">FrontierOutpost</Effect>
-			<Effect status="active" type="TechStatus">FortifiedOutpost</Effect>
-			<Effect status="active" type="TechStatus">FortifiedBlockhouse</Effect>
 			<Effect status="active" type="TechStatus">StrongWarHut</Effect>
 			<Effect status="active" type="TechStatus">MightyWarHut</Effect>
 			<Effect status="active" type="TechStatus">StrongNoblesHut</Effect>
 			<Effect status="active" type="TechStatus">MightyNoblesHut</Effect>
-			<Effect status="active" type="TechStatus">TownGuard</Effect>
+			<Effect status="active" type="TechStatus">TownGuardNative</Effect>
 			<Effect type="TextOutput">41855</Effect>
 		</Effects>
 	</Tech>
@@ -65263,7 +65256,6 @@
 			<Effect action="AutoGather" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
 				<Target type="ProtoUnit">Dock</Target>
 			</Effect>
-			<Effect status="obtainable" type="TechStatus">TownGuard</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Cow</Target>
 			</Effect>
@@ -65387,7 +65379,6 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">WarCamp</Target>
 			</Effect>
-			<Effect status="obtainable" type="TechStatus">TownGuard</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">ypGoat</Target>
 			</Effect>
@@ -65502,7 +65493,6 @@
 			<Effect action="AutoGather" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
 				<Target type="ProtoUnit">Dock</Target>
 			</Effect>
-			<Effect status="obtainable" type="TechStatus">TownGuard</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Sheep</Target>
 			</Effect>
@@ -65632,7 +65622,6 @@
 			<Effect action="AutoGather" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
 				<Target type="ProtoUnit">Dock</Target>
 			</Effect>
-			<Effect status="obtainable" type="TechStatus">TownGuard</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Sheep</Target>
 			</Effect>
@@ -65756,7 +65745,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect status="obtainable" type="TechStatus">TownGuard</Effect>
+			<Effect status="obtainable" type="TechStatus">TownGuardNative</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Lookout</Target>
 			</Effect>
@@ -67223,22 +67212,10 @@
 		</Prereqs>
 		<Effects>
 			<Effect action="RangedAttack" amount="1.50" relativity="BasePercent" subtype="Damage" type="Data">
-				<Target type="ProtoUnit">Lookout</Target>
-			</Effect>
-			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
-				<Target type="ProtoUnit">Lookout</Target>
-			</Effect>
-			<Effect action="RangedAttack" amount="1.50" relativity="BasePercent" subtype="Damage" type="Data">
 				<Target type="ProtoUnit">YPOutpostAsian</Target>
 			</Effect>
 			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
 				<Target type="ProtoUnit">YPOutpostAsian</Target>
-			</Effect>
-			<Effect action="RangedAttack" amount="1.50" relativity="BasePercent" subtype="Damage" type="Data">
-				<Target type="ProtoUnit">GuardTower</Target>
-			</Effect>
-			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
-				<Target type="ProtoUnit">GuardTower</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -70664,6 +70641,12 @@
 			</Effect>
 			<Effect amount="45.00" relativity="Absolute" resource="Fame" subtype="Cost" type="Data">
 				<Target type="ProtoUnit">Pilgrim</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="BuildLimit" type="Data">
+				<Target type="ProtoUnit">Factory</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="BuildLimit" type="Data">
+				<Target type="ProtoUnit">FortFrontier</Target>
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">VeteranFlatbowman</Effect>
 			<Effect status="obtainable" type="TechStatus">GuardFlatbowman</Effect>
@@ -85265,6 +85248,48 @@
 			<Effect amount="10.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="xpWarBow">
 				<Target type="Player"/>
 			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="TownGuardNative" type="Normal">
+		<DBID>3501</DBID>
+		<DisplayNameID>77795</DisplayNameID>
+		<Cost resourcetype="Wood">400.0000</Cost>
+		<Cost resourcetype="Gold">250.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\town_guard</Icon>
+		<RolloverTextID>782583</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
+		<Prereqs>
+			<TechStatus status="Active">Fortressize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect action="RangedAttack" amount="1.50" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">Lookout</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">Lookout</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCHeavyFortificationsNative" type="Normal">
+		<DBID>3502</DBID>
+		<DisplayNameID>32721</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_heavy_fortifications\hc_heavy_fortifications</Icon>
+		<RolloverTextID>782585</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect status="active" type="TechStatus">Bastion</Effect>
+			<Effect status="active" type="TechStatus">StrongWarHut</Effect>
+			<Effect status="active" type="TechStatus">MightyWarHut</Effect>
+			<Effect status="active" type="TechStatus">StrongNoblesHut</Effect>
+			<Effect status="active" type="TechStatus">MightyNoblesHut</Effect>
+			<Effect status="active" type="TechStatus">TownGuardNative</Effect>
+			<Effect type="TextOutput">41855</Effect>
 		</Effects>
 	</Tech>
 </TechTree>

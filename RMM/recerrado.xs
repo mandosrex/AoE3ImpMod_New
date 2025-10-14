@@ -29,7 +29,7 @@ void main(void) {
 
 	int size = 2.0 * sqrt(cNumberNonGaiaPlayers*playerTiles);
 	if (cNumberTeams >= 3){
-	size = 2.5 * sqrt(cNumberNonGaiaPlayers*playerTiles);
+	size = 2.2 * sqrt(cNumberNonGaiaPlayers*playerTiles);
 }
 
 	rmSetMapElevationParameters(cElevTurbulence, 0.4, 6, 0.5, 3.0);

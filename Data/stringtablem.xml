@@ -4734,7 +4734,7 @@
 		<String _locID="32714">Your current population is {totalpop} / You can support a total population of {popcap}.</String>
 		<String _locID="32715">Crate XP</String>
 		<String _locID="32721">Heavy Fortifications</String>
-		<String _locID="32722">Grants free improvements that increase the combat ability of Walls, Outposts, Blockhouses, Towers, Lookouts, War Huts, and Nobles' Huts.</String>
+		<String _locID="32722">Grants free improvements that increase the combat ability of Walls, Outposts, and Blockhouses.</String>
 		<String _locID="32725">Great Plains Chief</String>
 		<String _locID="32726">IGC Great Plains Chief</String>
 		<String _locID="32732">Surgeons are now available at the Cathedral.</String>
@@ -6769,7 +6769,7 @@
 		<String _locID="36096">3 Caravels</String>
 		<String _locID="36097">2 Organ Guns</String>
 		<String _locID="36098">3 Organ Guns</String>
-		<String _locID="36099">TEAM Outposts, Blockhouses, War Huts, Castles, Towers and Lookouts are cheaper.</String>
+		<String _locID="36099">TEAM Outposts, Blockhouses, War Huts, Castles, Guard Towers and Lookouts are cheaper.</String>
 		<String _locID="36100">TEAM Cheap Outposts</String>
 		<String _locID="36102">TEAM Outposts cheaper.</String>
 		<String _locID="36103">Winners</String>
@@ -11972,7 +11972,7 @@
 		<String _locID="41552" gamecharacter="Lizzie" soundfilename="LIZZ5040">Morgan Black... get your men aboard. I will take you to Florida.</String>
 		<String _locID="41553">Ships an additional Explorer to your colony.</String>
 		<String _locID="41554">Bandeirantes</String>
-		<String _locID="41555">Now you can train Bavarians from the Discovery Age, +3 Uhlans.</String>
+		<String _locID="41555">Bavarian limit increased and you can now train Bavarians from the Discovery Age, +3 Uhlans.</String>
 		<String _locID="41556">Germantown Farmers</String>
 		<String _locID="41557" symbol="cStringCantRemoveCardFromDefault">Cards cannot be removed from the default Deck.</String>
 		<String _locID="41558" symbol="cStringESOFilterTT">Filter Game List.</String>
@@ -22453,27 +22453,27 @@
 		<String _locID="63095">Villager</String>
 		<String _locID="63096">VIL Indian Villager</String>
 		<String _locID="63097">Monk</String>
-		<String _locID="63098">Religious leader. Possesses many powerful bonuses and abilities. Explores, fights, builds Town Centers and Trading Posts.</String>
+		<String _locID="63098">Religious leader. Possesses many powerful bonuses and abilities. Explores, fights, and builds important buildings.</String>
 		<String _locID="63099">Shaolin Master</String>
 		<String _locID="63100">MONK Shaolin Master</String>
 		<String _locID="63101">Monk</String>
-		<String _locID="63102">Religious leader. Possesses many powerful bonuses and abilities. Explores, fights, builds Town Centers and Trading Posts.</String>
+		<String _locID="63102">Religious leader. Possesses many powerful bonuses and abilities. Explores, fights, and builds important buildings.</String>
 		<String _locID="63103">Shaolin Master</String>
 		<String _locID="63104">MONK Shaolin Master</String>
 		<String _locID="63105">Indian Monk</String>
-		<String _locID="63106">Religious leader and healer with a Stomp area attack that can stun Treasure Guardians. Explores, fights, and builds Town Centers and Trading Posts.</String>
+		<String _locID="63106">Religious leader and healer with a Stomp area attack that can stun Treasure Guardians. Explores, fights, and builds important buildings.</String>
 		<String _locID="63107">Brahmin</String>
 		<String _locID="63108">MONK Brahmin</String>
 		<String _locID="63109">Monk</String>
-		<String _locID="63110">Religious leader. Possesses many powerful bonuses and abilities. Explores, fights, builds Town Centers and Trading Posts.</String>
+		<String _locID="63110">Religious leader. Possesses many powerful bonuses and abilities. Explores, fights, and builds important buildings.</String>
 		<String _locID="63111">Brahmin</String>
 		<String _locID="63112">MONK Brahmin</String>
 		<String _locID="63113">Japanese Monk</String>
-		<String _locID="63114">Religious leader who stuns Treasure Guardians and has a chance to do Divine Strike damage in combat. Explores, fights, and builds Town Centers, Trading Posts, and Shrines.</String>
+		<String _locID="63114">Religious leader who stuns Treasure Guardians and has a chance to do Divine Strike damage in combat. Explores, fights, and builds important buildings.</String>
 		<String _locID="63115">Ikko-Ikki</String>
 		<String _locID="63116">MONK Ikko-Ikki</String>
 		<String _locID="63117">Monk</String>
-		<String _locID="63118">Religious leader. Possesses many powerful bonuses and abilities. Explores, fights, builds Town Centers and Trading Posts.</String>
+		<String _locID="63118">Religious leader. Possesses many powerful bonuses and abilities. Explores, fights, builds important buildings.</String>
 		<String _locID="63119">Ikko-Ikki</String>
 		<String _locID="63120">MONK Ikko-Ikki</String>
 		<String _locID="63121">Native warriors from minor tribes and mercenaries have their attack and hitpoints greatly increased.</String>
@@ -30864,7 +30864,7 @@
 		<String _locID="77793">Fortified Walls</String>
 		<String _locID="77794">Strong Walls</String>
 		<String _locID="77795">Town Keep</String>
-		<String _locID="77796">Tower and Lookout attack and hitpoints increased.</String>
+		<String _locID="77796">Guard Tower attack and hitpoints increased.</String>
 		<String _locID="77797">Heavy Gatling Guns</String>
 		<String _locID="77798">Gatling Gun attack and hitpoints increased.</String>
 		<String _locID="77799">Heavy Gatling Gun</String>
@@ -33032,5 +33032,12 @@
 		<String _locID="782576">Grenade Launchers</String>
 		<String _locID="782577">Handgonne siege attack range and damage increased.</String>
 		<String _locID="782578">Grenade Launchers Shipment has arrived.</String>
+		<String _locID="782579">Citadel</String>
+		<String _locID="782580">Trains villagers, infantry and cavalry as well as defends an area with nearby traps. Can garrison 25 units when trained.</String>
+		<String _locID="782581">Native Fort</String>
+		<String _locID="782582">Trap Attack</String>
+		<String _locID="782583">Lookout attack and hitpoints increased.</String>
+		<String _locID="782584">Grants free improvements that increase the combat ability of Lookouts, War Huts, and Nobles' Huts.</String>
+		<String _locID="782585">Grants free improvements that increase the combat ability of Walls, Lookouts, War Huts, and Nobles' Huts.</String>
 	</Language>
 </StringTable>

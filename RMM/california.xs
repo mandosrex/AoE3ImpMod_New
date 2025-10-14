@@ -69,7 +69,7 @@ void main(void)
 	if (cNumberNonGaiaPlayers > 6)
 		playerTiles=12000;
 
-	size=2*sqrt(cNumberNonGaiaPlayers*playerTiles);
+	int size=2*sqrt(cNumberNonGaiaPlayers*playerTiles);
 	rmEchoInfo("Map size="+size+"m x "+size+"m");
 	rmSetMapSize(size, size);
 

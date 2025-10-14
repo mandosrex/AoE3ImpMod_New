@@ -31,7 +31,7 @@ void main(void) {
 	int size = 2.0 * sqrt(cNumberNonGaiaPlayers*playerTiles);
 
 	if (cNumberTeams >= 3){
-	size = 2.5 * sqrt(cNumberNonGaiaPlayers*playerTiles);
+	size = 2.2 * sqrt(cNumberNonGaiaPlayers*playerTiles);
 }
 
 	rmSetMapSize(size, size);

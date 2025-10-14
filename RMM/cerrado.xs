@@ -31,7 +31,7 @@ void main(void) {
 
 	int size = 2.0 * sqrt(cNumberNonGaiaPlayers*playerTiles);
 	if (cNumberTeams >= 3){
-	size = 2.5 * sqrt(cNumberNonGaiaPlayers*playerTiles);
+	size = 2.2 * sqrt(cNumberNonGaiaPlayers*playerTiles);
 }
 
 	rmSetMapElevationParameters(cElevTurbulence, 0.4, 6, 0.5, 3.0);
@@ -382,7 +382,7 @@ rmAddObjectDefConstraint(playerNuggetID, avoidCoin);
 			rmAddObjectDefItem(startID, "TownCenter", 1, 2.0);
 		}
 		rmSetObjectDefMinDistance(startID, 0.0);
-        	rmSetObjectDefMaxDistance(startID, 4.0);
+        	rmSetObjectDefMaxDistance(startID, 5.0);
 
 		int startID2 = rmCreateObjectDef("object2"+i);
 		if(rmGetNomadStart()){
@@ -390,8 +390,8 @@ rmAddObjectDefConstraint(playerNuggetID, avoidCoin);
 		}else{
 			rmAddObjectDefItem(startID2, "TownCenter", 1, 2.0);
 		}
-		rmSetObjectDefMinDistance(startID2, 6.0);
-        	rmSetObjectDefMaxDistance(startID2, 10.0);
+		rmSetObjectDefMinDistance(startID2, 10.0);
+        	rmSetObjectDefMaxDistance(startID2, 15.0);
 
 		rmPlaceObjectDefAtLoc(startID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 		rmPlaceObjectDefAtLoc(startID2, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));

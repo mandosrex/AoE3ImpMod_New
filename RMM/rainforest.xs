@@ -134,6 +134,7 @@ void main(void)
    // Nature constraints (forests, mines & starting resources)
    int forestObjConstraint = rmCreateTypeDistanceConstraint("forest obj", "all", 6.0);
    int forestConstraint = rmCreateClassDistanceConstraint("forest vs. forest", rmClassID("classForest"), 40.0);
+   int forestConstraintShort = rmCreateClassDistanceConstraint("forest vs. forest short", rmClassID("classForest"), 6.0);
    int avoidCoin = rmCreateTypeDistanceConstraint("avoid coin", "Mine", 40.0);
    int shortAvoidCoin = rmCreateTypeDistanceConstraint("short avoid coin", "gold", 10.0);
    int avoidResource = rmCreateTypeDistanceConstraint("resource avoid resource", "resource", 20.0);
@@ -217,7 +218,7 @@ void main(void)
    rmAddObjectDefConstraint(startingTCID, avoidImpassableLand);
    rmAddObjectDefToClass(startingTCID, rmClassID("player"));
 
-   // Define starting units (explorer, envoy, native scout & war dog
+   // Define starting units (explorer, envoy, native scout & war dog)
    int startingUnits = rmCreateStartingUnitsObjectDef(5.0);
    rmSetObjectDefMinDistance(startingUnits, 10.0);
    rmSetObjectDefMaxDistance(startingUnits, 12.0);
@@ -267,7 +268,7 @@ void main(void)
 
    // Define starting trees
    int startAreaTreeID = rmCreateObjectDef("starting trees");
-   rmAddObjectDefItem(startAreaTreeID, "TreeAmazon", rmRandInt(7,8), 8.0);
+   rmAddObjectDefItem(startAreaTreeID, "TreeAmazon", rmRandInt(6,7), 8.0);
    rmSetObjectDefMinDistance(startAreaTreeID, 10);
    rmSetObjectDefMaxDistance(startAreaTreeID, 16);
    rmAddObjectDefConstraint(startAreaTreeID, avoidStartResource);
@@ -602,7 +603,7 @@ void main(void)
       rmSetAreaCliffType(cliffID, "Amazon Inland");
       rmSetAreaCliffEdge(cliffID, 2, 0.3, 0.1, 1.0, 0);
       rmSetAreaCliffPainting(cliffID, false, true, true, 1.5, true);
-      rmSetAreaCliffHeight(cliffID, 6, 2.0, 0.5);
+      rmSetAreaCliffHeight(cliffID, 5, 2.0, 0.5);
       rmSetAreaHeightBlend(cliffID, 1);
       rmSetAreaObeyWorldCircleConstraint(cliffID, false);
       rmAddAreaToClass(cliffID, rmClassID("classCliff")); 
@@ -616,7 +617,7 @@ void main(void)
       rmSetAreaMinBlobDistance(cliffID, 10.0);
       rmSetAreaMaxBlobDistance(cliffID, 20.0);
       rmSetAreaSmoothDistance(cliffID, 10);
-      rmSetAreaCoherence(cliffID, 0.10);
+      rmSetAreaCoherence(cliffID, 0.5);
       rmBuildArea(cliffID);
    }
 
@@ -693,6 +694,8 @@ void main(void)
       rmSetAreaMaxBlobDistance(northForest, 30.0);
       rmSetAreaCoherence(northForest, 0.7);
       rmSetAreaSmoothDistance(northForest, 1);
+      rmAddAreaConstraint(northForest, avoidAll);
+      rmAddAreaConstraint(northForest, forestConstraintShort);
       rmAddAreaConstraint(northForest, avoidImportantItem);
       rmAddAreaConstraint(northForest, avoidLakesShort);
       rmAddAreaConstraint(northForest, shortAvoidCoin);
@@ -700,9 +703,9 @@ void main(void)
       rmAddAreaConstraint(northForest, Northward);
       if(rmBuildArea(northForest) == false)
       {
-         // Stop placement once it fails 5 times in a row 
+         // Stop placement once it fails 2 times in a row 
          failCount++;
-         if(failCount == 5)
+         if(failCount == 2)
          {      
 		break;
          }
@@ -730,6 +733,8 @@ void main(void)
       rmSetAreaMaxBlobDistance(southForest, 30.0);
       rmSetAreaCoherence(southForest, 0.7);
       rmSetAreaSmoothDistance(southForest, 1);
+      rmAddAreaConstraint(southForest, avoidAll);
+      rmAddAreaConstraint(southForest, forestConstraintShort);
       rmAddAreaConstraint(southForest, avoidImportantItem);
       rmAddAreaConstraint(southForest, avoidLakesShort);
       rmAddAreaConstraint(southForest, shortAvoidCoin);
@@ -737,9 +742,9 @@ void main(void)
       rmAddAreaConstraint(southForest, Southward);
       if(rmBuildArea(southForest)==false)
       {
-         // Stop placement once it fails 5 times in a row 
+         // Stop placement once it fails 2 times in a row 
          failCount++;
-         if(failCount == 5)
+         if(failCount == 2)
          {      
 		break;
          }
