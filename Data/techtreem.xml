@@ -77108,6 +77108,7 @@
 			<Effect status="obtainable" type="TechStatus">GuardDrabants</Effect>
 			<Effect status="obtainable" type="TechStatus">ImperialDrabants</Effect>
 			<Effect status="obtainable" type="TechStatus">ExplorerSheepShadow</Effect>
+			<Effect status="active" type="TechStatus">XPTrickle</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">WarCamp</Target>
 			</Effect>
