@@ -5830,7 +5830,7 @@
 		<String _locID="34550">Young Guard</String>
 		<String _locID="34551">Rodelero and Pikemen hitpoints increased, but speed reduced.</String>
 		<String _locID="34552">Corselet</String>
-		<String _locID="34553">Overworking your serfs to meet the silver tax burden reduces their health, decreasing their hitpoints. However you get Crates of 100 Coin for each minute the game has lasted so far.</String>
+		<String _locID="34553">Overworking your serfs to meet the silver tax burden reduces their health, decreasing their hitpoints. However you get Crates of 100 Coin for every minute the game has lasted so far.</String>
 		<String _locID="34554">Tax Burden</String>
 		<String _locID="34555" gamecharacter="Morgan" soundfilename="MORG5048">Collecting as many of these treasures as we can will give us more resources.</String>
 		<String _locID="34556">Caches Destroyed: 0/8</String>
@@ -6254,7 +6254,7 @@
 		<String _locID="35381">Villagers gather Coin from Plantations and Rice Paddies faster.</String>
 		<String _locID="35382">Textile Mill</String>
 		<String _locID="35384">Imperial upgrade for Rodeleros.</String>
-		<String _locID="35385">Imperial Espada</String>
+		<String _locID="35385">Imperial Coseletes</String>
 		<String _locID="35389">Markets have better resource exchange.</String>
 		<String _locID="35390">Advanced Market</String>
 		<String _locID="35392">Advanced Market</String>
@@ -6846,7 +6846,7 @@
 		<String _locID="36183">Veteran Longbowman</String>
 		<String _locID="36184">Veteran Strelet</String>
 		<String _locID="36185">Veteran Uhlan</String>
-		<String _locID="36186">Espada Rodelero</String>
+		<String _locID="36186">Coselete Rodelero</String>
 		<String _locID="36188">Garrochista Lancer</String>
 		<String _locID="36190">Treasures</String>
 		<String _locID="36191">SPC White Wolf</String>
@@ -6964,7 +6964,7 @@
 		<String _locID="36357">TEAM Long-ranged infantry train faster.</String>
 		<String _locID="36358">TEAM Ranged infantry damage increased.</String>
 		<String _locID="36359">TEAM Churches, Mosques, and Field Hospitals are much cheaper and their non-advanced improvements are also cheaper. Monastaries are somewhat cheaper and Native Fire Pits become free.</String>
-		<String _locID="36360">TEAM Cheap Church</String>
+		<String _locID="36360">TEAM Cheap Churches</String>
 		<String _locID="36361">TEAM Churches and Mosques are cheaper and build faster.</String>
 		<String _locID="36362">TEAM Villagers gather Coin from Plantations and Rice Paddies faster.</String>
 		<String _locID="36363">TEAM Rum Distillery</String>
@@ -7182,7 +7182,7 @@
 		<String _locID="36607">4 Town Wagons</String>
 		<String _locID="36608">Bavarians gather from all resources faster, +4 Uhlans.</String>
 		<String _locID="36609">Guild Artisans</String>
-		<String _locID="36611">Imperial Espada</String>
+		<String _locID="36611">Imperial Coselete</String>
 		<String _locID="36612">Complete optional Secondary Objectives to help increase the speed at which you gain Experience.</String>
 		<String _locID="36615">SPC Heal Object</String>
 		<String _locID="36617" gamecharacter="John" soundfilename="JOHN2030">We're going to have to get inside that fort to find and destroy the command building.</String>
@@ -11471,7 +11471,7 @@
 		<String _locID="41043">You are doing well, I see. Please stay in the Discovery Age for as long as possible - preferably the rest of the game.</String>
 		<String _locID="41044">You have nothing better to do but look for loot?</String>
 		<String _locID="41045">I cannot waste my efforts on picking up random treasures. I have a war to win!</String>
-		<String _locID="41046">You must not be very good at multitasking - I see that you have been unable to both gather treasures and try to build your town.</String>
+		<String _locID="41046">You must not be very good at multitasking - I see that you have been unable to both gather nuggets and try to build your town.</String>
 		<String _locID="41047">I think this treasure now belongs to ME.</String>
 		<String _locID="41048">By my calculations, the time is ripe to destroy the main enemy town here.</String>
 		<String _locID="41049">I regret I do not currently have sufficient resources to help you.</String>
@@ -16295,7 +16295,7 @@
 		<String _locID="45887">War Drums</String>
 		<String _locID="45888">Canoes and War Canoes become cheaper.</String>
 		<String _locID="45889">Birchbark</String>
-		<String _locID="45890">Knowledge of the trees and plant life enables you to obtain extra wood. You get slightly more than 100 wood for each minute the game has lasted so far.</String>
+		<String _locID="45890">Knowledge of the trees and plant life enables you to obtain extra wood. You get slightly more than 100 wood for every minute the game has lasted so far.</String>
 		<String _locID="45891">Wood Lore</String>
 		<String _locID="45892">Knowledge of wildlife gains you food. You get slightly more than 100 food for every minute the game has lasted so far.</String>
 		<String _locID="45893">Hunt Lore</String>
@@ -16584,7 +16584,7 @@
 		<String _locID="46178">Tezcatlipoca Worship</String>
 		<String _locID="46179">Warchief has more hitpoints.</String>
 		<String _locID="46180">Royal Blood</String>
-		<String _locID="46181">Worship of Cipactli, the sea monster, musters four Tlaloc Canoes.</String>
+		<String _locID="46181">Worship of Cipactli, the sea monster, musters 4 Tlaloc Canoes.</String>
 		<String _locID="46182">Cipactli Worship</String>
 		<String _locID="46183">Emphasis on the Serpent Goddess, Coatlicue, summons approximately 1 Otontin Slinger for every 2 minutes of game length, up to 30 minutes.</String>
 		<String _locID="46184">Coatlicue Worship</String>
@@ -17588,7 +17588,7 @@
 		<String _locID="47185">General Store</String>
 		<String _locID="47186">Town Hall</String>
 		<String _locID="47187">Old North Church</String>
-		<String _locID="47188">Your War Hut units can build War Huts, Corrals, and Teepees.</String>
+		<String _locID="47188">Your War Hut units can now build War Huts, Corrals, and Teepees.</String>
 		<String _locID="47189">Aggressive Policy</String>
 		<String _locID="47190">Battlefield Construction Shipment has arrived.</String>
 		<String _locID="47191">Aggressive Policy Shipment has arrived.</String>
@@ -19330,7 +19330,7 @@
 		<String _locID="48930" symbol="cStringSupTrPlayerRankTT">Supremacy Treaty Player Rank: %1s (Level %2s)</String>
 		<String _locID="48931" symbol="cStringSupTrTotalXPTT">Supremacy Treaty Total XP: %s</String>
 		<String _locID="48932" symbol="cStringSupTrWinRatioTT">Supremacy Treaty Win Percentage: %s</String>
-		<String _locID="48933">Builds Fire Pits to boost the economy and military. No cavalry, but the Noble's Hut can train special units and has a fast attack. Gets free Jaguars with every Age.\nTeam Bonus: Pet stats and train limits are increased.\nBest units: Skull Knight, Jaguar Prowl Knight.</String>
+		<String _locID="48933">Builds Fire Pits to boost the economy and military. No cavalry, but the Noble's Hut can train special units and has a fast attack. Gets free Eagle Scouts with every Age.\nTeam Bonus: Pet stats and train limits are increased.\nBest units: Skull Knight, Jaguar Prowl Knight.</String>
 		<String _locID="48934">Builds Fire Pits to boost the economy and military. Starts with a free Travois which constructs buildings for free, and can get more. Longhouses support more population.\nTeam Bonus: Livestock fatten faster over time and when tasked.\nBest units: Tomahawks, Light Cannon.</String>
 		<String _locID="48935">Builds Fire Pits to boost the economy and military. Starts with 200 population and can build Teepees to boost hitpoints of soldiers. Each Special (Big Button) upgrade sends bison.\nTeam Bonus: Building and unit line of sight increased.\nBest units: Dog Soldier, Tashunke Prowler.</String>
 		<String _locID="48936">Plaza</String>
@@ -28721,7 +28721,7 @@
 		<String _locID="69437">Begin Exports</String>
 		<String _locID="69438">End Exports</String>
 		<String _locID="69439">Ships a Military Rickshaw that can turn into a Barracks or a Stable.</String>
-		<String _locID="69440">A Colonial Militia muster at every Castle.</String>
+		<String _locID="69440">Each Castle will do a one-time muster of 2 Colonial Militias.</String>
 		<String _locID="69441">Transforms into a Barracks or Stable</String>
 		<String _locID="69442">Transforms into a Barracks for infantry training and upgrading or a Stable for cavalry training and upgrading.</String>
 		<String _locID="69443">Military Rickshaw</String>
@@ -31208,8 +31208,8 @@
 		<String _locID="780737">Upgrades this Trade Route to deliver more resources faster and provide greater line of sight.</String>
 		<String _locID="780738">Fishery</String>
 		<String _locID="780739">Pirate fishery worth 300 Food.</String>
-		<String _locID="780740">Native Confederacy Support</String>
-		<String _locID="780741">Joining the Native Confederacy increases the amount of native warriors you can train from minor tribes and allows military units to train in larger blocks.</String>
+		<String _locID="780740">Six Nations Confederacy</String>
+		<String _locID="780741">Increases the amount of native warriors you can train from minor tribes and allows military units to train in larger blocks.</String>
 		<String _locID="780742">You have joined the Native Confederacy!</String>
 		<String _locID="780743">Patriot Militia</String>
 		<String _locID="780744">Fisheries must be built near Fish.</String>
@@ -31781,7 +31781,7 @@
 		<String _locID="781321">Clan Service</String>
 		<String _locID="781322">Clan Service Shipment has arrived.</String>
 		<String _locID="781323">Wildfire</String>
-		<String _locID="781324">Fire Pit becomes free and Medicine Man limit is increased by 5. Also ships a healer.</String>
+		<String _locID="781324">Medicine Man Fire Pit dance effectiveness is increased and their limit is increased by 5.</String>
 		<String _locID="781325">Wildfire Shipment has arrived.</String>
 		<String _locID="781326">Venom Extract</String>
 		<String _locID="781327">Medicine made from venom extract makes all your healers heal faster.</String>
@@ -31868,7 +31868,7 @@
 		<String _locID="781408">Lumber Market Shipment has arrived.</String>
 		<String _locID="781409">Villagers gather Wood faster and Markets have better resource selling rates.</String>
 		<String _locID="781410">Tax Burden Shipment has arrived.</String>
-		<String _locID="781411">Villagers gather all Coin faster. Also you get Crates of 100 Coin for each Age you advanced to so far.</String>
+		<String _locID="781411">Villagers gather all Coin faster. Also you get Crates of 100 Coin for every Age you advanced to so far.</String>
 		<String _locID="781412">TEAM 1 Lumber Camp Wagon</String>
 		<String _locID="781413">Kangaroo</String>
 		<String _locID="781414">Gazelle</String>
@@ -32139,7 +32139,7 @@
 		<String _locID="781679">All your Mustangs transform into Comancheros.</String>
 		<String _locID="781680">The Scholar</String>
 		<String _locID="781681">1 Envoy and 4 Spies</String>
-		<String _locID="781682">You can now train Cows from Farms and Livestock Pens and livestock limits are increased by half.</String>
+		<String _locID="781682">You can now train Cows from Farms and livestock limits are increased by half.</String>
 		<String _locID="781683">7 Goats</String>
 		<String _locID="781684">15 Goats</String>
 		<String _locID="781685">20 Goats</String>
@@ -33039,5 +33039,33 @@
 		<String _locID="782583">Lookout attack and hitpoints increased.</String>
 		<String _locID="782584">Grants free improvements that increase the combat ability of Lookouts, War Huts, and Nobles' Huts.</String>
 		<String _locID="782585">Grants free improvements that increase the combat ability of Walls, Lookouts, War Huts, and Nobles' Huts.</String>
+		<String _locID="782586">Wampum</String>
+		<String _locID="782587">Buildings and units award more experience points when done.</String>
+		<String _locID="782588">Wampum Shipment has arrived.</String>
+		<String _locID="782589">Medicine Wheels</String>
+		<String _locID="782590">Fire Pits become stronger and free.</String>
+		<String _locID="782591">Medicine Wheels Shipment has arrived.</String>
+		<String _locID="782592">Sends Spanish Rodeleros.</String>
+		<String _locID="782593">Sends French Cuirassiers.</String>
+		<String _locID="782594">Sends Dutch Fencibles.</String>
+		<String _locID="782595">TEAM 3 Scouts</String>
+		<String _locID="782596">TEAM Iroquois player sent everyone a Scout.</String>
+		<String _locID="782597">Camp Relocation</String>
+		<String _locID="782598">Town Centers become free.</String>
+		<String _locID="782599">Camp Relocation Shipment has arrived.</String>
+		<String _locID="782600">Seven Council Fires</String>
+		<String _locID="782601">The Triple Alliance</String>
+		<String _locID="782602">Calpulli</String>
+		<String _locID="782603">Each Town Center will do a one-time muster of 3 Villagers.</String>
+		<String _locID="782604">Calpulli Shipment has arrived.</String>
+		<String _locID="782605">Ritual of Fire</String>
+		<String _locID="782606">Villager hand armor increased.</String>
+		<String _locID="782607">Ritual of Fire Shipment has arrived.</String>
+		<String _locID="782608">Inquisitor spawn</String>
+		<String _locID="782609">Villager spawn</String>
+		<String _locID="782610">You can now train Llamas from Farms and livestock limits are increased by half.</String>
+		<String _locID="782611">TEAM Winter Counts</String>
+		<String _locID="782612">TEAM You are awarded 1500 Experience Points towards your next Shipment.</String>
+		<String _locID="782613">Winter Counts Shipment has arrived.</String>
 	</Language>
 </StringTable>

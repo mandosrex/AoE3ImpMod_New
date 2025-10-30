@@ -4531,6 +4531,7 @@
 			<Effect status="obtainable" type="TechStatus">LegendaryBuffaloShadow</Effect>
 			<Effect status="obtainable" type="TechStatus">ChampionBuffaloShadow</Effect>
 			<Effect status="obtainable" type="TechStatus">EliteBuffaloShadow</Effect>
+			<Effect status="obtainable" type="TechStatus">ConSupport</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">NativeScout</Target>
 			</Effect>
@@ -4843,6 +4844,7 @@
 			<Effect status="obtainable" type="TechStatus">ImpLegendaryTlaloc</Effect>
 			<Effect status="obtainable" type="TechStatus">ChampionRams</Effect>
 			<Effect status="obtainable" type="TechStatus">ImpLegendaryRams</Effect>
+			<Effect status="obtainable" type="TechStatus">ConSupportAztec</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">SPCIncaTemple</Target>
 			</Effect>
@@ -5066,6 +5068,7 @@
 			<Effect status="obtainable" type="TechStatus">BigWarrior</Effect>
 			<Effect status="obtainable" type="TechStatus">BigDockCipactli</Effect>
 			<Effect status="obtainable" type="TechStatus">BigBisons</Effect>
+			<Effect status="obtainable" type="TechStatus">ConSupportSioux</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Factory</Target>
 			</Effect>
@@ -5247,7 +5250,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect status="active" type="TechStatus">TownGuardNative</Effect>
-			<Effect status="active" type="TechStatus">ConSupport</Effect>
+			<Effect status="active" type="TechStatus">ConSupportSioux</Effect>
 			<Effect status="active" type="TechStatus">AANativeStartingTechsPI</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades2</Effect>
 			<Effect status="active" type="TechStatus">ChampionBowRider</Effect>
@@ -5276,7 +5279,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect status="active" type="TechStatus">TownGuardNative</Effect>
-			<Effect status="active" type="TechStatus">ConSupport</Effect>
+			<Effect status="active" type="TechStatus">ConSupportAztec</Effect>
 			<Effect status="active" type="TechStatus">AANativeStartingTechsPI</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades2</Effect>
 			<Effect status="active" type="TechStatus">ChampionArrowKnight</Effect>
@@ -5422,7 +5425,6 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">FieldHospital</Target>
 			</Effect>
-			<Effect status="obtainable" type="TechStatus">ConSupport</Effect>
 			<Effect amount="0.00" relativity="Absolute" subtype="CopyUnitPortraitAndIcon" type="Data" unittype="YPDockWagon">
 				<Target type="ProtoUnit">WarHutTravois</Target>
 			</Effect>
@@ -29509,7 +29511,7 @@
 			<Effect allactions="1" amount="2.00" relativity="BasePercent" subtype="Damage" type="Data">
 				<Target type="ProtoUnit">xpMedicineManAztec</Target>
 			</Effect>
-			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="PetJaguar">
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="xpEagleScout">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="6.00" relativity="Absolute" subtype="BuildLimit" type="Data">
@@ -29579,7 +29581,7 @@
 			<Effect allactions="1" amount="3.00" relativity="BasePercent" subtype="Damage" type="Data">
 				<Target type="ProtoUnit">xpMedicineManAztec</Target>
 			</Effect>
-			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="PetJaguar">
+			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="xpEagleScout">
 				<Target type="Player"/>
 			</Effect>
 			<Effect action="OberhauAttack" amount="1.25" relativity="BasePercent" subtype="Damage" type="Data">
@@ -29652,7 +29654,7 @@
 			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
 				<Target type="ProtoUnit">xpMedicineManAztec</Target>
 			</Effect>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="PetJaguar">
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="xpEagleScout">
 				<Target type="Player"/>
 			</Effect>
 			<Effect action="OberhauAttack" amount="1.25" relativity="BasePercent" subtype="Damage" type="Data">
@@ -29722,7 +29724,7 @@
 			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
 				<Target type="ProtoUnit">xpMedicineManAztec</Target>
 			</Effect>
-			<Effect amount="6.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="PetJaguar">
+			<Effect amount="6.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="xpEagleScout">
 				<Target type="Player"/>
 			</Effect>
 			<Effect action="OberhauAttack" amount="1.50" relativity="BasePercent" subtype="Damage" type="Data">
@@ -33372,6 +33374,7 @@
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\asians\consulate\spanish_swords</Icon>
+		<RolloverTextID>782592</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect amount="10.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypConsulateEspadachins">
@@ -37773,7 +37776,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\units\native_fishing_boat_icon</Icon>
+		<Icon>ui\units\native_fishing_boat_tech</Icon>
 		<RolloverTextID>45951</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -40642,7 +40645,7 @@
 				<Target type="Tech">BigFarmHorsemanship</Target>
 			</Effect>
 			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">ConSupport</Target>
+				<Target type="Tech">ConSupportSioux</Target>
 			</Effect>
 			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
 				<Target type="Tech">ypConsulateFrenchBrigadeN</Target>
@@ -40735,7 +40738,7 @@
 				<Target type="Tech">BigFarmCinteotl</Target>
 			</Effect>
 			<Effect amount="750.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
-				<Target type="Tech">ConSupport</Target>
+				<Target type="Tech">ConSupportAztec</Target>
 			</Effect>
 			<Effect amount="1500.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
 				<Target type="Tech">ypConsulateFrenchBrigadeN</Target>
@@ -40823,6 +40826,7 @@
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\asians\consulate\french_armies\french_brigade_icon_64</Icon>
+		<RolloverTextID>782593</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypConsulateGendarmes">
@@ -40838,6 +40842,7 @@
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\asians\consulate\french_armies\french_brigade_icon_64</Icon>
+		<RolloverTextID>782593</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect amount="8.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypConsulateGendarmes">
@@ -40853,6 +40858,7 @@
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\asians\consulate\dutch_expeditionary_company</Icon>
+		<RolloverTextID>782594</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect amount="16.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypConsulateStadhouders">
@@ -40871,6 +40877,7 @@
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\asians\consulate\dutch_expeditionary_company</Icon>
+		<RolloverTextID>782594</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect amount="10.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypConsulateStadhouders">
@@ -70113,7 +70120,7 @@
 		<Flag>NativeDance</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
-			<TechStatus status="Active">ConSupport</TechStatus>
+			<TechStatus status="Active">ConSupportSioux</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect amount="14.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MarineJ">
@@ -70175,7 +70182,7 @@
 		<Flag>NativeDance</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
-			<TechStatus status="Active">ConSupport</TechStatus>
+			<TechStatus status="Active">ConSupportAztec</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect amount="15.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypConsulateEspadachins">
@@ -70975,57 +70982,61 @@
 			<Effect culture="none" newName="781154" proto="Cannon" type="SetName"/>
 		</Effects>
 	</Tech>
-	<Tech name="GuardCrossbowmenIt" type="Normal">
+	<Tech name="ConSupportSioux" type="Normal">
 		<DBID>2863</DBID>
-		<DisplayNameID>781156</DisplayNameID>
-		<Cost resourcetype="Wood">1000.0000</Cost>
+		<DisplayNameID>782600</DisplayNameID>
 		<Cost resourcetype="Gold">1000.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\guard_archer_infantry\guard_archer_infantry</Icon>
-		<RolloverTextID>781159</RolloverTextID>
-		<Flag>UpgradeTech</Flag>
+		<Icon>ui\techs\support</Icon>
+		<IconTextureCoords>.001953125 .001953125 .7890625 .6015625</IconTextureCoords>
+		<RolloverTextID>780741</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>UpgradeTech</Flag>
+		<Flag>NativeDance</Flag>
 		<Prereqs>
-			<TechStatus status="Active">VeteranCrossbowmen</TechStatus>
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect amount="1.40" relativity="BasePercent" subtype="Hitpoints" type="Data">
-				<Target type="ProtoUnit">Crossbowman</Target>
+			<Effect amount="10.00" relativity="Assign" subtype="PlayerSpecificTrainLimitPerAction" type="Data">
+				<Target type="Player"/>
 			</Effect>
-			<Effect allactions="1" amount="1.40" relativity="BasePercent" subtype="Damage" type="Data">
-				<Target type="ProtoUnit">Crossbowman</Target>
+			<Effect type="TextOutput">780742</Effect>
+			<Effect amount="1.50" relativity="Percent" subtype="BuildLimit" type="Data">
+				<Target type="ProtoUnit">AbstractNativeWarrior</Target>
 			</Effect>
-			<Effect culture="none" newName="781155" proto="Crossbowman" type="SetName"/>
-			<Effect amount="0.00" relativity="Absolute" subtype="UpdateVisual" type="Data" unittype="Crossbowman">
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0XPSioux" type="Data" unittype="Bison">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="ImperialCrossbowmenIt" type="Normal">
+
+	<Tech name="ConSupportAztec" type="Normal">
 		<DBID>2864</DBID>
-		<DisplayNameID>781158</DisplayNameID>
-		<Cost resourcetype="Wood">1500.0000</Cost>
-		<Cost resourcetype="Gold">1500.0000</Cost>
+		<DisplayNameID>782601</DisplayNameID>
+		<Cost resourcetype="Gold">1000.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\imperial_archer_infantry\imperial_archer_infantry</Icon>
-		<RolloverTextID>78056</RolloverTextID>
+		<Icon>ui\techs\support</Icon>
+		<IconTextureCoords>.001953125 .001953125 .7890625 .6015625</IconTextureCoords>
+		<RolloverTextID>780741</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
+		<Flag>NativeDance</Flag>
 		<Prereqs>
-			<TechStatus status="Active">GuardCrossbowmenIt</TechStatus>
-			<TechStatus status="Active">Imperialize</TechStatus>
+			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
-				<Target type="ProtoUnit">Crossbowman</Target>
+			<Effect amount="10.00" relativity="Assign" subtype="PlayerSpecificTrainLimitPerAction" type="Data">
+				<Target type="Player"/>
 			</Effect>
-			<Effect allactions="1" amount="1.50" relativity="BasePercent" subtype="Damage" type="Data">
-				<Target type="ProtoUnit">Crossbowman</Target>
+			<Effect type="TextOutput">780742</Effect>
+			<Effect amount="1.50" relativity="Percent" subtype="BuildLimit" type="Data">
+				<Target type="ProtoUnit">AbstractNativeWarrior</Target>
 			</Effect>
-			<Effect culture="none" newName="781157" proto="Crossbowman" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0XPSioux" type="Data" unittype="Bison">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCShipFlatbowmen1" type="Normal">
@@ -72987,14 +72998,11 @@
 		<RolloverTextID>781324</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="5.00" relativity="Absolute" subtype="BuildLimit" type="Data">
+			<Effect action="Gather" amount="1.50" relativity="BasePercent" subtype="WorkRate" type="Data" unittype="FirePit">
 				<Target type="ProtoUnit">xpMedicineMan</Target>
 			</Effect>
-			<Effect amount="0.00" relativity="Assign" resource="Wood" subtype="Cost" type="Data">
-				<Target type="ProtoUnit">FirePit</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="xpMedicineMan">
-				<Target type="Player"/>
+			<Effect amount="5.00" relativity="Absolute" subtype="BuildLimit" type="Data">
+				<Target type="ProtoUnit">xpMedicineMan</Target>
 			</Effect>
 			<Effect type="TextOutput">781325</Effect>
 		</Effects>
@@ -81484,7 +81492,6 @@
 			<Effect status="unobtainable" type="TechStatus">ImperialSharpshooter</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialPistolS</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialMusketeersSW</Effect>
-			<Effect status="unobtainable" type="TechStatus">ImperialCrossbowmenIt</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialHandgonne</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialKnights</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialArquebusier</Effect>
@@ -85291,6 +85298,144 @@
 			<Effect status="active" type="TechStatus">MightyNoblesHut</Effect>
 			<Effect status="active" type="TechStatus">TownGuardNative</Effect>
 			<Effect type="TextOutput">41855</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCWampum" type="Normal">
+		<DBID>3503</DBID>
+		<DisplayNameID>782586</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\wampum</Icon>
+		<RolloverTextID>782587</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect amount="1.50" relativity="BasePercent" subtype="BuildBounty" type="Data">
+				<Target type="ProtoUnit">Building</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="BasePercent" subtype="BuildBounty" type="Data">
+				<Target type="ProtoUnit">Unit</Target>
+			</Effect>
+			<Effect type="TextOutput">782588</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCMedicineWheels" type="Normal">
+		<DBID>3504</DBID>
+		<DisplayNameID>782589</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\rockcircle</Icon>
+		<RolloverTextID>782590</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect amount="2.00" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">FirePit</Target>
+			</Effect>
+			<Effect amount="0.00" relativity="Assign" resource="Wood" subtype="Cost" type="Data">
+				<Target type="ProtoUnit">FirePit</Target>
+			</Effect>
+			<Effect type="TextOutput">782591</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCShipScoutsTeam" type="Normal">
+		<DBID>3505</DBID>
+		<DisplayNameID>782595</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_team_scouts</Icon>
+		<Flag>HomeCity</Flag>
+		<Flag>TeamTech</Flag>
+		<Effects>
+			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="NativeScout">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="TextOutput">782596</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCRelocation" type="Normal">
+		<DBID>3506</DBID>
+		<DisplayNameID>782597</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\relocation</Icon>
+		<RolloverTextID>782598</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect amount="0.00" relativity="Assign" resource="Wood" subtype="Cost" type="Data">
+				<Target type="ProtoUnit">TownCenter</Target>
+			</Effect>
+			<Effect type="TextOutput">782599</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCCalpulli" type="Normal">
+		<DBID>3507</DBID>
+		<DisplayNameID>782602</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\calpulli</Icon>
+		<RolloverTextID>782603</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect action="SpawnVillagers" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
+				<Target type="ProtoUnit">TownCenter</Target>
+			</Effect>
+			<Effect type="TextOutput">782604</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCArmorRitual" type="Normal">
+		<DBID>3508</DBID>
+		<DisplayNameID>782605</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\armorritual</Icon>
+		<RolloverTextID>782606</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect amount="1.50" damagetype="Hand" relativity="BasePercent" subtype="Armor" type="Data">
+				<Target type="ProtoUnit">SettlerNative</Target>
+			</Effect>
+			<Effect type="TextOutput">782607</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCXPRanchingLlamaNative" type="Normal">
+		<DBID>3509</DBID>
+		<DisplayNameID>46815</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\Llama_Ranching</Icon>
+		<RolloverTextID>782610</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="TextOutput">46816</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Llama</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="Percent" subtype="BuildLimit" type="Data">
+				<Target type="ProtoUnit">Herdable</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCWinterCounts" type="Normal">
+		<DBID>3510</DBID>
+		<DisplayNameID>782611</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\wintercounts</Icon>
+		<RolloverTextID>782612</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Flag>TeamTech</Flag>
+		<Effects>
+			<Effect amount="1500.00" relativity="Absolute" resource="XP" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="TextOutput">782613</Effect>
 		</Effects>
 	</Tech>
 </TechTree>
