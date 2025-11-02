@@ -69487,41 +69487,41 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="ImperialHorseArtilleryNew" type="Normal">
+	<Tech name="ImperialSakers" type="Normal">
 		<DBID>2817</DBID>
-		<DisplayNameID>780936</DisplayNameID>
+		<DisplayNameID>782620</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\imperial_artillery\imperial_artillery</Icon>
-		<RolloverTextID>48893</RolloverTextID>
+		<RolloverTextID>782622</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
-			<TechStatus status="Active">HeavyHorseArtilleryNew</TechStatus>
+			<TechStatus status="Active">HeavySakers</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
-				<Target type="ProtoUnit">xpHorseArtillery</Target>
+				<Target type="ProtoUnit">Saker</Target>
 			</Effect>
 			<Effect allactions="1" amount="1.50" relativity="BasePercent" subtype="Damage" type="Data">
-				<Target type="ProtoUnit">xpHorseArtillery</Target>
+				<Target type="ProtoUnit">Saker</Target>
 			</Effect>
-			<Effect culture="none" newName="780936" proto="xpHorseArtillery" type="SetName"/>
+			<Effect culture="none" newName="782621" proto="Saker" type="SetName"/>
 		</Effects>
 	</Tech>
-	<Tech name="HeavyHorseArtilleryNew" type="Normal">
+	<Tech name="HeavySakers" type="Normal">
 		<DBID>2818</DBID>
-		<DisplayNameID>780933</DisplayNameID>
+		<DisplayNameID>782618</DisplayNameID>
 		<Cost resourcetype="Food">400.0000</Cost>
 		<Cost resourcetype="Wood">400.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_artillery\guard_artillery</Icon>
-		<RolloverTextID>48897</RolloverTextID>
+		<RolloverTextID>782623</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
@@ -69530,15 +69530,15 @@
 		</Prereqs>
 		<Effects>
 			<Effect allactions="1" amount="1.30" relativity="BasePercent" subtype="Damage" type="Data">
-				<Target type="ProtoUnit">xpHorseArtillery</Target>
+				<Target type="ProtoUnit">Saker</Target>
 			</Effect>
 			<Effect amount="1.30" relativity="BasePercent" subtype="Hitpoints" type="Data">
-				<Target type="ProtoUnit">xpHorseArtillery</Target>
+				<Target type="ProtoUnit">Saker</Target>
 			</Effect>
-			<Effect amount="0.00" relativity="Absolute" subtype="UpdateVisual" type="Data" unittype="xpHorseArtillery">
+			<Effect amount="0.00" relativity="Absolute" subtype="UpdateVisual" type="Data" unittype="Saker">
 				<Target type="Player"/>
 			</Effect>
-			<Effect culture="none" newName="780933" proto="xpHorseArtillery" type="SetName"/>
+			<Effect culture="none" newName="782619" proto="Saker" type="SetName"/>
 		</Effects>
 	</Tech>
 	<Tech name="ImperialHorseArtilleryUS" type="Normal">

@@ -33071,5 +33071,11 @@
 		<String _locID="782615">Configure this Factory to produce Napoleon Guns.</String>
 		<String _locID="782616">This Factory is producing Napoleon Guns.</String>
 		<String _locID="782617">Saker</String>
+		<String _locID="782618">Heavy Sakers</String>
+		<String _locID="782619">Heavy Saker</String>
+		<String _locID="782620">Imperial Sakers</String>
+		<String _locID="782621">Imperial Saker</String>
+		<String _locID="782622">Imperial upgrade for Sakers.</String>
+		<String _locID="782623">Saker attack and hitpoints increased.</String>
 	</Language>
 </StringTable>
