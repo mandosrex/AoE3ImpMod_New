@@ -187,19 +187,14 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">FishingBoat</Target>
 			</Effect>
-			<Effect action="SpawnCannon" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
+			<Effect action="SpawnNapoleon" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
 				<Target type="ProtoUnit">Factory</Target>
 			</Effect>
-			<Effect status="obtainable" type="TechStatus">ImperialCannon</Effect>
 			<Effect status="obtainable" type="TechStatus">ImperialFieldGun</Effect>
 			<Effect status="obtainable" type="TechStatus">FieldGun</Effect>
 			<Effect status="obtainable" type="TechStatus">ImperialMonitors</Effect>
 			<Effect status="obtainable" type="TechStatus">ImperialManOWar</Effect>
 			<Effect status="obtainable" type="TechStatus">ImperialHorseArtillery</Effect>
-			<Effect status="obtainable" type="TechStatus">HeavyHorseArtillery</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">xpHorseArtillery</Target>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpSpy</Target>
 			</Effect>
@@ -568,11 +563,6 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">SPCFortCenter</Target>
 			</Effect>
-			<Effect status="obtainable" type="TechStatus">ImperialHorseArtilleryNew</Effect>
-			<Effect status="obtainable" type="TechStatus">HeavyHorseArtilleryNew</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">xpHorseArtillery</Target>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpSpy</Target>
 			</Effect>
@@ -783,11 +773,6 @@
 				<Target type="ProtoUnit">SPCFortCenter</Target>
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">IncendiaryGrenades</Effect>
-			<Effect status="obtainable" type="TechStatus">ImperialHorseArtillery</Effect>
-			<Effect status="obtainable" type="TechStatus">HeavyHorseArtillery</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">xpHorseArtillery</Target>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpSpy</Target>
 			</Effect>
@@ -1010,11 +995,6 @@
 			<Effect action="MineGather" amount="1.15" relativity="BasePercent" subtype="WorkRate" type="Data" unittype="AbstractMine">
 				<Target type="ProtoUnit">AbstractVillager</Target>
 			</Effect>
-			<Effect status="obtainable" type="TechStatus">ImperialHorseArtillery</Effect>
-			<Effect status="obtainable" type="TechStatus">HeavyHorseArtillery</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">xpHorseArtillery</Target>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpSpy</Target>
 			</Effect>
@@ -1212,11 +1192,6 @@
 			<Effect status="obtainable" type="TechStatus">ImperialMonitors</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">SPCFortCenter</Target>
-			</Effect>
-			<Effect status="obtainable" type="TechStatus">ImperialHorseArtillery</Effect>
-			<Effect status="obtainable" type="TechStatus">HeavyHorseArtillery</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">xpHorseArtillery</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpSpy</Target>
@@ -1423,11 +1398,6 @@
 			<Effect status="obtainable" type="TechStatus">ImperialManOWar</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">SPCFortCenter</Target>
-			</Effect>
-			<Effect status="obtainable" type="TechStatus">ImperialHorseArtillery</Effect>
-			<Effect status="obtainable" type="TechStatus">HeavyHorseArtillery</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">xpHorseArtillery</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpSpy</Target>
@@ -1660,11 +1630,6 @@
 				<Target type="ProtoUnit">Mosque</Target>
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">IncendiaryGrenades</Effect>
-			<Effect status="obtainable" type="TechStatus">ImperialHorseArtillery</Effect>
-			<Effect status="obtainable" type="TechStatus">HeavyHorseArtillery</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">xpHorseArtillery</Target>
-			</Effect>
 			<Effect status="active" type="TechStatus">ypOttomanMosqueFaith</Effect>
 		</Effects>
 	</Tech>
@@ -1866,11 +1831,6 @@
 			<Effect status="obtainable" type="TechStatus">ImperialMonitorsNew</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">SPCFortCenter</Target>
-			</Effect>
-			<Effect status="obtainable" type="TechStatus">ImperialHorseArtillery</Effect>
-			<Effect status="obtainable" type="TechStatus">HeavyHorseArtillery</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">xpHorseArtillery</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpSpy</Target>
@@ -2750,7 +2710,7 @@
 				<Target type="ProtoUnit">Pikeman</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">Saker</Target>
+				<Target type="ProtoUnit">CarronadeGun</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Crossbowman</Target>
@@ -2904,11 +2864,6 @@
 				<Target type="ProtoUnit">RiflemanUS</Target>
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">ImperialCannonUS</Effect>
-			<Effect status="obtainable" type="TechStatus">ImperialHorseArtilleryUS</Effect>
-			<Effect status="obtainable" type="TechStatus">HeavyHorseArtilleryUS</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">xpHorseArtillery</Target>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Priest</Target>
 			</Effect>
@@ -3308,7 +3263,6 @@
 			<Effect status="active" type="TechStatus">GuardGrenadiers</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades2</Effect>
-			<Effect status="active" type="TechStatus">HeavyHorseArtillery</Effect>
 			<Effect status="active" type="TechStatus">GuardLongbowmen</Effect>
 			<Effect status="active" type="TechStatus">GuardHalberdiers</Effect>
 			<Effect status="active" type="TechStatus">GuardPikemen</Effect>
@@ -3389,7 +3343,6 @@
 			<Effect status="active" type="TechStatus">GuardMusketeers</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades2</Effect>
-			<Effect status="active" type="TechStatus">HeavyHorseArtillery</Effect>
 			<Effect status="active" type="TechStatus">GuardPikemen</Effect>
 			<Effect status="active" type="TechStatus">GuardCrossbowmen</Effect>
 			<Effect status="active" type="TechStatus">VeteranGrenadiers</Effect>
@@ -3466,7 +3419,6 @@
 			<Effect status="active" type="TechStatus">NativeUpgrades</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades2</Effect>
 			<Effect status="active" type="TechStatus">RGCarabineer</Effect>
-			<Effect status="active" type="TechStatus">HeavyHorseArtillery</Effect>
 			<Effect status="active" type="TechStatus">ImpExcessiveTaxationD</Effect>
 			<Effect status="active" type="TechStatus">ImpExcessiveTaxationD2</Effect>
 			<Effect status="active" type="TechStatus">ImpExcessiveTaxationD3</Effect>
@@ -3546,7 +3498,6 @@
 			<Effect status="active" type="TechStatus">GuardSkirmishers</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades2</Effect>
-			<Effect status="active" type="TechStatus">HeavyHorseArtillery</Effect>
 			<Effect status="active" type="TechStatus">GuardPikemen</Effect>
 			<Effect status="active" type="TechStatus">GuardCrossbowmen</Effect>
 			<Effect status="active" type="TechStatus">GuardDragoons</Effect>
@@ -3622,7 +3573,6 @@
 			<Effect status="active" type="TechStatus">RGPrussianNeedleGun</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades2</Effect>
-			<Effect status="active" type="TechStatus">HeavyHorseArtillery</Effect>
 			<Effect status="active" type="TechStatus">GuardPikemen</Effect>
 			<Effect status="active" type="TechStatus">GuardCrossbowmen</Effect>
 		</Effects>
@@ -3702,7 +3652,6 @@
 			<Effect status="active" type="TechStatus">RGGardener</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades2</Effect>
-			<Effect status="active" type="TechStatus">HeavyHorseArtillery</Effect>
 			<Effect status="active" type="TechStatus">GuardSpahi</Effect>
 			<Effect status="active" type="TechStatus">VeteranAzaps</Effect>
 			<Effect status="active" type="TechStatus">GuardAzaps</Effect>
@@ -3781,7 +3730,6 @@
 			<Effect status="active" type="TechStatus">RGGuerreiros</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades2</Effect>
-			<Effect status="active" type="TechStatus">HeavyHorseArtillery</Effect>
 			<Effect status="active" type="TechStatus">GuardPikemen</Effect>
 			<Effect status="active" type="TechStatus">GuardCrossbowmen</Effect>
 		</Effects>
@@ -3860,7 +3808,6 @@
 			<Effect status="active" type="TechStatus">NativeUpgrades</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades2</Effect>
 			<Effect status="active" type="TechStatus">RGTartarLoyalists</Effect>
-			<Effect status="active" type="TechStatus">HeavyHorseArtilleryNew</Effect>
 			<Effect status="active" type="TechStatus">VeteranPikemen</Effect>
 			<Effect status="active" type="TechStatus">GuardPikemen</Effect>
 			<Effect status="active" type="TechStatus">VeteranGrenadiers</Effect>
@@ -3891,7 +3838,6 @@
 			<Effect status="active" type="TechStatus">ImperialLongbowmen</Effect>
 			<Effect status="active" type="TechStatus">ImperialMonitors</Effect>
 			<Effect status="active" type="TechStatus">ImpLegendaryNatives</Effect>
-			<Effect status="active" type="TechStatus">ImperialHorseArtillery</Effect>
 			<Effect status="active" type="TechStatus">ImperialPikemen</Effect>
 			<Effect status="active" type="TechStatus">ImperialLifeGuard</Effect>
 			<Effect status="active" type="TechStatus">ImperialGreenJackets</Effect>
@@ -3922,7 +3868,6 @@
 			<Effect status="active" type="TechStatus">ImperialManOWar</Effect>
 			<Effect status="active" type="TechStatus">ImperialMonitors</Effect>
 			<Effect status="active" type="TechStatus">ImpLegendaryNatives</Effect>
-			<Effect status="active" type="TechStatus">ImperialHorseArtillery</Effect>
 			<Effect status="active" type="TechStatus">ImperialPikemen</Effect>
 		</Effects>
 	</Tech>
@@ -3977,7 +3922,6 @@
 			<Effect status="active" type="TechStatus">ImperialManOWar</Effect>
 			<Effect status="active" type="TechStatus">ImperialMonitors</Effect>
 			<Effect status="active" type="TechStatus">ImpLegendaryNatives</Effect>
-			<Effect status="active" type="TechStatus">ImperialHorseArtillery</Effect>
 			<Effect status="active" type="TechStatus">ImperialPikemen</Effect>
 			<Effect status="active" type="TechStatus">ImperialCrossbowmen</Effect>
 		</Effects>
@@ -4007,7 +3951,6 @@
 			<Effect status="active" type="TechStatus">ImperialMonitors</Effect>
 			<Effect status="active" type="TechStatus">ImperialManOWar</Effect>
 			<Effect status="active" type="TechStatus">ImpLegendaryNatives</Effect>
-			<Effect status="active" type="TechStatus">ImperialHorseArtillery</Effect>
 			<Effect status="active" type="TechStatus">ImperialGardener</Effect>
 		</Effects>
 	</Tech>
@@ -4035,7 +3978,6 @@
 			<Effect status="active" type="TechStatus">ImperialManOWar</Effect>
 			<Effect status="active" type="TechStatus">ImperialPopovka</Effect>
 			<Effect status="active" type="TechStatus">ImpLegendaryNatives</Effect>
-			<Effect status="active" type="TechStatus">ImperialHorseArtillery</Effect>
 			<Effect status="active" type="TechStatus">ImperialPikemen</Effect>
 			<Effect status="active" type="TechStatus">ImperialCrossbowmen</Effect>
 		</Effects>
@@ -4065,7 +4007,6 @@
 			<Effect status="active" type="TechStatus">ImperialManOWar</Effect>
 			<Effect status="active" type="TechStatus">ImperialMonitors</Effect>
 			<Effect status="active" type="TechStatus">ImpLegendaryNatives</Effect>
-			<Effect status="active" type="TechStatus">ImperialHorseArtilleryNew</Effect>
 			<Effect status="active" type="TechStatus">ImperialPikemen</Effect>
 			<Effect status="active" type="TechStatus">ImperialPavlovs</Effect>
 		</Effects>
@@ -4094,7 +4035,6 @@
 			<Effect status="active" type="TechStatus">ImperialMonitorsNew</Effect>
 			<Effect status="active" type="TechStatus">ImperialManOWar</Effect>
 			<Effect status="active" type="TechStatus">ImpLegendaryNatives</Effect>
-			<Effect status="active" type="TechStatus">ImperialHorseArtillery</Effect>
 			<Effect status="active" type="TechStatus">ImperialPikemen</Effect>
 			<Effect status="active" type="TechStatus">ImperialCrossbowmen</Effect>
 			<Effect status="active" type="TechStatus">ImperialDragoons</Effect>
@@ -7482,8 +7422,6 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect culture="none" newName="66290" proto="ypConsulateFalconet" type="SetName"/>
-			<Effect culture="none" newName="66291" proto="ypConsulateCulverin" type="SetName"/>
-			<Effect culture="none" newName="66292" proto="ypConsulateMortar" type="SetName"/>
 		</Effects>
 	</Tech>
 	<Tech name="YPAge5ConsulateUpdates" type="Normal">
@@ -7492,11 +7430,6 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect culture="none" newName="66300" proto="ypConsulateFalconet" type="SetName"/>
-			<Effect culture="none" newName="66296" proto="ypConsulateCulverin" type="SetName"/>
-			<Effect culture="none" newName="66301" proto="ypConsulateMortar" type="SetName"/>
-			<Effect culture="none" newName="66297" proto="ypConsulateHorseArtillery" type="SetName"/>
-			<Effect culture="none" newName="66298" proto="ypConsulateGreatBombard" type="SetName"/>
-			<Effect culture="none" newName="66299" proto="ypConsulateCannon" type="SetName"/>
 		</Effects>
 	</Tech>
 	<Tech name="YPAge0ChineseClone6" type="Normal">
@@ -16774,7 +16707,7 @@
 			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Spanish" type="Data" unittype="Falconet">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Italians" type="Data" unittype="Saker">
+			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Italians" type="Data" unittype="CarronadeGun">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Maltese" type="Data" unittype="Falconet">
@@ -16783,7 +16716,7 @@
 			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Swedish" type="Data" unittype="Falconet">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0USA" type="Data" unittype="Falconet">
+			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0USA" type="Data" unittype="xpGatlingGun">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age3</Effect>
@@ -17177,7 +17110,7 @@
 			<Effect amount="11.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Spanish" type="Data" unittype="Pikeman">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Italians" type="Data" unittype="Saker">
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Italians" type="Data" unittype="CarronadeGun">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="7.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Maltese" type="Data" unittype="KnightMalta">
@@ -23325,20 +23258,8 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type="TextOutput">41826</Effect>
-			<Effect amount="0.60" relativity="BasePercent" subtype="TrainPoints" type="Data">
+			<Effect amount="0.70" relativity="BasePercent" subtype="TrainPoints" type="Data">
 				<Target type="ProtoUnit">AbstractArtillery</Target>
-			</Effect>
-			<Effect amount="1.40" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">Cannon</Target>
-			</Effect>
-			<Effect amount="1.40" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">GreatBombard</Target>
-			</Effect>
-			<Effect amount="1.40" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">Rocket</Target>
-			</Effect>
-			<Effect amount="1.40" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">ypFlyingCrow</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -40115,10 +40036,10 @@
 			<Effect allactions="1" amount="1.25" relativity="BasePercent" subtype="Damage" type="Data">
 				<Target type="ProtoUnit">Falconet</Target>
 			</Effect>
-			<Effect allactions="1" amount="1.20" relativity="BasePercent" subtype="Damage" type="Data">
-				<Target type="ProtoUnit">Cannon</Target>
-			</Effect>
 			<Effect allactions="1" amount="1.25" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">Mortar</Target>
+			</Effect>
+			<Effect allactions="1" amount="1.20" relativity="BasePercent" subtype="Damage" type="Data">
 				<Target type="ProtoUnit">xpHorseArtillery</Target>
 			</Effect>
 			<Effect type="TextOutput">46850</Effect>
@@ -42939,7 +42860,6 @@
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
-			<TechStatus status="Active">HeavyHorseArtillery</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
@@ -59672,83 +59592,14 @@
 		<Flag>TeamTech</Flag>
 		<Effects>
 			<Effect amount="0.70" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">Grenadier</Target>
-			</Effect>
-			<Effect amount="0.95" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">Cannon</Target>
-			</Effect>
-			<Effect amount="0.70" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">Culverin</Target>
-			</Effect>
-			<Effect amount="0.70" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">Falconet</Target>
-			</Effect>
-			<Effect amount="0.95" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">GreatBombard</Target>
-			</Effect>
-			<Effect amount="0.70" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">Mortar</Target>
-			</Effect>
-			<Effect amount="0.70" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">OrganGun</Target>
-			</Effect>
-			<Effect amount="0.95" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">Rocket</Target>
-			</Effect>
-			<Effect amount="0.70" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">xpRam</Target>
-			</Effect>
-			<Effect amount="0.70" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">xpLightCannon</Target>
-			</Effect>
-			<Effect amount="0.70" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">xpPetard</Target>
-			</Effect>
-			<Effect amount="0.70" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">xpPetardNative</Target>
-			</Effect>
-			<Effect amount="0.70" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">xpHorseArtillery</Target>
-			</Effect>
-			<Effect amount="0.70" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">AbusGun</Target>
-			</Effect>
-			<Effect amount="0.70" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">xpMantlet</Target>
+				<Target type="ProtoUnit">AbstractArtillery</Target>
 			</Effect>
 			<Effect type="TextOutput">68910</Effect>
-			<Effect amount="0.70" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">ypSiegeElephant</Target>
-			</Effect>
-			<Effect amount="0.70" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">ypMorutaru</Target>
-			</Effect>
-			<Effect amount="0.70" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">ypFlamingArrow</Target>
-			</Effect>
-			<Effect amount="0.70" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">ypHandMortar</Target>
-			</Effect>
-			<Effect amount="0.95" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">ypFlyingCrow</Target>
-			</Effect>
-			<Effect amount="0.70" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">ypFlameThrower</Target>
-			</Effect>
 			<Effect amount="0.85" relativity="BasePercent" subtype="TrainPoints" type="Data">
 				<Target type="ProtoUnit">ypBlackFlagArmy</Target>
 			</Effect>
 			<Effect amount="0.85" relativity="BasePercent" subtype="TrainPoints" type="Data">
 				<Target type="ProtoUnit">ypMongolianArmy</Target>
-			</Effect>
-			<Effect amount="0.70" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">xpGatlingGun</Target>
-			</Effect>
-			<Effect amount="0.70" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">Handgonne</Target>
-			</Effect>
-			<Effect amount="0.70" relativity="BasePercent" subtype="TrainPoints" type="Data">
-				<Target type="ProtoUnit">Saker</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -62919,10 +62770,10 @@
 			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Maltese" type="Data" unittype="Culverin">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Swedish" type="Data" unittype="Culverin">
+			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Swedish" type="Data" unittype="Saker">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0USA" type="Data" unittype="xpGatlingGun">
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0USA" type="Data" unittype="Culverin">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age3</Effect>
@@ -64916,11 +64767,6 @@
 				<Target type="ProtoUnit">RiflemanUS</Target>
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">ImperialCannonUS</Effect>
-			<Effect status="obtainable" type="TechStatus">ImperialHorseArtilleryUS</Effect>
-			<Effect status="obtainable" type="TechStatus">HeavyHorseArtilleryUS</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">xpHorseArtillery</Target>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Priest</Target>
 			</Effect>
@@ -65104,7 +64950,6 @@
 			<Effect status="active" type="TechStatus">GuardGrenadiersUS</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades2</Effect>
-			<Effect status="active" type="TechStatus">HeavyHorseArtilleryUS</Effect>
 			<Effect status="active" type="TechStatus">GuardRiflemenUS</Effect>
 			<Effect status="active" type="TechStatus">FieldGunUS</Effect>
 			<Effect status="active" type="TechStatus">GreatCoatUS</Effect>
@@ -65133,7 +64978,6 @@
 			<Effect status="active" type="TechStatus">ImperialManOWarUS</Effect>
 			<Effect status="active" type="TechStatus">ImperialMonitorsUS</Effect>
 			<Effect status="active" type="TechStatus">ImpLegendaryNatives</Effect>
-			<Effect status="active" type="TechStatus">ImperialHorseArtilleryUS</Effect>
 			<Effect status="active" type="TechStatus">ImperialFieldGunUS</Effect>
 		</Effects>
 	</Tech>
@@ -66374,7 +66218,7 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="GuardSaker" type="Normal">
+	<Tech name="GuardCarronade" type="Normal">
 		<DBID>2657</DBID>
 		<DisplayNameID>780710</DisplayNameID>
 		<Cost resourcetype="Wood">400.0000</Cost>
@@ -66387,17 +66231,17 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Industrialize</TechStatus>
-			<TechStatus status="Active">VeteranSaker</TechStatus>
+			<TechStatus status="Active">VeteranCarronade</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect amount="1.30" relativity="BasePercent" subtype="Hitpoints" type="Data">
-				<Target type="ProtoUnit">Saker</Target>
+				<Target type="ProtoUnit">CarronadeGun</Target>
 			</Effect>
 			<Effect allactions="1" amount="1.30" relativity="BasePercent" subtype="Damage" type="Data">
-				<Target type="ProtoUnit">Saker</Target>
+				<Target type="ProtoUnit">CarronadeGun</Target>
 			</Effect>
-			<Effect culture="none" newName="780707" proto="Saker" type="SetName"/>
-			<Effect amount="0.00" relativity="Absolute" subtype="UpdateVisual" type="Data" unittype="Saker">
+			<Effect culture="none" newName="780707" proto="CarronadeGun" type="SetName"/>
+			<Effect amount="0.00" relativity="Absolute" subtype="UpdateVisual" type="Data" unittype="CarronadeGun">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -67131,7 +66975,7 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="VeteranSaker" type="Normal">
+	<Tech name="VeteranCarronade" type="Normal">
 		<DBID>2690</DBID>
 		<DisplayNameID>780709</DisplayNameID>
 		<Cost resourcetype="Wood">200.0000</Cost>
@@ -67147,14 +66991,14 @@
 		</Prereqs>
 		<Effects>
 			<Effect amount="1.20" relativity="BasePercent" subtype="Hitpoints" type="Data">
-				<Target type="ProtoUnit">Saker</Target>
+				<Target type="ProtoUnit">CarronadeGun</Target>
 			</Effect>
-			<Effect culture="none" newName="780706" proto="Saker" type="SetName"/>
-			<Effect amount="0.00" relativity="Absolute" subtype="UpdateVisual" type="Data" unittype="Saker">
+			<Effect culture="none" newName="780706" proto="CarronadeGun" type="SetName"/>
+			<Effect amount="0.00" relativity="Absolute" subtype="UpdateVisual" type="Data" unittype="CarronadeGun">
 				<Target type="Player"/>
 			</Effect>
 			<Effect allactions="1" amount="1.20" relativity="BasePercent" subtype="Damage" type="Data">
-				<Target type="ProtoUnit">Saker</Target>
+				<Target type="ProtoUnit">CarronadeGun</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -67272,7 +67116,7 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="ImperialSaker" type="Normal">
+	<Tech name="ImperialCarronade" type="Normal">
 		<DBID>2696</DBID>
 		<DisplayNameID>780711</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
@@ -67285,16 +67129,16 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
-			<TechStatus status="Active">GuardSaker</TechStatus>
+			<TechStatus status="Active">GuardCarronade</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
-				<Target type="ProtoUnit">Saker</Target>
+				<Target type="ProtoUnit">CarronadeGun</Target>
 			</Effect>
 			<Effect allactions="1" amount="1.50" relativity="BasePercent" subtype="Damage" type="Data">
-				<Target type="ProtoUnit">Saker</Target>
+				<Target type="ProtoUnit">CarronadeGun</Target>
 			</Effect>
-			<Effect culture="none" newName="780708" proto="Saker" type="SetName"/>
+			<Effect culture="none" newName="780708" proto="CarronadeGun" type="SetName"/>
 		</Effects>
 	</Tech>
 	<Tech name="RandomAge4PoliticiansPortuguese" type="Normal">
@@ -68185,7 +68029,7 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="HCShipSaker" type="Normal">
+	<Tech name="HCShipCarronade" type="Normal">
 		<DBID>2736</DBID>
 		<DisplayNameID>780715</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
@@ -68194,7 +68038,7 @@
 		<Icon>units\artillery\carronade\carronade_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Saker">
+			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="CarronadeGun">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -70683,14 +70527,14 @@
 				<Target type="ProtoUnit">DrummerEu</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">Saker</Target>
+				<Target type="ProtoUnit">CarronadeGun</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Dock</Target>
 			</Effect>
-			<Effect status="obtainable" type="TechStatus">VeteranSaker</Effect>
-			<Effect status="obtainable" type="TechStatus">GuardSaker</Effect>
-			<Effect status="obtainable" type="TechStatus">ImperialSaker</Effect>
+			<Effect status="obtainable" type="TechStatus">VeteranCarronade</Effect>
+			<Effect status="obtainable" type="TechStatus">GuardCarronade</Effect>
+			<Effect status="obtainable" type="TechStatus">ImperialCarronade</Effect>
 			<Effect status="obtainable" type="TechStatus">GuardHalberdiers</Effect>
 			<Effect status="obtainable" type="TechStatus">ImperialHalberdiers</Effect>
 			<Effect amount="0.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
@@ -70861,11 +70705,6 @@
 			<Effect status="obtainable" type="TechStatus">ImperialMonitors</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">SPCFortCenter</Target>
-			</Effect>
-			<Effect status="obtainable" type="TechStatus">ImperialHorseArtillery</Effect>
-			<Effect status="obtainable" type="TechStatus">HeavyHorseArtillery</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">xpHorseArtillery</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpSpy</Target>
@@ -71179,11 +71018,10 @@
 			<Effect status="active" type="TechStatus">GuardHalberdiers</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades2</Effect>
-			<Effect status="active" type="TechStatus">HeavyHorseArtillery</Effect>
 			<Effect status="active" type="TechStatus">GuardPikemen</Effect>
 			<Effect status="active" type="TechStatus">GuardCrossbowmen</Effect>
-			<Effect status="active" type="TechStatus">VeteranSaker</Effect>
-			<Effect status="active" type="TechStatus">GuardSaker</Effect>
+			<Effect status="active" type="TechStatus">VeteranCarronade</Effect>
+			<Effect status="active" type="TechStatus">GuardCarronade</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PostImperialItalians" type="Normal">
@@ -71208,11 +71046,10 @@
 			<Effect status="active" type="TechStatus">ImperialMonitors</Effect>
 			<Effect status="active" type="TechStatus">ImperialManOWar</Effect>
 			<Effect status="active" type="TechStatus">ImpLegendaryNatives</Effect>
-			<Effect status="active" type="TechStatus">ImperialHorseArtillery</Effect>
 			<Effect status="active" type="TechStatus">ImperialPikemen</Effect>
 			<Effect status="active" type="TechStatus">ImperialCrossbowmen</Effect>
 			<Effect status="active" type="TechStatus">ImperialMountedCrossbowman</Effect>
-			<Effect status="active" type="TechStatus">ImperialSaker</Effect>
+			<Effect status="active" type="TechStatus">ImperialCarronade</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ColonializeItalians" type="Normal">
@@ -71739,7 +71576,7 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="HCShipSaker2" type="Normal">
+	<Tech name="HCShipCarronade2" type="Normal">
 		<DBID>2894</DBID>
 		<DisplayNameID>781249</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
@@ -71748,12 +71585,12 @@
 		<Icon>units\artillery\carronade\carronade_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="6.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Saker">
+			<Effect amount="6.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="CarronadeGun">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="HCShipSaker3" type="Normal">
+	<Tech name="HCShipCarronade3" type="Normal">
 		<DBID>2895</DBID>
 		<DisplayNameID>781250</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
@@ -71762,7 +71599,7 @@
 		<Icon>units\artillery\carronade\carronade_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="8.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Saker">
+			<Effect amount="8.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="CarronadeGun">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -72140,7 +71977,7 @@
 				<Target type="ProtoUnit">Dragoon</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">Culverin</Target>
+				<Target type="ProtoUnit">Saker</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Falconet</Target>
@@ -72169,18 +72006,12 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">SPCFortCenter</Target>
 			</Effect>
-			<Effect status="obtainable" type="TechStatus">ImperialHorseArtillery</Effect>
-			<Effect status="obtainable" type="TechStatus">HeavyHorseArtillery</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">xpHorseArtillery</Target>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpSpy</Target>
 			</Effect>
-			<Effect status="unobtainable" type="TechStatus">Howitzer</Effect>
-			<Effect status="unobtainable" type="TechStatus">ImperialHowitzer</Effect>
-			<Effect status="obtainable" type="TechStatus">HowitzerNew</Effect>
-			<Effect status="obtainable" type="TechStatus">ImperialHowitzerNew</Effect>
+			<Effect status="unobtainable" type="TechStatus">Grapeshot</Effect>
+			<Effect status="obtainable" type="TechStatus">HeavySakers</Effect>
+			<Effect status="obtainable" type="TechStatus">ImperialSakers</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCFameGold" type="Normal">
@@ -72453,7 +72284,7 @@
 			<Effect status="active" type="TechStatus">VeteranHussars</Effect>
 			<Effect status="active" type="TechStatus">VeteranHandgonne</Effect>
 			<Effect status="active" type="TechStatus">VeteranPistolS</Effect>
-			<Effect status="active" type="TechStatus">GrapeShot</Effect>
+			<Effect status="active" type="TechStatus">HeavySakers</Effect>
 			<Effect status="active" type="TechStatus">Howitzer</Effect>
 			<Effect status="active" type="TechStatus">FieldGun</Effect>
 			<Effect status="active" type="TechStatus">Trunion</Effect>
@@ -72470,7 +72301,6 @@
 			<Effect status="active" type="TechStatus">GuardPistolS</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades2</Effect>
-			<Effect status="active" type="TechStatus">HeavyHorseArtillery</Effect>
 			<Effect status="active" type="TechStatus">GuardSharpshooter</Effect>
 			<Effect status="active" type="TechStatus">GuardPikemen</Effect>
 		</Effects>
@@ -72490,7 +72320,7 @@
 			<Effect status="active" type="TechStatus">ImperialDragoons</Effect>
 			<Effect status="active" type="TechStatus">ImperialMusketeersSw</Effect>
 			<Effect status="active" type="TechStatus">ImperialHandgonne</Effect>
-			<Effect status="active" type="TechStatus">ImperialCulverin</Effect>
+			<Effect status="active" type="TechStatus">ImperialSakers</Effect>
 			<Effect status="active" type="TechStatus">ImperialRocket</Effect>
 			<Effect status="active" type="TechStatus">ImperialHowitzer</Effect>
 			<Effect status="active" type="TechStatus">ImperialFieldGun</Effect>
@@ -72499,7 +72329,6 @@
 			<Effect status="active" type="TechStatus">ImperialSharpshooter</Effect>
 			<Effect status="active" type="TechStatus">ImperialMonitors</Effect>
 			<Effect status="active" type="TechStatus">ImpLegendaryNatives</Effect>
-			<Effect status="active" type="TechStatus">ImperialHorseArtillery</Effect>
 			<Effect status="active" type="TechStatus">ImperialPikemen</Effect>
 			<Effect status="active" type="TechStatus">ImperialPistolS</Effect>
 		</Effects>
@@ -76244,11 +76073,6 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">SPCFortCenter</Target>
 			</Effect>
-			<Effect status="obtainable" type="TechStatus">ImperialHorseArtillery</Effect>
-			<Effect status="obtainable" type="TechStatus">HeavyHorseArtillery</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">xpHorseArtillery</Target>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpSpy</Target>
 			</Effect>
@@ -77505,7 +77329,6 @@
 			<Effect status="active" type="TechStatus">GuardHussars</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades2</Effect>
-			<Effect status="active" type="TechStatus">HeavyHorseArtillery</Effect>
 			<Effect status="active" type="TechStatus">GuardPikemen</Effect>
 			<Effect status="active" type="TechStatus">VeteranCrossbowmen</Effect>
 			<Effect status="active" type="TechStatus">GuardCrossbowmen</Effect>
@@ -77536,7 +77359,6 @@
 			<Effect status="active" type="TechStatus">ImperialHussars</Effect>
 			<Effect status="active" type="TechStatus">ImperialMonitors</Effect>
 			<Effect status="active" type="TechStatus">ImpLegendaryNatives</Effect>
-			<Effect status="active" type="TechStatus">ImperialHorseArtillery</Effect>
 			<Effect status="active" type="TechStatus">ImperialPikemen</Effect>
 			<Effect status="active" type="TechStatus">ImperialCrossbowmen</Effect>
 			<Effect status="active" type="TechStatus">ImperialDrabants</Effect>
@@ -80087,7 +79909,7 @@
 			<Effect amount="11.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Spanish" type="Data" unittype="Pikeman">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Italians" type="Data" unittype="Saker">
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Italians" type="Data" unittype="CarronadeGun">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="7.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Maltese" type="Data" unittype="KnightMalta">
@@ -81482,13 +81304,12 @@
 			<Effect status="unobtainable" type="TechStatus">ImperialStrelets</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialOprichniks</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialGreatCannon</Effect>
-			<Effect status="unobtainable" type="TechStatus">ImperialHorseArtilleryNew</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialEspada</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialTercio</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialGarrochistas</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialMonitorsNew</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialMountedCrossbowman</Effect>
-			<Effect status="unobtainable" type="TechStatus">ImperialSaker</Effect>
+			<Effect status="unobtainable" type="TechStatus">ImperialCarronade</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialSharpshooter</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialPistolS</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialMusketeersSW</Effect>
@@ -81518,7 +81339,6 @@
 			<Effect status="unobtainable" type="TechStatus">ImperialMonitorsUS</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialCulverinUS</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialHowitzerUS</Effect>
-			<Effect status="unobtainable" type="TechStatus">ImperialHorseArtilleryUS</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialFieldGunUS</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialCannonUS</Effect>
 			<Effect status="unobtainable" type="TechStatus">Spies</Effect>

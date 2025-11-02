@@ -5643,7 +5643,7 @@
 		<String _locID="34172">6 Cows</String>
 		<String _locID="34173">4 Longbowmen</String>
 		<String _locID="34174">{Ma^8 Pikemen^}{Fr^8 Pikemen^}{Br^8 Pikemen^}{Po^8 Pikemen^}{Sp^7 Rodelero^}{It^8 Pikemen^}{Sw^8 Pikemen^}{US^5 Halberdiers^}{Du^5 Halberdiers^}{Ru^5 Halberdiers^}{Ot^6 Azaps^}{Ge^3 Dopplesoldners^}</String>
-		<String _locID="34175">{E^2 Falconets^}{Po^3 Organ Guns^}{It^3 Carronades^}</String>
+		<String _locID="34175">{Ma^2 Falconets^}{Fr^2 Falconets^}{Br^2 Falconets^}{Po^3 Organ Guns^}{Sp^2 Falconets^}{It^3 Carronades^}{Sw^2 Falconets^}{US^3 Gatling Guns^}{Du^2 Falconets^}{Ru^2 Falconets^}{Ot^2 Falconets^}{Ge^2 Falconets^}</String>
 		<String _locID="34176">3 Corsairs and 1 Privateer</String>
 		<String _locID="34177">{Ma^7 Knights^}{Fr^7 Halberdiers^}{Br^6 Grenadiers^}{Po^7 Halberdiers^}{Sp^11 Pikemen^}{It^4 Carronades^}{Sw^6 Handgonnes^}{US^6 Grenadiers^}{Du^7 Halberdiers^}{Ru^6 Grenadiers^}{Ot^4 Grenadiers and 3 Azaps^}{Ge^5 Dopplesoldners^}</String>
 		<String _locID="34178">4 Native Riflemen and 2 Native Scouts</String>
@@ -6277,7 +6277,7 @@
 		<String _locID="35466">The Admiral of the Ocean Sea</String>
 		<String _locID="35469">7 Longbowmen</String>
 		<String _locID="35470">The Adventurer</String>
-		<String _locID="35471">{Ma^3 Culverins^}{Fr^3 Culverins^}{Br^2 Horse Artillery^}{Po^3 Culverins^}{Sp^3 Culverins^}{It^3 Culverins^}{Sw^3 Culverins^}{US^3 Gatling Guns^}{Du^3 Culverins^}{Ru^3 Culverins^}{Ot^1 Mortar and 1 Culverin^}{Ge^3 Culverins^}</String>
+		<String _locID="35471">{Ma^3 Culverins^}{Fr^3 Culverins^}{Br^3 Culverins^}{Po^3 Culverins^}{Sp^3 Culverins^}{It^3 Culverins^}{Sw^3 Sakers^}{US^3 Culverins^}{Du^3 Culverins^}{Ru^3 Culverins^}{Ot^1 Mortar and 1 Culverin^}{Ge^3 Culverins^}</String>
 		<String _locID="35472">The Viceroy</String>
 		<String _locID="35473">10 Musketeers</String>
 		<String _locID="35474">The King's Musketeer</String>
@@ -17020,8 +17020,8 @@
 		<String _locID="46617" symbol="cStringNoRushEnded">The treaty has ended! Fighting may begin!</String>
 		<String _locID="46618">Light artillery</String>
 		<String _locID="46619">Quick moving artillery. Strong against infantry.</String>
-		<String _locID="46620">Horse Artillery</String>
-		<String _locID="46621">AR Horse Artillery</String>
+		<String _locID="46620">Napoleon Gun</String>
+		<String _locID="46621">AR Napoleon Gun</String>
 		<String _locID="46622" symbol="cStringPlacementFailedNoRush">During the treaty period, buildings may only be built close to the starting Town Centers.</String>
 		<String _locID="46623">In the nineteenth century, westward expansion slowed in the face of fierce Native American resistance.</String>
 		<String _locID="46624">Chayton and Holme have secured the trail, but several groups of settlers are still threatened by Sioux raiders.</String>
@@ -17247,7 +17247,7 @@
 		<String _locID="46844">10 Coureurs</String>
 		<String _locID="46845">Ships an advanced Hot Air Balloon that remains permanently in play.</String>
 		<String _locID="46846">Advanced Balloon</String>
-		<String _locID="46847">Falconets, Cannon, Culverin, and Horse Artillery damage increased.</String>
+		<String _locID="46847">Falconets, Cannon, Culverin, and Mortar damage increased.</String>
 		<String _locID="46848">Gribeauval System</String>
 		<String _locID="46849">Knight Hitpoints shipment has arrived.</String>
 		<String _locID="46850">Gribeauval System Shipment has arrived.</String>
@@ -17366,8 +17366,8 @@
 		<String _locID="46963">Friendly Territory</String>
 		<String _locID="46964">Nomadic Expansion Shipment has arrived.</String>
 		<String _locID="46965">Friendly Territory Shipment has arrived.</String>
-		<String _locID="46966">2 Horse Artillery</String>
-		<String _locID="46967">3 Horse Artillery</String>
+		<String _locID="46966">2 Napoleon Guns</String>
+		<String _locID="46967">3 Napoleon Guns</String>
 		<String _locID="46968">1 Basilisk Cannon</String>
 		<String _locID="46969">10 Rodeleros</String>
 		<String _locID="46970">6 Grenadiers</String>
@@ -17500,8 +17500,8 @@
 		<String _locID="47097">2 Rockets</String>
 		<String _locID="47098" symbol="cStringFormatPlayerSummaryHCButton2" comment="1 - player, 2 - Home City level">%1s\nHome City Level: %2d</String>
 		<String _locID="47099" gamecharacter="Nathaniel" soundfilename="XNATH9044">We only need to destroy one of the two enemy town centers.</String>
-		<String _locID="47100">2 Horse Artillery +4 Uhlans</String>
-		<String _locID="47101">3 Horse Artillery +4 Uhlans</String>
+		<String _locID="47100">2 Napoleon Guns +4 Uhlans</String>
+		<String _locID="47101">3 Napoleon Guns +4 Uhlans</String>
 		<String _locID="47102">All Native American allies are improved to Champion level. + 4 Uhlans.</String>
 		<String _locID="47103">Blood Brothers</String>
 		<String _locID="47104">Blood Brothers Shipment has arrived.</String>
@@ -19290,14 +19290,14 @@
 		<String _locID="48890">Native Embassy Hotkeys</String>
 		<String _locID="48891">Nobles' Hut Hotkeys</String>
 		<String _locID="48892">War Hut Hotkeys</String>
-		<String _locID="48893">Imperial upgrade for Horse Artillery.</String>
-		<String _locID="48894">Imperial Horse Artillery</String>
+		<String _locID="48893">Imperial upgrade for Napoleon Guns.</String>
+		<String _locID="48894">Imperial Napoleon Guns</String>
 		<String _locID="48895">Imperial Howitzer</String>
-		<String _locID="48896">Imperial Horse Artillery</String>
-		<String _locID="48897">Horse Artillery attack and hitpoints increased.</String>
-		<String _locID="48898">Heavy Horse Artillery</String>
+		<String _locID="48896">Imperial Napoleon Gun</String>
+		<String _locID="48897">Napoleon Gun attack and hitpoints increased.</String>
+		<String _locID="48898">Heavy Napoleon Guns</String>
 		<String _locID="48899">Field Gun</String>
-		<String _locID="48900">Heavy Horse Artillery</String>
+		<String _locID="48900">Heavy Napoleon Gun</String>
 		<String _locID="48901">Hole in the Wall Gang</String>
 		<String _locID="48902">Railroad Town</String>
 		<String _locID="48903">Show statistics for Age of Empires III</String>
@@ -20666,8 +20666,8 @@
 		<String _locID="61215">French Surgeons</String>
 		<String _locID="61216">Ships Petards and enables continued Petard shipments.</String>
 		<String _locID="61217">French Petards</String>
-		<String _locID="61218">Ships Horse Artillery and enables continued Horse Artillery shipments.</String>
-		<String _locID="61219">French Horse Artillery</String>
+		<String _locID="61218">Ships Napoleon Guns and enables continued Napoleon Gun shipments.</String>
+		<String _locID="61219">French Napoleon Guns</String>
 		<String _locID="61220">Russian military techniques reduce cost of banner armies by 5%.</String>
 		<String _locID="61221">Banner Army Cost and Train Time</String>
 		<String _locID="61222">Russian military techniques reduce cost of banner armies by 5%.</String>
@@ -20693,7 +20693,7 @@
 		<String _locID="61242">British Relations 4</String>
 		<String _locID="61243">Allows you to train Petards from your Consulate.</String>
 		<String _locID="61244">Portuguese Relations 3</String>
-		<String _locID="61245">Allows you to train Horse Artillery from your Consulate.</String>
+		<String _locID="61245">Allows you to train Napoleon Gun from your Consulate.</String>
 		<String _locID="61246">Portuguese Relations 4</String>
 		<String _locID="61247">Ships 1 Villager.</String>
 		<String _locID="61248">Ottoman Relations 1</String>
@@ -20741,8 +20741,8 @@
 		<String _locID="61290">2 French Surgeons</String>
 		<String _locID="61291">Ships 3 French Petards.</String>
 		<String _locID="61292">3 French Petards</String>
-		<String _locID="61293">Ships French Horse Artillery.</String>
-		<String _locID="61294">1 French Horse Artillery</String>
+		<String _locID="61293">Ships French Napoleon Guns.</String>
+		<String _locID="61294">1 French Napoleon Gun</String>
 		<String _locID="61295">Ships 15 Native American units.</String>
 		<String _locID="61296">Native American War Party</String>
 		<String _locID="61297">Ships 1 Arsenal Wagon.</String>
@@ -23454,7 +23454,7 @@
 		<String _locID="64156">Russian Allies\n-10% Villager Train Time</String>
 		<String _locID="64157">Pikemen\nRodeleros\nFalconets\n \nShips shipment enhancements</String>
 		<String _locID="64158">Spanish Allies\n+0.8 Experience Trickle Rate</String>
-		<String _locID="64159">Grenadiers\nCuirassiers\nHorse Artillery\n \nShips resource crates</String>
+		<String _locID="64159">Grenadiers\nCuirassiers\nNapoleon Guns\n \nShips resource crates</String>
 		<String _locID="64160">French Allies\n+5% Gather Enhancement</String>
 		<String _locID="64161" comment="fushimi warning" gamecharacter="Daimyo Mototada" soundfilename="YMOTO5021">Keep fighting! Cut down your enemies!</String>
 		<String _locID="64162" comment="fushimi warning" gamecharacter="Daimyo Mototada" soundfilename="YMOTO5018">The grounds are littered with our dead. Is this the end of Fushimi Castle?</String>
@@ -23569,7 +23569,7 @@
 		<String _locID="64271">Ships Pavlov Grenadiers and upgrades attack and hitpoints of Culverins.</String>
 		<String _locID="64272">Grapeshot +5 Pavlov Grenadiers</String>
 		<String _locID="64273">Ships Redcoats and Falconets.</String>
-		<String _locID="64274">3 Horse Artillery</String>
+		<String _locID="64274">3 Napoleon Guns</String>
 		<String _locID="64275">Wood Crates</String>
 		<String _locID="64276">Ships crates of Wood.</String>
 		<String _locID="64277">Ships Petards and allows you to train them at your Consulate.</String>
@@ -24685,8 +24685,8 @@
 		<String _locID="65395">CON Great Bombard</String>
 		<String _locID="65396">Light artillery, good against infantry</String>
 		<String _locID="65397">Quick moving artillery. Strong against infantry.</String>
-		<String _locID="65398">Horse Artillery</String>
-		<String _locID="65399">CON Horse Artillery</String>
+		<String _locID="65398">Napoleon Gun</String>
+		<String _locID="65399">CON Napoleon Gun</String>
 		<String _locID="65400">Anti-building artillery</String>
 		<String _locID="65401">Siege warrior that dies when it attacks buildings, but does lots of damage.</String>
 		<String _locID="65402">Petard</String>
@@ -25144,7 +25144,7 @@
 		<String _locID="65854">French Expeditionary Force</String>
 		<String _locID="65855">French Expeditionary Force</String>
 		<String _locID="65856">Shock Cavalry with a trample attack, good against infantry and artillery / light artillery, good against infantry</String>
-		<String _locID="65857">An army of French Gendarmes (Cuirassiers) and Horse Artillery.\n5 Gendarmes: Shock Cavalry with a trample attack, good against archers, long-ranged infantry, and artillery.\n2 Horse Artillery: quick-moving artillery that is strong versus infantry.</String>
+		<String _locID="65857">An army of French Gendarmes (Cuirassiers) and Napoleon Guns.\n5 Gendarmes: Shock Cavalry with a trample attack, good against archers, long-ranged infantry, and artillery.\n2 Napoleon Guns: quick-moving artillery that is strong versus infantry.</String>
 		<String _locID="65858">French Expeditionary Army</String>
 		<String _locID="65859">French Expeditionary Army</String>
 		<String _locID="65860">Hand infantry, good against cavalry</String>
@@ -25523,7 +25523,7 @@
 		<String _locID="66233">Warring States Shipment has arrived.</String>
 		<String _locID="66234">Shinobi-iri</String>
 		<String _locID="66235">Shinobi-iri Shipment has arrived.</String>
-		<String _locID="66236">Horse Artillery\nFalconets\nMortars\n \nShips economic buildings</String>
+		<String _locID="66236">Napoleon Guns\nFalconets\nMortars\n \nShips economic buildings</String>
 		<String _locID="66237">Dutch Allies\n+0.8 Coin Trickle Rate</String>
 		<String _locID="66238">Culverin\nFalconets\nBasilisk Cannon\n \nShips boats and warships</String>
 		<String _locID="66239">Portuguese Allies\n-15% Villager Train Time</String>
@@ -25539,16 +25539,16 @@
 		<String _locID="66249">An army of 3 Basilisk Cannon and 3 Culverin.</String>
 		<String _locID="66250">Portuguese Expeditionary Army</String>
 		<String _locID="66251">Portuguese Expeditionary Army</String>
-		<String _locID="66252">Horse Artillery Army</String>
-		<String _locID="66253">An army of 1 Horse Artillery.</String>
+		<String _locID="66252">Napoleon Gun Army</String>
+		<String _locID="66253">An army of 1 Napoleon Gun.</String>
 		<String _locID="66254">Dutch Expeditionary Company</String>
 		<String _locID="66255">Dutch Expeditionary Company</String>
 		<String _locID="66256">Falconet Army</String>
 		<String _locID="66257">An army of 2 Falconets.</String>
 		<String _locID="66258">Dutch Expeditionary Force</String>
 		<String _locID="66259">Dutch Expeditionary Force</String>
-		<String _locID="66260">Horse Artillery/Mortar Army</String>
-		<String _locID="66261">An army of 4 Horse Artillery and 3 Mortars.</String>
+		<String _locID="66260">Napoleon Gun/Mortar Army</String>
+		<String _locID="66261">An army of 4 Napoleon Guns and 3 Mortars.</String>
 		<String _locID="66262">Dutch Expeditionary Army</String>
 		<String _locID="66263">Dutch Expeditionary Army</String>
 		<String _locID="66264">Villagers generate Trade faster.</String>
@@ -25584,7 +25584,7 @@
 		<String _locID="66294">Culverin Royale</String>
 		<String _locID="66295">Howitzer</String>
 		<String _locID="66296">Imperial Culverin</String>
-		<String _locID="66297">Imperial Horse Artillery</String>
+		<String _locID="66297">Imperial Napoleon Gun</String>
 		<String _locID="66298">Imperial Great Bombard</String>
 		<String _locID="66299">Imperial Basilisk Cannon</String>
 		<String _locID="66300">Imperial Field Gun</String>
@@ -29282,7 +29282,7 @@
 		<String _locID="69999">NAT Saltpeter Man</String>
 		<String _locID="70000">Hussars\nJanissaries\nGreat Bombards\n \nShips economic units</String>
 		<String _locID="70001">Ottoman Allies\n+10 Unit / Building LOS</String>
-		<String _locID="70002">Grenadiers\nCuirassiers\nHorse Artillery\n \nShips resource crates</String>
+		<String _locID="70002">Grenadiers\nCuirassiers\nNapoleon Guns\n \nShips resource crates</String>
 		<String _locID="70003">French Allies\n+5% Gather Enhancement</String>
 		<String _locID="70004">Kick out your ally so that you can choose a new one.</String>
 		<String _locID="70005">End Relations</String>
@@ -31439,14 +31439,14 @@
 		<String _locID="780978">Pilgrimage</String>
 		<String _locID="780979">Ships 10 Pilgrims that work faster than normal villagers and don't take up population.</String>
 		<String _locID="780980">Swedish Allies\n+35% Building Hitpoints</String>
-		<String _locID="780981">Handgonnes\nFalconets\nHorse Artillery\n \nShips town improvements</String>
+		<String _locID="780981">Handgonnes\nFalconets\nSakers\n \nShips town improvements</String>
 		<String _locID="780982">Loyalist Militia</String>
 		<String _locID="780983">Bakery Wagon</String>
 		<String _locID="780984">Transforms into a Bakery.</String>
 		<String _locID="780985">Allows Pilgrims to be trained from Churches.</String>
 		<String _locID="780986">Northern Logging</String>
 		<String _locID="780987">Villagers gather Wood faster and ships 500 Wood.</String>
-		<String _locID="780988">Ships a large number of Geshwinda Falconets (Falconets) and Horse Artillery led by a General.</String>
+		<String _locID="780988">Ships a large number of Geshwinda Falconets (Falconets) and Sakers led by a General.</String>
 		<String _locID="780989">Swedish Brigade</String>
 		<String _locID="780990">Indelta Grenadier</String>
 		<String _locID="780991">Geshwinda Falconet</String>
@@ -31512,8 +31512,8 @@
 		<String _locID="781051">Distinguished Basilisks</String>
 		<String _locID="781052">Distinguished Basilisk</String>
 		<String _locID="781053">Distinguished upgrade for Basilisk Cannons.</String>
-		<String _locID="781054">Distinguished Horse Artillery</String>
-		<String _locID="781055">Distinguished upgrade for Horse Artillery.</String>
+		<String _locID="781054">Distinguished Napoleon Guns</String>
+		<String _locID="781055">Distinguished upgrade for Napoleon Guns.</String>
 		<String _locID="781056">Confederacy</String>
 		<String _locID="781057">Union</String>
 		<String _locID="781058">1 Factory Wagon\n \nIncreased Independence units train speed</String>
@@ -31683,7 +31683,7 @@
 		<String _locID="781223">Mercenary Brigade</String>
 		<String _locID="781224">Skarpskytt</String>
 		<String _locID="781225">An army of Swedish Geshwinda Falconets (Falconets) and Handgonne.\n2 Falconets: light artillery that is better against infantry than buildings.\n6 Handgonne: siege trooper that deals area damage and uses a grenade launcher against buildings.</String>
-		<String _locID="781226">An army of Swedish Handgonne and Horse Artillery.\n8 Handgonne: siege trooper that deals area damage and uses a grenade launcher against buildings.\n2 Horse Artillery: quick-moving artillery that is strong versus infantry.</String>
+		<String _locID="781226">An army of Swedish Handgonne and Sakers.\n8 Handgonne: siege trooper that deals area damage and uses a grenade launcher against buildings.\n2 Sakers: quick-moving artillery that is strong versus infantry.</String>
 		<String _locID="781227">TEAM Cheap Age Up</String>
 		<String _locID="781228">TEAM All Age Up politicians, council members and wonders become cheaper.</String>
 		<String _locID="781229">TEAM Age Up becomes cheaper.</String>
@@ -33067,5 +33067,9 @@
 		<String _locID="782611">TEAM Winter Counts</String>
 		<String _locID="782612">TEAM You are awarded 1500 Experience Points towards your next Shipment.</String>
 		<String _locID="782613">Winter Counts Shipment has arrived.</String>
+		<String _locID="782614">Spawn Napoleon Gun</String>
+		<String _locID="782615">Configure this Factory to produce Napoleon Guns.</String>
+		<String _locID="782616">This Factory is producing Napoleon Guns.</String>
+		<String _locID="782617">Saker</String>
 	</Language>
 </StringTable>
