@@ -5643,9 +5643,9 @@
 		<String _locID="34172">6 Cows</String>
 		<String _locID="34173">4 Longbowmen</String>
 		<String _locID="34174">{Ma^8 Pikemen^}{Fr^8 Pikemen^}{Br^8 Pikemen^}{Po^8 Pikemen^}{Sp^7 Rodelero^}{It^8 Pikemen^}{Sw^8 Pikemen^}{US^5 Halberdiers^}{Du^5 Halberdiers^}{Ru^5 Halberdiers^}{Ot^6 Azaps^}{Ge^3 Dopplesoldners^}</String>
-		<String _locID="34175">{Ma^2 Falconets^}{Fr^2 Falconets^}{Br^2 Falconets^}{Po^3 Organ Guns^}{Sp^2 Falconets^}{It^3 Carronades^}{Sw^2 Falconets^}{US^3 Gatling Guns^}{Du^2 Falconets^}{Ru^2 Falconets^}{Ot^2 Falconets^}{Ge^2 Falconets^}</String>
+		<String _locID="34175">{Ma^2 Falconets^}{Fr^2 Falconets^}{Br^2 Falconets^}{Po^3 Organ Guns^}{Sp^2 Falconets^}{It^4 Carronades^}{Sw^2 Falconets^}{US^3 Gatling Guns^}{Du^2 Falconets^}{Ru^2 Falconets^}{Ot^2 Falconets^}{Ge^2 Falconets^}</String>
 		<String _locID="34176">3 Corsairs and 1 Privateer</String>
-		<String _locID="34177">{Ma^7 Knights^}{Fr^7 Halberdiers^}{Br^6 Grenadiers^}{Po^7 Halberdiers^}{Sp^11 Pikemen^}{It^4 Carronades^}{Sw^6 Handgonnes^}{US^6 Grenadiers^}{Du^7 Halberdiers^}{Ru^6 Grenadiers^}{Ot^4 Grenadiers and 3 Azaps^}{Ge^5 Dopplesoldners^}</String>
+		<String _locID="34177">{Ma^7 Knights^}{Fr^7 Halberdiers^}{Br^6 Grenadiers^}{Po^7 Halberdiers^}{Sp^7 Rodeleros^}{It^7 Halberdiers^}{Sw^6 Handgonnes^}{US^6 Grenadiers^}{Du^7 Halberdiers^}{Ru^6 Grenadiers^}{Ot^4 Grenadiers and 3 Azaps^}{Ge^5 Dopplesoldners^}</String>
 		<String _locID="34178">4 Native Riflemen and 2 Native Scouts</String>
 		<String _locID="34179">Chests of 1000 Coin</String>
 		<String _locID="34180">4 Settlers and 7 Pikemen</String>
@@ -5653,7 +5653,7 @@
 		<String _locID="34182">{E^1 Caravel and Cords of 400 Wood^}{Ot^1 Galley and Cords of 400 Wood^}{US^1 Corvette and Cords of 400 Wood^}</String>
 		<String _locID="34183">The Admiral of the Ocean Sea</String>
 		<String _locID="34184">Chests of 2000 Coin</String>
-		<String _locID="34185">{Ma^12 Arquebusiers and 1 Basilisk Cannon^}{Fr^12 Musketeers and 1 Basilisk Cannon^}{Br^12 Musketeers and 1 Rocket^}{Po^12 Musketeers and 1 Basilisk Cannon^}{Sp^12 Musketeers and 1 Basilisk Cannon^}{It^12 Musketeers and 1 Basilisk Cannon^}{Sw^12 Musketeers and 1 Basilisk Cannon^}{US^12 Marines and 1 Basilisk Cannon^}{Du^12 Fencibles and 1 Basilisk Cannon^}{Ru^12 Musketeers and 1 Tsar Cannon^}{Ot^12 Janniseries and 1 Great Bombard^}{Ge^12 Skirmishers and 1 Basilisk Cannon^}</String>
+		<String _locID="34185">{Ma^12 Arquebusiers and 1 Basilisk Cannon^}{Fr^12 Musketeers and 1 Napoleon Gun^}{Br^12 Musketeers and 1 Rocket^}{Po^12 Musketeers and 1 Basilisk Cannon^}{Sp^12 Musketeers and 1 Basilisk Cannon^}{It^12 Musketeers and 1 Basilisk Cannon^}{Sw^12 Musketeers and 1 Basilisk Cannon^}{US^12 Marines and 1 Basilisk Cannon^}{Du^12 Fencibles and 1 Basilisk Cannon^}{Ru^12 Musketeers and 1 Tsar Cannon^}{Ot^12 Janniseries and 1 Great Bombard^}{Ge^12 Skirmishers and 1 Basilisk Cannon^}</String>
 		<String _locID="34186">Aztec leader</String>
 		<String _locID="34187">A leader among the Aztec.</String>
 		<String _locID="34188">Aztec Chief</String>
@@ -32137,7 +32137,7 @@
 		<String _locID="781677">7 Mustangs</String>
 		<String _locID="781678">Comanchero Mustangs</String>
 		<String _locID="781679">All your Mustangs transform into Comancheros.</String>
-		<String _locID="781680">The Scholar</String>
+		<String _locID="781680">The Banker</String>
 		<String _locID="781681">1 Envoy and 4 Spies</String>
 		<String _locID="781682">You can now train Cows from Farms and livestock limits are increased by half.</String>
 		<String _locID="781683">7 Goats</String>
@@ -33077,5 +33077,12 @@
 		<String _locID="782621">Imperial Saker</String>
 		<String _locID="782622">Imperial upgrade for Sakers.</String>
 		<String _locID="782623">Saker attack and hitpoints increased.</String>
+		<String _locID="782624">400 Wood\n \nProduces Banner Armies</String>
+		<String _locID="782625">1000 Wood\n \nProduces Banner Armies</String>
+		<String _locID="782626">1500 Wood\n \nProduces Banner Armies</String>
+		<String _locID="782627">2000 Wood\n \nProduces Banner Armies</String>
+		<String _locID="782628">The Emissary</String>
+		<String _locID="782629">The Inventor</String>
+		<String _locID="782630">The Inca Healer</String>
 	</Language>
 </StringTable>

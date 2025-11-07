@@ -16629,7 +16629,7 @@
 			<Effect amount="12.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0USA" type="Data" unittype="Marine">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="Cannon">
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="xpHorseArtillery">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Russian" type="Data" unittype="GreatCannon">
@@ -16707,7 +16707,7 @@
 			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Spanish" type="Data" unittype="Falconet">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Italians" type="Data" unittype="CarronadeGun">
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Italians" type="Data" unittype="CarronadeGun">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Maltese" type="Data" unittype="Falconet">
@@ -53143,7 +53143,10 @@
 			<Effect status="unobtainable" type="TechStatus">YPWonderChineseSummerPalace3</Effect>
 			<Effect status="unobtainable" type="TechStatus">YPWonderChineseSummerPalace4</Effect>
 			<Effect status="unobtainable" type="TechStatus">YPWonderChineseSummerPalace5</Effect>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypCrateofFood">
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ChineseSummerPalace" type="Data" unittype="ypCrateofFood">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ChinesePalaceSummer" type="Data" unittype="ypCrateofWood">
 				<Target type="Player"/>
 			</Effect>
 			<Effect status="unobtainable" type="TechStatus">YPWonderChineseConfucianAcademy2</Effect>
@@ -53168,7 +53171,10 @@
 			<Effect type="SetAge">Age2</Effect>
 			<Effect status="unobtainable" type="TechStatus">YPWonderChineseSummerPalace4</Effect>
 			<Effect status="unobtainable" type="TechStatus">YPWonderChineseSummerPalace5</Effect>
-			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="CrateofFoodLarge">
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ChineseSummerPalace" type="Data" unittype="CrateofFoodLarge">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ChinesePalaceSummer" type="Data" unittype="CrateofWoodLarge">
 				<Target type="Player"/>
 			</Effect>
 			<Effect status="unobtainable" type="TechStatus">YPWonderChineseConfucianAcademy3</Effect>
@@ -53192,7 +53198,10 @@
 		<Effects>
 			<Effect type="SetAge">Age3</Effect>
 			<Effect status="unobtainable" type="TechStatus">YPWonderChineseSummerPalace5</Effect>
-			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="CrateofFoodLarge">
+			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ChineseSummerPalace" type="Data" unittype="CrateofFoodLarge">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ChinesePalaceSummer" type="Data" unittype="CrateofWoodLarge">
 				<Target type="Player"/>
 			</Effect>
 			<Effect status="unobtainable" type="TechStatus">YPWonderChinesePorcelainTower4</Effect>
@@ -53215,7 +53224,10 @@
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
 			<Effect type="SetAge">Age4</Effect>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="CrateofFoodLarge">
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ChineseSummerPalace" type="Data" unittype="CrateofFoodLarge">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ChinesePalaceSummer" type="Data" unittype="CrateofWoodLarge">
 				<Target type="Player"/>
 			</Effect>
 			<Effect status="unobtainable" type="TechStatus">YPWonderChineseWhitePagoda5</Effect>
@@ -62478,7 +62490,7 @@
 	</Tech>
 	<Tech name="PoliticianAdventurer" type="Normal">
 		<DBID>2557</DBID>
-		<DisplayNameID>34153</DisplayNameID>
+		<DisplayNameID>35470</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
@@ -66218,7 +66230,7 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="GuardCarronade" type="Normal">
+	<Tech name="GuardCarronades" type="Normal">
 		<DBID>2657</DBID>
 		<DisplayNameID>780710</DisplayNameID>
 		<Cost resourcetype="Wood">400.0000</Cost>
@@ -66231,7 +66243,7 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Industrialize</TechStatus>
-			<TechStatus status="Active">VeteranCarronade</TechStatus>
+			<TechStatus status="Active">VeteranCarronades</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect amount="1.30" relativity="BasePercent" subtype="Hitpoints" type="Data">
@@ -66975,7 +66987,7 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="VeteranCarronade" type="Normal">
+	<Tech name="VeteranCarronades" type="Normal">
 		<DBID>2690</DBID>
 		<DisplayNameID>780709</DisplayNameID>
 		<Cost resourcetype="Wood">200.0000</Cost>
@@ -67116,7 +67128,7 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="ImperialCarronade" type="Normal">
+	<Tech name="ImperialCarronades" type="Normal">
 		<DBID>2696</DBID>
 		<DisplayNameID>780711</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
@@ -67129,7 +67141,7 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
-			<TechStatus status="Active">GuardCarronade</TechStatus>
+			<TechStatus status="Active">GuardCarronades</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
@@ -68029,7 +68041,7 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="HCShipCarronade" type="Normal">
+	<Tech name="HCShipCarronades" type="Normal">
 		<DBID>2736</DBID>
 		<DisplayNameID>780715</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
@@ -70532,9 +70544,9 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Dock</Target>
 			</Effect>
-			<Effect status="obtainable" type="TechStatus">VeteranCarronade</Effect>
-			<Effect status="obtainable" type="TechStatus">GuardCarronade</Effect>
-			<Effect status="obtainable" type="TechStatus">ImperialCarronade</Effect>
+			<Effect status="obtainable" type="TechStatus">VeteranCarronades</Effect>
+			<Effect status="obtainable" type="TechStatus">GuardCarronades</Effect>
+			<Effect status="obtainable" type="TechStatus">ImperialCarronades</Effect>
 			<Effect status="obtainable" type="TechStatus">GuardHalberdiers</Effect>
 			<Effect status="obtainable" type="TechStatus">ImperialHalberdiers</Effect>
 			<Effect amount="0.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
@@ -71020,8 +71032,8 @@
 			<Effect status="active" type="TechStatus">NativeUpgrades2</Effect>
 			<Effect status="active" type="TechStatus">GuardPikemen</Effect>
 			<Effect status="active" type="TechStatus">GuardCrossbowmen</Effect>
-			<Effect status="active" type="TechStatus">VeteranCarronade</Effect>
-			<Effect status="active" type="TechStatus">GuardCarronade</Effect>
+			<Effect status="active" type="TechStatus">VeteranCarronades</Effect>
+			<Effect status="active" type="TechStatus">GuardCarronades</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PostImperialItalians" type="Normal">
@@ -71049,7 +71061,7 @@
 			<Effect status="active" type="TechStatus">ImperialPikemen</Effect>
 			<Effect status="active" type="TechStatus">ImperialCrossbowmen</Effect>
 			<Effect status="active" type="TechStatus">ImperialMountedCrossbowman</Effect>
-			<Effect status="active" type="TechStatus">ImperialCarronade</Effect>
+			<Effect status="active" type="TechStatus">ImperialCarronades</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ColonializeItalians" type="Normal">
@@ -71576,7 +71588,7 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="HCShipCarronade2" type="Normal">
+	<Tech name="HCShipCarronades2" type="Normal">
 		<DBID>2894</DBID>
 		<DisplayNameID>781249</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
@@ -71590,7 +71602,7 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="HCShipCarronade3" type="Normal">
+	<Tech name="HCShipCarronades3" type="Normal">
 		<DBID>2895</DBID>
 		<DisplayNameID>781250</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
@@ -79906,10 +79918,10 @@
 			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Ottoman" type="Data" unittype="Azap">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="11.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Spanish" type="Data" unittype="Pikeman">
+			<Effect amount="7.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Spanish" type="Data" unittype="Rodelero">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Italians" type="Data" unittype="CarronadeGun">
+			<Effect amount="7.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Italians" type="Data" unittype="Halberdier">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="7.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Maltese" type="Data" unittype="KnightMalta">
@@ -81309,13 +81321,14 @@
 			<Effect status="unobtainable" type="TechStatus">ImperialGarrochistas</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialMonitorsNew</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialMountedCrossbowman</Effect>
-			<Effect status="unobtainable" type="TechStatus">ImperialCarronade</Effect>
+			<Effect status="unobtainable" type="TechStatus">ImperialCarronades</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialSharpshooter</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialPistolS</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialMusketeersSW</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialHandgonne</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialKnights</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialArquebusier</Effect>
+			<Effect status="unobtainable" type="TechStatus">ImperialSakers</Effect>
 			<Effect status="unobtainable" type="TechStatus">Spies</Effect>
 			<Effect status="unobtainable" type="TechStatus">HCBlockade</Effect>
 		</Effects>
@@ -85256,6 +85269,81 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="TextOutput">782613</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="RandomAgeChineseSummerPalace" type="Normal">
+		<DBID>3511</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="1" shared="true" status="active" type="RandomTech">
+				<Tech>ChineseSummerPalace</Tech>
+				<Tech>ChinesePalaceSummer</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ChineseSummerPalace" type="Normal">
+		<DBID>3512</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect newRolloverTextID="65070" tech="YPWonderChineseWhitePagoda3" type="SetTechName"/>
+			<Effect newRolloverTextID="65072" tech="YPWonderChineseWhitePagoda3" type="SetTechName"/>
+			<Effect newRolloverTextID="65074" tech="YPWonderChineseWhitePagoda4" type="SetTechName"/>
+			<Effect newRolloverTextID="65076" tech="YPWonderChineseWhitePagoda5" type="SetTechName"/>
+		</Effects>
+	</Tech>
+	<Tech name="ChinesePalaceSummer" type="Normal">
+		<DBID>3513</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect newRolloverTextID="782624" tech="YPWonderChineseWhitePagoda2" type="SetTechName"/>
+			<Effect newRolloverTextID="782625" tech="YPWonderChineseWhitePagoda3" type="SetTechName"/>
+			<Effect newRolloverTextID="782626" tech="YPWonderChineseWhitePagoda4" type="SetTechName"/>
+			<Effect newRolloverTextID="782627" tech="YPWonderChineseWhitePagoda5" type="SetTechName"/>
+		</Effects>
+	</Tech>
+
+
+
+	<Tech name="RandomAgeChineseTempleOfHeaven" type="Normal">
+		<DBID>3514</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="1" shared="true" status="active" type="RandomTech">
+				<Tech>ChineseTempleOfHeaven</Tech>
+				<Tech>ChineseHeavenOfTemple</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ChineseTempleOfHeaven" type="Normal">
+		<DBID>3515</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect newRolloverTextID="65086" tech="YPWonderChineseWhitePagoda3" type="SetTechName"/>
+			<Effect newRolloverTextID="65088" tech="YPWonderChineseWhitePagoda3" type="SetTechName"/>
+			<Effect newRolloverTextID="65090" tech="YPWonderChineseWhitePagoda4" type="SetTechName"/>
+			<Effect newRolloverTextID="65092" tech="YPWonderChineseWhitePagoda5" type="SetTechName"/>
+		</Effects>
+	</Tech>
+	<Tech name="ChineseHeavenOfTemple" type="Normal">
+		<DBID>3516</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect newRolloverTextID="782624" tech="YPWonderChineseWhitePagoda2" type="SetTechName"/>
+			<Effect newRolloverTextID="782625" tech="YPWonderChineseWhitePagoda3" type="SetTechName"/>
+			<Effect newRolloverTextID="782626" tech="YPWonderChineseWhitePagoda4" type="SetTechName"/>
+			<Effect newRolloverTextID="782627" tech="YPWonderChineseWhitePagoda5" type="SetTechName"/>
 		</Effects>
 	</Tech>
 </TechTree>
