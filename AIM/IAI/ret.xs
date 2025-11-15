@@ -382,7 +382,6 @@ void researchTech()
 		if (kbUnitCount(cMyID, cUnitTypeFalconet, cUnitStateAlive) >= 4) researchCheck(cTechFieldGunUS, 50, cUnitTypeArtilleryDepot, cMilitaryEscrowID);
 		if (kbUnitCount(cMyID, cUnitTypeCulverin, cUnitStateAlive) >= 4) researchCheck(cTechGrapeShotUS, 50, cUnitTypeArtilleryDepot, cMilitaryEscrowID);
 		if (kbUnitCount(cMyID, cUnitTypeMortar, cUnitStateAlive) >= 4) researchCheck(cTechHowitzerUS, 50, cUnitTypeArtilleryDepot, cMilitaryEscrowID);
-		if (kbUnitCount(cMyID, cUnitTypexpHorseArtillery, cUnitStateAlive) >= 4) researchCheck(cTechHeavyHorseArtilleryUS, 50, cUnitTypeArtilleryDepot, cMilitaryEscrowID);
 		researchCheck(cTechChurchCodeNapoleon, 50, gChurchUnit, cEconomyEscrowID);
 		researchCheck(cTechChurchGardeImperial1, 50, gChurchUnit, cEconomyEscrowID);
 		researchCheck(cTechChurchGardeImperial2, 50, gChurchUnit, cEconomyEscrowID);
@@ -420,7 +419,6 @@ void researchTech()
 		if (kbUnitCount(cMyID, cUnitTypeHalberdier, cUnitStateAlive) >= 12) researchCheck(cTechGuardHalberdiers, 50, cUnitTypeBlockhouse, cMilitaryEscrowID);
 		if (kbUnitCount(cMyID, cUnitTypeGrenadier, cUnitStateAlive) >= 8) researchCheck(cTechVeteranGrenadiers, 50, cUnitTypeArtilleryDepot, cMilitaryEscrowID);
 		if (kbUnitCount(cMyID, cUnitTypeGrenadier, cUnitStateAlive) >= 8) researchCheck(cTechRGPavlovGrenadiers, 50, cUnitTypeArtilleryDepot, cMilitaryEscrowID);
-		if (kbUnitCount(cMyID, cUnitTypexpHorseArtillery, cUnitStateAlive) >= 4) researchCheck(cTechHeavyHorseArtilleryNew, 50, cUnitTypeArtilleryDepot, cMilitaryEscrowID);
 		researchCheck(cTechChurchWesternization, 50, gChurchUnit, cEconomyEscrowID);
 		researchCheck(cTechChurchKalmucks, 50, gChurchUnit, cEconomyEscrowID);
 		researchCheck(cTechChurchBashkirPonies, 50, gChurchUnit, cEconomyEscrowID);
@@ -459,7 +457,7 @@ void researchTech()
 		if (kbUnitCount(cMyID, cUnitTypeFalconet, cUnitStateAlive) >= 4) researchCheck(cTechFieldGun, 50, cUnitTypeArtilleryDepot, cMilitaryEscrowID);
 		if (kbUnitCount(cMyID, cUnitTypeCulverin, cUnitStateAlive) >= 4) researchCheck(cTechGrapeShot, 50, cUnitTypeArtilleryDepot, cMilitaryEscrowID);
 		if (kbUnitCount(cMyID, cUnitTypeMortar, cUnitStateAlive) >= 4) researchCheck(cTechHowitzer, 50, cUnitTypeArtilleryDepot, cMilitaryEscrowID);
-		if (kbUnitCount(cMyID, cUnitTypexpHorseArtillery, cUnitStateAlive) >= 4) researchCheck(cTechHeavyHorseArtillery, 50, cUnitTypeArtilleryDepot, cMilitaryEscrowID);
+		if (kbUnitCount(cMyID, cUnitTypexpHorseArtillery, cUnitStateAlive) >= 4) researchCheck(cTechHeavyHorseArtillery, 50, cUnitTypeFactory, cMilitaryEscrowID);
 		if (gFactoryNum > 0) researchCheck(cTechFactoryCannery, 50, cUnitTypeFactory, cMilitaryEscrowID);
 		if (gFactoryNum > 0) researchCheck(cTechFactoryWaterPower, 50, cUnitTypeFactory, cMilitaryEscrowID);
 		if (gFactoryNum > 0) researchCheck(cTechFactorySteamPower, 50, cUnitTypeFactory, cMilitaryEscrowID);
@@ -600,7 +598,6 @@ void researchTech()
 		if (kbUnitCount(cMyID, cUnitTypeFalconet, cUnitStateAlive) >= 4) researchCheck(cTechImperialFieldGunUS, 50, cUnitTypeArtilleryDepot, cMilitaryEscrowID);
 		if (kbUnitCount(cMyID, cUnitTypeCulverin, cUnitStateAlive) >= 4) researchCheck(cTechImperialCulverinUS, 50, cUnitTypeArtilleryDepot, cMilitaryEscrowID);
 		if (kbUnitCount(cMyID, cUnitTypeMortar, cUnitStateAlive) >= 4) researchCheck(cTechImperialHowitzerUS, 50, cUnitTypeArtilleryDepot, cMilitaryEscrowID);
-		if (kbUnitCount(cMyID, cUnitTypexpHorseArtillery, cUnitStateAlive) >= 4) researchCheck(cTechImperialHorseArtilleryUS, 50, cUnitTypeArtilleryDepot, cMilitaryEscrowID);
 		
 		researchCheck(cTechImpExcessiveTaxationD2, 50, cUnitTypeBank, cEconomyEscrowID);
 		if (kbUnitCount(cMyID, cUnitTypeStrelet, cUnitStateAlive) >= 12) researchCheck(cTechImperialStrelets, 50, cUnitTypeBlockhouse, cMilitaryEscrowID);
@@ -611,7 +608,6 @@ void researchTech()
 		if (kbUnitCount(cMyID, cUnitTypeOprichnik, cUnitStateAlive) >= 8) researchCheck(cTechImperialOprichniks, 50, cUnitTypeStable, cMilitaryEscrowID);
 		if (kbUnitCount(cMyID, cUnitTypeCavalryArcher, cUnitStateAlive) >= 8) researchCheck(cTechImperialTartarLoyalist, 50, cUnitTypeStable, cMilitaryEscrowID);
 		if (kbUnitCount(cMyID, cUnitTypeGrenadier, cUnitStateAlive) >= 8) researchCheck(cTechImperialPavlovs, 50, cUnitTypeArtilleryDepot, cMilitaryEscrowID);
-		if (kbUnitCount(cMyID, cUnitTypexpHorseArtillery, cUnitStateAlive) >= 4) researchCheck(cTechImperialHorseArtilleryNew, 50, cUnitTypeArtilleryDepot, cMilitaryEscrowID);
 		if (gFactoryNum > 0) researchCheck(cTechImperialGreatCannon, 50, cUnitTypeFactory, cMilitaryEscrowID);
 		if (kbUnitCount(cMyID, cUnitTypeCrossbowman, cUnitStateAlive) >= 12) researchCheck(cTechImperialCrossbowmen, 50, cUnitTypeBarracks, cMilitaryEscrowID);
 		if (kbUnitCount(cMyID, cUnitTypePikeman, cUnitStateAlive) >= 12) researchCheck(cTechImperialPikemen, 50, cUnitTypeBarracks, cMilitaryEscrowID);
@@ -638,7 +634,7 @@ void researchTech()
 		if (kbUnitCount(cMyID, cUnitTypeFalconet, cUnitStateAlive) >= 4) researchCheck(cTechImperialFieldGun, 50, cUnitTypeArtilleryDepot, cMilitaryEscrowID);
 		if (kbUnitCount(cMyID, cUnitTypeCulverin, cUnitStateAlive) >= 4) researchCheck(cTechImperialCulverin, 50, cUnitTypeArtilleryDepot, cMilitaryEscrowID);
 		if (kbUnitCount(cMyID, cUnitTypeMortar, cUnitStateAlive) >= 4) researchCheck(cTechImperialHowitzer, 50, cUnitTypeArtilleryDepot, cMilitaryEscrowID);
-		if (kbUnitCount(cMyID, cUnitTypexpHorseArtillery, cUnitStateAlive) >= 4) researchCheck(cTechImperialHorseArtillery, 50, cUnitTypeArtilleryDepot, cMilitaryEscrowID);
+		if (kbUnitCount(cMyID, cUnitTypexpHorseArtillery, cUnitStateAlive) >= 4) researchCheck(cTechImperialHorseArtillery, 50, cUnitTypeFactory, cMilitaryEscrowID);
 		if (kbUnitCount(cMyID, cUnitTypeAbstractNativeWarrior, cUnitStateAlive) > 10) researchCheck(cTechImpLegendaryNatives, 50, gTownCenter, cMilitaryEscrowID);
 		if (gFactoryNum > 0) researchCheck(cTechImperialBombard, 50, cUnitTypeFactory, cMilitaryEscrowID);
 		if (kbUnitCount(cMyID, cUnitTypexpAenna, cUnitStateAlive) >= 12) researchCheck(cTechImpLegendaryAennas, 50, cUnitTypeWarHut, cMilitaryEscrowID);

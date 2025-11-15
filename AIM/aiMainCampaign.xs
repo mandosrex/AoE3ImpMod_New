@@ -4447,26 +4447,30 @@ int initGatherGoal()
       kbSetAICostWeight(cResourceGold, aiPlanGetVariableFloat(planID, cGatherGoalPlanResourceCostWeight, cResourceGold));
       
       //Set initial gatherer percentages.
-      aiSetResourceGathererPercentage(cResourceFood, 0.8, false, cRGPScript);    
-      aiSetResourceGathererPercentage(cResourceWood, 0.2, false, cRGPScript);    
-      aiSetResourceGathererPercentage(cResourceGold, 0.0, false, cRGPScript);  
+      aiSetResourceGathererPercentage(cResourceFood, 0.5, false, cRGPScript);    
+      aiSetResourceGathererPercentage(cResourceWood, 0.4, false, cRGPScript);    
+      aiSetResourceGathererPercentage(cResourceGold, 0.1, false, cRGPScript);  
       
 /*
 if (kbGetCiv() == cCivFrench)
       {  // Need coureurs (wood) early.
-         aiSetResourceGathererPercentage(cResourceWood, 0.6, false, cRGPScript);    
+         aiSetResourceGathererPercentage(cResourceWood, 0.5, false, cRGPScript);    
          aiSetResourceGathererPercentage(cResourceFood, 0.4, false, cRGPScript);
+         aiSetResourceGathererPercentage(cResourceGold, 0.1, false, cRGPScript);
       }
 */
+
       if (kbGetCiv() == cCivDutch)
       {  // Need bank (wood/food) early.
-         aiSetResourceGathererPercentage(cResourceWood, 0.6, false, cRGPScript);    
+         aiSetResourceGathererPercentage(cResourceWood, 0.5, false, cRGPScript);    
          aiSetResourceGathererPercentage(cResourceFood, 0.4, false, cRGPScript);
+         aiSetResourceGathererPercentage(cResourceGold, 0.1, false, cRGPScript);
       }
       if ( (kbGetCiv() == cCivBritish) || (kbGetCiv() == cCivPirate) || (kbGetCiv() == cCivSPCCompany))
       {  // Need extra wood
          aiSetResourceGathererPercentage(cResourceWood, 0.4, false, cRGPScript);    
-         aiSetResourceGathererPercentage(cResourceFood, 0.6, false, cRGPScript);
+         aiSetResourceGathererPercentage(cResourceFood, 0.5, false, cRGPScript);
+         aiSetResourceGathererPercentage(cResourceGold, 0.1, false, cRGPScript);
       }  
       aiNormalizeResourceGathererPercentages(cRGPScript);
 
