@@ -30,7 +30,6 @@ void main(void)
    //Map Lighting
    rmSetLightingSet("yucatan");
 
-	//rmSetWindMagnitude(3);
 	rmSetWindMagnitude(2);
 
    // Picks a default water height

@@ -71,7 +71,7 @@ if (seasonPick == 1){
        	rmTerrainInitialize("snow");
 		rmSetLightingSet("rockies");
 	   rmSetGlobalSnow( 1.0 );
-	rmSetWindMagnitude(12.0);
+	rmSetWindMagnitude(2.0);
 	treeType = "TreeGreatLakesSnow";
 
 }else{

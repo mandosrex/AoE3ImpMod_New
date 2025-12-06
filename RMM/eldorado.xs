@@ -309,7 +309,7 @@ void main(void)
   
 	int TCID = rmCreateObjectDef("player TC");
 	if (rmGetNomadStart()) {
-			rmAddObjectDefItem(TCID, "CoveredWagon", 1, 0.0);
+		rmAddObjectDefItem(TCID, "CoveredWagon", 1, 0.0);
   }
 	else {
 		rmAddObjectDefItem(TCID, "TownCenter", 1, 0.0);
@@ -381,9 +381,9 @@ void main(void)
     rmPlaceObjectDefAtLoc(playerTreeID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 //    rmPlaceObjectDefAtLoc(playerCrateID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
     rmPlaceObjectDefAtLoc(playerBerryID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
+    rmPlaceObjectDefAtLoc(playerNuggetID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 
     rmSetNuggetDifficulty(1, 1);
-    rmPlaceObjectDefAtLoc(playerNuggetID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
     
     // Japanese
     if(ypIsAsian(i) && rmGetNomadStart() == false)
@@ -596,8 +596,8 @@ void main(void)
 
 
   int herdID=rmCreateObjectDef("water buffalo");
-  rmAddObjectDefItem(herdID, "xpSkullKnight", 3, 2.5);
-        rmAddObjectDefItem(herdID, "crateOfCoin", 1, 4.0);
+  rmAddObjectDefItem(herdID, "NatHolcanSpearman", 2, 2.5);
+        rmAddObjectDefItem(herdID, "NatJaguarWarrior", 1, 4.0);
   rmSetObjectDefMinDistance(herdID, 0.0);
   rmSetObjectDefMaxDistance(herdID, rmXFractionToMeters(0.225));
   rmAddObjectDefConstraint(herdID, avoidHerdables);

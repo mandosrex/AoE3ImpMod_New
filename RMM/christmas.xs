@@ -32,7 +32,7 @@ void main(void)
 	rmSetSeaLevel(-10.0);          
 	rmSetSeaType("North Pole");
 	rmSetOceanReveal(true);
-	rmSetWindMagnitude(5.0);
+	rmSetWindMagnitude(3.0);
 	rmSetMapType("Yukon");
 	rmSetMapType("grass");
 	rmSetMapType("water");

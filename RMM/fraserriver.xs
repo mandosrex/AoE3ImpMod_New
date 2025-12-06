@@ -61,7 +61,7 @@ void main(void)
 	rmSetGlobalSnow(0.75);  
 	
 	// Make it windy
-	rmSetWindMagnitude(5.0);
+	rmSetWindMagnitude(2.0);
 	
 	// Text
 	rmSetStatusText("",0.10);

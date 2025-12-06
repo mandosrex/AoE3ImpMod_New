@@ -420,7 +420,7 @@ void main(void)
    rmAddTradeRouteWaypoint(tradeRouteID6, 0.89, 0.25);
    rmAddTradeRouteWaypoint(tradeRouteID6, 0.86, 0.13);
    rmAddTradeRouteWaypoint(tradeRouteID6, 0.83, 0.0);
-   rmBuildTradeRoute(tradeRouteID6, "carolinas\trade_route");	
+   rmBuildTradeRoute(tradeRouteID6, "water");	
 
    int tradeRouteID6A = rmCreateTradeRoute();
    rmAddTradeRouteWaypoint(tradeRouteID6A, 0.17, 0.0);
@@ -430,7 +430,7 @@ void main(void)
    rmAddTradeRouteWaypoint(tradeRouteID6A, 0.11, 0.75);
    rmAddTradeRouteWaypoint(tradeRouteID6A, 0.15, 0.87);
    rmAddTradeRouteWaypoint(tradeRouteID6A, 0.17, 1.0);
-   rmBuildTradeRoute(tradeRouteID6A, "dirt");
+   rmBuildTradeRoute(tradeRouteID6A, "water");
 
 // Text
    rmSetStatusText("",0.35);

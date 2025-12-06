@@ -29,6 +29,11 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Crossbowman</Target>
 			</Effect>
+			<Effect status="obtainable" type="TechStatus">BourbonBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">HohenzollernBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">WittelsbachBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">MilitaryAlliance</Effect>
+			<Effect status="obtainable" type="TechStatus">ReformistAlliance</Effect>
 			<Effect status="obtainable" type="TechStatus">VeteranCrossbowmen</Effect>
 			<Effect status="obtainable" type="TechStatus">GuardCrossbowmen</Effect>
 			<Effect status="obtainable" type="TechStatus">ImperialCrossbowmen</Effect>
@@ -43,9 +48,6 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Surgeon</Target>
 			</Effect>
-			<Effect status="obtainable" type="TechStatus">EconomicAlliance</Effect>
-			<Effect status="obtainable" type="TechStatus">MilitaryAlliance</Effect>
-			<Effect status="obtainable" type="TechStatus">ypConsulateFrenchBrigadeFame</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Capitol</Target>
 			</Effect>
@@ -53,15 +55,6 @@
 				<Target type="ProtoUnit">NativeScout</Target>
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">SelectiveBreeding</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyFrench11</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyFrench33</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyFrench22</Target>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">GuardPikemen</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">SPCTent</Target>
@@ -343,9 +336,11 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Surgeon</Target>
 			</Effect>
+			<Effect status="obtainable" type="TechStatus">RomanovBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">HohenzollernBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">JagiellonBrigadeFame</Effect>
 			<Effect status="obtainable" type="TechStatus">EconomicAlliance</Effect>
 			<Effect status="obtainable" type="TechStatus">MilitaryAlliance</Effect>
-			<Effect status="obtainable" type="TechStatus">ypConsulateRussianBrigadeFame</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Capitol</Target>
 			</Effect>
@@ -357,15 +352,6 @@
 				<Target type="ProtoUnit">Grenadier</Target>
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">SelectiveBreeding</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyRussian11</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyRussian33</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyRussian22</Target>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">SPCTent</Target>
 			</Effect>
@@ -611,22 +597,15 @@
 			<Effect status="active" type="TechStatus">DefaultLongbowmen</Effect>
 			<Effect status="obtainable" type="TechStatus">EnableLongbowmen</Effect>
 			<Effect status="obtainable" type="TechStatus">EnableGreenJackets</Effect>
-			<Effect status="obtainable" type="TechStatus">EconomicAlliance</Effect>
-			<Effect status="obtainable" type="TechStatus">MilitaryAlliance</Effect>
-			<Effect status="obtainable" type="TechStatus">ypConsulateBritishBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">ReligiousAlliance</Effect>
+			<Effect status="obtainable" type="TechStatus">ReformistAlliance</Effect>
+			<Effect status="obtainable" type="TechStatus">StewartBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">OldenburgBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">HabsburgBrigadeFame</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Capitol</Target>
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">SelectiveBreeding</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyBritish11</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyBritish33</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyBritish22</Target>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Envoy</Target>
 			</Effect>
@@ -825,9 +804,11 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Surgeon</Target>
 			</Effect>
-			<Effect status="obtainable" type="TechStatus">EconomicAlliance</Effect>
-			<Effect status="obtainable" type="TechStatus">MilitaryAlliance</Effect>
-			<Effect status="obtainable" type="TechStatus">ypConsulateDutchBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">StewartBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">WittelsbachBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">OldenburgBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">ReligiousAlliance</Effect>
+			<Effect status="obtainable" type="TechStatus">ReformistAlliance</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Bank</Target>
 			</Effect>
@@ -838,15 +819,6 @@
 				<Target type="ProtoUnit">Envoy</Target>
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">SelectiveBreeding</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyDutch11</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyDutch33</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyDutch22</Target>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">VeteranSchutze</Effect>
 			<Effect status="obtainable" type="TechStatus">ImperialSkirmishers</Effect>
 			<Effect status="obtainable" type="TechStatus">GuardSkirmishers</Effect>
@@ -1041,22 +1013,15 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Surgeon</Target>
 			</Effect>
+			<Effect status="obtainable" type="TechStatus">HabsburgBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">HohenzollernBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">WittelsbachBrigadeFame</Effect>
 			<Effect status="obtainable" type="TechStatus">EconomicAlliance</Effect>
-			<Effect status="obtainable" type="TechStatus">MilitaryAlliance</Effect>
-			<Effect status="obtainable" type="TechStatus">ypConsulateGermansBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">ReligiousAlliance</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Capitol</Target>
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">SelectiveBreeding</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyGerman11</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyGerman33</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyGerman22</Target>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">GuardCrossbowmen</Effect>
 			<Effect status="obtainable" type="TechStatus">GuardPikemen</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -1237,22 +1202,15 @@
 				<Target type="ProtoUnit">Surgeon</Target>
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">SpyglassEnableShadow</Effect>
-			<Effect status="obtainable" type="TechStatus">EconomicAlliance</Effect>
+			<Effect status="obtainable" type="TechStatus">TrastamaraBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">SavoyBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">PapalBrigadeFame</Effect>
 			<Effect status="obtainable" type="TechStatus">MilitaryAlliance</Effect>
-			<Effect status="obtainable" type="TechStatus">ypConsulatePortugueseBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">ReligiousAlliance</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Capitol</Target>
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">SelectiveBreeding</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyPortuguese11</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyPortuguese33</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyPortuguese22</Target>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Envoy</Target>
 			</Effect>
@@ -1455,9 +1413,6 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Surgeon</Target>
 			</Effect>
-			<Effect status="obtainable" type="TechStatus">EconomicAlliance</Effect>
-			<Effect status="obtainable" type="TechStatus">MilitaryAlliance</Effect>
-			<Effect status="obtainable" type="TechStatus">ypConsulateOttomansBrigadeFame</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Hussar</Target>
 			</Effect>
@@ -1465,15 +1420,6 @@
 			<Effect status="obtainable" type="TechStatus">SelectiveBreeding</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Arsenal</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyOttoman11</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyOttoman33</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyOttoman22</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Envoy</Target>
@@ -1669,9 +1615,11 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Surgeon</Target>
 			</Effect>
-			<Effect status="obtainable" type="TechStatus">EconomicAlliance</Effect>
 			<Effect status="obtainable" type="TechStatus">MilitaryAlliance</Effect>
-			<Effect status="obtainable" type="TechStatus">ypConsulateSpanishBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">ReligiousAlliance</Effect>
+			<Effect status="obtainable" type="TechStatus">PapalBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">TrastamaraBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">BourbonBrigadeFame</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Capitol</Target>
 			</Effect>
@@ -1679,15 +1627,6 @@
 				<Target type="ProtoUnit">ExplorerDog</Target>
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">SelectiveBreeding</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmySpanish11</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmySpanish33</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmySpanish22</Target>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">GuardCrossbowmen</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">SPCTent</Target>
@@ -2817,7 +2756,6 @@
 				<Target type="ProtoUnit">WallConnector</Target>
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">Redoubt</Effect>
-			<Effect status="obtainable" type="TechStatus">ypConsulateUSABrigadeFame</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Saloon</Target>
 			</Effect>
@@ -8877,6 +8815,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect newRolloverTextID="68748" tech="YPHCSmoothRelations" type="SetTechName"/>
 			<Effect action="HerdingAttack" amount="0.00" relativity="Assign" subtype="WorkRate" type="Data" unittype="Herdable">
 				<Target type="ProtoUnit">AbstractVillager</Target>
 			</Effect>
@@ -20060,40 +19999,40 @@
 		<Flag>CivSpecificText</Flag>
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="Hussar">
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ypSaloonWokouPirate" type="Data" unittype="ypWokouPirate">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Russian" type="Data" unittype="Cossack">
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ypSaloonBlindMonk" type="Data" unittype="ypWokouBlindMonk">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0British" type="Data" unittype="Hussar">
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ypSaloonWaywardRonin" type="Data" unittype="ypWokouWaywardRonin">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Dutch" type="Data" unittype="Hussar">
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ypSaloonWanderingHorseman" type="Data" unittype="ypWokouWanderingHorseman">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0German" type="Data" unittype="Uhlan">
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ypSaloonDacoit" type="Data" unittype="ypDacoit">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Portuguese" type="Data" unittype="Hussar">
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ypSaloonThuggee" type="Data" unittype="ypThuggee">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Ottoman" type="Data" unittype="Hussar">
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="SaloonTechOutlawRifleman" type="Data" unittype="SaloonOutlawRifleman">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Spanish" type="Data" unittype="Lancer">
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="SaloonTechOutlawPistol" type="Data" unittype="SaloonOutlawPistol">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Italians" type="Data" unittype="Hussar">
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="SaloonTechOutlawRider" type="Data" unittype="SaloonOutlawRider">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Maltese" type="Data" unittype="Hussar">
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="SaloonTechPirate" type="Data" unittype="SaloonPirate">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Swedish" type="Data" unittype="Hussar">
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="SaloonCorsair" type="Data" unittype="MercBarbaryCorsair">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0USA" type="Data" unittype="Saber">
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="SaloonTechPiratePistol" type="Data" unittype="SaloonPiratePistol">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="SetAge">Age2</Effect>
@@ -38630,7 +38569,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">MercHoopThrowers</Target>
+				<Target type="ProtoUnit">MercBarbaryCorsair</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -57696,6 +57635,7 @@
 		<Flag>ypConsulateImprovementImperial</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
+			<TechStatus status="Active">YPHCSmoothRelations</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect amount="16.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypConsulateRogersRanger">
@@ -57727,6 +57667,7 @@
 		<Flag>YPCheckPopCap</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
+			<TechStatus status="Active">YPHCSmoothRelations</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect amount="15.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypConsulatePrussianNeedleGun">
@@ -57758,6 +57699,7 @@
 		<Flag>ypConsulateImprovementImperial</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
+			<TechStatus status="Active">YPHCSmoothRelations</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypConsulateCulverin">
@@ -57789,6 +57731,7 @@
 		<Flag>YPCheckPopCap</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
+			<TechStatus status="Active">YPHCSmoothRelations</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect amount="15.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypConsulateGendarmes">
@@ -57817,6 +57760,7 @@
 		<Flag>ypConsulateImprovementImperial</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
+			<TechStatus status="Active">YPHCSmoothRelations</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect amount="28.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypConsulateStadhouders">
@@ -57848,6 +57792,7 @@
 		<Flag>YPCheckPopCap</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
+			<TechStatus status="Active">YPHCSmoothRelations</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect amount="17.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypConsulateEspadachins">
@@ -57879,6 +57824,7 @@
 		<Flag>ypConsulateImprovementImperial</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
+			<TechStatus status="Active">YPHCSmoothRelations</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypConsulateCulverin2">
@@ -57910,6 +57856,7 @@
 		<Flag>YPCheckPopCap</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
+			<TechStatus status="Active">YPHCSmoothRelations</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect amount="13.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypConsulateTufanciCorps">
@@ -59121,9 +59068,6 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type="TextOutput">69900</Effect>
-			<Effect amount="300.00" relativity="Absolute" resource="Trade" subtype="Resource" type="Data">
-				<Target type="Player"/>
-			</Effect>
 			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
 				<Target type="Tech">ypBigConsulateBritish</Target>
 			</Effect>
@@ -59164,15 +59108,6 @@
 				<Target type="Tech">ypBigConsulateSPCPortuguese</Target>
 			</Effect>
 			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
-				<Target type="Tech">ypBigConsulateSPCChina</Target>
-			</Effect>
-			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
-				<Target type="Tech">ypBigConsulateSPCIndia</Target>
-			</Effect>
-			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
-				<Target type="Tech">ypBigConsulateSPCJapan</Target>
-			</Effect>
-			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
 				<Target type="Tech">ypBigSequesterBritish</Target>
 			</Effect>
 			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
@@ -59211,6 +59146,35 @@
 			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
 				<Target type="Tech">ypBigSequesterSPCPortuguese</Target>
 			</Effect>
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ypFreeIndianSepoy" type="Data" unittype="ypSepoy">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ypFreeIndianVillager" type="Data" unittype="ypSettlerIndian">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="YPHCSmoothRelationsIndians" type="Normal">
+		<DBID>2432</DBID>
+		<DisplayNameID>68744</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\asians\Diplomatic_Intrigue</Icon>
+		<RolloverTextID>68743</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
+		<Effects>
+			<Effect type="TextOutput">69901</Effect>
+			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
+				<Target type="Tech">ypBigConsulateSPCChina</Target>
+			</Effect>
+			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
+				<Target type="Tech">ypBigConsulateSPCIndia</Target>
+			</Effect>
+			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
+				<Target type="Tech">ypBigConsulateSPCJapan</Target>
+			</Effect>
 			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
 				<Target type="Tech">ypBigSequesterSPCChina</Target>
 			</Effect>
@@ -59219,62 +59183,6 @@
 			</Effect>
 			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
 				<Target type="Tech">ypBigSequesterSPCJapan</Target>
-			</Effect>
-		</Effects>
-	</Tech>
-	<Tech name="YPHCSmoothRelationsIndians" type="Normal">
-		<DBID>2432</DBID>
-		<DisplayNameID>68749</DisplayNameID>
-		<Cost resourcetype="Ships">1.0000</Cost>
-		<ResearchPoints>40.0000</ResearchPoints>
-		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\asians\Diplomatic_Intrigue</Icon>
-		<RolloverTextID>68748</RolloverTextID>
-		<Flag>HomeCity</Flag>
-		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
-		<Effects>
-			<Effect type="TextOutput">69901</Effect>
-			<Effect amount="300.00" relativity="Absolute" resource="Trade" subtype="Resource" type="Data">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
-				<Target type="Tech">ypBigConsulateBritish</Target>
-			</Effect>
-			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
-				<Target type="Tech">ypBigConsulateDutch</Target>
-			</Effect>
-			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
-				<Target type="Tech">ypBigConsulateSpanish</Target>
-			</Effect>
-			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
-				<Target type="Tech">ypBigConsulateRussians</Target>
-			</Effect>
-			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
-				<Target type="Tech">ypBigConsulatePortuguese</Target>
-			</Effect>
-			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
-				<Target type="Tech">ypBigConsulateJapanese</Target>
-			</Effect>
-			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
-				<Target type="Tech">ypBigConsulateOttomans</Target>
-			</Effect>
-			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
-				<Target type="Tech">ypBigConsulateGermans</Target>
-			</Effect>
-			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
-				<Target type="Tech">ypBigConsulateFrench</Target>
-			</Effect>
-			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
-				<Target type="Tech">ypBigSequesterSPCChina</Target>
-			</Effect>
-			<Effect amount="0.25" relativity="Percent" resource="Trade" subtype="Cost" type="Data">
-				<Target type="Tech">ypBigSequesterSPCIndia</Target>
-			</Effect>
-			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ypFreeIndianSepoy" type="Data" unittype="ypSepoy">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ypFreeIndianVillager" type="Data" unittype="ypSettlerIndian">
-				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -59883,6 +59791,9 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type="TextOutput">69883</Effect>
+			<Effect amount="300.00" relativity="Absolute" resource="Trade" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ypConsulateRelationsPortuguese" type="Normal">
@@ -59917,6 +59828,9 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ypFreeIndianSepoy" type="Data" unittype="ypSepoy">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="300.00" relativity="Absolute" resource="Trade" subtype="Resource" type="Data">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -63887,6 +63801,7 @@
 		<Flag>ypConsulateImprovementImperial</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
+			<TechStatus status="Active">YPHCSmoothRelations</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect amount="6.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="xpGatlingGunJ">
@@ -64047,7 +63962,7 @@
 		<Cost resourcetype="Fame">500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\militaryalliance</Icon>
+		<Icon>ui\techs\church_orthodox</Icon>
 		<RolloverTextID>780954</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>UniqueTech</Flag>
@@ -64055,7 +63970,6 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect status="unobtainable" type="TechStatus">MilitaryAlliance</Effect>
 			<Effect amount="5.00" relativity="Absolute" subtype="BuildLimit" type="Data">
 				<Target type="ProtoUnit">Settler</Target>
 			</Effect>
@@ -64077,42 +63991,9 @@
 			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="WagonBuildings">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0British" type="Data" unittype="Settler">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0German" type="Data" unittype="Settler">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Russian" type="Data" unittype="Settler">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="Coureur">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Dutch" type="Data" unittype="SettlerDutch">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Spanish" type="Data" unittype="Settler">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Portuguese" type="Data" unittype="Settler">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Ottoman" type="Data" unittype="SettlerOttoman">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Italians" type="Data" unittype="Settler">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Swedish" type="Data" unittype="Settler">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0USA" type="Data" unittype="SettlerAmerican">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Maltese" type="Data" unittype="Settler">
-				<Target type="Player"/>
-			</Effect>
+			<Effect status="unobtainable" type="TechStatus">MilitaryAlliance</Effect>
+			<Effect status="unobtainable" type="TechStatus">ReligiousAlliance</Effect>
+			<Effect status="unobtainable" type="TechStatus">ReformistAlliance</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="MilitaryAlliance" type="Normal">
@@ -64121,7 +64002,7 @@
 		<Cost resourcetype="Fame">500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\economicalliance</Icon>
+		<Icon>ui\techs\church_catholic</Icon>
 		<RolloverTextID>780955</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UniqueTech</Flag>
@@ -64129,290 +64010,232 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="CoveredWagon">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="OutpostWagon">
+				<Target type="Player"/>
+			</Effect>
 			<Effect status="unobtainable" type="TechStatus">EconomicAlliance</Effect>
-			<Effect amount="16.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0British" type="Data" unittype="Musketeer">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="19.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0German" type="Data" unittype="Uhlan">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="18.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Russian" type="Data" unittype="Cossack">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="15.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="Cuirassier">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="18.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Dutch" type="Data" unittype="Schutze">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="17.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Spanish" type="Data" unittype="Rodelero">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="11.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Portuguese" type="Data" unittype="Dragoon">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="13.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Ottoman" type="Data" unittype="Janissary">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="14.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0USA" type="Data" unittype="Marine">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="10.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Italians" type="Data" unittype="ypRepentantElmeti">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="12.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Swedish" type="Data" unittype="Handgonne">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="15.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0Maltese" type="Data" unittype="Cavalaria">
-				<Target type="Player"/>
-			</Effect>
+			<Effect status="unobtainable" type="TechStatus">ReligiousAlliance</Effect>
+			<Effect status="unobtainable" type="TechStatus">ReformistAlliance</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="ypConsulateBritishBrigadeFame" type="Normal">
+	<Tech name="BourbonBrigadeFame" type="Normal">
 		<DBID>2612</DBID>
-		<DisplayNameID>66600</DisplayNameID>
+		<DisplayNameID>782044</DisplayNameID>
 		<Cost resourcetype="Fame">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\asians\consulate\british_brigade_icon_64</Icon>
-		<RolloverTextID>66601</RolloverTextID>
+		<Icon>ui\techs\houses\house_of_bourbon</Icon>
+		<RolloverTextID>782056</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>YPCheckPopCap</Flag>
 		<Prereqs>
-			<TechStatus status="Active">MilitaryAlliance</TechStatus>
-			<TechStatus status="Active">Age0British</TechStatus>
+			<TechStatus status="Active">Imperialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect amount="16.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Musketeer">
+			<Effect amount="10.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MercSwissPikeman">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Falconet">
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="FlagBearer">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="FlagBearerB">
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="DrummerEu">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="ypConsulateGermansBrigadeFame" type="Normal">
+	<Tech name="HabsburgBrigadeFame" type="Normal">
 		<DBID>2613</DBID>
-		<DisplayNameID>66603</DisplayNameID>
+		<DisplayNameID>782045</DisplayNameID>
 		<Cost resourcetype="Fame">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\asians\consulate\germany_brigade</Icon>
-		<RolloverTextID>66602</RolloverTextID>
+		<Icon>ui\techs\houses\house_of_habsburg</Icon>
+		<RolloverTextID>782057</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>YPCheckPopCap</Flag>
 		<Prereqs>
-			<TechStatus status="Active">MilitaryAlliance</TechStatus>
-			<TechStatus status="Active">Age0German</TechStatus>
+			<TechStatus status="Active">Imperialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect amount="15.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Skirmisher">
+			<Effect amount="7.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MercJaeger">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="19.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Uhlan">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="FlagBearerG">
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerWagon">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="ypConsulateRussianBrigadeFame" type="Normal">
+	<Tech name="RomanovBrigadeFame" type="Normal">
 		<DBID>2614</DBID>
-		<DisplayNameID>66605</DisplayNameID>
+		<DisplayNameID>782053</DisplayNameID>
 		<Cost resourcetype="Fame">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\asians\consulate\rus_brigade_icon_64</Icon>
-		<RolloverTextID>66604</RolloverTextID>
+		<Icon>ui\techs\houses\house_of_romanov</Icon>
+		<RolloverTextID>782065</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>YPCheckPopCap</Flag>
 		<Prereqs>
-			<TechStatus status="Active">MilitaryAlliance</TechStatus>
-			<TechStatus status="Active">Age0Russian</TechStatus>
+			<TechStatus status="Active">Imperialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Culverin">
+			<Effect amount="7.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Axeman">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="18.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Cossack">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="FlagBearerR">
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="WagonBuildings2">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="ypConsulateFrenchBrigadeFame" type="Normal">
+	<Tech name="TrastamaraBrigadeFame" type="Normal">
 		<DBID>2615</DBID>
-		<DisplayNameID>66607</DisplayNameID>
+		<DisplayNameID>782052</DisplayNameID>
 		<Cost resourcetype="Fame">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\french_2</Icon>
-		<RolloverTextID>66606</RolloverTextID>
+		<Icon>ui\techs\houses\house_of_trastamara</Icon>
+		<RolloverTextID>782064</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>YPCheckPopCap</Flag>
 		<Prereqs>
-			<TechStatus status="Active">MilitaryAlliance</TechStatus>
-			<TechStatus status="Active">Age0French</TechStatus>
+			<TechStatus status="Active">Imperialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect amount="15.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Cuirassier">
+			<Effect amount="7.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MercHoopThrowers">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="FlagBearerF">
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="WagonDock">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="ypConsulateDutchBrigadeFame" type="Normal">
+	<Tech name="SavoyBrigadeFame" type="Normal">
 		<DBID>2616</DBID>
-		<DisplayNameID>66609</DisplayNameID>
+		<DisplayNameID>782049</DisplayNameID>
 		<Cost resourcetype="Fame">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\asians\consulate\dutch_brigade</Icon>
-		<RolloverTextID>66608</RolloverTextID>
+		<Icon>ui\techs\houses\house_of_savoy</Icon>
+		<RolloverTextID>782061</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>YPCheckPopCap</Flag>
 		<Prereqs>
-			<TechStatus status="Active">MilitaryAlliance</TechStatus>
-			<TechStatus status="Active">Age0Dutch</TechStatus>
+			<TechStatus status="Active">Imperialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect amount="28.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Schutze">
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MercElmeti">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Mortar">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="FlagBearerD">
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="WagonBuildings">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="ypConsulateSpanishBrigadeFame" type="Normal">
+	<Tech name="OldenburgBrigadeFame" type="Normal">
 		<DBID>2617</DBID>
-		<DisplayNameID>66611</DisplayNameID>
+		<DisplayNameID>782048</DisplayNameID>
 		<Cost resourcetype="Fame">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\asians\consulate\spanish_brigade</Icon>
-		<RolloverTextID>66610</RolloverTextID>
+		<Icon>ui\techs\houses\house_of_oldenburg</Icon>
+		<RolloverTextID>782060</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>YPCheckPopCap</Flag>
 		<Prereqs>
-			<TechStatus status="Active">MilitaryAlliance</TechStatus>
-			<TechStatus status="Active">Age0Spanish</TechStatus>
+			<TechStatus status="Active">Imperialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect amount="17.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Rodelero">
+			<Effect amount="8.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MercFusilier">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="15.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Lancer">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="FlagBearerS">
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Surgeon">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="ypConsulatePortugueseBrigadeFame" type="Normal">
+	<Tech name="StewartBrigadeFame" type="Normal">
 		<DBID>2618</DBID>
-		<DisplayNameID>66613</DisplayNameID>
+		<DisplayNameID>782046</DisplayNameID>
 		<Cost resourcetype="Fame">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\asians\consulate\por_brigade_icon_64</Icon>
-		<RolloverTextID>66612</RolloverTextID>
+		<Icon>ui\techs\houses\house_of_stewart</Icon>
+		<RolloverTextID>782058</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>YPCheckPopCap</Flag>
 		<Prereqs>
-			<TechStatus status="Active">MilitaryAlliance</TechStatus>
-			<TechStatus status="Active">Age0Portuguese</TechStatus>
+			<TechStatus status="Active">Imperialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="xpHorseArtillery">
+			<Effect amount="7.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MercHighlander">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="11.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Dragoon">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="FlagBearerP">
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="CommandWagon">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="ypConsulateOttomansBrigadeFame" type="Normal">
+	<Tech name="JagiellonBrigadeFame" type="Normal">
 		<DBID>2619</DBID>
-		<DisplayNameID>66615</DisplayNameID>
+		<DisplayNameID>782047</DisplayNameID>
 		<Cost resourcetype="Fame">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\asians\consulate\ottoman_brigade</Icon>
-		<RolloverTextID>66614</RolloverTextID>
+		<Icon>ui\techs\houses\house_of_jagiellon</Icon>
+		<RolloverTextID>782059</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>YPCheckPopCap</Flag>
 		<Prereqs>
-			<TechStatus status="Active">MilitaryAlliance</TechStatus>
-			<TechStatus status="Active">Age0Ottoman</TechStatus>
+			<TechStatus status="Active">Imperialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect amount="13.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Janissary">
+			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MercBlackRider">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="GreatBombard">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="FlagBearerO">
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="WagonPlantation">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="ypConsulateUSABrigadeFame" type="Normal">
+	<Tech name="HohenzollernBrigadeFame" type="Normal">
 		<DBID>2620</DBID>
-		<DisplayNameID>781216</DisplayNameID>
+		<DisplayNameID>782054</DisplayNameID>
 		<Cost resourcetype="Fame">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\armies\american_militia_guns</Icon>
-		<RolloverTextID>780911</RolloverTextID>
+		<Icon>ui\techs\houses\house_of_hohenzollern</Icon>
+		<RolloverTextID>782066</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>YPCheckPopCap</Flag>
 		<Prereqs>
-			<TechStatus status="Active">MilitaryAlliance</TechStatus>
-			<TechStatus status="Active">Age0USA</TechStatus>
+			<TechStatus status="Active">Imperialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect amount="6.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="USGatlingGun">
+			<Effect amount="8.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MercHajduk">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="14.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Marine">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="FlagBearerUS">
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="WagonMill">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -64517,6 +64340,7 @@
 		<Flag>ypConsulateImprovementImperial</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
+			<TechStatus status="Active">YPHCSmoothRelations</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypConsulateHorseArtillery2">
@@ -64594,9 +64418,8 @@
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">Redoubt</Effect>
 			<Effect status="obtainable" type="TechStatus">UnlockIronclad</Effect>
-			<Effect status="obtainable" type="TechStatus">ypConsulateUSABrigadeFame</Effect>
-			<Effect status="obtainable" type="TechStatus">EconomicAlliance</Effect>
-			<Effect status="obtainable" type="TechStatus">MilitaryAlliance</Effect>
+			<Effect status="obtainable" type="TechStatus">ReligiousAlliance</Effect>
+			<Effect status="obtainable" type="TechStatus">ReformistAlliance</Effect>
 			<Effect amount="0.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
 				<Target type="ProtoUnit">Surgeon</Target>
 			</Effect>
@@ -69257,17 +69080,29 @@
 			<Effect status="active" type="TechStatus">XPRevolution</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="SaloonCorsairO" type="Normal">
+	<Tech name="ReformistAlliance" type="Normal">
 		<DBID>2811</DBID>
-		<DisplayNameID>27311</DisplayNameID>
+		<DisplayNameID>782683</DisplayNameID>
+		<Cost resourcetype="Fame">500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\mercenaries\barbary_corsair\barbary_corsair_icon_64x64</Icon>
-		<Flag>Shadow</Flag>
+		<Icon>ui\techs\church_secular</Icon>
+		<RolloverTextID>782684</RolloverTextID>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>UniqueTech</Flag>
+		<Prereqs>
+			<TechStatus status="Active">Industrialize</TechStatus>
+		</Prereqs>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">MercBarbaryCorsair</Target>
+			<Effect amount="0.60" relativity="BasePercent" subtype="TrainPoints" type="Data">
+				<Target type="ProtoUnit">AbstractConsulateUnit</Target>
 			</Effect>
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="WagonBuildings2">
+				<Target type="Player"/>
+			</Effect>
+			<Effect status="unobtainable" type="TechStatus">EconomicAlliance</Effect>
+			<Effect status="unobtainable" type="TechStatus">MilitaryAlliance</Effect>
+			<Effect status="unobtainable" type="TechStatus">ReligiousAlliance</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCXPDanceHallSPC" type="Normal">
@@ -69459,32 +69294,26 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="HeavyHorseArtilleryUS" type="Normal">
+	<Tech name="ReligiousAlliance" type="Normal">
 		<DBID>2820</DBID>
-		<DisplayNameID>48898</DisplayNameID>
-		<Cost resourcetype="Food">300.0000</Cost>
-		<Cost resourcetype="Wood">300.0000</Cost>
+		<DisplayNameID>782681</DisplayNameID>
+		<Cost resourcetype="Fame">500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\imp\artillery2</Icon>
-		<RolloverTextID>48897</RolloverTextID>
-		<Flag>UpgradeTech</Flag>
-		<Flag>CountsTowardMilitaryScore</Flag>
-		<Flag>YPNeverObtainableAfterUse</Flag>
+		<Icon>ui\techs\church_protestant</Icon>
+		<RolloverTextID>782682</RolloverTextID>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>UniqueTech</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect allactions="1" amount="1.25" relativity="BasePercent" subtype="Damage" type="Data">
-				<Target type="ProtoUnit">xpHorseArtillery</Target>
-			</Effect>
-			<Effect amount="1.25" relativity="BasePercent" subtype="Hitpoints" type="Data">
-				<Target type="ProtoUnit">xpHorseArtillery</Target>
-			</Effect>
-			<Effect amount="0.00" relativity="Absolute" subtype="UpdateVisual" type="Data" unittype="xpHorseArtillery">
+			<Effect amount="50.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
-			<Effect culture="none" newName="48898" proto="xpHorseArtillery" type="SetName"/>
+			<Effect status="unobtainable" type="TechStatus">EconomicAlliance</Effect>
+			<Effect status="unobtainable" type="TechStatus">MilitaryAlliance</Effect>
+			<Effect status="unobtainable" type="TechStatus">ReformistAlliance</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="YPHonoredSohei" type="Normal">
@@ -70457,22 +70286,15 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Surgeon</Target>
 			</Effect>
-			<Effect status="obtainable" type="TechStatus">EconomicAlliance</Effect>
 			<Effect status="obtainable" type="TechStatus">MilitaryAlliance</Effect>
-			<Effect status="obtainable" type="TechStatus">ypConsulateItaliansBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">ReligiousAlliance</Effect>
+			<Effect status="obtainable" type="TechStatus">PapalBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">SavoyBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">BourbonBrigadeFame</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Capitol</Target>
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">SelectiveBreeding</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyItalians11</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyItalians33</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmyItalians22</Target>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Envoy</Target>
 			</Effect>
@@ -71054,28 +70876,26 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="ypConsulateItaliansBrigadeFame" type="Normal">
+	<Tech name="WittelsbachBrigadeFame" type="Normal">
 		<DBID>2876</DBID>
-		<DisplayNameID>781223</DisplayNameID>
+		<DisplayNameID>782051</DisplayNameID>
 		<Cost resourcetype="Fame">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\armies\italian_elmetis</Icon>
-		<RolloverTextID>781175</RolloverTextID>
+		<Icon>ui\techs\houses\house_of_wittelsbach</Icon>
+		<RolloverTextID>782063</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>YPCheckPopCap</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
-			<TechStatus status="Active">MilitaryAlliance</TechStatus>
-			<TechStatus status="Active">Age0Italians</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect amount="14.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypRepentantElmeti">
+			<Effect amount="6.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MercLandsknecht">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="FlagBearerIt">
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypBankWagon">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -71734,7 +71554,6 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">CapSwedishArmy33</Target>
 			</Effect>
-			<Effect status="obtainable" type="TechStatus">ypConsulateSwedishBrigadeFame</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">LumberCamp</Target>
 			</Effect>
@@ -71758,8 +71577,10 @@
 				<Target type="ProtoUnit">Surgeon</Target>
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">EconomicAlliance</Effect>
-			<Effect status="obtainable" type="TechStatus">MilitaryAlliance</Effect>
-			<Effect status="obtainable" type="TechStatus">ypConsulateGermansBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">ReligiousAlliance</Effect>
+			<Effect status="obtainable" type="TechStatus">RomanovBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">JagiellonBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">RomanovBrigadeFame</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Capitol</Target>
 			</Effect>
@@ -73341,6 +73162,12 @@
 				<Target type="Tech">EconomicAlliance</Target>
 			</Effect>
 			<Effect amount="250.00" relativity="Assign" resource="Fame" subtype="Cost" type="Data">
+				<Target type="Tech">ReligiousAlliance</Target>
+			</Effect>
+			<Effect amount="250.00" relativity="Assign" resource="Fame" subtype="Cost" type="Data">
+				<Target type="Tech">ReformistAlliance</Target>
+			</Effect>
+			<Effect amount="250.00" relativity="Assign" resource="Fame" subtype="Cost" type="Data">
 				<Target type="Tech">MilitaryAlliance</Target>
 			</Effect>
 			<Effect amount="500.00" relativity="Assign" resource="Fame" subtype="Cost" type="Data">
@@ -73538,34 +73365,26 @@
 			<Effect type="TextOutput">782387</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="ypConsulateSwedishBrigadeFame" type="Normal">
+	<Tech name="PapalBrigadeFame" type="Normal">
 		<DBID>2971</DBID>
-		<DisplayNameID>780989</DisplayNameID>
+		<DisplayNameID>782055</DisplayNameID>
 		<Cost resourcetype="Fame">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\armies\swedish_horse_sakers</Icon>
-		<RolloverTextID>780988</RolloverTextID>
+		<Icon>ui\techs\houses\house_of_papacy</Icon>
+		<RolloverTextID>782067</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>YPCheckPopCap</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
-			<TechStatus status="Active">MilitaryAlliance</TechStatus>
-			<TechStatus status="Active">Age0Swedish</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="xpHorseArtillery">
+			<Effect amount="9.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="PapalGuard">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="6.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Falconet">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="GeneralBr">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="FlagBearerSw">
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Inquisitor">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -74611,36 +74430,32 @@
 		<DBID>3025</DBID>
 		<DisplayNameID>781529</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
-		<Cost resourcetype="Gold">500.0000</Cost>
+		<Cost resourcetype="Gold">1500.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\boneguard</Icon>
+		<Icon>ui\techs\kalmar</Icon>
 		<RolloverTextID>781530</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="GeneralWarwick">
+			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MercHackapell">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="10.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="BoneguardSwordsman">
+			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MercFusilier">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="10.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="BoneguardRifleman">
-				<Target type="Player"/>
-			</Effect>
-			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="WhiteJaguar">
+			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MercJaeger">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="1.15" relativity="BasePercent" subtype="Hitpoints" type="Data">
 				<Target type="ProtoUnit">AbstractLightInfantry</Target>
 			</Effect>
-			<Effect type="Sound">ArriveWarwick</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCShipKnights" type="Normal">
 		<DBID>3026</DBID>
 		<DisplayNameID>781912</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
-		<Cost resourcetype="Gold">500.0000</Cost>
+		<Cost resourcetype="Gold">1000.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\papalstate</Icon>
@@ -74878,7 +74693,7 @@
 		<DBID>3039</DBID>
 		<DisplayNameID>781558</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
-		<Cost resourcetype="Gold">500.0000</Cost>
+		<Cost resourcetype="Gold">1000.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\uscavalry</Icon>
@@ -74904,7 +74719,7 @@
 		<DBID>3040</DBID>
 		<DisplayNameID>781560</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
-		<Cost resourcetype="Gold">500.0000</Cost>
+		<Cost resourcetype="Gold">1000.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\oglala</Icon>
@@ -74930,7 +74745,7 @@
 		<DBID>3041</DBID>
 		<DisplayNameID>781562</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
-		<Cost resourcetype="Gold">500.0000</Cost>
+		<Cost resourcetype="Gold">1000.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\blacksm</Icon>
@@ -75812,22 +75627,12 @@
 				<Target type="ProtoUnit">Surgeon</Target>
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">UnlockIronclad</Effect>
-			<Effect status="obtainable" type="TechStatus">EconomicAlliance</Effect>
 			<Effect status="obtainable" type="TechStatus">MilitaryAlliance</Effect>
-			<Effect status="obtainable" type="TechStatus">ypConsulateSpanishBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">ReligiousAlliance</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Capitol</Target>
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">SelectiveBreeding</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmySpanish11</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmySpanish33</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">ypConsulateArmySpanish22</Target>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Envoy</Target>
 			</Effect>
@@ -85793,6 +85598,7 @@
 		<Flag>YPCheckPopCap</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
+			<TechStatus status="Active">YPHCSmoothRelations</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="YPHCEnlistGurkhas" type="Data" unittype="ypNatMercGurkha">

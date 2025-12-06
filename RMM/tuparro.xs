@@ -42,7 +42,7 @@ void main(void)
 //	rmSetOceanReveal(true);
 		rmSetSeaLevel(-1.0);
 		rmSetLightingSet("sonora");
-	rmSetWindMagnitude(5);
+	rmSetWindMagnitude(2);
    rmSetGlobalRain( 0.8);
 
    // Init map.

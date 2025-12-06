@@ -46,7 +46,7 @@ void main(void) {
        	rmTerrainInitialize("grass");
 	rmEnableLocalWater(true);
  	  rmSetGlobalRain( 0.8 );
-		rmSetWindMagnitude(3.0);
+		rmSetWindMagnitude(2.0);
 
 	rmSetWorldCircleConstraint(false);
 

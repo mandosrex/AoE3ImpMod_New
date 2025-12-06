@@ -77,7 +77,7 @@ void main(void) {
 	rmSetSeaLevel(-1.0);
 		rmSetSeaType("Lisbon");
        	rmTerrainInitialize("grass");
-		rmSetWindMagnitude(4.0);
+		rmSetWindMagnitude(2.0);
 
 
 		//Constraints

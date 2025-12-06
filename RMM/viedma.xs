@@ -49,7 +49,7 @@ void main(void) {
 //		rmSetLightingSet("amsterdam evening");
 //		rmSetLightingSet("lisbon storm");
 		rmSetSeaLevel(0.0);
-		rmSetWindMagnitude(6.0);
+		rmSetWindMagnitude(2.0);
 
 
 

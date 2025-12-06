@@ -54,7 +54,7 @@ void main(void)
   if(whichVersion == 1) {
     mapType3 = "Water";
     rmSetMapType("AIFishingUseful");
-    windSpeed = 4.0;
+    windSpeed = 2.0;
     rainChance = 0.8;
     
     if (cNumberNonGaiaPlayers <= 4){

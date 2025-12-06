@@ -94,7 +94,7 @@ void main(void)
 	rmSetMapType(mapType4);
 	rmSetMapType("land");
 	rmSetWorldCircleConstraint(true);
-	rmSetWindMagnitude(3.0);
+	rmSetWindMagnitude(2.0);
 
 	chooseMercs();
 	

@@ -87,7 +87,7 @@ void main(void)
 	rmSetMapType("water");
 	rmSetMapType("AIFishingUseful");
 	rmSetWorldCircleConstraint(true);
-	rmSetWindMagnitude(3.0);
+	rmSetWindMagnitude(2.0);
 
 	chooseMercs();
 	
