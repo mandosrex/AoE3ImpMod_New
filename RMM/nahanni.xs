@@ -8,7 +8,6 @@
 // observer UI by Aizamk
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 
@@ -163,8 +162,6 @@ int staySouth = rmCreatePieConstraint("Stay South",0.70,0.70, rmXFractionToMeter
 	}
 
 
-
-        chooseMercs();
 
         rmSetStatusText("",0.1); 
 

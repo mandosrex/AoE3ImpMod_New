@@ -3,7 +3,6 @@
 // Edited for Regicide by RF_Gandalf for the AS Fan-Patch
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -144,7 +143,6 @@ void main(void)
 	rmSetWindMagnitude(windSpeed);
       rmSetGlobalRain(rainChance);
 
-	chooseMercs();
  
 // Classes
 	int classPlayer=rmDefineClass("player");
@@ -1190,8 +1188,6 @@ void main(void)
     rmSetNuggetDifficulty(1, 1);
     rmPlaceObjectDefAtLoc(playerNuggetID, 0, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
     
-    if(ypIsAsian(i) && rmGetNomadStart() == false)
-      rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
     
     if (whichVersion == 1) {
       // HC Water Spawns when wet

@@ -3,7 +3,6 @@
 // Nov 06 - YP update
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -119,7 +118,7 @@ void main(void)
 	rmSetWorldCircleConstraint(true);
 	rmSetMapType("mountain");
 	rmSetMapType("namerica");
-	chooseMercs();
+
 
     // Define some classes. These are used later for constraints.
    int classPlayer=rmDefineClass("player");
@@ -478,8 +477,6 @@ void main(void)
 		// vector closestPoint=rmGetUnitPosition(rmGetUnitPlacedOfPlayer(startingUnits, i));
 		// rmSetHomeCityGatherPoint(i, closestPoint);
 
-    if(ypIsAsian(i) && rmGetNomadStart() == false)
-      rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 1), i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
     
 		// Everyone gets two ore groupings, one pretty close, the other a little further away.
 		silverType = rmRandInt(1,10);

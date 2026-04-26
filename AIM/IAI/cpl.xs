@@ -43,47 +43,43 @@ void capitolArmyManager()
 	//checks the civ and sends the unit types to capitolArmy()
 	if (kbTechGetStatus(cTechAge0Portuguese) == cTechStatusActive)
 	{
-		capitolArmy(cTechAge0Portuguese, cUnitTypeypConsulateArmyPortuguese11, cUnitTypeypConsulateArmyPortuguese22, cUnitTypeypConsulateArmyPortuguese33);
+		capitolArmy(cTechAge0Portuguese, cUnitTypeSavoyArmy, cUnitTypePapalArmy, cUnitTypeTrastamaraArmy);
 	}
 	else if (kbTechGetStatus(cTechAge0Dutch) == cTechStatusActive)
 	{
-		capitolArmy(cTechAge0Dutch, cUnitTypeypConsulateArmyDutch11, cUnitTypeypConsulateArmyDutch22, cUnitTypeypConsulateArmyDutch22);
+		capitolArmy(cTechAge0Dutch, cUnitTypeStewartArmy, cUnitTypeWittelsbachArmy, cUnitTypeOldenburgArmy);
 	}
 	else if (kbTechGetStatus(cTechAge0Russian) == cTechStatusActive)
 	{
-		capitolArmy(cTechAge0Russian, cUnitTypeypConsulateArmyRussian11, cUnitTypeypConsulateArmyRussian22, cUnitTypeypConsulateArmyRussian33);
+		capitolArmy(cTechAge0Russian, cUnitTypeRomanovArmy, cUnitTypeHohenzollernArmy, cUnitTypeJagiellonArmy);
 	}
 	else if (kbTechGetStatus(cTechAge0Spanish) == cTechStatusActive)
 	{
-		capitolArmy(cTechAge0Spanish, cUnitTypeypConsulateArmySpanish11, cUnitTypeypConsulateArmySpanish22, cUnitTypeypConsulateArmySpanish33);
+		capitolArmy(cTechAge0Spanish, cUnitTypeHabsburgArmy, cUnitTypeTrastamaraArmy, cUnitTypeBourbonArmy);
 	}
 	else if (kbTechGetStatus(cTechAge0British) == cTechStatusActive)
 	{
-		capitolArmy(cTechAge0British, cUnitTypeypConsulateArmyBritish11, cUnitTypeypConsulateArmyBritish22, cUnitTypeypConsulateArmyBritish33);
+		capitolArmy(cTechAge0British, cUnitTypeStewartArmy, cUnitTypeOldenburgArmy, cUnitTypeHabsburgArmy);
 	}
 	else if (kbTechGetStatus(cTechAge0French) == cTechStatusActive)
 	{
-		capitolArmy(cTechAge0French, cUnitTypeypConsulateArmyFrench11, cUnitTypeypConsulateArmyFrench22, cUnitTypeypConsulateArmyFrench33);
+		capitolArmy(cTechAge0French, cUnitTypeBourbonArmy, cUnitTypeHohenzollernArmy, cUnitTypeWittelsbachArmy);
 	}
 	else if (kbTechGetStatus(cTechAge0German) == cTechStatusActive)
 	{
-		capitolArmy(cTechAge0German, cUnitTypeypConsulateArmyGerman11, cUnitTypeypConsulateArmyGerman22, cUnitTypeypConsulateArmyGerman33);
-	}
-	else if (kbTechGetStatus(cTechAge0Ottoman) == cTechStatusActive)
-	{
-		capitolArmy(cTechAge0Ottoman, cUnitTypeypConsulateArmyOttoman11, cUnitTypeypConsulateArmyOttoman22, cUnitTypeypConsulateArmyOttoman33);
+		capitolArmy(cTechAge0German, cUnitTypeHabsburgArmy, cUnitTypeHohenzollernArmy, cUnitTypeWittelsbachArmy);
 	}
 	else if (kbTechGetStatus(cTechAge0USA) == cTechStatusActive)
 	{
-		capitolArmy(cTechAge0USA, cUnitTypeUSColonialMarines2, cUnitTypeUSSaberSquad2, cUnitTypeUSGatlingGuns2);
+		capitolArmy(cTechAge0USA, cUnitTypeMassachusettsArmy, cUnitTypePennsylvaniaArmy, cUnitTypeConnecticutArmy);
 	}
 	else if (kbTechGetStatus(cTechAge0Italians) == cTechStatusActive)
 	{
-		capitolArmy(cTechAge0Italians, cUnitTypeypConsulateArmyItalians11, cUnitTypeypConsulateArmyItalians22, cUnitTypeypConsulateArmyItalians33);
+		capitolArmy(cTechAge0Italians, cUnitTypePapalArmy, cUnitTypeSavoyArmy, cUnitTypeBourbonArmy);
 	}
 	else if (kbTechGetStatus(cTechAge0Swedish) == cTechStatusActive)
 	{
-		capitolArmy(cTechAge0Swedish, cUnitTypeSwedishArmy11, cUnitTypeSwedishArmy22, cUnitTypeSwedishArmy33);
+		capitolArmy(cTechAge0Swedish, cUnitTypeRomanovArmy, cUnitTypeJagiellonArmy, cUnitTypeOldenburgArmy);
 	}
 } //end capitolArmyManager
 
@@ -95,79 +91,72 @@ void setCapitolArmyPreference()
 	}
 	if (kbTechGetStatus(cTechAge0Portuguese) == cTechStatusActive)
 	{
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyPortuguese11, 0.6);
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyPortuguese22, 0.6);
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyPortuguese33, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeSavoyArmy, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypePapalArmy, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeTrastamaraArmy, 0.6);
 	}
 
 	if (kbTechGetStatus(cTechAge0Dutch) == cTechStatusActive)
 	{
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyDutch11, 0.6);
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyDutch22, 0.6);
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyDutch33, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeStewartArmy, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeWittelsbachArmy, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeOldenburgArmy, 0.6);
 	}
 
 	if (kbTechGetStatus(cTechAge0Russian) == cTechStatusActive)
 	{
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyRussian11, 0.6);
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyRussian22, 0.6);
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyRussian33, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeRomanovArmy, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeHohenzollernArmy, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeJagiellonArmy, 0.6);
 	}
 
 	if (kbTechGetStatus(cTechAge0Spanish) == cTechStatusActive)
 	{
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmySpanish11, 0.6);
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmySpanish22, 0.6);
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmySpanish33, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeHabsburgArmy, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeTrastamaraArmy, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeBourbonArmy, 0.6);
 	}
 
 	if (kbTechGetStatus(cTechAge0British) == cTechStatusActive)
 	{
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyBritish11, 0.6);
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyBritish22, 0.6);
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyBritish33, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeStewartArmy, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeOldenburgArmy, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeHabsburgArmy, 0.6);
 	}
 
 	if (kbTechGetStatus(cTechAge0French) == cTechStatusActive)
 	{
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyFrench11, 0.6);
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyFrench22, 0.6);
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyFrench33, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeBourbonArmy, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeHohenzollernArmy, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeWittelsbachArmy, 0.6);
 	}
 
 	if (kbTechGetStatus(cTechAge0German) == cTechStatusActive)
 	{
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyGerman11, 0.6);
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyGerman22, 0.6);
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyGerman33, 0.6);
-	}
-
-	if (kbTechGetStatus(cTechAge0Ottoman) == cTechStatusActive)
-	{
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman11, 0.6);
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman22, 0.6);
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman33, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeHabsburgArmy, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeHohenzollernArmy, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeWittelsbachArmy, 0.6);
 	}
 
 	if (kbTechGetStatus(cTechAge0USA) == cTechStatusActive)
 	{
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeUSColonialMarines2, 0.6);
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeUSSaberSquad2, 0.6);
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeUSGatlingGuns2, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMassachusettsArmy, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypePennsylvaniaArmy, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeConnecticutArmy, 0.6);
 	}
 
 	if (kbTechGetStatus(cTechAge0Italians) == cTechStatusActive)
 	{
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyItalians11, 0.6);
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyItalians22, 0.6);
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyItalians33, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypePapalArmy, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeSavoyArmy, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeBourbonArmy, 0.6);
 	}
 
 	if (kbTechGetStatus(cTechAge0Swedish) == cTechStatusActive)
 	{
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeSwedishArmy11, 0.6);
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeSwedishArmy22, 0.6);
-		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeSwedishArmy33, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeRomanovArmy, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeJagiellonArmy, 0.6);
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeOldenburgArmy, 0.6);
 	}
 
 }

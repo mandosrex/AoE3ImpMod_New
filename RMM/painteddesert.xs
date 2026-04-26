@@ -4,8 +4,8 @@
 // Update by iCourt
 
 // Main entry point for random map script
+
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -119,8 +119,6 @@ void main(void)
 	rmSetMapType("namerica");
 	rmSetLightingSet("Sonora");
 
-	// Choose mercs.
-	chooseMercs();
 
 	// Corner constraint.
 	rmSetWorldCircleConstraint(true);
@@ -584,8 +582,6 @@ rmSetStatusText("",0.4);
     
     		vector TCLocation=rmGetUnitPosition(rmGetUnitPlacedOfPlayer(TCID, i));
     
-    		if(ypIsAsian(i) && rmGetNomadStart() == false)
-      		rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 1), i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
     
 		rmPlaceObjectDefAtLoc(StartAreaTreeID, 0, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 		rmPlaceObjectDefAtLoc(startBisonID, 0, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));

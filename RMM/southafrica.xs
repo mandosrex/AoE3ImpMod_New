@@ -1,7 +1,6 @@
 /* Durokan's Mt. Fuji - February 16 2020 Version 1.4*/
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
  
 void main(void) {
@@ -107,7 +106,7 @@ void main(void) {
          rmPlacePlayersCircular(0.3, 0.3, 0.02);
       }
    }
-   chooseMercs();
+
 
    int continent2 = rmCreateArea("continent");
    rmSetAreaSize(continent2, 1.0, 1.0);
@@ -281,13 +280,13 @@ void main(void) {
    rmAddObjectDefConstraint(treeID, avoidCoin);
 
    int foodID = rmCreateObjectDef("starting hunt");
-   rmAddObjectDefItem(foodID, "Okapi", 6, 8.0);
+   rmAddObjectDefItem(foodID, "Giraffe", 6, 8.0);
    rmSetObjectDefMinDistance(foodID, 10.0);
    rmSetObjectDefMaxDistance(foodID, 12.0);
    rmSetObjectDefCreateHerd(foodID, false);
 
    int foodID2 = rmCreateObjectDef("starting hunt 2");
-   rmAddObjectDefItem(foodID2, "Okapi", 7, 8.0);
+   rmAddObjectDefItem(foodID2, "Giraffe", 7, 8.0);
    rmSetObjectDefMinDistance(foodID2, 38.0);
    rmSetObjectDefMaxDistance(foodID2, 40.0);
    rmSetObjectDefCreateHerd(foodID2, true);
@@ -443,7 +442,7 @@ void main(void) {
    int fishVsFishID=rmCreateTypeDistanceConstraint("fish v fish", "ypFishCatfish", 20.0);
    int fishVsFishID2=rmCreateTypeDistanceConstraint("fish v fish", "ypSquid", 20.0);
    int fishLand = rmCreateTerrainDistanceConstraint("fish land", "land", true, 8.0);
-   int whaleVsWhaleID=rmCreateTypeDistanceConstraint("whale v whale", "HumpbackWhale", 50.0);
+   int whaleVsWhaleID=rmCreateTypeDistanceConstraint("whale v whale", "MinkeWhale", 50.0);
    int whaleLand = rmCreateTerrainDistanceConstraint("whale land", "land", true, 15.0);
 
    int fishID=rmCreateObjectDef("fish Mahi");
@@ -463,7 +462,7 @@ void main(void) {
    rmPlaceObjectDefAtLoc(fish2ID, 0, 0.5, 0.5, 6*cNumberNonGaiaPlayers);
 
    int whaleID=rmCreateObjectDef("whale");
-   rmAddObjectDefItem(whaleID, "HumpbackWhale", 1, 0.0);
+   rmAddObjectDefItem(whaleID, "MinkeWhale", 1, 0.0);
    rmSetObjectDefMinDistance(whaleID, 0.0);
    rmSetObjectDefMaxDistance(whaleID, rmXFractionToMeters(0.5));
    rmAddObjectDefConstraint(whaleID, whaleVsWhaleID);

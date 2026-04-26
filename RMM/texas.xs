@@ -4,7 +4,6 @@
 // Main entry point for random map script
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -116,8 +115,6 @@ void main(void)
 	rmSetMapType("land");
 	rmSetMapType("namerica");
 
-	// Choose mercs.
-	chooseMercs();
 
 	// Corner constraint.
 	rmSetWorldCircleConstraint(true);
@@ -692,8 +689,6 @@ void main(void)
 		rmPlaceObjectDefAtLoc(playerNuggetID, 0, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 		rmPlaceObjectDefAtLoc(playerNuggetID, 0, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 
-    if(ypIsAsian(i) && rmGetNomadStart() == false)
-      rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 
 		vector closestPoint=rmGetUnitPosition(rmGetUnitPlacedOfPlayer(startingUnits, i));
 	}

@@ -2,7 +2,6 @@
 // designed by Garja
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -85,8 +84,6 @@ void main(void)
 	
 	// ******************************************************************************************
 
-	// Choose Mercs
-	chooseMercs();
 
 	// Text
 	rmSetStatusText("",0.10);
@@ -202,12 +199,10 @@ void main(void)
 	int teamZeroCount = rmGetNumberPlayersOnTeam(0);
 	int teamOneCount = rmGetNumberPlayersOnTeam(1);
 
-		teamZeroCount = cNumberNonGaiaPlayers/2;
-		teamOneCount = cNumberNonGaiaPlayers/2;
 
 		if (cNumberTeams <= 2) // 1v1 and TEAM
 		{
-			if (teamZeroCount == 1 && teamOneCount == 1) // 1v1
+			if (cNumberNonGaiaPlayers == 2) // 1v1
 			{
 				float OneVOnePlacement=rmRandFloat(0.0, 0.9);
 				if ( OneVOnePlacement < 0.5)
@@ -724,9 +719,6 @@ void main(void)
 		if (nugget0count == 2)
 			rmPlaceObjectDefAtLoc(playerNuggetID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 				
-		if(ypIsAsian(i) && rmGetNomadStart() == false)
-		rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
-		vector closestPoint = rmFindClosestPointVector(TCLoc, rmXFractionToMeters(1.0));
 
 		if ( rmGetNomadStart())
 		{

@@ -2,9 +2,7 @@
 // August 2010
 // Main entry point for random map script
 
-
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -91,7 +89,6 @@ void main(void)
 	rmSetWorldCircleConstraint(true);
 	rmSetMapType("forest");
 
-	chooseMercs();
 
 	// Define some classes. These are used later for constraints.
 	int classPlayer=rmDefineClass("player");

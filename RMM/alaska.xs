@@ -3,7 +3,6 @@
 // observer UI by Aizamk
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -51,8 +50,6 @@ void main(void)
 	rmSetLightingSet("saguenay");
 	rmSetWindMagnitude(2.0);
 	
-	// Choose Mercs
-	chooseMercs();
 	
 	// Text
 	rmSetStatusText("",0.10);
@@ -189,12 +186,10 @@ void main(void)
 	int teamZeroCount = rmGetNumberPlayersOnTeam(0);
 	int teamOneCount = rmGetNumberPlayersOnTeam(1);
 
-		teamZeroCount = cNumberNonGaiaPlayers/2;
-		teamOneCount = cNumberNonGaiaPlayers/2;
 	
 		if (cNumberTeams <= 2) // 1v1 and TEAM
 		{
-			if (teamZeroCount == 1 && teamOneCount == 1) // 1v1
+			if (cNumberNonGaiaPlayers == 2) // 1v1
 			{
 				float OneVOnePlacement=rmRandFloat(0.0, 0.9);
 				if ( OneVOnePlacement < 0.5)
@@ -971,8 +966,6 @@ void main(void)
 //		if (nugget0count == 2)
 //			rmPlaceObjectDefAtLoc(playerNuggetID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 				
-		if(ypIsAsian(i) && rmGetNomadStart() == false)
-			rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 			
 		vector closestPoint = rmFindClosestPointVector(TCLoc, rmXFractionToMeters(1.0));
 		rmPlaceObjectDefAtLoc(colonyShipID, i, rmXMetersToFraction(xsVectorGetX(closestPoint)), rmZMetersToFraction(xsVectorGetZ(closestPoint)));
@@ -1490,7 +1483,7 @@ void main(void)
 	for (i=0; < whalecount)
 	{
 	int whaleID=rmCreateObjectDef("whale"+i);
-	rmAddObjectDefItem(whaleID, "HumpbackWhale", 1, 2.0);
+	rmAddObjectDefItem(whaleID, "Beluga", 1, 2.0);
 	rmSetObjectDefMinDistance(whaleID, 20);
 	rmSetObjectDefMaxDistance(whaleID, rmXFractionToMeters(0.50));
 	rmAddObjectDefConstraint(whaleID, avoidWhale);

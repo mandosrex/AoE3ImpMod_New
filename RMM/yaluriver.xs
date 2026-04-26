@@ -7,9 +7,7 @@
 
 // observer UI by Aizamk
 
-
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
  
 
@@ -127,8 +125,6 @@ int avoidTemple=rmCreateTypeDistanceConstraint("avoid temples", "SPCAztecTemple"
 	int teamZeroCount = rmGetNumberPlayersOnTeam(0);
 	int teamOneCount = rmGetNumberPlayersOnTeam(1);
 
-		teamZeroCount = cNumberNonGaiaPlayers/2;
-		teamOneCount = cNumberNonGaiaPlayers/2;
 
     float spawnSwitch = rmRandFloat(0,1.2);
 //spawnSwitch = 0.1;
@@ -186,8 +182,6 @@ int avoidTemple=rmCreateTypeDistanceConstraint("avoid temples", "SPCAztecTemple"
 
 	}
 
-	
-        chooseMercs();
 
         rmSetStatusText("",0.1); 
 

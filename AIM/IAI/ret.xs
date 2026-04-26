@@ -115,6 +115,9 @@ void researchNew()
 }
 void researchTech()
 {
+   if (kbGetCiv() == cCivBarbaryPirates)
+      xsEnableRule("getAgeUps");
+
 	//static int lastRunTime = 0;
 	//if(functionDelay(lastRunTime, 10000,"researchTech") == false) return;
 	//lastRunTime = gCurrentGameTime;
@@ -722,10 +725,110 @@ void researchTech()
 		researchCheck(cTechChurchLumberCamp, 50, gChurchUnit, cEconomyEscrowID);
 		researchCheck(cTechChurchAxe, 50, gChurchUnit, cEconomyEscrowID);
 		
-
 		
 		
 		if (gTownCenterNumber > 0 && kbTechCostPerResource(cTechHCBlockade, cResourceGold) < 4000) researchCheck(cTechHCBlockade, 50, gTownCenter, cMilitaryEscrowID);
 	}
-	
+}
+
+
+rule getAgeUps
+inactive
+minInterval 30
+{
+   int speedPlanID = -1;
+   int capPlanID = -1;  
+
+   if (kbTechGetStatus(cTechAge2BigTechTownCenter) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge2BigTechTownCenter);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge2BigTechTownCenter, getUnit(cUnitTypeTownCenter), cEconomyEscrowID, 91);
+   }
+   if (kbTechGetStatus(cTechAge3BigTechTownCenter) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge3BigTechTownCenter);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge3BigTechTownCenter, getUnit(cUnitTypeTownCenter), cEconomyEscrowID, 91);
+   }
+   if (kbTechGetStatus(cTechAge4BigTechTownCenter) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge4BigTechTownCenter);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge4BigTechTownCenter, getUnit(cUnitTypeTownCenter), cEconomyEscrowID, 91);
+   }
+   if (kbTechGetStatus(cTechAge5BigTechTownCenter) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge5BigTechTownCenter);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge5BigTechTownCenter, getUnit(cUnitTypeTownCenter), cEconomyEscrowID, 91);
+   }
+
+
+   if (kbTechGetStatus(cTechAge2BigTechHouse) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge2BigTechHouse);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge2BigTechHouse, getUnit(cUnitTypeHouseMed), cEconomyEscrowID, 91);
+   }
+   if (kbTechGetStatus(cTechAge3BigTechHouse) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge3BigTechHouse);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge3BigTechHouse, getUnit(cUnitTypeHouseMed), cEconomyEscrowID, 91);
+   }
+   if (kbTechGetStatus(cTechAge4BigTechHouse) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge4BigTechHouse);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge4BigTechHouse, getUnit(cUnitTypeHouseMed), cEconomyEscrowID, 91);
+   }
+   if (kbTechGetStatus(cTechAge5BigTechHouse) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge5BigTechHouse);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge5BigTechHouse, getUnit(cUnitTypeHouseMed), cEconomyEscrowID, 91);
+   }
+
+
+   if (kbTechGetStatus(cTechAge3BigTechMarket) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge3BigTechMarket);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge3BigTechMarket, getUnit(cUnitTypeMarket), cEconomyEscrowID, 91);
+   }
+   if (kbTechGetStatus(cTechAge4BigTechMarket) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge4BigTechMarket);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge4BigTechMarket, getUnit(cUnitTypeMarket), cEconomyEscrowID, 91);
+   }
+   if (kbTechGetStatus(cTechAge5BigTechMarket) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge5BigTechMarket);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge5BigTechMarket, getUnit(cUnitTypeMarket), cEconomyEscrowID, 91);
+   }
+
+
+   if (kbTechGetStatus(cTechAge4BigTechMill) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge4BigTechMill);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge4BigTechMill, getUnit(cUnitTypeMill), cEconomyEscrowID, 91);
+   }
+   if (kbTechGetStatus(cTechAge5BigTechMill) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge5BigTechMill);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge5BigTechMill, getUnit(cUnitTypeMill), cEconomyEscrowID, 91);
+   }
+
+
+   if (kbTechGetStatus(cTechAge5BigTechPlantation) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge5BigTechPlantation);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge5BigTechPlantation, getUnit(cUnitTypePlantation), cEconomyEscrowID, 91);
+   }
 }

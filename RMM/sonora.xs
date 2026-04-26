@@ -4,8 +4,8 @@
 // Nov 06 - YP update
 
 // Main entry point for random map script
+
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -100,8 +100,6 @@ void main(void)
 	rmSetMapType("namerica");
 	rmSetLightingSet("Sonora");
 
-	// Choose mercs.
-	chooseMercs();
 
 	// Corner constraint.
 	rmSetWorldCircleConstraint(true);
@@ -556,8 +554,6 @@ for(i=0; <numTries)
 		
     		vector TCLocation=rmGetUnitPosition(rmGetUnitPlacedOfPlayer(TCID, i));
     
-    		if(ypIsAsian(i) && rmGetNomadStart() == false)
-      		rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
     
 		//vector closestPoint=rmGetUnitPosition(rmGetUnitPlacedOfPlayer(startingUnits, i));
 		//rmSetHomeCityGatherPoint(i, closestPoint);

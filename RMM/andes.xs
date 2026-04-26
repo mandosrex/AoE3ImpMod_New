@@ -2,7 +2,6 @@
 // edited by RF_Gandalf for the AS Fan-Patch
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -67,8 +66,6 @@ void main(void)
 	// Make the corners.
 	rmSetWorldCircleConstraint(true);
 
-	// Choose Mercs
-	chooseMercs();
 
    // Define some classes. These are used later for constraints.
    int classPlayer=rmDefineClass("player");
@@ -530,8 +527,6 @@ void main(void)
 		rmPlaceObjectDefAtLoc(farGuanacoID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 		rmPlaceObjectDefAtLoc(playerNuggetID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 
-    		if(ypIsAsian(i) && rmGetNomadStart() == false)
-      	  rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 1), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 
 		rmClearClosestPointConstraints();
 

@@ -3,9 +3,7 @@
 // Revised by RF_Gandalf for the AS Fan Patch
 // Completely reworked by Neuron & iCourt 2013
 
-
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -94,7 +92,6 @@ void main(void)
 	rmSetMapType("AIFishingUseful");
 	rmSetLightingSet("california");
 
-	chooseMercs();
 
 	// Define some classes. These are used later for constraints.
 	int classPlayer=rmDefineClass("player");
@@ -570,8 +567,6 @@ rmClearClosestPointConstraints();
 //	rmPlaceObjectDefAtLoc(playergold2ID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 	rmPlaceObjectDefAtLoc(playerElkID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
      
-  if(ypIsAsian(i) && rmGetNomadStart() == false)
-    rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 1), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 
 	vector closestPoint = rmFindClosestPointVector(TCLoc, rmXFractionToMeters(1.0));
 	rmPlaceObjectDefAtLoc(waterFlagID, i, rmXMetersToFraction(xsVectorGetX(closestPoint)), rmZMetersToFraction(xsVectorGetZ(closestPoint)));

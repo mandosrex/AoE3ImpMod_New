@@ -4,7 +4,6 @@
 // Main entry point for random map script    
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -96,7 +95,6 @@ void main(void)
 	int ContrePromontoir=rmCreatePieConstraint("contre promontoir", 0.5, 0.91, rmXFractionToMeters(0.08), rmXFractionToMeters(0.9), rmDegreesToRadians(0), rmDegreesToRadians(360));	
 	int avoidPic = rmCreatePieConstraint("avoid Pic", 0.5, 0.15, rmXFractionToMeters(0.08), rmXFractionToMeters(0.5), rmDegreesToRadians(0), rmDegreesToRadians(360));
 	
-	chooseMercs();
 	
 // ----------------------------------------- Building the layout ------------------------------------------------------	
 	float coeff = 1.6;
@@ -514,8 +512,6 @@ void main(void)
 	{
 		rmPlaceObjectDefAtLoc(startingTCID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 
-		if(ypIsAsian(i) && rmGetNomadStart() == false)
-      		rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 1), i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 		rmPlaceObjectDefAtLoc(startingUnits, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 		rmPlaceObjectDefAtLoc(startSilverID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 		rmPlaceObjectDefAtLoc(startSilverID2, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));

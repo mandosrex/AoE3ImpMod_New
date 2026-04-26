@@ -2,7 +2,6 @@
 // Dec 06 - YP update
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -190,8 +189,6 @@ void main(void)
 	// Make the corners.
 	rmSetWorldCircleConstraint(true);
 
-	// Choose Mercs
-	chooseMercs();
 
 	// Make it snow
    //rmSetGlobalSnow( 0.7 );
@@ -597,8 +594,6 @@ void main(void)
     rmPlaceObjectDefAtLoc(playerCapybaraID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
     rmPlaceObjectDefAtLoc(playerNuggetID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 
-    if(ypIsAsian(i) && rmGetNomadStart() == false)
-      rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 1), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
       
     rmClearClosestPointConstraints();
 

@@ -4,7 +4,6 @@
 // observer UI by Aizmak
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -54,8 +53,6 @@ void main(void)
 
 	string riverType = "pampas river";
 
-	// Choose Mercs
-	chooseMercs();
 
 	// Text
 	rmSetStatusText("",0.10);
@@ -182,6 +179,7 @@ void main(void)
 
 	int teamZeroCount = rmGetNumberPlayersOnTeam(0);
 	int teamOneCount = rmGetNumberPlayersOnTeam(1);
+
 
 		if (cNumberTeams <= 2) // 1v1 and TEAM
 		{
@@ -729,9 +727,6 @@ void main(void)
 		if (nugget0count == 2)
 			rmPlaceObjectDefAtLoc(playerNuggetID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 
-		if(ypIsAsian(i) && rmGetNomadStart() == false)
-		rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 1), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
-		vector closestPoint = rmFindClosestPointVector(TCLoc, rmXFractionToMeters(1.0));
 
 		if (rmGetNomadStart())
 		{

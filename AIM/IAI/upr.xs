@@ -37,7 +37,6 @@ void set_avoided_unit_pref(bool reset = false)
 	kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeNativeScout, 0.0);
 	kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeEnvoy, 0.0);
 	kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypMongolScout, 0.0);
-	kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.0);
 	kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypSowarMansabdar, 0.0);
 	kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRajputMansabdar, 0.0);
 	kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypNatMercGurkhaJemadar, 0.0);
@@ -46,6 +45,8 @@ void set_avoided_unit_pref(bool reset = false)
 	kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypHowdahMansabdar, 0.0);
 	kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypMahoutMansabdar, 0.0);
 	kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypSiegeElephantMansabdar, 0.0);
+	if (cMyCiv != cCivBarbaryPirates)
+	kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.0);
 }
 
 void clear_unit_pref(bool reset = false)
@@ -57,6 +58,8 @@ void clear_unit_pref(bool reset = false)
 	kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeCoureur, 0.0);
 	if (cMyCiv == cCivXPAztec)
 		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractLightInfantry, 0.5);
+	if (cMyCiv == cCivBarbaryPirates)
+		kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 1.0);
 }
 
 void setUnitPickerPreference(int upID = -1)

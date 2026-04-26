@@ -4,7 +4,6 @@
 // Update by Garja
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -52,8 +51,6 @@ void main(void)
    rmSetLightingSet("patagonia");
 	rmSetWorldCircleConstraint(true);
 
-	// Choose mercs.
-	chooseMercs();
 
    // Define some classes. These are used later for constraints.
    int classPlayer=rmDefineClass("player");
@@ -534,8 +531,6 @@ void main(void)
 		rmPlaceObjectDefAtLoc(startingTCID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 		vector TCLocation=rmGetUnitPosition(rmGetUnitPlacedOfPlayer(startingTCID, i));
 
-	   	if(ypIsAsian(i) && rmGetNomadStart() == false)
-      		rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
 
     		rmPlaceObjectDefAtLoc(startingUnits, i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
 

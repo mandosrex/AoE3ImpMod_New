@@ -392,6 +392,24 @@ void setUnitTypes(void)
 			gNavyClassS1 = cUnitTypeMonitor;
 			break;
 		}
+		case cCivBarbaryPirates:
+		{
+			gExplorerUnit = cUnitTypeExplorerMed;
+			gHouseUnit = cUnitTypeHouseMed;
+			gLivestockPenUnit = cUnitTypeHouseMed;
+			gSpecialUnit = cUnitTypeypRepentantSmuggler;
+			gChurchUnit = cUnitTypeMosqueBar;
+			gCapitolUnit = cUnitTypeFortCenterBar;
+			gArtilleryDepotUnit = cUnitTypeArtilleryDepotBar;
+			gEconUnit = cUnitTypeSailor;
+			gCaravelUnit = cUnitTypePrivateer;
+			gGalleonUnit = cUnitTypeypWokouJunk;
+			gNavyClass1 = cUnitTypePrivateer;
+			gNavyClass2 = cUnitTypeypWokouJunk;
+			gNavyClassS1 = cUnitTypeypMarathanCatamaran;
+			gNavyClassS2 = cUnitTypeMonitor;
+			break;
+		}
 		case cCivPortuguese:
 		{
 			gExplorerUnit = cUnitTypeExplorerMed;
@@ -1227,6 +1245,17 @@ void setPersonality(void)
 				btBiasArt = 0.0;
 				btBiasNative = 0.0;
 				btBiasTrade = 0.5;
+				break;
+			}
+		case cCivBarbaryPirates: // Barbarossa
+			{
+				btRushBoom = 1.0;
+				btOffenseDefense = 1.0;
+				btBiasCav = 0.2;
+				btBiasInf = 0.5;
+				btBiasArt = 0.0;
+				btBiasNative = 0.0;
+				btBiasTrade = 0.0;
 				break;
 			}
 

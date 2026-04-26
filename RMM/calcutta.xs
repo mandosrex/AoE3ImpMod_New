@@ -1,6 +1,6 @@
 	/* Durokan's acropolis - Feb 11 2016 1.0 -- --*/
+
 	include "mercenaries.xs";
-	include "ypAsianInclude.xs";
 	include "ypKOTHInclude.xs";
  
 	void main(void) {
@@ -89,7 +89,6 @@
 
    rmSetStatusText("",0.20);
 
-        chooseMercs();
 		
 		  // Player placing  
   

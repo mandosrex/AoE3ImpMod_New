@@ -4,7 +4,6 @@
 // by RF_Gandalf
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -149,7 +148,7 @@ void main(void)
    rmSetWorldCircleConstraint(false);
    
    rmSetWindMagnitude(2.0); 
-   chooseMercs();
+
 
 // Native setup 
   if (nativePattern == 1)

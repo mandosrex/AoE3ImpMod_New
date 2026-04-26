@@ -8,7 +8,6 @@
 // observer UI by Aizamk
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
  
 
@@ -219,8 +218,6 @@ int avoidTemple=rmCreateTypeDistanceConstraint("avoid temples", "SPCAztecTemple"
 
 	}
 
-		
-        chooseMercs();
 
         rmSetStatusText("",0.1); 
 
@@ -543,7 +540,7 @@ int avoidTPSocket =rmCreateTypeDistanceConstraint("avoid trade socket", "SocketT
   	rmAddObjectDefConstraint(foodID, avoidTemple);
 
         int foodID2 = rmCreateObjectDef("starting hunt 2");
-        rmAddObjectDefItem(foodID2, "ypNilgai", 7, 8.0);
+        rmAddObjectDefItem(foodID2, "Heron", 7, 8.0);
         rmSetObjectDefMinDistance(foodID2, 28.0);
         rmSetObjectDefMaxDistance(foodID2, 30.0);
         rmSetObjectDefCreateHerd(foodID2, true);
@@ -656,7 +653,7 @@ int avoidTPSocket =rmCreateTypeDistanceConstraint("avoid trade socket", "SocketT
 
 
     int muskHunts = rmCreateObjectDef("muskHunts");
-	rmAddObjectDefItem(muskHunts, "ypNilgai", rmRandInt(9,10), 9.0);
+	rmAddObjectDefItem(muskHunts, "Heron", rmRandInt(9,10), 9.0);
 	rmSetObjectDefCreateHerd(muskHunts, true);
 	rmSetObjectDefMinDistance(muskHunts, 0);
 	rmSetObjectDefMaxDistance(muskHunts, 5);

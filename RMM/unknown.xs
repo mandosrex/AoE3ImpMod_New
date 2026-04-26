@@ -2,7 +2,6 @@
 // a random map for AOE3: TAD
 // by RF_Gandalf
 
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 include "mercenaries.xs";
 
@@ -3208,7 +3207,6 @@ void main(void)
 	rmSetTriggerEffectParamFloat("Percent", 0.0);
    }
    
-   chooseMercs();
 
 // Define some classes.
    int classPlayer=rmDefineClass("player");
@@ -5434,8 +5432,6 @@ else if (trPattern == 11) // 2 new random diagonals
       rmPlaceObjectDefAtLoc(startingUnits, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 	vector TCLoc = rmGetUnitPosition(rmGetUnitPlacedOfPlayer(startingTCID, i));
 
-      if(ypIsAsian(i) && rmGetNomadStart() == false)
-        rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 
 	if (bonusCrates == 1)
       {

@@ -12,13 +12,11 @@
 
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 
 void main(void)
 {
-
 
    rmSetStatusText("",0.01);
 
@@ -41,7 +39,6 @@ void main(void)
 	rmSetMapType("namerica");
     	rmSetLightingSet("rockies");
 
-	chooseMercs();
 
 	// Corner constraint.
 	rmSetWorldCircleConstraint(true);
@@ -506,10 +503,7 @@ void main(void)
 		rmPlaceObjectDefAtLoc(startingUnits, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 		rmPlaceObjectDefAtLoc(startingTCID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i),);
 
-    if(ypIsAsian(i) && rmGetNomadStart() == false)
-	{
-      rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 1), i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
-    	}
+
 		rmSetNuggetDifficulty(1, 1);
 		rmPlaceObjectDefAtLoc(startSilverID, 0, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 		if (cNumberNonGaiaPlayers !=2)
@@ -531,7 +525,6 @@ void main(void)
 		}
 
 	}
-
 
 
 // --------------------------------------------- Ressources  -----------------------------------------------------------

@@ -1,7 +1,6 @@
 	/* Durokan's fertilebelt - Feb 21 2016 1.0 -- -- */
 
 	include "mercenaries.xs";
-	include "ypAsianInclude.xs";
 	include "ypKOTHInclude.xs";
  
 	void main(void) {
@@ -90,7 +89,6 @@
         int avoidImpassableLand=rmCreateTerrainDistanceConstraint("avoid impassable land", "Land", false, 4.0);
 
 	
-        chooseMercs();
 		
 		  // Player placing  
   
@@ -273,13 +271,13 @@
         rmAddObjectDefConstraint(treeID, avoidCoin);
  
         int foodID = rmCreateObjectDef("starting hunt");
-        rmAddObjectDefItem(foodID, "Dromedary", 6, 8.0);
+        rmAddObjectDefItem(foodID, "Giraffe", 6, 8.0);
         rmSetObjectDefMinDistance(foodID, 11.0);
         rmSetObjectDefMaxDistance(foodID, 15.0);
         rmSetObjectDefCreateHerd(foodID, false);
  
         int foodID2 = rmCreateObjectDef("starting hunt 2");
-        rmAddObjectDefItem(foodID2, "ypWildElephant", 4, 8.0);
+        rmAddObjectDefItem(foodID2, "Hippo", 4, 8.0);
         rmSetObjectDefMinDistance(foodID2, 35.0);
         rmSetObjectDefMaxDistance(foodID2, 40.0);
         rmSetObjectDefCreateHerd(foodID2, true);
@@ -339,7 +337,7 @@
 
 
 		int wetHunts = rmCreateObjectDef("wetHunts");
-        rmAddObjectDefItem(wetHunts, "ypWildElephant", rmRandInt(3,4), 10.0);
+        rmAddObjectDefItem(wetHunts, "Hippo", rmRandInt(3,4), 10.0);
         rmSetObjectDefCreateHerd(wetHunts, true);
         rmSetObjectDefMinDistance(wetHunts, 0);
         rmSetObjectDefMaxDistance(wetHunts, rmXFractionToMeters(0.5));

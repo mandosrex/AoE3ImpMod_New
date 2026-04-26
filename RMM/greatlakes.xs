@@ -10,7 +10,6 @@
 // Nov 06 - YP update
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -162,7 +161,7 @@ void main(void)
 		rmSetGlobalSnow( 1.0 );
 	}
 
-	chooseMercs();
+
 
 	// Corner constraint.
 	rmSetWorldCircleConstraint(true);
@@ -620,8 +619,6 @@ if (seasonPicker < 0.5)
 		rmPlaceObjectDefAtLoc(startingUnits, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 		rmPlaceObjectDefAtLoc(startingTCID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
     
-    if(ypIsAsian(i) && rmGetNomadStart() == false)
-      rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, berry), i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
     
 		rmPlaceObjectDefAtLoc(StartAreaTreeID, 0, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 		rmPlaceObjectDefAtLoc(StartElkID, 0, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));

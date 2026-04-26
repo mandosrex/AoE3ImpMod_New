@@ -4,7 +4,6 @@
 // Update by iCourt
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -87,7 +86,6 @@ void main(void)
 	rmSetWorldCircleConstraint(true);
 	rmSetWindMagnitude(2.0);
 
-	chooseMercs();
 	
 // Classes
 	int classPlayer=rmDefineClass("player");
@@ -494,13 +492,7 @@ void main(void)
 			// Placing outpost/gold
       if (rmGetPlayerCiv(i) == rmGetCivID("Japanese")) {
         rmPlaceObjectDefAtLoc(startingOutpostAsianID, i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
-        rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
-      }
-      
-      else {
-        rmPlaceObjectDefAtLoc(startingOutpostAsianID, i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
-      }
-		}
+	}
     
     // nomad silver
     else {

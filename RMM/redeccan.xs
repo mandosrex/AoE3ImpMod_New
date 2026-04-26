@@ -3,7 +3,6 @@
 // edited for Regicide by RF_Gandalf
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -78,7 +77,6 @@ void main(void)
   rmSetBaseTerrainMix("deccan_grassy_Dirt_a");
   rmTerrainInitialize("Deccan\ground_grass2_deccan", -2);
 
-	chooseMercs();
 
 	// Make it rain
   rmSetGlobalRain( 0.3 );
@@ -611,9 +609,6 @@ void main(void)
     rmSetNuggetDifficulty(1, 1);
     rmPlaceObjectDefAtLoc(playerNuggetID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
     
-    // Japanese
-    if(ypIsAsian(i) && rmGetNomadStart() == false)
-      rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 
 		if (rmGetNomadStart())
 		{

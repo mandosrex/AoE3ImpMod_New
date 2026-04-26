@@ -5,7 +5,6 @@
 // Update by iCourt
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -84,8 +83,6 @@ void main(void)
 	// Make the corners.
 	rmSetWorldCircleConstraint(true);
 
-	// Choose Mercs
-	chooseMercs();
 
 	// Make it snow
    rmSetGlobalSnow( 0.7 );
@@ -535,8 +532,6 @@ void main(void)
 
 		rmPlaceObjectDefAtLoc(StartAreaTree2ID, 0, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
     
-    if(ypIsAsian(i) && rmGetNomadStart() == false)
-      rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 1), i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
 
 		if (rmGetNomadStart())
 		{

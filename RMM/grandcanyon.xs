@@ -4,7 +4,6 @@
 // by RF_Gandalf
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -195,7 +194,7 @@ void main(void)
    rmSetMapType("land");
    rmSetWorldCircleConstraint(true);
    rmSetWindMagnitude(2.0);
-   chooseMercs();
+
 
 // Define some classes.
    int classPlayer=rmDefineClass("player");

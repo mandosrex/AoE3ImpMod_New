@@ -2,7 +2,6 @@
 // by RF_Gandalf
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -78,16 +77,16 @@ void main(void)
 	treeType = "TreeCarolinaGrass";
       if (variantChance == 1)
       {
-         deerType = "ypIbex";
+         deerType = "Heron";
          deer2Type = "Crane";
       }
       else if (variantChance == 2)
       {
          deerType = "Crane";
-         deer2Type = "ypIbex";
+         deer2Type = "Heron";
       }
       if (rmRandInt(1,2) == 1)
-   	   extraHerdType = "ypIbex";
+   	   extraHerdType = "Heron";
       else
          extraHerdType = "Crane"; 
       if (sheepChance == 1)
@@ -111,16 +110,16 @@ void main(void)
 	treeType = "TreeCarolinaGrass";
       if (variantChance == 1)
       {
-         deerType = "ypIbex";
+         deerType = "Heron";
          deer2Type = "Crane";
       }
       else if (variantChance == 2)
       {
          deerType = "Crane";
-         deer2Type = "ypIbex";
+         deer2Type = "Heron";
       }
       if (rmRandInt(1,2) == 1)
-   	   extraHerdType = "ypIbex";
+   	   extraHerdType = "Heron";
       else
          extraHerdType = "Crane"; 
       if (sheepChance == 1)
@@ -158,7 +157,6 @@ void main(void)
    rmSetWorldCircleConstraint(true);
    rmSetWindMagnitude(2);
 
-   chooseMercs();
 
 // Define some classes. These are used later for constraints.
    int classPlayer=rmDefineClass("player");

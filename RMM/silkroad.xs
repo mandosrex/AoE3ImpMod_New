@@ -3,7 +3,6 @@
 // Sept 2006 ~ started with a modified version of pampas
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -162,7 +161,6 @@ void main(void)
 	rmSetWorldCircleConstraint(true);
 	rmSetWindMagnitude(2.0);
 
-	chooseMercs();
 	
 // Classes
 	int classPlayer=rmDefineClass("player");
@@ -528,6 +526,14 @@ void main(void)
 	rmSetObjectDefMaxDistance(startResourceBuildingAsianID, 20.0);
   rmAddObjectDefConstraint(startResourceBuildingAsianID, avoidAll);
 	rmAddObjectDefConstraint(startResourceBuildingAsianID, avoidImpassableLand);
+
+  // Native Market
+  int startResourceBuildingNativeID=rmCreateObjectDef("starting resource building native");
+  rmAddObjectDefItem(startResourceBuildingNativeID, "MarketNative", 1, 0.0);
+	rmSetObjectDefMinDistance(startResourceBuildingNativeID, 16.0);
+	rmSetObjectDefMaxDistance(startResourceBuildingNativeID, 20.0);
+  rmAddObjectDefConstraint(startResourceBuildingNativeID, avoidAll);
+	rmAddObjectDefConstraint(startResourceBuildingNativeID, avoidImpassableLand);
   
   int playerNuggetID=rmCreateObjectDef("player nugget");
   rmAddObjectDefItem(playerNuggetID, "nugget", 1, 0.0);
@@ -561,13 +567,12 @@ void main(void)
 		}
 
     if(rmGetNomadStart() == false) {
-	    if (rmGetPlayerCiv(i) ==  rmGetCivID("Chinese") || rmGetPlayerCiv(i) == rmGetCivID("Indians")) {
+	    if (rmGetPlayerCiv(i) ==  rmGetCivID("Chinese") || rmGetPlayerCiv(i) == rmGetCivID("Indians") || rmGetPlayerCiv(i) == rmGetCivID("Japanese")) {
         rmPlaceObjectDefAtLoc(startResourceBuildingAsianID, i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
       }
 
-      else if(rmGetPlayerCiv(i) ==  rmGetCivID("Japanese")) {
-        rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
-        rmPlaceObjectDefAtLoc(startResourceBuildingAsianID, i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));  
+      else if (rmGetPlayerCiv(i) ==  rmGetCivID("XPIroquois") || rmGetPlayerCiv(i) == rmGetCivID("XPSioux") || rmGetPlayerCiv(i) == rmGetCivID("XPAztec")) {
+        rmPlaceObjectDefAtLoc(startResourceBuildingNativeID, i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));  
       }
       
       else {

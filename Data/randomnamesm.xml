@@ -196,6 +196,18 @@
 			<title>Mdina</title>
 			<title>Senglea</title>
 		</civ>
+		<civ>
+			BarbaryPirates
+			<title>Al-Ghazi</title>
+			<title>Al-Mansur</title>
+			<title>Al-Bahr</title>
+			<title>Al-Qahira</title>
+			<title>Senglea</title>
+			<title>Al-Zafar</title>
+			<title>Al-Ghalib</title>
+			<title>Al-Qadir</title>
+			<title>Al-Muzaffar</title>
+		</civ>
 	</protounit>
 	<protounit>
 		Corvette
@@ -400,6 +412,18 @@
 			<title>Comino</title>
 			<title>Bormula</title>
 			<title>St. Louis</title>
+		</civ>
+		<civ>
+			BarbaryPirates
+			<title>Al-Ghazi</title>
+			<title>Al-Mansur</title>
+			<title>Al-Bahr</title>
+			<title>Al-Qahira</title>
+			<title>Senglea</title>
+			<title>Al-Zafar</title>
+			<title>Al-Ghalib</title>
+			<title>Al-Qadir</title>
+			<title>Al-Muzaffar</title>
 		</civ>
 	</protounit>
 	<protounit>
@@ -677,6 +701,11 @@
 			<title>KOM Warspite</title>
 			<title>KOM St. John</title>
 		</civ>
+		<civ>
+			BarbaryPirates
+			<title>Mahmudiye</title>
+			<title>Fath al-Islam</title>
+		</civ>
 	</protounit>
 	<protounit>
 		Frigate
@@ -915,6 +944,18 @@
 			<title>Salina</title>
 			<title>St. Angelo</title>
 		</civ>
+		<civ>
+			BarbaryPirates
+			<title>Al-Ghazi</title>
+			<title>Al-Mansur</title>
+			<title>Al-Bahr</title>
+			<title>Al-Qahira</title>
+			<title>Senglea</title>
+			<title>Al-Zafar</title>
+			<title>Al-Ghalib</title>
+			<title>Al-Qadir</title>
+			<title>Al-Muzaffar</title>
+		</civ>
 	</protounit>
 	<protounit>
 		Monitor
@@ -1071,6 +1112,18 @@
 			<title>Santa Anna</title>
 			<title>St. Michael</title>
 			<title>Godfrey</title>
+		</civ>
+		<civ>
+			BarbaryPirates
+			<title>Al-Ghazi</title>
+			<title>Al-Mansur</title>
+			<title>Al-Bahr</title>
+			<title>Al-Qahira</title>
+			<title>Senglea</title>
+			<title>Al-Zafar</title>
+			<title>Al-Ghalib</title>
+			<title>Al-Qadir</title>
+			<title>Al-Muzaffar</title>
 		</civ>
 	</protounit>
 	<protounit>
@@ -1445,9 +1498,9 @@
 			<lastname>Mustafa</lastname>
 			<lastname>Ali</lastname>
 			<lastname>Fazil</lastname>
-			<lastname>Ahmed</lastname>
+			<lastname>Rashid</lastname>
 			<lastname>Africanus</lastname>
-			<lastname>Muhammad</lastname>
+			<lastname>Efendi</lastname>
 			<lastname>Canaqua</lastname>
 			<lastname>Umar al-Sa'di</lastname>
 			<lastname>Reis</lastname>
@@ -1826,6 +1879,40 @@
 			<title>Alessandro Borgia</title>
 		</civ>
 		<civ>
+			BarbaryPirates
+			<firstname>Ayyub </firstname>
+			<firstname>Ali </firstname>
+			<firstname>Hassan </firstname>
+			<firstname>Hussein </firstname>
+			<firstname>Mustafa </firstname>
+			<firstname>Yusuf </firstname>
+			<firstname>Ismail </firstname>
+			<firstname>Hamid </firstname>
+			<firstname>Abdelkader </firstname>
+			<firstname>Murad </firstname>
+			<firstname>Omar </firstname>
+			<firstname>Salih </firstname>
+			<firstname>Yahya </firstname>
+			<firstname>Ibrahim </firstname>
+			<firstname>Abdulrahman </firstname>
+			<firstname>Masin </firstname>
+			<firstname>Tariq </firstname>
+			<lastname>Amrani</lastname>
+			<lastname>Boudjemaa</lastname>
+			<lastname>Boukhalfa</lastname>
+			<lastname>Bouazza</lastname>
+			<lastname>Boumediene</lastname>
+			<lastname>Ben Salah</lastname>
+			<lastname>al-Reis</lastname>
+			<lastname>al-Bahr</lastname>
+			<lastname>al-Din</lastname>
+			<lastname>Pasha</lastname>
+			<lastname>Agha</lastname>
+			<lastname>Dey</lastname>
+			<lastname>al-Mansur</lastname>
+			<lastname>Okba</lastname>
+		</civ>
+		<civ>
 			xpIroquois
 			<title>Raven</title>
 			<title>Black Coat</title>
@@ -1955,6 +2042,10 @@
 		ExplorerMed2
 		<civ>
 			Default
+			<title>Mandos</title>
+		</civ>
+		<civ>
+			Portuguese
 			<firstname>Don </firstname>
 			<firstname>Don </firstname>
 			<firstname>Don </firstname>
@@ -2012,6 +2103,40 @@
 			<lastname>Cermenho</lastname>
 			<lastname>da Cunha</lastname>
 			<lastname>da Gama</lastname>
+		</civ>
+		<civ>
+			BarbaryPirates
+			<firstname>Abdul </firstname>
+			<firstname>Abdullah </firstname>
+			<firstname>Ahmad </firstname>
+			<firstname>Evilya </firstname>
+			<firstname>Kara </firstname>
+			<firstname>Khayreddin </firstname>
+			<firstname>Kilic </firstname>
+			<firstname>Koprulu </firstname>
+			<firstname>Koprulu </firstname>
+			<firstname>Leo </firstname>
+			<firstname>Majid </firstname>
+			<firstname>Giuseppe </firstname>
+			<firstname>Malemo </firstname>
+			<firstname>Muhammad </firstname>
+			<firstname>Piri </firstname>
+			<firstname>Shams </firstname>
+			<firstname>Sokullu </firstname>
+			<lastname>Rahman</lastname>
+			<lastname>ibn Battuta</lastname>
+			<lastname>ibn Majid</lastname>
+			<lastname>Celebi</lastname>
+			<lastname>Mustafa</lastname>
+			<lastname>Ali</lastname>
+			<lastname>Fazil</lastname>
+			<lastname>Rashid</lastname>
+			<lastname>Africanus</lastname>
+			<lastname>Efendi</lastname>
+			<lastname>Canaqua</lastname>
+			<lastname>Umar al-Sa'di</lastname>
+			<lastname>Reis</lastname>
+			<lastname>Mehmed</lastname>
 		</civ>
 	</protounit>
 	<protounit>
@@ -2886,6 +3011,17 @@
 			<title>Fort Tigne</title>
 			<title>Fort Madalena</title>
 		</civ>
+		<civ>
+			BarbaryPirates
+			<title>Fort al-Sultan</title>
+			<title>Fort Kasbah</title>
+			<title>Fort Ribat</title>
+			<title>Fort El Gazanaya</title>
+			<title>Fort El Kebir</title>
+			<title>Fort El Fanar</title>
+			<title>Fort Moulay</title>
+			<title>Fort Borj</title>
+		</civ>
 	</protounit>
 	<protounit>
 		NativeScout
@@ -3576,6 +3712,20 @@
 			<title>Qortin</title>
 			<title>Borgo Vilhena</title>
 		</civ>
+		<civ>
+			BarbaryPirates
+			<title>Sale</title>
+			<title>Rabat</title>
+			<title>Tetouan</title>
+			<title>Oran</title>
+			<title>Bizerte</title>
+			<title>Annaba</title>
+			<title>Mahdia</title>
+			<title>Sfax</title>
+			<title>Mostaganem</title>
+			<title>Derna</title>
+			<title>Misrata</title>
+		</civ>
 	</protounit>
 	<protounit>
 		WarLeader
@@ -3879,6 +4029,55 @@
 			<title>Church of the Annunciation</title>
 			<title>Church St. Francis of Assisi</title>
 			<title>Church St. Lawrence</title>
+		</civ>
+		<civ>
+			BarbaryPirates
+			<title>Mosque Ketchaoua</title>
+			<title>Mosque Zaytuna</title>
+			<title>Mosque Sidi Mahrez</title>
+			<title>Mosque Sidi Bou Said</title>
+			<title>Mosque Andalusian</title>
+			<title>Mosque Sidi Youssef</title>
+		</civ>
+	</protounit>
+	<protounit>
+		BasilicaIt
+		<civ>
+			Default
+			<title>Basilica</title>
+		</civ>
+		<civ>
+			Italians
+			<title>Basilica Santi Cosma e Damiano</title>
+			<title>Basilica Santa Pudenziana</title>
+			<title>Basilica di San Lorenzo</title>
+			<title>Basilica San Nazaro in Brolo</title>
+			<title>Basilica Santi Giovanni e Paolo</title>
+		</civ>
+	</protounit>
+	<protounit>
+		Mosque
+		<civ>
+			Default
+			<title>Mosque</title>
+		</civ>
+		<civ>
+			Ottomans
+			<title>Mosque Sultanahmet</title>
+			<title>Mosque Masjid al-Haram</title>
+			<title>Mosque Suleymaniye</title>
+			<title>Mosque Yeni Cami</title>
+			<title>Mosque Eyup</title>
+			<title>Mosque Sehzade</title>
+		</civ>
+		<civ>
+			BarbaryPirates
+			<title>Mosque Ketchaoua</title>
+			<title>Mosque Zaytuna</title>
+			<title>Mosque Sidi Mahrez</title>
+			<title>Mosque Sidi Bou Said</title>
+			<title>Mosque Andalusian</title>
+			<title>Mosque Sidi Youssef</title>
 		</civ>
 	</protounit>
 	<protounit>

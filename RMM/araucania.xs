@@ -31,7 +31,6 @@ The native settlements here are Mapuche or Inca. The Mapuche are more common.
 // PJJ - modifying script for YPack update
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -211,8 +210,6 @@ void main(void)
 // Defining classes
 int classStartingUnits = rmDefineClass("Starting Units");
 	
-	// Choose Mercs
-	chooseMercs();
 
 
 //********************************************************************************//
@@ -1124,7 +1121,7 @@ int classStartingUnits = rmDefineClass("Starting Units");
 
    // Whales - North
    int northWhales=rmCreateObjectDef(" North whales");
-   rmAddObjectDefItem(northWhales, "HumpbackWhale", 1, 0.0);
+   rmAddObjectDefItem(northWhales, "MinkeWhale", 1, 0.0);
    rmSetObjectDefMinDistance(northWhales, 0.0);
    rmSetObjectDefMaxDistance(northWhales, rmZFractionToMeters(0.6));
    rmAddObjectDefConstraint(northWhales, northTeam);
@@ -1134,7 +1131,7 @@ int classStartingUnits = rmDefineClass("Starting Units");
 
    // Whales - South
    int southWhales=rmCreateObjectDef(" South whales");
-   rmAddObjectDefItem(southWhales, "HumpbackWhale", 1, 0.0);
+   rmAddObjectDefItem(southWhales, "MinkeWhale", 1, 0.0);
    rmSetObjectDefMinDistance(southWhales, 0.0);
    rmSetObjectDefMaxDistance(southWhales, rmZFractionToMeters(0.6));
    rmAddObjectDefConstraint(southWhales, southTeam);

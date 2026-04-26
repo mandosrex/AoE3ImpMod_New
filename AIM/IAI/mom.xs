@@ -48,8 +48,8 @@ void buildingMonitor()
 	static int pSlot = -1;
 	static int pHouseDifCap = 10;
 
-	const int pBuildingPriArraySize = 21;
-	const int pBuildingArraySize = 21;
+	const int pBuildingPriArraySize = 22;
+	const int pBuildingArraySize = 22;
 	pUnitScore = 0;
 	pHighestValue = -1;
 	pSlot = -1;
@@ -79,6 +79,7 @@ void buildingMonitor()
 		xsArraySetInt(pBuildingArray, 18, cUnitTypeypSacredField);
 		xsArraySetInt(pBuildingArray, 19, cUnitTypeWarTent);
 		xsArraySetInt(pBuildingArray, 20, cUnitTypeSPCFortCenter);
+		xsArraySetInt(pBuildingArray, 21, cUnitTypeStockades);
 		pFirstRun = false;
 	} //end if
 
@@ -133,6 +134,22 @@ void buildingMonitor()
 	kbProtoUnitAvailable(gMarketUnit) == false || 
 	checkBuildingPlan(gMarketUnit) != -1)  pUnitScore = 0;
 	xsArraySetInt(pBuildingPriArray, 4, pUnitScore);
+
+
+	//stockades score
+	if(gCurrentCiv == cCivBarbaryPirates)
+	{
+		pUnitScore = 0;
+		if(kbUnitCount(cMyID, cUnitTypeStockades, cUnitStateABQ) < kbGetBuildLimit(cMyID, cUnitTypeStockades)) pUnitScore = 3;
+		if(gMainTownCenter == -1 || 
+		kbUnitCount(cMyID, cUnitTypeStockades, cUnitStateQueued) > 0 ||
+		kbUnitCount(cMyID, cUnitTypeStockades, cUnitStateBuilding) > 0 ||
+		gCurrentWood < kbUnitCostPerResource(cUnitTypeStockades, cResourceWood) ||
+		checkBuildingLimit(cUnitTypeStockades) == true || 
+		kbProtoUnitAvailable(cUnitTypeStockades) == false || 
+		checkBuildingPlan(cUnitTypeStockades) != -1)  pUnitScore = 0;
+		xsArraySetInt(pBuildingPriArray, 21, pUnitScore);
+	}
 
 
 	//barrack score
@@ -1700,6 +1717,16 @@ void ageUpgradeMonitor(void)
 	{ //check for native 
 		debugRule("ageUpgradeMonitor - navtive age up",1);
 		gAgeUpResearchPlan = createSimpleResearchPlan(chooseNativeCouncilMember(), -1, cEmergencyEscrowID, 100);
+	} //end else if
+	else if (gCurrentCiv == cCivUSA)
+	{ //check for native 
+		debugRule("ageUpgradeMonitor - USA age up",1);
+		gAgeUpResearchPlan = createSimpleResearchPlan(chooseUSAPolitician(), -1, cEmergencyEscrowID, 100);
+	} //end else if
+	else if (gCurrentCiv == cCivColombians)
+	{ //check for native 
+		debugRule("ageUpgradeMonitor - Colombians age up",1);
+		gAgeUpResearchPlan = createSimpleResearchPlan(chooseColombiansPolitician(), -1, cEmergencyEscrowID, 100);
 	} //end else if
 	else
 	{ //euro age up
@@ -3592,6 +3619,7 @@ void wagonMonitor()
 				{
 					if(wagonCheck(cUnitTypeypMonastery,pWagonId)) continue;
 					else if(wagonCheck(cUnitTypeMosque,pWagonId)) continue;
+					else if(wagonCheck(cUnitTypeMosqueBar,pWagonId)) continue;
 					else if(wagonCheck(gChurchUnit,pWagonId)) continue;
 					else debugRule("wagonMonitor - Warning " + kbUnitGetProtoUnitID(pWagonId) + " no build option found" ,3);
 					continue; break;
@@ -3674,6 +3702,7 @@ void wagonMonitor()
 				{
 					if(wagonCheck(cUnitTypeSPCFortCenterJ,pWagonId)) continue;
 					else if(wagonCheck(cUnitTypeSPCFortCenter,pWagonId)) continue;
+					else if(wagonCheck(cUnitTypeFortCenterBar,pWagonId)) continue;
 					else if(wagonCheck(cUnitTypeMosque,pWagonId)) continue;
 					else debugRule("wagonMonitor - Warning " + kbUnitGetProtoUnitID(pWagonId) + " no build option found" ,3);
 					continue; break;
@@ -3708,6 +3737,12 @@ void wagonMonitor()
 				{
 					if(wagonCheck(cUnitTypeYPDockAsian,pWagonId)) continue;
 					else if(wagonCheck(cUnitTypeDock,pWagonId)) continue;
+					else debugRule("wagonMonitor - Warning " + kbUnitGetProtoUnitID(pWagonId) + " no build option found" ,3);
+					continue; break;
+				}
+				case cUnitTypeSlaveEuropean:
+				{
+					if(wagonCheck(cUnitTypeArtilleryDepotBar,pWagonId)) continue;
 					else debugRule("wagonMonitor - Warning " + kbUnitGetProtoUnitID(pWagonId) + " no build option found" ,3);
 					continue; break;
 				}

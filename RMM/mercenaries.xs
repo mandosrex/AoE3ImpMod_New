@@ -23,10 +23,10 @@ void chooseMercs(void)
       
 		rmAddTriggerEffect("Send Chat As String");
 		rmSetTriggerEffectParam("PlayerID", "0", false);
-		rmSetTriggerEffectParam("Message", "<font=MainMenuButtons 18><color=1,0,0>  KotH Monument failed to spawn; please restart the game", false);
+		rmSetTriggerEffectParam("Message", "<font=MainMenuButtons 18><color=1,0,0>  KotH Monument failed to spawn; please restart", false);
 
 		rmAddTriggerEffect("Win Message As String");
-		rmSetTriggerEffectParam("Text", "KotH Monument failed to spawn; please restart the game", false);
+		rmSetTriggerEffectParam("Text", "KotH Monument failed to spawn; please restart", false);
 		rmSetTriggerEffectParam("Sound", "default", false);
 		rmSetTriggerEffectParam("IgnoreUserControls", "true", false);
 		

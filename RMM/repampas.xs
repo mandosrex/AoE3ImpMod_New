@@ -2,7 +2,6 @@
 // revised for fan patch by RF-Gandalf
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -55,7 +54,6 @@ void main(void)
    rmSetWorldCircleConstraint(true);
    rmSetWindMagnitude(2.0);
 
-   chooseMercs();		
 	
 // *********************** DEFINE CLASSES *********************
    int classPlayer=rmDefineClass("player");
@@ -599,8 +597,6 @@ void main(void)
 		rmPlaceObjectDefAtLoc(startSilver2ID, 0, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
 		rmPlaceObjectDefAtLoc(farDeerID, 0, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
 
-    		if(ypIsAsian(i) && rmGetNomadStart() == false)
-      		rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 0), i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
 
 		if (rmGetNomadStart())
 		{

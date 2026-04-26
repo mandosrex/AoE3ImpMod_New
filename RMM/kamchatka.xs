@@ -2,7 +2,6 @@
 // designed by Garja
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -80,8 +79,6 @@ void main(void)
 	// Make the corners.
 	rmSetWorldCircleConstraint(true);
 
-	// Choose Mercs
-	chooseMercs();
 	
 	// Text
 	rmSetStatusText("",0.10);
@@ -1051,8 +1048,6 @@ void main(void)
 		rmPlaceObjectDefAtLoc(CaribouID5, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 		rmPlaceObjectDefAtLoc(CaribouID6, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 		
-		if(ypIsAsian(i) && rmGetNomadStart() == false)
-		rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 1), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 
 		vector closestPoint = rmFindClosestPointVector(TCLoc, rmXFractionToMeters(1.0));
 

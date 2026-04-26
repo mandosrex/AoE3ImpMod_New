@@ -3,7 +3,6 @@
 // Dec 2006
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -96,7 +95,6 @@ void main(void)
 	rmSetWorldCircleConstraint(true);
 	rmSetWindMagnitude(2.0);
 
-	chooseMercs();
 	
 // Classes
 	int classPlayer=rmDefineClass("player");
@@ -626,9 +624,6 @@ void main(void)
 			}
 		}
     
-    		//Japanese
-    		if(ypIsAsian(i) && rmGetNomadStart() == false)
-      		rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
     
     		// Food
 		rmPlaceObjectDefAtLoc(StartBerriesID, 0, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));

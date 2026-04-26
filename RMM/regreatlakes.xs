@@ -2,7 +2,6 @@
 // edited for the AS fan patch by RF_Gandalf
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -144,7 +143,6 @@ void main(void)
 		rmSetGlobalSnow( 1.0 );
 	}
 
-	chooseMercs();
 
 	// Corner constraint.
 	rmSetWorldCircleConstraint(true);
@@ -682,8 +680,6 @@ if (seasonPicker < 0.5)
 
 	rmPlaceObjectDefAtLoc(startingUnits, i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
 
-    	if(ypIsAsian(i) && rmGetNomadStart() == false)
-         rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, berry), i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
     
 	rmPlaceObjectDefAtLoc(StartAreaTreeID, 0, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
 	rmPlaceObjectDefAtLoc(StartAreaTree2ID, 0, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));

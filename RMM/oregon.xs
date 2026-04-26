@@ -3,7 +3,6 @@
 // by RF_Gandalf
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -63,8 +62,6 @@ void main(void)
 	rmSetMapType("namerica");
 	rmSetLightingSet("pampas");
 
-	// Choose mercs.
-	chooseMercs();
 
 	// Corner constraint.
 	rmSetWorldCircleConstraint(false);

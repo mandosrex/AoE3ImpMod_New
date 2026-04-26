@@ -1,8 +1,8 @@
 // Himalayas - started with a modified version of Rockies.
 // Aug 06
 // PJJ
+
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -80,7 +80,6 @@ void main(void)
   rmSetMapType("land");
   rmSetWorldCircleConstraint(true);
 
-  chooseMercs();
 
   // Define some classes. These are used later for constraints.
 
@@ -475,9 +474,6 @@ void main(void)
     // Placing starting trees
     rmPlaceObjectDefAtLoc(StartAreaTreeID, 0, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 
-    // japanese
-    if(ypIsAsian(i) && rmGetNomadStart() == false)
-      rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 
     // Place a nugget for the player
     rmSetNuggetDifficulty(1, 1);

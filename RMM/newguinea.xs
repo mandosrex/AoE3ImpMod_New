@@ -3,7 +3,6 @@
 // by RF_Gandalf
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -47,7 +46,6 @@ void main(void)
          cliffType = "ceylon";
    }
 
-	chooseMercs();
 
    // Picks the map size
    	int playerTiles=20000;

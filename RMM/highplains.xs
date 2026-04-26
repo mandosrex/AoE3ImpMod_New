@@ -3,7 +3,6 @@
 
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 
@@ -53,8 +52,6 @@ void main(void)
 	// Wind
 //	rmSetWindMagnitude(2.0);
 
-	// Choose Mercs
-	chooseMercs();
 	
 	// Text
 	rmSetStatusText("",0.10);
@@ -867,8 +864,6 @@ void main(void)
 		if (nugget0count == 2)
 			rmPlaceObjectDefAtLoc(playerNuggetID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 				
-		if(ypIsAsian(i) && rmGetNomadStart() == false)
-		rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 1), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 
 		vector closestPoint = rmFindClosestPointVector(TCLoc, rmXFractionToMeters(1.0));
 

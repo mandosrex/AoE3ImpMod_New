@@ -14,7 +14,6 @@
 // ------------------------------------------------------ Initialization ------------------------------------------------------------------------
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -84,7 +83,6 @@ void main(void)
    int numTries = -1;
    int failCount = -1;
 
-	chooseMercs();
 
 
 // ------------------------------------------------------ Contraints ---------------------------------------------------------------------------
@@ -269,9 +267,6 @@ else
 	int teamZeroCount = rmGetNumberPlayersOnTeam(0);
 	int teamOneCount = rmGetNumberPlayersOnTeam(1);
 
-
-		teamZeroCount = cNumberNonGaiaPlayers/2;
-		teamOneCount = cNumberNonGaiaPlayers/2;
 
 		if (cNumberTeams ==2)
 		{
@@ -594,8 +589,6 @@ else
 	{
 		rmPlaceObjectDefAtLoc(startingTCID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
     
-    		if(ypIsAsian(i) && rmGetNomadStart() == false)
-      		rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 1), i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
     
 		rmPlaceObjectDefAtLoc(startingUnits, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 

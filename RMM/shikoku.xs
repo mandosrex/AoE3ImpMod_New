@@ -1,7 +1,6 @@
 /* Durokan's  Jebel Musa - February 16 2020 Version 1.4.0*/
 
 	include "mercenaries.xs";
-	include "ypAsianInclude.xs";
 	include "ypKOTHInclude.xs";
 
 	void main(void) { 
@@ -117,7 +116,7 @@
 			rmSetPlacementSection(0.22, 0.78);
 			rmPlacePlayersCircular(0.4, 0.4, 0.02);
 		}
-		chooseMercs();
+
 		rmSetStatusText("",0.1);
 		
 		int continent = rmCreateArea("big huge continent");

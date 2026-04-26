@@ -6,7 +6,6 @@
 // Nov 2006 - Update to include Asians
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -86,7 +85,6 @@ void main(void)
 	rmSetMapType("AIFishingUseful");
    rmSetLightingSet("carolina");
 
-	chooseMercs();
 
    // Define some classes. These are used later for constraints.
    int classPlayer=rmDefineClass("player");
@@ -702,8 +700,6 @@ void main(void)
 
 		rmPlaceObjectDefAtLoc(waterFlagID, i, rmXMetersToFraction(xsVectorGetX(closestPoint)), rmZMetersToFraction(xsVectorGetZ(closestPoint)));
     
-    if(ypIsAsian(i) && rmGetNomadStart() == false)
-      rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
 
 		if ( rmGetNomadStart())
 		{

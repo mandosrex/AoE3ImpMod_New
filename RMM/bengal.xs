@@ -2,7 +2,6 @@
 // designed by Garja
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -48,8 +47,6 @@ void main(void)
 	rmSetMapType("asia");
 	rmSetLightingSet("bayou");
 
-	// Choose Mercs
-	chooseMercs();
 	
 	// Make it rain
 	rmSetGlobalRain(0.9);
@@ -191,9 +188,6 @@ void main(void)
 	
 	int teamZeroCount = rmGetNumberPlayersOnTeam(0);
 	int teamOneCount = rmGetNumberPlayersOnTeam(1);
-
-		teamZeroCount = cNumberNonGaiaPlayers/2;
-		teamOneCount = cNumberNonGaiaPlayers/2;
 	
 
 		if (cNumberTeams <= 2) // 1v1 and TEAM
@@ -840,9 +834,6 @@ void main(void)
 //		if (nugget0count == 2)
 //			rmPlaceObjectDefAtLoc(playerNuggetID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 				
-		if(ypIsAsian(i) && rmGetNomadStart() == false)
-			rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
-		vector closestPoint = rmFindClosestPointVector(TCLoc, rmXFractionToMeters(1.0));
 
 		if ( rmGetNomadStart())
 		{

@@ -3,7 +3,6 @@
 // A Random map script for AOE3: The Asian Dynasties
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -202,7 +201,7 @@ void main(void)
    rmSetMapType("water");
    rmSetWorldCircleConstraint(true);
    rmSetWindMagnitude(2.0);
-   chooseMercs();
+
 
 // Define some classes.
    int classPlayer=rmDefineClass("player");
@@ -2359,8 +2358,6 @@ rmBuildTradeRoute(tradeRouteID, tradeRouteType);
 
 	vector TCLoc = rmGetUnitPosition(rmGetUnitPlacedOfPlayer(startingTCID, i));
 
-      if(ypIsAsian(i) && rmGetNomadStart() == false)
-        rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 
 		if ( rmGetNomadStart())
 		{

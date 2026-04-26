@@ -1,8 +1,8 @@
 // Mongolia
 // PJJ & JH
 // edited by RF_Gandalf for the AS_Fan Patch
+
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -94,7 +94,6 @@ void main(void)
 	rmSetMapType("asia");
 
 	rmTerrainInitialize(baseMix, 0);
-	chooseMercs();
 
 	// Define some classes. These are used later for constraints.
 	int classPlayer=rmDefineClass("player");
@@ -642,15 +641,6 @@ void main(void)
     	rmPlaceObjectDefAtLoc(StartHuntable1ID, 0, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
     	rmPlaceObjectDefAtLoc(StartBerriesID, 0, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
     
-    // Starter buildings - Japanese, Indians
-    if(ypIsAsian(i) && rmGetNomadStart() == false) {
-      rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
-      //~ rmPlaceObjectDefAtLoc(playerCrateID2, i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
-    }
-    
-    else if (rmGetPlayerCiv(i) == rmGetCivID("Indians")) {
-      //~ rmPlaceObjectDefAtLoc(playerCrateID2, i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
-    }
 
     		// crates!
     		if (rmGetNomadStart() == false)

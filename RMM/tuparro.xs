@@ -5,9 +5,7 @@ by dansil92
 ===========
 */
 
-
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -125,7 +123,6 @@ void main(void)
 	}
 
 	
-        chooseMercs();
         rmSetStatusText("",0.1); 
        
 

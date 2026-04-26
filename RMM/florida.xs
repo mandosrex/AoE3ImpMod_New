@@ -3,7 +3,6 @@
 // observer UI by Aizmak
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -55,8 +54,6 @@ void main(void)
 		rmSetGlobalRain( 0.3 );
 
 	
-	// Choose Mercs
-	chooseMercs();
 	
 	// Text
 	rmSetStatusText("",0.10);
@@ -185,6 +182,7 @@ void main(void)
 	
 	int teamZeroCount = rmGetNumberPlayersOnTeam(0);
 	int teamOneCount = rmGetNumberPlayersOnTeam(1);
+
 
 		if (cNumberTeams <= 2) // 1v1 and TEAM
 		{
@@ -1216,13 +1214,8 @@ void main(void)
 
 		if(rmGetNomadStart() == false)
 		{
-			if (rmGetPlayerCiv(i) ==  rmGetCivID("Chinese") || rmGetPlayerCiv(i) == rmGetCivID("Indians"))
+			if (rmGetPlayerCiv(i) ==  rmGetCivID("Chinese") || rmGetPlayerCiv(i) == rmGetCivID("Indians") || rmGetCivID("Japanese"))
 				rmPlaceObjectDefAtLoc(playerAsianMarketID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
-			else if(rmGetPlayerCiv(i) ==  rmGetCivID("Japanese"))
-			{
-				rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 1), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
-				rmPlaceObjectDefAtLoc(playerAsianMarketID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));  
-			}
 			else if(rmGetPlayerCiv(i) ==  rmGetCivID("Ottomans"))
 			{
 				rmPlaceObjectDefAtLoc(playerOttomanMarketID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));

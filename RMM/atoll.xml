@@ -1,0 +1,4 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130288" imagepath = "ui\random_maps\atoll\atoll" displayNameID = "130287" cannotReplace = "" loadDetails="130289" loadBackground="ui\random_maps\oceania_map">
+	<loadss>ui\random_maps\atoll\atoll</loadss>
+</mapinfo>

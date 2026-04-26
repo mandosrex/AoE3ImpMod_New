@@ -1020,7 +1020,7 @@ void militaryTrainManager()
 		}
 		default:
 		{
-			millPop = 300;
+			millPop = 200;
 		}
 	}
 	
@@ -1032,7 +1032,7 @@ void militaryTrainManager()
 				mainCav = cUnitTypeHussar;
 				mainCavlow = cUnitTypeHussar;
 				antiCav = cUnitTypeDragoon;
-				mainArt = cUnitTypexpHorseArtillery;
+				mainArt = cUnitTypeFalconet;
 				mainArtlow = cUnitTypeFalconet;
 				mainArtAnti = cUnitTypeCulverin;
 				mainINF = cUnitTypeMusketeer;
@@ -1083,7 +1083,7 @@ void militaryTrainManager()
 				mainCav = cUnitTypeLancer;
 				mainCavlow = cUnitTypeHussar;
 				antiCav = cUnitTypeDragoon;
-				mainArt = cUnitTypexpHorseArtillery;
+				mainArt = cUnitTypeFalconet;
 				mainArtlow = cUnitTypeFalconet;
 				mainArtAnti = cUnitTypeCulverin;
 				mainINF = cUnitTypeRodelero;
@@ -1114,7 +1114,7 @@ void militaryTrainManager()
 				mainCav = cUnitTypeHussar;
 				mainCavlow = cUnitTypeHussar;
 				antiCav = cUnitTypeDragoon;
-				mainArt = cUnitTypexpHorseArtillery;
+				mainArt = cUnitTypeFalconet;
 				mainArtlow = cUnitTypeFalconet;
 				mainArtAnti = cUnitTypeCulverin;
 				mainINF = cUnitTypeMusketeer;
@@ -1140,7 +1140,7 @@ void militaryTrainManager()
 				mainCav = cUnitTypeHussar;
 				mainCavlow = cUnitTypeHussar;
 				antiCav = cUnitTypeDragoon;
-				mainArt = cUnitTypexpHorseArtillery;
+				mainArt = cUnitTypeOrganGun;
 				mainArtlow = cUnitTypeOrganGun;
 				mainArtAnti = cUnitTypeCulverin;
 				mainINF = cUnitTypeMusketeer;
@@ -1171,7 +1171,7 @@ void militaryTrainManager()
 				mainCav = cUnitTypeHussar;
 				mainCavlow = cUnitTypeHussar;
 				antiCav = cUnitTypeRuyter;
-				mainArt = cUnitTypexpHorseArtillery;
+				mainArt = cUnitTypeFalconet;
 				mainArtlow = cUnitTypeFalconet;
 				mainArtAnti = cUnitTypeCulverin;
 				mainINF = cUnitTypeMusketeer; 
@@ -1197,7 +1197,7 @@ void militaryTrainManager()
 				mainCav = cUnitTypeOprichnik;
 				mainCavlow = cUnitTypeCossack;
 				antiCav = cUnitTypeCavalryArcher;
-				mainArt = cUnitTypexpHorseArtillery;
+				mainArt = cUnitTypeFalconet;
 				mainArtlow = cUnitTypeFalconet;
 				mainArtAnti = cUnitTypeCulverin;
 				mainINF = cUnitTypeMusketeer;
@@ -1222,7 +1222,7 @@ void militaryTrainManager()
 				mainCav = cUnitTypeWarWagon;
 				mainCavlow = cUnitTypeUhlan;
 				antiCav = cUnitTypeWarWagon;
-				mainArt = cUnitTypexpHorseArtillery;
+				mainArt = cUnitTypeFalconet;
 				mainArtlow = cUnitTypeFalconet;
 				mainArtAnti = cUnitTypeCulverin;
 				mainINF = cUnitTypeDopplesoldner;
@@ -1249,7 +1249,7 @@ void militaryTrainManager()
 				mainCav = cUnitTypeSpahi;
 				mainCavlow = cUnitTypeHussar;
 				antiCav = cUnitTypeCavalryArcher;
-				mainArt = cUnitTypexpHorseArtillery;
+				mainArt = cUnitTypeFalconet;
 				mainArtlow = cUnitTypeFalconet;
 				mainArtAnti = cUnitTypeCulverin;
 				mainINF = cUnitTypeAzap;
@@ -1263,6 +1263,27 @@ void militaryTrainManager()
 				antiCAVINF = cUnitTypeJanissary;
 				antiCAVlow = cUnitTypeGrenadier;
 				baseCavAnti = cUnitTypeJanissary;
+				break;
+			}
+		case cCivBarbaryPirates:
+			{
+				mainCav = cUnitTypeypRepentantWanderingHorseman;
+				mainCavlow = cUnitTypeypRepentantOutlawRider;
+				antiCav = cUnitTypeypRepentantOutlawRider;
+				mainArt = cUnitTypeFalconet;
+				mainArtlow = cUnitTypeFalconet;
+				mainArtAnti = cUnitTypeCulverin;
+				mainINF = cUnitTypeypRepentantSmuggler;
+				mainINFlow = cUnitTypeypRepentantThuggee;
+				antiHI = cUnitTypeypRepentantPiratePistol;
+				antiHIlow = cUnitTypeypRepentantPirate;
+				antiLI = cUnitTypeypRepentantPiratePistol;
+				antiLIlow = cUnitTypeypRepentantPirate;
+				antiLC = cUnitTypeypRepentantThuggee;
+				antiLClow = cUnitTypeypRepentantOutlawPistol;
+				antiCAVINF = cUnitTypeypRepentantThuggee;
+				antiCAVlow = cUnitTypeypRepentantOutlawRifleman;
+				baseCavAnti = cUnitTypeypRepentantPirate;
 				break;
 			}
 		case cCivXPIroquois:
@@ -1345,30 +1366,28 @@ void militaryTrainManager()
 			}
 		case cCivUSA:
 			{
-
-				mainCav = cUnitTypeUSSaberSquad2;
-				mainCavlow = cUnitTypeUSSaberSquad2;
-				antiCav = cUnitTypeUSSaberSquad2;
-				mainArt = cUnitTypexpHorseArtillery;
+				mainCav = cUnitTypeSaber;
+				mainCavlow = cUnitTypeHussar;
+				antiCav = cUnitTypeDragoon;
+				mainArt = cUnitTypeFalconet;
 				mainArtlow = cUnitTypeFalconet;
 				mainArtAnti = cUnitTypeCulverin;
-				mainINF = cUnitTypeUSColonialMarines2;
-				mainINFlow = cUnitTypeUSColonialMarines2;
-				antiHI = cUnitTypeUSColonialMilitia;
-				antiHIlow = cUnitTypeGrenadier;
-				antiLI = cUnitTypeUSGatlingGuns2;
-				antiLIlow = cUnitTypeUSColonialMarines2;
-				antiLC = cUnitTypeRiflemanUS;
-				antiLClow = cUnitTypeUSColonialMarines2;
-				antiCAVINF = cUnitTypeUSColonialMarines2;
-				antiCAVlow = cUnitTypeUSColonialMarines2;
-				baseCavAnti = cUnitTypeUSColonialMarines2;
-				if (gCurrentAge > cAge2)
+				mainINF = cUnitTypeMarine;
+				mainINFlow = cUnitTypeHalberdier;
+				antiHI = cUnitTypeGrenadier;
+				antiHIlow = cUnitTypeLongbowman;
+				antiLI = cUnitTypePikeman;
+				antiLIlow = cUnitTypeGrenadier;
+				antiLC = cUnitTypeLongbowman;
+				antiLClow = cUnitTypeLongbowman;
+				antiCAVINF = cUnitTypePikeman;
+				antiCAVlow = cUnitTypeMusketeer;
+				baseCavAnti = cUnitTypePikeman;
+
+				if (gCurrentAge < cAge3)
 				{
-					antiCav = cUnitTypeRiflemanUS;
-					antiHI = cUnitTypeRiflemanUS;
-				}			
-				
+					mainINF = cUnitTypeMarine;
+				}
 				break;
 			}		
 		case cCivSwedish:
@@ -1376,9 +1395,9 @@ void militaryTrainManager()
 				mainCav = cUnitTypePistolS;
 				mainCavlow = cUnitTypeHussar;
 				antiCav = cUnitTypeDragoon;
-				mainArt = cUnitTypexpHorseArtillery;
+				mainArt = cUnitTypeFalconet;
 				mainArtlow = cUnitTypeFalconet;
-				mainArtAnti = cUnitTypeCulverin;
+				mainArtAnti = cUnitTypeSaker;
 				mainINF = cUnitTypeHandgonne;
 				mainINFlow = cUnitTypeMusketeer;
 				antiHI = cUnitTypeSharpshooterS;
@@ -1407,8 +1426,8 @@ void militaryTrainManager()
 				mainCav = cUnitTypeHussar;
 				mainCavlow = cUnitTypeHussar;
 				antiCav = cUnitTypeMountedCrossbowman;
-				mainArt = cUnitTypexpHorseArtillery;
-				mainArtlow = cUnitTypeFalconet;
+				mainArt = cUnitTypeCarronadeGun;
+				mainArtlow = cUnitTypeCarronadeGun;
 				mainArtAnti = cUnitTypeCulverin;
 				mainINF = cUnitTypeMusketeer;
 				mainINFlow = cUnitTypeMusketeer;
@@ -1479,31 +1498,33 @@ void militaryTrainManager()
 			}
 			case cCivColombians:
 			{
-				
 				mainCav = cUnitTypeHussar;
 				mainCavlow = cUnitTypeHussar;
 				antiCav = cUnitTypeDragoon;
-				mainArt = cUnitTypexpHorseArtillery;
+				mainArt = cUnitTypeFalconet;
 				mainArtlow = cUnitTypeFalconet;
 				mainArtAnti = cUnitTypeCulverin;
 				mainINF = cUnitTypeMusketeer;
-				mainINFlow = cUnitTypeUSColonialMilitia;
-				antiHI = cUnitTypeUSGatlingGun;
+				mainINFlow = cUnitTypeHalberdier;
+				antiHI = cUnitTypeCacadore;
 				antiHIlow = cUnitTypeCrossbowman;
 				antiLI = cUnitTypePikeman;
-				antiLIlow = cUnitTypeUSColonialMilitia;
-				antiLC = cUnitTypeypConsulateGuerreiros;
+				antiLIlow = cUnitTypeMusketeer;
+				antiLC = cUnitTypeCacadore;
 				antiLClow = cUnitTypeCrossbowman;
 				antiCAVINF = cUnitTypePikeman;
-				antiCAVlow = cUnitTypeUSColonialMilitia;
+				antiCAVlow = cUnitTypeMusketeer;
 				baseCavAnti = cUnitTypePikeman;
 
 				if (gCurrentAge > cAge3)
 				{
-					antiHIlow = cUnitTypeypConsulateGuerreiros;
-					antiLClow = cUnitTypeypConsulateGuerreiros;
+					antiHIlow = cUnitTypeCacadore;
+					antiLClow = cUnitTypeCacadore;
 				}
-				
+				if (gCurrentAge < cAge3)
+				{
+					mainINF = cUnitTypeMusketeer;
+				}
 				break;
 			}
 			case cCivMaltese:
@@ -1516,7 +1537,6 @@ void militaryTrainManager()
 				mainArt = cUnitTypeFalconet;
 				mainArtlow = cUnitTypeFalconet;
 				mainArtAnti = cUnitTypeCulverin;
-
 				mainINF = cUnitTypeMusketeer;
 				mainINFlow = cUnitTypeMusketeer;
 				antiHI = cUnitTypeMusketeer;
@@ -1540,7 +1560,7 @@ void militaryTrainManager()
 				mainCav = cUnitTypeLancer;
 				mainCavlow = cUnitTypeHussar;
 				antiCav = cUnitTypeDragoon;
-				mainArt = cUnitTypexpHorseArtillery;
+				mainArt = cUnitTypeFalconet;
 				mainArtlow = cUnitTypeFalconet;
 				mainArtAnti = cUnitTypeCulverin;
 				mainINF = cUnitTypeRodelero;

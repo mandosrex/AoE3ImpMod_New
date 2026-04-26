@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <randomMaps displayNameID="66519" imagepath="ui\random_maps\asianmaps" helpTextID="66521" cannotReplace="">
+  <map>atoll</map>
   <map>bengal</map>
   <map>beringstrait</map>
   <map>borneo</map>

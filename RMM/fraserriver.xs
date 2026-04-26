@@ -3,7 +3,6 @@
 // Observer UI by Aizamk
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -54,8 +53,6 @@ void main(void)
 	rmSetMapType("namerica");
     rmSetLightingSet("great plains");
 
-	// Choose Mercs
-	chooseMercs();
 	
 	// Make it snow
 	rmSetGlobalSnow(0.75);  
@@ -798,10 +795,6 @@ void main(void)
 
 		rmPlaceObjectDefAtLoc(playerNuggetID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 
-		if(ypIsAsian(i) && rmGetNomadStart() == false)
-			rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
-
-		vector closestPoint = rmFindClosestPointVector(TCLoc, rmXFractionToMeters(1.0));
 
 		if ( rmGetNomadStart())
 		{

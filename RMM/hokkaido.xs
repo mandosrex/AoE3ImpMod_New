@@ -1,7 +1,6 @@
 /* Durokan's Zuta / El Dorado- September 13 2016 Version 1.0*/
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
  
 void main(void) {
@@ -128,8 +127,6 @@ void main(void) {
 
 		rmSetStatusText("",0.20);
 	
-
-        chooseMercs();
          
         int continent2 = rmCreateArea("continent");
         rmSetAreaSize(continent2, 1.0, 1.0);

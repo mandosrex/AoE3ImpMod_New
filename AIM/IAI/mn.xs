@@ -2,12 +2,12 @@
 ================================================================================
 The Improved AI
 Last updated by
-ageekhere 2024/07/04
-V 3.01
+ageekhere 2025/12/12
+V 3.03
 ================================================================================
 */
 //Global Variables
-extern const string gVersionNumber = "3.01 2024/07/04"; //AI version and last update info
+extern const string gVersionNumber = "3.03 2025/12/12"; //AI version and last update info
 extern const bool gDebugMessage = false; //Enables the debug logger so that it will wright debug logs 
 extern const int gDebugLevel = 100; //Sets the debug logger log depth, the higher the value the more depth
 extern const int gNumResourceTypes = 3; //Holds the number of resource types, which are Food, Wood and Gold, note Fame will not be counted as a resource type
@@ -215,6 +215,17 @@ extern int gAge2PoliticianList = -1; // List of Age 2 European politicians
 extern int gAge3PoliticianList = -1; // List of Age 3 European politicians
 extern int gAge4PoliticianList = -1; // List of Age 4 European politicians
 extern int gAge5PoliticianList = -1; // List of Age 5 European politicians
+
+extern int gAge2USAPoliticianList = -1; // List of Age 2 USA politicians
+extern int gAge3USAPoliticianList = -1; // List of Age 3 USA politicians
+extern int gAge4USAPoliticianList = -1; // List of Age 4 USA politicians
+extern int gAge5USAPoliticianList = -1; // List of Age 5 USA politicians
+
+extern int gAge2ColombiansPoliticianList = -1; // List of Age 2 Colombians politicians
+extern int gAge3ColombiansPoliticianList = -1; // List of Age 3 Colombians politicians
+extern int gAge4ColombiansPoliticianList = -1; // List of Age 4 Colombians politicians
+extern int gAge5ColombiansPoliticianList = -1; // List of Age 5 Colombians politicians
+
 extern int gAge2WonderList = -1; // List of Age 2 Asian age-up wonders
 extern int gAge3WonderList = -1; // List of Age 3 Asian age-up wonders
 extern int gAge4WonderList = -1; // List of Age 4 Asian age-up wonders
@@ -251,6 +262,9 @@ extern int gTradePostManagerTime = 0;
 extern bool gMainBaseUnderAttack = false;
 
 extern int gWaterIslandTradeSocket = -1;
+extern bool gMultiplayerGame = false;
+extern bool gRatedGame = false;
+
 
 //==============================================================================
 /*
@@ -264,6 +278,7 @@ extern int gWaterIslandTradeSocket = -1;
 	Example debugRule("My error",0);
 */
 //==============================================================================
+
 void debugRule(string message = "DEFAULT", int level = -1) //int debugType = -1
 {
 	if (gDebugMessage && level == -1) aiLog("");
@@ -282,6 +297,7 @@ void debugRule(string message = "DEFAULT", int level = -1) //int debugType = -1
 	Example messagePlayers("Ai said hi");
 */
 //==============================================================================
+
 void messagePlayers(string message = "DEFAULT")
 { //Provides on-screen Chat from the AI player
 	debugRule("messagePlayers",-1);
@@ -300,11 +316,25 @@ void messagePlayers(string message = "DEFAULT")
 } //end messagePlayers
 
 //load external xs files
+
 include "IAI/mth.xs"; include "IAI/get.xs"; include "IAI/tls.xs"; include "IAI/acm.xs"; include "IAI/fcs.xs"; include "IAI/cms.xs"; include "IAI/csu.xs"; include "IAI/cpl.xs";
 include "IAI/atm.xs"; include "IAI/aum.xs"; include "IAI/esm.xs"; include "IAI/set.xs"; include "IAI/cbp.xs"; include "IAI/mms.xs"; include "IAI/dah.xs"; include "IAI/mom.xs";
-include "IAI/upr.xs"; include "IAI/rex.xs"; include "IAI/lrn.xs"; include "IAI/crd.xs"; include "IAI/nit.xs"; include "IAI/cha.xs"; include "IAI/ini.xs"; include "IAI/opp.xs";
+
+include "IAI/upr.xs"; 
+include "IAI/rex.xs";
+
+include "IAI/lrn.xs"; 
+ 
+include "IAI/crd.xs";
+ 
+include "IAI/nit.xs"; 
+include "IAI/cha.xs"; 
+include "IAI/ini.xs"; 
+include "IAI/opp.xs";
+
 include "IAI/mpl.xs"; include "IAI/lvy.xs"; include "IAI/lsk.xs"; include "IAI/cht.xs"; include "IAI/eco.xs"; include "IAI/smm.xs"; include "IAI/qry.xs"; include "IAI/kth.xs";
 include "IAI/wat.xs"; include "IAI/ret.xs";
+
 //==============================================================================
 /*
 	waitForStartup
@@ -315,6 +345,7 @@ include "IAI/wat.xs"; include "IAI/ret.xs";
 	Is auto called from ini.xs and mn.xs
 */
 //==============================================================================
+
 rule waitForStartup
 inactive
 minInterval 1
@@ -354,6 +385,137 @@ minInterval 1
 	debugRule("waitForStartup - end", 0);
 } //end waitForStartup
 
+// ------------------------------------------------------
+// Custom log10 implementation using fast-converging series and N-factor fix
+// ------------------------------------------------------
+
+float xmLog10(float x = -1.0)
+{
+    // Initial shortcuts for exact values (based on original intent)
+    if (x == 1.0)
+    {
+        return (0.0);
+    }
+    if (x == 0.5)
+    {
+        return (-0.30103);
+    }
+    if (x == 2.0)
+    {
+        return (0.30103);
+    }
+
+    if (x <= 0.0)
+    {
+        return (-9999.0);
+    }
+
+    // Step 1: Normalize x to range [0.5, 2)
+    float n = 0.0; // Keeping n as int for the counter
+    float orig_x = x;
+
+    while (x > 2.0)
+    {
+        x = x * 0.5;
+        n = n + 1.0;
+    }
+    while (x < 0.5)
+    {
+        x = x * 2.0;
+        n = n - 1.0;
+    }
+
+    // Step 2: Fast-converging series for ln(x) using z = (x-1)/(x+1)
+    float z = (x - 1.0) / (x + 1.0);
+    float z2 = z * z;
+    float z3 = z2 * z;
+    float z5 = z3 * z2;
+    float z7 = z5 * z2;
+    
+    // ln(x) approx = 2 * ( z/1 + z^3/3 + z^5/5 + z^7/7 )
+    float ln_approx = 2.0 * (z + z3 / 3.0 + z5 / 5.0 + z7 / 7.0);
+
+    // Step 3: Convert ln to log10
+    // log10(x) = ln(x) / ln(10) + n * log10(2)
+    
+    // FIX: Multiply n by 1.0 to ensure the result of the multiplication 
+    // is a float, preventing the offset from being truncated to 0.
+    float n_float_offset = n * 0.30102999566;
+
+    float log10_approx = ln_approx / 2.30258509 + n_float_offset;
+    return (log10_approx);
+}
+
+
+
+// ------------------------------------------------------
+// Calculate AI handicap dynamically based on win ratio
+// Uses an ELO-like formula and returns a multiplier (1.0 = normal)
+// ------------------------------------------------------
+
+
+float aiGetHandicap(float wins = 0.0, float games = 0.0)
+{
+    float R_opp = 1300.0;   // baseline ELO
+    float k = 10.0;         // smoothing factor
+    float p_min = 0.01;
+    float p_max = 0.99;
+    
+    // Step 1: Smoothed wins and games (Bayesian estimate)
+    float Wp = wins + 0.5 * k;
+    float Gp = games + k;
+
+    // Step 2: Winrate probability
+    float p = 0.5;  // default if no games
+    if (Gp > 0.0) 
+    {
+        p = Wp / Gp;
+    }
+
+    // Clamp p
+    if (p < p_min) 
+    {
+        p = p_min;
+    }
+    if (p > p_max) 
+    {
+        p = p_max;
+    }
+
+    // Step 3: Ratio for ELO (Used in the log: (1-p)/p)
+    float ratio = (1.0 - p) / p;
+
+    // Step 4: Accurate log10
+    float log10_ratio = xmLog10(ratio);
+
+    // Step 5: ELO calculation
+    // R = R_opp - 400 * log10(ratio)
+    float R_delta = 400.0 * log10_ratio;
+    float R = R_opp - R_delta;
+
+    // Step 6: Handicap multiplier
+    // 1000 ELO = 1.0 handicap (normal)
+    float handicap = R / 1000.0;
+
+    // Clamp handicap
+    if (handicap < 0.5) 
+    {
+        handicap = 0.5;
+    }
+    if (handicap > 2.0) 
+    {
+        handicap = 2.0;
+    }
+    // Step 7: Final summary debug
+
+	int elo = R;
+	int winNum = wins;
+	int playedGames = games;
+	xsNotify("ELO=" + elo + " | Games Won = " + winNum + " | Games Played=" + playedGames + " | Handicap=" + handicap);
+    return (handicap);
+}
+
+
 //==============================================================================
 /*
 	mainRun
@@ -366,6 +528,19 @@ minInterval 1
 //==============================================================================
 void mainRun(void)
 {
+	int humanCount = 0;
+	for (i = 1; < cNumberPlayers - 1)
+	{ //loop through players starting at player 1
+		if (kbIsPlayerHuman(i) == true) 
+		{
+			humanCount = humanCount + 1;
+		}
+	} //end for
+	if(humanCount > 1)
+	{
+		gMultiplayerGame = true;
+	}
+	
 	debugRule("mainRun", -1);
 	gCurrentCiv = kbGetCiv(); debugRule("mainRun - gCurrentCiv " + gCurrentCiv, 0);
 	setUnitTypes();
@@ -377,9 +552,7 @@ void mainRun(void)
 	gNomadStart = kbIsNomad(); debugRule("mainRun - gNomadStart " + gNomadStart, 0); 
 	gTreatyActive = aiTreatyActive(); debugRule("mainRun - gTreatyActive " + gTreatyActive, 0); 
 	gGameType = aiGetGameType(); debugRule("mainRun - gGameType " + gGameType, 0); 
-	
 	gMaxVillPop = kbGetBuildLimit(cMyID, gEconUnit); debugRule("mainRun - gMaxVillPop " + gMaxVillPop, 0);
-
 
 	gNavyFlagUnit = getUnit(cUnitTypeHomeCityWaterSpawnFlag, cMyID); debugRule("mainRun - gNavyFlagUnit " + gNavyFlagUnit, 0); 
 	if (gNavyFlagUnit > 0)
@@ -401,6 +574,8 @@ void mainRun(void)
 	kbLookAtAllUnitsOnMap(); //all Difficulty levels now look at the map at start
 	autoSaveManager(); //Trigger first autosave immediately
 	init();
+	
+	
 
 	if ((gGameType == cGameTypeCampaign) || (gGameType == cGameTypeScenario)) 
 	{ //Set gSPC
@@ -524,8 +699,49 @@ void mainRun(void)
 					else if (gWorldDifficulty == cDifficultyEasy) xsNotify("The Improved AI version " + gVersionNumber + " - So we play on an even playing field, Good Luck");
 					else if (gWorldDifficulty == cDifficultyModerate) xsNotify("The Improved AI version " + gVersionNumber + " - If you do not mind I will help myself to a few coins in the war chest (Handicap 1.2)");
 					else if (gWorldDifficulty == cDifficultyHard) xsNotify("The Improved AI version " + gVersionNumber + " - Ah finally a worthy opponent, Good Luck (Handicap 1.3 + AI EarlyCheats and AI LateCheats)");
-					else if (gWorldDifficulty == cDifficultyExpert) xsNotify("The Improved AI version " + gVersionNumber + " - Now you're in for it! (Handicap 1.6 + AI EarlyCheats and AI LateCheats)");
-					if(kbGetHCLevel(cMyID) < 100) xsNotify("I see that my Home City Level is below 100. As a result, I will not be able to pick my favourite cards, which is a pity");
+					else if (gWorldDifficulty == cDifficultyExpert && gMultiplayerGame == true) xsNotify("The Improved AI version " + gVersionNumber + " - Now you're in for it! (Handicap 1.6 + AI EarlyCheats and AI LateCheats)");
+					
+					else if (gWorldDifficulty == cDifficultyExpert && gMultiplayerGame == false)
+					{
+						string rankType = "";
+						string rankedGamesPlayedType = "";
+						string rankedGamesWonType = "";
+						
+						if(kbIsFFA())
+						{
+							rankType ="FFA";
+							rankedGamesPlayedType = "games_played_FFA";
+							rankedGamesWonType = "games_won_FFA";
+							//FFA
+						}
+						
+						else if(cNumberPlayers == 3)
+						{
+							rankType ="1vs1";
+							rankedGamesPlayedType = "games_played_1vs1";
+							rankedGamesWonType = "games_won_1vs1";
+							//1vs1
+						}
+						else
+						{
+							rankType ="Team";
+							rankedGamesPlayedType = "games_played_teams";
+							rankedGamesWonType = "games_won_teams";
+							//Teams
+						}
+						aiSPSSetString("game_type", rankType);
+
+						if(aiSPSGetBool("game_in_progress") == true)
+						{
+							float gamesPlayed = aiSPSGetFloat(rankedGamesPlayedType);
+							gamesPlayed = gamesPlayed + 1.0;
+							aiSPSSetFloat(rankedGamesPlayedType,gamesPlayed);
+						}
+						xsNotify("The Improved AI version " + gVersionNumber + " - Rated " + rankType + " Game");	
+						kbSetPlayerHandicap(cMyID, aiGetHandicap(aiSPSGetFloat(rankedGamesWonType), aiSPSGetFloat(rankedGamesPlayedType)));		
+						aiSPSSetBool("game_in_progress", true);
+						gRatedGame = true;
+					}
 				} //end if
 				break; //ai was found break so other ai's do not resend message
 			} //end if
@@ -554,6 +770,7 @@ void mainRun(void)
 			
 		}
 	}
+	if(kbGetCiv() == cCivColombians) messagePlayers("This civilization is still under development and not complete");
 	debugRule("mainRun - end", 0);
 } //end main
 
@@ -566,7 +783,7 @@ void mainRun(void)
 rule settlerGarrison
 inactive
 minInterval 1
-//void garrison()
+void garrison()
 {
 	if (aiTreatyActive() == true) return;
 	static int timeout = 0;
@@ -656,6 +873,7 @@ minInterval 1
 			}
 		}
 	}
+	
 }
 */
 //==============================================================================
@@ -669,7 +887,8 @@ minInterval 1
 rule mainTimer
 active
 minInterval 0
-{	
+{
+
 	debugRule("mainTimer", -1);
 	static int pCurrentFrame = 0;
 	static int pOtherPlayerCurrentFrame = 1000;
@@ -683,7 +902,8 @@ minInterval 0
 	static int pNumOfFunctions = 90;
 	if(cvInactiveAI) { debugRule("mainTimer - AI is inactive", -1); return; } 
 	pNextTurn = false;
-
+	
+	
 	if(pSavedPlayer == -1)
 	{
 		debugRule("mainTimer - pSavedPlayer is -1", 1);

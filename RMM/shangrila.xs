@@ -3,7 +3,6 @@
 // by RF_Gandalf
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -146,7 +145,7 @@ void main(void)
    rmSetMapType("land");
    rmSetWorldCircleConstraint(true);
    rmSetWindMagnitude(2.0);
-   chooseMercs();
+
 
 // Native patterns
 // EASTERN NATIVE
@@ -882,8 +881,6 @@ void main(void)
 	rmPlaceObjectDefAtLoc(StartBerryBushID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 	rmPlaceObjectDefAtLoc(farPronghornID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 
-      if(ypIsAsian(i) && rmGetNomadStart() == false)
-        rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 
 		if (rmGetNomadStart())
 		{

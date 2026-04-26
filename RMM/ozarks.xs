@@ -2,7 +2,6 @@
 // resource balance improved for the fan patch by RF_Gandalf
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -42,8 +41,6 @@ void main(void)
 	// Make the corners.
 	rmSetWorldCircleConstraint(true);
 
-	// Choose Mercs
-	chooseMercs();
 
 	// Set up Natives
    int whichNative = rmRandInt(1,6);
@@ -628,9 +625,6 @@ void main(void)
 	rmPlaceObjectDefAtLoc(playerDeerID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 	rmPlaceObjectDefAtLoc(startSilver2ID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
      
-    if(ypIsAsian(i) && rmGetNomadStart() == false)
-      rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 1), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
-   rmClearClosestPointConstraints();
 
 		if (rmGetNomadStart())
 		{

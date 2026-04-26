@@ -2,7 +2,6 @@
 // edited by RF_Gandalf for the fan patch - central mountain shrunk, resources balanced, one native post disabled, slight upgrade of nuggets, tarpon re-added
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -44,7 +43,6 @@ void main(void)
 	whichVariation = rmRandInt(1,3);
 	// whichVariation = 3; 
 
-	chooseMercs();
 
 	if ( cNumberNonGaiaPlayers > 7 )	//If 8 player game, use only variation #2 so map builds more quickly.
 	{
@@ -462,8 +460,6 @@ void main(void)
 	rmPlaceObjectDefAtLoc(playerTurkeyID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));  										
 	rmPlaceObjectDefAtLoc(playerCrateID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 
-    	if(ypIsAsian(i) && rmGetNomadStart() == false)
-     	   rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 
 	// Place player starting trees
 	rmPlaceObjectDefAtLoc(StartAreaTreeID, 0, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));

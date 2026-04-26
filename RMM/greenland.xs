@@ -4,7 +4,6 @@
 // By Rookman64
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -1072,10 +1071,6 @@ void main(void)
 		if (berryChance > 0.5)
 			rmPlaceObjectDefAtLoc(playerBerryID, 0, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
 
-
-    	//Monastery
-    	if(ypIsAsian(i) && rmGetNomadStart() == false)
-      	rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 1), i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
 
 		// WATER FLAG
 		if (placeWaterFlag == 1)

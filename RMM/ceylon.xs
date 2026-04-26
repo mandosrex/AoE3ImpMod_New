@@ -3,7 +3,6 @@
 // Main entry point for random map script    
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -55,7 +54,6 @@ void main(void)
 	
 	// Map variations: 
 	
-	chooseMercs();
 	
 	// Set size of map
 	int playerTiles=23000;
@@ -541,8 +539,6 @@ void main(void)
     rmSetNuggetDifficulty(1, 1);
     rmPlaceObjectDefAtLoc(playerNuggetID, 0, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 
-    if(ypIsAsian(i) && rmGetNomadStart() == false)
-      rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
     
 		// Place water spawn points for the players along with a canoe
 		waterSpawnPointID=rmCreateObjectDef("colony ship "+i);

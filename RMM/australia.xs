@@ -3,7 +3,6 @@
 // by RF_Gandalf
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -152,7 +151,6 @@ void main(void)
 
 // =================================================================================================================
 
-   chooseMercs();
 
 // Define some classes. These are used later for constraints.
    int classPlayer=rmDefineClass("player");

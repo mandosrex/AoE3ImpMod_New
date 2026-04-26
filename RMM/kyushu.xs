@@ -1,7 +1,6 @@
 /* Durokan's  Ottawa - April 20 2016 Version 1.0*/
 
 	include "mercenaries.xs";
-	include "ypAsianInclude.xs";
 	include "ypKOTHInclude.xs";
 
 	void main(void) { 
@@ -116,7 +115,6 @@
 			rmPlacePlayersCircular(0.3, 0.3, 0.00);
 	}
 
-		chooseMercs();
 		rmSetStatusText("",0.1);
 
 		int continent = rmCreateArea("big huge continent");

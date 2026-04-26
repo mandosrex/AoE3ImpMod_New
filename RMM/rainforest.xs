@@ -12,15 +12,12 @@
 // 03-12-06: Huari strongholds added
 //==============================================================================
 
-
 //==============================================================================
 // includes
 //==============================================================================
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
-
 
 //==============================================================================
 // function main 
@@ -82,8 +79,6 @@ void main(void)
    rmSetAreaObeyWorldCircleConstraint(landAreaID, false);
    rmBuildArea(landAreaID);
 
-   // Choose mercs
-   chooseMercs();
 
    // Map generation status bar
    rmSetStatusText("",0.10);

@@ -1,7 +1,6 @@
 /* Durokan's Zagros - February 16 2020 Version 1.4*/
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
  
 void main(void) {
@@ -78,7 +77,6 @@ void main(void) {
 		rmPlacePlayersCircular(0.4, 0.4, 0.02);
 	}
    
-   chooseMercs();
 		rmSetStatusText("",0.1);
 
    int continent2 = rmCreateArea("continent");
@@ -302,21 +300,21 @@ void main(void) {
    rmAddObjectDefConstraint(treeID, avoidCoin);
  
    int foodID = rmCreateObjectDef("starting hunt");
-   rmAddObjectDefItem(foodID, "Heron", 6, 8.0);
+   rmAddObjectDefItem(foodID, "Dromedary", 6, 8.0);
    rmSetObjectDefMinDistance(foodID, 10.0);
    rmSetObjectDefMaxDistance(foodID, 12.0);
    rmAddObjectDefConstraint(foodID, avoidPlateau);
    rmSetObjectDefCreateHerd(foodID, false);
 
    int foodID2 = rmCreateObjectDef("starting hunt 2");
-   rmAddObjectDefItem(foodID2, "Heron", 7, 8.0);
+   rmAddObjectDefItem(foodID2, "Dromedary", 7, 8.0);
    rmSetObjectDefMinDistance(foodID2, 35.0);
    rmSetObjectDefMaxDistance(foodID2, 40.0);
    rmAddObjectDefConstraint(foodID2, avoidPlateau);
    rmSetObjectDefCreateHerd(foodID2, true);
                  
    int foodID3 = rmCreateObjectDef("starting hunt 3");
-   rmAddObjectDefItem(foodID3, "Heron", 8, 8.0);
+   rmAddObjectDefItem(foodID3, "Dromedary", 8, 8.0);
    rmSetObjectDefMinDistance(foodID3, 55.0);
    rmSetObjectDefMaxDistance(foodID3, 65.0);	
    rmAddObjectDefConstraint(foodID3, avoidPlateau);

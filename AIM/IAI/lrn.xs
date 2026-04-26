@@ -1,16 +1,64 @@
 //aiLearning
 void gameOverHandler(int nothing = 0)
 {
+
+	int aliveCount = 0;
+	bool lastPlayer = false;
+	
+	if (kbIsGameOver() == true) lastPlayer = true;
+
+	if (aliveCount < 2) lastPlayer = true;
+
 	bool iWon = false;
 	if (kbHasPlayerLost(cMyID) == false)
 		iWon = true;
 
-	//aiEcho("Game is over.");
-	//aiEcho("Have I lost returns "+kbHasPlayerLost(cMyID));
-	if (iWon == false)
-		aiEcho("I lost.");
+
+	string gameType = aiSPSGetString("game_type");
+	
+	string rankedGamesPlayedType = "";
+	string rankedGamesWonType = "";
+	
+	
+	if(gameType == "FFA")
+	{
+		rankedGamesPlayedType = "games_played_FFA";
+		rankedGamesWonType = "games_won_FFA";
+	}
+	else if(gameType == "1vs1")
+	{
+		rankedGamesPlayedType = "games_played_1vs1";
+		rankedGamesWonType = "games_won_1vs1";
+	}
 	else
-		aiEcho("I won.");
+	{
+		rankedGamesPlayedType = "games_played_teams";
+		rankedGamesWonType = "games_won_teams";
+	}
+	
+	if(aiSPSGetBool("game_in_progress") == true && lastPlayer == true)
+	{
+		float gamesPlayed = aiSPSGetFloat(rankedGamesPlayedType);
+		gamesPlayed = gamesPlayed + 1.0;
+		aiSPSSetFloat(rankedGamesPlayedType, gamesPlayed);
+	}
+	
+	if (iWon == true)
+	{
+		aiEcho("AI won.");
+	}
+	else
+	{
+		aiEcho("AI lost ");
+		if(aiSPSGetBool("game_in_progress") == true && lastPlayer == true)
+		{
+			float gamesWon = aiSPSGetFloat(rankedGamesWonType);
+			gamesWon = gamesWon + 1.0;
+			aiSPSSetFloat(rankedGamesWonType, gamesWon);
+		}
+	}
+	
+	if(lastPlayer == true) aiSPSSetBool("game_in_progress", false);
 
 	for (pid = 1; < cNumberPlayers)
 	{
@@ -31,7 +79,8 @@ void gameOverHandler(int nothing = 0)
 			playerHistoryID = aiPersonalityCreatePlayerHistory(playerName);
 		}
 
-
+	
+		
 		/* Store the following user vars:
 			heBeatMeLastTime
 			iBeatHimLastTime
@@ -39,6 +88,7 @@ void gameOverHandler(int nothing = 0)
 			heCarriedMeLastTime
 			iWonLastGame
 		*/
+	
 		if (iWon == true)
 		{ // I won
 			aiPersonalitySetPlayerUserVar(playerHistoryID, "iWonLastGame", 1.0);
@@ -59,6 +109,7 @@ void gameOverHandler(int nothing = 0)
 				//aiEcho("This player was my enemy.");
 			}
 		}
+		
 		if (kbIsPlayerAlly(pid) == true)
 		{ // Was my ally
 			if (aiGetScore(cMyID) > (2 * aiGetScore(pid)))
@@ -66,22 +117,32 @@ void gameOverHandler(int nothing = 0)
 				aiPersonalitySetPlayerUserVar(playerHistoryID, "iCarriedHimLastTime", 1.0);
 				//aiEcho("I carried my ally.");
 			}
-			else
+			
+			else 
+			{				
 				aiPersonalitySetPlayerUserVar(playerHistoryID, "iCarriedHimLastTime", 0.0);
+			}
+			
 			if (aiGetScore(pid) > (2 * aiGetScore(cMyID)))
 			{ // My ally carried me.
 				//aiEcho("My ally carried me.");
 				aiPersonalitySetPlayerUserVar(playerHistoryID, "heCarriedMeLastTime", 1.0);
 			}
 			else
+			{
 				aiPersonalitySetPlayerUserVar(playerHistoryID, "heCarriedMeLastTime", 0.0);
+			}
+			
 		}
 		else
 		{
 			aiPersonalitySetPlayerUserVar(playerHistoryID, "iCarriedHimLastTime", 0.0);
 			aiPersonalitySetPlayerUserVar(playerHistoryID, "heCarriedMeLastTime", 0.0);
 		}
+		
 	}
+
+
 }
 
 void learningMain()

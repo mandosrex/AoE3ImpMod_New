@@ -3,7 +3,6 @@
 // observer UI by Aizamk
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -48,8 +47,6 @@ void main(void)
 		rmSetMapType("AIFishingUseful");
 		rmSetLightingSet("201a"); 
 		
-	// Choose Mercs
-		chooseMercs();
 		
 	// Text
 		rmSetStatusText("",0.10);
@@ -587,8 +584,6 @@ void main(void)
 		rmPlaceObjectDefAtLoc(playerNuggetID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 		rmPlaceObjectDefAtLoc(playerNuggetID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 				
-		if(ypIsAsian(i) && rmGetNomadStart() == false)
-		rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 		
 		vector closestPoint = rmFindClosestPointVector(TCLoc, rmXFractionToMeters(1.0));
 		rmPlaceObjectDefAtLoc(colonyShipID, i, 0.80, rmPlayerLocZFraction(i));

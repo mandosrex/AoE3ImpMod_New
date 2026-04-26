@@ -3,7 +3,6 @@
 // observer UI by Aizamk
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -51,8 +50,6 @@ void main(void)
 	rmSetMapType("AIFishingUseful");
 	rmSetLightingSet("mongolia");
 
-	// Choose Mercs
-	chooseMercs();
 	
 	// Text
 	rmSetStatusText("",0.10);
@@ -935,8 +932,6 @@ void main(void)
 //		if (nugget0count == 2)
 //			rmPlaceObjectDefAtLoc(playerNuggetID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 				
-		if(ypIsAsian(i) && rmGetNomadStart() == false)
-			rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 1), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 			
 //		vector closestPoint = rmFindClosestPointVector(TCLoc, rmXFractionToMeters(1.0));
 //		rmPlaceObjectDefAtLoc(colonyShipID, i, rmXMetersToFraction(xsVectorGetX(closestPoint)), rmZMetersToFraction(xsVectorGetZ(closestPoint)));
@@ -1486,7 +1481,7 @@ void main(void)
 	for (i=0; < whalecount)
 	{
 	int whaleID=rmCreateObjectDef("whale"+i);
-	rmAddObjectDefItem(whaleID, "HumpbackWhale", 1, 2.0);
+	rmAddObjectDefItem(whaleID, "Beluga", 1, 2.0);
 	rmSetObjectDefMinDistance(whaleID, 20);
 	rmSetObjectDefMaxDistance(whaleID, rmXFractionToMeters(0.50));
 	rmAddObjectDefConstraint(whaleID, avoidWhale);

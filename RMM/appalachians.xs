@@ -3,7 +3,6 @@
 // by RF_Gandalf
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -167,7 +166,6 @@ void main(void)
    if (patternChance == 2) // great lakes winter
       rmSetGlobalSnow( 0.7 );
    
-   chooseMercs();
 
 // Define some classes.
    int classPlayer=rmDefineClass("player");

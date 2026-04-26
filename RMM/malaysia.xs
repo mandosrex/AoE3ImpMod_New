@@ -3,7 +3,6 @@
 // Dec 2006
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -89,7 +88,6 @@ void main(void)
 	rmSetWorldCircleConstraint(true);
 	rmSetWindMagnitude(2.0);
 
-	chooseMercs();
 	
 // Classes
 	int classPlayer = rmDefineClass("player");
@@ -482,8 +480,6 @@ void main(void)
 		rmPlaceObjectDefAtLoc(startingTCID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 		vector TCLoc = rmGetUnitPosition(rmGetUnitPlacedOfPlayer(startingTCID, i));
 
-    		if(ypIsAsian(i) && rmGetNomadStart() == false)
-      		rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 0), i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 
 		rmPlaceObjectDefAtLoc(startingUnits, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 

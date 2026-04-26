@@ -1143,10 +1143,10 @@ void chooseConsulateFlag()
       flag_button_id = cTechypBigConsulatePortuguese;
     }
     else {
-      if ( (sponsor == 1) && (kbGetHCLevel(cMyID) >= 25) ) {
+      if (sponsor == 1) {
         flag_button_id = cTechypBigConsulateDutch;
       }
-      else if ( (sponsor == 2) && (kbGetHCLevel(cMyID) >= 40) ) {
+      else if (sponsor == 2) {
         flag_button_id = cTechypBigConsulateSpanish;
       }
       else {
@@ -1158,10 +1158,10 @@ void chooseConsulateFlag()
     if (sponsor < 2) {
       flag_button_id = cTechypBigConsulateBritish;
     }
-    else if ( (sponsor == 2) && (kbGetHCLevel(cMyID) >= 25) ) {
+    else if (sponsor == 2) {
       flag_button_id = cTechypBigConsulateFrench;
     }
-    else if ( (sponsor == 3) && (kbGetHCLevel(cMyID) >= 40) ) {
+    else if (sponsor == 3) {
       flag_button_id = cTechypBigConsulateGermans;
     }
     else {
@@ -1174,10 +1174,10 @@ void chooseConsulateFlag()
       flag_button_id = cTechypBigConsulatePortuguese;
     }
     else {
-      if ( (sponsor == 1) && (kbGetHCLevel(cMyID) >= 25) ) {
+      if (sponsor == 1) {
         flag_button_id = cTechypBigConsulateFrench;
       }
-      else if ( (sponsor == 2) && (kbGetHCLevel(cMyID) >= 40) ) {
+      else if (sponsor == 2) {
         flag_button_id = cTechypBigConsulateOttomans;
       }
       else {
@@ -1474,6 +1474,9 @@ int createSimpleBuildPlan(int puid=-1, int number=1, int pri=100, bool economy=t
         if (kbUnitCount(cMyID, cUnitTypeWagonBuildings, cUnitStateAlive) > 0)
           builderType = cUnitTypeWagonBuildings;
       }
+      if (puid  == cUnitTypeArtilleryDepotBar) {
+        builderType = cUnitTypeSlaveEuropean;
+        }
       if (puid  == cUnitTypeCapitol) {
         if (kbUnitCount(cMyID, cUnitTypeWagonCapitol, cUnitStateAlive) > 0)
           builderType = cUnitTypeWagonCapitol;
@@ -4555,6 +4558,9 @@ void initEcon(void)
 
    if (kbGetCiv() == cCivColombians)  
       gEconUnit = cUnitTypeSettlerAmerican;
+
+   if (kbGetCiv() == cCivBarbaryPirates)  
+      gEconUnit = cUnitTypeSailor;
    
    if ( (kbGetCiv() == cCivXPIroquois) || (kbGetCiv() == cCivXPSioux) || (kbGetCiv() == cCivXPAztec) )
       gEconUnit = cUnitTypeSettlerNative;  
@@ -4697,6 +4703,11 @@ void initEcon(void)
       gHouseUnit = cUnitTypeHouseMed;
       gLivestockPenUnit = cUnitTypeHouseMed;
       gExplorerUnit = cUnitTypeExplorerAmerican;
+
+   if ( kbGetCiv() == cCivBarbaryPirates )
+      gHouseUnit = cUnitTypeHouseMed;
+      gLivestockPenUnit = cUnitTypeHouseMed;
+      gExplorerUnit = cUnitTypeExplorerMed;
 
    if ( kbGetCiv() == cCivXPIroquois )
       gHouseUnit = cUnitTypeLonghouse;
@@ -4988,7 +4999,7 @@ void updateForecasts()
          if (cMyCiv != cCivXPSioux)
             addItemToForecasts(gHouseUnit, 3);
 
-         if (cMyCiv != cCivMaltese)
+         if (cMyCiv == cCivMaltese)
             addItemToForecasts(gHouseUnit, 5);
          
          // One market
@@ -4998,13 +5009,13 @@ void updateForecasts()
          // Ottoman - mosque and tech
          if (cMyCiv == cCivOttomans)
          {
-            if (kbUnitCount(cMyID, cUnitTypeChurch, cUnitStateABQ) < 1)
-               addItemToForecasts(cUnitTypeChurch, 1);
-            if ( (kbTechGetStatus(cTechChurchMilletSystem) == cTechStatusObtainable) || (kbUnitCount(cMyID, cUnitTypeChurch, cUnitStateAlive) == 0) )
+            if (kbUnitCount(cMyID, cUnitTypeMosque, cUnitStateABQ) < 1)
+               addItemToForecasts(cUnitTypeMosque, 1);
+            if ( (kbTechGetStatus(cTechChurchMilletSystem) == cTechStatusObtainable) || (kbUnitCount(cMyID, cUnitTypeMosque, cUnitStateAlive) == 0) )
             {
                addTechToForecasts(cTechChurchMilletSystem);
             }
-            if ( (kbTechGetStatus(cTechChurchGalataTowerDistrict) == cTechStatusObtainable) || (kbUnitCount(cMyID, cUnitTypeChurch, cUnitStateAlive) == 0) )
+            if ( (kbTechGetStatus(cTechChurchGalataTowerDistrict) == cTechStatusObtainable) || (kbUnitCount(cMyID, cUnitTypeMosque, cUnitStateAlive) == 0) )
             {
                addTechToForecasts(cTechChurchGalataTowerDistrict);
             }
@@ -5070,14 +5081,14 @@ void updateForecasts()
          if (cMyCiv != cCivXPSioux)
             addItemToForecasts(gHouseUnit, 3);
 
-         if (cMyCiv != cCivMaltese)
+         if (cMyCiv == cCivMaltese)
             addItemToForecasts(gHouseUnit, 5);
          
          // Ottoman - mosque and techs
          if (cMyCiv == cCivOttomans)
          {
-            if (kbUnitCount(cMyID, cUnitTypeChurch, cUnitStateABQ) < 1)
-               addItemToForecasts(cUnitTypeChurch, 1);
+            if (kbUnitCount(cMyID, cUnitTypeMosque, cUnitStateABQ) < 1)
+               addItemToForecasts(cUnitTypeMosque, 1);
             if (kbTechGetStatus(cTechChurchKopruluViziers) == cTechStatusObtainable)
             {
                addTechToForecasts(cTechChurchKopruluViziers);
@@ -5108,7 +5119,6 @@ void updateForecasts()
          // One stable
          if ( (kbGetCiv() != cCivChinese) && (kbGetCiv() != cCivSPCChinese) && (kbUnitCount(cMyID, cUnitTypeStable, cUnitStateABQ) + kbUnitCount(cMyID, cUnitTypeCorral, cUnitStateABQ)  + kbUnitCount(cMyID, cUnitTypeypStableJapanese, cUnitStateABQ) + kbUnitCount(cMyID, cUnitTypeypCaravanserai, cUnitStateABQ)) < 1)
             addItemToForecasts(cUnitTypeStable, 1);    
-                  
 
          // One market
          if (kbUnitCount(cMyID, gMarketUnit, cUnitStateABQ) < 1)
@@ -5188,8 +5198,8 @@ void updateForecasts()
          // Ottoman - mosque and tech
          if (cMyCiv == cCivOttomans)
          {
-            if (kbUnitCount(cMyID, cUnitTypeChurch, cUnitStateABQ) < 1)
-               addItemToForecasts(cUnitTypeChurch, 1);
+            if (kbUnitCount(cMyID, cUnitTypeMosque, cUnitStateABQ) < 1)
+               addItemToForecasts(cUnitTypeMosque, 1);
             if (kbTechGetStatus(cTechChurchAbbassidMarket) == cTechStatusObtainable)
             {
                addTechToForecasts(cTechChurchAbbassidMarket);
@@ -5222,11 +5232,13 @@ void updateForecasts()
          }
 
          // 1 artillery depot
-         if (civIsAsian() == false) {
+
+
+         if ( (civIsAsian() == false) && (civIsNative() == false) ) {
            if (kbUnitCount(cMyID, cUnitTypeArtilleryDepot, cUnitStateABQ) < 1)
               addItemToForecasts(cUnitTypeArtilleryDepot, 1);  
           }
-          else {
+          else if (civIsAsian() == true) {
             if (kbUnitCount(cMyID, cUnitTypeypCastle, cUnitStateABQ) < 1)
               addItemToForecasts(cUnitTypeypCastle, 1);  
           }
@@ -5235,7 +5247,7 @@ void updateForecasts()
          if (kbUnitCount(cMyID, gMarketUnit, cUnitStateABQ) < 1)
             addItemToForecasts(gMarketUnit, 1);  
          
-         // Add 15 pop slots of primary military unit
+         // Add 20 pop slots of primary military unit
          if (gLandUnitPicker >= 0)
          {
             militaryUnit = kbUnitPickGetResult( gLandUnitPicker, 0);
@@ -5244,7 +5256,7 @@ void updateForecasts()
                popSlots = kbGetPopSlots(cMyID, militaryUnit);
                if (popSlots < 1)
                   popSlots = 1;
-               milQty = 15 / popSlots; 
+               milQty = 20 / popSlots; 
                addItemToForecasts(militaryUnit, milQty);
             }          
             else
@@ -5253,7 +5265,7 @@ void updateForecasts()
                xsArraySetInt(gForecasts, cResourceFood, xsArrayGetInt(gForecasts, cResourceFood) + 1500.0);
             }
             
-            // Add 8 pop slots of secondary military unit
+            // Add 10 pop slots of secondary military unit
             if (kbUnitPickGetNumberResults(gLandUnitPicker) > 1)
             {
                militaryUnit = kbUnitPickGetResult( gLandUnitPicker, 1);
@@ -5262,7 +5274,7 @@ void updateForecasts()
                   popSlots = kbGetPopSlots(cMyID, militaryUnit);
                   if (popSlots < 1)
                      popSlots = 1;
-                  milQty = 8 / popSlots; 
+                  milQty = 10 / popSlots; 
                   addItemToForecasts(militaryUnit, milQty);
                } 
             }
@@ -5313,8 +5325,8 @@ void updateForecasts()
          // Ottoman - mosque and tech
          if (cMyCiv == cCivOttomans)
          {
-            if (kbUnitCount(cMyID, cUnitTypeChurch, cUnitStateABQ) < 1)
-               addItemToForecasts(cUnitTypeChurch, 1);
+            if (kbUnitCount(cMyID, cUnitTypeMosque, cUnitStateABQ) < 1)
+               addItemToForecasts(cUnitTypeMosque, 1);
             if (kbTechGetStatus(cTechChurchTanzimat) == cTechStatusObtainable)
             {
                addTechToForecasts(cTechChurchTanzimat);
@@ -5362,14 +5374,14 @@ void updateForecasts()
          
          if (gLandUnitPicker >= 0)
          {
-            // Add 20 pop slots of primary military unit
+            // Add 25 pop slots of primary military unit
             militaryUnit = kbUnitPickGetResult( gLandUnitPicker, 0);
             if (militaryUnit >= 0)
             {
                popSlots = kbGetPopSlots(cMyID, militaryUnit);
                if (popSlots < 1)
                   popSlots = 1;
-               milQty = 20 / popSlots; 
+               milQty = 25 / popSlots; 
                addItemToForecasts(militaryUnit, milQty);
             }         
             else
@@ -5378,7 +5390,7 @@ void updateForecasts()
                xsArraySetInt(gForecasts, cResourceFood, xsArrayGetInt(gForecasts, cResourceFood) + 2000.0);
             } 
             
-            // Add 10 pop slots of secondary military unit
+            // Add 15 pop slots of secondary military unit
             if (kbUnitPickGetNumberResults(gLandUnitPicker) > 1)
             {
                militaryUnit = kbUnitPickGetResult( gLandUnitPicker, 1);
@@ -5387,7 +5399,7 @@ void updateForecasts()
                   popSlots = kbGetPopSlots(cMyID, militaryUnit);
                   if (popSlots < 1)
                      popSlots = 1;
-                  milQty = 10 / popSlots; 
+                  milQty = 15 / popSlots; 
                   addItemToForecasts(militaryUnit, milQty);
                } 
             }
@@ -5755,15 +5767,15 @@ void setUnitPickerPreference(int upID = -1)
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractNativeWarrior, 0.2);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeCoureur, 0.0);    // Avoid coureurs, they mess up econ/mil calcs.
     if (cMyCiv == cCivXPAztec)
-       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractLightInfantry, 0.2);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSpy, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpWarrior, 0.0);    // Never pick xpWarrior or xpDogSoldier, available via dance only
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpDogSoldier, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpMedicineManAztec, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSkullKnight, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypMercFlailiphant, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypMercIronTroop, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypMercYojimbo, 0.0);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractLightInfantry, 0.2);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSpy, 0.0);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpWarrior, 0.0);    // Never pick xpWarrior or xpDogSoldier, available via dance only
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpDogSoldier, 0.0);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpMedicineManAztec, 0.0);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSkullKnight, 0.0);
+
+    if (cMyCiv == cCivBarbaryPirates)
+     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.5);
     
     if ( (kbGetCiv() == cCivIndians) || (kbGetCiv() == cCivSPCIndians) ) {
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypSowarMansabdar, 0.0);
@@ -5795,16 +5807,16 @@ void setUnitPickerPreference(int upID = -1)
        kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractCavalry, 0.2);
        kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractNativeWarrior, 0.2);
        if (cMyCiv == cCivXPAztec)
-          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractLightInfantry, 0.2);
-       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSpy, 0.0);
-       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeCoureur, 0.0);    // Avoid coureurs, they mess up econ/mil calcs.
-       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpWarrior, 0.0);    // Never pick xpWarrior or xpDogSoldier, available via dance only
-       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpDogSoldier, 0.0);
-       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpMedicineManAztec, 0.0);
-       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSkullKnight, 0.0);
-       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypMercFlailiphant, 0.0);
-       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypMercIronTroop, 0.0);
-       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypMercYojimbo, 0.0);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractLightInfantry, 0.2);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSpy, 0.0);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeCoureur, 0.0);    // Avoid coureurs, they mess up econ/mil calcs.
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpWarrior, 0.0);    // Never pick xpWarrior or xpDogSoldier, available via dance only
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpDogSoldier, 0.0);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpMedicineManAztec, 0.0);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSkullKnight, 0.0);
+
+      if (cMyCiv == cCivBarbaryPirates)
+        kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.5);
        
       if ( (kbGetCiv() == cCivIndians) || (kbGetCiv() == cCivSPCIndians) ) {
         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypSowarMansabdar, 0.0);
@@ -5834,9 +5846,9 @@ void setUnitPickerPreference(int upID = -1)
        kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpDogSoldier, 0.0);
        kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpMedicineManAztec, 0.0);
        kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSkullKnight, 0.0);
-       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypMercFlailiphant, 0.0);
-       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypMercIronTroop, 0.0);
-       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypMercYojimbo, 0.0);
+
+       if (cMyCiv == cCivBarbaryPirates)
+        kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.0);
        
         if ( (kbGetCiv() == cCivIndians) || (kbGetCiv() == cCivSPCIndians) ) {
           kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypSowarMansabdar, 0.0);
@@ -5876,9 +5888,9 @@ void setUnitPickerPreference(int upID = -1)
   kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpDogSoldier, 0.0);
   kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpMedicineManAztec, 0.0);
   kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSkullKnight, 0.0);
-  kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypMercFlailiphant, 0.0);
-  kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypMercIronTroop, 0.0);
-  kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypMercYojimbo, 0.0);
+
+  if (cMyCiv == cCivBarbaryPirates)
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 1.0);
 
   if ( (kbGetCiv() == cCivChinese) || (kbGetCiv() == cCivSPCChinese) ) {
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractInfantry, 0.0);
@@ -5911,64 +5923,14 @@ void setUnitPickerPreference(int upID = -1)
   }
   
   if (civIsAsian() == true) { // Asians need to stop trying to build saloon units
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeSaloonOutlawPistol, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeSaloonOutlawRider, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeSaloonOutlawRifleman, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeSaloonPirate, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercBarbaryCorsair, 0.0);
-    
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercBlackRider, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercElmeti, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercFusilier, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercGreatCannon, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercHackapell, 0.0);
-    
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercHighlander, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercJaeger, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercLandsknecht, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercMameluke, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercManchu, 0.0);
-    
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercRonin, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercStradiot, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercSwissPikeman, 0.0);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.0);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractWokou, 0.0);
     
     //and consulate units
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractConsulateSiegeFortress, 0.0);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractConsulateSiegeIndustrial, 0.0);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractConsulateUnit, 0.0);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractConsulateUnitColonial, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractWokou, 0.0);
-    
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantArsonist, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantBarbaryCorsair, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantBlackRider, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantBlindMonk, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantDacoit, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantElmeti, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantFusilier, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantGreatCannon, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantHackapell, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantHighlander, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantIronTroop, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantJaeger, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantJatLancer, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantLandsknecht, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantMameluke, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantManchu, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantNinja, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantOutlawPistol, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantOutlawRider, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantOutlawRifleman, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantPirate, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantRonin, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantSmuggler, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantStradiot, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantSwissPikeman, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantThuggee, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantWanderingHorseman, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantWaywardRonin, 0.0);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantYojimbo, 0.0);
     
     setConsulateArmyPreference();
   }
@@ -6752,6 +6714,10 @@ minInterval 2
    if (kbGetCiv() == cCivOttomans)
       xsEnableRule("ottomanMonitor");
 
+   if (kbGetCiv() == cCivBarbaryPirates)
+      xsEnableRule("getAgeUps");
+
+
    
 //   gSettlerMaintainPlan = createSimpleMaintainPlan(gEconUnit, 25 - (13.0*btRushBoom), true, kbBaseGetMainID(cMyID), 1);  // Good through age 2
    gSettlerMaintainPlan = createSimpleMaintainPlan(gEconUnit, xsArrayGetInt(gTargetSettlerCounts, kbGetAge()), true, kbBaseGetMainID(cMyID), 1);
@@ -7298,17 +7264,18 @@ minInterval 3
       planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeTownCenter);
       if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeTownCenter, cUnitStateAlive) < 2) )
       {     // Start a new one
-         createSimpleBuildPlan(cUnitTypeTownCenter, 1, 60, false, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
+         createSimpleBuildPlan(cUnitTypeTownCenter, 1, 50, false, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
          aiEcho("Starting a new TC build plan.");
       }
 
-      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeTownCenter);
-      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeTownCenter, cUnitStateAlive) < 2) )
+   if ( cMyCiv == cCivBarbaryPirates ) {
+      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeStockades);
+      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeStockades, cUnitStateAlive) < 1) )
       {     // Start a new one
-         createSimpleBuildPlan(cUnitTypeTownCenter, 1, 60, false, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
-         aiEcho("Starting a new TC build plan.");
+         createSimpleBuildPlan(cUnitTypeStockades, 1, 60, false, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
+         aiEcho("Starting a new Stockades build plan.");
       }
-
+   }
 
    // If Russian, at least 1 block house
 	if (kbGetCiv() == cCivRussians)
@@ -7502,7 +7469,7 @@ minInterval 3
       planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeTownCenter);
       if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeTownCenter, cUnitStateAlive) < 3) )
       {     // Start a new one
-         createSimpleBuildPlan(cUnitTypeTownCenter, 1, 60, false, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
+         createSimpleBuildPlan(cUnitTypeTownCenter, 1, 50, false, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
          aiEcho("Starting a new TC build plan.");
       }
 
@@ -7644,6 +7611,33 @@ minInterval 3
         aiEcho("Starting a new castle build plan.");
       }
     }
+
+   if ( cMyCiv == cCivBarbaryPirates ) {
+      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeMosqueBar);
+      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeMosqueBar, cUnitStateAlive) < 1) )
+      {     // Start a new one
+         createSimpleBuildPlan(cUnitTypeMosqueBar, 1, 60, false, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
+         aiEcho("Starting a new Barbary Mosque build plan.");
+      }
+   }
+
+   if ( cMyCiv == cCivBarbaryPirates ) {
+      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeMill);
+      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeMill, cUnitStateAlive) < 1) )
+      {     // Start a new one
+         createSimpleBuildPlan(cUnitTypeMill, 1, 60, false, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
+         aiEcho("Starting a new Barbary Mill build plan.");
+      }
+   }
+
+   if ( cMyCiv == cCivBarbaryPirates ) {
+      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeArtilleryDepotBar);
+      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeArtilleryDepotBar, cUnitStateAlive) < 1) )
+      {     // Start a new one
+         createSimpleBuildPlan(cUnitTypeArtilleryDepotBar, 1, 70, false, cMilitaryEscrowID, kbBaseGetMainID(cMyID), 1);
+         aiEcho("Starting a new Barbary Artillery Depot build plan.");
+      }
+   }
    
    // That's it for age 3
    if (kbGetAge() < cAge4)
@@ -7654,7 +7648,7 @@ minInterval 3
       planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeTownCenter);
       if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeTownCenter, cUnitStateAlive) < 4) )
       {     // Start a new one
-         createSimpleBuildPlan(cUnitTypeTownCenter, 1, 60, false, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
+         createSimpleBuildPlan(cUnitTypeTownCenter, 1, 50, false, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
          aiEcho("Starting a new TC build plan.");
       }
 
@@ -8685,6 +8679,17 @@ void initPersonality(void)
          break;
       }
       case cCivColombians:   // Mod civ
+      {
+         btRushBoom = 1.0;
+         btOffenseDefense = 1.0;
+         btBiasCav = 0.0;
+         btBiasInf = 0.0;
+         btBiasArt = 0.0;
+         btBiasNative = 0.0;
+         btBiasTrade = 0.0;
+         break;
+      }
+      case cCivBarbaryPirates:   // Mod civ
       {
          btRushBoom = 1.0;
          btOffenseDefense = 1.0;
@@ -9920,42 +9925,42 @@ minInterval 30
    {
       speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechChurchMilletSystem);
       if (speedPlanID < 0)
-         createSimpleResearchPlan(cTechChurchMilletSystem, getUnit(cUnitTypeChurch),cEconomyEscrowID, 91);
+         createSimpleResearchPlan(cTechChurchMilletSystem, getUnit(cUnitTypeMosque),cEconomyEscrowID, 91);
    }
 
    if (kbTechGetStatus(cTechChurchKopruluViziers) == cTechStatusObtainable)
    {
       speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechChurchKopruluViziers);
       if (speedPlanID < 0)
-         createSimpleResearchPlan(cTechChurchKopruluViziers, getUnit(cUnitTypeChurch),cEconomyEscrowID, 91);
+         createSimpleResearchPlan(cTechChurchKopruluViziers, getUnit(cUnitTypeMosque),cEconomyEscrowID, 91);
    }     
    
    if (kbTechGetStatus(cTechChurchAbbassidMarket) == cTechStatusObtainable)
    {
       speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechChurchAbbassidMarket);
       if (speedPlanID < 0)
-         createSimpleResearchPlan(cTechChurchAbbassidMarket, getUnit(cUnitTypeChurch),cEconomyEscrowID, 91);
+         createSimpleResearchPlan(cTechChurchAbbassidMarket, getUnit(cUnitTypeMosque),cEconomyEscrowID, 91);
    }
    
    if (kbTechGetStatus(cTechChurchGalataTowerDistrict) == cTechStatusObtainable)
    {
       capPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechChurchGalataTowerDistrict);
       if (capPlanID < 0)
-         createSimpleResearchPlan(cTechChurchGalataTowerDistrict, getUnit(cUnitTypeChurch),cEconomyEscrowID, 91);
+         createSimpleResearchPlan(cTechChurchGalataTowerDistrict, getUnit(cUnitTypeMosque),cEconomyEscrowID, 91);
    }     
  
    if (kbTechGetStatus(cTechChurchTopkapi) == cTechStatusObtainable)
    {
       capPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechChurchTopkapi);
       if (capPlanID < 0)
-         createSimpleResearchPlan(cTechChurchTopkapi, getUnit(cUnitTypeChurch),cEconomyEscrowID, 91);
+         createSimpleResearchPlan(cTechChurchTopkapi, getUnit(cUnitTypeMosque),cEconomyEscrowID, 91);
    }  
   
    if (kbTechGetStatus(cTechChurchTanzimat) == cTechStatusObtainable)
    {
       capPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechChurchTanzimat);
       if (capPlanID < 0)
-         createSimpleResearchPlan(cTechChurchTanzimat, getUnit(cUnitTypeChurch),cEconomyEscrowID, 91);
+         createSimpleResearchPlan(cTechChurchTanzimat, getUnit(cUnitTypeMosque),cEconomyEscrowID, 91);
    }  
 }
 
@@ -14281,7 +14286,7 @@ minInterval 5
       upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAIAutoRepair);
       if (upgradePlanID >= 0)
          aiPlanDestroy(upgradePlanID);
-      createSimpleResearchPlan(cTechAIAutoRepair, getUnit(cUnitTypeTownCenter), cEconomyEscrowID, 50);
+      createSimpleResearchPlan(cTechAIAutoRepair, getUnit(cUnitTypeTownCenter), cEconomyEscrowID, 60);
       return;
    }
 
@@ -14290,7 +14295,7 @@ minInterval 5
       upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAICheats);
       if (upgradePlanID >= 0)
          aiPlanDestroy(upgradePlanID);
-      createSimpleResearchPlan(cTechAICheats, getUnit(cUnitTypeTownCenter), cEconomyEscrowID, 50);
+      createSimpleResearchPlan(cTechAICheats, getUnit(cUnitTypeTownCenter), cEconomyEscrowID, 60);
       return;
    }
 
@@ -14299,7 +14304,7 @@ minInterval 5
       upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAICheatsAge4);
       if (upgradePlanID >= 0)
          aiPlanDestroy(upgradePlanID);
-      createSimpleResearchPlan(cTechAICheatsAge4, getUnit(cUnitTypeTownCenter), cEconomyEscrowID, 50);
+      createSimpleResearchPlan(cTechAICheatsAge4, getUnit(cUnitTypeTownCenter), cEconomyEscrowID, 60);
       return;
    }
 }
@@ -14322,3 +14327,104 @@ minInterval 30
    }
 }
 
+
+rule getAgeUps
+inactive
+minInterval 30
+{
+   int speedPlanID = -1;
+   int capPlanID = -1;  
+
+   if (kbTechGetStatus(cTechAge2BigTechTownCenter) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge2BigTechTownCenter);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge2BigTechTownCenter, getUnit(cUnitTypeTownCenter), cEconomyEscrowID, 91);
+   }
+   if (kbTechGetStatus(cTechAge3BigTechTownCenter) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge3BigTechTownCenter);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge3BigTechTownCenter, getUnit(cUnitTypeTownCenter), cEconomyEscrowID, 91);
+   }
+   if (kbTechGetStatus(cTechAge4BigTechTownCenter) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge4BigTechTownCenter);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge4BigTechTownCenter, getUnit(cUnitTypeTownCenter), cEconomyEscrowID, 91);
+   }
+   if (kbTechGetStatus(cTechAge5BigTechTownCenter) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge5BigTechTownCenter);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge5BigTechTownCenter, getUnit(cUnitTypeTownCenter), cEconomyEscrowID, 91);
+   }
+
+
+   if (kbTechGetStatus(cTechAge2BigTechHouse) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge2BigTechHouse);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge2BigTechHouse, getUnit(cUnitTypeHouseMed), cEconomyEscrowID, 91);
+   }
+   if (kbTechGetStatus(cTechAge3BigTechHouse) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge3BigTechHouse);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge3BigTechHouse, getUnit(cUnitTypeHouseMed), cEconomyEscrowID, 91);
+   }
+   if (kbTechGetStatus(cTechAge4BigTechHouse) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge4BigTechHouse);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge4BigTechHouse, getUnit(cUnitTypeHouseMed), cEconomyEscrowID, 91);
+   }
+   if (kbTechGetStatus(cTechAge5BigTechHouse) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge5BigTechHouse);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge5BigTechHouse, getUnit(cUnitTypeHouseMed), cEconomyEscrowID, 91);
+   }
+
+
+   if (kbTechGetStatus(cTechAge3BigTechMarket) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge3BigTechMarket);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge3BigTechMarket, getUnit(cUnitTypeMarket), cEconomyEscrowID, 91);
+   }
+   if (kbTechGetStatus(cTechAge4BigTechMarket) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge4BigTechMarket);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge4BigTechMarket, getUnit(cUnitTypeMarket), cEconomyEscrowID, 91);
+   }
+   if (kbTechGetStatus(cTechAge5BigTechMarket) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge5BigTechMarket);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge5BigTechMarket, getUnit(cUnitTypeMarket), cEconomyEscrowID, 91);
+   }
+
+
+   if (kbTechGetStatus(cTechAge4BigTechMill) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge4BigTechMill);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge4BigTechMill, getUnit(cUnitTypeMill), cEconomyEscrowID, 91);
+   }
+   if (kbTechGetStatus(cTechAge5BigTechMill) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge5BigTechMill);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge5BigTechMill, getUnit(cUnitTypeMill), cEconomyEscrowID, 91);
+   }
+
+
+   if (kbTechGetStatus(cTechAge5BigTechPlantation) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge5BigTechPlantation);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechAge5BigTechPlantation, getUnit(cUnitTypePlantation), cEconomyEscrowID, 91);
+   }
+}

@@ -1,0 +1,13 @@
+<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>71552</nameID>
+   <tooltipID>71553</tooltipID>
+   <forcedciv>BarbaryPirates</forcedciv>
+   <rushboom>0</rushboom>
+   <icon>ui\singleplayer\cpai_avatar_barbary</icon>
+   <chatset>suleiman</chatset>
+   <playerNames>
+      <nameID>71552<civ>BarbaryPirates</civ></nameID> 
+	</playerNames>
+</AI>

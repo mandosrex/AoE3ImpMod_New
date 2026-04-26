@@ -1,9 +1,7 @@
 // ESOC GRAN CHACO (1v1, TEAM, FFA)
 // designed by Garja
 
-
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -51,8 +49,6 @@ void main(void)
 	rmSetLightingSet("patagonia");
 	rmSetWindMagnitude(2.0);
 	
-	// Choose Mercs
-	chooseMercs();
 	
 	// Text
 	rmSetStatusText("",0.10);
@@ -753,8 +749,6 @@ void main(void)
 		if (bonusnugget == 1)
 			rmPlaceObjectDefAtLoc(playerNuggetID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 		
-		if(ypIsAsian(i) && rmGetNomadStart() == false)
-			rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));	
 
 		if ( rmGetNomadStart())
 		{

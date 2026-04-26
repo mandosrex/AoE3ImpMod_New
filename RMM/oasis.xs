@@ -1,7 +1,6 @@
 /* Durokan's  Oasis - April 28 2016 Version 1.0*/
 
 	include "mercenaries.xs";
-	include "ypAsianInclude.xs";
 	include "ypKOTHInclude.xs";
 
 	void main(void) { 
@@ -130,7 +129,7 @@ int spawnSwitch = rmRandFloat(0,1.2);
 			rmPlacePlayer(8, .9, 0.3);
 			}
 		}
-		chooseMercs();
+
 		rmSetStatusText("",0.2);
 
 		int continent = rmCreateArea("big huge continent");

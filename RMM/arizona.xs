@@ -3,7 +3,6 @@
 // observer UI by Aizamk
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void) 
@@ -48,8 +47,6 @@ void main(void)
 	rmSetSubCiv(0, "Navajo");
 	rmSetSubCiv(1, "Apache");
 
-	// Choose mercs.
-	chooseMercs();
 
 	// Corner constraint.
 	rmSetWorldCircleConstraint(true);
@@ -151,9 +148,6 @@ void main(void)
 	int teamZeroCount = rmGetNumberPlayersOnTeam(0);
 	int teamOneCount = rmGetNumberPlayersOnTeam(1);
 
-
-		teamZeroCount = cNumberNonGaiaPlayers/2;
-		teamOneCount = cNumberNonGaiaPlayers/2;
 	
 		if (cNumberTeams <= 2) // 1v1 and TEAM
 		{
@@ -887,8 +881,6 @@ void main(void)
 		if (nugget0count == 2)
 			rmPlaceObjectDefAtLoc(playerNuggetID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 		
-		if(ypIsAsian(i) && rmGetNomadStart() == false)
-		rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i,1), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 		
 		if ( rmGetNomadStart())
 		{

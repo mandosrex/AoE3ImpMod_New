@@ -3,7 +3,6 @@
 // by RF_Gandalf
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -253,7 +252,6 @@ void main(void)
       rmSetGlobalSnow( 0.5 );
 
    
-   chooseMercs();
 
 // Define some classes.
    int classPlayer=rmDefineClass("player");

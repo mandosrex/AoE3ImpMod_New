@@ -2,7 +2,6 @@
 // Dec 06 - YP update
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -133,7 +132,6 @@ void main(void)
 	rmAddTriggerEffect("Render Rain");
 	rmSetTriggerEffectParamFloat("Percent", 0.0);
 
-	chooseMercs();
 
 	// Define some classes. These are used later for constraints.
 	int classPlayer=rmDefineClass("player");
@@ -564,8 +562,6 @@ void main(void)
 		rmPlaceObjectDefAtLoc(StartAreaTreeID, 0, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 		rmPlaceObjectDefAtLoc(StartAreaTreeID, 0, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
     
-    		if(ypIsAsian(i) && rmGetNomadStart() == false)
-      		rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 1), i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 
 		// Water flag
 		waterFlagID=rmCreateObjectDef("HC water flag "+i);

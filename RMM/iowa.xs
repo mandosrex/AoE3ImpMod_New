@@ -1,7 +1,6 @@
 // Map made by Rikikipu - Feb 2017
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 //1-4 : X	5-8 : Z
@@ -187,9 +186,6 @@ int avoidNuggetStart=rmCreateTypeDistanceConstraint("nugget avoid nugget start",
 int avoidEdge = rmCreatePieConstraint("Avoid Edge",0.5,0.5, rmXFractionToMeters(0.0),rmXFractionToMeters(0.46), rmDegreesToRadians(0),rmDegreesToRadians(360));
 int staySouth = rmCreatePieConstraint("Stay South",0.47,0.47, rmXFractionToMeters(0.2),rmXFractionToMeters(0.5), rmDegreesToRadians(135),rmDegreesToRadians(315));
 int stayNorth = rmCreatePieConstraint("Stay North",0.53,0.53, rmXFractionToMeters(0.2),rmXFractionToMeters(0.5), rmDegreesToRadians(315),rmDegreesToRadians(135));
-
-// Choose Mercs
-chooseMercs();
 
 
    rmSetStatusText("",0.20);
@@ -505,8 +501,6 @@ rmAddObjectDefConstraint(playerNuggetID, avoidAll);
 	rmPlaceObjectDefAtLoc(playerNuggetID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 	rmPlaceObjectDefAtLoc(playerNuggetID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 
-    if(ypIsAsian(i) && rmGetNomadStart() == false)
-      rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 1), i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));	
 
 		if ( rmGetNomadStart())
 		{

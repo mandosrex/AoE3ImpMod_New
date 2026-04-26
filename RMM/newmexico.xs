@@ -8,7 +8,6 @@
 // observer UI by Aizamk
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -139,7 +138,6 @@ int stayEast = rmCreatePieConstraint("Stay East",0.53,0.47, rmXFractionToMeters(
 	}
 
 		
-        chooseMercs();
         rmSetStatusText("",0.1); 
         int continent2 = rmCreateArea("continent");
         rmSetAreaSize(continent2, 1.0, 1.0);

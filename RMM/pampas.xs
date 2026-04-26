@@ -4,7 +4,6 @@
 // Main entry point for random map script
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -80,7 +79,6 @@ void main(void)
 	rmSetWorldCircleConstraint(true);
 	rmSetWindMagnitude(2.0);
 
-	chooseMercs();
 		
 //	rmSetLightingSet("alfheim");
  
@@ -569,8 +567,6 @@ void main(void)
 		rmPlaceObjectDefAtLoc(startSilverID, 0, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
 		rmPlaceObjectDefAtLoc(startingUnits, i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
 
-    		if(ypIsAsian(i) && rmGetNomadStart() == false)
-      		rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 0), i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
 
 		if (rmGetNomadStart())
 		{

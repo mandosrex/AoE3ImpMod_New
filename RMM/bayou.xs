@@ -2,8 +2,8 @@
 // Nov 06 - YP update
 
 // Main entry point for random map script
+
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -81,8 +81,6 @@ void main(void)
 	rmSetMapType("namerica");
 	rmSetWorldCircleConstraint(true);
 
-	// Choose mercs.
-	chooseMercs();
 
 	// Define some classes. These are used later for constraints.
 	int classPlayer=rmDefineClass("player");
@@ -578,8 +576,6 @@ if ( cNumberTeams == 2 )
 		rmPlaceObjectDefAtLoc(startHuntsID, 0, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 		rmPlaceObjectDefAtLoc(StartAreaTreeID, 0, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
         
-    if(ypIsAsian(i) && rmGetNomadStart() == false)
-      rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 		//vector closestPoint=rmGetUnitPosition(rmGetUnitPlacedOfPlayer(startingUnits, i));
 		//rmSetHomeCityGatherPoint(i, closestPoint);
 

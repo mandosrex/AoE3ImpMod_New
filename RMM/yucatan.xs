@@ -3,7 +3,6 @@
 // Nov. 06 - Updated for Ypack
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // *******************  Main entry point for random map script  ***************************
@@ -46,7 +45,6 @@ void main(void)
 	rmSetMapType("AIFishingUseful");
 	rmSetWorldCircleConstraint(true);
 
-	chooseMercs();
 
    // ***************************  Define some classes. These are used later for constraints.  ***************************
    int classPlayer=rmDefineClass("player");
@@ -683,8 +681,6 @@ void main(void)
 	   rmPlaceObjectDefAtLoc(playerBerryID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 	   rmPlaceObjectDefAtLoc(playerHuntsID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
      
-    if(ypIsAsian(i) && rmGetNomadStart() == false)
-      rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 0), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
       
 	   rmPlaceObjectDefAtLoc(waterFlagID, i, rmXMetersToFraction(xsVectorGetX(closestPoint)), rmZMetersToFraction(xsVectorGetZ(closestPoint)));
 

@@ -3,7 +3,6 @@
 // by RF_Gandalf
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -103,7 +102,7 @@ void main(void)
 	forestType = "Urals Forest";
       cliffType = "Korea";
 	treeType = "TreeSpruce";
-         deerType = "SikaDeer";
+         deerType = "Heron";
          deer2Type = "Deer";
          centerHerdType = "Deer";        
          sheepType = "ypGoat";
@@ -141,8 +140,8 @@ void main(void)
       cliffType = "Araucania South";
 	treeType = "TreePatagoniaSnow";
          deerType = "Deer";
-         deer2Type = "SikaDeer";
-         centerHerdType = "SikaDeer"; 
+         deer2Type = "Heron";
+         centerHerdType = "Heron"; 
          sheepType = "sheep";
 	if (rmRandInt(1,2) == 1)
 	   mineType = "mine";
@@ -184,7 +183,6 @@ void main(void)
   }
 
    
-   chooseMercs();
 
 // Define some classes.
    int classPlayer=rmDefineClass("player");

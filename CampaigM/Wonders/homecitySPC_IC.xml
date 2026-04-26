@@ -1380,51 +1380,35 @@
 		</waypoint>
 		<waypoint>
 			<bone>bone_vendor01</bone>
-			<vendorarea><![CDATA[
-				1>
-			]]></vendorarea>
+			<vendorarea>1</vendorarea>
 		</waypoint>
 		<waypoint>
 			<bone>bone_vendor02</bone>
-			<vendorarea><![CDATA[
-				1>
-			]]></vendorarea>
+			<vendorarea>1</vendorarea>
 		</waypoint>
 		<waypoint>
 			<bone>bone_vendor03</bone>
-			<vendorarea><![CDATA[
-				1>
-			]]></vendorarea>
+			<vendorarea>1</vendorarea>
 		</waypoint>
 		<waypoint>
 			<bone>bone_vendor04</bone>
-			<vendorarea><![CDATA[
-				1>
-			]]></vendorarea>
+			<vendorarea>1</vendorarea>
 		</waypoint>
 		<waypoint>
 			<bone>bone_vendor05</bone>
-			<vendorarea><![CDATA[
-				1>
-			]]></vendorarea>
+			<vendorarea>1</vendorarea>
 		</waypoint>
 		<waypoint>
 			<bone>bone_vendor06</bone>
-			<vendorarea><![CDATA[
-				1>
-			]]></vendorarea>
+			<vendorarea>1</vendorarea>
 		</waypoint>
 		<waypoint>
 			<bone>bone_vendor07</bone>
-			<vendorarea><![CDATA[
-				1>
-			]]></vendorarea>
+			<vendorarea>1</vendorarea>
 		</waypoint>
 		<waypoint>
 			<bone>bone_vendor08</bone>
-			<vendorarea><![CDATA[
-				1>
-			]]></vendorarea>
+			<vendorarea>1</vendorarea>
 		</waypoint>
 		<waypoint>
 			<bone>bone_firework01</bone>

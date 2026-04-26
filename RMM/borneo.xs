@@ -3,7 +3,6 @@
 // Dec 2006
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 void main(void)
@@ -98,7 +97,6 @@ void main(void)
 	rmSetWorldCircleConstraint(true);
 	rmSetWindMagnitude(2.0);
 
-	chooseMercs();
 	
 // Classes
 	int classPlayer=rmDefineClass("player");
@@ -625,9 +623,6 @@ void main(void)
     rmSetNuggetDifficulty(1, 1);
     rmPlaceObjectDefAtLoc(playerNuggetID, 0, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
     
-    //Japanese
-    if(ypIsAsian(i) && rmGetNomadStart() == false)
-      rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
     
     // Place water spawn points for the players
 		int waterSpawnPointID=rmCreateObjectDef("colony ship "+i);

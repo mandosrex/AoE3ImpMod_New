@@ -3,7 +3,6 @@
 // Main entry point for random map script    
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // initialize map type variables
@@ -384,7 +383,6 @@ void main(void)
 	rmSetStatusText("",0.20);
     rmEchoInfo("20 percent map loaded");
 	
-	chooseMercs();
 	
 	// Set size of map
 	int playerTiles=29000;
@@ -934,9 +932,6 @@ void main(void)
 		// Place player starting trees
 		rmPlaceObjectDefAtLoc(StartAreaTreeID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
      
-     
-    	if(ypIsAsian(i) && rmGetNomadStart() == false)
-     	 rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
      
 		// Place water spawn points for the players
 		waterSpawnPointID=rmCreateObjectDef("colony ship "+i);

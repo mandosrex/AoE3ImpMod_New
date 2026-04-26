@@ -7,9 +7,7 @@
 
 // ------------------------------------------------------ Initialization ------------------------------------------------------------------------
 
-
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 float PI = 3.141592;
@@ -88,7 +86,6 @@ void main(void)
    int numTries = -1;
    int failCount = -1;
 
-	chooseMercs();
 
 
 // ------------------------------------------------------ Contraints ---------------------------------------------------------------------------
@@ -347,8 +344,6 @@ float Player3Z = 0.5+0.33*_sin(angleT1+PI/6);
 	{
 		rmPlaceObjectDefAtLoc(startingTCID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
     
-    if(ypIsAsian(i) && rmGetNomadStart() == false)
-      rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 1), i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
     
 		rmPlaceObjectDefAtLoc(startingUnits, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 
@@ -543,7 +538,7 @@ if (cNumberNonGaiaPlayers>2)
 	
 	int ElifentSize = rmRandInt(3,4);
    int ElifentID=rmCreateObjectDef("Elephant herd");
-   rmAddObjectDefItem(ElifentID, "ypWildElephant", ElifentSize, 8.0);
+   rmAddObjectDefItem(ElifentID, "Dromedary", ElifentSize, 8.0);
    rmSetObjectDefMinDistance(ElifentID, 0.0);
    rmSetObjectDefMaxDistance(ElifentID, rmXFractionToMeters(0.0));
    rmAddObjectDefConstraint(ElifentID, avoidDeer);
@@ -555,7 +550,7 @@ if (cNumberNonGaiaPlayers>2)
 
 
    int ElifentID1=rmCreateObjectDef("Elephant herd bottom");
-   rmAddObjectDefItem(ElifentID1, "ypWildElephant", ElifentSize, 8.0);
+   rmAddObjectDefItem(ElifentID1, "Dromedary", ElifentSize, 8.0);
    rmSetObjectDefMinDistance(ElifentID1, 0.0);
    rmSetObjectDefMaxDistance(ElifentID1, 0.0);
    rmSetObjectDefCreateHerd(ElifentID1, true);

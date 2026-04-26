@@ -819,7 +819,57 @@ void initArrays(void)
 			xsArraySetInt(gAsianWonders, 3, cUnitTypeypWICharminarGate5);
 		}
 	} //end if
+	
+	gAge2ColombiansPoliticianList = xsArrayCreateInt(4, 0, "Age 2 Colombians Politician List");
+	xsArraySetInt(gAge2ColombiansPoliticianList, 0, cTechPoliticianPanama2 );
+	xsArraySetInt(gAge2ColombiansPoliticianList, 1, cTechPoliticianVenezuela2);
+	xsArraySetInt(gAge2ColombiansPoliticianList, 2, cTechPoliticianCundinamarca2);
+	xsArraySetInt(gAge2ColombiansPoliticianList, 3, cTechPoliticianEcuador2);
+	
+	gAge3ColombiansPoliticianList = xsArrayCreateInt(4, 0, "Age 3 Colombians Politician List");
+	xsArraySetInt(gAge3ColombiansPoliticianList, 0, cTechPoliticianPanama3 );
+	xsArraySetInt(gAge3ColombiansPoliticianList, 1, cTechPoliticianVenezuela3);
+	xsArraySetInt(gAge3ColombiansPoliticianList, 2, cTechPoliticianCundinamarca3);
+	xsArraySetInt(gAge3ColombiansPoliticianList, 3, cTechPoliticianEcuador3);
+	
+	gAge4ColombiansPoliticianList = xsArrayCreateInt(4, 0, "Age 4 Colombians Politician List");
+	xsArraySetInt(gAge4ColombiansPoliticianList, 0, cTechPoliticianPanama4);
+	xsArraySetInt(gAge4ColombiansPoliticianList, 1, cTechPoliticianVenezuela4);
+	xsArraySetInt(gAge4ColombiansPoliticianList, 2, cTechPoliticianCundinamarca4);
+	xsArraySetInt(gAge4ColombiansPoliticianList, 3, cTechPoliticianEcuador4);
+	
+	gAge5ColombiansPoliticianList = xsArrayCreateInt(4, 0, "Age 5 Colombians Politician List");
+	xsArraySetInt(gAge5ColombiansPoliticianList, 0, cTechPoliticianPanama5);
+	xsArraySetInt(gAge5ColombiansPoliticianList, 1, cTechPoliticianVenezuela5);
+	xsArraySetInt(gAge5ColombiansPoliticianList, 2, cTechPoliticianCundinamarca5);
+	xsArraySetInt(gAge5ColombiansPoliticianList, 3, cTechPoliticianEcuador5);
 
+	gAge2USAPoliticianList = xsArrayCreateInt(4, 0, "Age 2 USA Politician List");
+	xsArraySetInt(gAge2USAPoliticianList, 0, cTechPoliticianFlorida2 );
+	xsArraySetInt(gAge2USAPoliticianList, 1, cTechPoliticianCalifornia2);
+	xsArraySetInt(gAge2USAPoliticianList, 2, cTechPoliticianVermont2);
+	xsArraySetInt(gAge2USAPoliticianList, 3, cTechPoliticianTexas2);
+	
+	gAge3USAPoliticianList = xsArrayCreateInt(4, 0, "Age 3 USA Politician List");
+	xsArraySetInt(gAge3USAPoliticianList, 0, cTechPoliticianFlorida3 );
+	xsArraySetInt(gAge3USAPoliticianList, 1, cTechPoliticianCalifornia3);
+	xsArraySetInt(gAge3USAPoliticianList, 2, cTechPoliticianVermont3);
+	xsArraySetInt(gAge3USAPoliticianList, 3, cTechPoliticianTexas3);
+	
+	gAge4USAPoliticianList = xsArrayCreateInt(4, 0, "Age 4 USA Politician List");
+	xsArraySetInt(gAge4USAPoliticianList, 0, cTechPoliticianFlorida4 );
+	xsArraySetInt(gAge4USAPoliticianList, 1, cTechPoliticianCalifornia4);
+	xsArraySetInt(gAge4USAPoliticianList, 2, cTechPoliticianVermont4);
+	xsArraySetInt(gAge4USAPoliticianList, 3, cTechPoliticianTexas4);
+	
+	gAge5USAPoliticianList = xsArrayCreateInt(4, 0, "Age 5 USA Politician List");
+	xsArraySetInt(gAge5USAPoliticianList, 0, cTechPoliticianFlorida5 );
+	xsArraySetInt(gAge5USAPoliticianList, 1, cTechPoliticianCalifornia5);
+	xsArraySetInt(gAge5USAPoliticianList, 2, cTechPoliticianVermont5);
+	xsArraySetInt(gAge5USAPoliticianList, 3, cTechPoliticianTexas5);
+	
+	
+	
 	gAge2PoliticianList = xsArrayCreateInt(7, 0, "Age 2 Politician List");
 	xsArraySetInt(gAge2PoliticianList, 0, cTechPoliticianQuartermaster );
 	xsArraySetInt(gAge2PoliticianList, 1, cTechPoliticianGovernor);

@@ -3,7 +3,6 @@
 // created by RF_Gandalf
 
 include "mercenaries.xs";
-include "ypAsianInclude.xs";
 include "ypKOTHInclude.xs";
 
 // Main entry point for random map script
@@ -49,7 +48,6 @@ void main(void)
    rmSetMapType("snow");
    rmSetMapType("asia");
    rmSetGlobalSnow( 0.7 );
-   chooseMercs();
 
 // Define some classes. These are used later for constraints.
    int classPlayer=rmDefineClass("player");
