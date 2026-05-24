@@ -417,6 +417,7 @@ void main(void)
 		rmAddAreaInfluenceSegment(smallMesaID, 0.50, 0.48, 0.51, 0.49); //Right
 		rmAddAreaInfluenceSegment(smallMesaID, 0.51, 0.51, 0.52, 0.52); //Top - Original segment
 		rmAddAreaInfluenceSegment(smallMesaID, 0.48, 0.50, 0.49, 0.51); //Left
+		rmAddAreaTerrainReplacement(smallMesaID, "nwterritory\ground_clifftop_nwt", "nwterritory\ground_grass5_nwt");
 		rmBuildArea(smallMesaID);
 
 
@@ -446,6 +447,7 @@ void main(void)
 		rmAddAreaInfluenceSegment(smallMesaID2, 0.46, 0.40, 0.53, 0.38); //Right
 		rmAddAreaInfluenceSegment(smallMesaID2, 0.53, 0.45, 0.53, 0.38); //Top - Original segment
 		rmAddAreaInfluenceSegment(smallMesaID2, 0.53, 0.45, 0.48, 0.43); //Left
+		rmAddAreaTerrainReplacement(smallMesaID2, "nwterritory\ground_clifftop_nwt", "nwterritory\ground_grass5_nwt");
 		rmBuildArea(smallMesaID2);
 
 
@@ -475,6 +477,7 @@ void main(void)
 		rmAddAreaInfluenceSegment(smallMesaID3, 0.46, 0.40, 0.53, 0.38); //Right
 		rmAddAreaInfluenceSegment(smallMesaID3, 0.53, 0.45, 0.53, 0.38); //Top - Original segment
 		rmAddAreaInfluenceSegment(smallMesaID3, 0.53, 0.45, 0.48, 0.43); //Left
+		rmAddAreaTerrainReplacement(smallMesaID3, "nwterritory\ground_clifftop_nwt", "nwterritory\ground_grass5_nwt");
 		rmBuildArea(smallMesaID3);
 
 // ********************************************** TRADE ROUTE **************************************************
@@ -601,18 +604,12 @@ void main(void)
 
     if (rmGetNomadStart() == false)
     {
-      if(ypIsAsian(i)) {
+      if (rmGetPlayerCiv(i) ==  rmGetCivID("Chinese") || rmGetPlayerCiv(i) ==  rmGetCivID("Indians") || rmGetPlayerCiv(i) ==  rmGetCivID("Japanese")) {
         rmPlaceObjectDefAtLoc(playerRicePaddyID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
       }
-      
-      else if(rmGetPlayerCiv(i) ==  rmGetCivID("Chinese") || rmGetPlayerCiv(i) ==  rmGetCivID("Indians") || rmGetPlayerCiv(i) ==  rmGetCivID("Japanese")) {
-        rmPlaceObjectDefAtLoc(playerRicePaddyID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
-      }
-
       else if(rmGetPlayerCiv(i) ==  rmGetCivID("XPIroquois") || rmGetPlayerCiv(i) ==  rmGetCivID("XPSioux") || rmGetPlayerCiv(i) ==  rmGetCivID("XPAztec")) {
         rmPlaceObjectDefAtLoc(playerFarmID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
       }
-      
       else 
         rmPlaceObjectDefAtLoc(playerMillID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
     }

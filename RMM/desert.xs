@@ -180,27 +180,16 @@ void main(void)
   int subCiv1=-1;
   int subCiv2=-1;
 
-  if (rmAllocateSubCivs(3) == true) {
-		subCiv0=rmGetCivID("Udasi");
-		rmEchoInfo("subCiv0 is Udasi "+subCiv0);
+
+		subCiv0=rmGetCivID("Tengri");
+		rmEchoInfo("subCiv0 is Tengri "+subCiv0);
 		if (subCiv0 >= 0)
-			rmSetSubCiv(0, "Udasi");
+			rmSetSubCiv(0, "Tengri");
 
-		subCiv1=rmGetCivID("Udasi");
-		rmEchoInfo("subCiv1 is Udasi "+subCiv1);
-		if (subCiv1 >= 0)
-			rmSetSubCiv(1, "Udasi");
-    
-		subCiv2=rmGetCivID("Udasi");
-		rmEchoInfo("subCiv1 is Udasi "+subCiv2);
-		if (subCiv2 >= 0)
-			rmSetSubCiv(2, "Udasi");
-	}
 
-  if (subCiv0 == rmGetCivID("Udasi")) {  
     int udasiVillageAID = -1;
-    int udasiVillageType = rmRandInt(1,5);
-    udasiVillageAID = rmCreateGrouping("Udasi village A", "native udasi village "+udasiVillageType);
+    int udasiVillageType = rmRandInt(1,3);
+    udasiVillageAID = rmCreateGrouping("Tengri village A", "native_tengri_0"+udasiVillageType);
     rmSetGroupingMinDistance(udasiVillageAID, 0.0);
     rmSetGroupingMaxDistance(udasiVillageAID, 10.0);
     rmAddGroupingToClass(udasiVillageAID, rmClassID("natives"));
@@ -209,7 +198,7 @@ void main(void)
 	} else {
 		rmPlaceGroupingAtLoc(udasiVillageAID, 0, 0.5, 0.5);
 	}
-  }
+
 
   float angleT1 = rmRandFloat(0,2*PI);
 float Player1X = 0.5+0.33*_cos(angleT1);

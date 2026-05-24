@@ -658,7 +658,7 @@ void main(void)
 	{
 		if (Natsvariation > 0.5)
 		{
-			nativeID0 = rmCreateGrouping("Shaolin temple A", "native shaolin temple mongol 0"+1);
+			nativeID0 = rmCreateGrouping("Tengri temple A", "native_tengri_0"+1);
 			rmSetGroupingMinDistance(nativeID0, 0.00);
 			rmSetGroupingMaxDistance(nativeID0, 0.00);
 		//	rmAddGroupingConstraint(nativeID0, avoidImpassableLand);
@@ -672,7 +672,7 @@ void main(void)
 			else
 				rmPlaceGroupingAtLoc(nativeID0, 0, 0.40, 0.70);
 			
-			nativeID2 = rmCreateGrouping("Shaolin temple B", "native shaolin temple mongol 0"+2);
+			nativeID2 = rmCreateGrouping("Tengri temple B", "native_tengri_0"+2);
 			rmSetGroupingMinDistance(nativeID2, 0.00);
 			rmSetGroupingMaxDistance(nativeID2, 0.00);
 		//	rmAddGroupingConstraint(nativeID2, avoidImpassableLand);
@@ -715,7 +715,7 @@ void main(void)
 	}
 	else
 	{
-		nativeID4 = rmCreateGrouping("Shaolin temple C", "native shaolin temple mongol 0"+1);
+		nativeID4 = rmCreateGrouping("Tengri temple C", "native_tengri_0"+1);
 		rmSetGroupingMinDistance(nativeID4, 0.00);
 		rmSetGroupingMaxDistance(nativeID4, 0.00);
 	//	rmAddGroupingConstraint(nativeID4, avoidImpassableLand);

@@ -1214,16 +1214,12 @@ void main(void)
 
 		if(rmGetNomadStart() == false)
 		{
-			if (rmGetPlayerCiv(i) ==  rmGetCivID("Chinese") || rmGetPlayerCiv(i) == rmGetCivID("Indians") || rmGetCivID("Japanese"))
+			if (rmGetPlayerCiv(i) ==  rmGetCivID("Chinese") || rmGetPlayerCiv(i) == rmGetCivID("Indians") || rmGetPlayerCiv(i) == rmGetCivID("Japanese"))
 				rmPlaceObjectDefAtLoc(playerAsianMarketID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
-			else if(rmGetPlayerCiv(i) ==  rmGetCivID("Ottomans"))
-			{
+			else if (rmGetPlayerCiv(i) ==  rmGetCivID("Ottomans"))
 				rmPlaceObjectDefAtLoc(playerOttomanMarketID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
-			}
 			else if (rmGetPlayerCiv(i) ==  rmGetCivID("XPAztec") || rmGetPlayerCiv(i) == rmGetCivID("XPIroquois") || rmGetPlayerCiv(i) == rmGetCivID("XPSioux"))
-			{
 				rmPlaceObjectDefAtLoc(playerNativeMarketID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));  
-			}
 			else 
 				rmPlaceObjectDefAtLoc(playerMarketID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 		}

@@ -302,15 +302,15 @@ void main(void)
 	rmBuildArea(mainIslandID);
   
    // Main river
-  int mainRiver = rmRiverCreate(-1, "Borneo Water", 8, 8, 8, 11);
+  int mainRiver = rmRiverCreate(-1, "Borneo River", 8, 8, 8, 11);
 
   rmRiverAddWaypoint(mainRiver, 0.5, 1.0);
   rmRiverAddWaypoint(mainRiver, 0.5, .6);
   rmRiverAddWaypoint(mainRiver, 0.5, .2);
 
   rmRiverSetShallowRadius(mainRiver, 9+cNumberNonGaiaPlayers);
-  rmRiverAddShallow(mainRiver, 0.2);
-  rmRiverAddShallow(mainRiver, 0.5);
+  rmRiverAddShallow(mainRiver, 0.3);
+  rmRiverAddShallow(mainRiver, 0.6);
   
   rmRiverBuild(mainRiver);
 

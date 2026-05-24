@@ -1681,9 +1681,9 @@
 		<String _locID="23523">Aztec Eagle Warrior</String>
 		<String _locID="23524">Comanche light ranged cavalry. Good against shock cavalry.</String>
 		<String _locID="23525">Comanche Horse Archer</String>
-		<String _locID="23526">All cavalry move faster.</String>
+		<String _locID="23526">All cavalry and shock infantry move faster.</String>
 		<String _locID="23527">Comanche Mustangs</String>
-		<String _locID="23529">Selective breeding of horses increases cavalry hitpoints.</String>
+		<String _locID="23529">Selective breeding of horses increases cavalry (and shock infantry) hitpoints.</String>
 		<String _locID="23530">Comanche Horse Breeding</String>
 		<String _locID="23540">Using Aztec floating garden methods, your villagers gather Food from Mills faster, and Boats gather from Fish and Whales faster.</String>
 		<String _locID="23541">Aztec Chinampa</String>
@@ -1971,8 +1971,8 @@
 		<String _locID="24635">Hire Holy Roman Army</String>
 		<String _locID="24637">Mercenaries (including shipments) are cheaper.</String>
 		<String _locID="24638">Mercenary Loyalty</String>
-		<String _locID="24643">Ships 2 Privateer ships to your colony.</String>
-		<String _locID="24644">Recruit Privateers</String>
+		<String _locID="24643">Ships a Privateer containing Buccaneer outlaws.</String>
+		<String _locID="24644">Recruit Privateer +3 Buccaneers</String>
 		<String _locID="24655">Fishing Boats gather Food from Fish and Coin from Whales faster.</String>
 		<String _locID="24656">Fish Market</String>
 		<String _locID="24657">This tech doesn't do anything yet!</String>
@@ -2139,7 +2139,7 @@
 		<String _locID="25248">"We will permit you to build a Trading Post here to forge an alliance between our people."</String>
 		<String _locID="25249">Native Building</String>
 		<String _locID="25250">NAT Rainforest Tupi</String>
-		<String _locID="25252">Tupi Animal Lore enables you to train Tame Cougars from your Town Center.</String>
+		<String _locID="25252">Ships 4 Pet Cougars and enables you to train more from Town Centers.</String>
 		<String _locID="25253">Tupi Animal Lore</String>
 		<String _locID="25261">Cherokee weaving techniques improve dry storage. Dock, Market, Mill, and Plantation improvements no longer cost Wood.</String>
 		<String _locID="25262">Cherokee Basket Weaving</String>
@@ -2633,7 +2633,7 @@
 		<String _locID="26773" symbol="cStringHCGFHotkey">Find Home City Arrival Flag</String>
 		<String _locID="26774">Find Market</String>
 		<String _locID="26775">Build Market</String>
-		<String _locID="26795">The Iroquois prepare for war! You get a Shipment of Mantlets. You get 1 Mantlet for every 2 minutes the game has lasted, up to 30 minutes.</String>
+		<String _locID="26795">The Iroquois prepare for war! You get a Shipment of Mantlets. You get 1 Mantlet for every 2 minutes of game length, up to 30 minutes.</String>
 		<String _locID="26799">Eagle</String>
 		<String _locID="26803">Rodelero attack and hitpoints increased.</String>
 		<String _locID="26804">Guard Rodeleros</String>
@@ -3976,7 +3976,7 @@
 		<String _locID="30034">Socket Great Lakes Fort</String>
 		<String _locID="30035">Socket Icon Native</String>
 		<String _locID="30036">Socket Icon Trade Route</String>
-		<String _locID="30051">If you build a Trading Post here, you can get line of sight and generate XP and other resources.</String>
+		<String _locID="30051">If you build a Trading Post here, you can get line of sight and receive XP and other resources.</String>
 		<String _locID="30052">Build a Trading Post here</String>
 		<String _locID="30053">"We will permit you to build a Trading Post here to forge an alliance between our people."</String>
 		<String _locID="30054">Build a Trading Post here</String>
@@ -5472,7 +5472,7 @@
 		<String _locID="33943">Elite Nootka warrior.</String>
 		<String _locID="33944">Nootka War Chief</String>
 		<String _locID="33945">NAT Nootka War Chief</String>
-		<String _locID="33949">Allows your Explorer to train a Nootka War Chief.</String>
+		<String _locID="33949">Ships a Nootka Chieftain and allows your Town Center to train more.</String>
 		<String _locID="33950">Loyal Nootka War Chief</String>
 		<String _locID="33952">Rock Wall</String>
 		<String _locID="33953">PROP Rock Fence NE</String>
@@ -5480,7 +5480,7 @@
 		<String _locID="33955">Precursors to the Inca, the Huari still control parts of the Andes.</String>
 		<String _locID="33956">Stronghold</String>
 		<String _locID="33957">GRD Huari Stronghold</String>
-		<String _locID="33959">Allows your Explorer to quickly train a small ambush party of Blowgun Warriors.</String>
+		<String _locID="33959">Ships 4 Blowgun Warriors and allows your Explorer (War Chief and Monk) to quickly train more.</String>
 		<String _locID="33960">Carib Ambush Party</String>
 		<String _locID="33961">Native American blowgunner</String>
 		<String _locID="33962">Elite Carib blowgunner that can be quickly trained.</String>
@@ -5825,7 +5825,7 @@
 		<String _locID="34545">Villagers gather Coin from Mines faster.</String>
 		<String _locID="34546">Establish Ironmonger</String>
 		<String _locID="34547">Villagers gather Coin from Mines at a faster rate.</String>
-		<String _locID="34548">The Knights of St. John call for a New World crusade! You receive a Shipment of 6 Elmetto and 8 Hoop Throwers from Malta, and all Hoop Throwers are improved. This use of trained personnel means all your other units have fewer hitpoints from now on.</String>
+		<String _locID="34548">The Knights of St. John call for a New World crusade! You receive a Shipment of 8 Hoop Throwers from Malta, and all Hoop Throwers are improved. This use of trained personnel means all your other units have fewer hitpoints from now on.</String>
 		<String _locID="34549">High Crusade</String>
 		<String _locID="34550">Young Guard</String>
 		<String _locID="34551">Rodelero and Pikemen hitpoints increased, but speed reduced.</String>
@@ -6157,7 +6157,7 @@
 		<String _locID="35228">Improves your French Explorer in combat, allows him to heal and gives him a Heal ability, and gives him a powerful canine companion.</String>
 		<String _locID="35233">Falconet, Mortar, Culverin and Cannon attack and hitpoints increased.</String>
 		<String _locID="35234">Artillery Combat</String>
-		<String _locID="35235">Coureurs move faster and do more damage to Treasure guardians.</String>
+		<String _locID="35235">Explorers and Coureurs move faster and do more damage to Treasure guardians.</String>
 		<String _locID="35236">Northwest Passage</String>
 		<String _locID="35241">Stockades</String>
 		<String _locID="35242">Destroy to rescue the prisoners within.</String>
@@ -7279,9 +7279,9 @@
 		<String _locID="36719">Hire Finnish Hackapells</String>
 		<String _locID="36720">Ships a number of Manchurian Cavalry Archer mercenaries.</String>
 		<String _locID="36721">Hire Manchurian Cavalry Archers</String>
-		<String _locID="36722">TEAM Ships 2 Privateer ships to your colony.</String>
-		<String _locID="36723">TEAM Recruit Privateers</String>
-		<String _locID="36725">TEAM Dutch player sends everyone Privateers.</String>
+		<String _locID="36722">Ships a Privateer containing Buccaneer outlaws.</String>
+		<String _locID="36723">TEAM Recruit Privateer +3 Buccaneers</String>
+		<String _locID="36725">Dutch player sends everyone Privateers.</String>
 		<String _locID="36726">Ships a number of Egyptian Mameluke mercenaries.</String>
 		<String _locID="36727">Hire Egyptian Mamelukes</String>
 		<String _locID="36728">Ships a number of Barbary Corsair mercenaries.</String>
@@ -7774,8 +7774,8 @@
 		<String _locID="37297">Ships 2 Galleys and 1 Monitor, also increases their speed.</String>
 		<String _locID="37298">Acemi OIglan School</String>
 		<String _locID="37299">Janissaries and Azaps cost less to train.</String>
-		<String _locID="37300">Ships 4 Privateer ships to your colony.</String>
-		<String _locID="37301">Recruit Privateer Fleet</String>
+		<String _locID="37300">Ships a Privateer containing Cutthroat outlaws.</String>
+		<String _locID="37301">Recruit Privateer +6 Cutthroats</String>
 		<String _locID="37302">From: The Grand Master</String>
 		<String _locID="37303">It would appear you are having trouble with the orders you have been given. You may wish to return to the Main menu and revisit the tutorial or lower your difficulty setting.</String>
 		<String _locID="37304">It would appear you are having trouble with the orders you have been given. You may wish to return to the Main menu and revisit the tutorial.</String>
@@ -7792,8 +7792,8 @@
 		<String _locID="37319">TEAM Monitor attack and hitpoints increased.</String>
 		<String _locID="37320">TEAM Monitor Combat</String>
 		<String _locID="37321">TEAM Improved hand cavalry damage.</String>
-		<String _locID="37322">Ships 5 Privateer ships to your colony.</String>
-		<String _locID="37323">Recruit Privateer Armada</String>
+		<String _locID="37322">Ships Privateers containing Pirate outlaws.</String>
+		<String _locID="37323">Recruit Privateers +8 Pirates</String>
 		<String _locID="37324">Villagers gather Food from livestock much faster.</String>
 		<String _locID="37325">Fulling Mills</String>
 		<String _locID="37326">Aztec Props</String>
@@ -14772,7 +14772,7 @@
 		<String _locID="44355">Aztec Mining</String>
 		<String _locID="44356">Team Silversmith Shipment has arrived.</String>
 		<String _locID="44357">Aztec Mining Shipment has arrived.</String>
-		<String _locID="44358">9 Deer</String>
+		<String _locID="44358">Ships 9 Deer and increases hunting gather rate.</String>
 		<String _locID="44359">Villagers gather from Farms, Mills, Plantations, and Rice Paddies faster.</String>
 		<String _locID="44360">Chinampa</String>
 		<String _locID="44361">Chinampa Shipment has arrived.</String>
@@ -17477,7 +17477,7 @@
 		<String _locID="47074">Hire Barbary Corsair Force</String>
 		<String _locID="47075">4 Galleys</String>
 		<String _locID="47076">TEAM 4 Sipahis</String>
-		<String _locID="47077">Ships 3 Privateer ships to your colony.</String>
+		<String _locID="47077">Ships Privateers to your colony.</String>
 		<String _locID="47078">Recruit Privateer Flotilla</String>
 		<String _locID="47079">From now on, Trade Route upgrades are free and Fame can be received at Trading Posts.</String>
 		<String _locID="47080">House of Braganca</String>
@@ -19892,7 +19892,7 @@
 		<String _locID="60441">Crates of 300 Food +600 XP</String>
 		<String _locID="60442">Food source and XP.</String>
 		<String _locID="60443">Crates of 400 Food +700 XP</String>
-		<String _locID="60444">Disciplined Abus Gun</String>
+		<String _locID="60444">Veteran Abus Gun</String>
 		<String _locID="60445">Food source and XP.</String>
 		<String _locID="60446">Crates of 300 Wood +600 XP</String>
 		<String _locID="60447">Food source and XP.</String>
@@ -19999,7 +19999,7 @@
 		<String _locID="60548">Underworld Wokou</String>
 		<String _locID="60549">Underworld Wokou</String>
 		<String _locID="60550">Yumi Archer attack and hitpoints increased.</String>
-		<String _locID="60551">Disciplined Yumi Archer</String>
+		<String _locID="60551">Disciplined Yumi</String>
 		<String _locID="60552">Disciplined Rajput</String>
 		<String _locID="60553">Disciplined Yumi</String>
 		<String _locID="60554">Sohei attack and hitpoints increased.</String>
@@ -20560,7 +20560,7 @@
 		<String _locID="61109">Sharia</String>
 		<String _locID="61110">Implementation of daily fasting decreases Villager hitpoints but increases all gather rates.</String>
 		<String _locID="61111">Fasting</String>
-		<String _locID="61112">Preparation for the Pilgrimage to Mecca provides approximately 1 Fattened Goat for every 2 minutes of game time, up to 30 minutes.</String>
+		<String _locID="61112">Preparation for the Pilgrimage to Mecca provides approximately 1 Fattened Goat for every 2 minutes of game length, up to 30 minutes.</String>
 		<String _locID="61113">Pilgrimage</String>
 		<String _locID="61114">Jesuit builders give their design input to all buildings, increasing building hitpoints.</String>
 		<String _locID="61115">Flying Buttress</String>
@@ -21118,10 +21118,10 @@
 		<String _locID="61667">SHP Wokou Dhow</String>
 		<String _locID="61668">Ships a Wokou Dhow containing Wokou Samurai outlaws.</String>
 		<String _locID="61669">Recruit Wokou +2 Ronin</String>
-		<String _locID="61670">Ships a Wokou Dhow containing Ronin Samurai mercenaries.</String>
-		<String _locID="61671">Recruit Wokou +4 Ronin</String>
-		<String _locID="61672">Ships a Wokou Dhow containing Yojimbo Horse Archer mercenaries.</String>
-		<String _locID="61673">Recruit Wokou +7 Yojimbo</String>
+		<String _locID="61670">Ships a number of Wokou Dhows.</String>
+		<String _locID="61671">Recruit Wokou Fleet</String>
+		<String _locID="61672">Ships a Wokou Dhow containing Wokou Smuggler outlaws.</String>
+		<String _locID="61673">Recruit Wokou +6 Smugglers</String>
 		<String _locID="61674">Ships 1 Wokou Dhow containing 7 Exiled Riflemen.</String>
 		<String _locID="61675">Recruit Wokou +7 Exiled Riflemen</String>
 		<String _locID="61676">Ships 1 Wokou Dhow containing 12 Blind Monks.</String>
@@ -22229,12 +22229,12 @@
 		<String _locID="62845">Recruit Wokou +3 Mangudai</String>
 		<String _locID="62846">Ships a Wokou Dhow containing Blind Monks.</String>
 		<String _locID="62847">Recruit Wokou +4 Blind Monks</String>
-		<String _locID="62848">Ships a Wokou Dhow containing Petards.</String>
-		<String _locID="62849">Recruit Wokou +10 Petards</String>
-		<String _locID="62850">Ships a Wokou Dhow containing Petards.</String>
-		<String _locID="62851">Recruit Wokou +4 Petards</String>
-		<String _locID="62852">Ships a Wokou Dhow containing Flying Crows.</String>
-		<String _locID="62853">Recruit Wokou +5 Flying Crows</String>
+		<String _locID="62848">Ships a number of Wokou Dhows.</String>
+		<String _locID="62849">Recruit Wokou Fleet</String>
+		<String _locID="62850">Ships a Wokou Dhow containing Iron Troop mercenaries.</String>
+		<String _locID="62851">Recruit Wokou +4 Iron Troops</String>
+		<String _locID="62852">Ships a Wokou Dhow containing Blind Monk outlaws.</String>
+		<String _locID="62853">Recruit Wokou +8 Blind Monks</String>
 		<String _locID="62854">Enables Mandarin Banner Army at the Village, composed of Iron Troops and Manchu Horse Archers.</String>
 		<String _locID="62855">Mandarin Banner Army</String>
 		<String _locID="62856">Dance Hall</String>
@@ -22909,9 +22909,9 @@
 		<String _locID="63570">Silver Market</String>
 		<String _locID="63571">SetAge1</String>
 		<String _locID="63572">Set Age 1</String>
-		<String _locID="63573" symbol="cStringRMSYellowRiverDesc">Yellow River - Flood: river that offers extra resources and choke points during the flooding season.\nNatives: Shaolin, Zen\nOutlaws: Mangudai, Smuggler</String>
+		<String _locID="63573" symbol="cStringRMSYellowRiverDesc">Yellow River - Flood: river that offers extra resources and choke points during the flooding season.\nNatives: Tengri, Zen\nOutlaws: Mangudai, Smuggler</String>
 		<String _locID="63574" symbol="cStringRMSYellowRiver">Yellow River - Flood</String>
-		<String _locID="63575" symbol="cStringRMSYellowRiverDetails">The year is 1853.\n \nDuring times of flood, extra resources abound and naval craft are sometimes seen along the shores of the Yellow River. Recruit local groups as allies to take advantage of their multiple trade routes located along the borders of the map.\n \n \nNatives: Shaolin, Zen\nOutlaws: Mangudai, Smuggler</String>
+		<String _locID="63575" symbol="cStringRMSYellowRiverDetails">The year is 1853.\n \nDuring times of flood, extra resources abound and naval craft are sometimes seen along the shores of the Yellow River. Recruit local groups as allies to take advantage of their multiple trade routes located along the borders of the map.\n \n \nNatives: Tengri, Zen\nOutlaws: Mangudai, Smuggler</String>
 		<String _locID="63576">Disciplined Samurai</String>
 		<String _locID="63577">Samurai attack and hitpoints increased.</String>
 		<String _locID="63578">Exalted upgrade for Samurais.</String>
@@ -22958,14 +22958,14 @@
 		<String _locID="63619">Sohei</String>
 		<String _locID="63620">NAT MERC Sohei</String>
 		<String _locID="63621">Disciplined Yamabushi</String>
-		<String _locID="63622">Honored Yamabushi</String>
+		<String _locID="63622">Master Yamabushi</String>
 		<String _locID="63623">Exalted Yamabushi</String>
 		<String _locID="63624">Disciplined Iron Troop</String>
-		<String _locID="63625">Disciplined Yamabushi</String>
+		<String _locID="63625">Initiated Yamabushi</String>
 		<String _locID="63626">Exalted Iron Troop</String>
 		<String _locID="63627">Exalted Yamabushi</String>
 		<String _locID="63628">Honored Iron Troop</String>
-		<String _locID="63629">Honored Yamabushi</String>
+		<String _locID="63629">Master Yamabushi</String>
 		<String _locID="63630">Yamabushi Hitpoints Shipment has arrived.</String>
 		<String _locID="63631">Yamabushi Regeneration Shipment has arrived.</String>
 		<String _locID="63632">Archer</String>
@@ -25034,19 +25034,19 @@
 		<String _locID="65744">Japanese assassin. Highly effective against mercs, explorers, and war chiefs.</String>
 		<String _locID="65745">Japanese Ninja</String>
 		<String _locID="65746">INF Japanese Ninja</String>
-		<String _locID="65747">Disciplined Tiger Claw</String>
+		<String _locID="65747">Initiated Tiger Claw</String>
 		<String _locID="65748">Disciplined Gurkha</String>
 		<String _locID="65749">Initiated Conquistador</String>
-		<String _locID="65750">Disciplined Rattan Shield</String>
-		<String _locID="65751">Disciplined War Elephant</String>
-		<String _locID="65752">Disciplined Chakram Thrower</String>
+		<String _locID="65750">Initiated Rattan Shield</String>
+		<String _locID="65751">Initiated War Elephant</String>
+		<String _locID="65752">Initiated Chakram Thrower</String>
 		<String _locID="65753">Disciplined Sohei</String>
-		<String _locID="65754">Honored Tiger Claw</String>
+		<String _locID="65754">Master Tiger Claw</String>
 		<String _locID="65755">Honored Gurkha</String>
 		<String _locID="65756">Master Conquistador</String>
-		<String _locID="65757">Honored Rattan Shield</String>
-		<String _locID="65758">Honored War Elephant</String>
-		<String _locID="65759">Honored Chakram Thrower</String>
+		<String _locID="65757">Master Rattan Shield</String>
+		<String _locID="65758">Master War Elephant</String>
+		<String _locID="65759">Master Chakram Thrower</String>
 		<String _locID="65760">Honored Sohei</String>
 		<String _locID="65761">Blood Charge</String>
 		<String _locID="65762">A trample attack that smashes enemies in your path for 2 seconds.</String>
@@ -25438,13 +25438,13 @@
 		<String _locID="66148">Trading House</String>
 		<String _locID="66149">Tribute System Shipment has arrived.</String>
 		<String _locID="66150">Trading House Shipment has arrived.</String>
-		<String _locID="66151">Disciplined Yamabushi</String>
+		<String _locID="66151">Initiated Yamabushi</String>
 		<String _locID="66152">Unlock a new level of trade taxes - 20%, +1 Shudra.</String>
 		<String _locID="66153">Trading House</String>
 		<String _locID="66154">Trading House Shipment has arrived.</String>
-		<String _locID="66155">Disciplined Shinobi</String>
-		<String _locID="66156">Honored Yamabushi</String>
-		<String _locID="66157">Honored Shinobi</String>
+		<String _locID="66155">Initiated Shinobi</String>
+		<String _locID="66156">Master Yamabushi</String>
+		<String _locID="66157">Master Shinobi</String>
 		<String _locID="66158">Exalted Shinobi</String>
 		<String _locID="66159">Sequester - not yet implemented.</String>
 		<String _locID="66160">Sequester (In Progress)</String>
@@ -25452,7 +25452,7 @@
 		<String _locID="66162">You have Sequestered!</String>
 		<String _locID="66163" symbol="cStringPercentChanceToHit">Chance To Hit: %.1f%%</String>
 		<String _locID="66164" gamecharacter="Daimyo Mototada" soundfilename="YMOTO5002">Our warriors require more food than we brought with us. Build cherry orchards and shrines to fill your stores.</String>
-		<String _locID="66165">Disciplined Yamabushi</String>
+		<String _locID="66165">Initiated Yamabushi</String>
 		<String _locID="66166">Exalted Yamabushi</String>
 		<String _locID="66167">Hire Ming Iron Troops</String>
 		<String _locID="66168">Ships a number of Ming Iron Troop mercenaries that are good against heavy infantry.</String>
@@ -25590,7 +25590,7 @@
 		<String _locID="66300">Imperial Field Gun</String>
 		<String _locID="66301">Imperial Howitzer</String>
 		<String _locID="66302">Build a Trading Post here</String>
-		<String _locID="66303">If you build a Trading Post here, you can get line of sight and generate XP and other resources.</String>
+		<String _locID="66303">If you build a Trading Post here, you can get line of sight and receive XP and other resources.</String>
 		<String _locID="66304">Trading Post Site</String>
 		<String _locID="66305">Socket Silk Route</String>
 		<String _locID="66306">Capture this post by defeating the guardians and moving into the area</String>
@@ -28892,8 +28892,8 @@
 		<String _locID="69608">Mercenary Thuggee</String>
 		<String _locID="69609" symbol="cStringRansomExplorerAsianOn">Reincarnate your Monk back to this building.</String>
 		<String _locID="69610" symbol="cStringRansomExplorerAsianOff">You have no fallen Monks to reincarnate.</String>
-		<String _locID="69611">Honored Yamabushi</String>
-		<String _locID="69612">Honored Yamabushi</String>
+		<String _locID="69611">Master Yamabushi</String>
+		<String _locID="69612">Master Yamabushi</String>
 		<String _locID="69613">Transforms into a Factory</String>
 		<String _locID="69614">Transforms into a Factory for economic and heavy artillery production.</String>
 		<String _locID="69615">Bank Wagon</String>
@@ -29305,9 +29305,9 @@
 		<String _locID="70022" symbol="cStringRMSLRGSiberiaName">Large Siberia</String>
 		<String _locID="70023" symbol="cStringRMSLRGSiberiaDetails">Large Siberia: A frozen river divides the map, and a Trade Route runs along the southern edge, with plentiful hunting among the great forests.</String>
 		<String _locID="70024" symbol="cStringRMSSiberiaDesc">The year is 1582.\n \nIn the distant north, hunting is plentiful among the great forests, and a frozen river separates you from your enemies. The future route of the Trans-Siberian Railway lies to the south.\n \n \nNatives: N/A\nOutlaws: Mangudai, Masterless Samurai</String>
-		<String _locID="70025" symbol="cStringRMSMongoliaDetails">Mongolia: explore generous grassland populated with unprecedented herds of grazing animals and a distant northern Trade Route.\nNatives: Sufi, Shaolin\nOutlaws: Mangudai, Masterless Samurai</String>
+		<String _locID="70025" symbol="cStringRMSMongoliaDetails">Mongolia: explore generous grassland populated with unprecedented herds of grazing animals and a distant northern Trade Route.\nNatives: Tengri, Shaolin\nOutlaws: Mangudai, Masterless Samurai</String>
 		<String _locID="70026" symbol="cStringRMSMongoliaName">Mongolia</String>
-		<String _locID="70027" symbol="cStringRMSMongoliaDesc">The year is 1696.\n \nPlayers begin in generous grassland. To the north lie the fertile slopes of the steppe, where players will have to extend their reach in order to bolster their economies and reach the distant Trade Route. The number of grazing animals is astounding, and can be utilized to great advantage.\n \n \nNatives: Sufi, Shaolin\nOutlaws: Mangudai, Masterless Samurai</String>
+		<String _locID="70027" symbol="cStringRMSMongoliaDesc">The year is 1696.\n \nPlayers begin in generous grassland. To the north lie the fertile slopes of the steppe, where players will have to extend their reach in order to bolster their economies and reach the distant Trade Route. The number of grazing animals is astounding, and can be utilized to great advantage.\n \n \nNatives: Tengri, Shaolin\nOutlaws: Mangudai, Masterless Samurai</String>
 		<String _locID="70028" symbol="cStringRMSIndochinaDetails">Indochina: a resource-rich land with coastal fishing and many possible alliances.\nNatives: Jesuit, Sufi\nOutlaws: Smuggler, Fugitive Dacoit</String>
 		<String _locID="70029" symbol="cStringRMSIndochinaName">Indochina</String>
 		<String _locID="70030" symbol="cStringRMSIndochinaDesc">The year is 1858.\n \nWith rich coastal waters and plentiful resources, the Indochinese peninsula promises many opportunities for expansion and conflict. A central river provides naval access inland, and numerous religious sites dot the landscape.\n \n \nNatives: Jesuit, Sufi\nOutlaws: Smuggler, Fugitive Dacoit</String>
@@ -30811,7 +30811,7 @@
 		<String _locID="71555">The leader of the Voortrekkers, the Boer pioneers who left the Cape Colony in search of independence and land of their own. A veteran frontiersman and commander, Pretorius led wagon columns across vast and hostile terrain, founding new settlements through resolve, discipline, and cooperation among free farmers. His leadership combined mobility with steadfast defense, turning wagons into fortresses and farmland into the foundation of a new nation.</String>
 		<String _locID="71556">Africans</String>
 		<String _locID="71557">Culture: Can use Fame and the Decree card for extra bonuses.\n \nBonus: Villagers are Boers, who can build buildings for free. Resource Wagons boost nearby gather rates. Town Centers can be packed up and moved.\n \nTeam: Villagers gather Coin faster.</String>
-		<String _locID="71558">Culture: Has access to special buildings from other cultures, such as Fire Pits.\n \nBonus: Outlaws form the primary military force and Stockades train foreign prisoneers. Ages up with Special (Big Button) improvements from economic buildings.\n \nTeam: Military buildings train and research faster.</String>
+		<String _locID="71558">Culture: Has access to special buildings from other cultures, such as Fire Pits.\n \nBonus: Outlaws form the primary military force and Stockades train foreign prisoners. Ages up with Special (Big Button) improvements from economic buildings.\n \nTeam: Military buildings train and research faster.</String>
 		<String _locID="71559">Algerians</String>
 		<String _locID="71560">The commander of the Knights of St. John, Alain Magnan has devoted his whole life to the order. Though he can sometimes seem haughty and dismissive of his lessers, he is a superb tactician and an excellent horseman whose personal bravery in battle is unquestioned. Decades spent fighting the order's foes have only strengthened Alain's resolve. He is a man of many secrets that seems to know what is going on in every corner of the world.</String>
 		<String _locID="71561">Algiers</String>
@@ -31115,7 +31115,7 @@
 		<String _locID="78021">7 Poleaxemen +4 Uhlans</String>
 		<String _locID="78022">Dhow, light warship. Exploration ship that can fish and collect treasures. Can garrison 25 units.</String>
 		<String _locID="78023">Dhow. Exploration ship</String>
-		<String _locID="78024">Patriot Militia can now build defenses such as Outposts and walls.</String>
+		<String _locID="78024">Militia can now build defenses such as Outposts and walls.</String>
 		<String _locID="78025">Veteran Marine</String>
 		<String _locID="78026">Veteran Marines</String>
 		<String _locID="78027">Marine attack and hitpoints increased.</String>
@@ -31781,7 +31781,7 @@
 		<String _locID="781294">Allotment System</String>
 		<String _locID="781295">Ordinance of Alsno</String>
 		<String _locID="781296">Fekete Sereg</String>
-		<String _locID="781297">Ships 10 Fekete Sereg (Poleaxemen) soldiers and a General from your foreign allies.</String>
+		<String _locID="781297">Ships 10 Fekete Sereg (Poleaxemen) soldiers and a General trained abroad.</String>
 		<String _locID="781298">Veteran Skarpskytt</String>
 		<String _locID="781299">3 Inquisitors</String>
 		<String _locID="781300">10 Turkeys</String>
@@ -31816,10 +31816,10 @@
 		<String _locID="781329">Ivory</String>
 		<String _locID="781330">3. Water Maps</String>
 		<String _locID="781331">Tuareg Archer</String>
-		<String _locID="781332">Master Tuareg Archer</String>
+		<String _locID="781332">Master Tuareg</String>
 		<String _locID="781333">Saltpeter Master Training</String>
 		<String _locID="781334">Saltpeter warrior attack and hitpoints increased.</String>
-		<String _locID="781335">Initiated Tuareg Archer</String>
+		<String _locID="781335">Initiated Tuareg</String>
 		<String _locID="781336">Saltpeter Initiation Training</String>
 		<String _locID="781337">Native African light cavalry</String>
 		<String _locID="781338">Sufi light ranged cavalry. Good against shock cavalry and artillery.</String>
@@ -31993,7 +31993,7 @@
 		<String _locID="781506">TEAM Combined Arms</String>
 		<String _locID="781507">All infantry and cavalry attack increased.</String>
 		<String _locID="781508">TEAM Combined Arms Shipment has arrived.</String>
-		<String _locID="781509">16 Minutemen</String>
+		<String _locID="781509">15 Minutemen</String>
 		<String _locID="781510">Quickly ships a number of Minutemen to defend the colony.</String>
 		<String _locID="781511">Swedish Cavalry Hitpoints</String>
 		<String _locID="781512">Swedish Cavalry Attack</String>
@@ -32058,7 +32058,7 @@
 		<String _locID="781571">A seized Treasure Ship. Capture it to generate Coin over time.</String>
 		<String _locID="781572">%1s has rescued a Treasure Ship, who joins the cause.</String>
 		<String _locID="781573">Levy Minutemen</String>
-		<String _locID="781574">Town Centers and Docks get a ranged Auto Attack, and Minutemen no longer lose hitpoints over time.</String>
+		<String _locID="781574">Town Centers and Docks get a ranged Auto Attack, and Minutemen and Spontooners no longer lose hitpoints over time.</String>
 		<String _locID="781575">Minutemen Shipment has arrived.</String>
 		<String _locID="781576">Lincoln</String>
 		<String _locID="781577">Davis</String>
@@ -32165,7 +32165,7 @@
 		<String _locID="781678">Comanchero Mustangs</String>
 		<String _locID="781679">All your Mustangs transform into Comancheros.</String>
 		<String _locID="781680">The Banker</String>
-		<String _locID="781681">1 Envoy and 4 Spies</String>
+		<String _locID="781681">2 Envoys and 4 Spies</String>
 		<String _locID="781682">You can now train Cows from Farms and livestock limits are increased by half.</String>
 		<String _locID="781683">7 Goats</String>
 		<String _locID="781684">15 Goats</String>
@@ -32731,7 +32731,7 @@
 		<String _locID="782248">1 Mill Wagon\n1 Pioneer</String>
 		<String _locID="782249">1 Economy Wagon\n2 Pioneers</String>
 		<String _locID="782250">1 Military Wagon\n2 Pioneers</String>
-		<String _locID="782251">2 Outpost Wagons\n1 Pioneer</String>
+		<String _locID="782251">1 Outpost Wagons\n1 Pioneer</String>
 		<String _locID="782252">1 Plantation Wagon\n2 Pioneers</String>
 		<String _locID="782253">1 Economy Wagon\n3 Pioneers</String>
 		<String _locID="782254">1 Military Wagon\n3 Pioneers</String>
@@ -32755,7 +32755,7 @@
 		<String _locID="782272">1 Mill Wagon\n1 Boer</String>
 		<String _locID="782273">1 Economy Wagon\n2 Boers</String>
 		<String _locID="782274">1 Military Wagon\n2 Boers</String>
-		<String _locID="782275">2 Outpost Wagons\n1 Boer</String>
+		<String _locID="782275">1 Outpost Wagons\n1 Boer</String>
 		<String _locID="782276">1 Plantation Wagon\n2 Boers</String>
 		<String _locID="782277">1 Economy Wagon\n3 Boers</String>
 		<String _locID="782278">1 Military Wagon\n3 Boers</String>
@@ -32778,7 +32778,7 @@
 		<String _locID="782295">Imagharen Citadel</String>
 		<String _locID="782296">Fitawrari</String>
 		<String _locID="782297">Fitawrari Stronghold</String>
-		<String _locID="782298">11.09.2025</String>
+		<String _locID="782298">01.01.2026</String>
 		<String _locID="782299">Falcon Company Station</String>
 		<String _locID="782300">Baltimore and Ohio Station</String>
 		<String _locID="782301">Central Argentine Station</String>
@@ -32911,9 +32911,9 @@
 		<String _locID="782428">Fish Traps of 1000 Food</String>
 		<String _locID="782429">Ships 1000 Food to your Home City Water Flag.</String>
 		<String _locID="782430">Recruit Polynesian Expedition</String>
-		<String _locID="782431">Ships 4 Waka Taua canoes to your colony.</String>
+		<String _locID="782431">Ships 4 Waka Taua canoes and 1 Great White Shark.</String>
 		<String _locID="782432">Recruit Polynesian Fleet</String>
-		<String _locID="782433">Ships 5 Waka Taua canoes to your colony.</String>
+		<String _locID="782433">Ships 5 Waka Taua canoes and 1 Orca.</String>
 		<String _locID="782434">Waka Taua</String>
 		<String _locID="782435">Waka Taua, heavy warship. General-purpose transport ship that can train units. Can garrison 25 units.</String>
 		<String _locID="782436">Maltese long-ranged infantry with a rifle. Good against heavy infantry and light cavalry.</String>
@@ -32960,8 +32960,8 @@
 		<String _locID="782477">Elisabet Ramsey arrives with her pirates to offer support.</String>
 		<String _locID="782478">3 Fireships</String>
 		<String _locID="782479">TEAM 2 Fireships</String>
-		<String _locID="782480">War Hounds</String>
-		<String _locID="782481">Ships 20 elite War Dogs from the kennels of Spain.</String>
+		<String _locID="782480">Sled Dogs</String>
+		<String _locID="782481">Ships 20 elite War Dogs from the kennels of Greenland.</String>
 		<String _locID="782482">De Redin Towers</String>
 		<String _locID="782483">Ships 1 Command Post Wagon, 2 Trading Outpost Wagons and 4 Outpost Wagons for quick expansion.</String>
 		<String _locID="782484">Hospitality</String>
@@ -33149,7 +33149,7 @@
 		<String _locID="782666">Boneguard Brigade</String>
 		<String _locID="782667">Ships a large number of Boneguards.</String>
 		<String _locID="782668">Trip to Jerusalem</String>
-		<String _locID="782669">All your Aid Tents are packed up and replaced by Knights.</String>
+		<String _locID="782669">All your Aid Tents and Watch Towers are packed up and replaced by Knights.</String>
 		<String _locID="782670">De Redin Towers</String>
 		<String _locID="782671">Ships 1 Monastery Wagon, 2 Trading Post Wagons and 4 Castle Wagons for quick expansion.</String>
 		<String _locID="782672">Trading Post Wagon</String>
@@ -33253,17 +33253,17 @@
 		<String _locID="782770">Stockades</String>
 		<String _locID="782771">Trains captured villagers that automatically gather resources and build special buildings.</String>
 		<String _locID="782772">Economic Building</String>
-		<String _locID="782773">Spawn Iberian Prisoneer</String>
-		<String _locID="782774">Configure this Stockades to spawn Iberian Prisoneers.</String>
-		<String _locID="782775">Spawn Mughal Prisoneer</String>
-		<String _locID="782776">Configure this Stockades to spawn Mughal Prisoneers.</String>
-		<String _locID="782777">Spawn Tribal Prisoneer</String>
-		<String _locID="782778">Configure this Stockades to spawn Tribal Prisoneers.</String>
+		<String _locID="782773">Spawn Iberian Prisoner</String>
+		<String _locID="782774">Configure this Stockades to spawn Iberian Prisoners.</String>
+		<String _locID="782775">Spawn Mughal Prisoner</String>
+		<String _locID="782776">Configure this Stockades to spawn Mughal Prisoners.</String>
+		<String _locID="782777">Spawn Tribal Prisoner</String>
+		<String _locID="782778">Configure this Stockades to spawn Tribal Prisoners.</String>
 		<String _locID="782779">Mercenary Town Center</String>
 		<String _locID="782780">Barbary States Decree</String>
-		<String _locID="782781">Ships 1 Explorer and 15 Prisoneers.</String>
+		<String _locID="782781">Ships 1 Explorer, 1 Battleship and 15 Prisoners.</String>
 		<String _locID="78073">Dey</String>
-		<String _locID="78074">Improves your Barbary Explorer in combat, and allows your Explorer and prisoneers to each build a warship from their homeland.</String>
+		<String _locID="78074">Improves your Barbary Explorer in combat, and allows your Explorer and prisoners to each build a warship from their homeland.</String>
 		<String _locID="78075">7 Water Buffalos</String>
 		<String _locID="78076">TEAM Fish Trap of 500 Food</String>
 		<String _locID="78077">Ships 500 Food to your Home City Water Flag.</String>
@@ -33271,7 +33271,7 @@
 		<String _locID="78079">4 Sailors</String>
 		<String _locID="78080">3 Sailors</String>
 		<String _locID="78081">Indentured Labor</String>
-		<String _locID="78082">Ships 6 prisoneers that automatically gather nearby resources. Also Sailors move faster.</String>
+		<String _locID="78082">Ships 6 prisoners that automatically gather nearby resources. Also Sailors move faster.</String>
 		<String _locID="78083">2 Dock Wagons</String>
 		<String _locID="78084">Bactrian Camel</String>
 		<String _locID="78085">Hippopotamus</String>
@@ -33366,7 +33366,7 @@
 		<String _locID="78174">This wagon is in galloping mode.</String>
 		<String _locID="78175">Logging Wagon</String>
 		<String _locID="78176">Vinland Saga</String>
-		<String _locID="78177">Increases Torp build limit by 10.</String>
+		<String _locID="78177">Increases Torp (and potted tree) build limit by 10.</String>
 		<String _locID="78178">Vinland Saga Shipment has arrived.</String>
 		<String _locID="78179">Trainband Spontooners</String>
 		<String _locID="78180">Trainband: Call a handful of Spontooners to defend this colony!</String>
@@ -33386,17 +33386,71 @@
 		<String _locID="78194">Field Support</String>
 		<String _locID="78195">Ships 2 Flag Bearers, 2 Drummers and 2 Surgeons.</String>
 		<String _locID="78196">Stockade Buyruldu</String>
-		<String _locID="78197">Stockade and Prisoneer limits increased.</String>
+		<String _locID="78197">Stockade and Prisoner limits increased.</String>
 		<String _locID="78198">Stockade Buyruldu Shipment has arrived.</String>
 		<String _locID="78199">4 Military Wagons</String>
 		<String _locID="78200">4 Economy Wagons</String>
 		<String _locID="78201">TEAM 5 Petards</String>
 		<String _locID="78202">Mediterranean Fishing</String>
-		<String _locID="78203">Fishing Boat limit greatly increased.</String>
+		<String _locID="78203">Fishing Boat train limit greatly increased.</String>
 		<String _locID="78204">Mediterranean Fishing Shipment has arrived.</String>
-		<String _locID="78205">African Elephants</String>
+		<String _locID="78205">5 Elephants</String>
 		<String _locID="78206">Salt Caravans</String>
 		<String _locID="78207">When this Shipment arrives, all of your current Food and Wood are exchanged for a lesser amount of Coin.</String>
 		<String _locID="78208">Salt Caravans Shipment has arrived.</String>
+		<String _locID="78209">9 State Lawmen</String>
+		<String _locID="78210">TEAM 8 Marathan Thuggees</String>
+		<String _locID="78211">TEAM 8 Wokou Smugglers</String>
+		<String _locID="78212">TEAM 8 Nassau Cutthroats</String>
+		<String _locID="78213">TEAM 8 Tortuga Buccaneers</String>
+		<String _locID="78214">Ships Marathan Catamarans containing Dacoit outlaws.</String>
+		<String _locID="78215">Recruit Maratha +10 Dacoit</String>
+		<String _locID="78216">Ships Marathan Catamarans containing Thuggee outlaws.</String>
+		<String _locID="78217">Recruit Maratha +6 Thuggee</String>
+		<String _locID="78218">Ships a number of Marathan Catamarans.</String>
+		<String _locID="78219">Recruit Maratha Fleet</String>
+		<String _locID="78220">Pirate Heaven</String>
+		<String _locID="78221">Increases Command Post and Mosque limits and hitpoints, and outlaw-type units cost less population.</String>
+		<String _locID="78222">Pirate Heaven Shipment has arrived.</String>
+		<String _locID="78223">Dock build limit increased.</String>
+		<String _locID="78224">Admiralty</String>
+		<String _locID="78225">Agra Fort attack increased.</String>
+		<String _locID="78226">Agra Fort attack and hitpoints increased.</String>
+		<String _locID="78227">TEAM Recruit Polynesian Convoy</String>
+		<String _locID="78228">Ships 4 Waka Taua canoes.</String>
+		<String _locID="78229">Recruit Wabanaki Convoy</String>
+		<String _locID="78230">Ships 4 Rifle Canoes.</String>
+		<String _locID="78231">Initiated Mongol</String>
+		<String _locID="78232">Master Mongol</String>
+		<String _locID="78233">Tengri warrior attack and hitpoints increased.</String>
+		<String _locID="78234">Tengri Master Training</String>
+		<String _locID="78235">Tengri warrior attack and hitpoints increased.</String>
+		<String _locID="78236">Tengri Initiation Training</String>
+		<String _locID="78237">Kumis</String>
+		<String _locID="78238">Seasonal herding excess results in 1 Fattened Yak for every 3 minutes of game length, up to 30 minutes.</String>
+		<String _locID="78239">Shaman Drums</String>
+		<String _locID="78240">Spiritual preparations make cavalry and shock infantry train faster.</String>
+		<String _locID="78241">Wind Horses</String>
+		<String _locID="78242">Steppe horse training techniques make hand cavalry move faster and ranged cavalry attack faster.</String>
+		<String _locID="78243">Deals great damage to the target unit.</String>
+		<String _locID="78244">Ahi Arrow</String>
+		<String _locID="78245">Ahi Arrow Attack</String>
+		<String _locID="78246">2 Cows\n400 Food</String>
+		<String _locID="78247">1 Priest\n4 Militia</String>
+		<String _locID="78248">1 Miner\n400 Coin</String>
+		<String _locID="78249">2 Envoys\n400 Wood</String>
+		<String _locID="78250">2 Gatlings\n2 Black Powder Wagons</String>
+		<String _locID="78251">4 Marines\n2 Riflemen</String>
+		<String _locID="78252">4 Sabers\n2 Rangers</String>
+		<String _locID="78253">1 Corvette\n400 Wood</String>
+		<String _locID="78254">2 Falconets\n2 Culverins</String>
+		<String _locID="78255">4 Marines\n4 Grenadiers</String>
+		<String _locID="78256">4 Desperados\n4 Renegados</String>
+		<String _locID="78257">500 Food\n500 Coin</String>
+		<String _locID="78258">1 Basilisk Cannon\n12 Marines</String>
+		<String _locID="78259">1 Mortar\n15 Militia</String>
+		<String _locID="78260">2 Falconets\n10 Sabers</String>
+		<String _locID="78261">1 Ironclad\n10 Gatling Guns</String>
+		<String _locID="78262">The Knights of St. John call for a new crusade! You receive a Shipment of 10 Hoop Throwers from Malta.</String>
 	</Language>
 </StringTable>

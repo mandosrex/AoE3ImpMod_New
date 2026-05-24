@@ -34,7 +34,7 @@ void main(void)
   
   string tradeRouteType = "water";
   
-  string nativeOne = "Shaolin";
+  string nativeOne = "Tengri";
   string nativeTwo = "Zen";
   
   string riverType = "Yellow River2";
@@ -707,7 +707,7 @@ void main(void)
   // natives - some weird placement for ffa and unbalanced games for fairness' sake
   if (subCiv0 == rmGetCivID(nativeOne)) {  
     int nativeVillage1Type = rmRandInt(1,5);
-    int nativeVillage1ID = rmCreateGrouping("native village 1", "native " +nativeOne+ " temple YR 0"+nativeVillage1Type);
+    int nativeVillage1ID = rmCreateGrouping("native village 1", "native_tengri_0"+nativeVillage1Type);
     rmSetGroupingMinDistance(nativeVillage1ID, 0.0);
     rmSetGroupingMaxDistance(nativeVillage1ID, 10.0);
     rmAddGroupingToClass(nativeVillage1ID, rmClassID("natives"));
@@ -755,7 +755,7 @@ void main(void)
     int randomNativeID = 0;
     int whichNative = rmRandInt(1,2);
     if(whichNative == 1)
-      randomNativeID = rmCreateGrouping("random village 1a", "native " +nativeOne+ " temple YR 0"+randomNativeType);
+      randomNativeID = rmCreateGrouping("random village 1a", "native_tengri_0"+randomNativeType);
     else
       randomNativeID = rmCreateGrouping("random village 1b", "native " +nativeTwo+ " temple YR 0"+randomNativeType);
     rmSetGroupingMinDistance(randomNativeID, 0.0);
@@ -772,7 +772,7 @@ void main(void)
     int randomNative1ID = 0;
     int whichNative1 = rmRandInt(1,2);
     if(whichNative1 == 1)
-      randomNative1ID = rmCreateGrouping("random village 1a", "native " +nativeOne+ " temple YR 0"+randomNative1Type);
+      randomNative1ID = rmCreateGrouping("random village 1a", "native_tengri_0"+randomNative1Type);
     else
       randomNative1ID = rmCreateGrouping("random village 1b", "native " +nativeTwo+ " temple YR 0"+randomNative1Type);
     rmSetGroupingMinDistance(randomNative1ID, 0.0);
@@ -809,7 +809,7 @@ void main(void)
     int randomNative2Type = rmRandInt(1,5);
     int randomNative2ID = 0;
     if(whichNative == 2)
-      randomNative2ID = rmCreateGrouping("random village 2a", "native " +nativeOne+ " temple YR 0"+randomNative2Type);
+      randomNative2ID = rmCreateGrouping("random village 2a", "native_tengri_0"+randomNative2Type);
     else
       randomNative2ID = rmCreateGrouping("random village 2b", "native " +nativeTwo+ " temple YR 0"+randomNative2Type);
     rmSetGroupingMinDistance(randomNative2ID, 0.0);

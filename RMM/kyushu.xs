@@ -54,7 +54,6 @@
 		int avoidNuggetSmall=rmCreateTypeDistanceConstraint("avoid nuggets by a little", "AbstractNugget", 15.0); 
 		int avoidAll=rmCreateTypeDistanceConstraint("avoid all", "all", 4.0);
 		int avoidImpassableLand=rmCreateTerrainDistanceConstraint("avoid impassable land", "Land", false, 6.0);
-		int avoidCastle=rmCreateTypeDistanceConstraint("vs Regicide Castle", "ypCastleRegicide", 5.0);
 		
 		rmDefineClass("classPlateau");
 		int avoidPlateau=rmCreateClassDistanceConstraint("stuff vs. cliffs", rmClassID("classPlateau"), 5.0);
@@ -327,25 +326,6 @@
 		rmSetObjectDefCreateHerd(foodID2, true);
 		
 
-  int playerCastle=rmCreateObjectDef("Castle");
-  rmAddObjectDefItem(playerCastle, "ypCastleRegicide", 1, 0.0);
-  rmAddObjectDefConstraint(playerCastle, avoidAll);
-  rmAddObjectDefConstraint(playerCastle, avoidImpassableLand);
-	rmSetObjectDefMinDistance(playerCastle, 18.0);	
-	rmSetObjectDefMaxDistance(playerCastle, 23.0);
-  
-  int playerWalls = rmCreateGrouping("regicide walls", "regicide_walls");
-  rmAddGroupingToClass(playerWalls, rmClassID("importantItem"));
-  rmSetGroupingMinDistance(playerWalls, 0.0);
-  rmSetGroupingMaxDistance(playerWalls, 2.0);
-  
-  int playerDaimyo=rmCreateObjectDef("Daimyo"+i);
-  rmAddObjectDefItem(playerDaimyo, "ypDaimyoRegicide", 1, 0.0);
-  rmAddObjectDefConstraint(playerDaimyo, avoidAll);
-  rmSetObjectDefMinDistance(playerDaimyo, 7.0);	
-  rmSetObjectDefMaxDistance(playerDaimyo, 10.0);
-
-
 		rmSetStatusText("",0.6);
 
 		for(i=1; <cNumberPlayers) { 
@@ -361,12 +341,6 @@
 		rmSetObjectDefMaxDistance(startID, 5.0);
 
 		rmPlaceObjectDefAtLoc(startID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i)); 
-		rmPlaceObjectDefAtLoc(playerDaimyo, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
-		if (rmGetNomadStart() == false)
-		{
-		rmPlaceGroupingAtLoc(playerWalls, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
-		}
-
 		rmPlaceObjectDefAtLoc(berryID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 		rmPlaceObjectDefAtLoc(treeID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 		rmPlaceObjectDefAtLoc(treeID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
@@ -535,39 +509,6 @@
 			}
 	}
    
-
-  // Regicide Triggers
-	for(i=1; <= cNumberNonGaiaPlayers) {
-    
-    // Lose on Daimyo's death
-    rmCreateTrigger("DaimyoDeath"+i);
-    rmSwitchToTrigger(rmTriggerID("DaimyoDeath"+i));
-    rmSetTriggerPriority(4); 
-    rmSetTriggerActive(true);
-    rmSetTriggerRunImmediately(true);
-    rmSetTriggerLoop(false);
-    
-    rmAddTriggerCondition("Is Dead");
-    rmSetTriggerConditionParamInt("SrcObject", rmGetUnitPlacedOfPlayer(playerDaimyo, i), false);
-    
-    rmAddTriggerEffect("Set Player Defeated");
-    rmSetTriggerEffectParamInt("Player", i, false);
-    
-    // Setup Bastion
-    //~ rmCreateTrigger("Bastion"+i);
-    //~ rmSwitchToTrigger(rmTriggerID("Bastion"+i));
-    //~ rmSetTriggerPriority(3); 
-    //~ rmSetTriggerActive(true);
-    //~ rmSetTriggerRunImmediately(true);
-    //~ rmSetTriggerLoop(false);
-    
-    //~ rmAddTriggerCondition("Always");
-    
-    //~ rmAddTriggerEffect("Set Tech Status");
-    //~ rmSetTriggerEffectParamInt("PlayerID", i, false);
-    //~ rmSetTriggerEffectParam("TechID", "236", false);
-    //~ rmSetTriggerEffectParam("Status", "2", false);
-  }
 
 
    // check for KOTH game mode

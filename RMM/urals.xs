@@ -137,7 +137,7 @@ void main(void)
          patchMixType = "araucania_snow_a";
 	}
 	forestType = "Patagonia Snow Forest";
-      cliffType = "Araucania South";
+      cliffType = "UralsSnow";
 	treeType = "TreePatagoniaSnow";
          deerType = "Deer";
          deer2Type = "Heron";
@@ -171,13 +171,13 @@ void main(void)
   {
       rmSetSubCiv(0, "Jesuit");
       native1Name = "native jesuit mission cj 0";
-      rmSetSubCiv(1, "Jesuit");
-      native2Name = "native jesuit mission cj 0";
+      rmSetSubCiv(1, "Tengri");
+      native2Name = "native_tengri_0";
   }
   else if (nativePattern == 2)
   {
-      rmSetSubCiv(0, "Jesuit");
-      native1Name = "native jesuit mission cj 0";
+      rmSetSubCiv(0, "Tengri");
+      native1Name = "native_tengri_0";
       rmSetSubCiv(1, "Jesuit");
       native2Name = "native jesuit mission cj 0";
   }

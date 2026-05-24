@@ -274,7 +274,7 @@ int staySouth = rmCreatePieConstraint("Stay South",0.70,0.70, rmXFractionToMeter
 	   rmSetAreaMix(glacierBaseNW, "nwt_grass1");
         rmSetAreaSmoothDistance(glacierBaseNW, 25);
         rmSetAreaHeightBlend(glacierBaseNW, 2);
-	rmAddAreaTerrainReplacement(glacierBaseNW, "nwterritory\ground_cliff1_nwt", "nwterritory\ground_grass5_nwt");
+	rmAddAreaTerrainReplacement(glacierBaseNW, "nwterritory\ground_clifftop_nwt", "nwterritory\ground_grass5_nwt");
         rmSetAreaBaseHeight(glacierBaseNW, 1.0);
         rmAddAreaInfluenceSegment(glacierBaseNW, 0.15, 0.9, 0.85, 0.9);
 	rmSetAreaObeyWorldCircleConstraint(glacierBaseNW, false);
@@ -290,7 +290,7 @@ int staySouth = rmCreatePieConstraint("Stay South",0.70,0.70, rmXFractionToMeter
 	   rmSetAreaMix(glacierBaseNE, "nwt_grass1");
         rmSetAreaSmoothDistance(glacierBaseNE, 25);
         rmSetAreaHeightBlend(glacierBaseNE, 2);
-	rmAddAreaTerrainReplacement(glacierBaseNE, "nwterritory\ground_cliff1_nwt", "nwterritory\ground_grass5_nwt");
+	rmAddAreaTerrainReplacement(glacierBaseNE, "nwterritory\ground_clifftop_nwt", "nwterritory\ground_grass5_nwt");
        rmSetAreaBaseHeight(glacierBaseNE, 1.0);
         rmAddAreaInfluenceSegment(glacierBaseNE, 0.9, 0.15, 0.9, 0.85);
 	rmSetAreaObeyWorldCircleConstraint(glacierBaseNE, false);
@@ -306,7 +306,7 @@ int staySouth = rmCreatePieConstraint("Stay South",0.70,0.70, rmXFractionToMeter
 	   rmSetAreaMix(glacierBaseSW, "nwt_grass1");
         rmSetAreaSmoothDistance(glacierBaseSW, 25);
         rmSetAreaHeightBlend(glacierBaseSW, 2);
-	rmAddAreaTerrainReplacement(glacierBaseSW, "nwterritory\ground_cliff1_nwt", "nwterritory\ground_grass5_nwt");
+	rmAddAreaTerrainReplacement(glacierBaseSW, "nwterritory\ground_clifftop_nwt", "nwterritory\ground_grass5_nwt");
         rmSetAreaBaseHeight(glacierBaseSW, 1.0);
         rmAddAreaInfluenceSegment(glacierBaseSW, 0.1, 0.15, 0.1, 0.85);
 	rmSetAreaObeyWorldCircleConstraint(glacierBaseSW, false);
@@ -322,7 +322,7 @@ int staySouth = rmCreatePieConstraint("Stay South",0.70,0.70, rmXFractionToMeter
 	   rmSetAreaMix(glacierBaseSE, "nwt_grass1");
         rmSetAreaSmoothDistance(glacierBaseSE, 25);
         rmSetAreaHeightBlend(glacierBaseSE, 2);
-	rmAddAreaTerrainReplacement(glacierBaseSE, "nwterritory\ground_cliff1_nwt", "nwterritory\ground_grass5_nwt");
+	rmAddAreaTerrainReplacement(glacierBaseSE, "nwterritory\ground_clifftop_nwt", "nwterritory\ground_grass5_nwt");
         rmSetAreaBaseHeight(glacierBaseSE, 1.0);
         rmAddAreaInfluenceSegment(glacierBaseSE, 0.15, 0.1, 0.85, 0.1);
 	rmSetAreaObeyWorldCircleConstraint(glacierBaseSE, false);

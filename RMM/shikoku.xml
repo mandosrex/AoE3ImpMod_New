@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<mapinfo details = "130252" imagepath = "ui\random_maps\shikoku\shikoku" displayNameID = "130251" cannotReplace = ""
-         loadDetails="130253" loadBackground="ui\random_maps\asian_map">
+<mapinfo details = "130291" imagepath = "ui\random_maps\shikoku\shikoku" displayNameID = "130290" cannotReplace = ""
+         loadDetails="130292" loadBackground="ui\random_maps\asian_map">
    <loadss>ui\random_maps\shikoku\shikoku</loadss>
 </mapinfo>

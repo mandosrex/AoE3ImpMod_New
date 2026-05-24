@@ -31,7 +31,7 @@
 	// Init map.
 	rmSetBaseTerrainMix("tigris0");
 	rmTerrainInitialize("oasis\ground_grass3_oasis", 0);
-	rmSetSeaLevel(0.0);
+	rmSetSeaLevel(-1.0);
 
 
 		rmSetStatusText("",0.01);

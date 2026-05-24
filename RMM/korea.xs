@@ -214,8 +214,8 @@ void main(void)
 	if (subCiv0 >= 0)
 	rmSetSubCiv(0, "zen");
 
-	subCiv1=rmGetCivID("jesuit");
-	rmEchoInfo("subCiv1 is jesuit "+subCiv1);
+	subCiv1=rmGetCivID("tengri");
+	rmEchoInfo("subCiv1 is tengri "+subCiv1);
 	if (subCiv1 >= 0)
 	rmSetSubCiv(1, "jesuit");
 
@@ -507,7 +507,7 @@ void main(void)
     if (nativeType == 1)
        villageAID = rmCreateGrouping("village A", "native zen temple cj 0"+villageType);
     else 
-       villageAID = rmCreateGrouping("village A", "native jesuit mission cj 0"+villageType);
+       villageAID = rmCreateGrouping("village A", "native_tengri_0"+villageType);
     rmAddGroupingToClass(villageAID, rmClassID("importantItem"));
     rmSetGroupingMinDistance(villageAID, 0.0);
     rmSetGroupingMaxDistance(villageAID, 15.0);

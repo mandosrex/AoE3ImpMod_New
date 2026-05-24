@@ -240,7 +240,7 @@
 		rmSetAreaCliffType(acropolis, "Deccan Plateau");
 		rmSetAreaCliffEdge(acropolis, 4, .2, 0.0, 0.0, 4); 
 		rmSetAreaCliffPainting(acropolis, true, true, true, 1.5, true);
-		rmSetAreaCliffHeight(acropolis, 4, 1.0, 1.0);
+		rmSetAreaCliffHeight(acropolis, 5, 1.0, 1.0);
 		rmSetAreaCoherence(acropolis, .88);
 		rmSetAreaLocation(acropolis, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 		rmBuildArea(acropolis);	

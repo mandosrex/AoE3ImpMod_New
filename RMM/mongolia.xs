@@ -14,7 +14,7 @@ void main(void)
    rmSetStatusText("",0.01);
 
   // initialize map type variables
-  string nativeCiv1 = "Sufi";
+  string nativeCiv1 = "Tengri";
   string nativeCiv2 = "Shaolin";
  
   string baseMix = "mongolia_grass_b";
@@ -390,8 +390,8 @@ void main(void)
   
   if (subCiv0 == rmGetCivID(nativeCiv1)) {  
     int comancheVillageAID = -1;
-    int comancheVillageType = rmRandInt(1,5);
-    comancheVillageAID = rmCreateGrouping("Sufi A", "native sufi mosque mongol "+comancheVillageType);
+    int comancheVillageType = rmRandInt(1,3);
+    comancheVillageAID = rmCreateGrouping("Tengri A", "native_tengri_0"+comancheVillageType);
     rmSetGroupingMinDistance(comancheVillageAID, 0.0);
     rmSetGroupingMaxDistance(comancheVillageAID, 10.0);
     rmAddGroupingConstraint(comancheVillageAID, avoidImpassableLand);
@@ -416,8 +416,8 @@ void main(void)
 
   if(subCiv0 == rmGetCivID(nativeCiv1)) {   
     int lakotaVillageID = -1;
-    lakotaVillageType = rmRandInt(1,5);
-    lakotaVillageID = rmCreateGrouping("sufi b", "native sufi mosque mongol "+lakotaVillageType);
+    lakotaVillageType = rmRandInt(1,3);
+    lakotaVillageID = rmCreateGrouping("Tengri b", "native_tengri_0"+lakotaVillageType);
     rmSetGroupingMinDistance(lakotaVillageID, 0.0);
     rmSetGroupingMaxDistance(lakotaVillageID, 10.0);
     rmAddGroupingConstraint(lakotaVillageID, avoidImpassableLand);
@@ -500,8 +500,8 @@ void main(void)
 
   if (subCiv0 == rmGetCivID(nativeCiv1)) {   
     int comancheVillageDID = -1;
-    comancheVillageType = rmRandInt(1,5);
-    comancheVillageDID = rmCreateGrouping("sufi c", "native sufi mosque mongol "+comancheVillageType);
+    comancheVillageType = rmRandInt(1,3);
+    comancheVillageDID = rmCreateGrouping("Tengri c", "native_tengri_0"+comancheVillageType);
     rmSetGroupingMinDistance(comancheVillageDID, 0.0);
     rmSetGroupingMaxDistance(comancheVillageDID, 10.0);
     rmAddGroupingConstraint(comancheVillageDID, avoidImpassableLand);

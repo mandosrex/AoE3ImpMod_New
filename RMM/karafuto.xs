@@ -25,66 +25,16 @@ void main(void)
 // Set up for natives to appear on the map
    int subCiv0=-1;
    int subCiv1=-1;
-   int subCiv2=-1;
-   int subCiv3=-1;
-   int subCiv4=-1;
-   int subCiv5=-1;
-   int subCiv6=-1;
-   int subCiv7=-1;
-   int subCiv8=-1;
-   int subCiv9=-1;
-   int subCiv10=-1;
-   int subCiv11=-1;
 
-   if (rmAllocateSubCivs(12) == true)
+   if (rmAllocateSubCivs(2) == true)
    {
 	subCiv0=rmGetCivID("Comanche");
       if (subCiv0 >= 0)
-         rmSetSubCiv(0, "Comanche");
+         rmSetSubCiv(0, "Zen");
 
 	subCiv1=rmGetCivID("Iroquois");
       if (subCiv1 >= 0)
-         rmSetSubCiv(1, "Iroquois"); 
-
-	subCiv2=rmGetCivID("Aztecs");
-      if (subCiv2 >= 0)
-         rmSetSubCiv(2, "Aztecs");
-
-	subCiv3=rmGetCivID("Maya");
-      if (subCiv3 >= 0)
-         rmSetSubCiv(3, "Maya");
-
-	subCiv4=rmGetCivID("Lakota");
-      if (subCiv4 >= 0)
-         rmSetSubCiv(4, "Lakota");
-
-	subCiv5=rmGetCivID("Nootka");
-      if (subCiv5 >= 0)
-         rmSetSubCiv(5, "Nootka");
-
-	subCiv6=rmGetCivID("Cherokee");
-      if (subCiv6 >= 0)
-         rmSetSubCiv(6, "Cherokee");
-
-	subCiv7=rmGetCivID("Cree");
-      if (subCiv7 >= 0)
-         rmSetSubCiv(7, "Cree");
-
-	subCiv8=rmGetCivID("Tupi");
-      if (subCiv8 >= 0)
-         rmSetSubCiv(8, "Tupi");
-
-	subCiv9=rmGetCivID("Caribs");
-      if (subCiv9 >= 0)
-         rmSetSubCiv(9, "Caribs");
-
-	subCiv10=rmGetCivID("Seminoles");
-      if (subCiv10 >= 0)
-         rmSetSubCiv(10, "Seminoles");
-
-	subCiv11=rmGetCivID("Incas");
-      if (subCiv11 >= 0)
-         rmSetSubCiv(11, "Incas"); 
+         rmSetSubCiv(1, "Jesuit"); 
    }
 
 // Pick pattern for trees, terrain, features, etc.
@@ -2269,28 +2219,10 @@ if ((patternChance == 8) || (patternChance == 19))
    rmSetObjectDefMaxDistance(startingOutpostID, 10.0);
    rmAddObjectDefConstraint(startingOutpostID, avoidAll);
 
-  int playerCastle=rmCreateObjectDef("Castle");
-  rmAddObjectDefItem(playerCastle, "ypCastleRegicide", 1, 0.0);
-  rmAddObjectDefConstraint(playerCastle, avoidAll);
-  rmAddObjectDefConstraint(playerCastle, avoidImpassableLand);
-	rmSetObjectDefMinDistance(playerCastle, 15.0);	
-	rmSetObjectDefMaxDistance(playerCastle, 20.0);
-  
-  int playerDaimyo=rmCreateObjectDef("Daimyo"+i);
-  rmAddObjectDefItem(playerDaimyo, "ypDaimyoRegicide", 1, 0.0);
-  rmAddObjectDefConstraint(playerDaimyo, avoidAll);
-  rmSetObjectDefMinDistance(playerDaimyo, 7.0);	
-  rmSetObjectDefMaxDistance(playerDaimyo, 10.0);
 
    for(i=1; <cNumberPlayers)
    {	
       rmPlaceObjectDefAtLoc(startingTCID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
-      rmPlaceObjectDefAtLoc(playerDaimyo, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
-		if (rmGetNomadStart() == false)
-		{
-      		rmPlaceObjectDefAtLoc(playerCastle, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
-		}
-
       rmPlaceObjectDefAtLoc(startingUnits, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 	rmPlaceObjectDefAtLoc(playerSilverID, 0, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 	rmPlaceObjectDefAtLoc(playerSilverID, 0, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
@@ -2303,6 +2235,12 @@ if ((patternChance == 8) || (patternChance == 19))
 	{
 	   rmPlaceObjectDefInArea(StartBerryBushID, 0, rmAreaID("player"+i), 1);
 	}
+
+		if (rmGetNomadStart())
+		{
+			rmAddPlayerResource(i, "ships", 1);
+		}
+
    }
 
 // Text
@@ -4166,25 +4104,6 @@ if ((patternChance == 8) || (patternChance == 19))
 	rmPlaceObjectDefAtLoc(buzzardFlockID, 0, 0.5, 0.5, cNumberNonGaiaPlayers);
    }
 
-
-  // Regicide Triggers
-	for(i=1; <= cNumberNonGaiaPlayers) {
-    
-    // Lose on Daimyo's death
-    rmCreateTrigger("DaimyoDeath"+i);
-    rmSwitchToTrigger(rmTriggerID("DaimyoDeath"+i));
-    rmSetTriggerPriority(4); 
-    rmSetTriggerActive(true);
-    rmSetTriggerRunImmediately(true);
-    rmSetTriggerLoop(false);
-    
-    rmAddTriggerCondition("Is Dead");
-    rmSetTriggerConditionParamInt("SrcObject", rmGetUnitPlacedOfPlayer(playerDaimyo, i), false);
-    
-    rmAddTriggerEffect("Set Player Defeated");
-    rmSetTriggerEffectParamInt("Player", i, false);
-    
-  }
 
 
 	if (rmGetIsKOTH()) {

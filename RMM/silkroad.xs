@@ -72,9 +72,9 @@ void main(void)
   
   // Desert/Plains - Mongolia
   else if (whichVersion == 2) {
-    nativeCiv1 = "sufi";
+    nativeCiv1 = "tengri";
     nativeCiv2 = "shaolin";
-    nativeString1 = "native sufi mosque mongol ";
+    nativeString1 = "native_tengri_0";
     nativeString2 = "native shaolin temple mongol 0";
     baseMix = "mongolia_grass_b";
     baseTerrain = "Mongolia\ground_grass4_mongol";

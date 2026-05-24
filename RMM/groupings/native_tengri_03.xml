@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>10</width>
+	<height>15</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>1</selectassingleunit>
+	<units>
+		<unit variation ="231" posx ="-4.2973" posz ="-13.2035" orientx ="-0.3454" orienty ="0.0000" orientz ="-0.9384">ypSMJesuitAccessory</unit>
+		<unit variation ="220" posx ="-3.9546" posz ="-11.8690" orientx ="-0.4243" orienty ="0.0000" orientz ="-0.9055">ypSMSaltpeterMan</unit>
+		<unit variation ="196" posx ="-1.5145" posz ="-11.4985" orientx ="1.0000" orienty ="0.0000" orientz ="-0.0008">ypSPCSaltpeterSite</unit>
+		<unit variation ="225" posx ="-4.2734" posz ="-9.2908" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="4" posx ="4.6021" posz ="-10.8409" orientx ="-0.7071" orienty ="0.0000" orientz ="-0.7071">ypNativeHouseTengri</unit>
+		<unit variation ="231" posx ="-6.2837" posz ="-11.9247" orientx ="0.9994" orienty ="0.0000" orientz ="0.0337">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="4" posx ="-1.5883" posz ="-11.2070" orientx ="-0.9581" orienty ="0.0000" orientz ="0.2866">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="231" posx ="0.0971" posz ="-11.2524" orientx ="0.9382" orienty ="0.0000" orientz ="-0.3461">ypSMJesuitAccessory</unit>
+		<unit variation ="5" posx ="-4.3520" posz ="-8.6057" orientx ="0.9982" orienty ="-0.0037" orientz ="-0.0605">ypNativeHorse</unit>
+		<unit variation ="231" posx ="-7.4658" posz ="-9.2330" orientx ="-0.9992" orienty ="0.0000" orientz ="-0.0400">ypSMJesuitAccessory</unit>
+		<unit variation ="113" posx ="-6.9605" posz ="-7.2048" orientx ="-0.4965" orienty ="0.0000" orientz ="-0.8680">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="231" posx ="4.6846" posz ="-6.8698" orientx ="0.9994" orienty ="0.0000" orientz ="0.0337">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="231" posx ="-4.3638" posz ="-5.9963" orientx ="-0.0399" orienty ="0.0000" orientz ="0.9992">ypSMJesuitAccessory</unit>
+		<unit variation ="79" posx ="3.1078" posz ="-4.7530" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="223" posx ="6.2743" posz ="-4.4670" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">ypSPCSaltpeterSite</unit>
+		<unit variation ="208" posx ="4.8573" posz ="-4.4832" orientx ="-0.2915" orienty ="0.0000" orientz ="0.9566">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="230" posx ="2.1326" posz ="-5.5325" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">Campfire</unit>
+		<unit variation ="41" posx ="-4.2066" posz ="-1.2380" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0001">ypSocketTengri</unit>
+		<unit variation ="252" posx ="3.5400" posz ="-2.1377" orientx ="0.6577" orienty ="0.0000" orientz ="-0.7533">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="66" posx ="5.2356" posz ="0.1674" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">ypSPCSaltpeterSite</unit>
+		<unit variation ="83" posx ="-0.2318" posz ="-0.4436" orientx ="-0.4617" orienty ="0.0000" orientz ="-0.8870">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="122" posx ="3.2058" posz ="1.3350" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="245" posx ="-0.1802" posz ="1.0525" orientx ="-0.7169" orienty ="0.0000" orientz ="-0.6971">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="231" posx ="-0.0784" posz ="0.5800" orientx ="0.9992" orienty ="0.0000" orientz ="0.0404">ypSMJesuitAccessory</unit>
+		<unit variation ="231" posx ="3.7694" posz ="1.2657" orientx ="-0.7351" orienty ="0.0000" orientz ="0.6779">ypSMJesuitAccessory</unit>
+		<unit variation ="231" posx ="-3.1729" posz ="3.9899" orientx ="-0.3448" orienty ="0.0000" orientz ="-0.9387">ypSMJesuitAccessory</unit>
+		<unit variation ="211" posx ="-3.8358" posz ="6.6856" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="131" posx ="-3.9906" posz ="4.8789" orientx ="0.9961" orienty ="0.0000" orientz ="-0.0880">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="4" posx ="-1.0579" posz ="4.1530" orientx ="-0.9948" orienty ="0.0000" orientz ="-0.1019">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="231" posx ="7.1568" posz ="5.6403" orientx ="0.9386" orienty ="0.0000" orientz ="-0.3449">ypSMJesuitAccessory</unit>
+		<unit variation ="220" posx ="-1.2834" posz ="6.1109" orientx ="0.4233" orienty ="0.0000" orientz ="0.9060">ypSMSaltpeterMan</unit>
+		<unit variation ="4" posx ="-7.0287" posz ="6.3320" orientx ="-0.9581" orienty ="0.0000" orientz ="0.2866">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="50" posx ="4.9494" posz ="6.2996" orientx ="-0.6385" orienty ="0.0055" orientz ="-0.7696">ypNativeHorse</unit>
+		<unit variation ="46" posx ="2.9379" posz ="7.1520" orientx ="0.1315" orienty ="0.0034" orientz ="-0.9913">ypNativeHorse</unit>
+		<unit variation ="196" posx ="-3.7990" posz ="8.2654" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypSPCSaltpeterSite</unit>
+		<unit variation ="231" posx ="-6.2156" posz ="8.2508" orientx ="-0.9992" orienty ="0.0000" orientz ="-0.0406">ypSMJesuitAccessory</unit>
+		<unit variation ="176" posx ="-1.6135" posz ="9.7949" orientx ="0.9825" orienty ="-0.0031" orientz ="-0.1860">ypNativeHorse</unit>
+		<unit variation ="231" posx ="6.1039" posz ="10.3686" orientx ="0.6778" orienty ="0.0000" orientz ="0.7352">ypSMJesuitAccessory</unit>
+		<unit variation ="231" posx ="1.8291" posz ="12.1182" orientx ="0.3449" orienty ="0.0000" orientz ="0.9386">ypSMJesuitAccessory</unit>
+		<unit variation ="231" posx ="-2.7827" posz ="12.2395" orientx ="-0.0406" orienty ="0.0000" orientz ="0.9992">ypSMJesuitAccessory</unit>
+	</units>
+	<tiles>
+		<heights>
+			<tiles x ="-5" z ="-7">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-6">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="0">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="6">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="7">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+		</heights>
+	</tiles>
+</grouping>

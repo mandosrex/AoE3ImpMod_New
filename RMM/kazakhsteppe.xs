@@ -575,8 +575,8 @@ void main(void)
 
    if (nativePattern == 1)
    {
-      rmSetSubCiv(0, "Udasi");
-      native1Name = "native udasi village ";
+      rmSetSubCiv(0, "Tengri");
+      native1Name = "native_tengri_0";
       rmSetSubCiv(1, "Bhakti");
       native2Name = "native bhakti village ";
    }
@@ -584,8 +584,8 @@ void main(void)
    {
       rmSetSubCiv(0, "Bhakti");
       native1Name = "native bhakti village ";
-      rmSetSubCiv(1, "Udasi");
-      native2Name = "native udasi village ";
+      rmSetSubCiv(1, "Tengri");
+      native2Name = "native_tengri_0";
    }
 
 
@@ -594,7 +594,7 @@ void main(void)
    int whichNative = rmRandInt(1,2);
    int villageType = rmRandInt(1,5);
    if (whichNative == 1)
-	   villageAID = rmCreateGrouping("Udasi village A", native1Name+villageType);
+	   villageAID = rmCreateGrouping("Tengri village A", native1Name+villageType);
    else if (whichNative == 2)
 	   villageAID = rmCreateGrouping("Bhakti village A", native2Name+villageType);
    rmAddGroupingToClass(villageAID, rmClassID("natives"));
@@ -612,7 +612,7 @@ void main(void)
    int villageDID = -1;
    villageType = rmRandInt(1,5);
    if (whichNative == 2)
-	   villageDID = rmCreateGrouping("Udasi village B", native1Name+villageType);
+	   villageDID = rmCreateGrouping("Tengri village B", native1Name+villageType);
    else if (whichNative == 1)
 	   villageDID = rmCreateGrouping("Bhakti village B", native2Name+villageType);
    rmAddGroupingToClass(villageDID, rmClassID("natives"));

@@ -150,21 +150,15 @@ int stayEast = rmCreatePieConstraint("Stay East",0.53,0.47, rmXFractionToMeters(
 			rmPlacePlayer(2, 0.5, 0.2);
 	}
 
-	if (cNumberNonGaiaPlayers == 4)
+	if (cNumberNonGaiaPlayers >= 4)
 	{			
 		rmSetPlacementTeam(0);
-		rmPlacePlayersLine(0.45, 0.75, 0.25, 0.55, 0, 0);
+		rmPlacePlayersLine(0.5, 0.8, 0.2, 0.5, 0, 0);
 		rmSetPlacementTeam(1);
-		rmPlacePlayersLine(0.55, 0.25, 0.75, 0.45, 0, 0);
+		rmPlacePlayersLine(0.5, 0.2, 0.8, 0.5, 0, 0);
 
 	}
-
-
-			rmSetPlacementTeam(0);
-			rmPlacePlayersLine(0.15, 0.45, 0.55, 0.85, 0, 0);
-			rmSetPlacementTeam(1);
-			rmPlacePlayersLine(0.85, 0.55, 0.45, 0.15, 0, 0);
-		}else if(spawnSwitch <=1.2){
+	}else if(spawnSwitch <=1.2){
 
 	if (cNumberNonGaiaPlayers == 2)
 	{
@@ -172,21 +166,15 @@ int stayEast = rmCreatePieConstraint("Stay East",0.53,0.47, rmXFractionToMeters(
 			rmPlacePlayer(1, 0.5, 0.2);
 	}
 
-	if (cNumberNonGaiaPlayers == 4)
+	if (cNumberNonGaiaPlayers >= 4)
 	{			
 		rmSetPlacementTeam(1);
-		rmPlacePlayersLine(0.45, 0.75, 0.24, 0.54, 0, 0);
+		rmPlacePlayersLine(0.5, 0.8, 0.2, 0.5, 0, 0);
 		rmSetPlacementTeam(0);
-		rmPlacePlayersLine(0.54, 0.24, 0.75, 0.45, 0, 0);
+		rmPlacePlayersLine(0.5, 0.2, 0.8, 0.5, 0, 0);
 
 	}
-
-
-			rmSetPlacementTeam(1);
-			rmPlacePlayersLine(0.15, 0.45, 0.55, 0.85, 0, 0);
-			rmSetPlacementTeam(0);
-			rmPlacePlayersLine(0.85, 0.55, 0.45, 0.15, 0, 0);
-		}
+	}
 	}else{
 	
 			rmPlacePlayer(1, 0.15, 0.45);
@@ -275,19 +263,6 @@ if (seasonPick == 1){
         rmBuildArea(forest);    
 }
 if (seasonPick == 2){
-        rmSetAreaLocation(forest, 0.5, 0.5);
-        rmSetAreaTerrainType(forest, "great_plains\groundforest_gp");
-  	rmSetAreaMix(forest, "great plains grass");
-       rmAddAreaInfluenceSegment(forest, 0.0, 0.0, 1.0, 1.0);
-        rmSetAreaSize(forest, .39, .46);      
-        rmSetAreaBaseHeight(forest, 8.0);
-        rmSetAreaCoherence(forest, 0.79);
-        rmSetAreaSmoothDistance(forest, 10);
-        rmSetAreaHeightBlend(forest, 1);
-	rmSetAreaObeyWorldCircleConstraint(forest, false);
-        rmBuildArea(forest);    
-}
-if (seasonPick == 3){
         rmSetAreaLocation(forest, 0.5, 0.5);
         rmSetAreaTerrainType(forest, "great_plains\groundforest_gp");
   	rmSetAreaMix(forest, "great plains grass");
@@ -414,18 +389,16 @@ if (seasonPick == 2){
 //	rmRiverAddWaypoint(riverID, 1.0, 0.0);
 	rmRiverSetBankNoiseParams(riverID, 0.07, 2, 15.0, 15.0, 0.667, 1.8);
 	rmRiverSetShallowRadius(riverID, 11+cNumberNonGaiaPlayers*1.3);
-	if (cNumberNonGaiaPlayers >= 6)
+	if (rmGetIsKOTH())
 	{
 		rmRiverAddShallow(riverID, 0.2);
-		rmRiverAddShallow(riverID, 0.4);
-		rmRiverAddShallow(riverID, 0.6);
+		rmRiverAddShallow(riverID, 0.5);
 		rmRiverAddShallow(riverID, 0.8);
 	}
 	else
 	{
-		rmRiverAddShallow(riverID, rmRandFloat(0.25,0.3));
-		rmRiverAddShallow(riverID, rmRandFloat(0.49,0.51));
-		rmRiverAddShallow(riverID, rmRandFloat(0.7,0.75));
+		rmRiverAddShallow(riverID, 0.2);
+		rmRiverAddShallow(riverID, 0.8);
 	}
 	rmRiverBuild(riverID);
 
@@ -444,19 +417,6 @@ if (seasonPick == 2){
 
 }
 
-if (seasonPick == 3){
-//dat flooded river
-
-		int straightLake=rmCreateArea("straightLake");
-        rmSetAreaLocation(straightLake, 0.5, 0.5);
-        rmAddAreaInfluenceSegment(straightLake, 0.0, 0.0, 1.0, 1.0);
-        rmSetAreaSize(straightLake, .21, .22);      
-        rmSetAreaWaterType(straightLake, "Mississippi");
-        rmSetAreaBaseHeight(straightLake, 8.0);
-        rmSetAreaCoherence(straightLake, .83);
-	rmSetAreaObeyWorldCircleConstraint(straightLake, false);
-        rmBuildArea(straightLake);
-}
 	
 
 //=============KOTH================
@@ -601,7 +561,12 @@ if (seasonPick == 1){
   rmSetObjectDefMinDistance(extraberrywagon, 8.0);
   rmSetObjectDefMaxDistance(extraberrywagon, 10.0);
 
-
+	// Water spawn flag
+	int colonyShipID = 0;
+	colonyShipID=rmCreateObjectDef("colony ship "+i);
+	rmAddObjectDefItem(colonyShipID, "HomeCityWaterSpawnFlag", 1, 1.0);
+	rmSetObjectDefMinDistance(colonyShipID, rmXFractionToMeters(0.1));
+	rmSetObjectDefMaxDistance(colonyShipID, rmXFractionToMeters(0.20));
 
 
 		rmSetStatusText("",0.5); 
@@ -620,6 +585,8 @@ if (seasonPick == 1){
 		rmSetObjectDefMinDistance(startID, 0.0);
         	rmSetObjectDefMaxDistance(startID, 5.0);
 		rmPlaceObjectDefAtLoc(startID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
+		vector TCLoc = rmGetUnitPosition(rmGetUnitPlacedOfPlayer(startID, i));
+
 		//rmPlaceObjectDefAtLoc(berryID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
         	rmPlaceObjectDefAtLoc(treeID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
         	rmPlaceObjectDefAtLoc(foodID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
@@ -633,21 +600,16 @@ if (seasonPick == 1){
 	if (rmGetPlayerCiv(i) == rmGetCivID("Japanese")) {
         rmPlaceObjectDefAtLoc(extraberrywagon, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
         }
-	if (seasonPick == 3){
-   	flag1 = (rmPlayerLocXFraction(i)+rmPlayerLocZFraction(i))/2;
 
-		int waterFlag = rmCreateObjectDef("HC water flag "+i);
-         rmAddObjectDefItem(waterFlag, "HomeCityWaterSpawnFlag", 1, 5.0);
-         rmSetObjectDefMinDistance(waterFlag, 0);
-         rmSetObjectDefMaxDistance(waterFlag, 20);
-         rmPlaceObjectDefAtLoc(waterFlag, i, flag1, flag1, 1);
+	if (seasonPick == 2){
+		vector closestPoint = rmFindClosestPointVector(TCLoc, rmXFractionToMeters(1.0));
+		rmPlaceObjectDefAtLoc(colonyShipID, i, rmXMetersToFraction(xsVectorGetX(closestPoint)), rmZMetersToFraction(xsVectorGetZ(closestPoint)));
+	}
 
 		if ( rmGetNomadStart())
 		{
 			rmAddPlayerResource(i, "ships", 1);
 		}
-
-}
 
 	}
 	rmSetStatusText("",0.6);
@@ -806,7 +768,7 @@ if (seasonPick == 1){
 	//for (j=0; < (6*cNumberNonGaiaPlayers)) {   
 		int mapTrees=rmCreateObjectDef("map trees");
 		rmAddObjectDefItem(mapTrees, treeType, rmRandInt(12,15), rmRandFloat(12.0,13.0));
-if (seasonPick >= 2){
+if (seasonPick == 2){
 		rmAddObjectDefItem(mapTrees, "UnderbrushCarolinas", rmRandInt(4,5), rmRandFloat(12.0,13.0));
 }
 		rmAddObjectDefToClass(mapTrees, rmClassID("classForest")); 
@@ -833,7 +795,7 @@ if (seasonPick >= 2){
    }
 
 
-if (seasonPick >= 2){
+if (seasonPick == 2){
 
 	int fishVsFishID=rmCreateTypeDistanceConstraint("fish v fish", "fishSalmon", 12.0);
 	int fishLand = rmCreateTerrainDistanceConstraint("fish land", "land", true, 5.0);
@@ -847,9 +809,22 @@ if (seasonPick >= 2){
 	rmAddObjectDefConstraint(fishID, fishLand);
 	rmAddObjectDefConstraint(fishID, avoidShallows);
 	rmPlaceObjectDefAtLoc(fishID, 0, 0.5, 0.5, 6*cNumberNonGaiaPlayers);
+
+
+  // Water nuggets
+
+  int avoidNuggetLand=rmCreateTerrainDistanceConstraint("nugget avoid land", "land", true, 10.0);
+  int avoidNuggetWater=rmCreateTypeDistanceConstraint("nugget vs. nugget water", "AbstractNugget", 80.0);
+  
+  int nuggetW= rmCreateObjectDef("nugget water"); 
+  rmAddObjectDefItem(nuggetW, "ypNuggetBoat", 1, 0.0);
+  rmSetNuggetDifficulty(5, 5);
+  rmSetObjectDefMinDistance(nuggetW, rmXFractionToMeters(0.0));
+  rmSetObjectDefMaxDistance(nuggetW, rmXFractionToMeters(0.5));
+  rmAddObjectDefConstraint(nuggetW, avoidNuggetLand);
+  rmAddObjectDefConstraint(nuggetW, avoidNuggetWater);
+  rmPlaceObjectDefAtLoc(nuggetW, 0, 0.5, 0.5, cNumberNonGaiaPlayers*4);
 	}
-
-
 
 	rmSetStatusText("",0.99);
 

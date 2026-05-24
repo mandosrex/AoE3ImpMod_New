@@ -908,7 +908,7 @@ void main(void)
 	colonyShipID=rmCreateObjectDef("colony ship "+i);
 	rmAddObjectDefItem(colonyShipID, "HomeCityWaterSpawnFlag", 1, 1.0);
 	rmSetObjectDefMinDistance(colonyShipID, rmXFractionToMeters(0.1));
-	rmSetObjectDefMaxDistance(colonyShipID, rmXFractionToMeters(0.40));
+	rmSetObjectDefMaxDistance(colonyShipID, rmXFractionToMeters(0.30));
 	rmAddObjectDefConstraint(colonyShipID, avoidColonyShip);
 	rmAddObjectDefConstraint(colonyShipID, avoidLand);
 	rmAddObjectDefConstraint(colonyShipID, avoidEdge);
@@ -1306,7 +1306,7 @@ void main(void)
 
   // Water nuggets
 
-  int avoidNuggetLand=rmCreateTerrainDistanceConstraint("nugget avoid land", "land", true, 15.0);
+  int avoidNuggetLand=rmCreateTerrainDistanceConstraint("nugget avoid land", "land", true, 10.0);
   int avoidNuggetWater=rmCreateTypeDistanceConstraint("nugget vs. nugget water", "AbstractNugget", 80.0);
   
   int nuggetW= rmCreateObjectDef("nugget water"); 

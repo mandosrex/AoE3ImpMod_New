@@ -48,7 +48,7 @@ void main(void) {
 
 	rmSetWorldCircleConstraint(false);
 
-		rmSetLightingSet("311b");
+		rmSetLightingSet("carolina");
 
         rmDefineClass("classForest");
 		rmDefineClass("classPlateau");
@@ -506,15 +506,15 @@ int avoidTPSocket =rmCreateTypeDistanceConstraint("avoid trade socket", "SocketT
 		if (subCiv1 >= 0)
 			 rmSetSubCiv(1, "Zen");
 	 
-		subCiv2=rmGetCivID("Shaolin");
-      rmEchoInfo("subCiv2 is Shaolin"+subCiv2);
+		subCiv2=rmGetCivID("Tengri");
+      rmEchoInfo("subCiv2 is Tengri"+subCiv2);
       if (subCiv2 >= 0)
-         rmSetSubCiv(2, "Shaolin");
+         rmSetSubCiv(2, "Tengri");
 
-		subCiv3=rmGetCivID("Shaolin");
-      rmEchoInfo("subCiv3 is Shaolin"+subCiv3);
+		subCiv3=rmGetCivID("Tengri");
+      rmEchoInfo("subCiv3 is Tengri"+subCiv3);
       if (subCiv3 >= 0)
-         rmSetSubCiv(3, "Shaolin");
+         rmSetSubCiv(3, "Tengri");
 	}
 	
 	// Set up Natives	
@@ -527,7 +527,7 @@ int avoidTPSocket =rmCreateTypeDistanceConstraint("avoid trade socket", "SocketT
     rmSetGroupingMinDistance(nativeID0, 0.00);
     rmSetGroupingMaxDistance(nativeID0, 3.00);
 
-	nativeID1 = rmCreateGrouping("native site 2", "native shaolin temple yr 05");
+	nativeID1 = rmCreateGrouping("native site 2", "native_tengri_01");
     rmSetGroupingMinDistance(nativeID1, 0.00);
     rmSetGroupingMaxDistance(nativeID1, 3.00);
 
@@ -649,6 +649,12 @@ if (cNumberNonGaiaPlayers >= 5){
   rmSetObjectDefMinDistance(extraberrywagon, 6.0);
   rmSetObjectDefMaxDistance(extraberrywagon, 7.0);
 
+	// Water spawn flag
+	int colonyShipID = 0;
+	colonyShipID=rmCreateObjectDef("colony ship "+i);
+	rmAddObjectDefItem(colonyShipID, "HomeCityWaterSpawnFlag", 1, 1.0);
+	rmSetObjectDefMinDistance(colonyShipID, rmXFractionToMeters(0.1));
+	rmSetObjectDefMaxDistance(colonyShipID, rmXFractionToMeters(0.20));
 
 
 		rmSetStatusText("",0.5);  
@@ -657,13 +663,14 @@ if (cNumberNonGaiaPlayers >= 5){
 		int id=rmCreateArea("Player"+i);
 		rmSetPlayerArea(i, id);
 		int startID = rmCreateObjectDef("object"+i);
-   	if ( rmGetNomadStart())
+   			if ( rmGetNomadStart())
  		rmAddObjectDefItem(startID, "coveredWagon", 1, 0);
-  	else
+  			else
 		rmAddObjectDefItem(startID, "townCenter", 1, 0);
 		rmSetObjectDefMinDistance(startID, 0.0);
         	rmSetObjectDefMaxDistance(startID, 5.0);
 		rmPlaceObjectDefAtLoc(startID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
+		vector TCLoc = rmGetUnitPosition(rmGetUnitPlacedOfPlayer(startID, i));
 
         rmPlaceObjectDefAtLoc(foodID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i)-rmXTilesToFraction(10));
         rmPlaceObjectDefAtLoc(popSpace, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
@@ -683,6 +690,9 @@ if (cNumberNonGaiaPlayers >= 5){
         rmPlaceObjectDefAtLoc(playerStart, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 
        rmPlaceObjectDefAtLoc(scoutID, i, rmPlayerLocXFraction(i), 0.41);
+
+		vector closestPoint = rmFindClosestPointVector(TCLoc, rmXFractionToMeters(1.0));
+		rmPlaceObjectDefAtLoc(colonyShipID, i, rmXMetersToFraction(xsVectorGetX(closestPoint)), rmZMetersToFraction(xsVectorGetZ(closestPoint)));
 
 		if (rmGetNomadStart())
 		{

@@ -658,13 +658,14 @@ void main(void)
 	rmSetObjectDefMaxDistance(StartAreaTreeID, 25.0);
 
 // Regicide objects
+
   int playerCastle=rmCreateObjectDef("Castle");
   rmAddObjectDefItem(playerCastle, "ypCastleRegicide", 1, 0.0);
   rmAddObjectDefConstraint(playerCastle, avoidAll);
   rmAddObjectDefConstraint(playerCastle, avoidImpassableLand);
   rmSetObjectDefMinDistance(playerCastle, 17.0);	
   rmSetObjectDefMaxDistance(playerCastle, 21.0);
-  
+
   int playerWalls = rmCreateGrouping("regicide walls", "regicide_walls");
   rmAddGroupingToClass(playerWalls, rmClassID("importantItem"));
   rmSetGroupingMinDistance(playerWalls, 0.0);
@@ -690,8 +691,12 @@ void main(void)
 	rmPlaceObjectDefAtLoc(startingUnits, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 
     rmPlaceObjectDefAtLoc(playerDaimyo, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
+
+	if (rmGetNomadStart() == false)
+	{
     rmPlaceGroupingAtLoc(playerWalls, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
     rmPlaceObjectDefAtLoc(playerCastle, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc))); 
+	}
 
 	rmPlaceObjectDefAtLoc(playerBerriesID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));  
       rmPlaceObjectDefAtLoc(playerGoldID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));   

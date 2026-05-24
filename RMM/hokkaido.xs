@@ -68,7 +68,6 @@ void main(void) {
        
 		int avoidNugget=rmCreateTypeDistanceConstraint("nugget avoid nugget", "AbstractNugget", 60.0);
 	int avoidImpassableLand=rmCreateTerrainDistanceConstraint("avoid impassable land", "Land", false, 6.0);
-		int avoidCastle=rmCreateTypeDistanceConstraint("vs Regicide Castle", "ypCastleRegicide", 5.0);
 	int avoidAll=rmCreateTypeDistanceConstraint("avoid all", "all", 4.0);
 
 		rmSetStatusText("",0.10);
@@ -301,25 +300,6 @@ void main(void) {
         rmSetObjectDefMaxDistance(foodID3, 65.0);
         rmSetObjectDefCreateHerd(foodID3, true);
 
-  int playerCastle=rmCreateObjectDef("Castle");
-  rmAddObjectDefItem(playerCastle, "ypCastleRegicide", 1, 0.0);
-  rmAddObjectDefConstraint(playerCastle, avoidAll);
-  rmAddObjectDefConstraint(playerCastle, avoidImpassableLand);
-	rmSetObjectDefMinDistance(playerCastle, 18.0);	
-	rmSetObjectDefMaxDistance(playerCastle, 23.0);
-
-  int playerWalls = rmCreateGrouping("regicide walls", "regicide_walls");
-  rmAddGroupingToClass(playerWalls, rmClassID("importantItem"));
-  rmAddGroupingConstraint(playerWalls, avoidImpassableLand);
-  rmSetGroupingMinDistance(playerWalls, 0.0);
-  rmSetGroupingMaxDistance(playerWalls, 2.0);
-
-  int playerDaimyo=rmCreateObjectDef("Daimyo");
-  rmAddObjectDefItem(playerDaimyo, "ypDaimyoRegicide", 1, 0.0);
-  rmAddObjectDefConstraint(playerDaimyo, avoidAll);
-  rmSetObjectDefMinDistance(playerDaimyo, 7.0);	
-  rmSetObjectDefMaxDistance(playerDaimyo, 10.0);
-
                
     for(i=1; < cNumberNonGaiaPlayers + 1) {
 		int id=rmCreateArea("Player"+i);
@@ -337,11 +317,6 @@ void main(void) {
 		rmSetObjectDefMaxDistance(startID, 5.0);
 
 		rmPlaceObjectDefAtLoc(startID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
-		rmPlaceObjectDefAtLoc(playerDaimyo, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
-		if (rmGetNomadStart() == false)
-		{
-		rmPlaceGroupingAtLoc(playerWalls, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
-		}
 
         rmPlaceObjectDefAtLoc(berryID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
         rmPlaceObjectDefAtLoc(treeID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
@@ -602,24 +577,6 @@ void main(void) {
 	rmAddObjectDefConstraint(rainMines, avoidGrass);
 	rmPlaceObjectDefAtLoc(rainMines, 0, 0.5, 0.5, 2*cNumberNonGaiaPlayers);
 
-
-  // Regicide Triggers
-	for(i=1; <= cNumberNonGaiaPlayers) {
-    
-    // Lose on Daimyo's death
-    rmCreateTrigger("DaimyoDeath"+i);
-    rmSwitchToTrigger(rmTriggerID("DaimyoDeath"+i));
-    rmSetTriggerPriority(4); 
-    rmSetTriggerActive(true);
-    rmSetTriggerRunImmediately(true);
-    rmSetTriggerLoop(false);
-    
-    rmAddTriggerCondition("Is Dead");
-    rmSetTriggerConditionParamInt("SrcObject", rmGetUnitPlacedOfPlayer(playerDaimyo, i), false);
-    
-    rmAddTriggerEffect("Set Player Defeated");
-    rmSetTriggerEffectParamInt("Player", i, false);
-  }
 
 
    // check for KOTH game mode
