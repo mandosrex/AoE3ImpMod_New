@@ -35324,272 +35324,6 @@
 				<StringID>67425</StringID>
 			</Sentence>
 		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyStrongAztec" priority="Background">
-			<Sentence>
-				<String>The Aztecs tighten their grip on our throats. Soon we will be unable to breathe.</String>
-				<Sound>chats\YKANG0255.mp3</Sound>
-				<StringID>67426</StringID>
-			</Sentence>
-			<Sentence>
-				<String>Our armies stumble in their efforts, weakened by the superior Aztec enemy.</String>
-				<Sound>chats\YKANG0256.mp3</Sound>
-				<StringID>67427</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyStrongBritish" priority="Background">
-			<Sentence>
-				<String>The British have beaten our men bloody. Is there any way for us to recover?</String>
-				<Sound>chats\YKANG0257.mp3</Sound>
-				<StringID>67428</StringID>
-			</Sentence>
-			<Sentence>
-				<String>I knew the British were strong, but not this strong.</String>
-				<Sound>chats\YKANG0258.mp3</Sound>
-				<StringID>67429</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyStrongDutch" priority="Background">
-			<Sentence>
-				<String>Losing to the Dutch would be a disaster, yet I cannot find their weakness.</String>
-				<Sound>chats\YKANG0259.mp3</Sound>
-				<StringID>67430</StringID>
-			</Sentence>
-			<Sentence>
-				<String>This old man cannot stomach one more defeat, whether its the Dutch or anyone else.</String>
-				<Sound>chats\YKANG0260.mp3</Sound>
-				<StringID>67431</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyStrongFrench" priority="Background">
-			<Sentence>
-				<String>Our weak defense betrays us. Even if we survive, the French will be as strong as ever.</String>
-				<Sound>chats\YKANG0261.mp3</Sound>
-				<StringID>67432</StringID>
-			</Sentence>
-			<Sentence>
-				<String>The French do not even notice our resistance, as if we were insects to be ignored.</String>
-				<Sound>chats\YKANG0262.mp3</Sound>
-				<StringID>67433</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyStrongGerman" priority="Background">
-			<Sentence>
-				<String>Germans stampede across the landscape. I am getting too old for this.</String>
-				<Sound>chats\YKANG0263.mp3</Sound>
-				<StringID>67434</StringID>
-			</Sentence>
-			<Sentence>
-				<String>I have seen much in my time, but never an enemy as terrifying as the Germans.</String>
-				<Sound>chats\YKANG0264.mp3</Sound>
-				<StringID>67435</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyStrongIroquois" priority="Background">
-			<Sentence>
-				<String>I thought our alliance supreme, but the Iroquois shatter it with one blow.</String>
-				<Sound>chats\YKANG0265.mp3</Sound>
-				<StringID>67436</StringID>
-			</Sentence>
-			<Sentence>
-				<String>Even if we live to see another day, the Iroquois will be there to greet us when we wake.</String>
-				<Sound>chats\YKANG0266.mp3</Sound>
-				<StringID>67437</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyStrongOttoman" priority="Background">
-			<Sentence>
-				<String>Killing is a sport to these Ottomans. I have nothing left to offer them but my death.</String>
-				<Sound>chats\YKANG0267.mp3</Sound>
-				<StringID>67438</StringID>
-			</Sentence>
-			<Sentence>
-				<String>Is this the death of our empire? I only hope we showed these Ottomans the meaning of honor.</String>
-				<Sound>chats\YKANG0268.mp3</Sound>
-				<StringID>67439</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyStrongPortuguese" priority="Background">
-			<Sentence>
-				<String>They may crush us easily, but I will never, ever submit to the Portuguese.</String>
-				<Sound>chats\YKANG0269.mp3</Sound>
-				<StringID>67440</StringID>
-			</Sentence>
-			<Sentence>
-				<String>My fortunes never suggested such abuse at the hands of the Portuguese.</String>
-				<Sound>chats\YKANG0270.mp3</Sound>
-				<StringID>67441</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyStrongRussian" priority="Background">
-			<Sentence>
-				<String>Every time a warrior falls, I expect the Russian assault to cease. But it never does.</String>
-				<Sound>chats\YKANG0271.mp3</Sound>
-				<StringID>67442</StringID>
-			</Sentence>
-			<Sentence>
-				<String>The Russians thrive on our anguish. There is no diplomacy when you deal with animals.</String>
-				<Sound>chats\YKANG0272.mp3</Sound>
-				<StringID>67443</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyStrongSioux" priority="Background">
-			<Sentence>
-				<String>The number of Sioux never seems to diminish. Our arrows fall into a bottomless pit.</String>
-				<Sound>chats\YKANG0273.mp3</Sound>
-				<StringID>67444</StringID>
-			</Sentence>
-			<Sentence>
-				<String>There is only one word for this war against the Sioux, and that is suicide.</String>
-				<Sound>chats\YKANG0274.mp3</Sound>
-				<StringID>67445</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyStrongSpanish" priority="Background">
-			<Sentence>
-				<String>I am at a loss for ideas, my friend. The Spanish test us in ways I never imagined.</String>
-				<Sound>chats\YKANG0275.mp3</Sound>
-				<StringID>67446</StringID>
-			</Sentence>
-			<Sentence>
-				<String>This is no longer a battlefield. Thanks to the Spanish, it has become a graveyard.</String>
-				<Sound>chats\YKANG0276.mp3</Sound>
-				<StringID>67447</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyStrongChinese" priority="Background">
-			<Sentence>
-				<String>I fear that these traitorous Chinese will defeat the very emperor that they betrayed: Me.</String>
-				<Sound>chats\YKANG0277.mp3</Sound>
-				<StringID>67448</StringID>
-			</Sentence>
-			<Sentence>
-				<String>I am ashamed to admit that the Chinese traitors mistreat us. They have made a fool of me.</String>
-				<Sound>chats\YKANG0278.mp3</Sound>
-				<StringID>67449</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyStrongJapanese" priority="Background">
-			<Sentence>
-				<String>Where is our honor? Where is our courage? Our warriors retreat from the Japanese.</String>
-				<Sound>chats\YKANG0279.mp3</Sound>
-				<StringID>67450</StringID>
-			</Sentence>
-			<Sentence>
-				<String>When a Japanese warrior falls it is only after killing five of our men. We must do something.</String>
-				<Sound>chats\YKANG0280.mp3</Sound>
-				<StringID>67451</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyStrongIndian" priority="Background">
-			<Sentence>
-				<String>The Indians have marched back with renewed strength.</String>
-				<Sound>chats\YKANG0281.mp3</Sound>
-				<StringID>67452</StringID>
-			</Sentence>
-			<Sentence>
-				<String>I look into the future and see an Indian dawn. Unless we act now, our time is over.</String>
-				<Sound>chats\YKANG0282.mp3</Sound>
-				<StringID>67453</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyWeakAztec" priority="Background">
-			<Sentence>
-				<String>We must survive long enough to strike back with a ferocity the Aztecs have never seen.</String>
-				<Sound>chats\YKANG0283.mp3</Sound>
-				<StringID>67454</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyWeakBritish" priority="Background">
-			<Sentence>
-				<String>The British have wasted their greatest warriors in gaining the advantage. Now it is our turn.</String>
-				<Sound>chats\YKANG0284.mp3</Sound>
-				<StringID>67455</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyWeakDutch" priority="Background">
-			<Sentence>
-				<String>The Dutch fight back fiercely, but they cannot do so for long.</String>
-				<Sound>chats\YKANG0285.mp3</Sound>
-				<StringID>67456</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyWeakFrench" priority="Background">
-			<Sentence>
-				<String>The French pour their strongest into this offensive, but leave little reserves to continue</String>
-				<Sound>chats\YKANG0286.mp3</Sound>
-				<StringID>67457</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyWeakGerman" priority="Background">
-			<Sentence>
-				<String>Even as we feel the tips of their blades, they weaken. The Germans will not last.</String>
-				<Sound>chats\YKANG0287.mp3</Sound>
-				<StringID>67458</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyWeakIroquois" priority="Background">
-			<Sentence>
-				<String>Our men may die, but the Iroquois weaken.  Soon we will have our revenge.</String>
-				<Sound>chats\YKANG0288.mp3</Sound>
-				<StringID>67459</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyWeakOttoman" priority="Background">
-			<Sentence>
-				<String>Ottomans think not of the future. They may weaken us, but our vengeance will be final.</String>
-				<Sound>chats\YKANG0289.mp3</Sound>
-				<StringID>67460</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyWeakPortuguese" priority="Background">
-			<Sentence>
-				<String>It is wrong of the Portuguese to show such cruelty, especially when they are so weak.</String>
-				<Sound>chats\YKANG0290.mp3</Sound>
-				<StringID>67461</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyWeakRussian" priority="Background">
-			<Sentence>
-				<String>We will lie in wait, taking the Russians' damage, but preparing for retaliation.</String>
-				<Sound>chats\YKANG0291.mp3</Sound>
-				<StringID>67462</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyWeakSioux" priority="Background">
-			<Sentence>
-				<String>The Sioux carelessly throw their resources into this attack, tiring themselves in the process.</String>
-				<Sound>chats\YKANG0292.mp3</Sound>
-				<StringID>67463</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyWeakSpanish" priority="Background">
-			<Sentence>
-				<String>Every blow costs the Spanish morale and energy. When they are depleted, we strike.</String>
-				<Sound>chats\YKANG0293.mp3</Sound>
-				<StringID>67464</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyWeakChinese" priority="Background">
-			<Sentence>
-				<String>All we have to do is stay alive long enough to slaughter the traitorous Chinese. </String>
-				<Sound>chats\YKANG0294.mp3</Sound>
-				<StringID>67465</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyWeakJapanese" priority="Background">
-			<Sentence>
-				<String>Once we pull out of harm's way, we will strike and finish these Japanese for good.</String>
-				<Sound>chats\YKANG0295.mp3</Sound>
-				<StringID>67466</StringID>
-			</Sentence>
-		</Tag>
-		<Tag type="AIChat" name="ToAllyWeAreLosingEnemyWeakIndian" priority="Background">
-			<Sentence>
-				<String>We may be losing, but the Indians have little left to give. One more attack will be their undoing.</String>
-				<Sound>chats\YKANG0296.mp3</Sound>
-				<StringID>67467</StringID>
-			</Sentence>
-		</Tag>
 		<Tag type="AIChat" name="ToAllyWeAreLosingHeIsStronger" priority="Background">
 			<Sentence>
 				<String>It is up to you to lead us to victory, my friend. The sun has set on the Qing Dynasty.</String>
@@ -38752,7 +38486,7 @@
 		</Tag>
 		<Tag type="AIChat" name="ToAllyConfirmArt" priority="Emergency">
 			<Sentence>
-				<String>We are preparing to move the cannons. These models are a bit older, you see.</String>
+				<String>We are preparing to move the cannons. These models are a bit older.</String>
 				<Sound>imp\chats\BOLIV0020.mp3</Sound>
 				<StringID>70934</StringID>
 			</Sentence>
@@ -38841,7 +38575,7 @@
 		</Tag>
 		<Tag type="AIChat" name="ToAllyHeReachesAge2First" priority="Background">
 			<Sentence>
-				<String>You do not yet have wings and already want to fly.</String>
+				<String>You do not yet have wings and already wish to fly.</String>
 				<Sound>imp\chats\BOLIV0235.mp3</Sound>
 				<StringID>70983</StringID>
 			</Sentence>
@@ -38869,7 +38603,7 @@
 		</Tag>
 		<Tag type="AIChat" name="ToAllyIntro" priority="Background">
 			<Sentence>
-				<String>Are you Amelia Black's friend? I have heard a lot about you. Tell me, how is she doing these days?</String>
+				<String>Are you Amelia Black's friend? I have heard a lot about you, but tell me, how is she doing these days?</String>
 				<Sound>imp\chats\BOLIV0260.mp3</Sound>
 				<StringID>70987</StringID>
 			</Sentence>
@@ -38992,7 +38726,7 @@
 				<StringID>71005</StringID>
 			</Sentence>
 			<Sentence>
-				<String>My Soldados are eager to reclaim this town in our name!</String>
+				<String>My men are eager to reclaim this town in our name!</String>
 				<Sound>imp\chats\BOLIV0350.mp3</Sound>
 				<StringID>71006</StringID>
 			</Sentence>
@@ -39242,7 +38976,7 @@
 		</Tag>
 		<Tag type="AIChat" name="ToAllyWhenHeGathersNuggetWood" priority="Background">
 			<Sentence>
-				<String>What will it be, a weapon for your army, or a house for your settlers?</String>
+				<String>What will it be, a weapon for your army, or a house for your villagers?</String>
 				<Sound>imp\chats\BOLIV0690.mp3</Sound>
 				<StringID>71078</StringID>
 			</Sentence>
@@ -39354,14 +39088,14 @@
 		</Tag>
 		<Tag type="AIChat" name="ToEnemyHeReachesAge2First" priority="Background">
 			<Sentence>
-				<String>Your technological prowess will not help you against the wrath of my Guerrilleros!</String>
+				<String>Your technological prowess will not help you against the wrath of my Insurgents!</String>
 				<Sound>imp\chats\BOLIV0770.mp3</Sound>
 				<StringID>71094</StringID>
 			</Sentence>
 		</Tag>
 		<Tag type="AIChat" name="ToEnemyHeReachesAge2Last" priority="Background">
 			<Sentence>
-				<String>Now that we are on more equal footing, let us have a fair fight. I will send my first Soldado.</String>
+				<String>Now that we are on more equal footing, let us have a fair fight. I will send my first conscript.</String>
 				<Sound>imp\chats\BOLIV0775.mp3</Sound>
 				<StringID>71095</StringID>
 			</Sentence>
@@ -39373,7 +39107,7 @@
 		</Tag>
 		<Tag type="AIChat" name="ToEnemyHisTCIsolated" priority="Background">
 			<Sentence>
-				<String>Trying to hide from everyone? Our Guerrilleros have been watching you the whole time.</String>
+				<String>Trying to hide from everyone? Our scouts have been watching you the whole time.</String>
 				<Sound>imp\chats\BOLIV0785.mp3</Sound>
 				<StringID>71097</StringID>
 			</Sentence>
@@ -39659,7 +39393,7 @@
 				<StringID>71138</StringID>
 			</Sentence>
 			<Sentence>
-				<String>Settlers are still flocking to my righteous cause.</String>
+				<String>Villagers are still flocking to my righteous cause.</String>
 				<Sound>imp\chats\BOLIV0990.mp3</Sound>
 				<StringID>71139</StringID>
 			</Sentence>
@@ -39680,7 +39414,7 @@
 		</Tag>
 		<Tag type="AIChat" name="ToEnemyWhenTheyClaimFirstTrade" priority="Background">
 			<Sentence>
-				<String>A trading post? My fellow men have already burned down more impressive buildings.</String>
+				<String>A trading post? My men have already burned down more impressive buildings.</String>
 				<Sound>imp\chats\BOLIV1005.mp3</Sound>
 				<StringID>71142</StringID>
 			</Sentence>
@@ -41610,6 +41344,1548 @@
 				<String>The Pope forbade the usury of our Lombards, so we had no choice but to fall back on a more honest type of business.</String>
 				<Sound>imp\chats\GARIB1115.mp3</Sound>
 				<StringID>71550</StringID>
+			</Sentence>
+		</Tag>
+	</Chatset>
+	<Chatset name="Barbarossa">
+		<Tag type="AiChat" name="ToAllyWhenIGatherNugget" priority="Background">
+			<Sentence>
+				<String>New lands mean new plunder. We shall take our share.</String>
+				<Sound>chats\BARB0000.mp3</Sound>
+				<StringID>71576</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenHeGathersNugget" priority="Background">
+			<Sentence>
+				<String>Ah, glittering gold and salvage! Such wealth will buy powder and shot.</String>
+				<Sound>chats\BARB0015.mp3</Sound>
+				<StringID>71577</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenHeGathersFirstNugget" priority="Background">
+			<Sentence>
+				<String>You waste no tide, my friend. The sea rewards the swift.</String>
+				<Sound>chats\BARB0030.mp3</Sound>
+				<StringID>71578</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenHeGathersNuggetHeIsAhead" priority="Background">
+			<Sentence>
+				<String>You have the hunger of my brother Oruc. Do not let the silver fall from your fingers.</String>
+				<Sound>chats\BARB0035.mp3</Sound>
+				<StringID>71579</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenIGatherNuggetIAmAhead" priority="Background">
+			<Sentence>
+				<String>I have enough plunder to fill a hundred galleys. Take some, I insist. There is more where this came from.</String>
+				<Sound>chats\BARB0040.mp3</Sound>
+				<StringID>71580</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenHeGathersNuggetMyBase" priority="Background">
+			<Sentence>
+				<String>That treasure slept under the shadow of my town center. I shall remember this.</String>
+				<Sound>chats\BARB0045.mp3</Sound>
+				<StringID>71581</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenIGatherNuggetHisBase" priority="Background">
+			<Sentence>
+				<String>I trust you will not miss this bauble. It shall serve the cause of our alliance.</String>
+				<Sound>chats\BARB0050.mp3</Sound>
+				<StringID>71582</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyILoseExplorerEnemy" priority="Background">
+			<Sentence>
+				<String>This reminds me of when the Knights of St. John took my brother for four years. I tried to save him then, and I shall try to do so now.</String>
+				<Sound>chats\BARB0055.mp3</Sound>
+				<StringID>71583</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyHeIsAge1Late" priority="Background">
+			<Sentence>
+				<String>Still lingering in the Discovery Age? Have you not discovered that gunpowder outperforms arrows?</String>
+				<Sound>chats\BARB0070.mp3</Sound>
+				<StringID>71584</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyHeReachesAge2First" priority="Background">
+			<Sentence>
+				<String>You advance with the wind at your back. Now forge the steel to match your new age.</String>
+				<Sound>chats\BARB0075.mp3</Sound>
+				<StringID>71585</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyHeReachesAge2Last" priority="Background">
+			<Sentence>
+				<String>At last. What delayed you? Did the enemy blockade your scholars?</String>
+				<Sound>chats\BARB0080.mp3</Sound>
+				<StringID>71586</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyHeAdvancesAhead" priority="Background">
+			<Sentence>
+				<String>A magnificent display of speed! Use your technological advantage to disrupt our foes before I can catch up with you.</String>
+				<Sound>chats\BARB0085.mp3</Sound>
+				<StringID>71587</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyHeIsStillAgeBehind" priority="Background">
+			<Sentence>
+				<String>Did your grand strategy account for the enemy having cannons while you still use pikes?</String>
+				<Sound>chats\BARB0100.mp3</Sound>
+				<StringID>71588</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyISeeEnemyTCNoArmy" priority="Background">
+			<Sentence>
+				<String>An enemy port left undefended. I thought you'd like to know where to beach our galleys.</String>
+				<Sound>chats\BARB0105.mp3</Sound>
+				<StringID>71589</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyISeeEnemyTCNoBarracks" priority="Background">
+			<Sentence>
+				<String>The fools built a town without a single barracks! Send in the cavalry; they cannot muster a single pikeman to stop us.</String>
+				<Sound>chats\BARB0110.mp3</Sound>
+				<StringID>71590</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyISeeEnemyTCNoStable" priority="Background">
+			<Sentence>
+				<String>I spy a town with no stables! They have no horses to protect their flanks. Roll out the artillery and blow them to pieces!</String>
+				<Sound>chats\BARB0115.mp3</Sound>
+				<StringID>71591</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyILoseExplorerGaia" priority="Background">
+			<Sentence>
+				<String>Curses! My captain crossed paths with the local wildlife and paid the price. Keep a watchful eye!</String>
+				<Sound>chats\BARB0120.mp3</Sound>
+				<StringID>71592</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIRescuedMyExplorer" priority="Background">
+			<Sentence>
+				<String>My captain broke his own chains and made it back to port. The hunt for glory resumes!</String>
+				<Sound>chats\BARB0130.mp3</Sound>
+				<StringID>71593</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyHeRescuedMyExplorer" priority="Background">
+			<Sentence>
+				<String>You broke my captain out of their brig! A debt of honor I will gladly repay in enemy blood.</String>
+				<Sound>chats\BARB0145.mp3</Sound>
+				<StringID>71594</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIRansomedMyExplorer" priority="Background">
+			<Sentence>
+				<String>It leaves a bitter taste, but I had to buy back my captain's freedom from the enemy. They are laughing now, but we will make them pay twofold!</String>
+				<Sound>chats\BARB0160.mp3</Sound>
+				<StringID>71595</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyHeClaimsNative" priority="Background">
+			<Sentence>
+				<String>The enemy is whispering in the ears of the locals. We should disrupt their little alliance.</String>
+				<Sound>chats\BARB0165.mp3</Sound>
+				<StringID>71596</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyBattleStartMyFavor" priority="Background">
+			<Sentence>
+				<String>They are panicking. Run them down before they can regroup!</String>
+				<Sound>chats\BARB0170.mp3</Sound>
+				<StringID>71597</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIWillAttackEnemyTown" priority="Background">
+			<Sentence>
+				<String>I have salt in my beard and vengeance in my heart. Set sail for the enemy port.</String>
+				<Sound>chats\BARB0185.mp3</Sound>
+				<StringID>71598</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIWillAttackEnemyBase" priority="Background">
+			<Sentence>
+				<String>The mercenaries I paid good coin for are moving here to attack.</String>
+				<Sound>chats\BARB0200.mp3</Sound>
+				<StringID>71599</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIWillAttackEnemySettlers" priority="Background">
+			<Sentence>
+				<String>My raiders are going to slip ashore and target enemy villagers. None are safe.</String>
+				<Sound>chats\BARB0205.mp3</Sound>
+				<StringID>71600</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIWillAttackTradeSite" priority="Background">
+			<Sentence>
+				<String>I will teach them a thing or two about aggressive trading.</String>
+				<Sound>chats\BARB0210.mp3</Sound>
+				<StringID>71601</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIWillClaimTradeSite" priority="Background">
+			<Sentence>
+				<String>Dominion of the seven seas starts with this trading post.</String>
+				<Sound>chats\BARB0220.mp3</Sound>
+				<StringID>71602</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIWillBuildMilitaryBase" priority="Emergency">
+			<Sentence>
+				<String>Forts are our specialty. Allow me to demonstrate with this one here.</String>
+				<Sound>chats\BARB0225.mp3</Sound>
+				<StringID>71603</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIWillClaimNativeSite" priority="Background">
+			<Sentence>
+				<String>The locals will know where the treasure is buried.</String>
+				<Sound>chats\BARB0226.mp3</Sound>
+				<StringID>71604</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIWillBuildTC" priority="Background">
+			<Sentence>
+				<String>This lighthouse will guide the Barbary fleet.</String>
+				<Sound>chats\BARB0235.mp3</Sound>
+				<StringID>71605</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIDestroyedTown" priority="Background">
+			<Sentence>
+				<String>Their town is nothing but smoking ruins! A highly profitable assault.</String>
+				<Sound>chats\BARB0240.mp3</Sound>
+				<StringID>71606</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIFailedToDestroyTown" priority="Background">
+			<Sentence>
+				<String>Their defenses held firm against my bombardment. I need more firepower.</String>
+				<Sound>chats\BARB0245.mp3</Sound>
+				<StringID>71607</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIDestroyedNativeSite" priority="Background">
+			<Sentence>
+				<String>The enemy's leverage over the locals is broken. The natives are free of their subversion!</String>
+				<Sound>chats\BARB0260.mp3</Sound>
+				<StringID>71608</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIFailedToDestroyNativeSite" priority="Background">
+			<Sentence>
+				<String>Blast! Those native fortifications were reinforced better than I calculated. I will have to liberate them on the next pass.</String>
+				<Sound>chats\BARB0265.mp3</Sound>
+				<StringID>71609</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIDestroyedTradeSite" priority="Background">
+			<Sentence>
+				<String>I have seized their trading post. Their merchant lines are entirely cut.</String>
+				<Sound>chats\BARB0270.mp3</Sound>
+				<StringID>71610</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIFailedToDestroyTradeSite" priority="Background">
+			<Sentence>
+				<String>The trading post stands. They defended it like starving dogs over a choice bone.</String>
+				<Sound>chats\BARB0275.mp3</Sound>
+				<StringID>71611</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIWillDefendLocation" priority="Background">
+			<Sentence>
+				<String>My presence alone should make the enemy think twice before setting foot here.</String>
+				<Sound>chats\BARB0280.mp3</Sound>
+				<StringID>71612</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIWillDefendBuilding" priority="Background">
+			<Sentence>
+				<String>I hope we're getting something out of protecting this building.</String>
+				<Sound>chats\BARB0285.mp3</Sound>
+				<StringID>71613</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIWillDefendNativeSite" priority="Background">
+			<Sentence>
+				<String>This was a beneficial alliance, so I will defend it.</String>
+				<Sound>chats\BARB0290.mp3</Sound>
+				<StringID>71614</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIWillDefendTradeSite" priority="Background">
+			<Sentence>
+				<String>Losing this trading post is unacceptable.</String>
+				<Sound>chats\BARB0295.mp3</Sound>
+				<StringID>71615</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIWillDefendTown" priority="Background">
+			<Sentence>
+				<String>What kind of leaders are we if we let our town centers be destroyed.</String>
+				<Sound>chats\BARB0300.mp3</Sound>
+				<StringID>71616</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIWillFeedFood" priority="Background">
+			<Sentence>
+				<String>There are plenty of fish in the sea.</String>
+				<Sound>chats\BARB0305.mp3</Sound>
+				<StringID>71617</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIWillFeedWood" priority="Background">
+			<Sentence>
+				<String>A fleet requires lots of wood but, for you, I will find some to send over.</String>
+				<Sound>chats\BARB0310.mp3</Sound>
+				<StringID>38362</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIWillFeedCoin" priority="Background">
+			<Sentence>
+				<String>If there's one resource I have in abundance, it's coin.</String>
+				<Sound>chats\BARB0315.mp3</Sound>
+				<StringID>71618</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyITributedFood" priority="Emergency">
+			<Sentence>
+				<String>I had this idea for a new dish: fish rolled in seaweed. Any name suggestions?</String>
+				<Sound>chats\BARB0320.mp3</Sound>
+				<StringID>71619</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyITributedWood" priority="Emergency">
+			<Sentence>
+				<String>I can see you struggle to collect enough wood. It's embarrassing.</String>
+				<Sound>chats\BARB0325.mp3</Sound>
+				<StringID>71620</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyITributedCoin" priority="Emergency">
+			<Sentence>
+				<String>Don't question where this coin came from, just enjoy it.</String>
+				<Sound>chats\BARB0330.mp3</Sound>
+				<StringID>71621</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyImReadyToQuit" priority="Emergency">
+			<Sentence>
+				<String>The ships are burning, the treasury is bare, and the crew is mutinying. I am cutting my losses and sailing away.</String>
+				<Sound>chats\BARB0335.mp3</Sound>
+				<StringID>71622</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWeShouldResign1" priority="Emergency">
+			<Sentence>
+				<String>The mast is broken and the hull is shattered. It is time to cut our anchor lines and retreat to fight another day. Do you agree?</String>
+				<Sound>chats\BARB0340.mp3</Sound>
+				<StringID>71623</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWeShouldResign2" priority="Emergency">
+			<Sentence>
+				<String>I knew coming here was a mistake. I am too far away from Algiers to get the proper support I need. Let us end this.</String>
+				<Sound>chats\BARB0345.mp3</Sound>
+				<StringID>71624</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWeShouldResign3" priority="Emergency">
+			<Sentence>
+				<String>We've been more humiliated than the Hospitaller knights on Rhodes. It's time to jump ship and never talk about this again.</String>
+				<Sound>chats\BARB0350.mp3</Sound>
+				<StringID>71625</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyDeclineGeneral" priority="Emergency">
+			<Sentence>
+				<String>I must refuse. That strategy is a one-way trip to the bottom.</String>
+				<Sound>chats\BARB0390.mp3</Sound>
+				<StringID>71626</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyDeclineProhibited" priority="Emergency">
+			<Sentence>
+				<String>That goes entirely against all reason. I refuse.</String>
+				<Sound>chats\BARB0395.mp3</Sound>
+				<StringID>71627</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyDeclineCantAfford" priority="Emergency">
+			<Sentence>
+				<String>My vaults are currently empty. Mercenaries don't work on credit.</String>
+				<Sound>chats\BARB0400.mp3</Sound>
+				<StringID>71628</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyDeclineSmallArmy" priority="Emergency">
+			<Sentence>
+				<String>My force is still too small. Sending them now would just be throwing good coin away.</String>
+				<Sound>chats\BARB0405.mp3</Sound>
+				<StringID>71629</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyDeclineNoArmy" priority="Emergency">
+			<Sentence>
+				<String>I cannot attack without a crew! Give me time to actually recruit some men first.</String>
+				<Sound>chats\BARB0410.mp3</Sound>
+				<StringID>71630</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyConfirm" priority="Emergency">
+			<Sentence>
+				<String>Consider it done. For a fair price, of course.</String>
+				<Sound>chats\BARB0415.mp3</Sound>
+				<StringID>71631</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyConfirmCav" priority="Emergency">
+			<Sentence>
+				<String>The horses are saddled. My riders will hunt down their stray villagers in no time.</String>
+				<Sound>chats\BARB0420.mp3</Sound>
+				<StringID>71632</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyConfirmInf" priority="Emergency">
+			<Sentence>
+				<String>A wall of disciplined infantry is marching to the front lines.</String>
+				<Sound>chats\BARB0425.mp3</Sound>
+				<StringID>71633</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyConfirmArt" priority="Emergency">
+			<Sentence>
+				<String>The smoke of my cannons will soon block out the sun.</String>
+				<Sound>chats\BARB0430.mp3</Sound>
+				<StringID>71634</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyConfirmCavInf" priority="Emergency">
+			<Sentence>
+				<String>A classic pincer. My raiders will hunt their villagers while my foot soldiers hold the line.</String>
+				<Sound>chats\BARB0435.mp3</Sound>
+				<StringID>71635</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyConfirmCavArt" priority="Emergency">
+			<Sentence>
+				<String>My cavalry will lock them in place while the artillery rains fire from afar.</String>
+				<Sound>chats\BARB0440.mp3</Sound>
+				<StringID>71636</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyConfirmInfArt" priority="Emergency">
+			<Sentence>
+				<String>We march with cold steel and heavy iron. The infantry holds the line, and the cannons clear the field.</String>
+				<Sound>chats\BARB0445.mp3</Sound>
+				<StringID>71637</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyConfirmInfCav" priority="Emergency">
+			<Sentence>
+				<String>My foot soldiers will hold the center while the cavalry hunts down their runaways.</String>
+				<Sound>chats\BARB0450.mp3</Sound>
+				<StringID>71638</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyConfirmArtCav" priority="Emergency">
+			<Sentence>
+				<String>I am rolling out the heavy artillery and flanking them with swift raiders to cut down anyone fleeing the blast.</String>
+				<Sound>chats\BARB0455.mp3</Sound>
+				<StringID>71639</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyConfirmArtInf" priority="Emergency">
+			<Sentence>
+				<String>Heavy cannons and a wall of blades. No fortress will withstand this boarding party.</String>
+				<Sound>chats\BARB0460.mp3</Sound>
+				<StringID>71640</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWeAreWinning" priority="Background">
+			<Sentence>
+				<String>The sea smiles. Tonight, we drink and plan the next raid.</String>
+				<Sound>chats\BARB0475.mp3</Sound>
+				<StringID>71641</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWeAreWinningHeIsStronger" priority="Background">
+			<Sentence>
+				<String>Very good. Another fool learns the price of arrogance.</String>
+				<Sound>chats\BARB0480.mp3</Sound>
+				<StringID>71642</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWeAreWinningHeIsWeaker" priority="Background">
+			<Sentence>
+				<String>Remember to gather the loot and count the prisoners twice after the battle.</String>
+				<Sound>chats\BARB0485.mp3</Sound>
+				<StringID>71643</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWeAreLosingHeIsStronger" priority="Background">
+			<Sentence>
+				<String>The enemy is wasting no time exploiting our weaknesses. I fear this will soon be over.</String>
+				<Sound>chats\BARB0510.mp3</Sound>
+				<StringID>71644</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWeAreLosingHeIsWeaker" priority="Background">
+			<Sentence>
+				<String>We are losing ground to an enemy that lacks true depth.</String>
+				<Sound>chats\BARB0515.mp3</Sound>
+				<StringID>71645</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenHeGathersNuggetSettlers" priority="Background">
+			<Sentence>
+				<String>Securing extra hands on the frontier will stabilize our logistics far better than stray silver.</String>
+				<Sound>chats\BARB105.mp3</Sound>
+				<StringID>71646</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenHeGathersNuggetCoin" priority="Background">
+			<Sentence>
+				<String>A tidy sum of coin unearthed in the wild spends just as well as gold from royal mints.</String>
+				<Sound>chats\BARB106.mp3</Sound>
+				<StringID>71647</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenHeGathersNuggetFood" priority="Background">
+			<Sentence>
+				<String>Securing provisions from the land keeps your crews well-fed and ready.</String>
+				<Sound>chats\BARB107.mp3</Sound>
+				<StringID>71648</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenHeGathersNuggetNatives" priority="Background">
+			<Sentence>
+				<String>You have brought local trackers under your banner. Their knowledge of this terrain will give us a clear edge.</String>
+				<Sound>chats\BARB108.mp3</Sound>
+				<StringID>71649</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenHeGathersNuggetWood" priority="Background">
+			<Sentence>
+				<String>Quality timber, exactly what is needed to fortify our perimeters or expand your docks.</String>
+				<Sound>chats\BARB109.mp3</Sound>
+				<StringID>71650</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenIGatherNuggetSettlers" priority="Background">
+			<Sentence>
+				<String>I'll give these new laborers a tour of my stockades.</String>
+				<Sound>chats\BARB110.mp3</Sound>
+				<StringID>71651</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenIGatherNuggetCoin" priority="Background">
+			<Sentence>
+				<String>More coin for my treasury. This will go directly toward funding mercenaries.</String>
+				<Sound>chats\BARB111.mp3</Sound>
+				<StringID>71652</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenIGatherNuggetFood" priority="Background">
+			<Sentence>
+				<String>Fresh provisions from the wild. My men will march on full stomachs today.</String>
+				<Sound>chats\BARB112.mp3</Sound>
+				<StringID>71653</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenIGatherNuggetNatives" priority="Background">
+			<Sentence>
+				<String>The locals recognize a strong captain when they see one. They sail with us now.</String>
+				<Sound>chats\BARB113.mp3</Sound>
+				<StringID>71654</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenIGatherNuggetWood" priority="Background">
+			<Sentence>
+				<String>A good haul of wood. Every plank counts when you're building a fleet.</String>
+				<Sound>chats\BARB114.mp3</Sound>
+				<StringID>71655</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyBattleOverIWonFromBehind" priority="Background">
+			<Sentence>
+				<String>The tide has turned, and we have snatched victory from the jaws of defeat!</String>
+				<Sound>chats\BARB115.mp3</Sound>
+				<StringID>71656</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyBattleOverIWonAsExpected" priority="Background">
+			<Sentence>
+				<String>They fought like men who had never seen war before.</String>
+				<Sound>chats\BARB118.mp3</Sound>
+				<StringID>71657</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenIWallIn" priority="Background">
+			<Sentence>
+				<String>I am raising defenses to secure our flanks.</String>
+				<Sound>chats\BARB121.mp3</Sound>
+				<StringID>71658</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenEnemiesGet4OfKind" priority="Background">
+			<Sentence>
+				<String>They've locked down four trading posts! We need to sever their supply lines before time runs out.</String>
+				<Sound>chats\BARB123.mp3</Sound>
+				<StringID>71659</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenWeGet4OfKind" priority="Background">
+			<Sentence>
+				<String>We have secured the monopoly! Hold the line, guard the trade posts, and victory is ours in mere minutes!</String>
+				<Sound>chats\BARB125.mp3</Sound>
+				<StringID>71660</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyYourMPRatingIsUp" priority="Background">
+			<Sentence>
+				<String>Your reputation grows across the seas, friend. It is an honor to sail alongside you.</String>
+				<Sound>chats\BARB127.mp3</Sound>
+				<StringID>71661</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyYourMPRatingIsDown" priority="Background">
+			<Sentence>
+				<String>Do not let a minor setback sour your mood. Even the best captains weather a rough storm now and then.</String>
+				<Sound>chats\BARB129.mp3</Sound>
+				<StringID>71662</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyYourXPHasGoneUp" priority="Background">
+			<Sentence>
+				<String>I see your home city sends you finer shipments. Do not forget who helped you clear the path to glory.</String>
+				<Sound>chats\BARB131.mp3</Sound>
+				<StringID>71663</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIntroWhenMapRepeats" priority="Background">
+			<Sentence>
+				<String>Back on this shore again? Let us hope the plunder is richer this time around.</String>
+				<Sound>chats\BARB133.mp3</Sound>
+				<StringID>71664</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIntroWhenWeLostLastGame" priority="Background">
+			<Sentence>
+				<String>A dismal failure last time. Let us learn from that disaster and correct our course.</String>
+				<Sound>chats\BARB134.mp3</Sound>
+				<StringID>71665</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIntroWhenWeWonLastGame" priority="Background">
+			<Sentence>
+				<String>The wealth of our last victory still fills my hold. Let us double it today!</String>
+				<Sound>chats\BARB136.mp3</Sound>
+				<StringID>71666</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIntroWhenHeCarriedMeLastGame" priority="Background">
+			<Sentence>
+				<String>You proved your worth tenfold in our last raid. Let us make another fortune together.</String>
+				<Sound>chats\BARB137.mp3</Sound>
+				<StringID>71667</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIntroWhenICarriedHimLastGame" priority="Background">
+			<Sentence>
+				<String>I saved your skin from the gallows last match, friend. Make sure I don't have to do it again!</String>
+				<Sound>chats\BARB138.mp3</Sound>
+				<StringID>71668</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIntroWhenHeBeatMeLastGame" priority="Background">
+			<Sentence>
+				<String>We fought like rabid dogs last match. I am glad you are at my side today.</String>
+				<Sound>chats\BARB139.mp3</Sound>
+				<StringID>71669</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIntroWhenIBeatHimLastGame" priority="Background">
+			<Sentence>
+				<String>Do not look so nervous — I am your ally today, not the predator who ran you aground last match.</String>
+				<Sound>chats\BARB140.mp3</Sound>
+				<StringID>71670</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyEnemyDestroyed4OfKind" priority="Background">
+			<Sentence>
+				<String>Those scoundrels managed to break our stranglehold on the trade network. The countdown is shattered!</String>
+				<Sound>chats\BARB141.mp3</Sound>
+				<StringID>71671</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenEnemyClaimsFirstNative" priority="Background">
+			<Sentence>
+				<String>The enemy is courting the local tribes. Watch your flanks—native warriors will be tracking us through the brush soon.</String>
+				<Sound>chats\BARB142.mp3</Sound>
+				<StringID>71672</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenEnemyClaimsFirstTrade" priority="Background">
+			<Sentence>
+				<String>The enemy has established a presence on the commercial route. We cannot yield economic dominance to them.</String>
+				<Sound>chats\BARB144.mp3</Sound>
+				<StringID>71673</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenEnemyGetsNativeLead" priority="Background">
+			<Sentence>
+				<String>They are outnumbering us in native embassies. We need to disrupt their local alliances immediately.</String>
+				<Sound>chats\BARB146.mp3</Sound>
+				<StringID>71674</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenEnemyGetsTradeLead" priority="Background">
+			<Sentence>
+				<String>The enemy is aggressively hoarding the trade networks. We must sever their supply lines before their treasury outgrows ours.</String>
+				<Sound>chats\BARB147.mp3</Sound>
+				<StringID>71675</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenHeTakesNativeLead" priority="Background">
+			<Sentence>
+				<String>The local tribes follow your lead. A most welcome expansion of our reach.</String>
+				<Sound>chats\BARB148.mp3</Sound>
+				<StringID>71676</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenHeTakesTradeLead" priority="Background">
+			<Sentence>
+				<String>Excellent. With more trade routes in our grip, the gold will flow like the tide.</String>
+				<Sound>chats\BARB149.mp3</Sound>
+				<StringID>71677</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenHeClaimsFirstNative" priority="Background">
+			<Sentence>
+				<String>A prudent alliance. The local factions possess invaluable knowledge of this terrain.</String>
+				<Sound>chats\BARB150.mp3</Sound>
+				<StringID>71678</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenHeClaimsFirstTrade" priority="Background">
+			<Sentence>
+				<String>Securing that trade route guarantees a steady influx of capital for our enterprise.</String>
+				<Sound>chats\BARB151.mp3</Sound>
+				<StringID>71679</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIDestroyed4OfKind" priority="Background">
+			<Sentence>
+				<String>I've personally smashed through their trade post. Their monopoly is ruined!</String>
+				<Sound>chats\BARB152.mp3</Sound>
+				<StringID>71680</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenIClaimFirstNative" priority="Background">
+			<Sentence>
+				<String>The natives have pledged their blades to our cause. A shrewd investment.</String>
+				<Sound>chats\BARB153.mp3</Sound>
+				<StringID>71681</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenIClaimFirstTrade" priority="Background">
+			<Sentence>
+				<String>I have claimed our first trade route. Mark my words, our coffers will soon be overflowing.</String>
+				<Sound>chats\BARB154.mp3</Sound>
+				<StringID>71682</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenITakeNativeLead" priority="Background">
+			<Sentence>
+				<String>The tribes of this land are flocking to my banner. Our allied strength is unmatched!</String>
+				<Sound>chats\BARB155.mp3</Sound>
+				<StringID>71683</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenITakeTradeLead" priority="Background">
+			<Sentence>
+				<String>We control the flow of goods now. He who holds the trade, holds the realm.</String>
+				<Sound>chats\BARB156.mp3</Sound>
+				<StringID>71684</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIntroWhenDifficultyHigher" priority="Background">
+			<Sentence>
+				<String>The adversaries we face today are seasoned admirals, not mere merchants. We must be exceptionally sharp.</String>
+				<Sound>chats\BARB157.mp3</Sound>
+				<StringID>71685</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIntroWhenDifficultyLower" priority="Background">
+			<Sentence>
+				<String>Our opponents appear to be greenhorns who have never left harbor. This should be an easy fight.</String>
+				<Sound>chats\BARB158.mp3</Sound>
+				<StringID>71686</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAlly1MinuteLeftEnemy4OfKind" priority="Background">
+			<Sentence>
+				<String>Throw every single man into the fire — we must break one of those posts now or hang!</String>
+				<Sound>chats\BARB159.mp3</Sound>
+				<StringID>71687</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAlly1MinuteLeftOur4OfKind" priority="Background">
+			<Sentence>
+				<String>One minute remains! Grab a cask of rum and prepare to celebrate our absolute triumph!</String>
+				<Sound>chats\BARB160.mp3</Sound>
+				<StringID>71688</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyINeedHelpHere" priority="Background">
+			<Sentence>
+				<String>My front line is breaking! Send reinforcements to these coordinates immediately!</String>
+				<Sound>chats\BARB162.mp3</Sound>
+				<StringID>71689</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIWillAttackWithYou" priority="Background">
+			<Sentence>
+				<String>Reinforcements are closing in. Hold your position until I arrive.</String>
+				<Sound>chats\BARB164.mp3</Sound>
+				<StringID>71690</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIWillHelpDefend" priority="Background">
+			<Sentence>
+				<String>Do not despair. My men arrive to turn the tide of this battle.</String>
+				<Sound>chats\BARB167.mp3</Sound>
+				<StringID>71691</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIntro" priority="Background">
+			<Sentence>
+				<String>Ah, a new partnership. There is enough plunder for both of us if you hold the land and I handle the sea.</String>
+				<Sound>chats\BARB170.mp3</Sound>
+				<StringID>71692</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyRequestCoin" priority="Background">
+			<Sentence>
+				<String>My treasury is lacking the silver needed to pay my mercenaries. Could you spare some coin?</String>
+				<Sound>chats\BARB171.mp3</Sound>
+				<StringID>71693</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyRequestFood" priority="Background">
+			<Sentence>
+				<String>Our rations are running dangerously low. Send some food to keep my men from mutinying.</String>
+				<Sound>chats\BARB173.mp3</Sound>
+				<StringID>71694</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyRequestWood" priority="Background">
+			<Sentence>
+				<String>I require timber to repair hulls and expand bases. Send wood if you can spare it.</String>
+				<Sound>chats\BARB175.mp3</Sound>
+				<StringID>71695</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyThanksForReinforcementsDefense" priority="Emergency">
+			<Sentence>
+				<String>Your timely defense saved my base from being completely overrun. You have my gratitude.</String>
+				<Sound>chats\BARB177.mp3</Sound>
+				<StringID>71696</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyThanksfForReinforcementsOffense" priority="Emergency">
+			<Sentence>
+				<String>A glorious assault! Your reinforcement turned a standard skirmish into an absolute rout.</String>
+				<Sound>chats\BARB180.mp3</Sound>
+				<StringID>71697</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyThanksForCoin" priority="Emergency">
+			<Sentence>
+				<String>The silver has arrived. My crews will be well-paid, and our heavy ordnance will remain fully supplied.</String>
+				<Sound>chats\BARB183.mp3</Sound>
+				<StringID>71698</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyThanksForResources" priority="Emergency">
+			<Sentence>
+				<String>Supplies secured. These resources will be put to immediate use.</String>
+				<Sound>chats\BARB184.mp3</Sound>
+				<StringID>71699</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyThanksForFood" priority="Emergency">
+			<Sentence>
+				<String>These provisions are highly welcome. A well-fed vanguard fights with double the ferocity on the field.</String>
+				<Sound>chats\BARB185.mp3</Sound>
+				<StringID>71700</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyThanksForWood" priority="Emergency">
+			<Sentence>
+				<String>Wood is the lifeblood of a fleet. You have my thanks.</String>
+				<Sound>chats\BARB186.mp3</Sound>
+				<StringID>71701</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyAdviceWithdrawFromBattle" priority="Background">
+			<Sentence>
+				<String>Retreat and regroup! A wise captain knows when to save his crew for another day.</String>
+				<Sound>chats\BARB187.mp3</Sound>
+				<StringID>71702</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyAdviceUseMoreArtillery" priority="Background">
+			<Sentence>
+				<String>You lack fire power. Forge more artillery if you want to make a real dent.</String>
+				<Sound>chats\BARB189.mp3</Sound>
+				<StringID>71703</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyAdviceUseMoreCav" priority="Background">
+			<Sentence>
+				<String>We need horsemen to harass their flanks. Send out a raiding party.</String>
+				<Sound>chats\BARB191.mp3</Sound>
+				<StringID>71704</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyAdviceUseMoreInfantry" priority="Background">
+			<Sentence>
+				<String>We lack boots on the ground. Deploy a solid line of infantry to hold the center.</String>
+				<Sound>chats\BARB193.mp3</Sound>
+				<StringID>71705</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyLull" priority="Background">
+			<Sentence>
+				<String>Are you contemplating our next maneuver? I find the silence grating.</String>
+				<Sound>chats\BARB195.mp3</Sound>
+				<StringID>71706</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyJustBeforeAttack" priority="Background">
+			<Sentence>
+				<String>No quarter! Sound the war drums and prepare for a true Barbary raid.</String>
+				<Sound>chats\BARB198.mp3</Sound>
+				<StringID>71707</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenHeGathersNuggetSettlers" priority="Background">
+			<Sentence>
+				<String>Another mouth to feed for your struggling colony.</String>
+				<Sound>chats\BARB201.mp3</Sound>
+				<StringID>71708</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenHeGathersNuggetCoin" priority="Background">
+			<Sentence>
+				<String>I don't think a few coins extra will save you when the cannons start firing.</String>
+				<Sound>chats\BARB202.mp3</Sound>
+				<StringID>71709</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenHeGathersNuggetFood" priority="Background">
+			<Sentence>
+				<String>Foraging for berries? My men feast on the spoils of war.</String>
+				<Sound>chats\BARB204.mp3</Sound>
+				<StringID>71710</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenHeGathersNuggetNatives" priority="Background">
+			<Sentence>
+				<String>A handful of native warriors will not stem the tide of my advance.</String>
+				<Sound>chats\BARB205.mp3</Sound>
+				<StringID>71711</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenHeGathersNuggetWood" priority="Background">
+			<Sentence>
+				<String>Gather your sticks. They will make good kindling for your burning town.</String>
+				<Sound>chats\BARB206.mp3</Sound>
+				<StringID>71712</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenIGatherNuggetSettlers" priority="Background">
+			<Sentence>
+				<String>I rescued a lost worker from the wilds. They swear allegiance to a captain who actually keeps them safe.</String>
+				<Sound>chats\BARB207.mp3</Sound>
+				<StringID>71713</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenIGatherNuggetCoin" priority="Background">
+			<Sentence>
+				<String>Pure silver! More coin to pay my mercenaries and buy more gunpowder.</String>
+				<Sound>chats\BARB208.mp3</Sound>
+				<StringID>71714</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenIGatherNuggetFood" priority="Background">
+			<Sentence>
+				<String>Fresh provisions for my crew. We feast tonight while your villagers survive on scraps.</String>
+				<Sound>chats\BARB209.mp3</Sound>
+				<StringID>71715</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenIGatherNuggetNatives" priority="Background">
+			<Sentence>
+				<String>A native warrior joins my boarding party. My crew grows deadlier by the minute.</String>
+				<Sound>chats\BARB210.mp3</Sound>
+				<StringID>71716</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenIGatherNuggetWood" priority="Background">
+			<Sentence>
+				<String>Fine lumber to reinforce my ships. Every tree I fell makes my fleet entirely unstoppable.</String>
+				<Sound>chats\BARB211.mp3</Sound>
+				<StringID>71717</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyBattleOverIWonAsExpected" priority="Background">
+			<Sentence>
+				<String>Just another ship sent to the bottom. Did you truly expect a different outcome?</String>
+				<Sound>chats\BARB212.mp3</Sound>
+				<StringID>71718</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyBattleOverILostFromAhead" priority="Background">
+			<Sentence>
+				<String>You fight like a cornered beast. I underestimated your resolve.</String>
+				<Sound>chats\BARB214.mp3</Sound>
+				<StringID>71719</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyYourMPRatingIsUp" priority="Background">
+			<Sentence>
+				<String>An opponent with an impressive rating! Defeating you will make the ransom money even sweeter.</String>
+				<Sound>chats\BARB216.mp3</Sound>
+				<StringID>71720</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyYourMPRatingIsDown" priority="Background">
+			<Sentence>
+				<String>I thought I was fighting a legendary conqueror, but your reputation is dropping faster than an anchor.</String>
+				<Sound>chats\BARB217.mp3</Sound>
+				<StringID>71721</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyYourXPHasGoneUp" priority="Background">
+			<Sentence>
+				<String>Your home city looks grand and experienced from afar. Too bad a fancy city can't save a captain who doesn't know how to brawl!</String>
+				<Sound>chats\BARB218.mp3</Sound>
+				<StringID>71722</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyIntroWhenMapRepeats" priority="Background">
+			<Sentence>
+				<String>We meet on this ground once more. Try to put up a better fight than you did last time.</String>
+				<Sound>chats\BARB219.mp3</Sound>
+				<StringID>71723</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyIntroWhenTeamOddsEasier" priority="Background">
+			<Sentence>
+				<String>You tilt the odds in your favor, yet you still tremble. How pathetic.</String>
+				<Sound>chats\BARB220.mp3</Sound>
+				<StringID>71724</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyIntroWhenTeamOddsHarder" priority="Background">
+			<Sentence>
+				<String>You face multiple foes willingly. I admire your bravery, even if it borders on madness.</String>
+				<Sound>chats\BARB221.mp3</Sound>
+				<StringID>71725</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenTheyGet4OfKind" priority="Background">
+			<Sentence>
+				<String>A bold trade monopoly strategy. Too bad you didn't build an army big enough to stop me from tearing it down piece by piece!</String>
+				<Sound>chats\BARB222.mp3</Sound>
+				<StringID>71726</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenEnemyGetsTradeLead" priority="Background">
+			<Sentence>
+				<String>You build your trading posts and line your pockets. More wealth for me to plunder when I burn them down!</String>
+				<Sound>chats\BARB224.mp3</Sound>
+				<StringID>71727</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyIDestroyed4OfKind" priority="Background">
+			<Sentence>
+				<String>Your monopoly is broken! The trade routes are free once more and I can crush you the old fashioned way now.</String>
+				<Sound>chats\BARB225.mp3</Sound>
+				<StringID>71728</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyIDestroyedHisNativeSite" priority="Emergency">
+			<Sentence>
+				<String>I have severed your ties with the locals. You stand alone now.</String>
+				<Sound>chats\BARB226.mp3</Sound>
+				<StringID>71729</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyIDestroyedHisTC" priority="Emergency">
+			<Sentence>
+				<String>Your fortress is reduced to splinters! Flee while you still have breath.</String>
+				<Sound>chats\BARB227.mp3</Sound>
+				<StringID>71730</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyIDestroyedHisTradeSite" priority="Emergency">
+			<Sentence>
+				<String>Another of your trading posts has been scuttled. The wealth belongs to the corsairs now.</String>
+				<Sound>chats\BARB228.mp3</Sound>
+				<StringID>71731</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenIClaimFirstTrade" priority="Background">
+			<Sentence>
+				<String>The first trading post is mine! Every coin passing through these routes will line my pockets and fund more warships.</String>
+				<Sound>chats\BARB230.mp3</Sound>
+				<StringID>71732</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenHeWallsIn" priority="Background">
+			<Sentence>
+				<String>Hiding behind stone walls? My cannons will turn your defense into your tomb.</String>
+				<Sound>chats\BARB231.mp3</Sound>
+				<StringID>71733</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenTheyClaimFirstNative" priority="Background">
+			<Sentence>
+				<String>You hire local tribes to fight your battles? A true commander relies on his own steel.</String>
+				<Sound>chats\BARB233.mp3</Sound>
+				<StringID>71734</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenTheyClaimFirstTrade" priority="Background">
+			<Sentence>
+				<String>Monopolizing the trade routes? Let's see if you can protect your cargo from my fleet.</String>
+				<Sound>chats\BARB234.mp3</Sound>
+				<StringID>71735</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyHeDestroyedMyNative" priority="Background">
+			<Sentence>
+				<String>You struck at my native allies because you fear to face my actual army. A petty gesture.</String>
+				<Sound>chats\BARB235.mp3</Sound>
+				<StringID>71736</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyHeDestroyedMyTrade" priority="Background">
+			<Sentence>
+				<String>You burn my trading posts like a common vandal. You lack vision.</String>
+				<Sound>chats\BARB236.mp3</Sound>
+				<StringID>71737</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyHeDestroyedMyTC" priority="Background">
+			<Sentence>
+				<String>You shattered my base, but the sea is my true home. I will rebuild, and I will return.</String>
+				<Sound>chats\BARB237.mp3</Sound>
+				<StringID>71738</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyTheyDestroyed4OfKind" priority="Background">
+			<Sentence>
+				<String>You broke our monopoly? A temporary setback. The tides always turn, and soon we will lock the gates on you again.</String>
+				<Sound>chats\BARB238.mp3</Sound>
+				<StringID>71739</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyIntroWhenDifficultyHigher" priority="Background">
+			<Sentence>
+				<String>A greater challenge? Excellent. The plunder will be much sweeter when I break you.</String>
+				<Sound>chats\BARB239.mp3</Sound>
+				<StringID>71740</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyIntroWhenDifficultyLower" priority="Background">
+			<Sentence>
+				<String>Lowering the stakes? Are you afraid of drowning in the deep water?</String>
+				<Sound>chats\BARB240.mp3</Sound>
+				<StringID>71741</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenWeGet4OfKind" priority="Background">
+			<Sentence>
+				<String>The trade routes are securely in my grasp. Count the minutes until you are completely bankrupt.</String>
+				<Sound>chats\BARB241.mp3</Sound>
+				<StringID>71742</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemy1MinuteLeftEnemy4OfKind" priority="Background">
+			<Sentence>
+				<String>You hold the winning hand for exactly sixty seconds more. Enjoy the brief countdown before I tear your prize away.</String>
+				<Sound>chats\BARB242.mp3</Sound>
+				<StringID>71743</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemy1MinuteLeftOur4OfKind" priority="Background">
+			<Sentence>
+				<String>One minute remains until you are entirely erased from history. Surrender now and save your skin.</String>
+				<Sound>chats\BARB243.mp3</Sound>
+				<StringID>71744</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyIStoleNugget" priority="Background">
+			<Sentence>
+				<String>Thanks for finding that treasure for me. It saves my crew the labor.</String>
+				<Sound>chats\BARB245.mp3</Sound>
+				<StringID>71745</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyISeeHisFirstMilitaryMyTown" priority="Background">
+			<Sentence>
+				<String>You send soldiers to test my defenses? Let them crash against my walls like waves against rock.</String>
+				<Sound>chats\BARB246.mp3</Sound>
+				<StringID>71746</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyISeeHisFirstMilitary" priority="Background">
+			<Sentence>
+				<String>I see your little scouting force marching through the brush. They look small, vulnerable, and completely lost.</String>
+				<Sound>chats\BARB247.mp3</Sound>
+				<StringID>71747</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyISeeHisExplorerFirstTime" priority="Background">
+			<Sentence>
+				<String>My lookouts have spotted your scout. The hunt begins.</String>
+				<Sound>chats\BARB248.mp3</Sound>
+				<StringID>71748</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyIntro" priority="Background">
+			<Sentence>
+				<String>A fine empire you have built. It will look even better when my fleet ransacks it for gold and spice.</String>
+				<Sound>chats\BARB249.mp3</Sound>
+				<StringID>71749</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyBattleStartMyFavor" priority="Background">
+			<Sentence>
+				<String>You are outgunned and outmaneuvered. Strike your colors now!</String>
+				<Sound>chats\BARB250.mp3</Sound>
+				<StringID>71750</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyBattleFourOrMorePlayers" priority="Background">
+			<Sentence>
+				<String>Look at this chaos! A true brawl! Keep your wits about you — everyone wants a piece of this plunder!</String>
+				<Sound>chats\BARB253.mp3</Sound>
+				<StringID>71751</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyWhenHeWallsIn" priority="Background">
+			<Sentence>
+				<String>If you intend to hide behind those walls, I hope they are high enough to block out your shame.</String>
+				<Sound>chats\BARB254.mp3</Sound>
+				<StringID>71752</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyINeedHelpMyBase" priority="Background">
+			<Sentence>
+				<String>To arms! If you do not relieve my city now, we will both lose our footing on this map!</String>
+				<Sound>chats\BARB268.mp3</Sound>
+				<StringID>71753</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyBattleTurningOtherEnemyHelped" priority="Background">
+			<Sentence>
+				<String>The cowards brought in their allies to rescue them. Stand fast, we have a bigger fight on our hands now!</String>
+				<Sound>chats\BARB280.mp3</Sound>
+				<StringID>71754</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyBattleTurningAllyHelped" priority="Background">
+			<Sentence>
+				<String>Perfect timing! Your vanguard arriving alongside my raiders is exactly what we needed to snap their spine!</String>
+				<Sound>chats\BARB282.mp3</Sound>
+				<StringID>71755</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyLull" priority="Background">
+			<Sentence>
+				<String>Why has the battlefield gone quiet? Have your soldiers fled, or are you just gathering the courage to watch them die?</String>
+				<Sound>chats\BARB290.mp3</Sound>
+				<StringID>71756</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyBattleTurningOtherEnemyHelped" priority="Background">
+			<Sentence>
+				<String>Cowards! You need two armies to match the might of Barbarossa?</String>
+				<Sound>chats\BARB293.mp3</Sound>
+				<StringID>71757</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyBattleTurningAllyHelped" priority="Background">
+			<Sentence>
+				<String>Did you forget I have allies? Your pathetic forces cannot withstand our combined strenght.</String>
+				<Sound>chats\BARB295.mp3</Sound>
+				<StringID>71758</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyBattleFourOrMorePlayers" priority="Background">
+			<Sentence>
+				<String>So many flags in one battle. Let us see whose colors are left flying when the smoke clears.</String>
+				<Sound>chats\BARB297.mp3</Sound>
+				<StringID>71759</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyMayIResign" priority="Emergency">
+			<Sentence>
+				<String>Enough. There is no profit in dying here today. You have fought like a true admiral — I offer my surrender.</String>
+				<Sound>chats\BARB299.mp3</Sound>
+				<StringID>71760</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToAllyIWillAttackNativeSite" priority="Background">
+			<Sentence>
+				<String>I'm clearing out those natives; their allegiance to our opponent is a nuisance I no longer care to tolerate.</String>
+				<Sound>chats\BARB3.MP3</Sound>
+				<StringID>71761</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyIRescueExplorerHeKilled" priority="Background">
+			<Sentence>
+				<String>My scout has returned from the abyss. You should have finished the job.</String>
+				<Sound>chats\BARB32.mp3</Sound>
+				<StringID>71762</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyHeClaimsNative" priority="Background">
+			<Sentence>
+				<String>You drag the innocent into your doomed war. How unfortunate for them.</String>
+				<Sound>chats\BARB35.mp3</Sound>
+				<StringID>71763</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyISpotHisArmyAttackingSettlers" priority="Background">
+			<Sentence>
+				<String>Attacking my unarmed laborers? A coward's tactic, and one that I will make you pay for with interest.</String>
+				<Sound>chats\BARB37.mp3</Sound>
+				<StringID>71764</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyISpotHisArmyMyBaseLarge" priority="Background">
+			<Sentence>
+				<String>You bring a great army to my gates. Let us see if your courage matches your numbers.</String>
+				<Sound>chats\BARB40.mp3</Sound>
+				<StringID>71765</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyISpotHisArmyMyBaseMedium" priority="Background">
+			<Sentence>
+				<String>A modest force approaches. Not enough to breach my defenses, but enough to annoy me.</String>
+				<Sound>chats\BARB43.mp3</Sound>
+				<StringID>71766</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyISpotHisArmyMyBaseSmall" priority="Background">
+			<Sentence>
+				<String>A tiny raiding party. It is almost a pity to waste good gunpowder blowing them apart.</String>
+				<Sound>chats\BARB46.mp3</Sound>
+				<StringID>71767</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyISpotHisArmyMyBaseOverrun" priority="Background">
+			<Sentence>
+				<String>You smash my docks and burn my town... enjoy your fleeting triumph!</String>
+				<Sound>chats\BARB49.mp3</Sound>
+				<StringID>71768</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyHisTCIsolated" priority="Background">
+			<Sentence>
+				<String>You built your settlement far from any help. It is an island begging to be plundered.</String>
+				<Sound>chats\BARB52.mp3</Sound>
+				<StringID>71769</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyISpotHisTC" priority="Background">
+			<Sentence>
+				<String>Ah, there is your Town Center. What a lovely piece of real estate for my fleet to bombard.</String>
+				<Sound>chats\BARB54.mp3</Sound>
+				<StringID>71770</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyHisTCNearAlly" priority="Background">
+			<Sentence>
+				<String>Huddled together for warmth? It only means my cannons can hit you both at once.</String>
+				<Sound>chats\BARB56.mp3</Sound>
+				<StringID>71771</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyHeAdvancesAhead" priority="Background">
+			<Sentence>
+				<String>You advance quickly, but do not think your new technology terrifies me.</String>
+				<Sound>chats\BARB68.mp3</Sound>
+				<StringID>71772</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenHeGathersNugget" priority="Background">
+			<Sentence>
+				<String>Foraging in the dirt for loose coins? Your empire must be deeply in debt.</String>
+				<Sound>chats\BARB71.mp3</Sound>
+				<StringID>71773</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyHeIsStillAgeBehind" priority="Background">
+			<Sentence>
+				<String>You are lagging far behind the rest of us. I almost feel pity for your men.</String>
+				<Sound>chats\BARB74.mp3</Sound>
+				<StringID>71774</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyHeReachesAge2First" priority="Background">
+			<Sentence>
+				<String>First to drop anchor in a new age? Let us see if your military matches your speed.</String>
+				<Sound>imp\chats\BARB76.mp3</Sound>
+				<StringID>71775</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyHeReachesAge2Last" priority="Background">
+			<Sentence>
+				<String>Finally caught the wind, have you? We have been waiting.</String>
+				<Sound>imp\chats\BARB79.mp3</Sound>
+				<StringID>71776</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyHeIsAge1Late" priority="Background">
+			<Sentence>
+				<String>Your people still live in the past. It makes them easy prey.</String>
+				<Sound>chats\BARB81.mp3</Sound>
+				<StringID>71777</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenIGatherNugget" priority="Background">
+			<Sentence>
+				<String>Another locked chest claimed. My hold grows heavier while you wander blindly.</String>
+				<Sound>chats\BARB82.mp3</Sound>
+				<StringID>71778</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenHeGathersNuggetMyBase" priority="Background">
+			<Sentence>
+				<String>Stealing from under my very nose? You have courage, but little sense.</String>
+				<Sound>chats\BARB85.mp3</Sound>
+				<StringID>71779</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenHeGathersFirstNugget" priority="Background">
+			<Sentence>
+				<String>Scurrying for scraps in the dirt already? Enjoy your tiny coin; the real wealth of this land belongs to the admiral.</String>
+				<Sound>chats\BARB87.mp3</Sound>
+				<StringID>71780</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenHeGathersNuggetHeIsAhead" priority="Background">
+			<Sentence>
+				<String>Enjoy your meager findings. A few misplaced crates of provisions will not save your lines from our inevitable vanguard.</String>
+				<Sound>chats\BARB89.mp3</Sound>
+				<StringID>71781</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenIGatherNuggetIAmAhead" priority="Background">
+			<Sentence>
+				<String>Are your scouts sleeping? I've gathered every single treasure on this coast while you struggle to navigate.</String>
+				<Sound>chats\BARB91.mp3</Sound>
+				<StringID>71782</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AiChat" name="ToEnemyWhenIGatherNuggetHisBase" priority="Background">
+			<Sentence>
+				<String>Leaving a treasure right outside your own city gates? You are practically begging me to rob you blind!</String>
+				<Sound>chats\BARB93.mp3</Sound>
+				<StringID>71783</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToAlly1MinuteLeftEnemyMonopoly" priority="Emergency">
+			<Sentence>
+				<String>The enemy is about to secure a monopoly on trade. Are we going to fight, or are we going to watch our fortunes vanish?</String>
+				<Sound>chats\BARB5000.mp3</Sound>
+				<StringID>71784</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToAlly1MinuteLeftOurMonopoly" priority="Emergency">
+			<Sentence>
+				<String>I am savoring this. In one minute, their coffers will be empty, and our dominance will be absolute.</String>
+				<Sound>chats\BARB5005.mp3</Sound>
+				<StringID>71785</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToEnemy1MinuteLeftEnemyMonopoly" priority="Background">
+			<Sentence>
+				<String>So, you win with trading posts instead of steel. I suppose I shouldn't be surprised; you lack the stomach for a real fight.</String>
+				<Sound>chats\BARB5010.mp3</Sound>
+				<StringID>71786</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToEnemy1MinuteLeftOurMonopoly" priority="Emergency">
+			<Sentence>
+				<String>It’s truly a shame to win so easily. Did you really think you could compete with my reach?</String>
+				<Sound>chats\BARB5015.mp3</Sound>
+				<StringID>71787</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToAllyEnemyDestroyedMonopoly" priority="Background">
+			<Sentence>
+				<String>Our trade dominance has been undone. A tedious setback, and now we must reclaim what we already held.</String>
+				<Sound>chats\BARB5020.mp3</Sound>
+				<StringID>71788</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToEnemyTheyDestroyedMonopoly" priority="Background">
+			<Sentence>
+				<String>The monopoly is gone. I suppose I should thank you for reminding me that piracy is far more rewarding than trade.</String>
+				<Sound>chats\BARB5025.mp3</Sound>
+				<StringID>71789</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToEnemyIDestroyedMonopoly" priority="Emergency">
+			<Sentence>
+				<String>I've torn down your commercial empire. If you want to win, you'll have to face my cannon instead of hiding behind ledgers.</String>
+				<Sound>chats\BARB5030.mp3</Sound>
+				<StringID>71790</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToAllyWhenEnemiesGetMonopoly" priority="Emergency">
+			<Sentence>
+				<String>The enemy's trade clock is ticking. Let us show them what happens when you try to blockade the sea to pirates.</String>
+				<Sound>chats\BARB5035.mp3</Sound>
+				<StringID>71791</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToAllyWhenWeGetMonopoly" priority="Background">
+			<Sentence>
+				<String>The trade routes are secure, and the countdown has begun. Keep your guard up while the gold rolls in.</String>
+				<Sound>chats\BARB5040.mp3</Sound>
+				<StringID>71792</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToEnemyWhenTheyGetMonopoly" priority="Background">
+			<Sentence>
+				<String>A bold move, but a trade route is only secure if you can defend it. I will turn your posts to splinters before that timer expires.</String>
+				<Sound>chats\BARB5045.mp3</Sound>
+				<StringID>71793</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToEnemyWhenWeGetMonopoly" priority="Background">
+			<Sentence>
+				<String>The monopoly is mine. You can try to fight your way out, but you will only find your grave at the bottom of the sea.</String>
+				<Sound>chats\BARB5050.mp3</Sound>
+				<StringID>71794</StringID>
 			</Sentence>
 		</Tag>
 	</Chatset>

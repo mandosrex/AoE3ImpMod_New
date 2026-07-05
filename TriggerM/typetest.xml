@@ -7,15 +7,11 @@
 		</Condition>
 		<Condition name="Timer">
 			<Param name="Param1" dispName="$$22291$$Seconds" VarType="long">0</Param>
-			<Expression><![CDATA[
-				(trTime()-cActivationTime) >= %Param1%
-			]]></Expression>
+			<Expression>(trTime()-cActivationTime) >= %Param1%</Expression>
 		</Condition>
 		<Condition name="Timer ms">
 			<Param name="Param1" dispName="$$22293$$Milliseconds" VarType="long">0</Param>
-			<Expression><![CDATA[
-				(trTimeMS()-(cActivationTime*1000)) >= %Param1%
-			]]></Expression>
+			<Expression>(trTimeMS()-(cActivationTime*1000)) >= %Param1%</Expression>
 		</Condition>
 		<Condition name="Distance to Unit">
 			<Param name="SrcObject" dispName="$$22295$$Source Units" VarType="unit">default</Param>
@@ -656,9 +652,7 @@
 			<Param name="Location" dispName="" varType="area">0,0,0</Param>
 			<Param name="Count" dispName="$$22435$$Count" varType="long">0</Param>
 			<Param name="Heading" dispName="$$22432$$Heading" varType="long">0</Param>
-			<Command><![CDATA[
-				for (i=0; <%Count%)
-			]]></Command>
+			<Command>for (i=0; &lt;%Count%)</Command>
 			<Command>trUnitCreate("%ProtoName%", "default", %Location%, %Heading%,, %PlayerID%);</Command>
 		</Effect>
 		<Effect name="Unit Heading">
@@ -1031,9 +1025,6 @@
 			<Command>trPlayerKillAllUnits(%Player%);</Command>
 		</Effect>
 		<Effect name="Player Destroy All Buildings">
-			<![CDATA[
-			-->
-		]]>
 			<Param name="Player" dispName="$$22301$$Player" varType="player">1</Param>
 			<Command>trPlayerKillAllBuildings(%Player%);</Command>
 		</Effect>
@@ -1440,6 +1431,48 @@
 			<Param name="Player" dispName="$$22301$$Player" VarType="player">1</Param>
 			<Param name="Civilization" dispName="$$18682$$Civilization" VarType="civilization">Default</Param>
 			<Command>trPlayerOverrideSoundCiv(%Player%, "%Civilization%");</Command>
+		</Effect>
+		<Effect name="Change Player Control by Hotkey">
+			<Param name="Note" dispName="Note" VarType="string">Switch Players by pressing 1-8</Param>
+			<Param name="Note" dispName="Note" VarType="string">This trigger is for TESTING purpose</Param>
+			<Param name="Note" dispName="Note" VarType="string">Dont use any other effects in this trigger</Param>
+			<Command>}}</Command>
+			<Command>void ChangePlayerByHotkeys(){</Command>
+			<Command>map("1","game", "trackInsert();trackAddWaypoint();trackPlay(-1,20991);");</Command>
+			<Command>map("2","game", "trackInsert();trackAddWaypoint();trackPlay(-1,20992);");</Command>
+			<Command>map("3","game", "trackInsert();trackAddWaypoint();trackPlay(-1,20993);");</Command>
+			<Command>map("4","game", "trackInsert();trackAddWaypoint();trackPlay(-1,20994);");</Command>
+			<Command>map("5","game", "trackInsert();trackAddWaypoint();trackPlay(-1,20995);");</Command>
+			<Command>map("6","game", "trackInsert();trackAddWaypoint();trackPlay(-1,20996);");</Command>
+			<Command>map("7","game", "trackInsert();trackAddWaypoint();trackPlay(-1,20997);");</Command>
+			<Command>map("8","game", "trackInsert();trackAddWaypoint();trackPlay(-1,20998);");</Command>
+			<Command>trEventSetHandler(20991,"Player1");</Command>
+			<Command>trEventSetHandler(20992,"Player2");</Command>
+			<Command>trEventSetHandler(20993,"Player3");</Command>
+			<Command>trEventSetHandler(20994,"Player4");</Command>
+			<Command>trEventSetHandler(20995,"Player5");</Command>
+			<Command>trEventSetHandler(20996,"Player6");</Command>
+			<Command>trEventSetHandler(20997,"Player7");</Command>
+			<Command>trEventSetHandler(20998,"Player8");}</Command>
+			<Command>void Player1(int wtv=-1){</Command>
+			<Command>trPlayerSetActive(1);}</Command>
+			<Command>void Player2(int wtv=-1){</Command>
+			<Command>trPlayerSetActive(2);}</Command>
+			<Command>void Player3(int wtv=-1){</Command>
+			<Command>trPlayerSetActive(3);}</Command>
+			<Command>void Player4(int wtv=-1){</Command>
+			<Command>trPlayerSetActive(4);}</Command>
+			<Command>void Player5(int wtv=-1){</Command>
+			<Command>trPlayerSetActive(5);}</Command>
+			<Command>void Player6(int wtv=-1){</Command>
+			<Command>trPlayerSetActive(6);}</Command>
+			<Command>void Player7(int wtv=-1){</Command>
+			<Command>trPlayerSetActive(7);}</Command>
+			<Command>void Player8(int wtv=-1){</Command>
+			<Command>trPlayerSetActive(8);}</Command>
+			<Command>rule InMyLife runImmediately</Command>
+			<Command>active { if(true){</Command>
+			<Command>ChangePlayerByHotkeys();xsDisableSelf();</Command>
 		</Effect>
 	</Effects>
 </trigger>
