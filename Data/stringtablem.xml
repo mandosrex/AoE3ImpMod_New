@@ -1969,7 +1969,7 @@
 		<String _locID="24544">Guard Cavalry Archer</String>
 		<String _locID="24634">Ships a number of Landsknecht, Black Rider and Jaeger mercenaries.</String>
 		<String _locID="24635">Hire Holy Roman Army</String>
-		<String _locID="24637">Mercenaries (including shipments) are cheaper.</String>
+		<String _locID="24637">Mercenaries and mercenary shipments are cheaper.</String>
 		<String _locID="24638">Mercenary Loyalty</String>
 		<String _locID="24643">Ships a Privateer containing Buccaneer outlaws.</String>
 		<String _locID="24644">Recruit Privateer +3 Buccaneers</String>
@@ -2495,14 +2495,14 @@
 		<String _locID="26053">Capybara</String>
 		<String _locID="26057">River Props Amazon</String>
 		<String _locID="26058">PROP River Amazon River</String>
-		<String _locID="26059" symbol="cStringCivRolloverFrench">Culture: Can use Fame and the Decree card for extra bonuses.\n \nBonus: Villagers are Coureurs - expensive, but gather and fight better than Settlers. Receives a free Wood shipment when allying with natives.\n \nTeam: Native warrior train limit increased.</String>
-		<String _locID="26060" symbol="cStringCivRolloverBritish">Culture: Can use Fame and the Decree card for extra bonuses.\n \nBonus: Manors spawn Settlers when built. Barracks can be configured to train archaic or modern units. Trains Generals and gets a free General in the Fortress Age.\n \nTeam: Dock build limit increased in the Discovery Age.</String>
-		<String _locID="26061" symbol="cStringCivRolloverSpanish">Culture: Can use Fame and the Decree card for extra bonuses.\n \nBonus: Earns Home City Shipments faster. All archaic Veteran upgrades are researched for free upon reaching the Fortress Age.\n \nTeam: Warships and Fishing Boats train faster.</String>
-		<String _locID="26062" symbol="cStringCivRolloverPortuguese">Culture: Can use Fame and the Decree card for extra bonuses.\n \nBonus: Gets a free Town Wagon with every Age and increased Town Center and Dock limit. Home City Shipments arrive faster.\n \nTeam: Town Centers are cheaper.</String>
-		<String _locID="26063" symbol="cStringCivRolloverDutch">Culture: Can use Fame and the Decree card for extra bonuses.\n \nBonus: Small villager population, but can build Banks to produce Coin. Burghers cost Coin but yield more resources from mines. Gets extra Envoys.\n \nTeam: Villagers gather Coin faster.</String>
-		<String _locID="26065" symbol="cStringCivRolloverGermans">Culture: Can use Fame and the Decree card for extra bonuses.\n \nBonus: Can train Bavarians and receives free Uhlans with most Home City Shipments. Gets extra Fame at the start and with each Age.\n \nTeam: Command Post, Monastery and Embassy build limit increased.</String>
-		<String _locID="26066" symbol="cStringCivRolloverRussians">Culture: Can use Fame and the Decree card for extra bonuses.\n \nBonus: Trains Settlers and infantry in batches - infantry is weaker and cheaper. Blockhouse combines an Outpost and Barracks. Gets free Settlers with every Age.\n \nTeam: Mill and Plantation gather rates increased.</String>
-		<String _locID="26068" symbol="cStringCivRolloverOttomans">Culture: Can use the Decree card for extra bonuses; builds Consulates to influence foreign intervention.\n \nBonus: Town Centers produce Yuruks for free. Mosques improve Yuruk production and generate experience.\n \nTeam: Artillery and Siege Troopers train faster.</String>
+		<String _locID="26059" symbol="cStringCivRolloverFrench">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Villagers are Coureurs, which are expensive but gather and fight better than Villagers. Receives a free Wood shipment when allying with natives.\nTeam: Native warrior train limit increased.</String>
+		<String _locID="26060" symbol="cStringCivRolloverBritish">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Manors spawn Settlers when built. Barracks can be configured to train archaic or modern units. Trains Generals and gets a free General in the Fortress Age.\nTeam: Dock build limit increased in the Discovery Age.</String>
+		<String _locID="26061" symbol="cStringCivRolloverSpanish">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Earns Home City Shipments faster. All archaic Veteran upgrades are researched for free upon reaching the Fortress Age.\nTeam: Warships and Fishing Boats train faster.</String>
+		<String _locID="26062" symbol="cStringCivRolloverPortuguese">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Gets a free Town Wagon with every Age and increased Town Center and Dock limits. Home City Shipments arrive faster.\nTeam: Town Centers are cheaper.</String>
+		<String _locID="26063" symbol="cStringCivRolloverDutch">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Small villager population, but can build Banks to produce Coin. Villagers are Burghers, which cost Coin but yield more resources from mines. Gets extra Envoys.\nTeam: Villagers gather Coin faster.</String>
+		<String _locID="26065" symbol="cStringCivRolloverGermans">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Can train Bavarians and receives free Uhlans with most Home City Shipments. Gets extra Fame at the start and with each Age.\nTeam: Command Post, Monastery and Embassy build limit increased.</String>
+		<String _locID="26066" symbol="cStringCivRolloverRussians">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Trains Settlers and infantry in batches - infantry is weaker and cheaper. Blockhouse combines an Outpost and Barracks. Gets free Settlers with every Age.\nTeam: Mill and Plantation gather rates increased.</String>
+		<String _locID="26068" symbol="cStringCivRolloverOttomans">Culture: Can use the Decree card for extra bonuses; builds Consulates to influence foreign intervention.\nBonus: Villagers are Yuruks, which are trained for free at Town Centers. Mosques improve Yuruk production and generate experience.\nTeam: Artillery and Siege Troopers train faster.</String>
 		<String _locID="26071">Rubble</String>
 		<String _locID="26072">Underbrush Amazon</String>
 		<String _locID="26075">PROP Amazon</String>
@@ -6198,7 +6198,7 @@
 		<String _locID="35298">Falconets and Culverins move faster.</String>
 		<String _locID="35299">Advanced Artillery</String>
 		<String _locID="35307">Yeomen</String>
-		<String _locID="35308">Longbowman range increased and Imperial upgrade enabled.</String>
+		<String _locID="35308">Longbowman attack and siege range increased. Green Jacket receives a smaller attack range increase.</String>
 		<String _locID="35317">Musketeer and Grenadier attack and hitpoints increased.</String>
 		<String _locID="35318">Musketeer / Grenadier Combat</String>
 		<String _locID="35319">Hussar and Dragoon hitpoints increased.</String>
@@ -6258,7 +6258,7 @@
 		<String _locID="35389">Markets have better resource exchange.</String>
 		<String _locID="35390">Advanced Market</String>
 		<String _locID="35392">Advanced Market</String>
-		<String _locID="35393">Improves your Portuguese Explorer in combat, increases the line of sight of his Spyglass, and gives him a powerful canine companion. Also Spyglass can be used in the Discovery Age.</String>
+		<String _locID="35393">Improves your Portuguese Explorer in combat, increases the line of sight of his Spyglass, and gives him a powerful canine companion. Also Covered Wagons and Spyglass are moved to the Discovery Age.</String>
 		<String _locID="35394">Navigator</String>
 		<String _locID="35395" gamecharacter="Soldier" soundfilename="GENR2005">Sir, we are under attack from the east! We can't hold out much longer.</String>
 		<String _locID="35396" gamecharacter="Alain" soundfilename="ALAI2000">Once the Ottoman weapons caches are destroyed they will be forced to leave Malta.</String>
@@ -7155,7 +7155,7 @@
 		<String _locID="36574">Increases the number of warships you can support, +2 Uhlans.</String>
 		<String _locID="36575">Admiralty</String>
 		<String _locID="36576">Increases the build limit on all warships such as Caravels, Frigates and Monitors.</String>
-		<String _locID="36577">Mercenaries (including shipments) are cheaper, +3 Uhlans.</String>
+		<String _locID="36577">Mercenaries and mercenary shipments are cheaper, +3 Uhlans.</String>
 		<String _locID="36578">Mercenary Loyalty</String>
 		<String _locID="36582">TEAM 3 Envoy</String>
 		<String _locID="36583">TEAM Dutch player sent everyone an Envoy.</String>
@@ -19330,9 +19330,9 @@
 		<String _locID="48930" symbol="cStringSupTrPlayerRankTT">Supremacy Treaty Player Rank: %1s (Level %2s)</String>
 		<String _locID="48931" symbol="cStringSupTrTotalXPTT">Supremacy Treaty Total XP: %s</String>
 		<String _locID="48932" symbol="cStringSupTrWinRatioTT">Supremacy Treaty Win Percentage: %s</String>
-		<String _locID="48933">Culture: Builds Fire Pits to boost the economy and military.\n \nBonus: No cavalry, but the Noble's Hut can train special units and has a fast attack. Gets free Eagle Scouts with every Age.\n \nTeam: Pet stats and train limits are increased.</String>
-		<String _locID="48934">Culture: Builds Fire Pits to boost the economy and military.\n \nBonus: Starts with a free Travois which constructs buildings for free, and can get more. Longhouses support more population.\n \nTeam: Livestock fatten faster over time and when tasked.</String>
-		<String _locID="48935">Culture: Builds Fire Pits to boost the economy and military.\n \nBonus: Starts with 200 population and can build Teepees to boost hitpoints of soldiers. Each Special (Big Button) upgrade sends bison.\n \nTeam: Building and unit line of sight increased.</String>
+		<String _locID="48933">Culture: Builds Fire Pits to boost the economy and military.\nBonus: No cavalry, but the Noble's Hut can train special units and has a fast attack. Gets free Eagle Scouts with every Age.\nTeam: Pet stats and train limits are increased.</String>
+		<String _locID="48934">Culture: Builds Fire Pits to boost the economy and military.\nBonus: Starts with a free Travois which constructs buildings for free, and can get more. Longhouses support more population.\nTeam: Livestock fatten faster over time and when tasked.</String>
+		<String _locID="48935">Culture: Builds Fire Pits to boost the economy and military.\nBonus: Starts with 200 population and can build Teepees to boost hitpoints of soldiers. Each Special (Big Button) upgrade sends bison.\nTeam: Building and unit line of sight increased.</String>
 		<String _locID="48936">Plaza</String>
 		<String _locID="48937">Palace</String>
 		<String _locID="48938">Temple</String>
@@ -19470,7 +19470,7 @@
 		<String _locID="60019">Show games where WarChiefs civilizations allowed</String>
 		<String _locID="60020" symbol="cStringLANNeedYPackHomeCityType">You must first create an Asian Dynasties %s Home City before you can enter the game.</String>
 		<String _locID="60021">Settler</String>
-		<String _locID="60022">Faithful pilgrim that works faster than normal villagers and doesn't take up population.</String>
+		<String _locID="60022">Faithful pilgrim that works faster than normal villagers and doesn't take up population space.</String>
 		<String _locID="60023">Pilgrim</String>
 		<String _locID="60024">VIL Pilgrim</String>
 		<String _locID="60025">&lt;icon="(32)(ui/ingame/resource_food)"&gt; Food source</String>
@@ -21137,7 +21137,7 @@
 		<String _locID="61686">&lt;icon="(32)(ui/ingame/stat_icon_guardian)"&gt; Treasure guardian</String>
 		<String _locID="61687">Defeat this guardian to collect its Treasure.</String>
 		<String _locID="61688">Wokou Mangudai</String>
-		<String _locID="61689">GRD Mongol Rider</String>
+		<String _locID="61689">GRD Mangudai</String>
 		<String _locID="61690">&lt;icon="(32)(ui/ingame/stat_icon_guardian)"&gt; Treasure guardian</String>
 		<String _locID="61691">Defeat this guardian to collect its Treasure.</String>
 		<String _locID="61692">Exiled Rifleman</String>
@@ -21877,9 +21877,9 @@
 		<String _locID="62426">Villagers gather Wood faster.</String>
 		<String _locID="62427">Woodcrafting</String>
 		<String _locID="62428">Woodcrafting Shipment has arrived.</String>
-		<String _locID="62429" symbol="cStringCivRolloverJapanese">Culture: Builds Wonders to advance in Age; builds Consulates to influence foreign intervention.\n \nBonus: No hunting allowed. Shrines attract animals and generate resources. Can send most Shipments twice.\n \nTeam: Land military units give more experience points when trained.</String>
-		<String _locID="62430" symbol="cStringCivRolloverChinese">Culture: Builds Wonders to advance in Age; builds Consulates to influence foreign intervention.\n \nBonus: Trains Banner Armies made of two types of military units. Villages replace Houses, allowing garrisoning and reaching a higher population capacity.\n \nTeam: Wall hitpoints increased and cost decreased.</String>
-		<String _locID="62431" symbol="cStringCivRolloverIndians">Culture: Builds Wonders to advance in Age; builds Consulates to influence foreign intervention.\n \nBonus: Shudras cost Wood but yield more resources from trees. Generates experience points from livestock at Sacred Field. Receives a Shudra with most Home City Shipments.\n \nTeam: Wood gather rate increased.</String>
+		<String _locID="62429" symbol="cStringCivRolloverJapanese">Culture: Builds Wonders to advance in Age; builds Consulates to influence foreign intervention.\nBonus: No hunting allowed. Shrines attract animals and generate resources. Can send most Home City Shipments twice.\nTeam: Land military units give more experience points when trained.</String>
+		<String _locID="62430" symbol="cStringCivRolloverChinese">Culture: Builds Wonders to advance in Age; builds Consulates to influence foreign intervention.\nBonus: Trains Banner Armies made of two types of military units. Villages replace Houses, allowing garrisoning and reaching a higher population capacity.\nTeam: Wall hitpoints increased and cost decreased.</String>
+		<String _locID="62431" symbol="cStringCivRolloverIndians">Culture: Builds Wonders to advance in Age; builds Consulates to influence foreign intervention.\nBonus: Villagers are Shudras, which cost Wood but yield more resources from trees. Generates experience points from livestock at Sacred Field. Receives a Shudra with most Home City Shipments.\nTeam: Wood gather rate increased.</String>
 		<String _locID="62432" symbol="cStringCivNameSPCJapanese">Japanese</String>
 		<String _locID="62433" symbol="cStringCivNameSPCChinese">Chinese</String>
 		<String _locID="62434" symbol="cStringCivNameSPCIndian">Indian</String>
@@ -28156,11 +28156,11 @@
 		<String _locID="68871">CAV Keshik</String>
 		<String _locID="68872">Recon unit</String>
 		<String _locID="68873">Mongolian reconnaissance unit. Good for exploration, but has a weak attack.</String>
-		<String _locID="68874">Mongol Scout</String>
+		<String _locID="68874">Mongol Rider</String>
 		<String _locID="68875">CAV Steppe Rider</String>
-		<String _locID="68876">TEAM 2 Mongol Scouts</String>
+		<String _locID="68876">TEAM 2 Mongol Riders</String>
 		<String _locID="68877">TEAM Dutch player sent everyone an Envoy.</String>
-		<String _locID="68878">TEAM Chinese player sent everyone Mongol Scouts.</String>
+		<String _locID="68878">TEAM Chinese player sent everyone Mongol Riders.</String>
 		<String _locID="68879">TEAM Ships 1 Castle Rickshaw that can transform into a Castle (Outpost or War Hut).</String>
 		<String _locID="68880">TEAM 1 Castle Rickshaw</String>
 		<String _locID="68881">TEAM Rice Paddies, Farms, Mills, Livestock Pens, Villages, and Plantations are cheaper, and build much more quickly.</String>
@@ -28485,7 +28485,7 @@
 		<String _locID="69201">Exalted Monitor</String>
 		<String _locID="69202" symbol="cStringCreateHCMonk">Hero Name:</String>
 		<String _locID="69203">TEAM Better Housing Shipment has arrived.</String>
-		<String _locID="69204">Mercenaries (including shipments) are cheaper, +1 Shudra.</String>
+		<String _locID="69204">Mercenaries and mercenary shipments are cheaper, +1 Shudra.</String>
 		<String _locID="69205">Mercenary Loyalty</String>
 		<String _locID="69206">Mercenary Loyalty Shipment has arrived.</String>
 		<String _locID="69207">6 Meteor Hammers</String>
@@ -30207,7 +30207,7 @@
 		<String _locID="70931">Soon we will have the victory our people deserve, without the violence that usually accompanies it.</String>
 		<String _locID="70932">Yes my friend.</String>
 		<String _locID="70933">Action must be taken at once; there is no time to be lost!</String>
-		<String _locID="70934">We are preparing to move the cannons. These models are a bit older, you see.</String>
+		<String _locID="70934">We are preparing to move the cannons. These models are a bit older.</String>
 		<String _locID="70935">Our fine horses will crush the oppressors!</String>
 		<String _locID="70936">My footmen are in a frenzy, thirsting for a good fight!</String>
 		<String _locID="70937">Our people have been robbed for generations! We cannot afford to help you at this time.</String>
@@ -30256,11 +30256,11 @@
 		<String _locID="70980">A wise decision.</String>
 		<String _locID="70981">Knowledge is power my friend, consider advancing with your town center soon.</String>
 		<String _locID="70982">Are you rushing the enemy? Do not worry, I will secure our technological advantage in the meantime.</String>
-		<String _locID="70983">You do not yet have wings and already want to fly.</String>
+		<String _locID="70983">You do not yet have wings and already wish to fly.</String>
 		<String _locID="70984">Welcome to the path of progress.</String>
 		<String _locID="70985">Let us surrender and live, lest our people be doomed.</String>
 		<String _locID="70986">The enemy is at my gates, send reinforcements!</String>
-		<String _locID="70987">Are you Amelia Black's friend? I have heard a lot about you. Tell me, how is she doing these days?</String>
+		<String _locID="70987">Are you Amelia Black's friend? I have heard a lot about you, but tell me, how is she doing these days?</String>
 		<String _locID="70988">I do not take lightly the responsibility that my people have entrusted me with.</String>
 		<String _locID="70989">Another day, another foe that wants to bring down our nations.</String>
 		<String _locID="70990">I have learned to make the right alliances after my last defeat.</String>
@@ -30279,7 +30279,7 @@
 		<String _locID="71003">A shipment of wood from my homeland recently arrived. I have sent you some of it.</String>
 		<String _locID="71004">I recently taught my villagers to use a new type of saw. If you need more wood in the future, research it at the market as well.</String>
 		<String _locID="71005">We must bring the enemy to their knees. I will attack their base at once!</String>
-		<String _locID="71006">My Soldados are eager to reclaim this town in our name!</String>
+		<String _locID="71006">My men are eager to reclaim this town in our name!</String>
 		<String _locID="71007">Let us free the natives from their oppression!</String>
 		<String _locID="71008">Their trade is their weakness. I will strike now and cut them off from any future shipments.</String>
 		<String _locID="71009">We shall yet see the oppressors' yoke broken and the fragments scattered on the ground.</String>
@@ -30302,7 +30302,7 @@
 		<String _locID="71026">The British are preparing a fierce attack on our lands. They think that we owe them something.</String>
 		<String _locID="71027">The firepower of the Dutch army is so pervasive that it turned the sky dark.</String>
 		<String _locID="71028">The hooves of the French horses will bring us before our maker, if we do not act soon.</String>
-		<String _locID="71029">My Soldados report that they fail to pierce through the sturdy German war wagons with their lances and bayonets.</String>
+		<String _locID="71029">My men report that they fail to pierce through the sturdy German war wagons with their lances and bayonets.</String>
 		<String _locID="71030">The Iroquois are expanding their territory, pillaging our villages!</String>
 		<String _locID="71031">The Ottomans were lucky to have contructed their bombards earlier. I was still missing wheels for the mortars.</String>
 		<String _locID="71032">We are out of resources. The Portuguese Empire has claimed everything. As usual.</String>
@@ -30351,7 +30351,7 @@
 		<String _locID="71075">I prefer that you look outside my base for future endeavours.</String>
 		<String _locID="71076">The people of these lands know more than you think. Use their skills wisely!</String>
 		<String _locID="71077">It never hurts to have more help.</String>
-		<String _locID="71078">What will it be, a weapon for your army, or a house for your settlers?</String>
+		<String _locID="71078">What will it be, a weapon for your army, or a house for your villagers?</String>
 		<String _locID="71079">I have claimed a treasure! This will help us in our plans.</String>
 		<String _locID="71080">I found a centavo! Let us hope that it brings us luck!</String>
 		<String _locID="71081">Only he who is not hungry says the coconut has a hard shell.</String>
@@ -30368,7 +30368,7 @@
 		<String _locID="71092">Do not compare your material forces with those of the enemy. Spirit cannot be compared with matter. You are human beings, they are beasts. You are free, they are slaves.</String>
 		<String _locID="71093">The first duty of a government is to give education to the people.</String>
 		<String _locID="71094">Your technological prowess will not help you against the wrath of my Insurgents!</String>
-		<String _locID="71095">Now that we are on more equal footing, let us have a fair fight. I will send my first Soldado.</String>
+		<String _locID="71095">Now that we are on more equal footing, let us have a fair fight. I will send my first conscript.</String>
 		<String _locID="71096">You are late! Was your siesta maybe a little too long?</String>
 		<String _locID="71097">Trying to hide from everyone? Our scouts have been watching you the whole time.</String>
 		<String _locID="71098">Living so close to my ally is not wise. I will always defend my dear friends!</String>
@@ -30408,14 +30408,14 @@
 		<String _locID="71132">You do not check the teeth of a free horse.</String>
 		<String _locID="71133">The riches of this land do not belong to you, they belong to the people, my people.</String>
 		<String _locID="71134">Ah good! I haven't had breakfast yet.</String>
-		<String _locID="71135">I was only bringing this treasure to its rightful owner – before the invader, you, could take it!</String>
+		<String _locID="71135">I was only bringing this treasure to its rightful owner – the people of this land – before the invader, you, could take it!</String>
 		<String _locID="71136">My supporters in the countryside left another cache of resources for me.</String>
 		<String _locID="71137">More locals join the rebellion against you!</String>
 		<String _locID="71138">Another helping hand for the Colombian economy!</String>
-		<String _locID="71139">Settlers are still flocking to my righteous cause.</String>
+		<String _locID="71139">Villagers are still flocking to my righteous cause.</String>
 		<String _locID="71140">This wood comes in handy. What will I build with it? A Cathedral? A Fort? Or weapons to beat you with?</String>
 		<String _locID="71141">Try to appease them all you want, but they will always prefer joining Gran Colombia over being ruled by you.</String>
-		<String _locID="71142">A trading post? My fellow men have already burned down more impressive buildings.</String>
+		<String _locID="71142">A trading post? My men have already burned down more impressive buildings.</String>
 		<String _locID="71143">A monopoly? My people will not be oppressed, militarily or economically!</String>
 		<String _locID="71144">Your control over the trade routes is over. Admit defeat and avoid further bloodshed!</String>
 		<String _locID="71155">Send word across our empires--we must enlist anyone old enough to hold a weapon! We cannot allow such a pitiful victory!</String>
@@ -30810,8 +30810,8 @@
 		<String _locID="71554">Andries Pretorius</String>
 		<String _locID="71555">The leader of the Voortrekkers, the Boer pioneers who left the Cape Colony in search of independence and land of their own. A veteran frontiersman and commander, Pretorius led wagon columns across vast and hostile terrain, founding new settlements through resolve, discipline, and cooperation among free farmers. His leadership combined mobility with steadfast defense, turning wagons into fortresses and farmland into the foundation of a new nation.</String>
 		<String _locID="71556">Africans</String>
-		<String _locID="71557">Culture: Can use Fame and the Decree card for extra bonuses.\n \nBonus: Villagers are Boers, who can build buildings for free. Resource Wagons boost nearby gather rates. Town Centers can be packed up and moved.\n \nTeam: Villagers gather Coin faster.</String>
-		<String _locID="71558">Culture: Has access to special buildings from other cultures, such as Fire Pits.\n \nBonus: Outlaws form the primary military force and Stockades train foreign prisoners. Ages up with Special (Big Button) improvements from economic buildings.\n \nTeam: Military buildings train and research faster.</String>
+		<String _locID="71557">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Villagers are Boers, who can build buildings for free. Resource Wagons boost nearby gather rates. Town Centers can be packed up and moved.\nTeam: Villagers gather Coin faster.</String>
+		<String _locID="71558">Culture: Has access to special buildings from other cultures, such as Fire Pits.\nBonus: Outlaws form the primary military force and Stockades train foreign prisoners. Ages up with Special (Big Button) improvements from economic buildings.\nTeam: Military buildings train and research faster.</String>
 		<String _locID="71559">Algerians</String>
 		<String _locID="71560">The commander of the Knights of St. John, Alain Magnan has devoted his whole life to the order. Though he can sometimes seem haughty and dismissive of his lessers, he is a superb tactician and an excellent horseman whose personal bravery in battle is unquestioned. Decades spent fighting the order's foes have only strengthened Alain's resolve. He is a man of many secrets that seems to know what is going on in every corner of the world.</String>
 		<String _locID="71561">Algiers</String>
@@ -30829,6 +30829,231 @@
 		<String _locID="71573">Ketchaoua</String>
 		<String _locID="71574">Camels! Elephants! Tigers! Indian beasts sent by a violent ruler to tear us – the half-naked gladiators – into pieces!</String>
 		<String _locID="71575">The Ottomans must no longer tread upon that part of the world kept by them in misery.</String>
+		<String _locID="71576">New lands mean new plunder. We shall take our share.</String>
+		<String _locID="71577">Ah, glittering gold and salvage! Such wealth will buy powder and shot.</String>
+		<String _locID="71578">You waste no tide, my friend. The sea rewards the swift.</String>
+		<String _locID="71579">You have the hunger of my brother Oruc. Do not let the silver fall from your fingers.</String>
+		<String _locID="71580">I have enough plunder to fill a hundred galleys. Take some, I insist. There is more where this came from.</String>
+		<String _locID="71581">That treasure slept under the shadow of my town center. I shall remember this.</String>
+		<String _locID="71582">I trust you will not miss this bauble. It shall serve the cause of our alliance.</String>
+		<String _locID="71583">This reminds me of when the Knights of St. John took my brother for four years. I tried to save him then, and I shall try to do so now.</String>
+		<String _locID="71584">Still lingering in the Discovery Age? Have you not discovered that gunpowder outperforms arrows?</String>
+		<String _locID="71585">You advance with the wind at your back. Now forge the steel to match your new age.</String>
+		<String _locID="71586">At last. What delayed you? Did the enemy blockade your scholars?</String>
+		<String _locID="71587">A magnificent display of speed! Use your technological advantage to disrupt our foes before I can catch up with you.</String>
+		<String _locID="71588">Did your grand strategy account for the enemy having cannons while you still use pikes?</String>
+		<String _locID="71589">An enemy port left undefended. I thought you'd like to know where to beach our galleys.</String>
+		<String _locID="71590">The fools built a town without a single barracks! Send in the cavalry; they cannot muster a single pikeman to stop us.</String>
+		<String _locID="71591">I spy a town with no stables! They have no horses to protect their flanks. Roll out the artillery and blow them to pieces!</String>
+		<String _locID="71592">Curses! My captain crossed paths with the local wildlife and paid the price. Keep a watchful eye!</String>
+		<String _locID="71593">My captain broke his own chains and made it back to port. The hunt for glory resumes!</String>
+		<String _locID="71594">You broke my captain out of their brig! A debt of honor I will gladly repay in enemy blood.</String>
+		<String _locID="71595">It leaves a bitter taste, but I had to buy back my captain's freedom from the enemy. They are laughing now, but we will make them pay twofold!</String>
+		<String _locID="71596">The enemy is whispering in the ears of the locals. We should disrupt their little alliance.</String>
+		<String _locID="71597">They are panicking. Run them down before they can regroup!</String>
+		<String _locID="71598">I have salt in my beard and vengeance in my heart. Set sail for the enemy port.</String>
+		<String _locID="71599">The mercenaries I paid good coin for are moving here to attack.</String>
+		<String _locID="71600">My raiders are going to slip ashore and target enemy villagers. None are safe.</String>
+		<String _locID="71601">I will teach them a thing or two about aggressive trading.</String>
+		<String _locID="71602">Dominion of the seven seas starts with this trading post.</String>
+		<String _locID="71603">Forts are our specialty. Allow me to demonstrate with this one here.</String>
+		<String _locID="71604">The locals will know where the treasure is buried.</String>
+		<String _locID="71605">This lighthouse will guide the Barbary fleet.</String>
+		<String _locID="71606">Their town is nothing but smoking ruins! A highly profitable assault.</String>
+		<String _locID="71607">Their defenses held firm against my bombardment. I need more firepower.</String>
+		<String _locID="71608">The enemy's leverage over the locals is broken. The natives are free of their subversion!</String>
+		<String _locID="71609">Blast! Those native fortifications were reinforced better than I calculated. I will have to liberate them on the next pass.</String>
+		<String _locID="71610">I have seized their trading post. Their merchant lines are entirely cut.</String>
+		<String _locID="71611">The trading post stands. They defended it like starving dogs over a choice bone.</String>
+		<String _locID="71612">My presence alone should make the enemy think twice before setting foot here.</String>
+		<String _locID="71613">I hope we're getting something out of protecting this building.</String>
+		<String _locID="71614">This was a beneficial alliance, so I will defend it.</String>
+		<String _locID="71615">Losing this trading post is unacceptable.</String>
+		<String _locID="71616">What kind of leaders are we if we let our town centers be destroyed.</String>
+		<String _locID="71617">There are plenty of fish in the sea.</String>
+		<String _locID="71618">If there's one resource I have in abundance, it's coin.</String>
+		<String _locID="71619">I had this idea for a new dish: fish rolled in seaweed. Any name suggestions?</String>
+		<String _locID="71620">I can see you struggle to collect enough wood. It's embarrassing.</String>
+		<String _locID="71621">Don't question where this coin came from, just enjoy it.</String>
+		<String _locID="71622">The ships are burning, the treasury is bare, and the crew is mutinying. I am cutting my losses and sailing away.</String>
+		<String _locID="71623">The mast is broken and the hull is shattered. It is time to cut our anchor lines and retreat to fight another day. Do you agree?</String>
+		<String _locID="71624">I knew coming here was a mistake. I am too far away from Algiers to get the proper support I need. Let us end this.</String>
+		<String _locID="71625">We've been more humiliated than the Knights of St. John on Rhodes. It's time to jump ship and never talk about this again.</String>
+		<String _locID="71626">I must refuse. That strategy is a one-way trip to the bottom.</String>
+		<String _locID="71627">That goes entirely against all reason. I refuse.</String>
+		<String _locID="71628">My vaults are currently empty. Mercenaries don't work on credit.</String>
+		<String _locID="71629">My force is still too small. Sending them now would just be throwing good coin away.</String>
+		<String _locID="71630">I cannot attack without a crew! Give me time to actually recruit some men first.</String>
+		<String _locID="71631">Consider it done. For a fair price, of course.</String>
+		<String _locID="71632">The horses are saddled. My riders will hunt down their stray villagers in no time.</String>
+		<String _locID="71633">A wall of disciplined infantry is marching to the front lines.</String>
+		<String _locID="71634">The smoke of my cannons will soon block out the sun.</String>
+		<String _locID="71635">A classic pincer. My raiders will hunt their villagers while my foot soldiers hold the line.</String>
+		<String _locID="71636">My cavalry will lock them in place while the artillery rains fire from afar.</String>
+		<String _locID="71637">We march with cold steel and heavy iron. The infantry holds the line, and the cannons clear the field.</String>
+		<String _locID="71638">My foot soldiers will hold the center while the cavalry hunts down their runaways.</String>
+		<String _locID="71639">I am rolling out the heavy artillery and flanking them with swift raiders to cut down anyone fleeing the blast.</String>
+		<String _locID="71640">Heavy cannons and a wall of blades. No fortress will withstand this boarding party.</String>
+		<String _locID="71641">The sea smiles. Tonight, we drink and plan the next raid.</String>
+		<String _locID="71642">Very good. Another fool learns the price of arrogance.</String>
+		<String _locID="71643">Remember to gather the loot and count the prisoners twice after the battle.</String>
+		<String _locID="71644">The enemy is wasting no time exploiting our weaknesses. I fear this will soon be over.</String>
+		<String _locID="71645">We are losing ground to an enemy that lacks true depth.</String>
+		<String _locID="71646">Securing extra hands on the frontier will stabilize our logistics far better than stray silver.</String>
+		<String _locID="71647">A tidy sum of coin unearthed in the wild spends just as well as gold from royal mints.</String>
+		<String _locID="71648">Securing provisions from the land keeps your crews well-fed and ready.</String>
+		<String _locID="71649">You have brought local trackers under your banner. Their knowledge of this terrain will give us a clear edge.</String>
+		<String _locID="71650">Quality timber, exactly what is needed to fortify our perimeters or expand your docks.</String>
+		<String _locID="71651">I'll give these new laborers a tour of my stockades.</String>
+		<String _locID="71652">More coin for my treasury. This will go directly toward funding mercenaries.</String>
+		<String _locID="71653">Fresh provisions from the wild. My men will march on full stomachs today.</String>
+		<String _locID="71654">The locals recognize a strong captain when they see one. They sail with us now.</String>
+		<String _locID="71655">A good haul of wood. Every plank counts when you're building a fleet.</String>
+		<String _locID="71656">The tide has turned, and we have snatched victory from the jaws of defeat!</String>
+		<String _locID="71657">They fought like men who had never seen war before.</String>
+		<String _locID="71658">I am raising defenses to secure our flanks.</String>
+		<String _locID="71659">They've locked down four trading posts! We need to sever their supply lines before time runs out.</String>
+		<String _locID="71660">We have secured the monopoly! Hold the line, guard the trade posts, and victory is ours in mere minutes!</String>
+		<String _locID="71661">Your reputation grows across the seas, friend. It is an honor to sail alongside you.</String>
+		<String _locID="71662">Do not let a minor setback sour your mood. Even the best captains weather a rough storm now and then.</String>
+		<String _locID="71663">I see your home city sends you finer shipments. Do not forget who helped you clear the path to glory.</String>
+		<String _locID="71664">Back on this shore again? Let us hope the plunder is richer this time around.</String>
+		<String _locID="71665">A dismal failure last time. Let us learn from that disaster and correct our course.</String>
+		<String _locID="71666">The wealth of our last victory still fills my hold. Let us double it today!</String>
+		<String _locID="71667">You proved your worth tenfold in our last raid. Let us make another fortune together.</String>
+		<String _locID="71668">I saved your skin from the gallows last match, friend. Make sure I don't have to do it again!</String>
+		<String _locID="71669">We fought like rabid dogs last match. I am glad you are at my side today.</String>
+		<String _locID="71670">Do not look so nervous — I am your ally today, not the predator who ran you aground last match.</String>
+		<String _locID="71671">Those scoundrels managed to break our stranglehold on the trade network. The countdown is shattered!</String>
+		<String _locID="71672">The enemy is courting the local tribes. Watch your flanks — native warriors will be tracking us through the brush soon.</String>
+		<String _locID="71673">The enemy has established a presence on the commercial route. We cannot yield economic dominance to them.</String>
+		<String _locID="71674">They are outnumbering us in native embassies. We need to disrupt their local alliances immediately.</String>
+		<String _locID="71675">The enemy is aggressively hoarding the trade networks. We must sever their supply lines before their treasury outgrows ours.</String>
+		<String _locID="71676">The local tribes follow your lead. A most welcome expansion of our reach.</String>
+		<String _locID="71677">Excellent. With more trade routes in our grip, the gold will flow like the tide.</String>
+		<String _locID="71678">A prudent alliance. The local factions possess invaluable knowledge of this terrain.</String>
+		<String _locID="71679">Securing that trade route guarantees a steady influx of capital for our enterprise.</String>
+		<String _locID="71680">I've personally smashed through their trade post. Their monopoly is ruined!</String>
+		<String _locID="71681">The natives have pledged their blades to our cause. A shrewd investment.</String>
+		<String _locID="71682">I have claimed our first trade route. Mark my words, our coffers will soon be overflowing.</String>
+		<String _locID="71683">The tribes of this land are flocking to my banner. Our allied strength is unmatched!</String>
+		<String _locID="71684">We control the flow of goods now. He who holds the trade, holds the realm.</String>
+		<String _locID="71685">The adversaries we face today are seasoned admirals, not mere merchants. We must be exceptionally sharp.</String>
+		<String _locID="71686">Our opponents appear to be greenhorns who have never left harbor. This should be an easy fight.</String>
+		<String _locID="71687">Throw every single man into the fire — we must break one of those posts now or hang!</String>
+		<String _locID="71688">One minute remains! Grab a cask of rum and prepare to celebrate our absolute triumph!</String>
+		<String _locID="71689">My front line is breaking! Send reinforcements to these coordinates immediately!</String>
+		<String _locID="71690">Reinforcements are closing in. Hold your position until I arrive.</String>
+		<String _locID="71691">Do not despair. My men arrive to turn the tide of this battle.</String>
+		<String _locID="71692">Ah, a new partnership. There is enough plunder for both of us if you hold the land and I handle the sea.</String>
+		<String _locID="71693">My treasury is lacking the silver needed to pay my mercenaries. Could you spare some coin?</String>
+		<String _locID="71694">Our rations are running dangerously low. Send some food to keep my men from mutinying.</String>
+		<String _locID="71695">I require timber to repair hulls and expand bases. Send wood if you can spare it.</String>
+		<String _locID="71696">Your timely defense saved my base from being completely overrun. You have my gratitude.</String>
+		<String _locID="71697">A glorious assault! Your reinforcements turned a standard skirmish into an absolute rout.</String>
+		<String _locID="71698">The silver has arrived. My crews will be well-paid, and our heavy ordnance will remain fully supplied.</String>
+		<String _locID="71699">Supplies secured. These resources will be put to immediate use.</String>
+		<String _locID="71700">These provisions are highly welcome. A well-fed vanguard fights with double the ferocity on the field.</String>
+		<String _locID="71701">Wood is the lifeblood of a fleet. You have my thanks.</String>
+		<String _locID="71702">Retreat and regroup! A wise captain knows when to save his crew for another day.</String>
+		<String _locID="71703">You lack fire power. Forge more artillery if you want to make a real dent.</String>
+		<String _locID="71704">We need horsemen to harass their flanks. Send out a raiding party.</String>
+		<String _locID="71705">We lack boots on the ground. Deploy a solid line of infantry to hold the center.</String>
+		<String _locID="71706">Are you contemplating our next maneuver? I find the silence grating.</String>
+		<String _locID="71707">No quarter! Sound the war drums and prepare for a true Barbary raid.</String>
+		<String _locID="71708">Another mouth to feed for your struggling colony.</String>
+		<String _locID="71709">I don't think a few coins extra will save you when the cannons start firing.</String>
+		<String _locID="71710">Foraging for berries? My men feast on the spoils of war.</String>
+		<String _locID="71711">A handful of native warriors will not stem the tide of my advance.</String>
+		<String _locID="71712">Gather your sticks. They will make good kindling for your burning town.</String>
+		<String _locID="71713">I rescued a lost worker from the wilds. They swear allegiance to a captain who actually keeps them safe.</String>
+		<String _locID="71714">Pure silver! More coin to pay my mercenaries and buy more gunpowder.</String>
+		<String _locID="71715">Fresh provisions for my crew. We feast tonight while your settlers survive on scraps.</String>
+		<String _locID="71716">A native warrior joins my boarding party. My crew grows deadlier by the minute.</String>
+		<String _locID="71717">Fine lumber to reinforce my ships. Every tree I fell makes my fleet entirely unstoppable.</String>
+		<String _locID="71718">Just another ship sent to the bottom. Did you truly expect a different outcome?</String>
+		<String _locID="71719">You fight like a cornered beast. I underestimated your resolve.</String>
+		<String _locID="71720">An opponent with an impressive rating! Defeating you will make the ransom money even sweeter.</String>
+		<String _locID="71721">I thought I was fighting a legendary conqueror, but your reputation is dropping faster than an anchor.</String>
+		<String _locID="71722">Your home city looks grand and experienced from afar. Too bad a fancy city can't save a captain who doesn't know how to brawl!</String>
+		<String _locID="71723">We meet on this ground once more. Try to put up a better fight than you did last time.</String>
+		<String _locID="71724">You tilt the odds in your favor, yet you still tremble. How pathetic.</String>
+		<String _locID="71725">You face multiple foes willingly. I admire your bravery, even if it borders on madness.</String>
+		<String _locID="71726">A bold trade monopoly strategy. Too bad you didn't build an army big enough to stop me from tearing it down piece by piece!</String>
+		<String _locID="71727">You build your trading posts and line your pockets. More wealth for me to plunder when I burn them down!</String>
+		<String _locID="71728">Your monopoly is broken! The trade routes are free once more and I can crush you the old fashioned way now.</String>
+		<String _locID="71729">I have severed your ties with the locals. You stand alone now.</String>
+		<String _locID="71730">Your fortress is reduced to splinters! Flee while you still have breath.</String>
+		<String _locID="71731">Another of your trading posts has been scuttled. The wealth belongs to the corsairs now.</String>
+		<String _locID="71732">The first trading post is mine! Every coin passing through these routes will line my pockets and fund more warships.</String>
+		<String _locID="71733">Hiding behind stone walls? My cannons will turn your defense into your tomb.</String>
+		<String _locID="71734">You hire local tribes to fight your battles? A true commander relies on his own steel.</String>
+		<String _locID="71735">Monopolizing the trade routes? Let's see if you can protect your cargo from my fleet.</String>
+		<String _locID="71736">You struck at my native allies because you fear to face my actual army. A petty gesture.</String>
+		<String _locID="71737">You burn my trading posts like a common vandal. You lack vision.</String>
+		<String _locID="71738">You shattered my base, but the sea is my true home. I will rebuild, and I will return.</String>
+		<String _locID="71739">You broke my monopoly? A temporary setback. The tides always turn, and soon we will lock the gates on you again.</String>
+		<String _locID="71740">A greater challenge? Excellent. The plunder will be much sweeter when I break you.</String>
+		<String _locID="71741">Lowering the stakes? Are you afraid of drowning in the deep water?</String>
+		<String _locID="71742">The trade routes are securely in my grasp. Count the minutes until you are completely bankrupt.</String>
+		<String _locID="71743">You hold the winning hand for exactly sixty seconds more. Enjoy the brief countdown before I tear your prize away.</String>
+		<String _locID="71744">One minute remains until you are entirely erased from history. Surrender now and save your skin.</String>
+		<String _locID="71745">Thanks for finding that treasure for me. It saves my crew the labor.</String>
+		<String _locID="71746">You send soldiers to test my defenses? Let them crash against my walls like waves against rock.</String>
+		<String _locID="71747">I see your little scouting force marching through the brush. They look small, vulnerable, and completely lost.</String>
+		<String _locID="71748">My lookouts have spotted your scout. The hunt begins.</String>
+		<String _locID="71749">A fine empire you have built. It will look even better when my fleet ransacks it for gold and spice.</String>
+		<String _locID="71750">You are outgunned and outmaneuvered. Strike your colors now!</String>
+		<String _locID="71751">Look at this chaos! A true brawl! Keep your wits about you — everyone wants a piece of this plunder!</String>
+		<String _locID="71752">If you intend to hide behind those walls, I hope they are high enough to block out your shame.</String>
+		<String _locID="71753">To arms! If you do not relieve my city now, we will both lose our footing on this map!</String>
+		<String _locID="71754">The cowards brought in their allies to rescue them. Stand fast, we have a bigger fight on our hands now!</String>
+		<String _locID="71755">Perfect timing! Your vanguard arriving alongside my raiders is exactly what we needed to snap their spine!</String>
+		<String _locID="71756">Why has the battlefield gone quiet? Have your soldiers fled, or are you just gathering the courage to watch them die?</String>
+		<String _locID="71757">Cowards! You need two armies to match the might of Barbarossa?</String>
+		<String _locID="71758">Did you forget I have allies? Your pathetic forces cannot withstand our combined strength.</String>
+		<String _locID="71759">So many flags in one battle. Let us see whose colors are left flying when the smoke clears.</String>
+		<String _locID="71760">Enough. There is no profit in dying here today. You have fought like a true admiral — I offer my surrender.</String>
+		<String _locID="71761">I'm clearing out those natives; their allegiance to our opponent is a nuisance I no longer care to tolerate.</String>
+		<String _locID="71762">My scout has returned from the abyss. You should have finished the job.</String>
+		<String _locID="71763">You drag the innocent into your doomed war. How unfortunate for them.</String>
+		<String _locID="71764">Attacking my unarmed laborers? A coward's tactic, and one that I will make you pay for with interest.</String>
+		<String _locID="71765">You bring a great army to my gates. Let us see if your courage matches your numbers.</String>
+		<String _locID="71766">A modest force approaches. Not enough to breach my defenses, but enough to annoy me.</String>
+		<String _locID="71767">A tiny raiding party. It is almost a pity to waste good gunpowder blowing them apart.</String>
+		<String _locID="71768">You smash my docks and burn my town... enjoy your fleeting triumph!</String>
+		<String _locID="71769">You built your settlement far from any help. It is an island begging to be plundered.</String>
+		<String _locID="71770">Ah, there is your Town Center. What a lovely piece of real estate for my fleet to bombard.</String>
+		<String _locID="71771">Huddled together for warmth? It only means my cannons can hit you both at once.</String>
+		<String _locID="71772">You advance quickly, but do not think your new technology terrifies me.</String>
+		<String _locID="71773">Foraging in the dirt for loose coins? Your empire must be deeply in debt.</String>
+		<String _locID="71774">You are lagging far behind the rest of us. I almost feel pity for your men.</String>
+		<String _locID="71775">First to drop anchor in a new age? Let us see if your military matches your speed.</String>
+		<String _locID="71776">Finally caught the wind, have you? We have been waiting.</String>
+		<String _locID="71777">Your people still live in the past. It makes them easy prey.</String>
+		<String _locID="71778">Another locked chest claimed. My hold grows heavier while you wander blindly.</String>
+		<String _locID="71779">Stealing from under my very nose? You have courage, but little sense.</String>
+		<String _locID="71780">Scurrying for scraps in the dirt already? Enjoy your tiny coin; the real wealth of this land belongs to the admiral.</String>
+		<String _locID="71781">Enjoy your meager findings. A few misplaced crates of provisions will not save your lines from our inevitable vanguard.</String>
+		<String _locID="71782">Are your scouts sleeping? I've gathered every single treasure on this coast while you struggle to navigate.</String>
+		<String _locID="71783">Leaving a treasure right outside your own city gates? You are practically begging me to rob you blind!</String>
+		<String _locID="71784">The enemy is about to secure a monopoly on trade. Are we going to fight, or are we going to watch our fortunes vanish?</String>
+		<String _locID="71785">I am savoring this. In one minute, their coffers will be empty, and our dominance will be absolute.</String>
+		<String _locID="71786">So, you win with trading posts instead of steel. I suppose I shouldn't be surprised; you lack the stomach for a real fight.</String>
+		<String _locID="71787">It’s truly a shame to win so easily. Did you really think you could compete with my reach?</String>
+		<String _locID="71788">Our trade dominance has been undone. A tedious setback, and now we must reclaim what we already held.</String>
+		<String _locID="71789">The monopoly is gone. I suppose I should thank you for reminding me that piracy is far more rewarding than trade.</String>
+		<String _locID="71790">I've torn down your commercial empire. If you want to win, you'll have to face my cannons instead of hiding behind ledgers.</String>
+		<String _locID="71791">The enemy's trade clock is ticking. Let us show them what happens when you try to blockade the sea to pirates.</String>
+		<String _locID="71792">The trade routes are secure, and the countdown has begun. Keep your guard up while the gold rolls in.</String>
+		<String _locID="71793">A bold move, but a trade route is only secure if you can defend it. I will turn your posts to splinters before that timer expires.</String>
+		<String _locID="71794">The monopoly is mine. You can try to fight your way out, but you will only find your grave at the bottom of the sea.</String>
+		<String _locID="71795">Algiers</String>
+		<String _locID="71796">Oruc Reis</String>
+		<String _locID="71797">Stockholm</String>
+		<String _locID="71798">Ragnar Lothbrok</String>
+		<String _locID="71799">Philadelphia</String>
+		<String _locID="71800">Major Cooper</String>
 		<String _locID="77726">Riddarholm Church</String>
 		<String _locID="77727">Original version of the Swedish Cathedral's color scheme.</String>
 		<String _locID="77728">Storkyrkan</String>
@@ -30895,7 +31120,7 @@
 		<String _locID="77800">Imperial Gatling Guns</String>
 		<String _locID="77801">Imperial Gatling Gun</String>
 		<String _locID="77802">Americans</String>
-		<String _locID="77803">Culture: Can use Fame and the Decree card for extra bonuses.\n \nBonus: Starts with Independence units enabled. Can build multiple Saloons and Barracks from the Discovery Age. Minutemen gather after every destroyed building.\n \nTeam: Start with a free Miner.</String>
+		<String _locID="77803">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Starts with Independence units enabled. Can build multiple Saloons and Barracks from the Discovery Age. Minutemen gather after every destroyed building.\nTeam: Start with a free Miner.</String>
 		<String _locID="77804">3 Gatling Guns</String>
 		<String _locID="77805">Imperial Cassadores</String>
 		<String _locID="77806">Imperial upgrade for Cassadores.</String>
@@ -31240,7 +31465,7 @@
 		<String _locID="780742">You have joined the Native Confederacy!</String>
 		<String _locID="780743">Patriot Militia</String>
 		<String _locID="780744">Fisheries must be built near Fish.</String>
-		<String _locID="780745">Fame Collected (Generate and spend Fame at Town Centers, Churches and Capitols; each building boosts Fame generation for the others)</String>
+		<String _locID="780745">Fame Collected (Generate and spend Fame at Town Centers, Churches and Capitols; they each boost Fame generation for the others)</String>
 		<String _locID="780746">Messenger</String>
 		<String _locID="780747">Town Centers cannot be built too close to any starting Town Center.</String>
 		<String _locID="780748">Pardoned Miner</String>
@@ -31449,7 +31674,7 @@
 		<String _locID="780961">Covered Wagon (Slow)</String>
 		<String _locID="780962">Starts a new settlement by transforming into a Town Center slower.</String>
 		<String _locID="780963">Mobile resource. This wagon is carrying all resources and can switch between them.</String>
-		<String _locID="780964">Ranged Attack (Garrison)</String>
+		<String _locID="780964">Garrison Attack</String>
 		<String _locID="780965">Capitol Hotkeys</String>
 		<String _locID="780966">Command Post Hotkeys</String>
 		<String _locID="780967">Tracking</String>
@@ -31464,7 +31689,7 @@
 		<String _locID="780976">Use Fame to get 1000 Coin from your Banks.</String>
 		<String _locID="780977">Elmaya</String>
 		<String _locID="780978">Pilgrimage</String>
-		<String _locID="780979">Ships 10 Pilgrims that work faster than normal villagers and don't take up population.</String>
+		<String _locID="780979">Ships 10 Pilgrims that work faster than normal villagers and don't take up population space.</String>
 		<String _locID="780980">Swedish Allies\n+35% Building Hitpoints</String>
 		<String _locID="780981">Handgonnes\nFalconets\nSakers\n \nShips town improvements</String>
 		<String _locID="780982">Loyalist Militia</String>
@@ -31554,7 +31779,7 @@
 		<String _locID="781067">Giuseppe Garibaldi</String>
 		<String _locID="781068">Giuseppe Garibaldi is an impassioned and daring leader. In battle, his stubborn defense against all odds can prove both tenacious and effective, while his subsequent counterattacks will be swift as they are decisive. Knowing the advantages modern technology can bring, he will invest his nations resources towards a plethora of economic and military upgrades.</String>
 		<String _locID="781069">Italians</String>
-		<String _locID="781070">Culture: Can use Fame and the Decree card for extra bonuses.\n \nBonus: Villas spawn Piles of Coin when built. Basilica trains powerful religious units. Capitol sends mercenary armies and Fame generates faster over time. Docks have access to naval mercenaries.\n \nTeam: Mercenaries are cheaper.</String>
+		<String _locID="781070">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Villas start cheap but each one is more expensive. Basilica trains powerful support units. Fame generates faster over time and Docks have access to naval mercenaries.\nTeam: Mercenaries are cheaper.</String>
 		<String _locID="781071">Original version of the Italian Military Academy.</String>
 		<String _locID="781072">Gold and brown version of Italian Military Academy.</String>
 		<String _locID="781073">Peregrine Institute of Rome</String>
@@ -31753,7 +31978,7 @@
 		<String _locID="781266">Army Regulations</String>
 		<String _locID="781267">Caroleans</String>
 		<String _locID="781268">Swedish</String>
-		<String _locID="781269">Culture: Can use Fame and the Decree card for extra bonuses.\n \nBonus: Torps spawn potted trees when built. Gets free Fishing Boats with every Age and with every villager shipment. Military buildings train and research faster.\n \nTeam: Fishing Boat gather rates increased.</String>
+		<String _locID="781269">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Torps spawn potted trees when built and Town Centers train Logging Wagons. Gets free Fishing Boats with every Age and with every villager shipment.\nTeam: Fishing Boat gather rates increased.</String>
 		<String _locID="781270">Gustavus Adolphus</String>
 		<String _locID="781271">Gustavus Adolphus is renowned as an innovator on the battlefield, revolutionizing infantry tactics and instilling in his armies an aggressive disposition and increased mobility to maximize the strength of his relatively small armies. Under his direction, the Swedish military has become exceedingly versatile, employing light cannons and mobile cavalry to support his aggressive infantry maneuvers.</String>
 		<String _locID="781272">When this Shipment arrives, all of your current Fame is exchanged for a lesser amount of Coin.</String>
@@ -31856,7 +32081,7 @@
 		<String _locID="781369">20 Dahomey Allies</String>
 		<String _locID="781370">Native Ambush</String>
 		<String _locID="781371">Native warriors are stronger when fighting near Trading Posts.</String>
-		<String _locID="781372">Improves your Swedish Explorer in combat, allows him to train Logging Wagons, and gives him a powerful flagship.</String>
+		<String _locID="781372">Improves your Swedish Explorer in combat, allows him to build Outposts and train Logging Wagons, and gives him a powerful Flagship. Also Logging Wagons can be trained in the Discovery Age.</String>
 		<String _locID="781373">Skipper</String>
 		<String _locID="781374">Skipper Shipment has arrived.</String>
 		<String _locID="781375">Control Flags cannot be placed near other Control Flags.</String>
@@ -31922,7 +32147,7 @@
 		<String _locID="781435">Royal unit upgrades (Carolean, Indelta and Geshwinda) are cheaper and research faster.</String>
 		<String _locID="781436">Swedish Vandrare attack and hitpoints greatly increased.</String>
 		<String _locID="781437">Outpost, War Hut, Nobles' Hut, Lookout, Tower, Blockhouse, and Castle build limit and hitpoints increased, +2 Uhlans.</String>
-		<String _locID="781438">All your current Settlers, Villagers and Coureurs transform into Immigrants, who do not take up population.</String>
+		<String _locID="781438">All your current Settlers, Villagers and Coureurs transform into Immigrants, who do not take up population space.</String>
 		<String _locID="781439">{E^Medium bird. Harvest for Food.^}{J^Medium bird. Attracted to nearby Shrines. Enhances resources generated by Shrines.^}</String>
 		<String _locID="781440">A guarded tower overlooking the nearby region.</String>
 		<String _locID="781441">%1s has captured a local tower.</String>
@@ -32136,7 +32361,7 @@
 		<String _locID="781649">Dynamite Attack</String>
 		<String _locID="781650">An explosive attack that does heavy damage to buildings and ships.</String>
 		<String _locID="781651">Commander-in-Chief</String>
-		<String _locID="781652">Placeholder text for unfinished content. However, here are some concepts: Can pick between Cantonese, Incan and European techs and units for each building category. Some shipments arrive really fast. Villas replace Houses and spawn Coin when built.</String>
+		<String _locID="781652">Placeholder text for unfinished content. However, here are some concepts: Can pick between Cantonese, Incan and European techs and units for each building category. Some shipments arrive really fast.</String>
 		<String _locID="781653">Bogota</String>
 		<String _locID="781654">General</String>
 		<String _locID="781655">Warchief</String>
@@ -32245,7 +32470,7 @@
 		<String _locID="781758">Transforms into a Plantation.</String>
 		<String _locID="781759">1 Plantation Travois</String>
 		<String _locID="781760">Maltese</String>
-		<String _locID="781761">Culture: Can use Fame and the Decree card for extra bonuses.\n \nBonus: Trains heroes and ages up with Encampments. Trading Outposts are stronger and Fort Walls can be built from the Commerce Age. Builds the Ossuary for powerful Circle of Ossus units and improvements.\n \nTeam: Start with a free Surgeon.</String>
+		<String _locID="781761">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Trains heroes and ages up with Encampments. Trading Outposts are stronger and Fort Walls can be built from the Commerce Age. Builds the Ossuary for powerful units and improvements.\nTeam: Start with a free Surgeon.</String>
 		<String _locID="781762">Boneguard Marauder</String>
 		<String _locID="781763">4 Cetan Bows</String>
 		<String _locID="781764">8 Cetan Bows</String>
@@ -32319,7 +32544,7 @@
 		<String _locID="781832">%1s has recovered supplies worth 50 Fame / 100 Export.</String>
 		<String _locID="781833">- Over 60 new maps have been added as "official maps" spanning across America, Asia, Africa and the Middle East. Most of the maps were taken from the ESOC map pool and were improved visually, had layout issues fixed, and were updated with new content such as new fauna, flora, treasures, natives and textures.\n \n- The game with the mod on is now more compatible with Win10 and Win11, having the display settings fixed if the game's exe is not set to run in WinXP compatibility mode. The High/Low poly Cliffs option has also been fixed, usefull for custom maps with cliff framerate drops.\n \n- Ottomans are now a semi-Asian civilization, with a changed Mosque to better match the Monastery, with access to Export and a Consulate with new unique Asian allies (Indians, Chinese and Japanese), and new cards for the Consulate and mercs. Ottomans can now also pause and resume Settler training at will.\n \n- Ships can now sail over shallows on which ground units can also walk. Ships are no longer blocked by shallows such as those on Northwest Territory and Indochina, which also means you can now dock and make ships on Bayou.\n \n- Ships now fire consistently and accordingly to their assigned rate of fire, instead of firing random cannon shots which could have resulted in cases where in a fight between two identical ships, the one that fired first could lose because of random cannon fire.\n \n- When gathering from Mills and Plantations, villagers now stand still just like on Farms and Rice Paddies. They no longer move randomly around the building, bumping into each other and loosing precious gather time. Gather rates were adjusted accordingly.\n \n- Further AI improvements, specifically related to attacking enemy units, upgrading trade routes and training mercs and natives.\n \n- Map sizes have been tweaked, making most maps bigger, and the player can now spawn on both sides on all maps, old and new.\n \n- Added new Fire Pit dances and made some of them random; the first four Ages will unlock one fixed dance and one random dance. Also randomized shipments for Native and Asian Age Up options, just like Politicians and Consulate allies previously.\n \n- The AIs for the mod's civilizations now have unique voice lines! Go to "Documents\My Games\AoE3 Improvement Mod" and delete the "AIM" and "Users3" folders to make them work.</String>
 		<String _locID="781834">Villa</String>
-		<String _locID="781835">Italian House that spawns Chests of Coin when built. Supports 10 population. Trains livestock.</String>
+		<String _locID="781835">Italian House that repairs nearby buildings. Supports 10 population. Trains livestock.</String>
 		<String _locID="781836">Torp</String>
 		<String _locID="781837">Swedish House that spawns Trees when built. Supports 10 population. Trains livestock.</String>
 		<String _locID="781838">A ruin of the Mausoleum of the First Qin Emperor. It contains preserved food worth %1d %2s.</String>
@@ -32341,7 +32566,7 @@
 		<String _locID="781854">British Empire</String>
 		<String _locID="781855">French Empire</String>
 		<String _locID="781856">Portuguese Empire</String>
-		<String _locID="781857">Dutch Empire</String>
+		<String _locID="781857">Dutch Republic</String>
 		<String _locID="781858">Russian Empire</String>
 		<String _locID="781859">Prussian Kingdom</String>
 		<String _locID="781860">Ottoman Empire</String>
@@ -32352,13 +32577,13 @@
 		<String _locID="781865">Sioux Nation</String>
 		<String _locID="781866">Aztec Empire</String>
 		<String _locID="781867">United States</String>
-		<String _locID="781868">Italian Kingdom</String>
+		<String _locID="781868">Italian States</String>
 		<String _locID="781869">Swedish Empire</String>
 		<String _locID="781870">Gran Colombia</String>
 		<String _locID="781871">Maltese Order</String>
-		<String _locID="781872">Boer Republic</String>
-		<String _locID="781873">Pioneer</String>
-		<String _locID="781874">1 Paddle Steamer</String>
+		<String _locID="781872">African Republic</String>
+		<String _locID="781873">Barbary States</String>
+		<String _locID="781874">Habsburg Empire</String>
 		<String _locID="781875">Source of water for the Lake of the Moon. Generates Coin when captured.</String>
 		<String _locID="781876">{E^&lt;icon="(32)(ui/ingame/resource_food)"&gt; Food source^}{J^&lt;icon="(16)(ui/ingame/stat_icon_huntable)"&gt; Enhances nearby Shrines^}</String>
 		<String _locID="781877">{E^Small herbivore. Harvest for Food.^}{J^Small herbivore. Attracted to nearby Shrines. Enhances resources generated by Shrines.^}</String>
@@ -33035,8 +33260,8 @@
 		<String _locID="782552">Team and Infinite shipments arrive faster.</String>
 		<String _locID="782553">States-General Shipment has arrived.</String>
 		<String _locID="782554">Fame Auto Gather</String>
-		<String _locID="782555">Mortar Production</String>
-		<String _locID="782556">Factories can now be configured to produce Mortars.</String>
+		<String _locID="782555">Heavy Artillery Manufactoring</String>
+		<String _locID="782556">Factories can be configured to produce Mortars and Basilisk Cannons can be trained from Artillery Depots.</String>
 		<String _locID="782557">Mortar Production Shipment has arrived.</String>
 		<String _locID="782558">Configure this Factory to produce Mortars.</String>
 		<String _locID="782559">This Factory is producing Mortars.</String>
@@ -33299,7 +33524,7 @@
 		<String _locID="78107">Delivers 700 Coin to your stockpile.</String>
 		<String _locID="78108">1,000 Coin</String>
 		<String _locID="78109">Delivers 1,000 Coin to your stockpile.</String>
-		<String _locID="78110">4 Military Wagons</String>
+		<String _locID="78110">Rule, Britannia</String>
 		<String _locID="78111">5 Rajputs</String>
 		<String _locID="78112">4 Sowars</String>
 		<String _locID="78113">2 Siege Elephants</String>
@@ -33452,5 +33677,19 @@
 		<String _locID="78260">2 Falconets\n10 Sabers</String>
 		<String _locID="78261">1 Ironclad\n10 Gatling Guns</String>
 		<String _locID="78262">The Knights of St. John call for a new crusade! You receive a Shipment of 10 Hoop Throwers from Malta.</String>
+		<String _locID="78263">Habsburgs</String>
+		<String _locID="78264">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Has access to all common European units and more Royal Guard upgrades. Villagers are Citizens, which don't take up population space.\nTeam: Start with 50 Experience Points.</String>
+		<String _locID="78265">Town Center and Dock attack increased, and you can call out an Irregular army from Town Centers.</String>
+		<String _locID="78266">TEAM Treasure Hunting</String>
+		<String _locID="78267">Outlaws can now pick up treasures. Also reveals all land treasures on the map.</String>
+		<String _locID="78268">Treasure Hunting Shipment has arrived.</String>
+		<String _locID="78269">Vienna</String>
+		<String _locID="78270">Sigmund von Herberstein</String>
+		<String _locID="78271">1 Paddle Steamer</String>
+		<String _locID="78272">Citizen</String>
+		<String _locID="78273">Habsburg villager that constructs buildings and gathers resources. Doesn't take up population space.</String>
+		<String _locID="78274">Engineer</String>
+		<String _locID="78275">Passive Ability: This unit can repair nearby buildings.</String>
+		<String _locID="78276">Enables Indian Rajputs, Sowars and Siege Elephants to be trained.</String>
 	</Language>
 </StringTable>

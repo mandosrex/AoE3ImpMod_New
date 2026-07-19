@@ -842,7 +842,19 @@ if (cNumberNonGaiaPlayers >= 5){
 	rmPlaceObjectDefAtLoc(fishID, 0, 0.5, 0.5, 12*cNumberNonGaiaPlayers);
 
 
-	rmSetStatusText("",0.99);
+  // Water nuggets
+
+  int avoidNuggetLand=rmCreateTerrainDistanceConstraint("nugget avoid land", "land", true, 10.0);
+  int avoidNuggetWater=rmCreateTypeDistanceConstraint("nugget vs. nugget water", "AbstractNugget", 80.0);
+  
+  int nuggetW= rmCreateObjectDef("nugget water"); 
+  rmAddObjectDefItem(nuggetW, "ypNuggetBoat", 1, 0.0);
+  rmSetNuggetDifficulty(5, 5);
+  rmSetObjectDefMinDistance(nuggetW, rmXFractionToMeters(0.0));
+  rmSetObjectDefMaxDistance(nuggetW, rmXFractionToMeters(0.5));
+  rmAddObjectDefConstraint(nuggetW, avoidNuggetLand);
+  rmAddObjectDefConstraint(nuggetW, avoidNuggetWater);
+  rmPlaceObjectDefAtLoc(nuggetW, 0, 0.5, 0.5, cNumberNonGaiaPlayers*4);
 
 
 // KOTH game mode 
@@ -855,6 +867,7 @@ if (cNumberNonGaiaPlayers >= 5){
       ypKingsHillPlacer(xLoc, yLoc, walk, 0);
    }
 
+	rmSetStatusText("",0.99);
 
 
 	}

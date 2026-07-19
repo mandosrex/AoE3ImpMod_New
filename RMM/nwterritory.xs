@@ -244,7 +244,7 @@ void main(void)
 	{
 		//TRIB RIVER
 		// int columbiaRiver = rmRiverCreate(-1, "New England Coast", 6, 20, 9, 12);
-		int columbiaRiver = rmRiverCreate(-1, "Northwest Territory Water", 6, 20, 6, 8);
+		int columbiaRiver = rmRiverCreate(-1, "Northwest Territory River", 6, 20, 6, 8);
 		//rmRiverConnectRiver(source river, dest river, float pct, float x2, float z2)
 		rmRiverConnectRiver(columbiaRiver, pugetSound, 0.5, 0.65, 0.35);
 		// rmRiverSetConnections(columbiaRiver, 0.3, 0.7, 0.65, 0.35);
@@ -268,13 +268,13 @@ void main(void)
 		rmRiverBuild(columbiaRiver);
 
 		// Two tributaries off the Columbia River
-		int riverBranchNorth = rmRiverCreate(-1, "Northwest Territory Water", 4, 10, 6, 8);
+		int riverBranchNorth = rmRiverCreate(-1, "Northwest Territory River", 4, 10, 6, 8);
 		rmRiverConnectRiver(riverBranchNorth, columbiaRiver, 0.0, 1.0, 0.35);
 		rmRiverSetShallowRadius(riverBranchNorth, 8);
 		rmRiverAddShallow(riverBranchNorth, 0.5);
 		rmRiverBuild(riverBranchNorth);
 
-		int riverBranchSouth = rmRiverCreate(-1, "Northwest Territory Water", 4, 10, 6, 8);
+		int riverBranchSouth = rmRiverCreate(-1, "Northwest Territory River", 4, 10, 6, 8);
 		rmRiverConnectRiver(riverBranchSouth, columbiaRiver, 0.0, 0.65, 0.0);
 		rmRiverSetShallowRadius(riverBranchSouth, 8);
 		rmRiverAddShallow(riverBranchSouth, 0.5);

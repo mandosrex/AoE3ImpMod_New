@@ -1171,6 +1171,9 @@
 			<Effect status="active" type="TechStatus">RandomAge5PoliticiansPortuguese</Effect>
 			<Effect status="active" type="TechStatus">RandomRevolutionPortuguese</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">CoveredWagonFame</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">FlagBearer</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -2013,9 +2016,6 @@
 			<Effect status="obtainable" type="TechStatus">FactoryCannery</Effect>
 			<Effect status="obtainable" type="TechStatus">StarFort</Effect>
 			<Effect status="obtainable" type="TechStatus">FortifiedOutpost</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">CoveredWagon</Target>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">ChurchMassCavalry</Effect>
 			<Effect status="obtainable" type="TechStatus">ChurchArtillery</Effect>
 			<Effect status="obtainable" type="TechStatus">FactoryMassProduction</Effect>
@@ -5228,9 +5228,6 @@
 			<Effect amount="0.00" relativity="Absolute" subtype="CopyUnitPortraitAndIcon" type="Data" unittype="FishingBoat">
 				<Target type="ProtoUnit">BoatNative</Target>
 			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">CoveredWagon</Target>
-			</Effect>
 			<Effect amount="-1.00" relativity="Absolute" subtype="AllowedAge" type="Data">
 				<Target type="ProtoUnit">Plantation</Target>
 			</Effect>
@@ -6209,9 +6206,6 @@
 			<Effect status="obtainable" type="TechStatus">LivestockConvert</Effect>
 			<Effect amount="0.00" relativity="Absolute" subtype="EnableTradeRouteLOS" type="Data">
 				<Target type="Player"/>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">CoveredWagon</Target>
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">HuntingDogs</Effect>
 			<Effect status="obtainable" type="TechStatus">SpiritMedicine</Effect>
@@ -14111,6 +14105,9 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="CoveredWagon">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="BuildLimit" type="Data">
+				<Target type="ProtoUnit">CoveredWagonFame</Target>
+			</Effect>
 			<Effect amount="1.40" relativity="BasePercent" subtype="Hitpoints" type="Data">
 				<Target type="ProtoUnit">ExplorerMed2</Target>
 			</Effect>
@@ -14242,6 +14239,9 @@
 			<Effect status="active" type="TechStatus">Industrialize</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="CoveredWagon">
 				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="BuildLimit" type="Data">
+				<Target type="ProtoUnit">CoveredWagonFame</Target>
 			</Effect>
 			<Effect amount="2.00" relativity="BasePercent" subtype="Hitpoints" type="Data">
 				<Target type="ProtoUnit">ExplorerMed2</Target>
@@ -15586,7 +15586,7 @@
 		<Effects>
 			<Effect status="active" type="TechStatus">Imperialize</Effect>
 			<Effect type="TextOutput">780790</Effect>
-			<Effect amount="50.00" relativity="Absolute" resource="Fame" subtype="Resource" type="Data">
+			<Effect amount="100.00" relativity="Absolute" resource="Fame" subtype="Resource" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="2.00" relativity="BasePercent" subtype="Hitpoints" type="Data">
@@ -15655,6 +15655,9 @@
 		<Effects>
 			<Effect status="active" type="TechStatus">Imperialize</Effect>
 			<Effect type="TextOutput">780790</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="BuildLimit" type="Data">
+				<Target type="ProtoUnit">CoveredWagonFame</Target>
+			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="BuildLimit" type="Data">
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
@@ -18406,6 +18409,9 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="CoveredWagon">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="BuildLimit" type="Data">
+				<Target type="ProtoUnit">CoveredWagonFame</Target>
+			</Effect>
 			<Effect amount="1.60" relativity="BasePercent" subtype="Hitpoints" type="Data">
 				<Target type="ProtoUnit">ExplorerMed2</Target>
 			</Effect>
@@ -19475,16 +19481,33 @@
 		<RolloverTextID>35308</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect status="obtainable" type="TechStatus">ImperialLongbowmen</Effect>
-			<Effect action="RangedAttack" amount="4.00" relativity="Absolute" subtype="MaximumRange" type="Data">
-				<Target type="ProtoUnit">Longbowman</Target>
-			</Effect>
 			<Effect action="VolleyRangedAttack" amount="4.00" relativity="Absolute" subtype="MaximumRange" type="Data">
 				<Target type="ProtoUnit">Longbowman</Target>
 			</Effect>
-			<Effect type="TextOutput">41862</Effect>
+			<Effect action="StaggerRangedAttack" amount="4.00" relativity="Absolute" subtype="MaximumRange" type="Data">
+				<Target type="ProtoUnit">Longbowman</Target>
+			</Effect>
+			<Effect action="DefendRangedAttack" amount="4.00" relativity="Absolute" subtype="MaximumRange" type="Data">
+				<Target type="ProtoUnit">Longbowman</Target>
+			</Effect>
+			<Effect action="BuildingAttack" amount="4.00" relativity="Absolute" subtype="MaximumRange" type="Data">
+				<Target type="ProtoUnit">Longbowman</Target>
+			</Effect>
 			<Effect amount="4.00" relativity="Absolute" subtype="LOS" type="Data">
 				<Target type="ProtoUnit">Longbowman</Target>
+			</Effect>
+			<Effect type="TextOutput">41862</Effect>
+			<Effect action="VolleyRangedAttack" amount="2.00" relativity="Absolute" subtype="MaximumRange" type="Data">
+				<Target type="ProtoUnit">GreenJacket</Target>
+			</Effect>
+			<Effect action="StaggerRangedAttack" amount="2.00" relativity="Absolute" subtype="MaximumRange" type="Data">
+				<Target type="ProtoUnit">GreenJacket</Target>
+			</Effect>
+			<Effect action="DefendRangedAttack" amount="2.00" relativity="Absolute" subtype="MaximumRange" type="Data">
+				<Target type="ProtoUnit">GreenJacket</Target>
+			</Effect>
+			<Effect amount="2.00" relativity="Absolute" subtype="LOS" type="Data">
+				<Target type="ProtoUnit">GreenJacket</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -19925,6 +19948,9 @@
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ExplorerDog">
 				<Target type="Player"/>
+			</Effect>
+			<Effect amount="-1.00" relativity="Absolute" subtype="AllowedAge" type="Data">
+				<Target type="ProtoUnit">CoveredWagonFame</Target>
 			</Effect>
 			<Effect type="TextOutput">41835</Effect>
 		</Effects>
@@ -59136,7 +59162,7 @@
 		<Cost resourcetype="Trade">100.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\eso\chinese_SPC_flag_icon_64</Icon>
+		<Icon>ui\eso\flag_chinese_icon</Icon>
 		<RolloverTextID>68622</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>YPConsulateTech</Flag>
@@ -59220,7 +59246,7 @@
 		<Cost resourcetype="Trade">100.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\eso\indian_SPC_flag_icon_64</Icon>
+		<Icon>ui\eso\flag_indian_icon</Icon>
 		<RolloverTextID>68626</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>NativeDance</Flag>
@@ -65209,9 +65235,6 @@
 			<Effect status="obtainable" type="TechStatus">SteelTraps</Effect>
 			<Effect status="obtainable" type="TechStatus">StarFort</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">CoveredWagon</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">FortFrontier</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -65322,9 +65345,6 @@
 			<Effect status="obtainable" type="TechStatus">FactoryCannery</Effect>
 			<Effect status="obtainable" type="TechStatus">StarFort</Effect>
 			<Effect status="obtainable" type="TechStatus">FortifiedOutpost</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">CoveredWagon</Target>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">ChurchMassCavalry</Effect>
 			<Effect status="obtainable" type="TechStatus">ChurchArtillery</Effect>
 			<Effect status="obtainable" type="TechStatus">FactoryMassProduction</Effect>
@@ -65431,9 +65451,6 @@
 			<Effect status="obtainable" type="TechStatus">FactoryCannery</Effect>
 			<Effect status="obtainable" type="TechStatus">StarFort</Effect>
 			<Effect status="obtainable" type="TechStatus">FortifiedOutpost</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">CoveredWagon</Target>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">FactoryMassProduction</Effect>
 			<Effect status="obtainable" type="TechStatus">GrapeShot</Effect>
 			<Effect status="obtainable" type="TechStatus">Howitzer</Effect>
@@ -65553,9 +65570,6 @@
 			<Effect status="obtainable" type="TechStatus">FactoryCannery</Effect>
 			<Effect status="obtainable" type="TechStatus">StarFort</Effect>
 			<Effect status="obtainable" type="TechStatus">FortifiedOutpost</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">CoveredWagon</Target>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">ChurchMassCavalry</Effect>
 			<Effect status="obtainable" type="TechStatus">ChurchArtillery</Effect>
 			<Effect status="obtainable" type="TechStatus">FactoryMassProduction</Effect>
@@ -65684,9 +65698,6 @@
 			<Effect status="obtainable" type="TechStatus">FactoryCannery</Effect>
 			<Effect status="obtainable" type="TechStatus">StarFort</Effect>
 			<Effect status="obtainable" type="TechStatus">FortifiedOutpost</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">CoveredWagon</Target>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">ChurchMassCavalry</Effect>
 			<Effect status="obtainable" type="TechStatus">ChurchArtillery</Effect>
 			<Effect status="obtainable" type="TechStatus">FactoryMassProduction</Effect>
@@ -70735,7 +70746,7 @@
 			<Effect status="active" type="TechStatus">RandomAge4PoliticiansItalians</Effect>
 			<Effect status="active" type="TechStatus">RandomAge5PoliticiansItalians</Effect>
 			<Effect status="active" type="TechStatus">RandomRevolutionItalians</Effect>
-			<Effect action="SpawnCoin" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
+			<Effect action="HealBuilding" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
 				<Target type="ProtoUnit">HouseVilla</Target>
 			</Effect>
 			<Effect amount="0.00" relativity="Assign" resource="Food" subtype="Cost" type="Data">
@@ -72062,11 +72073,11 @@
 			<Effect status="active" type="TechStatus">RandomAge4PoliticiansSwedish</Effect>
 			<Effect status="active" type="TechStatus">RandomAge5PoliticiansSwedish</Effect>
 			<Effect status="active" type="TechStatus">RandomRevolutionSwedish</Effect>
-			<Effect amount="1.10" relativity="BasePercent" subtype="BuildingWorkRate" type="Data">
-				<Target type="ProtoUnit">MilitaryBuilding</Target>
-			</Effect>
 			<Effect action="SpawnWood" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
 				<Target type="ProtoUnit">HouseTorp</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">WoodWagon</Target>
 			</Effect>
 			<Effect amount="0.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
 				<Target type="ProtoUnit">ypRepentantFusilier</Target>
@@ -72092,9 +72103,6 @@
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">CapSwedishArmy33</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">LumberCamp</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Musketeer</Target>
@@ -72362,7 +72370,7 @@
 			<Effect status="active" type="TechStatus">Industrialize</Effect>
 			<Effect type="TextOutput">780790</Effect>
 			<Effect action="AutoGather" amount="1.25" relativity="BasePercent" subtype="WorkRate" type="Data" unittype="Wood">
-				<Target type="ProtoUnit">LumberCamp</Target>
+				<Target type="ProtoUnit">WoodWagon</Target>
 			</Effect>
 			<Effect amount="1.30" relativity="BasePercent" subtype="Hitpoints" type="Data">
 				<Target type="ProtoUnit">BrigEx</Target>
@@ -73490,7 +73498,13 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">BrigEx</Target>
 			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Outpost">
+				<Target type="ProtoUnit">ExplorerEast</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="WoodWagon">
+				<Target type="ProtoUnit">ExplorerEast</Target>
+			</Effect>
+			<Effect amount="-1.00" relativity="Absolute" subtype="AllowedAge" type="Data">
 				<Target type="ProtoUnit">WoodWagon</Target>
 			</Effect>
 			<Effect type="TextOutput">781374</Effect>
@@ -77173,20 +77187,14 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="AllowedAge" type="Data">
 				<Target type="ProtoUnit">WallStraight5</Target>
 			</Effect>
-			<Effect amount="10.00" relativity="Absolute" resource="Wood" subtype="Cost" type="Data">
+			<Effect amount="10.00" relativity="Absolute" resource="Gold" subtype="Cost" type="Data">
 				<Target type="ProtoUnit">WallConnector</Target>
 			</Effect>
-			<Effect amount="10.00" relativity="Absolute" resource="Wood" subtype="Cost" type="Data">
+			<Effect amount="10.00" relativity="Absolute" resource="Gold" subtype="Cost" type="Data">
 				<Target type="ProtoUnit">WallStraight2</Target>
 			</Effect>
-			<Effect amount="10.00" relativity="Absolute" resource="Wood" subtype="Cost" type="Data">
+			<Effect amount="10.00" relativity="Absolute" resource="Gold" subtype="Cost" type="Data">
 				<Target type="ProtoUnit">WallStraight5</Target>
-			</Effect>
-			<Effect amount="0.00" relativity="Assign" resource="Wood" subtype="Cost" type="Data">
-				<Target type="ProtoUnit">CWallGate</Target>
-			</Effect>
-			<Effect amount="0.00" relativity="Assign" resource="Wood" subtype="Cost" type="Data">
-				<Target type="ProtoUnit">CwallGateL</Target>
 			</Effect>
 			<Effect amount="2.00" relativity="Percent" subtype="BuildPoints" type="Data">
 				<Target type="ProtoUnit">AbstractWall</Target>
@@ -77234,10 +77242,10 @@
 				<Target type="ProtoUnit">ypRepentantHoopThrowers</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">Dragoon</Target>
+				<Target type="ProtoUnit">CavalryArcher</Target>
 			</Effect>
-			<Effect status="obtainable" type="TechStatus">GuardDragoons</Effect>
-			<Effect status="obtainable" type="TechStatus">ImperialDragoons</Effect>
+			<Effect status="obtainable" type="TechStatus">GuardCavalryArchers</Effect>
+			<Effect status="obtainable" type="TechStatus">ImperialCavalryArchers</Effect>
 			<Effect amount="0.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
 				<Target type="ProtoUnit">Surgeon</Target>
 			</Effect>
@@ -77599,7 +77607,7 @@
 			<Effect status="active" type="TechStatus">Flintlock</Effect>
 			<Effect status="active" type="TechStatus">Pillage</Effect>
 			<Effect status="active" type="TechStatus">FactoryMassProduction</Effect>
-			<Effect status="active" type="TechStatus">GuardDragoons</Effect>
+			<Effect status="active" type="TechStatus">GuardCavalryArchers</Effect>
 			<Effect status="active" type="TechStatus">GuardHussars</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades</Effect>
 			<Effect status="active" type="TechStatus">NativeUpgrades2</Effect>
@@ -77618,13 +77626,13 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect status="active" type="TechStatus">PostIndustrialBritish</Effect>
+			<Effect status="active" type="TechStatus">PostIndustrialMaltese</Effect>
 			<Effect status="active" type="TechStatus">ImpLargeScaleAgriculture</Effect>
 			<Effect status="active" type="TechStatus">ImpImmigrants</Effect>
 			<Effect status="active" type="TechStatus">ImpDeforestation</Effect>
 			<Effect status="active" type="TechStatus">ImpExcessiveTaxation</Effect>
 			<Effect status="active" type="TechStatus">ImperialHalberdiers</Effect>
-			<Effect status="active" type="TechStatus">ImperialDragoons</Effect>
+			<Effect status="active" type="TechStatus">ImperialCavalryArchers</Effect>
 			<Effect status="active" type="TechStatus">ImperialCulverin</Effect>
 			<Effect status="active" type="TechStatus">ImperialRocket</Effect>
 			<Effect status="active" type="TechStatus">ImperialHowitzer</Effect>
@@ -78863,22 +78871,22 @@
 			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
 				<Target type="ProtoUnit">AbstractWall</Target>
 			</Effect>
-			<Effect amount="5.00" relativity="Assign" resource="Wood" subtype="Cost" type="Data">
+			<Effect amount="0.50" relativity="BasePercent" resource="Gold" subtype="Cost" type="Data">
 				<Target type="ProtoUnit">WallStraight1</Target>
 			</Effect>
-			<Effect amount="5.00" relativity="Assign" resource="Wood" subtype="Cost" type="Data">
+			<Effect amount="0.50" relativity="BasePercent" resource="Gold" subtype="Cost" type="Data">
 				<Target type="ProtoUnit">WallStraight5</Target>
 			</Effect>
-			<Effect amount="5.00" relativity="Assign" resource="Wood" subtype="Cost" type="Data">
+			<Effect amount="0.50" relativity="BasePercent" resource="Gold" subtype="Cost" type="Data">
 				<Target type="ProtoUnit">WallStraight2</Target>
 			</Effect>
-			<Effect amount="5.00" relativity="Assign" resource="Wood" subtype="Cost" type="Data">
+			<Effect amount="0.50" relativity="BasePercent" resource="Gold" subtype="Cost" type="Data">
 				<Target type="ProtoUnit">WallStraight3</Target>
 			</Effect>
-			<Effect amount="5.00" relativity="Assign" resource="Wood" subtype="Cost" type="Data">
+			<Effect amount="0.50" relativity="BasePercent" resource="Gold" subtype="Cost" type="Data">
 				<Target type="ProtoUnit">WallStraight4</Target>
 			</Effect>
-			<Effect amount="5.00" relativity="Assign" resource="Wood" subtype="Cost" type="Data">
+			<Effect amount="0.50" relativity="BasePercent" resource="Gold" subtype="Cost" type="Data">
 				<Target type="ProtoUnit">WallConnector</Target>
 			</Effect>
 			<Effect amount="0.00" relativity="Absolute" subtype="RevealLOS" type="Data">
@@ -79576,7 +79584,7 @@
 	</Tech>
 	<Tech name="HCShipSteamShip" type="Normal">
 		<DBID>3241</DBID>
-		<DisplayNameID>781874</DisplayNameID>
+		<DisplayNameID>78271</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -80736,7 +80744,7 @@
 				<Tech>XPRevolutionAustralia</Tech>
 				<Tech>XPRevolutionWashington</Tech>
 				<Tech>XPRevolutionBlackbeard</Tech>
-				<Tech>XPRevolutionBonifacio</Tech>
+				<Tech>XPRevolutionIrish</Tech>
 				<Tech>XPRevolutionEgypt</Tech>
 				<Tech>XPRevolutionHejaz</Tech>
 			</Effect>
@@ -80749,7 +80757,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect select="2" status="obtainable" type="RandomTech">
-				<Tech>XPRevolutionLouverture</Tech>
+				<Tech>XPRevolutionIrish</Tech>
 				<Tech>XPRevolutionBlackbeard</Tech>
 				<Tech>XPRevolutionPhilippines</Tech>
 				<Tech>XPRevolutionIndonesia</Tech>
@@ -81030,6 +81038,7 @@
 		<Icon>ui\techs\longbowmen</Icon>
 		<RolloverTextID>782019</RolloverTextID>
 		<Flag>YPNeverObtainableAfterUse</Flag>
+		<Flag>ForceLastInLine</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Colonialize</TechStatus>
 		</Prereqs>
@@ -81052,6 +81061,7 @@
 		<Icon>ui\techs\greenjackets</Icon>
 		<RolloverTextID>782021</RolloverTextID>
 		<Flag>YPNeverObtainableAfterUse</Flag>
+		<Flag>ForceLastInLine</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Colonialize</TechStatus>
 		</Prereqs>
@@ -85127,6 +85137,9 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="TacticEnable" tactic="Mortar" type="Data">
 				<Target type="ProtoUnit">Factory</Target>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Cannon</Target>
+			</Effect>
 			<Effect type="TextOutput">782557</Effect>
 		</Effects>
 	</Tech>
@@ -86542,6 +86555,9 @@
 			<Effect status="obtainable" type="TechStatus">Age5BigTechPlantation</Effect>
 			<Effect status="obtainable" type="TechStatus">Age5BigTechStockades</Effect>
 			<Effect culture="none" newName="782779" proto="TownCenter" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="CopyUnitPortraitAndIcon" type="Data" unittype="ypIrregular">
+				<Target type="ProtoUnit">ypIrregularIndians</Target>
+			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">ypRepentantOutlawPistol</Target>
 			</Effect>
@@ -86737,7 +86753,7 @@
 				<Target type="ProtoUnit">FieldHospital</Target>
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">Bayonet</Effect>
-			<Effect status="active" type="TechStatus">Levy</Effect>
+			<Effect status="active" type="TechStatus">LevyBarbary</Effect>
 			<Effect action="SpawnBombard" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
 				<Target type="ProtoUnit">Factory</Target>
 			</Effect>
@@ -87477,7 +87493,7 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect status="active" type="TechStatus">PostIndustrialOttoman</Effect>
+			<Effect status="active" type="TechStatus">PostIndustrialBarbary</Effect>
 			<Effect status="active" type="TechStatus">ImpLargeScaleAgriculture</Effect>
 			<Effect status="active" type="TechStatus">ImpImmigrants</Effect>
 			<Effect status="active" type="TechStatus">ImpDeforestation</Effect>
@@ -87666,9 +87682,6 @@
 			<Effect status="obtainable" type="TechStatus">ChurchGasLighting</Effect>
 			<Effect status="obtainable" type="TechStatus">StarFort</Effect>
 			<Effect status="obtainable" type="TechStatus">FortifiedOutpost</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">CoveredWagon</Target>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">FactoryMassProduction</Effect>
 			<Effect status="obtainable" type="TechStatus">GrapeShot</Effect>
 			<Effect status="obtainable" type="TechStatus">Howitzer</Effect>
@@ -88007,11 +88020,18 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\units\bank_wagon_icon</Icon>
+		<Icon>ui\techs\rulebritannia</Icon>
+		<RolloverTextID>78276</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="WagonBuildings2">
-				<Target type="Player"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">ypRajput</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">ypSowar</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">ypSiegeElephant</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -89575,6 +89595,606 @@
 			<Effect select="1" shared="true" status="obtainable" type="RandomTech">
 				<Tech>PoliticianVermont5</Tech>
 				<Tech>PoliticianVermontAlt5</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="LevyBarbary" type="Normal">
+		<DBID>3717</DBID>
+		<DisplayNameID>62521</DisplayNameID>
+		<Cost resourcetype="Food">150.0000</Cost>
+		<Cost resourcetype="Gold">150.0000</Cost>
+		<ResearchPoints>5.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\asians\tech_town_defense</Icon>
+		<RolloverTextID>62520</RolloverTextID>
+		<Flag>DoNotQueue</Flag>
+		<Effects>
+			<Effect all="true" type="TextOutput">62523</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ConscriptionBarbary" type="Normal">
+		<DBID>3718</DBID>
+		<DisplayNameID>62527</DisplayNameID>
+		<Cost resourcetype="Food">400.0000</Cost>
+		<Cost resourcetype="Gold">200.0000</Cost>
+		<ResearchPoints>5.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\asians\tech_city_defense</Icon>
+		<RolloverTextID>62526</RolloverTextID>
+		<Flag>DoNotQueue</Flag>
+		<Effects>
+			<Effect all="true" type="TextOutput">62523</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCColonialMilitiaBarbary" type="Normal">
+		<DBID>3719</DBID>
+		<DisplayNameID>62529</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\home_city\hc_enlist_the_irregulars</Icon>
+		<RolloverTextID>78265</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect status="active" type="TechStatus">ConscriptionBarbary</Effect>
+			<Effect allactions="1" amount="1.50" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">TownCenter</Target>
+			</Effect>
+			<Effect allactions="1" amount="1.50" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">Dock</Target>
+			</Effect>
+			<Effect type="TextOutput">782524</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCMercenaryTreasures" type="Normal">
+		<DBID>3720</DBID>
+		<DisplayNameID>78266</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\relic</Icon>
+		<RolloverTextID>78267</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Flag>TeamTech</Flag>
+		<Effects>
+			<Effect action="Discover" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
+				<Target type="ProtoUnit">AbstractOutlaw</Target>
+			</Effect>
+			<Effect amount="0.00" relativity="Absolute" subtype="RevealLOS" type="Data">
+				<Target type="ProtoUnit">AbstractNuggetLand</Target>
+			</Effect>
+			<Effect type="TextOutput">78268</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="Age0Austrians" type="Normal">
+		<DBID>3721</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect status="active" type="TechStatus">RandomAge2PoliticiansAustrians</Effect>
+			<Effect status="active" type="TechStatus">RandomAge3PoliticiansAustrians</Effect>
+			<Effect status="active" type="TechStatus">RandomAge4PoliticiansAustrians</Effect>
+			<Effect status="active" type="TechStatus">RandomAge5PoliticiansAustrians</Effect>
+			<Effect status="active" type="TechStatus">RandomRevolutionAustrians</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">FlagBearer</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">DrummerEu</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">WingedK</Target>
+			</Effect>
+			<Effect amount="0.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
+				<Target type="ProtoUnit">WingedK</Target>
+			</Effect>
+			<Effect amount="95.00" relativity="Absolute" resource="Fame" subtype="Cost" type="Data">
+				<Target type="ProtoUnit">WingedK</Target>
+			</Effect>
+			<Effect amount="0.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect amount="50.00" relativity="Absolute" resource="Fame" subtype="Cost" type="Data">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect status="obtainable" type="TechStatus">HabsburgBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">HohenzollernBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">RomanovBrigadeFame</Effect>
+			<Effect status="obtainable" type="TechStatus">HabsburgArmyShadow</Effect>
+			<Effect status="obtainable" type="TechStatus">HohenzollernArmyShadow</Effect>
+			<Effect status="obtainable" type="TechStatus">RomanovArmyShadow</Effect>
+			<Effect status="obtainable" type="TechStatus">EconomicAlliance</Effect>
+			<Effect status="obtainable" type="TechStatus">MilitaryAlliance</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Capitol</Target>
+			</Effect>
+			<Effect status="obtainable" type="TechStatus">SelectiveBreeding</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">ExplorerEast</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">TownCenter</Target>
+			</Effect>
+			<Effect status="active" type="TechStatus">AAStandardStartingTechs</Effect>
+			<Effect status="obtainable" type="TechStatus">VeteranGrenadiers</Effect>
+			<Effect status="obtainable" type="TechStatus">GuardGrenadiers</Effect>
+			<Effect status="obtainable" type="TechStatus">ImperialGrenadiers</Effect>
+			<Effect status="obtainable" type="TechStatus">IncendiaryGrenades</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Grenadier</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">HouseEast</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Mill</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Settler</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">ArtilleryDepot</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Stable</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Barracks</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Plantation</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">TradingPost</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Mortar</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Outpost</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Dock</Target>
+			</Effect>
+			<Effect status="active" type="TechStatus">XPTrickle</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Market</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Arsenal</Target>
+			</Effect>
+			<Effect status="obtainable" type="TechStatus">ImperialCannon</Effect>
+			<Effect status="obtainable" type="TechStatus">VeteranHussars</Effect>
+			<Effect status="obtainable" type="TechStatus">GuardHussars</Effect>
+			<Effect status="obtainable" type="TechStatus">ImperialHussars</Effect>
+			<Effect status="obtainable" type="TechStatus">GuardDragoons</Effect>
+			<Effect status="obtainable" type="TechStatus">ImperialDragoons</Effect>
+			<Effect status="obtainable" type="TechStatus">GuardCavalryArchers</Effect>
+			<Effect status="obtainable" type="TechStatus">ImperialCavalryArchers</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Hussar</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Dragoon</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">CavalryArcher</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">CWallGate</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Church</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">WallStraight2</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">WallStraight5</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">WallConnector</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Skirmisher</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Crossbowman</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Pikeman</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Priest</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">FieldHospital</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">FishingBoat</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Musketeer</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Halberdier</Target>
+			</Effect>
+			<Effect status="obtainable" type="TechStatus">GuardHalberdiers</Effect>
+			<Effect status="obtainable" type="TechStatus">ImperialHalberdiers</Effect>
+			<Effect status="obtainable" type="TechStatus">VeteranCrossbowmen</Effect>
+			<Effect status="obtainable" type="TechStatus">VeteranPikemen</Effect>
+			<Effect status="obtainable" type="TechStatus">GuardCrossbowmen</Effect>
+			<Effect status="obtainable" type="TechStatus">GuardPikemen</Effect>
+			<Effect status="obtainable" type="TechStatus">ImperialPikemen</Effect>
+			<Effect status="obtainable" type="TechStatus">ImperialCrossbowmen</Effect>
+			<Effect status="obtainable" type="TechStatus">VeteranSkirmishers</Effect>
+			<Effect status="obtainable" type="TechStatus">ImperialSkirmishers</Effect>
+			<Effect status="obtainable" type="TechStatus">GuardSkirmishers</Effect>
+			<Effect status="obtainable" type="TechStatus">VeteranMusketeers</Effect>
+			<Effect status="obtainable" type="TechStatus">GuardMusketeers</Effect>
+			<Effect status="obtainable" type="TechStatus">ImperialMusketeers</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Envoy</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Culverin</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Falconet</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Monitor</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Frigate</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Galleon</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">Caravel</Target>
+			</Effect>
+			<Effect status="active" type="TechStatus">Levy</Effect>
+			<Effect action="SpawnCannon" amount="1.00" relativity="Absolute" subtype="ActionEnable" type="Data">
+				<Target type="ProtoUnit">Factory</Target>
+			</Effect>
+			<Effect status="obtainable" type="TechStatus">ImperialCannon</Effect>
+			<Effect status="obtainable" type="TechStatus">ImperialFieldGun</Effect>
+			<Effect status="obtainable" type="TechStatus">FieldGun</Effect>
+			<Effect status="obtainable" type="TechStatus">ImperialManOWar</Effect>
+			<Effect status="obtainable" type="TechStatus">ImperialMonitors</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">SPCFortCenter</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">xpSpy</Target>
+			</Effect>
+			<Effect status="unobtainable" type="TechStatus">Howitzer</Effect>
+			<Effect status="unobtainable" type="TechStatus">ImperialHowitzer</Effect>
+			<Effect status="obtainable" type="TechStatus">HowitzerNew</Effect>
+			<Effect status="obtainable" type="TechStatus">ImperialHowitzerNew</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="RandomRevolutionAustrians" type="Normal">
+		<DBID>3722</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="2" status="obtainable" type="RandomTech">
+				<Tech>XPRevolutionHesse</Tech>
+				<Tech>XPRevolutionRomania</Tech>
+				<Tech>XPRevolutionPoland</Tech>
+				<Tech>XPRevolutionHungary</Tech>
+				<Tech>XPRevolutionBonifacio</Tech>
+				<Tech>XPRevolutionLouverture</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ColonializeAustrians" type="Normal">
+		<DBID>3723</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\post_game\time_line_age_2</Icon>
+		<Effects>
+			<Effect status="active" type="TechStatus">Colonialize</Effect>
+			<Effect type="TextOutput">780790</Effect>
+			<Effect amount="1.40" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">ExplorerEast</Target>
+			</Effect>
+			<Effect amount="1.30" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">ExplorerDog</Target>
+			</Effect>
+			<Effect allactions="1" amount="1.40" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">ExplorerEast</Target>
+			</Effect>
+			<Effect amount="1.20" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">AbstractPet</Target>
+			</Effect>
+			<Effect allactions="1" amount="1.20" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">AbstractPet</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="FortressizeAustrians" type="Normal">
+		<DBID>3724</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\post_game\time_line_age_3</Icon>
+		<Effects>
+			<Effect status="active" type="TechStatus">Fortressize</Effect>
+			<Effect type="TextOutput">780790</Effect>
+			<Effect amount="1.60" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">ExplorerEast</Target>
+			</Effect>
+			<Effect allactions="1" amount="1.60" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">ExplorerEast</Target>
+			</Effect>
+			<Effect amount="1.30" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">ExplorerDog</Target>
+			</Effect>
+			<Effect amount="1.30" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">AbstractPet</Target>
+			</Effect>
+			<Effect allactions="1" amount="1.30" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">AbstractPet</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="IndustrializeAustrians" type="Normal">
+		<DBID>3725</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\post_game\time_line_age_4</Icon>
+		<Effects>
+			<Effect status="active" type="TechStatus">Industrialize</Effect>
+			<Effect type="TextOutput">780790</Effect>
+			<Effect amount="2.00" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">ExplorerEast</Target>
+			</Effect>
+			<Effect amount="1.30" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">ExplorerDog</Target>
+			</Effect>
+			<Effect allactions="1" amount="2.00" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">ExplorerEast</Target>
+			</Effect>
+			<Effect allactions="1" amount="1.40" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">AbstractPet</Target>
+			</Effect>
+			<Effect amount="1.40" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">AbstractPet</Target>
+			</Effect>
+			<Effect amount="1.25" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">xpSpy</Target>
+			</Effect>
+			<Effect allactions="1" amount="1.25" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">xpPetard</Target>
+			</Effect>
+			<Effect amount="1.25" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">xpPetard</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ImperializeAustrians" type="Normal">
+		<DBID>3726</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\post_game\time_line_age_5</Icon>
+		<Effects>
+			<Effect status="active" type="TechStatus">Imperialize</Effect>
+			<Effect type="TextOutput">780790</Effect>
+			<Effect amount="2.00" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">ExplorerEast</Target>
+			</Effect>
+			<Effect allactions="1" amount="2.00" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">ExplorerEast</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">ExplorerDog</Target>
+			</Effect>
+			<Effect allactions="1" amount="1.60" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">AbstractPet</Target>
+			</Effect>
+			<Effect amount="1.60" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">AbstractPet</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">xpSpy</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">xpPetard</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PostIndustrialAustrians" type="Normal">
+		<DBID>3727</DBID>
+		<DisplayNameID>36249</DisplayNameID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect status="active" type="TechStatus">ChurchRedBrickWall</Effect>
+			<Effect status="active" type="TechStatus">ImprovedBows</Effect>
+			<Effect status="active" type="TechStatus">ChurchStateReligion</Effect>
+			<Effect status="active" type="TechStatus">ImpKnighthood</Effect>
+			<Effect status="active" type="TechStatus">ImpPeerage</Effect>
+			<Effect status="active" type="TechStatus">GreatCoatUS</Effect>
+			<Effect status="active" type="TechStatus">Gangsaw</Effect>
+			<Effect status="active" type="TechStatus">CavalryCuirass</Effect>
+			<Effect status="active" type="TechStatus">Bayonet</Effect>
+			<Effect status="active" type="TechStatus">Rifling</Effect>
+			<Effect status="active" type="TechStatus">GunnersQuadrant</Effect>
+			<Effect status="active" type="TechStatus">HeatedShot</Effect>
+			<Effect status="active" type="TechStatus">InfantryBreastplate</Effect>
+			<Effect status="active" type="TechStatus">SeedDrill</Effect>
+			<Effect status="active" type="TechStatus">SelectiveBreeding</Effect>
+			<Effect status="active" type="TechStatus">HuntingDogs</Effect>
+			<Effect status="active" type="TechStatus">Revetment</Effect>
+			<Effect status="active" type="TechStatus">Bastion</Effect>
+			<Effect status="active" type="TechStatus">PlacerMines</Effect>
+			<Effect status="active" type="TechStatus">Caracole</Effect>
+			<Effect status="active" type="TechStatus">OreRefining</Effect>
+			<Effect status="active" type="TechStatus">ArmorPlating</Effect>
+			<Effect status="active" type="TechStatus">Carronade</Effect>
+			<Effect status="active" type="TechStatus">PercussionLocks</Effect>
+			<Effect status="active" type="TechStatus">ChurchStandingArmy</Effect>
+			<Effect status="active" type="TechStatus">ChurchGasLighting</Effect>
+			<Effect status="active" type="TechStatus">FrontierTraining</Effect>
+			<Effect status="active" type="TechStatus">LogFlume</Effect>
+			<Effect status="active" type="TechStatus">Bookkeeping</Effect>
+			<Effect status="active" type="TechStatus">ArtificialFertilizer</Effect>
+			<Effect status="active" type="TechStatus">CircularSaw</Effect>
+			<Effect status="active" type="TechStatus">Amalgamation</Effect>
+			<Effect status="active" type="TechStatus">Homesteading</Effect>
+			<Effect status="active" type="TechStatus">LongLines</Effect>
+			<Effect status="active" type="TechStatus">GillNets</Effect>
+			<Effect status="active" type="TechStatus">FrontierOutpost</Effect>
+			<Effect status="active" type="TechStatus">SteelTraps</Effect>
+			<Effect status="active" type="TechStatus">FactoryWaterPower</Effect>
+			<Effect status="active" type="TechStatus">FactorySteamPower</Effect>
+			<Effect status="active" type="TechStatus">FactoryCannery</Effect>
+			<Effect status="active" type="TechStatus">StarFort</Effect>
+			<Effect status="active" type="TechStatus">FortifiedOutpost</Effect>
+			<Effect status="active" type="TechStatus">ChurchMassCavalry</Effect>
+			<Effect status="active" type="TechStatus">ChurchArtillery</Effect>
+			<Effect status="active" type="TechStatus">Trunion</Effect>
+			<Effect status="active" type="TechStatus">ProfessionalGunners</Effect>
+			<Effect status="active" type="TechStatus">PaperCartridge</Effect>
+			<Effect status="active" type="TechStatus">MilitaryDrummers</Effect>
+			<Effect status="active" type="TechStatus">Flintlock</Effect>
+			<Effect status="active" type="TechStatus">Pillage</Effect>
+			<Effect status="active" type="TechStatus">FactoryMassProduction</Effect>
+			<Effect status="active" type="TechStatus">IncendiaryGrenades</Effect>
+			<Effect status="active" type="TechStatus">NativeUpgrades</Effect>
+			<Effect status="active" type="TechStatus">NativeUpgrades2</Effect>
+			<Effect status="active" type="TechStatus">VeteranGrenadiers</Effect>
+			<Effect status="active" type="TechStatus">GuardGrenadiers</Effect>
+			<Effect status="active" type="TechStatus">VeteranHussars</Effect>
+			<Effect status="active" type="TechStatus">GuardHussars</Effect>
+			<Effect status="active" type="TechStatus">GuardDragoons</Effect>
+			<Effect status="active" type="TechStatus">GuardCavalryArchers</Effect>
+			<Effect status="active" type="TechStatus">GuardHalberdiers</Effect>
+			<Effect status="active" type="TechStatus">VeteranCrossbowmen</Effect>
+			<Effect status="active" type="TechStatus">VeteranPikemen</Effect>
+			<Effect status="active" type="TechStatus">GuardCrossbowmen</Effect>
+			<Effect status="active" type="TechStatus">GuardPikemen</Effect>
+			<Effect status="active" type="TechStatus">VeteranSkirmishers</Effect>
+			<Effect status="active" type="TechStatus">GuardSkirmishers</Effect>
+			<Effect status="active" type="TechStatus">VeteranMusketeers</Effect>
+			<Effect status="active" type="TechStatus">GuardMusketeers</Effect>
+			<Effect status="active" type="TechStatus">FieldGun</Effect>
+			<Effect status="active" type="TechStatus">HowitzerNew</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PostImperialAustrians" type="Normal">
+		<DBID>3728</DBID>
+		<DisplayNameID>36313</DisplayNameID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect status="active" type="TechStatus">PostIndustrialAustrians</Effect>
+			<Effect status="active" type="TechStatus">ImpLargeScaleAgriculture</Effect>
+			<Effect status="active" type="TechStatus">ImpImmigrants</Effect>
+			<Effect status="active" type="TechStatus">ImpDeforestation</Effect>
+			<Effect status="active" type="TechStatus">ImpExcessiveTaxation</Effect>
+			<Effect status="active" type="TechStatus">ImpLegendaryNatives</Effect>
+			<Effect status="active" type="TechStatus">ImperialGrenadiers</Effect>
+			<Effect status="active" type="TechStatus">ImperialCannon</Effect>
+			<Effect status="active" type="TechStatus">ImperialHussars</Effect>
+			<Effect status="active" type="TechStatus">ImperialDragoons</Effect>
+			<Effect status="active" type="TechStatus">ImperialCavalryArchers</Effect>
+			<Effect status="active" type="TechStatus">ImperialCannon</Effect>
+			<Effect status="active" type="TechStatus">ImperialDragoons</Effect>
+			<Effect status="active" type="TechStatus">ImperialHussars</Effect>
+			<Effect status="active" type="TechStatus">ImperialCavalryArchers</Effect>
+			<Effect status="active" type="TechStatus">ImperialHalberdiers</Effect>
+			<Effect status="active" type="TechStatus">ImperialPikemen</Effect>
+			<Effect status="active" type="TechStatus">ImperialCrossbowmen</Effect>
+			<Effect status="active" type="TechStatus">ImperialSkirmishers</Effect>
+			<Effect status="active" type="TechStatus">ImperialMusketeers</Effect>
+			<Effect status="active" type="TechStatus">ImperialCannon</Effect>
+			<Effect status="active" type="TechStatus">ImperialFieldGun</Effect>
+			<Effect status="active" type="TechStatus">ImperialManOWar</Effect>
+			<Effect status="active" type="TechStatus">ImperialMonitors</Effect>
+			<Effect status="active" type="TechStatus">ImperialHowitzerNew</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="AustriansTeamTech" type="Normal">
+		<DBID>3729</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect amount="50.00" relativity="Absolute" resource="XP" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="RandomAge2PoliticiansAustrians" type="Normal">
+		<DBID>3730</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="4" shared="true" status="obtainable" type="RandomTech">
+				<Tech>PoliticianGovernor</Tech>
+				<Tech>PoliticianQuartermaster</Tech>
+				<Tech>PoliticianNaturalist</Tech>
+				<Tech>PoliticianBishop</Tech>
+				<Tech>PoliticianPhilosopherPrince</Tech>
+				<Tech>PoliticianDiplomat</Tech>
+				<Tech>PoliticianArtist</Tech>
+				<Tech>PoliticianLawman</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="RandomAge3PoliticiansAustrians" type="Normal">
+		<DBID>3731</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="4" shared="true" status="obtainable" type="RandomTech">
+				<Tech>PoliticianSergeant</Tech>
+				<Tech>PoliticianMohawk</Tech>
+				<Tech>PoliticianPirate</Tech>
+				<Tech>PoliticianAdventurer</Tech>
+				<Tech>PoliticianExiledPrince</Tech>
+				<Tech>PoliticianMarksman</Tech>
+				<Tech>PoliticianScout</Tech>
+				<Tech>PoliticianAdmiral</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="RandomAge4PoliticiansAustrians" type="Normal">
+		<DBID>3732</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="4" shared="true" status="obtainable" type="RandomTech">
+				<Tech>PoliticianEngineer</Tech>
+				<Tech>PoliticianTycoon</Tech>
+				<Tech>PoliticianMusketeer</Tech>
+				<Tech>PoliticianCavalier</Tech>
+				<Tech>PoliticianPapalGuard</Tech>
+				<Tech>PoliticianWarMinister</Tech>
+				<Tech>PoliticianViceroy</Tech>
+				<Tech>PoliticianMercenary</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="RandomAge5PoliticiansAustrians" type="Normal">
+		<DBID>3733</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="2" shared="true" status="obtainable" type="RandomTech">
+				<Tech>PoliticianPresidente</Tech>
+				<Tech>PoliticianPresidenteEU</Tech>
+				<Tech>PoliticianGeneral</Tech>
+				<Tech>PoliticianGeneralUSA</Tech>
+				<Tech>PoliticianRevolutionary</Tech>
 			</Effect>
 		</Effects>
 	</Tech>
