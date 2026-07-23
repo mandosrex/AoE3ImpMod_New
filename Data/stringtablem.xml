@@ -2495,8 +2495,8 @@
 		<String _locID="26053">Capybara</String>
 		<String _locID="26057">River Props Amazon</String>
 		<String _locID="26058">PROP River Amazon River</String>
-		<String _locID="26059" symbol="cStringCivRolloverFrench">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Villagers are Coureurs, which are expensive but gather and fight better than Villagers. Receives a free Wood shipment when allying with natives.\nTeam: Native warrior train limit increased.</String>
-		<String _locID="26060" symbol="cStringCivRolloverBritish">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Manors spawn Settlers when built. Barracks can be configured to train archaic or modern units. Trains Generals and gets a free General in the Fortress Age.\nTeam: Dock build limit increased in the Discovery Age.</String>
+		<String _locID="26059" symbol="cStringCivRolloverFrench">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Villagers are Coureurs, which are expensive but gather and fight better than Villagers. Receives a free Wood shipment when researching Trading Post upgrades.\nTeam: Native warrior train limit increased.</String>
+		<String _locID="26060" symbol="cStringCivRolloverBritish">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Manors spawn Settlers when built. Barracks can be configured to train archaic or modern units. Has access to foreign units from the Empire.\nTeam: Dock build limit increased in the Discovery Age.</String>
 		<String _locID="26061" symbol="cStringCivRolloverSpanish">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Earns Home City Shipments faster. All archaic Veteran upgrades are researched for free upon reaching the Fortress Age.\nTeam: Warships and Fishing Boats train faster.</String>
 		<String _locID="26062" symbol="cStringCivRolloverPortuguese">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Gets a free Town Wagon with every Age and increased Town Center and Dock limits. Home City Shipments arrive faster.\nTeam: Town Centers are cheaper.</String>
 		<String _locID="26063" symbol="cStringCivRolloverDutch">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Small villager population, but can build Banks to produce Coin. Villagers are Burghers, which cost Coin but yield more resources from mines. Gets extra Envoys.\nTeam: Villagers gather Coin faster.</String>
@@ -5633,7 +5633,7 @@
 		<String _locID="34162">The Tycoon</String>
 		<String _locID="34163">The Viceroy</String>
 		<String _locID="34164">The War Minister</String>
-		<String _locID="34165">{Ma^4 Pikemen and 4 Crossbowmen^}{Fr^10 Crossbowmen^}{Br^7 Longbowmen^}{Po^4 Pikemen and 4 Crossbowmen^}{Sp^4 Pikemen and 4 Crossbowmen^}{It^4 Pikemen and 4 Genoese Crossbowmen^}{Sw^4 Pikemen and 3 Handgonnes^}{US^9 Militia^}{Du^4 Pikemen and 3 Fencibles^}{Ru^11 Strelets^}{Ot^4 Azaps and 3 Janissaries^}{Ge^4 Pikemen and 4 Crossbowmen^}</String>
+		<String _locID="34165">{Ma^4 Pikemen and 4 Crossbowmen^}{Fr^10 Crossbowmen^}{Br^4 Pikemen and 4 Longbowmen^}{Po^4 Pikemen and 4 Crossbowmen^}{Sp^4 Pikemen and 4 Crossbowmen^}{It^4 Pikemen and 4 Genoese Crossbowmen^}{Sw^4 Pikemen and 3 Handgonnes^}{US^9 Militia^}{Du^4 Pikemen and 3 Fencibles^}{Ru^11 Strelets^}{Ot^4 Azaps and 3 Janissaries^}{Ge^4 Pikemen and 4 Crossbowmen^}</String>
 		<String _locID="34166">{Ma^2 Settlers and 1 Priest^}{Fr^2 Coureurs and 1 Priest^}{Br^2 Settlers and 1 Priest^}{Po^2 Settlers and 1 Priest^}{Sp^2 Settlers and 1 Missionary^}{It^2 Settlers and 1 Inquisitor^}{Sw^2 Settlers and 1 Priest^}{US^2 Settlers and 1 Priest^}{Du^2 Burghers and 1 Priest^}{Ru^2 Settlers and 1 Priest^}{Ot^2 Yuruks and 1 Imam^}{Ge^1 Bavarian and 1 Priest^}</String>
 		<String _locID="34167">{Ma^6 Hussars^}{Fr^3 Cuirassiers^}{Br^6 Hussars^}{Po^6 Paladins^}{Sp^5 Lancers^}{It^6 Hussars^}{Sw^6 Hussars^}{US^6 Sabers^}{Du^6 Hussars^}{Ru^6 Cossacks^}{Ot^4 Sipahis^}{Ge^7 Uhlans^}</String>
 		<String _locID="34168">1 Outpost Wagon and Chests of 200 Wood</String>
@@ -7816,7 +7816,7 @@
 		<String _locID="37343">TEAM improved unit line of sight.</String>
 		<String _locID="37344">Train Parts</String>
 		<String _locID="37345">SPC Train Parts</String>
-		<String _locID="37346">2 Galleons and 2 Treasure Ships which cannot attack but generate Coin over time.</String>
+		<String _locID="37346">Warships hitpoints increased, and Gallleon hitpoints significantly increased.</String>
 		<String _locID="37347">Spanish Treasure Fleet</String>
 		<String _locID="37348">Fallen Chiefs: 0/5</String>
 		<String _locID="37349">Fallen Chiefs: 1/5</String>
@@ -17493,7 +17493,7 @@
 		<String _locID="47090">Amish Ordnung Shipment has arrived.</String>
 		<String _locID="47091">Kulaks Shipment has arrived.</String>
 		<String _locID="47092">Suvorov Reforms Shipment has arrived.</String>
-		<String _locID="47093">Galleons and Command Posts have more hitpoints and Pirates become available to train at the Saloon.</String>
+		<String _locID="47093">Ships 2 Galleons containing Pirates and Pirates become available to train at the Saloon.</String>
 		<String _locID="47094">Spanish Gold</String>
 		<String _locID="47095">Suvorov Reforms Shipment has arrived.</String>
 		<String _locID="47096">Spanish Gold Shipment has arrived.</String>
@@ -31120,7 +31120,7 @@
 		<String _locID="77800">Imperial Gatling Guns</String>
 		<String _locID="77801">Imperial Gatling Gun</String>
 		<String _locID="77802">Americans</String>
-		<String _locID="77803">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Starts with Independence units enabled. Can build multiple Saloons and Barracks from the Discovery Age. Minutemen gather after every destroyed building.\nTeam: Start with a free Miner.</String>
+		<String _locID="77803">Culture: Can use Fame and the Decree card for extra bonuses; starts with Revolution units enabled.\nBonus: Can build Saloons to train cowboys for Fame and Barracks from the Discovery Age. Minutemen gather after every destroyed building.\nTeam: Start with a free Miner.</String>
 		<String _locID="77804">3 Gatling Guns</String>
 		<String _locID="77805">Imperial Cassadores</String>
 		<String _locID="77806">Imperial upgrade for Cassadores.</String>
@@ -31165,8 +31165,8 @@
 		<String _locID="77845">Delivers a supply of 999 Coin.</String>
 		<String _locID="77846">Provides any type of resource.</String>
 		<String _locID="77847">4 Pilgrims</String>
-		<String _locID="77848">Military Might</String>
-		<String _locID="77849">Ships a General that can boost the hitpoints and attack of nearby units. Permits you to have an extra General.</String>
+		<String _locID="77848">Indian Monk</String>
+		<String _locID="77849">Ships an Indian Monk that can heal, fight, and build important buildings. Also enables the Monk at the Town Center.</String>
 		<String _locID="77850">General</String>
 		<String _locID="77851">Ships a General that can boost the hitpoints and attack of nearby units. Also enables the General at the Command Post.</String>
 		<String _locID="77852">Chieftain who can train all Sioux infantry and boost the attack and hitpoints of nearby units.</String>
@@ -31452,8 +31452,8 @@
 		<String _locID="780729">Major Custer</String>
 		<String _locID="780730">Colonel Custer</String>
 		<String _locID="780731">Polish royal cavalry with a trample attack.</String>
-		<String _locID="780732">Patriots</String>
-		<String _locID="780733">Militia reinforcements can arrive at Trading Posts via trade routes. Also Militia speed increased.</String>
+		<String _locID="780732">Midnight Ride</String>
+		<String _locID="780733">Militia reinforcements can arrive at Trading Posts via trade routes. Also Militia speed is increased.</String>
 		<String _locID="780734">Trade Guard</String>
 		<String _locID="780735">Town Centers support 10 more population and maximum population cap is increased by 30. Also increases gather rates of nearby units.</String>
 		<String _locID="780736">Trade Wagon</String>
@@ -32361,7 +32361,7 @@
 		<String _locID="781649">Dynamite Attack</String>
 		<String _locID="781650">An explosive attack that does heavy damage to buildings and ships.</String>
 		<String _locID="781651">Commander-in-Chief</String>
-		<String _locID="781652">Placeholder text for unfinished content. However, here are some concepts: Can pick between Cantonese, Incan and European techs and units for each building category. Some shipments arrive really fast.</String>
+		<String _locID="781652">Culture: Can use Fame and the Decree card for extra bonuses; starts with Revolution units enabled.\nBonus: Can pick between Cantonese, Incan and European technologies and units for each building category. Has access to more fast arriving Shipments.\nTeam: Start with a .</String>
 		<String _locID="781653">Bogota</String>
 		<String _locID="781654">General</String>
 		<String _locID="781655">Warchief</String>
@@ -32735,7 +32735,7 @@
 		<String _locID="782025">Ships the selected unit from the Barracks.</String>
 		<String _locID="782026">Ship Longbowmen</String>
 		<String _locID="782027">Ship Green Jackets</String>
-		<String _locID="782028">7 Green Jackets</String>
+		<String _locID="782028">4 Pikemen and 4 Green Jackets</String>
 		<String _locID="782029">6 Longbowmen</String>
 		<String _locID="782030">8 Longbowmen</String>
 		<String _locID="782031">15 Longbowmen</String>
@@ -33261,7 +33261,7 @@
 		<String _locID="782553">States-General Shipment has arrived.</String>
 		<String _locID="782554">Fame Auto Gather</String>
 		<String _locID="782555">Heavy Artillery Manufactoring</String>
-		<String _locID="782556">Factories can be configured to produce Mortars and Basilisk Cannons can be trained from Artillery Depots.</String>
+		<String _locID="782556">Factories can be configured to produce Mortars, and Basilisk Cannons can be trained from Artillery Depots.</String>
 		<String _locID="782557">Mortar Production Shipment has arrived.</String>
 		<String _locID="782558">Configure this Factory to produce Mortars.</String>
 		<String _locID="782559">This Factory is producing Mortars.</String>
@@ -33368,7 +33368,7 @@
 		<String _locID="782660">1 Military Rickshaw and 3 Sohei\n \n1.5x experience points earned</String>
 		<String _locID="782661">1 Military Rickshaw and 6 Sohei\n \n1.5x experience points earned</String>
 		<String _locID="782662">2 Military Rickshaws and 12 Sohei\n \n1.5x experience points earned</String>
-		<String _locID="782663">{Ma^6 Arquebusiers^}{Fr^6 Skirmishers^}{Br^6 Green Jackets^}{Po^6 Cassadores^}{Sp^6 Skirmishers^}{It^8 Genoese Crossbowmen^}{Sw^6 Skarpskytt^}{US^6 Riflemen^}{Du^6 Skirmishers^}{Ru^8 Strelets^}{Ot^5 Abus Guns^}{Ge^6 Skirmishers^}</String>
+		<String _locID="782663">6 Green Jackets</String>
 		<String _locID="782664">Knights\nPaladins\nBoneguards\n \nShips rapidly deployed units</String>
 		<String _locID="782665">Maltese Allies\n+20% Hand Infantry Speed</String>
 		<String _locID="782666">Boneguard Brigade</String>
@@ -33690,6 +33690,8 @@
 		<String _locID="78273">Habsburg villager that constructs buildings and gathers resources. Doesn't take up population space.</String>
 		<String _locID="78274">Engineer</String>
 		<String _locID="78275">Passive Ability: This unit can repair nearby buildings.</String>
-		<String _locID="78276">Enables Indian Rajputs, Sowars and Siege Elephants to be trained.</String>
+		<String _locID="78276">Enables Indian Rajputs, Sowars and Siege Elephants and their upgrades.</String>
+		<String _locID="78277">Das Bierhaus</String>
+		<String _locID="78278">Ships a number of Winged Hussar mercenaries and makes them available to train at the Saloon.</String>
 	</Language>
 </StringTable>

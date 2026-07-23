@@ -487,17 +487,6 @@ void main(void)
 			rmAddPlayerResource(i, "ships", 1);
 		}
 
-    if(rmGetNomadStart() == false) {
-      
-			// Placing outpost/gold
-      if (rmGetPlayerCiv(i) == rmGetCivID("Japanese")) {
-        rmPlaceObjectDefAtLoc(startingOutpostAsianID, i, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
-	}
-    
-    // nomad silver
-    else {
-      rmPlaceObjectDefAtLoc(startSilverID, 0, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
-    }
 	}
 
 	// Text

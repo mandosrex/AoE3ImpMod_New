@@ -129,7 +129,7 @@ void main(void)
    // Nature constraints (forests, mines & starting resources)
    int forestObjConstraint = rmCreateTypeDistanceConstraint("forest obj", "all", 6.0);
    int forestConstraint = rmCreateClassDistanceConstraint("forest vs. forest", rmClassID("classForest"), 40.0);
-   int forestConstraintShort = rmCreateClassDistanceConstraint("forest vs. forest short", rmClassID("classForest"), 6.0);
+   int forestConstraintShort = rmCreateClassDistanceConstraint("forest vs. forest short", rmClassID("classForest"), 10.0);
    int avoidCoin = rmCreateTypeDistanceConstraint("avoid coin", "Mine", 40.0);
    int shortAvoidCoin = rmCreateTypeDistanceConstraint("short avoid coin", "gold", 10.0);
    int avoidResource = rmCreateTypeDistanceConstraint("resource avoid resource", "resource", 20.0);
@@ -676,15 +676,14 @@ void main(void)
    {   
       int northForest=rmCreateArea("northforest"+i);
       rmSetAreaWarnFailure(northForest, false);
-      rmSetAreaSize(northForest, rmAreaTilesToFraction(20), rmAreaTilesToFraction(100));
+      rmSetAreaSize(northForest, rmAreaTilesToFraction(50), rmAreaTilesToFraction(100));
       rmSetAreaForestType(northForest, "amazon rain forest");
       rmSetAreaForestDensity(northForest, 1.0);
       rmAddAreaToClass(northForest, rmClassID("classForest"));
       rmSetAreaForestClumpiness(northForest, 0.0);
       rmSetAreaForestUnderbrush(northForest, 0.0);
-      rmSetAreaBaseHeight(northForest, 2.0);
-      rmSetAreaMinBlobs(northForest, 1);
-      rmSetAreaMaxBlobs(northForest, 3);
+      rmSetAreaMinBlobs(northForest, 2);
+      rmSetAreaMaxBlobs(northForest, 4);
       rmSetAreaMinBlobDistance(northForest, 16.0);
       rmSetAreaMaxBlobDistance(northForest, 30.0);
       rmSetAreaCoherence(northForest, 0.7);
@@ -715,15 +714,14 @@ void main(void)
    {   
       int southForest=rmCreateArea("southforest"+i);
       rmSetAreaWarnFailure(southForest, false);
-      rmSetAreaSize(southForest, rmAreaTilesToFraction(20), rmAreaTilesToFraction(100));
+      rmSetAreaSize(southForest, rmAreaTilesToFraction(50), rmAreaTilesToFraction(100));
       rmSetAreaForestType(southForest, "amazon rain forest");
       rmSetAreaForestDensity(southForest, 1.0);
       rmAddAreaToClass(southForest, rmClassID("classForest"));
       rmSetAreaForestClumpiness(southForest, 0.0);
       rmSetAreaForestUnderbrush(southForest, 0.0);
-      rmSetAreaBaseHeight(southForest, 2.0);
-      rmSetAreaMinBlobs(southForest, 1);
-      rmSetAreaMaxBlobs(southForest, 3);
+      rmSetAreaMinBlobs(southForest, 2);
+      rmSetAreaMaxBlobs(southForest, 4);
       rmSetAreaMinBlobDistance(southForest, 16.0);
       rmSetAreaMaxBlobDistance(southForest, 30.0);
       rmSetAreaCoherence(southForest, 0.7);

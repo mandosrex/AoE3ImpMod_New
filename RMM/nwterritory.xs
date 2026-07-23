@@ -83,7 +83,7 @@ void main(void)
 	//	rmSetMapElevationParameters(long type, float minFrequency, long numberOctaves, float persistence, float heightVariation)
 	rmSetMapElevationParameters(cElevTurbulence, 0.04, 4, 0.4, 6.0);
 	// rmSetSeaType("NW Territory River");
-	rmSetSeaType("New England Coast");
+	rmSetSeaType("Northwest Territory Water");
 	rmSetBaseTerrainMix("nwt_grass1");
 	rmTerrainInitialize("NWterritory\ground_grass1_nwt", 5);
 	rmSetMapType("northwestTerritory");
@@ -141,6 +141,7 @@ void main(void)
 	rmDefineClass("importantItem");
 	rmDefineClass("natives");
 	rmDefineClass("classSocket");
+
 
    // -------------Define constraints
    // These are used to have objects and areas avoid each other
@@ -742,7 +743,7 @@ void main(void)
 	rmSetObjectDefMaxDistance(fishID, rmXFractionToMeters(0.5));
 	rmAddObjectDefConstraint(fishID, fishVsFishID);
 	rmAddObjectDefConstraint(fishID, fishLand);
-	rmPlaceObjectDefAtLoc(fishID, 0, 0.5, 0.5, 5*cNumberNonGaiaPlayers);
+	rmPlaceObjectDefAtLoc(fishID, 0, 0.2, 0.8, 5*cNumberNonGaiaPlayers);
 
 
   // Water nuggets
@@ -757,7 +758,7 @@ void main(void)
   rmSetObjectDefMaxDistance(nuggetW, rmXFractionToMeters(0.5));
   rmAddObjectDefConstraint(nuggetW, avoidNuggetLand);
   rmAddObjectDefConstraint(nuggetW, avoidNuggetWater);
-  rmPlaceObjectDefAtLoc(nuggetW, 0, 0.5, 0.5, cNumberNonGaiaPlayers*4);
+  rmPlaceObjectDefAtLoc(nuggetW, 0, 0.2, 0.8, cNumberNonGaiaPlayers*4);
 
 
    rmSetStatusText("",1.0);

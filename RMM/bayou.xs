@@ -165,7 +165,7 @@ void main(void)
 	int bayID=rmCreateArea("The Gulf of Mexico");
 	rmSetAreaSize(bayID, 0.15, 0.15);
 	rmSetAreaLocation(bayID, 0.1, 0.05);
-	rmSetAreaWaterType(bayID, "new england lake");
+	rmSetAreaWaterType(bayID, "bayou");
 	rmSetAreaBaseHeight(bayID, 4.0); // Was 10
 	rmSetAreaMinBlobs(bayID, 8);
 	rmSetAreaMaxBlobs(bayID, 10);

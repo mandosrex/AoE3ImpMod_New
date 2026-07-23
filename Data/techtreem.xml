@@ -202,9 +202,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">NatJaguarWarrior</Target>
 			</Effect>
@@ -225,9 +222,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">ChampionComanche</Effect>
 			<Effect status="obtainable" type="TechStatus">NatHorseBreeding</Effect>
 			<Effect status="obtainable" type="TechStatus">NatMustangs</Effect>
@@ -245,9 +239,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">NatGuerillaWars</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">NatSharktoothBowman</Target>
@@ -265,9 +256,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">NatMorningWars</Effect>
 			<Effect status="obtainable" type="TechStatus">NatLacrosse</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -552,7 +540,7 @@
 			<Effect status="active" type="TechStatus">RandomAge5PoliticiansBritish</Effect>
 			<Effect status="active" type="TechStatus">RandomRevolutionBritish</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">GeneralBr</Target>
+				<Target type="ProtoUnit">WarTent</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">FlagBearer</Target>
@@ -985,9 +973,6 @@
 				<Target type="ProtoUnit">DrummerEu</Target>
 			</Effect>
 			<Effect status="active" type="TechStatus">FreeUhlans</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">WingedK</Target>
-			</Effect>
 			<Effect amount="0.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
 				<Target type="ProtoUnit">WingedK</Target>
 			</Effect>
@@ -1796,9 +1781,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">ChampionCherokee</Effect>
 			<Effect status="obtainable" type="TechStatus">NatWarDance</Effect>
 			<Effect status="obtainable" type="TechStatus">NatBasketweaving</Effect>
@@ -1816,9 +1798,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">NatBolasWarrior</Target>
 			</Effect>
@@ -1839,9 +1818,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">NatGarifunaDrums</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">NatBlowgunWarrior</Target>
@@ -1860,9 +1836,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">Amazons</Effect>
 			<Effect status="obtainable" type="TechStatus">PoliticalAsylum</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -1880,9 +1853,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">NatPotlatch</Effect>
 			<Effect status="obtainable" type="TechStatus">NatBarkClothing</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -1900,9 +1870,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">NatTracker</Target>
 			</Effect>
@@ -2050,9 +2017,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">NatHolcanSpearman</Target>
 			</Effect>
@@ -2073,9 +2037,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">NatAnimalLore</Effect>
 			<Effect status="obtainable" type="TechStatus">NatPoisonArrowFrogs</Effect>
 			<Effect status="obtainable" type="TechStatus">ChampionTupi</Effect>
@@ -3184,6 +3145,11 @@
 			<Effect status="active" type="TechStatus">GuardPikemen</Effect>
 			<Effect status="active" type="TechStatus">GuardCrossbowmen</Effect>
 			<Effect status="active" type="TechStatus">GuardGreenJackets</Effect>
+			<Effect status="active" type="TechStatus">YPDisciplinedRajput</Effect>
+			<Effect status="active" type="TechStatus">YPHonoredRajput</Effect>
+			<Effect status="active" type="TechStatus">YPDisciplinedCamel</Effect>
+			<Effect status="active" type="TechStatus">YPHonoredCamel</Effect>
+			<Effect status="active" type="TechStatus">YPHonoredSiegeElephant</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PostIndustrialFrench" type="Normal">
@@ -3759,6 +3725,9 @@
 			<Effect status="active" type="TechStatus">ImperialPikemen</Effect>
 			<Effect status="active" type="TechStatus">ImperialLifeGuard</Effect>
 			<Effect status="active" type="TechStatus">ImperialGreenJackets</Effect>
+			<Effect status="active" type="TechStatus">YPExaltedRajput</Effect>
+			<Effect status="active" type="TechStatus">YPExaltedCamel</Effect>
+			<Effect status="active" type="TechStatus">YPExaltedSiegeElephant</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PostImperialDutch" type="Normal">
@@ -4256,9 +4225,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">NatLightningWarrior</Target>
 			</Effect>
@@ -4276,9 +4242,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">NatXPCheyenneFury</Effect>
 			<Effect status="obtainable" type="TechStatus">NatXPCheyenneHorseTrading</Effect>
 			<Effect status="obtainable" type="TechStatus">WarriorSocietyCheyenne</Effect>
@@ -4296,9 +4259,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">NatXPHuronTradeMonopoly</Effect>
 			<Effect status="obtainable" type="TechStatus">NatXPHuronSunCeremony</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -5483,9 +5443,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">NatKlamathRifleman</Target>
 			</Effect>
@@ -5503,9 +5460,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">NatNavajoRifleman</Target>
 			</Effect>
@@ -5523,9 +5477,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">NatApacheCavalry</Target>
 			</Effect>
@@ -5543,9 +5494,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">NatMapucheClubman</Target>
 			</Effect>
@@ -6521,9 +6469,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">YPNatJesuitSmokelessPowder</Effect>
 			<Effect status="obtainable" type="TechStatus">YPNatJesuitSchools</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -6541,9 +6486,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">YPNatZenMeritocracy</Effect>
 			<Effect status="obtainable" type="TechStatus">YPNatZenMeditation</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -6561,9 +6503,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">YPNatShaolinClenchedFist</Effect>
 			<Effect status="obtainable" type="TechStatus">YPNatShaolinDimMak</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -6581,9 +6520,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">YPNatBhaktiYoga</Effect>
 			<Effect status="obtainable" type="TechStatus">YPNatBhaktiVegetarianism</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -6604,9 +6540,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">YPNatSufiSharia</Effect>
 			<Effect status="obtainable" type="TechStatus">YPNatSufiPilgramage</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -6624,9 +6557,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">YPNatUdasiNewYear</Effect>
 			<Effect status="obtainable" type="TechStatus">YPNatUdasiGurus</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -9378,9 +9308,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">ypNatWarElephant</Target>
 			</Effect>
@@ -10700,6 +10627,9 @@
 			<Effect amount="1.40" relativity="BasePercent" subtype="Hitpoints" type="Data">
 				<Target type="ProtoUnit">NatEagleWarrior</Target>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ChampionComanche" type="Normal">
@@ -10733,6 +10663,9 @@
 				<Target type="ProtoUnit">NatMercHorseArcher</Target>
 			</Effect>
 			<Effect culture="none" newName="48511" proto="NatMercHorseArcher" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="NatTextileCraftsmanship" type="Normal">
@@ -10872,6 +10805,9 @@
 				<Target type="ProtoUnit">NatSharktoothBowman</Target>
 			</Effect>
 			<Effect culture="none" newName="42392" proto="NatSharktoothBowman" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ChampionIroquois" type="Normal">
@@ -10904,6 +10840,9 @@
 			<Effect culture="none" newName="27779" proto="NatMantlet" type="SetName"/>
 			<Effect amount="1.40" relativity="BasePercent" subtype="Hitpoints" type="Data">
 				<Target type="ProtoUnit">NatMantlet</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -11921,6 +11860,9 @@
 			<Effect allactions="1" amount="1.40" relativity="BasePercent" subtype="Damage" type="Data">
 				<Target type="ProtoUnit">NatBlowgunAmbusher</Target>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ChampionCherokee" type="Normal">
@@ -11954,6 +11896,9 @@
 				<Target type="ProtoUnit">NatMercRifleman</Target>
 			</Effect>
 			<Effect culture="none" newName="48509" proto="NatMercRifleman" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ChampionCree" type="Normal">
@@ -11987,6 +11932,9 @@
 				<Target type="ProtoUnit">NatMercTracker</Target>
 			</Effect>
 			<Effect culture="none" newName="48512" proto="NatMercTracker" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ChampionInca" type="Normal">
@@ -12013,6 +11961,9 @@
 				<Target type="ProtoUnit">NatBolasWarrior</Target>
 			</Effect>
 			<Effect culture="none" newName="43068" proto="NatBolasWarrior" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ChampionMaya" type="Normal">
@@ -12046,6 +11997,9 @@
 				<Target type="ProtoUnit">NatMercHolcanSpearman</Target>
 			</Effect>
 			<Effect culture="none" newName="48514" proto="NatMercHolcanSpearman" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ChampionLakota" type="Normal">
@@ -12079,6 +12033,9 @@
 				<Target type="ProtoUnit">NatAxeRiderDogSoldier</Target>
 			</Effect>
 			<Effect culture="none" newName="65764" proto="NatAxeRiderDogSoldier" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ChampionTupi" type="Normal">
@@ -12112,6 +12069,9 @@
 				<Target type="ProtoUnit">NatMercBlackwoodArcher</Target>
 			</Effect>
 			<Effect culture="none" newName="48517" proto="NatMercBlackwoodArcher" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="NatGarifunaDrums" type="Normal">
@@ -13903,6 +13863,18 @@
 			<Effect allactions="1" amount="1.20" relativity="BasePercent" subtype="Damage" type="Data">
 				<Target type="ProtoUnit">AbstractPet</Target>
 			</Effect>
+			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">AbstractIndianMonk</Target>
+			</Effect>
+			<Effect allactions="1" amount="1.50" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">AbstractIndianMonk</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="MaximumVelocity" type="Data">
+				<Target type="ProtoUnit">AbstractIndianMonk</Target>
+			</Effect>
+			<Effect action="SweepDamage" amount="8.00" relativity="Assign" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">AbstractIndianMonk</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="IndustrializeFrench" type="Normal">
@@ -13968,6 +13940,15 @@
 			</Effect>
 			<Effect amount="1.25" relativity="BasePercent" subtype="Hitpoints" type="Data">
 				<Target type="ProtoUnit">xpPetard</Target>
+			</Effect>
+			<Effect amount="2.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">AbstractIndianMonk</Target>
+			</Effect>
+			<Effect allactions="1" amount="2.50" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">AbstractIndianMonk</Target>
+			</Effect>
+			<Effect action="SweepDamage" amount="15.00" relativity="Assign" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">AbstractIndianMonk</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -15517,6 +15498,15 @@
 			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
 				<Target type="ProtoUnit">xpPetard</Target>
 			</Effect>
+			<Effect amount="3.00" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">AbstractIndianMonk</Target>
+			</Effect>
+			<Effect allactions="1" amount="3.00" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">AbstractIndianMonk</Target>
+			</Effect>
+			<Effect action="SweepDamage" amount="20.00" relativity="Assign" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">AbstractIndianMonk</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperializeDutch" type="Normal">
@@ -16284,6 +16274,9 @@
 				<Target type="ProtoUnit">NatClubmanLoyal</Target>
 			</Effect>
 			<Effect culture="none" newName="70502" proto="NatClubmanLoyal" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="VeteranAbusGuns" type="Normal">
@@ -17164,6 +17157,9 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="UpgradeTradeRoute" type="Data">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="TradeRouteUpgrade2" type="Normal">
@@ -17184,6 +17180,9 @@
 		</Prereqs>
 		<Effects>
 			<Effect amount="2.00" relativity="Absolute" subtype="UpgradeTradeRoute" type="Data">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -17287,6 +17286,9 @@
 			<Effect culture="none" newName="36586" proto="NatEagleWarrior" type="SetName"/>
 			<Effect culture="none" newName="36587" proto="NatJaguarWarrior" type="SetName"/>
 			<Effect type="TextOutput">780791</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="WarriorSocietyCaribs" type="Normal">
@@ -17327,6 +17329,9 @@
 				<Target type="ProtoUnit">NatMercBlowgunWarrior</Target>
 			</Effect>
 			<Effect type="TextOutput">780791</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="WarriorSocietyCherokee" type="Normal">
@@ -17360,6 +17365,9 @@
 			</Effect>
 			<Effect culture="none" newName="48496" proto="NatMercRifleman" type="SetName"/>
 			<Effect type="TextOutput">780791</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="WarriorSocietyComanche" type="Normal">
@@ -17393,6 +17401,9 @@
 				<Target type="ProtoUnit">NatMercHorseArcher</Target>
 			</Effect>
 			<Effect type="TextOutput">780791</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="WarriorSocietyCree" type="Normal">
@@ -17426,6 +17437,9 @@
 			</Effect>
 			<Effect culture="none" newName="48499" proto="NatMercTracker" type="SetName"/>
 			<Effect type="TextOutput">780791</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="WarriorSocietyInca" type="Normal">
@@ -17452,6 +17466,9 @@
 			</Effect>
 			<Effect culture="none" newName="36594" proto="NatBolasWarrior" type="SetName"/>
 			<Effect type="TextOutput">780791</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="WarriorSocietyIroquois" type="Normal">
@@ -17485,6 +17502,9 @@
 			<Effect culture="none" newName="36596" proto="NatMantlet" type="SetName"/>
 			<Effect culture="none" newName="36597" proto="NatTomahawk" type="SetName"/>
 			<Effect type="TextOutput">780791</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="WarriorSocietyLakota" type="Normal">
@@ -17518,6 +17538,9 @@
 				<Target type="ProtoUnit">NatAxeRiderDogSoldier</Target>
 			</Effect>
 			<Effect culture="none" newName="45676" proto="NatAxeRiderDogSoldier" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="WarriorSocietyMaya" type="Normal">
@@ -17551,6 +17574,9 @@
 			</Effect>
 			<Effect culture="none" newName="48505" proto="NatMercHolcanSpearman" type="SetName"/>
 			<Effect type="TextOutput">780791</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="WarriorSocietyNootka" type="Normal">
@@ -17591,6 +17617,9 @@
 			</Effect>
 			<Effect culture="none" newName="48506" proto="NatMercClubman" type="SetName"/>
 			<Effect type="TextOutput">780791</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="WarriorSocietySeminoles" type="Normal">
@@ -17617,6 +17646,9 @@
 			</Effect>
 			<Effect culture="none" newName="42391" proto="NatSharktoothBowman" type="SetName"/>
 			<Effect type="TextOutput">780791</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="WarriorSocietyTupi" type="Normal">
@@ -17650,6 +17682,9 @@
 			</Effect>
 			<Effect culture="none" newName="48507" proto="NatMercBlackwoodArcher" type="SetName"/>
 			<Effect type="TextOutput">780791</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCFatterSheepTeam" type="Normal">
@@ -18268,9 +18303,6 @@
 		<Icon>ui\post_game\time_line_age_3</Icon>
 		<Effects>
 			<Effect status="active" type="TechStatus">Fortressize</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="GeneralBr">
-				<Target type="Player"/>
-			</Effect>
 			<Effect type="TextOutput">780790</Effect>
 			<Effect amount="1.60" relativity="BasePercent" subtype="Hitpoints" type="Data">
 				<Target type="ProtoUnit">Explorer</Target>
@@ -18286,6 +18318,15 @@
 			</Effect>
 			<Effect allactions="1" amount="1.30" relativity="BasePercent" subtype="Damage" type="Data">
 				<Target type="ProtoUnit">AbstractPet</Target>
+			</Effect>
+			<Effect amount="2.00" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">AbstractIndianMonk</Target>
+			</Effect>
+			<Effect allactions="1" amount="2.00" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">AbstractIndianMonk</Target>
+			</Effect>
+			<Effect action="SweepDamage" amount="11.00" relativity="Assign" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">AbstractIndianMonk</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -27403,11 +27444,11 @@
 		<RolloverTextID>37346</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Galleon">
-				<Target type="Player"/>
+			<Effect amount="1.25" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">AbstractWarShip</Target>
 			</Effect>
-			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="GoldGalleon">
-				<Target type="Player"/>
+			<Effect amount="1.25" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">Galleon</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -27742,15 +27783,15 @@
 	</Tech>
 	<Tech name="HCShipWingedHussars" type="Normal">
 		<DBID>1058</DBID>
-		<DisplayNameID>37520</DisplayNameID>
+		<DisplayNameID>78277</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
-		<ResearchPoints>40.0000</ResearchPoints>
+		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_polish_winged_hussars\hc_polish_winged_hussars</Icon>
-		<RolloverTextID>37521</RolloverTextID>
+		<Icon>ui\techs\tavern</Icon>
+		<RolloverTextID>78278</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="WingedK">
+			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="WingedKG">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -33209,6 +33250,9 @@
 			</Effect>
 			<Effect culture="none" newName="48504" proto="NatMercHuronMantlet" type="SetName"/>
 			<Effect type="TextOutput">780791</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="WarriorSocietyZapotec" type="Normal">
@@ -33242,6 +33286,9 @@
 			</Effect>
 			<Effect culture="none" newName="48508" proto="NatMercLightningWarrior" type="SetName"/>
 			<Effect type="TextOutput">780791</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ChampionHuron" type="Normal">
@@ -33275,6 +33322,9 @@
 				<Target type="ProtoUnit">NatMercHuronMantlet</Target>
 			</Effect>
 			<Effect culture="none" newName="48513" proto="NatMercHuronMantlet" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ChampionZapotec" type="Normal">
@@ -33308,6 +33358,9 @@
 				<Target type="ProtoUnit">NatMercLightningWarrior</Target>
 			</Effect>
 			<Effect culture="none" newName="48516" proto="NatMercLightningWarrior" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCXPShipHeavyWarCanoes1" type="Normal">
@@ -33768,6 +33821,9 @@
 			</Effect>
 			<Effect culture="none" newName="44381" proto="NatKlamathRifleman" type="SetName"/>
 			<Effect type="TextOutput">780791</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="WarriorSocietyApache" type="Normal">
@@ -33794,6 +33850,9 @@
 			</Effect>
 			<Effect culture="none" newName="44385" proto="NatApacheCavalry" type="SetName"/>
 			<Effect type="TextOutput">780791</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="WarriorSocietyNavajo" type="Normal">
@@ -33820,6 +33879,9 @@
 			</Effect>
 			<Effect culture="none" newName="44389" proto="NatNavajoRifleman" type="SetName"/>
 			<Effect type="TextOutput">780791</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="WarriorSocietyCheyenne" type="Normal">
@@ -33853,6 +33915,9 @@
 				<Target type="ProtoUnit">NatMercCheyenneRider</Target>
 			</Effect>
 			<Effect type="TextOutput">780791</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ChampionKlamath" type="Normal">
@@ -33879,6 +33944,9 @@
 				<Target type="ProtoUnit">NatKlamathRifleman</Target>
 			</Effect>
 			<Effect culture="none" newName="44397" proto="NatKlamathRifleman" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ChampionApache" type="Normal">
@@ -33905,6 +33973,9 @@
 				<Target type="ProtoUnit">NatApacheCavalry</Target>
 			</Effect>
 			<Effect culture="none" newName="44401" proto="NatApacheCavalry" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ChampionNavajo" type="Normal">
@@ -33931,6 +34002,9 @@
 				<Target type="ProtoUnit">NatNavajoRifleman</Target>
 			</Effect>
 			<Effect culture="none" newName="44405" proto="NatNavajoRifleman" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ChampionCheyenne" type="Normal">
@@ -33964,6 +34038,9 @@
 				<Target type="ProtoUnit">NatMercCheyenneRider</Target>
 			</Effect>
 			<Effect culture="none" newName="48510" proto="NatMercCheyenneRider" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCXPWarChiefSioux2" type="Normal">
@@ -36878,6 +36955,9 @@
 			</Effect>
 			<Effect culture="none" newName="45391" proto="NatMapucheClubman" type="SetName"/>
 			<Effect type="TextOutput">780791</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ChampionMapuche" type="Normal">
@@ -36904,6 +36984,9 @@
 				<Target type="ProtoUnit">NatMapucheClubman</Target>
 			</Effect>
 			<Effect culture="none" newName="45395" proto="NatMapucheClubman" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="NatXPKlamathStrategy" type="Normal">
@@ -41997,11 +42080,11 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type="TextOutput">47096</Effect>
-			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
-				<Target type="ProtoUnit">Galleon</Target>
+			<Effect amount="1.00" amount2="2.00" relativity="Absolute" subtype="FreeHomeCityUnitShipped" type="Data2" unittype="Galleon" unittype2="SaloonPirate">
+				<Target type="Player"/>
 			</Effect>
-			<Effect amount="1.25" relativity="BasePercent" subtype="Hitpoints" type="Data">
-				<Target type="ProtoUnit">SPCFortCenter</Target>
+			<Effect amount="1.00" amount2="2.00" relativity="Absolute" subtype="FreeHomeCityUnitShipped" type="Data2" unittype="Galleon" unittype2="SaloonPiratePistol">
+				<Target type="Player"/>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">ypRepentantPirate</Target>
@@ -45173,6 +45256,9 @@
 				<Target type="ProtoUnit">ypNatMercTigerClaw</Target>
 			</Effect>
 			<Effect culture="none" newName="65747" proto="ypNatMercTigerClaw" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ypNatDisciplinedSufi" type="Normal">
@@ -45204,6 +45290,9 @@
 			</Effect>
 			<Effect allactions="1" amount="1.25" relativity="BasePercent" subtype="Damage" type="Data">
 				<Target type="ProtoUnit">ypNatMercWarElephant</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -45237,6 +45326,9 @@
 			<Effect allactions="1" amount="1.25" relativity="BasePercent" subtype="Damage" type="Data">
 				<Target type="ProtoUnit">ypNatMercConquistador</Target>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ypNatDisciplinedShaolin" type="Normal">
@@ -45269,6 +45361,9 @@
 				<Target type="ProtoUnit">ypNatMercRattanShield</Target>
 			</Effect>
 			<Effect culture="none" newName="65750" proto="ypNatMercRattanShield" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ypNatDisciplinedZen" type="Normal">
@@ -45301,6 +45396,9 @@
 				<Target type="ProtoUnit">ypNatMercSohei</Target>
 			</Effect>
 			<Effect culture="none" newName="63621" proto="ypNatMercSohei" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ypNatDisciplinedUdasi" type="Normal">
@@ -45333,6 +45431,9 @@
 				<Target type="ProtoUnit">ypNatMercChakram</Target>
 			</Effect>
 			<Effect culture="none" newName="65752" proto="ypNatMercChakram" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ypNatHonoredJesuit" type="Normal">
@@ -45366,6 +45467,9 @@
 				<Target type="ProtoUnit">ypNatMercConquistador</Target>
 			</Effect>
 			<Effect culture="none" newName="65756" proto="ypNatMercConquistador" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ypNatHonoredZen" type="Normal">
@@ -45399,6 +45503,9 @@
 				<Target type="ProtoUnit">ypNatMercSohei</Target>
 			</Effect>
 			<Effect culture="none" newName="63622" proto="ypNatMercSohei" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ypNatHonoredBhakti" type="Normal">
@@ -45432,6 +45539,9 @@
 				<Target type="ProtoUnit">ypNatMercTigerClaw</Target>
 			</Effect>
 			<Effect culture="none" newName="65754" proto="ypNatMercTigerClaw" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ypNatHonoredShaolin" type="Normal">
@@ -45465,6 +45575,9 @@
 				<Target type="ProtoUnit">ypNatMercRattanShield</Target>
 			</Effect>
 			<Effect culture="none" newName="65757" proto="ypNatMercRattanShield" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ypNatHonoredSufi" type="Normal">
@@ -45498,6 +45611,9 @@
 				<Target type="ProtoUnit">ypNatMercWarElephant</Target>
 			</Effect>
 			<Effect culture="none" newName="65758" proto="ypNatMercWarElephant" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ypNatHonoredUdasi" type="Normal">
@@ -45531,6 +45647,9 @@
 				<Target type="ProtoUnit">ypNatMercChakram</Target>
 			</Effect>
 			<Effect culture="none" newName="65759" proto="ypNatMercChakram" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ypColonializeChinese" type="Normal">
@@ -47330,6 +47449,9 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="UpgradeTradeRoute" type="Data">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="YPHCElephantLimit" type="Normal">
@@ -47695,6 +47817,9 @@
 		</Prereqs>
 		<Effects>
 			<Effect amount="2.00" relativity="Absolute" subtype="UpgradeTradeRoute" type="Data">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -58486,6 +58611,9 @@
 			<Effect amount="2.00" relativity="Absolute" subtype="UpgradeTradeRoute" type="Data">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="TradeRouteUpgradeCapturable1" type="Normal">
@@ -58506,6 +58634,9 @@
 		</Prereqs>
 		<Effects>
 			<Effect amount="1.00" relativity="Absolute" subtype="UpgradeTradeRoute" type="Data">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -61636,6 +61767,9 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="UpgradeTradeRoute" type="Data">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ypTradeRouteUpgrade2" type="Normal">
@@ -61656,6 +61790,9 @@
 		</Prereqs>
 		<Effects>
 			<Effect amount="2.00" relativity="Absolute" subtype="UpgradeTradeRoute" type="Data">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -62737,13 +62874,16 @@
 		<Flag>CivSpecificText</Flag>
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
-			<Effect amount="7.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="DefaultLongbowmen" type="Data" unittype="Longbowman">
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="DefaultLongbowmen" type="Data" unittype="Longbowman">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="7.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ShipsLongbowmen" type="Data" unittype="Longbowman">
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ShipsLongbowmen" type="Data" unittype="Longbowman">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="7.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ShipsGreenJackets" type="Data" unittype="GreenJacket">
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="ShipsGreenJackets" type="Data" unittype="GreenJacket">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0British" type="Data" unittype="Pikeman">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="10.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="Crossbowman">
@@ -69138,15 +69278,15 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\generalhc</Icon>
+		<Icon>ui\techs\monkhc</Icon>
 		<RolloverTextID>77849</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="GeneralBr">
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypMonkIndian2">
 				<Target type="Player"/>
 			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="BuildLimit" type="Data">
-				<Target type="ProtoUnit">GeneralBr</Target>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">ypMonkIndian2</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -73218,6 +73358,9 @@
 			</Effect>
 			<Effect culture="none" newName="781332" proto="CamelArcher" type="SetName"/>
 			<Effect type="TextOutput">780791</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ypNatDisciplinedSaltpeter" type="Normal">
@@ -73244,6 +73387,9 @@
 			</Effect>
 			<Effect culture="none" newName="781335" proto="CamelArcher" type="SetName"/>
 			<Effect type="TextOutput">780791</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCConclave" type="Normal">
@@ -73364,6 +73510,9 @@
 			</Effect>
 			<Effect culture="none" newName="781361" proto="GbetoMerc" type="SetName"/>
 			<Effect type="TextOutput">780791</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ChampionGbeto" type="Normal">
@@ -73398,6 +73547,9 @@
 			</Effect>
 			<Effect culture="none" newName="781363" proto="GbetoMerc" type="SetName"/>
 			<Effect type="TextOutput">780791</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCShipCoveredWagonsAztec" type="Normal">
@@ -74071,9 +74223,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">Amazons</Effect>
 			<Effect status="obtainable" type="TechStatus">PoliticalAsylum</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -81309,6 +81458,9 @@
 			<Effect allactions="1" amount="1.20" relativity="BasePercent" subtype="Damage" type="Data">
 				<Target type="ProtoUnit">AbstractPet</Target>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="FortressizeUSA" type="Normal">
@@ -81413,6 +81565,9 @@
 			</Effect>
 			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
 				<Target type="ProtoUnit">xpPetard</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
+				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -82244,6 +82399,9 @@
 			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianEcuador3" type="Normal">
@@ -82265,6 +82423,9 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -82290,6 +82451,9 @@
 			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianVenezuela3" type="Normal">
@@ -82311,6 +82475,9 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -82339,6 +82506,9 @@
 			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianEcuador4" type="Normal">
@@ -82360,6 +82530,9 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -82385,6 +82558,9 @@
 			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianVenezuela4" type="Normal">
@@ -82406,6 +82582,9 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -82437,6 +82616,9 @@
 			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianEcuador5" type="Normal">
@@ -82461,6 +82643,9 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="WagonCapitol">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -82489,6 +82674,9 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="CommandWagon">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianVenezuela5" type="Normal">
@@ -82513,6 +82701,9 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="WagonTradePost">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -82626,6 +82817,9 @@
 			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianFlorida3" type="Normal">
@@ -82647,6 +82841,9 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -82672,6 +82869,9 @@
 			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianVermont3" type="Normal">
@@ -82693,6 +82893,9 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -82721,6 +82924,9 @@
 			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianFlorida4" type="Normal">
@@ -82742,6 +82948,9 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -82767,6 +82976,9 @@
 			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianVermont4" type="Normal">
@@ -82788,6 +83000,9 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -82819,6 +83034,9 @@
 			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianFlorida5" type="Normal">
@@ -82843,6 +83061,9 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="WagonCapitol">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -82871,6 +83092,9 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="CommandWagon">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianVermont5" type="Normal">
@@ -82895,6 +83119,9 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="WagonTradePost">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -83008,6 +83235,9 @@
 			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianNatal3" type="Normal">
@@ -83029,6 +83259,9 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -83054,6 +83287,9 @@
 			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianTransvaal3" type="Normal">
@@ -83075,6 +83311,9 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -83103,6 +83342,9 @@
 			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianNatal4" type="Normal">
@@ -83124,6 +83366,9 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -83149,6 +83394,9 @@
 			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianTransvaal4" type="Normal">
@@ -83170,6 +83418,9 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -83201,6 +83452,9 @@
 			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SettlerAmerican">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianNatal5" type="Normal">
@@ -83225,6 +83479,9 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="WagonCapitol">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -83253,6 +83510,9 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="CommandWagon">
 				<Target type="Player"/>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianTransvaal5" type="Normal">
@@ -83277,6 +83537,9 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="WagonTradePost">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -88027,12 +88290,20 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">ypRajput</Target>
 			</Effect>
+			<Effect status="obtainable" type="TechStatus">YPDisciplinedRajput</Effect>
+			<Effect status="obtainable" type="TechStatus">YPHonoredRajput</Effect>
+			<Effect status="obtainable" type="TechStatus">YPExaltedRajput</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">ypSowar</Target>
 			</Effect>
+			<Effect status="obtainable" type="TechStatus">YPDisciplinedCamel</Effect>
+			<Effect status="obtainable" type="TechStatus">YPHonoredCamel</Effect>
+			<Effect status="obtainable" type="TechStatus">YPExaltedCamel</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">ypSiegeElephant</Target>
 			</Effect>
+			<Effect status="obtainable" type="TechStatus">YPHonoredSiegeElephant</Effect>
+			<Effect status="obtainable" type="TechStatus">YPExaltedSiegeElephant</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCShipRajputBr" type="Normal">
@@ -88775,9 +89046,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
-				<Target type="Player"/>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">YPNatTengriKumis</Effect>
 			<Effect status="obtainable" type="TechStatus">YPNatTengriShamanDrums</Effect>
 			<Effect status="obtainable" type="TechStatus">YPNatTengriWindHorses</Effect>
@@ -88813,6 +89081,9 @@
 				<Target type="ProtoUnit">ypMongolScout</Target>
 			</Effect>
 			<Effect culture="none" newName="78232" proto="ypMongolScout" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ypNatHonoredTengri" type="Normal">
@@ -88839,6 +89110,9 @@
 				<Target type="ProtoUnit">ypMongolScout</Target>
 			</Effect>
 			<Effect culture="none" newName="78231" proto="ypMongolScout" type="SetName"/>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnitIfTechObtainable" tech="Age0French" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ypNativeTreatyTengri" type="Normal">
@@ -89676,6 +89950,9 @@
 			<Effect status="active" type="TechStatus">RandomAge4PoliticiansAustrians</Effect>
 			<Effect status="active" type="TechStatus">RandomAge5PoliticiansAustrians</Effect>
 			<Effect status="active" type="TechStatus">RandomRevolutionAustrians</Effect>
+			<Effect amount="25.00" relativity="Assign" subtype="BuildLimit" type="Data">
+				<Target type="ProtoUnit">SettlerHabsburg</Target>
+			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">FlagBearer</Target>
 			</Effect>
@@ -89733,7 +90010,7 @@
 				<Target type="ProtoUnit">Mill</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">Settler</Target>
+				<Target type="ProtoUnit">SettlerHabsburg</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">ArtilleryDepot</Target>
@@ -89916,6 +90193,9 @@
 			<Effect allactions="1" amount="1.20" relativity="BasePercent" subtype="Damage" type="Data">
 				<Target type="ProtoUnit">AbstractPet</Target>
 			</Effect>
+			<Effect amount="20.00" relativity="Absolute" subtype="BuildLimit" type="Data">
+				<Target type="ProtoUnit">SettlerHabsburg</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="FortressizeAustrians" type="Normal">
@@ -89939,6 +90219,9 @@
 			</Effect>
 			<Effect allactions="1" amount="1.30" relativity="BasePercent" subtype="Damage" type="Data">
 				<Target type="ProtoUnit">AbstractPet</Target>
+			</Effect>
+			<Effect amount="25.00" relativity="Absolute" subtype="BuildLimit" type="Data">
+				<Target type="ProtoUnit">SettlerHabsburg</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -89972,6 +90255,9 @@
 			</Effect>
 			<Effect amount="1.25" relativity="BasePercent" subtype="Hitpoints" type="Data">
 				<Target type="ProtoUnit">xpPetard</Target>
+			</Effect>
+			<Effect amount="30.00" relativity="Absolute" subtype="BuildLimit" type="Data">
+				<Target type="ProtoUnit">SettlerHabsburg</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -90195,6 +90481,123 @@
 				<Tech>PoliticianGeneral</Tech>
 				<Tech>PoliticianGeneralUSA</Tech>
 				<Tech>PoliticianRevolutionary</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ColonializeColombians" type="Normal">
+		<DBID>3734</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\post_game\time_line_age_2</Icon>
+		<Effects>
+			<Effect status="active" type="TechStatus">Colonialize</Effect>
+			<Effect type="TextOutput">780790</Effect>
+			<Effect amount="1.40" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">ExplorerAmerican</Target>
+			</Effect>
+			<Effect amount="1.30" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">ExplorerDog</Target>
+			</Effect>
+			<Effect allactions="1" amount="1.40" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">ExplorerAmerican</Target>
+			</Effect>
+			<Effect amount="1.20" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">AbstractPet</Target>
+			</Effect>
+			<Effect allactions="1" amount="1.20" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">AbstractPet</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="FortressizeColombians" type="Normal">
+		<DBID>3735</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\post_game\time_line_age_3</Icon>
+		<Effects>
+			<Effect status="active" type="TechStatus">Fortressize</Effect>
+			<Effect type="TextOutput">780790</Effect>
+			<Effect amount="1.60" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">ExplorerAmerican</Target>
+			</Effect>
+			<Effect allactions="1" amount="1.60" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">ExplorerAmerican</Target>
+			</Effect>
+			<Effect amount="1.30" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">ExplorerDog</Target>
+			</Effect>
+			<Effect amount="1.30" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">AbstractPet</Target>
+			</Effect>
+			<Effect allactions="1" amount="1.30" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">AbstractPet</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="IndustrializeColombians" type="Normal">
+		<DBID>3736</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\post_game\time_line_age_4</Icon>
+		<Effects>
+			<Effect status="active" type="TechStatus">Industrialize</Effect>
+			<Effect type="TextOutput">780790</Effect>
+			<Effect amount="2.00" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">ExplorerAmerican</Target>
+			</Effect>
+			<Effect amount="1.30" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">ExplorerDog</Target>
+			</Effect>
+			<Effect allactions="1" amount="2.00" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">ExplorerAmerican</Target>
+			</Effect>
+			<Effect allactions="1" amount="1.40" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">AbstractPet</Target>
+			</Effect>
+			<Effect amount="1.40" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">AbstractPet</Target>
+			</Effect>
+			<Effect amount="1.25" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">xpSpy</Target>
+			</Effect>
+			<Effect allactions="1" amount="1.25" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">xpPetard</Target>
+			</Effect>
+			<Effect amount="1.25" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">xpPetard</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ImperializeColombians" type="Normal">
+		<DBID>3737</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\post_game\time_line_age_5</Icon>
+		<Effects>
+			<Effect status="active" type="TechStatus">Imperialize</Effect>
+			<Effect type="TextOutput">780790</Effect>
+			<Effect amount="2.00" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">ExplorerAmerican</Target>
+			</Effect>
+			<Effect allactions="1" amount="2.00" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">ExplorerAmerican</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">ExplorerDog</Target>
+			</Effect>
+			<Effect allactions="1" amount="1.60" relativity="BasePercent" subtype="Damage" type="Data">
+				<Target type="ProtoUnit">AbstractPet</Target>
+			</Effect>
+			<Effect amount="1.60" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">AbstractPet</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">xpSpy</Target>
+			</Effect>
+			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
+				<Target type="ProtoUnit">xpPetard</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
+				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
