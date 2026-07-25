@@ -444,7 +444,7 @@ void main(void)
 
   // Ensure that starting outpost is near the gold
   int startingOutpostAsianID=rmCreateObjectDef("Starting Asian Outpost");
-  rmAddObjectDefItem(startingOutpostAsianID, "ypOutpostAsian", 1, 6.0);
+  rmAddObjectDefItem(startingOutpostAsianID, "ypYak", 2, 6.0);
   rmAddObjectDefItem(startingOutpostAsianID, "mine", 1, 6.0);
   rmSetObjectDefMinDistance(startingOutpostAsianID, 20.0);
   rmSetObjectDefMaxDistance(startingOutpostAsianID, 25.0);
@@ -477,6 +477,7 @@ void main(void)
 		rmPlaceObjectDefAtLoc(StartAreaTreeID, 0, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
     		rmPlaceObjectDefAtLoc(StartDeerID, 0, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
     		rmPlaceObjectDefAtLoc(playerBerryID, 0, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
+    		rmPlaceObjectDefAtLoc(startingOutpostAsianID, 0, rmXMetersToFraction(xsVectorGetX(TCLocation)), rmZMetersToFraction(xsVectorGetZ(TCLocation)));
     
     		// Place a nugget for the player
     		rmSetNuggetDifficulty(1, 1);

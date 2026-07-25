@@ -33024,7 +33024,7 @@
 		<String _locID="782316">Chilean Rebels</String>
 		<String _locID="782317">Egyptian Rebels</String>
 		<String _locID="782318">Confederate Government</String>
-		<String _locID="782319">American Government</String>
+		<String _locID="782319">Unionist Government</String>
 		<String _locID="782320">Haitian Rebels</String>
 		<String _locID="782321">Hungarian Rebels</String>
 		<String _locID="782322">Indonesian Rebels</String>
@@ -33678,7 +33678,7 @@
 		<String _locID="78261">1 Ironclad\n10 Gatling Guns</String>
 		<String _locID="78262">The Knights of St. John call for a new crusade! You receive a Shipment of 10 Hoop Throwers from Malta.</String>
 		<String _locID="78263">Habsburgs</String>
-		<String _locID="78264">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Has access to all common European units and more Royal Guard upgrades. Villagers are Citizens, which don't take up population space.\nTeam: Start with 50 Experience Points.</String>
+		<String _locID="78264">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Villagers are Citizens, which don't take up population space. Has access to all common European units. Shipments send an extra unit for every higher Age.\nTeam: Start with 50 Experience Points.</String>
 		<String _locID="78265">Town Center and Dock attack increased, and you can call out an Irregular army from Town Centers.</String>
 		<String _locID="78266">TEAM Treasure Hunting</String>
 		<String _locID="78267">Outlaws can now pick up treasures. Also reveals all land treasures on the map.</String>

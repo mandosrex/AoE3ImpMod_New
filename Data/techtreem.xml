@@ -75486,7 +75486,7 @@
 			<Effect type="Sound">ArriveJohn</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="XPRevolutionIrish" type="Normal">
+	<Tech name="XPRevolutionIreland" type="Normal">
 		<DBID>3042</DBID>
 		<DisplayNameID>782331</DisplayNameID>
 		<Cost resourcetype="Fame">1000.0000</Cost>
@@ -80873,13 +80873,16 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect select="2" status="obtainable" type="RandomTech">
+			<Effect select="3" status="obtainable" type="RandomTech">
 				<Tech>XPRevolutionAustralia</Tech>
 				<Tech>XPRevolutionLouverture</Tech>
 				<Tech>XPRevolutionWashington</Tech>
 				<Tech>XPRevolutionHidalgo</Tech>
 				<Tech>XPRevolutionLiberia</Tech>
 				<Tech>XPRevolutionMalaysia</Tech>
+				<Tech>XPRevolutionIreland</Tech>
+				<Tech>XPRevolutionRomania</Tech>
+				<Tech>XPRevolutionBlackbeard</Tech>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -80893,7 +80896,7 @@
 				<Tech>XPRevolutionAustralia</Tech>
 				<Tech>XPRevolutionWashington</Tech>
 				<Tech>XPRevolutionBlackbeard</Tech>
-				<Tech>XPRevolutionIrish</Tech>
+				<Tech>XPRevolutionIreland</Tech>
 				<Tech>XPRevolutionEgypt</Tech>
 				<Tech>XPRevolutionHejaz</Tech>
 			</Effect>
@@ -80906,7 +80909,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect select="2" status="obtainable" type="RandomTech">
-				<Tech>XPRevolutionIrish</Tech>
+				<Tech>XPRevolutionIreland</Tech>
 				<Tech>XPRevolutionBlackbeard</Tech>
 				<Tech>XPRevolutionPhilippines</Tech>
 				<Tech>XPRevolutionIndonesia</Tech>
@@ -80924,7 +80927,7 @@
 			<Effect select="2" status="obtainable" type="RandomTech">
 				<Tech>XPRevolutionSantander</Tech>
 				<Tech>XPRevolutionHesse</Tech>
-				<Tech>XPRevolutionRomania</Tech>
+				<Tech>XPRevolutionIreland</Tech>
 				<Tech>XPRevolutionPoland</Tech>
 				<Tech>XPRevolutionHungary</Tech>
 				<Tech>XPRevolutionEgypt</Tech>
@@ -80955,8 +80958,8 @@
 		<Effects>
 			<Effect select="2" status="obtainable" type="RandomTech">
 				<Tech>XPRevolutionBolivar</Tech>
-				<Tech>XPRevolutionHesse</Tech>
-				<Tech>XPRevolutionHungary</Tech>
+				<Tech>XPRevolutionWashington</Tech>
+				<Tech>XPRevolutionLouverture</Tech>
 				<Tech>XPRevolutionPhilippines</Tech>
 				<Tech>XPRevolutionIndonesia</Tech>
 				<Tech>XPRevolutionBlackbeard</Tech>
@@ -81004,7 +81007,7 @@
 			<Effect select="2" status="obtainable" type="RandomTech">
 				<Tech>XPRevolutionHejaz</Tech>
 				<Tech>XPRevolutionRomania</Tech>
-				<Tech>XPRevolutionPoland</Tech>
+				<Tech>XPRevolutionMalaysia</Tech>
 				<Tech>XPRevolutionHungary</Tech>
 				<Tech>XPRevolutionEgypt</Tech>
 				<Tech>XPRevolutionLiberia</Tech>
@@ -90599,6 +90602,113 @@
 			<Effect amount="1.00" relativity="Absolute" resource="Ships" subtype="Resource" type="Data">
 				<Target type="Player"/>
 			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PostIndustrialColombians" type="Normal">
+		<DBID>3738</DBID>
+		<DisplayNameID>36246</DisplayNameID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect status="active" type="TechStatus">ChurchRedBrickWall</Effect>
+			<Effect status="active" type="TechStatus">ImprovedBows</Effect>
+			<Effect status="active" type="TechStatus">ChurchStateReligion</Effect>
+			<Effect status="active" type="TechStatus">ImpKnighthood</Effect>
+			<Effect status="active" type="TechStatus">ImpPeerage</Effect>
+			<Effect status="active" type="TechStatus">GreatCoatUS</Effect>
+			<Effect status="active" type="TechStatus">Gangsaw</Effect>
+			<Effect status="active" type="TechStatus">CavalryCuirass</Effect>
+			<Effect status="active" type="TechStatus">Bayonet</Effect>
+			<Effect status="active" type="TechStatus">Rifling</Effect>
+			<Effect status="active" type="TechStatus">GunnersQuadrant</Effect>
+			<Effect status="active" type="TechStatus">HeatedShot</Effect>
+			<Effect status="active" type="TechStatus">InfantryBreastplate</Effect>
+			<Effect status="active" type="TechStatus">SeedDrill</Effect>
+			<Effect status="active" type="TechStatus">SelectiveBreeding</Effect>
+			<Effect status="active" type="TechStatus">HuntingDogs</Effect>
+			<Effect status="active" type="TechStatus">Revetment</Effect>
+			<Effect status="active" type="TechStatus">Bastion</Effect>
+			<Effect status="active" type="TechStatus">PlacerMines</Effect>
+			<Effect status="active" type="TechStatus">Caracole</Effect>
+			<Effect status="active" type="TechStatus">OreRefining</Effect>
+			<Effect status="active" type="TechStatus">ArmorPlating</Effect>
+			<Effect status="active" type="TechStatus">Carronade</Effect>
+			<Effect status="active" type="TechStatus">PercussionLocks</Effect>
+			<Effect status="active" type="TechStatus">ChurchStandingArmy</Effect>
+			<Effect status="active" type="TechStatus">ChurchGasLighting</Effect>
+			<Effect status="active" type="TechStatus">FrontierTraining</Effect>
+			<Effect status="active" type="TechStatus">LogFlume</Effect>
+			<Effect status="active" type="TechStatus">Bookkeeping</Effect>
+			<Effect status="active" type="TechStatus">ArtificialFertilizer</Effect>
+			<Effect status="active" type="TechStatus">CircularSaw</Effect>
+			<Effect status="active" type="TechStatus">Amalgamation</Effect>
+			<Effect status="active" type="TechStatus">Homesteading</Effect>
+			<Effect status="active" type="TechStatus">LongLines</Effect>
+			<Effect status="active" type="TechStatus">GillNets</Effect>
+			<Effect status="active" type="TechStatus">FrontierOutpost</Effect>
+			<Effect status="active" type="TechStatus">SteelTraps</Effect>
+			<Effect status="active" type="TechStatus">FactoryWaterPower</Effect>
+			<Effect status="active" type="TechStatus">FactorySteamPower</Effect>
+			<Effect status="active" type="TechStatus">FactoryCannery</Effect>
+			<Effect status="active" type="TechStatus">StarFort</Effect>
+			<Effect status="active" type="TechStatus">FortifiedOutpost</Effect>
+			<Effect status="active" type="TechStatus">ChurchMassCavalry</Effect>
+			<Effect status="active" type="TechStatus">ChurchArtillery</Effect>
+			<Effect status="active" type="TechStatus">VeteranCrossbowmen</Effect>
+			<Effect status="active" type="TechStatus">VeteranLancers</Effect>
+			<Effect status="active" type="TechStatus">RGGarrochista</Effect>
+			<Effect status="active" type="TechStatus">VeteranRodeleros</Effect>
+			<Effect status="active" type="TechStatus">VeteranPikemen</Effect>
+			<Effect status="active" type="TechStatus">VeteranMusketeers</Effect>
+			<Effect status="active" type="TechStatus">GrapeShot</Effect>
+			<Effect status="active" type="TechStatus">Howitzer</Effect>
+			<Effect status="active" type="TechStatus">FieldGunNew</Effect>
+			<Effect status="active" type="TechStatus">Trunion</Effect>
+			<Effect status="active" type="TechStatus">ProfessionalGunners</Effect>
+			<Effect status="active" type="TechStatus">PaperCartridge</Effect>
+			<Effect status="active" type="TechStatus">MilitaryDrummers</Effect>
+			<Effect status="active" type="TechStatus">Flintlock</Effect>
+			<Effect status="active" type="TechStatus">Pillage</Effect>
+			<Effect status="active" type="TechStatus">FactoryMassProduction</Effect>
+			<Effect status="active" type="TechStatus">RGTercio</Effect>
+			<Effect status="active" type="TechStatus">RGEspadachins</Effect>
+			<Effect status="active" type="TechStatus">GuardMusketeers</Effect>
+			<Effect status="active" type="TechStatus">GuardSkirmishers</Effect>
+			<Effect status="active" type="TechStatus">NativeUpgrades</Effect>
+			<Effect status="active" type="TechStatus">NativeUpgrades2</Effect>
+			<Effect status="active" type="TechStatus">GuardPikemen</Effect>
+			<Effect status="active" type="TechStatus">GuardCrossbowmen</Effect>
+			<Effect status="active" type="TechStatus">GuardDragoons</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PostImperialColombians" type="Normal">
+		<DBID>3739</DBID>
+		<DisplayNameID>36325</DisplayNameID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect status="active" type="TechStatus">PostIndustrialSpanish</Effect>
+			<Effect status="active" type="TechStatus">ImpLargeScaleAgriculture</Effect>
+			<Effect status="active" type="TechStatus">ImpImmigrants</Effect>
+			<Effect status="active" type="TechStatus">ImpDeforestation</Effect>
+			<Effect status="active" type="TechStatus">ImpExcessiveTaxation</Effect>
+			<Effect status="active" type="TechStatus">ImperialSkirmishers</Effect>
+			<Effect status="active" type="TechStatus">ImperialEspada</Effect>
+			<Effect status="active" type="TechStatus">ImperialTercio</Effect>
+			<Effect status="active" type="TechStatus">ImperialMusketeers</Effect>
+			<Effect status="active" type="TechStatus">ImperialGarrochistas</Effect>
+			<Effect status="active" type="TechStatus">ImperialCulverin</Effect>
+			<Effect status="active" type="TechStatus">ImperialCannon</Effect>
+			<Effect status="active" type="TechStatus">ImperialHowitzer</Effect>
+			<Effect status="active" type="TechStatus">ImperialFieldGunNew</Effect>
+			<Effect status="active" type="TechStatus">ImperialMonitorsNew</Effect>
+			<Effect status="active" type="TechStatus">ImperialManOWar</Effect>
+			<Effect status="active" type="TechStatus">ImpLegendaryNatives</Effect>
+			<Effect status="active" type="TechStatus">ImperialPikemen</Effect>
+			<Effect status="active" type="TechStatus">ImperialCrossbowmen</Effect>
+			<Effect status="active" type="TechStatus">ImperialDragoons</Effect>
 		</Effects>
 	</Tech>
 </TechTree>
