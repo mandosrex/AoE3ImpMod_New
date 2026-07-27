@@ -610,29 +610,29 @@ void main(void)
 				rmPlaceObjectDefAtLoc(startingBlockhouseID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 			}
       
-      // Asians get two outposts and their starter barracks
-      else if (rmGetPlayerCiv(i) == rmGetCivID("Chinese")) {
-        rmPlaceObjectDefAtLoc(startingOutpostAsianID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
-				rmPlaceObjectDefAtLoc(startingOutpostAsianID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
+      				// Asians get two outposts and their starter barracks
+      				else if (rmGetPlayerCiv(i) == rmGetCivID("Chinese")) {
 				rmPlaceObjectDefAtLoc(startingWarAcademyID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
+        			rmPlaceObjectDefAtLoc(startingOutpostAsianID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
+				rmPlaceObjectDefAtLoc(startingOutpostAsianID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
       }
       
-      else if (rmGetPlayerCiv(i) == rmGetCivID("Japanese")) {
-        rmPlaceObjectDefAtLoc(startingOutpostAsianID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
-				rmPlaceObjectDefAtLoc(startingOutpostAsianID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
+      				else if (rmGetPlayerCiv(i) == rmGetCivID("Japanese")) {
 				rmPlaceObjectDefAtLoc(startingBanshoID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
+        			rmPlaceObjectDefAtLoc(startingOutpostAsianID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
+				rmPlaceObjectDefAtLoc(startingOutpostAsianID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
       }
       
-      else if (rmGetPlayerCiv(i) == rmGetCivID("Indians")) {
-        rmPlaceObjectDefAtLoc(startingOutpostAsianID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
-				rmPlaceObjectDefAtLoc(startingOutpostAsianID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
+      				else if (rmGetPlayerCiv(i) == rmGetCivID("Indians")) {
 				rmPlaceObjectDefAtLoc(startingStockadeID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
+        			rmPlaceObjectDefAtLoc(startingOutpostAsianID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
+				rmPlaceObjectDefAtLoc(startingOutpostAsianID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
       }
       
 			// Native civs place two war huts.
 			else if ( rmGetPlayerCiv(i) ==  rmGetCivID("XPIroquois") ||
-						rmGetPlayerCiv(i) ==  rmGetCivID("XPSioux") ||
-						rmGetPlayerCiv(i) ==  rmGetCivID("XPAztec"))
+				rmGetPlayerCiv(i) ==  rmGetCivID("XPSioux") ||
+				rmGetPlayerCiv(i) ==  rmGetCivID("XPAztec"))
 			{
 				rmPlaceObjectDefAtLoc(startingWarHutID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 				rmPlaceObjectDefAtLoc(startingWarHutID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
@@ -640,10 +640,10 @@ void main(void)
 			// Everyone else: two outposts and a barracks.
 			else
 			{
-				rmPlaceObjectDefAtLoc(startingOutpostID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
-				rmPlaceObjectDefAtLoc(startingOutpostID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
-				rmPlaceObjectDefAtLoc(startingOutpostID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 				rmPlaceObjectDefAtLoc(startingBarracksID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
+				rmPlaceObjectDefAtLoc(startingOutpostID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
+				rmPlaceObjectDefAtLoc(startingOutpostID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
+				rmPlaceObjectDefAtLoc(startingOutpostID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
 			}
 		}
 

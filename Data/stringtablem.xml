@@ -7269,7 +7269,7 @@
 		<String _locID="36708">Hire Balkan Stradiots</String>
 		<String _locID="36710">Ships a number of Reislaufer mercenaries.</String>
 		<String _locID="36711">Hire Swiss Reislaufer</String>
-		<String _locID="36712">Ships a number of Ronin Samurai mercenaries and makes them available to train at the Saloon.</String>
+		<String _locID="36712">Ships a number of Ronin Samurai mercenaries and makes them available to train at the Saloon for Fame.</String>
 		<String _locID="36713">Passage to Nippon</String>
 		<String _locID="36714">Ships a number of German Black Rider mercenaries.</String>
 		<String _locID="36715">Hire German Black Riders</String>
@@ -7986,7 +7986,7 @@
 		<String _locID="37518">All cavalry are faster, +4 Uhlans.</String>
 		<String _locID="37519">Spanish Riding School</String>
 		<String _locID="37520">Hire Winged Hussars</String>
-		<String _locID="37521">Ships a squadron of 5 Winged Hussars and makes them available to train at the Saloon.</String>
+		<String _locID="37521">Ships a squadron of 5 Winged Hussars and makes them available to train at the Saloon for Fame.</String>
 		<String _locID="37522">Uhlan attack and hitpoints increased, +4 Uhlans.</String>
 		<String _locID="37523">Lipizzaner Cavalry</String>
 		<String _locID="37524" symbol="cStringESOFailedChatConnection">Failed to connect to ESO and retrieve Chat Channel List.</String>
@@ -17493,7 +17493,7 @@
 		<String _locID="47090">Amish Ordnung Shipment has arrived.</String>
 		<String _locID="47091">Kulaks Shipment has arrived.</String>
 		<String _locID="47092">Suvorov Reforms Shipment has arrived.</String>
-		<String _locID="47093">Ships 2 Galleons containing Pirates and Pirates become available to train at the Saloon.</String>
+		<String _locID="47093">Ships 2 Galleons containing Pirates and Pirates become available to train at the Saloon for Fame.</String>
 		<String _locID="47094">Spanish Gold</String>
 		<String _locID="47095">Suvorov Reforms Shipment has arrived.</String>
 		<String _locID="47096">Spanish Gold Shipment has arrived.</String>
@@ -20313,7 +20313,7 @@
 		<String _locID="60862">A tame monitor lizard that is good against guardians.</String>
 		<String _locID="60863">Kermond the Pet Monitor Lizard</String>
 		<String _locID="60864">Pet Monitor Lizard</String>
-		<String _locID="60865">Villagers and Rickshaws build buildings much faster and get more experience points when done.</String>
+		<String _locID="60865">Villagers and Rickshaws build buildings much faster and get more experience bounty when done.</String>
 		<String _locID="60866">Land Reforms</String>
 		<String _locID="60867">Stonemasons Shipment has arrived.</String>
 		<String _locID="60868">Villagemasons Shipment has arrived.</String>
@@ -32544,7 +32544,7 @@
 		<String _locID="781832">%1s has recovered supplies worth 50 Fame / 100 Export.</String>
 		<String _locID="781833">- Over 60 new maps have been added as "official maps" spanning across America, Asia, Africa and the Middle East. Most of the maps were taken from the ESOC map pool and were improved visually, had layout issues fixed, and were updated with new content such as new fauna, flora, treasures, natives and textures.\n \n- The game with the mod on is now more compatible with Win10 and Win11, having the display settings fixed if the game's exe is not set to run in WinXP compatibility mode. The High/Low poly Cliffs option has also been fixed, usefull for custom maps with cliff framerate drops.\n \n- Ottomans are now a semi-Asian civilization, with a changed Mosque to better match the Monastery, with access to Export and a Consulate with new unique Asian allies (Indians, Chinese and Japanese), and new cards for the Consulate and mercs. Ottomans can now also pause and resume Settler training at will.\n \n- Ships can now sail over shallows on which ground units can also walk. Ships are no longer blocked by shallows such as those on Northwest Territory and Indochina, which also means you can now dock and make ships on Bayou.\n \n- Ships now fire consistently and accordingly to their assigned rate of fire, instead of firing random cannon shots which could have resulted in cases where in a fight between two identical ships, the one that fired first could lose because of random cannon fire.\n \n- When gathering from Mills and Plantations, villagers now stand still just like on Farms and Rice Paddies. They no longer move randomly around the building, bumping into each other and loosing precious gather time. Gather rates were adjusted accordingly.\n \n- Further AI improvements, specifically related to attacking enemy units, upgrading trade routes and training mercs and natives.\n \n- Map sizes have been tweaked, making most maps bigger, and the player can now spawn on both sides on all maps, old and new.\n \n- Added new Fire Pit dances and made some of them random; the first four Ages will unlock one fixed dance and one random dance. Also randomized shipments for Native and Asian Age Up options, just like Politicians and Consulate allies previously.\n \n- The AIs for the mod's civilizations now have unique voice lines! Go to "Documents\My Games\AoE3 Improvement Mod" and delete the "AIM" and "Users3" folders to make them work.</String>
 		<String _locID="781834">Villa</String>
-		<String _locID="781835">Italian House that repairs nearby buildings. Supports 10 population. Trains livestock.</String>
+		<String _locID="781835">Italian House that increases cost with numbers. Supports 10 population. Trains livestock.</String>
 		<String _locID="781836">Torp</String>
 		<String _locID="781837">Swedish House that spawns Trees when built. Supports 10 population. Trains livestock.</String>
 		<String _locID="781838">A ruin of the Mausoleum of the First Qin Emperor. It contains preserved food worth %1d %2s.</String>
@@ -33160,8 +33160,8 @@
 		<String _locID="782452">Imperial Knights</String>
 		<String _locID="782453">Imperial Knight</String>
 		<String _locID="782454">Imperial upgrade for Knights.</String>
-		<String _locID="782455">Guard Cuirassiers</String>
-		<String _locID="782456">Guard Cuirassier</String>
+		<String _locID="782455">Imperial Cuirassiers</String>
+		<String _locID="782456">Imperial Cuirassier</String>
 		<String _locID="782457">Imperial upgrade for Cuirassiers.</String>
 		<String _locID="782458">Rule of Raymond du Puy</String>
 		<String _locID="782459">Provides your Church with unique Maltese improvements. Also moves the Ossuary to the Fortress Age.</String>
@@ -33192,7 +33192,7 @@
 		<String _locID="782484">Hospitality</String>
 		<String _locID="782485">Church, Field Hospital and Field Camp limits increased.</String>
 		<String _locID="782486">House of Bonaparte</String>
-		<String _locID="782487">Raise the imperial Bonaparte flag to increase building hitpoints and line of sight.</String>
+		<String _locID="782487">Raise the imperial Bonaparte flag to increase building hitpoints, line of sight and build bounty.</String>
 		<String _locID="782488">House of Bonaparte Shipment has arrived.</String>
 		<String _locID="782489">Revolutionaries</String>
 		<String _locID="782490">Ships a number of Colonial Militia and makes them available to train from the Barracks.</String>
@@ -33292,7 +33292,7 @@
 		<String _locID="782584">Grants free improvements that increase the combat ability of Lookouts, War Huts, and Nobles' Huts.</String>
 		<String _locID="782585">Grants free improvements that increase the combat ability of Walls, Lookouts, War Huts, and Nobles' Huts.</String>
 		<String _locID="782586">Wampum</String>
-		<String _locID="782587">Buildings and units award more experience points when done.</String>
+		<String _locID="782587">Buildings and units award more experience bounty when done.</String>
 		<String _locID="782588">Wampum Shipment has arrived.</String>
 		<String _locID="782589">Medicine Wheels</String>
 		<String _locID="782590">Fire Pits become stronger and free.</String>
@@ -33690,8 +33690,13 @@
 		<String _locID="78273">Habsburg villager that constructs buildings and gathers resources. Doesn't take up population space.</String>
 		<String _locID="78274">Engineer</String>
 		<String _locID="78275">Passive Ability: This unit can repair nearby buildings.</String>
-		<String _locID="78276">Enables Indian Rajputs, Sowars and Siege Elephants and their upgrades.</String>
+		<String _locID="78276">Enables Indian Rajputs, Sowars and Siege Elephants, along with their upgrades.</String>
 		<String _locID="78277">Das Bierhaus</String>
-		<String _locID="78278">Ships a number of Winged Hussar mercenaries and makes them available to train at the Saloon.</String>
+		<String _locID="78278">Ships a number of Winged Hussar mercenaries and makes them available to train at the Saloon for Fame.</String>
+		<String _locID="78279">Saboteur spawn dance</String>
+		<String _locID="78280">Skeleton</String>
+		<String _locID="78281">Undead warrior that came back for one last fight.</String>
+		<String _locID="78282" comment="1 - amount, 2 - resource">A suspicious opened coffin worth %1d %2s.</String>
+		<String _locID="78283" comment="1 - player, 2 - amount, 3 - resource">%1s has discovered a suspicious opened coffin worth %2d %3s.</String>
 	</Language>
 </StringTable>

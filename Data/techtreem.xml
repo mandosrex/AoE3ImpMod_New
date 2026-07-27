@@ -540,7 +540,7 @@
 			<Effect status="active" type="TechStatus">RandomAge5PoliticiansBritish</Effect>
 			<Effect status="active" type="TechStatus">RandomRevolutionBritish</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">WarTent</Target>
+				<Target type="ProtoUnit">WarTentBr</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">FlagBearer</Target>
@@ -4334,9 +4334,6 @@
 				<Target type="ProtoUnit">FortFrontier</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">xpPetardNative</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">MercOrca</Target>
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">LegendaryBuffaloShadow</Effect>
@@ -4631,9 +4628,6 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Lookout</Target>
 			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">xpPetardNative</Target>
-			</Effect>
 			<Effect status="obtainable" type="TechStatus">TreasuryCrateAmount</Effect>
 			<Effect amount="0.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
 				<Target type="ProtoUnit">SPCIncaTemple</Target>
@@ -4869,9 +4863,6 @@
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">LivestockPen</Target>
-			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">xpPetardNative</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">MercGreatWhiteShark</Target>
@@ -84734,6 +84725,9 @@
 			<Effect amount="10.00" relativity="Absolute" subtype="LOS" type="Data">
 				<Target type="ProtoUnit">Building</Target>
 			</Effect>
+			<Effect amount="1.25" relativity="BasePercent" subtype="BuildBounty" type="Data">
+				<Target type="ProtoUnit">Building</Target>
+			</Effect>
 			<Effect flagoverridebuttonset="french2FlagBtnLarge" flagoverridetex="objects\flags\french2" flagpostgameoverridetex="ui\ingame\ingame_ui_postgame_flag_french2" type="FlagOverride"/>
 		</Effects>
 	</Tech>
@@ -87026,7 +87020,7 @@
 			<Effect status="obtainable" type="TechStatus">ImperialBombard</Effect>
 			<Effect status="obtainable" type="TechStatus">ImperialFieldGun</Effect>
 			<Effect status="obtainable" type="TechStatus">FieldGun</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="TacticEnable" tactic="FireDance" type="Data">
+			<Effect amount="1.00" relativity="Absolute" subtype="TacticEnable" tactic="CityDance" type="Data">
 				<Target type="ProtoUnit">FirePit</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="TacticEnable" tactic="ExplorerDance" type="Data">
@@ -87035,13 +87029,13 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="TacticEnable" tactic="WaterDance" type="Data">
 				<Target type="ProtoUnit">FirePit</Target>
 			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="TacticEnable" tactic="GiftDance" type="Data">
+			<Effect amount="1.00" relativity="Absolute" subtype="TacticEnable" tactic="WarDance" type="Data">
 				<Target type="ProtoUnit">FirePit</Target>
 			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="TacticEnable" tactic="FertilityDance" type="Data">
+			<Effect amount="1.00" relativity="Absolute" subtype="TacticEnable" tactic="FireDance" type="Data">
 				<Target type="ProtoUnit">FirePit</Target>
 			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="TacticEnable" tactic="HealingDance" type="Data">
+			<Effect amount="1.00" relativity="Absolute" subtype="TacticEnable" tactic="CoinCrateDance" type="Data">
 				<Target type="ProtoUnit">FirePit</Target>
 			</Effect>
 			<Effect culture="none" newName="782727" proto="Barracks" type="SetName"/>
@@ -88307,6 +88301,7 @@
 			</Effect>
 			<Effect status="obtainable" type="TechStatus">YPHonoredSiegeElephant</Effect>
 			<Effect status="obtainable" type="TechStatus">YPExaltedSiegeElephant</Effect>
+			<Effect flagoverridebuttonset="british2FlagBtnLarge" flagoverridetex="objects\flags\british2" flagpostgameoverridetex="ui\ingame\ingame_ui_postgame_flag_british2" type="FlagOverride"/>
 		</Effects>
 	</Tech>
 	<Tech name="HCShipRajputBr" type="Normal">
