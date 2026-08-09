@@ -2497,7 +2497,7 @@
 		<String _locID="26058">PROP River Amazon River</String>
 		<String _locID="26059" symbol="cStringCivRolloverFrench">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Villagers are Coureurs, which are expensive but gather and fight better than Villagers. Receives a free Wood shipment when researching Trading Post upgrades.\nTeam: Native warrior train limit increased.</String>
 		<String _locID="26060" symbol="cStringCivRolloverBritish">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Manors spawn Settlers when built. Barracks can be configured to train archaic or modern units. Has access to foreign units from the Empire.\nTeam: Dock build limit increased in the Discovery Age.</String>
-		<String _locID="26061" symbol="cStringCivRolloverSpanish">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Earns Home City Shipments faster. All archaic Veteran upgrades are researched for free upon reaching the Fortress Age.\nTeam: Warships and Fishing Boats train faster.</String>
+		<String _locID="26061" symbol="cStringCivRolloverSpanish">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Earns Home City Shipments faster. All military Veteran upgrades are free to research in the Fortress Age.\nTeam: Warships and Fishing Boats train faster.</String>
 		<String _locID="26062" symbol="cStringCivRolloverPortuguese">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Gets a free Town Wagon with every Age and increased Town Center and Dock limits. Home City Shipments arrive faster.\nTeam: Town Centers are cheaper.</String>
 		<String _locID="26063" symbol="cStringCivRolloverDutch">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Small villager population, but can build Banks to produce Coin. Villagers are Burghers, which cost Coin but yield more resources from mines. Gets extra Envoys.\nTeam: Villagers gather Coin faster.</String>
 		<String _locID="26065" symbol="cStringCivRolloverGermans">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Can train Bavarians and receives free Uhlans with most Home City Shipments. Gets extra Fame at the start and with each Age.\nTeam: Command Post, Monastery and Embassy build limit increased.</String>
@@ -4332,7 +4332,7 @@
 		<String _locID="31523">Knighthood</String>
 		<String _locID="31527">Increases the number of Villagers and Fishing Boats you can support by 50%.</String>
 		<String _locID="31528">Immigrants</String>
-		<String _locID="31529">Villagers gather Food from Mills much faster.</String>
+		<String _locID="31529">Villagers gather Food from all sources much faster.</String>
 		<String _locID="31530">Large Scale Agriculture</String>
 		<String _locID="31533">Explorer movement speed and line of sight are greatly increased. He can also build Trading Posts and Town Centers faster.</String>
 		<String _locID="31534">Peerage</String>
@@ -15139,7 +15139,7 @@
 		<String _locID="44722">Deforestation</String>
 		<String _locID="44723">Villagers gather Coin from all sources much faster.</String>
 		<String _locID="44724">Excessive Tribute</String>
-		<String _locID="44725">Villagers gather Food from Mills and hunting much faster. Sheep also fatten at Farms much faster.</String>
+		<String _locID="44725">Villagers gather Food from all sources much faster. Sheep also fatten at Farms much faster.</String>
 		<String _locID="44726">Large Scale Gathering</String>
 		<String _locID="44727">Native American Warrior from minor tribes have their attack and hitpoints greatly increased.</String>
 		<String _locID="44728">Traditions</String>
@@ -16156,7 +16156,7 @@
 		<String _locID="45741" symbol="cStringESOGLFullGamesTT">Show/Hide Games which can not accept new players</String>
 		<String _locID="45742" symbol="cStringESOGLLvlRestricted">Show Restricted Home City Games</String>
 		<String _locID="45743" symbol="cStringESOGLLvlRestrictedTT">Show/Hide games based on whether you meet the Home City type and level requirements</String>
-		<String _locID="45744" symbol="cStringRecordGameFinished">Record game playback finished.</String>
+		<String _locID="45744" symbol="cStringRecordGameFinished">Record game playback finished</String>
 		<String _locID="45745">Enable Minimized Chat UI</String>
 		<String _locID="45746">Turn on to disable the detailed player communication UI in team games.</String>
 		<String _locID="45747">Unpause</String>
@@ -21879,7 +21879,7 @@
 		<String _locID="62428">Woodcrafting Shipment has arrived.</String>
 		<String _locID="62429" symbol="cStringCivRolloverJapanese">Culture: Builds Wonders to advance in Age; builds Consulates to influence foreign intervention.\nBonus: No hunting allowed. Shrines attract animals and generate resources. Can send most Home City Shipments twice.\nTeam: Land military units give more experience points when trained.</String>
 		<String _locID="62430" symbol="cStringCivRolloverChinese">Culture: Builds Wonders to advance in Age; builds Consulates to influence foreign intervention.\nBonus: Trains Banner Armies made of two types of military units. Villages replace Houses, allowing garrisoning and reaching a higher population capacity.\nTeam: Wall hitpoints increased and cost decreased.</String>
-		<String _locID="62431" symbol="cStringCivRolloverIndians">Culture: Builds Wonders to advance in Age; builds Consulates to influence foreign intervention.\nBonus: Villagers are Shudras, which cost Wood but yield more resources from trees. Generates experience points from livestock at Sacred Field. Receives a Shudra with most Home City Shipments.\nTeam: Wood gather rate increased.</String>
+		<String _locID="62431" symbol="cStringCivRolloverIndians">Culture: Builds Wonders to advance in Age; builds Consulates to influence foreign intervention.\nBonus: Villagers are Shudras, which cost Wood but yield more resources from trees. Generates experience points from livestock at Sacred Fields. Receives a Shudra with most Home City Shipments.\nTeam: Wood gather rate increased.</String>
 		<String _locID="62432" symbol="cStringCivNameSPCJapanese">Japanese</String>
 		<String _locID="62433" symbol="cStringCivNameSPCChinese">Chinese</String>
 		<String _locID="62434" symbol="cStringCivNameSPCIndian">Indian</String>
@@ -22854,7 +22854,7 @@
 		<String _locID="63515">Rice Markets</String>
 		<String _locID="63516">Villagers gather Coin from Rice Paddies faster.</String>
 		<String _locID="63517">Rice Exports</String>
-		<String _locID="63518">Villagers gather Food from Rice Paddies much faster.</String>
+		<String _locID="63518">Villagers gather Food from all sources much faster.</String>
 		<String _locID="63519">Mechanized Rice Cultivation</String>
 		<String _locID="63520">Villagers gather Coin from all sources much faster.</String>
 		<String _locID="63521">Collective Economy</String>
@@ -22862,7 +22862,7 @@
 		<String _locID="63523" symbol="cStringKOTHMapVictoryTimer">You Have the Hill</String>
 		<String _locID="63524">Villagers gather Wood extremely fast.</String>
 		<String _locID="63525">Circular Saw</String>
-		<String _locID="63526">Villagers gather Wood much faster.</String>
+		<String _locID="63526">Villagers gather Wood from all sources much faster.</String>
 		<String _locID="63527">Tropical Timber Trade</String>
 		<String _locID="63528">Ally Daimyo</String>
 		<String _locID="63529">Daimyo of the Fushimi Castle garrison.</String>
@@ -31588,7 +31588,7 @@
 		<String _locID="780865">Use Fame to get 3 Shipments from your Home City.</String>
 		<String _locID="780866">Large California</String>
 		<String _locID="780867">Large Mongolia</String>
-		<String _locID="780868">Economy Wagon</String>
+		<String _locID="780868">Economic Wagon</String>
 		<String _locID="780869">Builds economic buildings.</String>
 		<String _locID="780880">You can now have double the amount of livestock and livestock trains instantly.</String>
 		<String _locID="780881">Staatse Hussar</String>
@@ -31664,7 +31664,7 @@
 		<String _locID="780951">Chieftain Shipment has arrived.</String>
 		<String _locID="780952">Orthodox Dogma</String>
 		<String _locID="780953">Catholic Dogma</String>
-		<String _locID="780954">Your Orthodox allies increase villager limits and send 2 Economy Wagons to help you survive the wild.</String>
+		<String _locID="780954">Your Orthodox allies increase villager limits and send 2 Economic Wagons to help you survive the wild.</String>
 		<String _locID="780955">Your Catholic allies send a Town Wagon and 2 Outpost Wagons to help you conquer the frontier.</String>
 		<String _locID="780956">Military Wagon</String>
 		<String _locID="780957">Builds military buildings.</String>
@@ -32287,7 +32287,7 @@
 		<String _locID="781575">Minutemen Shipment has arrived.</String>
 		<String _locID="781576">Lincoln</String>
 		<String _locID="781577">Davis</String>
-		<String _locID="781578">Union Militia</String>
+		<String _locID="781578">State Militia</String>
 		<String _locID="781579">Confederate Militia</String>
 		<String _locID="781580">Advances you to the Imperial Age using Fame.</String>
 		<String _locID="781581">Circle of Ossus</String>
@@ -32329,7 +32329,7 @@
 		<String _locID="781617">Support unit that increases the attack of nearby units.</String>
 		<String _locID="781618">Nassau Infantry Attack</String>
 		<String _locID="781619">Nassau Infantry Combat</String>
-		<String _locID="781620">Colombians WIP</String>
+		<String _locID="781620">Colombians</String>
 		<String _locID="781621">Simon Bolivar</String>
 		<String _locID="781622">Mustang</String>
 		<String _locID="781623">Herd animal. Generates Food over time. Increased Food generation when tasked on a Livestock Pen, Farm, Village, or House.</String>
@@ -32361,7 +32361,7 @@
 		<String _locID="781649">Dynamite Attack</String>
 		<String _locID="781650">An explosive attack that does heavy damage to buildings and ships.</String>
 		<String _locID="781651">Commander-in-Chief</String>
-		<String _locID="781652">Culture: Can use Fame and the Decree card for extra bonuses; starts with Revolution units enabled.\nBonus: Can pick between Cantonese, Incan and European technologies and units for each building category. Has access to more fast arriving Shipments.\nTeam: Start with a .</String>
+		<String _locID="781652">Culture: Can use Fame and the Decree card for extra bonuses; starts with Revolution units enabled.\nBonus: Can pick between different Immigrant technologies for each building category. Haciendas are houses that train livestock, villagers and soldiers.\nTeam: Shock Cavalry and Shock Infantry hitpoints increased.</String>
 		<String _locID="781653">Bogota</String>
 		<String _locID="781654">General</String>
 		<String _locID="781655">Warchief</String>
@@ -32414,7 +32414,7 @@
 		<String _locID="781702">High-poly Cliffs</String>
 		<String _locID="781703">High-poly cliff models have greater detail but may reduce performance. Disabling may increase performance.</String>
 		<String _locID="781704">Chests of 1000 Wood and 1000 Food</String>
-		<String _locID="781705">{Ma^7 Hussars and 1 Mortars^}{Fr^7 Hussars and 1 Mortars^}{Br^7 Hussars and 1 Mortars^}{Po^7 Paladins and 1 Mortars^}{Sp^7 Hussars and 1 Mortars^}{It^7 Hussars and 1 Mortars^}{Sw^7 Hussars and 1 Mortars^}{US^7 Sabers and 1 Mortars^}{Du^7 Hussars and 1 Mortars^}{Ru^7 Cossacks and 1 Mortars^}{Ot^7 Hussars and 1 Mortars^}{Ge^7 Uhlans and 1 Mortars^}</String>
+		<String _locID="781705">{Ma^7 Hussars and 1 Mortar^}{Fr^7 Hussars and 1 Mortar^}{Br^7 Hussars and 1 Mortar^}{Po^7 Hussars and 1 Mortar^}{Sp^7 Lancers and 1 Mortar^}{It^7 Hussars and 1 Mortar^}{Sw^7 Hussars and 1 Mortar^}{US^7 Sabers and 1 Mortar^}{Du^7 Hussars and 1 Mortar^}{Ru^7 Cossacks and 1 Mortar^}{Ot^7 Hussars and 1 Mortar^}{Ge^7 Uhlans and 1 Mortar^}</String>
 		<String _locID="781706">The Senator</String>
 		<String _locID="781707">The Consul</String>
 		<String _locID="781708">Warrior Priest Fire Pit dance effectiveness is increased and they get a Backstab ability to assassinate targets.</String>
@@ -32768,7 +32768,7 @@
 		<String _locID="782058">The House of Stewart sends 8 Highlanders and 1 Command Post Wagon.</String>
 		<String _locID="782059">The House of Jagiellon sends 5 Black Riders and 1 Plantation Wagon.</String>
 		<String _locID="782060">The House of Oldenburg sends 7 Fusiliers and 2 Surgeons.</String>
-		<String _locID="782061">The House of Savoy sends 4 Elmetto and 1 Economy Wagon.</String>
+		<String _locID="782061">The House of Savoy sends 4 Elmetto and 1 Economic Wagon.</String>
 		<String _locID="782062">The House of Vasa sends X Fusiliers.</String>
 		<String _locID="782063">The House of Wittelsbach sends 6 Landsknecht and 1 Bank Wagon.</String>
 		<String _locID="782064">The House of Trastamara sends 7 Hoop Throwers and 1 Trading Post Wagon.</String>
@@ -32785,7 +32785,7 @@
 		<String _locID="782075">Cauca Battalion</String>
 		<String _locID="782076">Guayaquil Battalion</String>
 		<String _locID="782077">The Department of Boyaca sends 8 Granaderos a Caballo and 1 Mill Wagon.</String>
-		<String _locID="782078">The Department of Cauca sends 10 Desperados and 1 Economy Wagon.</String>
+		<String _locID="782078">The Department of Cauca sends 10 Desperados and 1 Economic Wagon.</String>
 		<String _locID="782079">The Department of Guayaquil sends 10 Renegados and 1 Military Wagon.</String>
 		<String _locID="782080">Outlaw Canoe</String>
 		<String _locID="782081">Rifle Canoe</String>
@@ -32868,12 +32868,12 @@
 		<String _locID="782159">Venezuela Department</String>
 		<String _locID="782160">1 Outpost Wagon\n1 Pioneer</String>
 		<String _locID="782161">Ecuador Department</String>
-		<String _locID="782162">1 Economy Wagon\n2 Pioneers</String>
+		<String _locID="782162">1 Economic Wagon\n2 Pioneers</String>
 		<String _locID="782163">Panama Department</String>
 		<String _locID="782164">1 Military Wagon\n2 Pioneers</String>
 		<String _locID="782165">Rodriguez</String>
 		<String _locID="782166">Mosquera</String>
-		<String _locID="782167">Guerilla</String>
+		<String _locID="782167">Guerilla Militia</String>
 		<String _locID="782168">1 Factory Wagon\n \nGrants 2 Shipments for use</String>
 		<String _locID="782169">1 Fort Wagon\n \nIncreased General train limit</String>
 		<String _locID="782170">The leader of your colony. Explores, fights, and builds important buildings. Cannot die. If she falls unconscious, she can be rescued.</String>
@@ -32940,33 +32940,33 @@
 		<String _locID="782232">Burgher</String>
 		<String _locID="782233">Villager that constructs buildings and gathers resources. Yields more Wood from trees.</String>
 		<String _locID="782234">1 Plantation Wagon\n2 Pioneers</String>
-		<String _locID="782235">1 Economy Wagon\n3 Pioneers</String>
+		<String _locID="782235">1 Economic Wagon\n3 Pioneers</String>
 		<String _locID="782236">1 Military Wagon\n3 Pioneers</String>
 		<String _locID="782237">2 Outpost Wagons\n2 Pioneers</String>
 		<String _locID="782238">1 Mill Wagon\n1 Plantation Wagon\n3 Pioneers</String>
-		<String _locID="782239">2 Economy Wagons\n4 Pioneers</String>
+		<String _locID="782239">2 Economic Wagons\n4 Pioneers</String>
 		<String _locID="782240">2 Military Wagons\n4 Pioneers</String>
 		<String _locID="782241">3 Outpost Wagons\n3 Pioneers</String>
 		<String _locID="782242">1 Mill Wagon\n1 Plantation Wagon\n1 Town Wagon\n5 Pioneers</String>
-		<String _locID="782243">3 Economy Wagons\n1 Capitol Wagon\n6 Pioneers</String>
+		<String _locID="782243">3 Economic Wagons\n1 Capitol Wagon\n6 Pioneers</String>
 		<String _locID="782244">3 Military Wagons\n1 Command Post Wagon\n6 Pioneers</String>
 		<String _locID="782245">3 Outpost Wagons\n1 Trading Post Wagon\n5 Pioneers</String>
 		<String _locID="782246">Capitol Wagon</String>
 		<String _locID="782247">Transforms into a Capitol.</String>
 		<String _locID="782248">1 Mill Wagon\n1 Pioneer</String>
-		<String _locID="782249">1 Economy Wagon\n2 Pioneers</String>
+		<String _locID="782249">1 Economic Wagon\n2 Pioneers</String>
 		<String _locID="782250">1 Military Wagon\n2 Pioneers</String>
 		<String _locID="782251">1 Outpost Wagons\n1 Pioneer</String>
 		<String _locID="782252">1 Plantation Wagon\n2 Pioneers</String>
-		<String _locID="782253">1 Economy Wagon\n3 Pioneers</String>
+		<String _locID="782253">1 Economic Wagon\n3 Pioneers</String>
 		<String _locID="782254">1 Military Wagon\n3 Pioneers</String>
 		<String _locID="782255">2 Outpost Wagons\n2 Pioneers</String>
 		<String _locID="782256">1 Mill Wagon\n1 Plantation Wagon\n3 Pioneers</String>
-		<String _locID="782257">2 Economy Wagons\n4 Pioneers</String>
+		<String _locID="782257">2 Economic Wagons\n4 Pioneers</String>
 		<String _locID="782258">2 Military Wagons\n4 Pioneers</String>
 		<String _locID="782259">3 Outpost Wagons\n3 Pioneers</String>
 		<String _locID="782260">1 Mill Wagon\n1 Plantation Wagon\n1 Town Wagon\n5 Pioneers</String>
-		<String _locID="782261">3 Economy Wagons\n1 Capitol Wagon\n6 Pioneers</String>
+		<String _locID="782261">3 Economic Wagons\n1 Capitol Wagon\n6 Pioneers</String>
 		<String _locID="782262">3 Military Wagons\n1 Command Post Wagon\n6 Pioneers</String>
 		<String _locID="782263">3 Outpost Wagons\n1 Trading Post Wagon\n5 Pioneers</String>
 		<String _locID="782264">California State</String>
@@ -32978,19 +32978,19 @@
 		<String _locID="782270">Orange Province</String>
 		<String _locID="782271">Transvaal Province</String>
 		<String _locID="782272">1 Mill Wagon\n1 Boer</String>
-		<String _locID="782273">1 Economy Wagon\n2 Boers</String>
+		<String _locID="782273">1 Economic Wagon\n2 Boers</String>
 		<String _locID="782274">1 Military Wagon\n2 Boers</String>
 		<String _locID="782275">1 Outpost Wagons\n1 Boer</String>
 		<String _locID="782276">1 Plantation Wagon\n2 Boers</String>
-		<String _locID="782277">1 Economy Wagon\n3 Boers</String>
+		<String _locID="782277">1 Economic Wagon\n3 Boers</String>
 		<String _locID="782278">1 Military Wagon\n3 Boers</String>
 		<String _locID="782279">2 Outpost Wagons\n2 Boers</String>
 		<String _locID="782280">1 Mill Wagon\n1 Plantation Wagon\n3 Boers</String>
-		<String _locID="782281">2 Economy Wagons\n4 Boers</String>
+		<String _locID="782281">2 Economic Wagons\n4 Boers</String>
 		<String _locID="782282">2 Military Wagons\n4 Boers</String>
 		<String _locID="782283">3 Outpost Wagons\n3 Boers</String>
 		<String _locID="782284">1 Mill Wagon\n1 Plantation Wagon\n1 Town Wagon\n5 Boers</String>
-		<String _locID="782285">3 Economy Wagons\n1 Capitol Wagon\n6 Boers</String>
+		<String _locID="782285">3 Economic Wagons\n1 Capitol Wagon\n6 Boers</String>
 		<String _locID="782286">3 Military Wagons\n1 Command Post Wagon\n6 Boers</String>
 		<String _locID="782287">3 Outpost Wagons\n1 Trading Post Wagon\n5 Boers</String>
 		<String _locID="782288">Lamb of God</String>
@@ -33030,7 +33030,7 @@
 		<String _locID="782322">Indonesian Rebels</String>
 		<String _locID="782323">Malaysian Rebels</String>
 		<String _locID="782324">Mexican Rebels</String>
-		<String _locID="782325">Colombian Government</String>
+		<String _locID="782325">Caucan Government</String>
 		<String _locID="782326">Granadine Government</String>
 		<String _locID="782327">Peruvian Rebels</String>
 		<String _locID="782328">Philippine Rebels</String>
@@ -33247,7 +33247,7 @@
 		<String _locID="782539">Goshen Battalion</String>
 		<String _locID="782540">Zoutpansberg Battalion</String>
 		<String _locID="782541">The Province of Stellaland sends 10 Comancheros and 1 Plantation Wagon.</String>
-		<String _locID="782542">The Province of Goshen sends 10 Desperados and 1 Economy Wagon.</String>
+		<String _locID="782542">The Province of Goshen sends 10 Desperados and 1 Economic Wagon.</String>
 		<String _locID="782543">The Province of Zoutpansberg sends 8 Breech Loaders and 1 Command Post Wagon.</String>
 		<String _locID="782544">Yuruks can only be trained from Town Centers.</String>
 		<String _locID="782545">Expeditions</String>
@@ -33449,7 +33449,7 @@
 		<String _locID="782741">Commerce Pastoral Migration</String>
 		<String _locID="782742">Ships 4 Goats and 1 Imam.</String>
 		<String _locID="782743">Fortress Settlement Mission</String>
-		<String _locID="782744">Ships 4 Yuruks (Villagers) and 1 Economy Wagon.</String>
+		<String _locID="782744">Ships 4 Yuruks (Villagers) and 1 Economic Wagon.</String>
 		<String _locID="782745">Fortress Pastoral Migration</String>
 		<String _locID="782746">Ships 6 Goats and 1 Mill Wagon.</String>
 		<String _locID="782747">Fortress Maghreb Charter</String>
@@ -33540,24 +33540,24 @@
 		<String _locID="78123">Flying unit</String>
 		<String _locID="78124">Firebomb</String>
 		<String _locID="78125">Engulfs a large area in fire dealing damage over time to enemies inside it.</String>
-		<String _locID="78126">Cantonese Economy</String>
-		<String _locID="78127">Enables Asian economic units and improvements.</String>
-		<String _locID="78128">Quechuan Economy</String>
-		<String _locID="78129">Enables Native American economic units and improvements.</String>
-		<String _locID="78130">Criollo Economy</String>
-		<String _locID="78131">Enables European economic units and improvements.</String>
-		<String _locID="78132">Cantonese Administration</String>
-		<String _locID="78133">Enables Asian support units and improvements.</String>
-		<String _locID="78134">Quechuan Administration</String>
-		<String _locID="78135">Enables Native American support units and improvements.</String>
-		<String _locID="78136">Criollo Administration</String>
-		<String _locID="78137">Enables European support units and improvements.</String>
-		<String _locID="78138">Cantonese Military</String>
-		<String _locID="78139">Enables Asian military units and improvements.</String>
-		<String _locID="78140">Quechuan Military</String>
-		<String _locID="78141">Enables Native American military units and improvements.</String>
-		<String _locID="78142">Criollo Military</String>
-		<String _locID="78143">Enables European military units and improvements.</String>
+		<String _locID="78126">Cantonese Immigrants</String>
+		<String _locID="78127">Enables Asian economic technologies.</String>
+		<String _locID="78128">Quechuan Immigrants</String>
+		<String _locID="78129">Enables Native American economic technologies.</String>
+		<String _locID="78130">Criollo Immigrants</String>
+		<String _locID="78131">Enables European economic technologies.</String>
+		<String _locID="78132">Cantonese Economy</String>
+		<String _locID="78133">Cantonese Military</String>
+		<String _locID="78134">Quechuan Economy</String>
+		<String _locID="78135">Quechuan Military</String>
+		<String _locID="78136">Criollo Economy</String>
+		<String _locID="78137">Criollo Military</String>
+		<String _locID="78138">Cantonese Immigrants</String>
+		<String _locID="78139">Enables Asian military technologies.</String>
+		<String _locID="78140">Quechuan Immigrants</String>
+		<String _locID="78141">Enables Native American military technologies.</String>
+		<String _locID="78142">Criollo Immigrants</String>
+		<String _locID="78143">Enables European military technologies.</String>
 		<String _locID="78144">Imazighen</String>
 		<String _locID="78145">All infantry train faster and see slightly further.</String>
 		<String _locID="78146">Imazighen Shipment has arrived.</String>
@@ -33566,7 +33566,7 @@
 		<String _locID="78149">Tbourida Shipment has arrived.</String>
 		<String _locID="78150">Mercenary Consulate</String>
 		<String _locID="78151">Ghorfas</String>
-		<String _locID="78152">Mercenary Town Center, Dock, Barracks and Stable hitpoints increased. Also Houses support 4 more population.</String>
+		<String _locID="78152">Mercenary Town Center, Dock, Barracks, Stable and Outpost hitpoints increased. Also Houses support 4 more population.</String>
 		<String _locID="78153">Ghorfas Shipment has arrived.</String>
 		<String _locID="78154">Matrakci School</String>
 		<String _locID="78155">All infantry train faster and move slightly faster.</String>
@@ -33614,7 +33614,7 @@
 		<String _locID="78197">Stockade and Prisoner limits increased.</String>
 		<String _locID="78198">Stockade Buyruldu Shipment has arrived.</String>
 		<String _locID="78199">4 Military Wagons</String>
-		<String _locID="78200">4 Economy Wagons</String>
+		<String _locID="78200">4 Economic Wagons</String>
 		<String _locID="78201">TEAM 5 Petards</String>
 		<String _locID="78202">Mediterranean Fishing</String>
 		<String _locID="78203">Fishing Boat train limit greatly increased.</String>
@@ -33698,5 +33698,9 @@
 		<String _locID="78281">Undead warrior that came back for one last fight.</String>
 		<String _locID="78282" comment="1 - amount, 2 - resource">A suspicious opened coffin worth %1d %2s.</String>
 		<String _locID="78283" comment="1 - player, 2 - amount, 3 - resource">%1s has discovered a suspicious opened coffin worth %2d %3s.</String>
+		<String _locID="78284">Mercenary Outpost</String>
+		<String _locID="78285">Hacienda</String>
+		<String _locID="78286">Supports 50 population. Trains villagers, soldiers and livestock.</String>
+		<String _locID="78287">Supports 50 population</String>
 	</Language>
 </StringTable>

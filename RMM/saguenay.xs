@@ -493,7 +493,7 @@ void main(void)
 	{
 		int IslandgrassID = rmCreateArea("grass island 1");
 		rmSetAreaSize(IslandgrassID, rmAreaTilesToFraction(60+20*cNumberNonGaiaPlayers), rmAreaTilesToFraction(160+20*cNumberNonGaiaPlayers));
-		rmSetAreaLocation(IslandgrassID, rmRandFloat(0.63,0.67), rmRandFloat(0.77, 0.86));
+		rmSetAreaLocation(IslandgrassID, rmRandFloat(0.8,0.8), rmRandFloat(0.75, 0.75));
 		rmSetAreaMix(IslandgrassID, "saguenay tundra");
 		rmSetAreaBaseHeight(IslandgrassID, 1.5);
 //		rmSetAreaElevationType(IslandgrassID, cElevTurbulence);
@@ -513,7 +513,7 @@ void main(void)
 
 		int Islandgrass2ID = rmCreateArea("grass island 2");
 		rmSetAreaSize(Islandgrass2ID, rmAreaTilesToFraction(60+20*cNumberNonGaiaPlayers), rmAreaTilesToFraction(160+20*cNumberNonGaiaPlayers));
-		rmSetAreaLocation(Islandgrass2ID, rmRandFloat(0.77,0.86), rmRandFloat(0.63, 0.67));
+		rmSetAreaLocation(Islandgrass2ID, rmRandFloat(0.75,0.75), rmRandFloat(0.7, 0.7));
 		rmSetAreaMix(Islandgrass2ID, "saguenay tundra");
 		rmSetAreaBaseHeight(Islandgrass2ID, 1.5);
 //		rmSetAreaElevationType(Islandgrass2ID, cElevTurbulence);
@@ -551,7 +551,7 @@ void main(void)
 		rmAddAreaConstraint(Islandgrass3ID, avoidCoastArea);
 		rmAddAreaConstraint(Islandgrass3ID, avoidEdge);
 		if (cNumberNonGaiaPlayers >= 6)
-			rmBuildArea(Islandgrass3ID);
+			//rmBuildArea(Islandgrass3ID);
 
 		int stayInIsland3 = rmCreateAreaMaxDistanceConstraint("stay in island 3", Islandgrass3ID, 0);
 		int stayNearIsland3 = rmCreateAreaMaxDistanceConstraint("stay near island 3", Islandgrass3ID, 3);

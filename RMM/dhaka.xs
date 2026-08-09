@@ -438,7 +438,7 @@ void main(void)
 		float yLoc = 0.65;
 		float walk = 0.01;
 
-		ypKingsHillLandfill(xLoc, yLoc, 0.006, 1.0, "borneo_sand_a", 0);
+		ypKingsHillLandfill(xLoc, yLoc, 0.006, 2.0, "borneo_sand_a", 0);
 		ypKingsHillPlacer(xLoc, yLoc, walk, 0);
 		rmEchoInfo("XLOC = "+xLoc);
 		rmEchoInfo("XLOC = "+yLoc);

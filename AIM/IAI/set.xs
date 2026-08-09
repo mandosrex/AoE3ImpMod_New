@@ -218,11 +218,24 @@ void setUnitTypes(void)
 		case cCivColombians:
 		{
 			gExplorerUnit = cUnitTypeExplorerAmerican;
-			gHouseUnit = cUnitTypeHouseMed;
-			gLivestockPenUnit = cUnitTypeHouseMed;
+			gHouseUnit = cUnitTypeHacienda;
+			gLivestockPenUnit = cUnitTypeHacienda;
 			gGalleonUnit = cUnitTypeSteamShip;
 			gEconUnit = cUnitTypeSettlerAmerican;
-			gNavyClass1 = cUnitTypeCaravel;
+			gNavyClass1 = cUnitTypeCorvette;
+			gNavyClass2 = cUnitTypeGalleon;
+			gNavyClass3 = cUnitTypeFrigate;
+			gNavyClassS1 = cUnitTypeMonitor;
+			break;
+		}
+		case cCivMexicans:
+		{
+			gExplorerUnit = cUnitTypeExplorerAmerican;
+			gHouseUnit = cUnitTypeHacienda;
+			gLivestockPenUnit = cUnitTypeHacienda;
+			gGalleonUnit = cUnitTypeSteamShip;
+			gEconUnit = cUnitTypeSettlerAmerican;
+			gNavyClass1 = cUnitTypeCorvette;
 			gNavyClass2 = cUnitTypeGalleon;
 			gNavyClass3 = cUnitTypeFrigate;
 			gNavyClassS1 = cUnitTypeMonitor;
@@ -256,6 +269,18 @@ void setUnitTypes(void)
 		case cCivGermans:
 		{
 			gExplorerUnit = cUnitTypeExplorerEast; //toEnableNextUpdate
+			gHouseUnit = cUnitTypeHouseEast;
+			gLivestockPenUnit = cUnitTypeHouseEast;
+			gNavyClass1 = cUnitTypeCaravel;
+			gNavyClass2 = cUnitTypeGalleon;
+			gNavyClass3 = cUnitTypeFrigate;
+			gNavyClassS1 = cUnitTypeMonitor;
+			break;
+		}
+		case cCivAustrians:
+		{
+			gExplorerUnit = cUnitTypeExplorerEast;
+			gEconUnit = cUnitTypeSettlerHabsburg;
 			gHouseUnit = cUnitTypeHouseEast;
 			gLivestockPenUnit = cUnitTypeHouseEast;
 			gNavyClass1 = cUnitTypeCaravel;

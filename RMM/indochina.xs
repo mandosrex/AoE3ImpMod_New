@@ -308,9 +308,8 @@ void main(void)
   rmRiverAddWaypoint(mainRiver, 0.5, .6);
   rmRiverAddWaypoint(mainRiver, 0.5, .2);
 
-  rmRiverSetShallowRadius(mainRiver, 9+cNumberNonGaiaPlayers);
-  rmRiverAddShallow(mainRiver, 0.3);
-  rmRiverAddShallow(mainRiver, 0.6);
+  rmRiverSetShallowRadius(mainRiver, 16+cNumberNonGaiaPlayers);
+  rmRiverAddShallow(mainRiver, 0.1);
   
   rmRiverBuild(mainRiver);
 
@@ -741,10 +740,10 @@ void main(void)
     
     int randLoc = rmRandInt(1,2);
     float xLoc = 0.5;
-    float yLoc = 0.075;
+    float yLoc = 0.9;
     float walk = 0.025;
     
-    ypKingsHillLandfill(xLoc, yLoc, .0075, 2.0, "borneo_sand_a", 0);
+    ypKingsHillLandfill(xLoc, yLoc, .006, 2.0, "borneo_sand_a", 0);
     ypKingsHillPlacer(xLoc, yLoc, walk, 0);
     rmEchoInfo("XLOC = "+xLoc);
     rmEchoInfo("XLOC = "+yLoc);
@@ -834,7 +833,7 @@ void main(void)
   rmSetObjectDefMaxDistance(fishID, rmXFractionToMeters(0.5));
   rmAddObjectDefConstraint(fishID, fishVsFishID);
   rmAddObjectDefConstraint(fishID, fishLand);
-  rmPlaceObjectDefAtLoc(fishID, 0, 0.5, 0.15, 6*cNumberNonGaiaPlayers);
+  rmPlaceObjectDefAtLoc(fishID, 0, 0.5, 0.25, 6*cNumberNonGaiaPlayers);
     
   int fish2ID=rmCreateObjectDef("fish 2");
   rmAddObjectDefItem(fish2ID, fish2, 1, 0.0);
@@ -842,7 +841,7 @@ void main(void)
   rmSetObjectDefMaxDistance(fish2ID, rmXFractionToMeters(0.5));
   rmAddObjectDefConstraint(fish2ID, fishVsFish2ID);
   rmAddObjectDefConstraint(fish2ID, fishLand);
-  rmPlaceObjectDefAtLoc(fish2ID, 0, 0.5, 0.15, 6*cNumberNonGaiaPlayers);
+  rmPlaceObjectDefAtLoc(fish2ID, 0, 0.5, 0.25, 6*cNumberNonGaiaPlayers);
   
   // extra fish for under 5 players
   if (cNumberNonGaiaPlayers < 5) {
@@ -852,7 +851,7 @@ void main(void)
     rmSetObjectDefMaxDistance(fish3ID, rmXFractionToMeters(0.5));
     rmAddObjectDefConstraint(fish3ID, fishVsFishID);
     rmAddObjectDefConstraint(fish3ID, fishLand);
-    rmPlaceObjectDefAtLoc(fish3ID, 0, 0.5, 0.1, 5*cNumberNonGaiaPlayers);
+    rmPlaceObjectDefAtLoc(fish3ID, 0, 0.5, 0.2, 5*cNumberNonGaiaPlayers);
   }  
     
   int whaleID=rmCreateObjectDef("whale");

@@ -86,6 +86,16 @@
 			<title>Waterman</title>
 		</civ>
 		<civ>
+			SouthAfrica
+			<title>Goede Hoop</title>
+			<title>Reiger</title>
+			<title>Amersfoort</title>
+			<title>Vosmaar</title>
+			<title>Rijger</title>
+			<title>Walvis</title>
+			<title>Leeuw</title>
+		</civ>
+		<civ>
 			French
 			<title>Argus</title>
 			<title>Charlotte</title>
@@ -101,6 +111,13 @@
 			<title>Carlota</title>
 			<title>Lydia</title>
 			<title>Priscilla</title>
+		</civ>
+		<civ>
+			Austrians
+			<title>Adler</title>
+			<title>Leopold</title>
+			<title>Karl</title>
+			<title>Ferdinand</title>
 		</civ>
 		<civ>
 			Portuguese
@@ -127,6 +144,15 @@
 			<title>Atocha</title>
 			<title>Magellanes</title>
 			<title>Rosario</title>
+		</civ>
+		<civ>
+			Colombians
+			<title>Republica</title>
+			<title>Carabobo</title>
+			<title>Maracaibo</title>
+			<title>Magdalena</title>
+			<title>Almirante Brion</title>
+			<title>Manuela</title>
 		</civ>
 		<civ>
 			Indians
@@ -223,6 +249,15 @@
 			<title>Marigold</title>
 			<title>George</title>
 		</civ>
+		<civ>
+			Colombians
+			<title>Republica</title>
+			<title>Carabobo</title>
+			<title>Maracaibo</title>
+			<title>Magdalena</title>
+			<title>Almirante Brion</title>
+			<title>Manuela</title>
+		</civ>
 	</protounit>
 	<protounit>
 		ypWokouJunkI
@@ -315,11 +350,27 @@
 			<title>St. Anne</title>
 		</civ>
 		<civ>
+			SouthAfrica
+			<title>Zeehond</title>
+			<title>Republiek</title>
+			<title>Vrijstaat</title>
+			<title>Voorwaarts</title>
+			<title>Bloemfontein</title>
+		</civ>
+		<civ>
 			Germans
 			<title>Berlin</title>
 			<title>Elisa</title>
 			<title>Medea</title>
 			<title>Doris Greta</title>
+		</civ>
+		<civ>
+			Austrians
+			<title>Maximilian</title>
+			<title>Franz</title>
+			<title>St. Johann</title>
+			<title>St. Karl</title>
+			<title>Dreifaltigkeit</title>
 		</civ>
 		<civ>
 			Ottomans
@@ -348,6 +399,14 @@
 		<civ>
 			Spanish
 			<title>Ignacio</title>
+			<title>Marte</title>
+			<title>Fama</title>
+			<title>Confianza</title>
+			<title>Espartana</title>
+		</civ>
+		<civ>
+			Colombians
+			<title>Carabobo</title>
 			<title>Concepcion</title>
 			<title>El Grande</title>
 			<title>Santa Margarita</title>
@@ -657,6 +716,11 @@
 			<title>Zr.Ms. Zeeland</title>
 		</civ>
 		<civ>
+			SouthAfrica
+			<title>SV De Vryheid</title>
+			<title>SV Paul Kruger</title>
+		</civ>
+		<civ>
 			French
 			<title>NMI Courbet</title>
 			<title>NMI Jean Bart</title>
@@ -665,6 +729,11 @@
 			Germans
 			<title>SMS Kaiser</title>
 			<title>SMS Kronprinz</title>
+		</civ>
+		<civ>
+			Austrians
+			<title>SKS Osterreich</title>
+			<title>SKS Habsburg</title>
 		</civ>
 		<civ>
 			Ottomans
@@ -685,6 +754,11 @@
 			Spanish
 			<title>BAE Alfonso</title>
 			<title>BAE Pelayo</title>
+		</civ>
+		<civ>
+			Colombians
+			<title>AGC Libertador</title>
+			<title>AGC Gran Bolivar</title>
 		</civ>
 		<civ>
 			Italians
@@ -803,6 +877,15 @@
 			<title>Willem Ruys</title>
 		</civ>
 		<civ>
+			SouthAfrica
+			<title>Bloemfontein</title>
+			<title>Oranje</title>
+			<title>Drakensberg</title>
+			<title>Limpopo</title>
+			<title>Veld</title>
+			<title>Kalahari</title>
+		</civ>
+		<civ>
 			French
 			<title>Achille</title>
 			<title>Neptune</title>
@@ -821,6 +904,15 @@
 			<title>Betriebsamkeit</title>
 			<title>Admiralitatsyacht</title>
 			<title>Friedrich</title>
+		</civ>
+		<civ>
+			Austrians
+			<title>San Cristobal</title>
+			<title>Santisima Trinidad</title>
+			<title>Gerechtigkeit</title>
+			<title>Tapferkeit</title>
+			<title>Einigkeit</title>
+			<title>Unbesiegte</title>
 		</civ>
 		<civ>
 			Ottomans
@@ -861,6 +953,16 @@
 			<title>Nepomuceno</title>
 			<title>San Salvador</title>
 			<title>Santa Cruz</title>
+		</civ>
+		<civ>
+			Colombians
+			<title>Aventina</title>
+			<title>Leona</title>
+			<title>Ayacucho</title>
+			<title>Pichincha</title>
+			<title>Cartagena</title>
+			<title>Maracaibo</title>
+			<title>Santa Marta</title>
 		</civ>
 		<civ>
 			Chinese
@@ -1016,6 +1118,12 @@
 			<title>Springfontein</title>
 		</civ>
 		<civ>
+			SouthAfrica
+			<title>Zuidster</title>
+			<title>Adelaar</title>
+			<title>Kaapland</title>
+		</civ>
+		<civ>
 			French
 			<title>Ville de Paris</title>
 			<title>Le Duc Du Duras</title>
@@ -1027,6 +1135,12 @@
 			<title>Freyheit</title>
 			<title>Oeconomie</title>
 			<title>Straatsrath von Brock</title>
+		</civ>
+		<civ>
+			Austrians
+			<title>Starke</title>
+			<title>Providenz</title>
+			<title>Hoffnung</title>
 		</civ>
 		<civ>
 			Ottomans
@@ -1053,6 +1167,12 @@
 			<title>Reina de Catilla</title>
 			<title>Socorro</title>
 			<title>Sonora</title>
+		</civ>
+		<civ>
+			Colombians
+			<title>Riohacha</title>
+			<title>Mompox</title>
+			<title>Socorro</title>
 		</civ>
 		<civ>
 			Chinese
@@ -1290,6 +1410,60 @@
 			<lastname>Barents</lastname>
 		</civ>
 		<civ>
+			SouthAfrica
+			<firstname>Andries </firstname>
+			<firstname>Barend </firstname>
+			<firstname>Andries </firstname>
+			<firstname>Barend </firstname>
+			<firstname>Coenraad </firstname>
+			<firstname>Diederik </firstname>
+			<firstname>Coenraad </firstname>
+			<firstname>Diederik </firstname>
+			<firstname>Engelbert </firstname>
+			<firstname>Gerhard </firstname>
+			<firstname>Engelbert </firstname>
+			<firstname>Gerhard </firstname>
+			<firstname>Hendrik </firstname>
+			<firstname>Johannes </firstname>
+			<firstname>Hendrik </firstname>
+			<firstname>Johannes </firstname>
+			<firstname>Koos </firstname>
+			<firstname>Tjaart </firstname>
+			<firstname>Koos </firstname>
+			<firstname>Tjaart </firstname>
+			<firstname>Sarel </firstname>
+			<firstname>Lourens </firstname>
+			<firstname>Sarel </firstname>
+			<firstname>Lourens </firstname>
+			<firstname>Jozef </firstname>
+			<firstname>Jozef </firstname>
+			<lastname>Cilliers</lastname>
+			<lastname>Potgieter</lastname>
+			<lastname>Botha</lastname>
+			<lastname>van den Berg</lastname>
+			<lastname>de Beer</lastname>
+			<lastname>de Vos</lastname>
+			<lastname>van Zyl</lastname>
+			<lastname>van Wyk</lastname>
+			<lastname>van Rensburg</lastname>
+			<lastname>van Niekerk</lastname>
+			<lastname>Visser</lastname>
+			<lastname>Venter</lastname>
+			<lastname>Krige</lastname>
+			<lastname>Marais</lastname>
+			<lastname>Uys</lastname>
+			<lastname>Hertzog</lastname>
+			<lastname>Grobler</lastname>
+			<lastname>Coetzee</lastname>
+			<lastname>Reitz</lastname>
+			<lastname>Kruger</lastname>
+			<lastname>Potgieter</lastname>
+			<lastname>Viljoen</lastname>
+			<lastname>Kock</lastname>
+			<lastname>Trichardt</lastname>
+			<lastname>de Klerk</lastname>
+		</civ>
+		<civ>
 			French
 			<firstname>Duc </firstname>
 			<firstname>Sieur </firstname>
@@ -1383,10 +1557,59 @@
 			<lastname>Leichardt</lastname>
 			<lastname>Behaim</lastname>
 			<lastname>Waldseemuller</lastname>
-			<lastname>of Weid</lastname>
+			<lastname>von Weid</lastname>
 			<lastname>Federmann</lastname>
 			<lastname>Minnewit</lastname>
 			<lastname>Schromburgk</lastname>
+		</civ>
+		<civ>
+			Austrians
+			<firstname>Wolfgang </firstname>
+			<firstname>Viktor </firstname>
+			<firstname>Wolfgang </firstname>
+			<firstname>Viktor </firstname>
+			<firstname>Sigismund </firstname>
+			<firstname>Reinhard </firstname>
+			<firstname>Sigismund </firstname>
+			<firstname>Reinhard </firstname>
+			<firstname>Nikolaus </firstname>
+			<firstname>Konrad </firstname>
+			<firstname>Nikolaus </firstname>
+			<firstname>Konrad </firstname>
+			<firstname>Hieronymus </firstname>
+			<firstname>Karl </firstname>
+			<firstname>Hieronymus </firstname>
+			<firstname>Karl </firstname>
+			<firstname>Friedrich </firstname>
+			<firstname>Albrecht </firstname>
+			<firstname>Friedrich </firstname>
+			<firstname>Albrecht </firstname>
+			<firstname>Benedikt s</firstname>
+			<firstname>Gunther </firstname>
+			<firstname>Benedikt </firstname>
+			<firstname>Gunther </firstname>
+			<lastname>Gustav</lastname>
+			<lastname>Heinrich</lastname>
+			<lastname>Ignaz</lastname>
+			<lastname>Gottfried</lastname>
+			<lastname>Kaspar</lastname>
+			<lastname>Dominik</lastname>
+			<lastname>Raimund</lastname>
+			<lastname>Theodor</lastname>
+			<lastname>Maximilian</lastname>
+			<lastname>Ernst</lastname>
+			<lastname>von Liechtenstein</lastname>
+			<lastname>von Schwarzenberg</lastname>
+			<lastname>von Lobkowicz</lastname>
+			<lastname>von Khevenhuller</lastname>
+			<lastname>von Starhemberg</lastname>
+			<lastname>von Trauttmansdorff</lastname>
+			<lastname>von Dietrichstein</lastname>
+			<lastname>von Harrach</lastname>
+			<lastname>von Furstenberg</lastname>
+			<lastname>von Waldstein</lastname>
+			<lastname>von Pappenheim</lastname>
+			<lastname>von Sinzendorf</lastname>
 		</civ>
 		<civ>
 			Russians
@@ -2910,12 +3133,29 @@
 			<title>Fort Good Hope</title>
 		</civ>
 		<civ>
+			USA
+			<title>Fort Brimstone Hill</title>
+			<title>Fort Falcon</title>
+			<title>Fort Ingoldsby</title>
+			<title>Fort Pownall</title>
+			<title>Fort Good Hope</title>
+			<title>Fort Ticonderoga</title>
+		</civ>
+		<civ>
 			Dutch
 			<title>Fort Ninigret</title>
 			<title>Fort Het Huys de Hoop</title>
 			<title>Fort Zwaanandael</title>
 			<title>Fort Crailo</title>
 			<title>Fort Eriwonick</title>
+		</civ>
+		<civ>
+			SouthAfrica
+			<title>Fort Marabastad</title>
+			<title>Fort Daspoortrand</title>
+			<title>Fort Hartebeestpoort</title>
+			<title>Fort Klapperkop</title>
+			<title>Fort Durnford</title>
 		</civ>
 		<civ>
 			French
@@ -2937,6 +3177,14 @@
 			<title>Fort Karlstadt</title>
 			<title>Fort Rothenburg</title>
 			<title>Fort Groningen</title>
+		</civ>
+		<civ>
+			Austrians
+			<title>Fort Hohensalzburg</title>
+			<title>Fort Kufstein</title>
+			<title>Fort Wiener Neustadt</title>
+			<title>Fort Peterwardein</title>
+			<title>Fort Leopoldstadt</title>
 		</civ>
 		<civ>
 			Ottomans
@@ -2973,6 +3221,18 @@
 			<title>Fort Gayso</title>
 			<title>Fort Ignatius</title>
 			<title>Fort Miro</title>
+		</civ>
+		<civ>
+			Colombians
+			<title>Fort Cartagena</title>
+			<title>Fort Magdalena</title>
+			<title>Fort Salgar</title>
+			<title>Fort Santa Catalina</title>
+			<title>Fort Bocachica</title>
+			<title>Fort San Sebastian</title>
+			<title>Fort San Fernando</title>
+			<title>Fort San Felipe</title>
+			<title>Fort Barajas</title>
 		</civ>
 		<civ>
 			Chinese
@@ -3505,6 +3765,20 @@
 			<title>Nassau</title>
 		</civ>
 		<civ>
+			SouthAfrica
+			<title>Bloemfontein</title>
+			<title>Pietermaritzburg</title>
+			<title>Zoutpansberg</title>
+			<title>Lydenburg</title>
+			<title>Swellendam</title>
+			<title>Somerset</title>
+			<title>Wakkerstroom</title>
+			<title>Kroonstad</title>
+			<title>Cradock</title>
+			<title>Vryheid</title>
+			<title>Utrecht</title>
+		</civ>
+		<civ>
 			French
 			<title>Louisbourg</title>
 			<title>Montreal</title>
@@ -3531,6 +3805,20 @@
 			<title>Tertholen</title>
 			<title>Brandenburg</title>
 			<title>Arguin</title>
+		</civ>
+		<civ>
+			Austrians
+			<title>Antwerpen</title>
+			<title>Mailand</title>
+			<title>Neapel</title>
+			<title>Regensburg</title>
+			<title>Budweis</title>
+			<title>Laibach</title>
+			<title>Pressburg</title>
+			<title>Salzburg</title>
+			<title>Innsbruck</title>
+			<title>Linz</title>
+			<title>Ulm</title>
 		</civ>
 		<civ>
 			Ottomans
@@ -3587,6 +3875,20 @@
 			<title>Quito</title>
 			<title>San Andreas</title>
 			<title>Havana</title>
+		</civ>
+		<civ>
+			Colombians
+			<title>Cartagena</title>
+			<title>Tunja</title>
+			<title>Honda</title>
+			<title>Barinas</title>
+			<title>Rosario</title>
+			<title>Angostura</title>
+			<title>Popayan</title>
+			<title>Santa Fe</title>
+			<title>Caracas</title>
+			<title>Guayaquil</title>
+			<title>Pasto</title>
 		</civ>
 		<civ>
 			Chinese
@@ -3800,6 +4102,18 @@
 			<title>Thomas Ernsthuis</title>
 		</civ>
 		<civ>
+			SouthAfrica
+			<title>Pieter Retief</title>
+			<title>Sarel Cilliers</title>
+			<title>Hendrik Potgieter</title>
+			<title>Gerrit Maritz</title>
+			<title>Piet Uys</title>
+			<title>Paul Kruger</title>
+			<title>Ben Viljoen</title>
+			<title>Christiaan de Wet</title>
+			<title>Danie Theron</title>
+		</civ>
+		<civ>
 			French
 			<title>Charles Joseph Patissier</title>
 			<title>Francois-Jean de Beauvoir</title>
@@ -3824,6 +4138,18 @@
 			<title>Wilhelm von Gall</title>
 			<title>Johann von Hanxleden</title>
 			<title>Albrecht von Horn</title>
+		</civ>
+		<civ>
+			Austrians
+			<title>Raimondo Montecuccoli</title>
+			<title>Albrecht von Wallenstein</title>
+			<title>Karl von Lothringen</title>
+			<title>Peter Ernst von Mansfeld</title>
+			<title>Johann von Sporck</title>
+			<title>Ludwig Wilhelm von Baden</title>
+			<title>Georg von Scherffenberg</title>
+			<title>Nikolaus Zrinski</title>
+			<title>Johann von Werth</title>
 		</civ>
 		<civ>
 			Ottomans
@@ -3874,6 +4200,18 @@
 			<title>Bonaventura Moreno</title>
 			<title>Jose Solano</title>
 			<title>Martin Alvarez de Sotomayor</title>
+		</civ>
+		<civ>
+			Colombians
+			<title>Antonio Ricaurte</title>
+			<title>Leonardo Infante</title>
+			<title>Carlos Soublette</title>
+			<title>Rafael Urdaneta</title>
+			<title>Jose Antonio Paez</title>
+			<title>Mariano Montilla</title>
+			<title>Atanasio Girardot</title>
+			<title>Jose María Cordova</title>
+			<title>Pedro Leon Torres</title>
 		</civ>
 		<civ>
 			Chinese
@@ -3945,6 +4283,15 @@
 			<title>Church Santa Maria del Mar</title>
 		</civ>
 		<civ>
+			Colombians
+			<title>Church San Pedro</title>
+			<title>Church Santa Barbara</title>
+			<title>Church Santo Domingo</title>
+			<title>Church Santisima Trinidad</title>
+			<title>Church La Ermita</title>
+			<title>Church San Francisco</title>
+		</civ>
+		<civ>
 			French
 			<title>Church Saint-Etienne</title>
 			<title>Church Pantheon</title>
@@ -3971,6 +4318,15 @@
 			<title>Church Asamkirche</title>
 		</civ>
 		<civ>
+			Austrians
+			<title>Church Stephansdom</title>
+			<title>Church Karlskirche</title>
+			<title>Church Hofkirche</title>
+			<title>Church Stiftskirche</title>
+			<title>Church Salzburger Dom</title>
+			<title>Church Augustinerkirche</title>
+		</civ>
+		<civ>
 			Russians
 			<title>Church Vasiliy Blazhennyy</title>
 			<title>Church Pokrovsk</title>
@@ -3985,6 +4341,14 @@
 			<title>Church Oude</title>
 			<title>Church Amstelkring</title>
 			<title>Church Nieuwe</title>
+		</civ>
+		<civ>
+			SouthAfrica
+			<title>Church Grote</title>
+			<title>Church Hervormde</title>
+			<title>Church Gereformeerde</title>
+			<title>Church Nederduitse Hervormde</title>
+			<title>Church Sendinggestig</title>
 		</civ>
 		<civ>
 			Ottomans

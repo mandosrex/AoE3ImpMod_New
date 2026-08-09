@@ -151,11 +151,11 @@ void main(void)
 	int avoidpondArea = rmCreateClassDistanceConstraint("avoid pond area", rmClassID("pond"), 10.0+2*cNumberNonGaiaPlayers);
 
 	// VP avoidance
-	int avoidTradeRouteFar = rmCreateTradeRouteDistanceConstraint("trade route far", 8.0);
-	int avoidTradeRoute = rmCreateTradeRouteDistanceConstraint("trade route", 10.0);
+	int avoidTradeRoute = rmCreateTradeRouteDistanceConstraint("trade route", 8.0);
+	int avoidTradeRouteFar = rmCreateTradeRouteDistanceConstraint("trade route far", 10.0);
 	int avoidTradeRouteShort = rmCreateTradeRouteDistanceConstraint("trade route short", 5.0);
 	int avoidTradeRouteSocket = rmCreateTypeDistanceConstraint("avoid trade route socket", "socketTradeRoute", 12.0);
-	int avoidTradeRouteSocketShort = rmCreateTypeDistanceConstraint("avoid trade route socket short", "socketTradeRoute", 4.0);
+	int avoidTradeRouteSocketShort = rmCreateTypeDistanceConstraint("avoid trade route socket short", "socketTradeRoute", 6.0);
 
 	// KotH avoidance
 	int avoidKingsHill = rmCreateTypeDistanceConstraint("avoid kings hill", "ypKingsHill", 10.0);
@@ -388,9 +388,66 @@ void main(void)
 	int stayInPlayerArea1 = rmConstraintID("stay in player area 1");
 	int stayInPlayerArea2 = rmConstraintID("stay in player area 2");	
 	
+
+	//===========trade route=================
+
+		int socketID=rmCreateObjectDef("sockets to dock Trade Posts");
+        rmAddObjectDefItem(socketID, "SocketTradeRoute", 1, 0.0);
+        rmSetObjectDefAllowOverlap(socketID, true);
+        rmSetObjectDefMinDistance(socketID, 0.0);
+        rmSetObjectDefMaxDistance(socketID, 6.0);      
+       
+        int tradeRouteID = rmCreateTradeRoute();
+
+	if (cNumberTeams  == 2){
+        rmSetObjectDefTradeRouteID(socketID, tradeRouteID);
+	rmAddTradeRouteWaypoint(tradeRouteID, 0.9, 0.2);
+	rmAddTradeRouteWaypoint(tradeRouteID, 0.75, 0.4);
+	rmAddTradeRouteWaypoint(tradeRouteID, 0.5, 0.5);
+	rmAddTradeRouteWaypoint(tradeRouteID, 0.25, 0.55);
+	rmAddTradeRouteWaypoint(tradeRouteID, 0.1, 0.8);
+        rmBuildTradeRoute(tradeRouteID, "dirt");
+ 
+        vector socketLoc1 = rmGetTradeRouteWayPoint(tradeRouteID, 0.25);
+        rmPlaceObjectDefAtPoint(socketID, 0, socketLoc1);
+            socketLoc1 = rmGetTradeRouteWayPoint(tradeRouteID, 0.75);
+        rmPlaceObjectDefAtPoint(socketID, 0, socketLoc1);
+            socketLoc1 = rmGetTradeRouteWayPoint(tradeRouteID, 0.5);
+        rmPlaceObjectDefAtPoint(socketID, 0, socketLoc1);   
+
+
+}else{
+
+//ffa circular TP
+
+        tradeRouteID = rmCreateTradeRoute();
+        rmSetObjectDefTradeRouteID(socketID, tradeRouteID);
+	rmAddTradeRouteWaypoint(tradeRouteID, 0.65, 0.65);
+	rmAddTradeRouteWaypoint(tradeRouteID, 0.70, 0.50);
+	rmAddTradeRouteWaypoint(tradeRouteID, 0.65, 0.35);
+	rmAddTradeRouteWaypoint(tradeRouteID, 0.50, 0.30);
+	rmAddTradeRouteWaypoint(tradeRouteID, 0.35, 0.35); 
+	rmAddTradeRouteWaypoint(tradeRouteID, 0.30, 0.50);
+	rmAddTradeRouteWaypoint(tradeRouteID, 0.35, 0.65);
+	rmAddTradeRouteWaypoint(tradeRouteID, 0.50, 0.70);
+	rmAddTradeRouteWaypoint(tradeRouteID, 0.65, 0.65);  
+        rmBuildTradeRoute(tradeRouteID, "dirt");
+
+	vector socketLoc2 = rmGetTradeRouteWayPoint(tradeRouteID, 0.2);
+        rmPlaceObjectDefAtPoint(socketID, 0, socketLoc2);
+	socketLoc2 = rmGetTradeRouteWayPoint(tradeRouteID, 0.45);
+        rmPlaceObjectDefAtPoint(socketID, 0, socketLoc2);
+	socketLoc2 = rmGetTradeRouteWayPoint(tradeRouteID, 0.7);
+        rmPlaceObjectDefAtPoint(socketID, 0, socketLoc2);
+	socketLoc2 = rmGetTradeRouteWayPoint(tradeRouteID, 0.95);
+        rmPlaceObjectDefAtPoint(socketID, 0, socketLoc2);
+
+}
+
+
 	// ******************************************** NATIVES *************************************************
 	
-    int nativeID1 = -1;
+    	int nativeID1 = -1;
 	int nativeID2 = -1;
 	int nativeID3 = -1;
    	int natArea1 = -1;
@@ -448,63 +505,12 @@ void main(void)
 	rmSetAreaObeyWorldCircleConstraint(natArea3, false);
 	
 		
-	if (cNumberTeams <= 2)
-	{
-		if (natvariation == 0)
-		{
-			rmPlaceGroupingAtLoc(nativeID1, 0, 0.75, 0.55);
-			rmPlaceGroupingAtLoc(nativeID2, 0, 0.25, 0.45);
-			rmPlaceGroupingAtLoc(nativeID3, 0, 0.50, 0.50);
-			rmSetAreaLocation(natArea1,  0.75, 0.55);
-			rmBuildArea(natArea1);
-			rmSetAreaLocation(natArea2,  0.25, 0.45);
-			rmBuildArea(natArea2);
-			rmSetAreaLocation(natArea3,  0.50, 0.50);
-			rmBuildArea(natArea3);
-		}
-		else if (natvariation == 1)
-		{
 			rmPlaceGroupingAtLoc(nativeID1, 0, 0.70, 0.30); // 70 30
 			rmPlaceGroupingAtLoc(nativeID2, 0, 0.30, 0.70); // 30 70
-			rmPlaceGroupingAtLoc(nativeID3, 0, 0.50, 0.50);
 			rmSetAreaLocation(natArea1,  0.70, 0.30);
 			rmBuildArea(natArea1);
 			rmSetAreaLocation(natArea2,  0.30, 0.70);
 			rmBuildArea(natArea2);
-			rmSetAreaLocation(natArea3,  0.50, 0.50);
-			rmBuildArea(natArea3);
-		}
-		else if (natvariation == 2)
-		{
-			rmPlaceGroupingAtLoc(nativeID1, 0, 0.80, 0.50);
-			rmPlaceGroupingAtLoc(nativeID2, 0, 0.20, 0.50);
-			rmPlaceGroupingAtLoc(nativeID3, 0, 0.50, 0.50);
-			rmSetAreaLocation(natArea1,  0.80, 0.50);
-			rmBuildArea(natArea1);
-			rmSetAreaLocation(natArea2,  0.20, 0.50);
-			rmBuildArea(natArea2);
-			rmSetAreaLocation(natArea3,  0.50, 0.50);
-			rmBuildArea(natArea3);
-		}
-		else
-		{
-			rmPlaceGroupingAtLoc(nativeID1, 0, 0.70, 0.30); // 70 30
-			rmPlaceGroupingAtLoc(nativeID2, 0, 0.30, 0.70); // 30 70
-			rmPlaceGroupingAtLoc(nativeID3, 0, 0.50, 0.50);
-			rmSetAreaLocation(natArea1,  0.70, 0.30);
-			rmBuildArea(natArea1);
-			rmSetAreaLocation(natArea2,  0.30, 0.70);
-			rmBuildArea(natArea2);
-			rmSetAreaLocation(natArea3,  0.50, 0.50);
-			rmBuildArea(natArea3);
-		}	
-	}	
-	else
-	{
-			rmPlaceGroupingAtLoc(nativeID3, 0, 0.50, 0.50); // 30 70
-			rmSetAreaLocation(natArea3,  0.50, 0.50);	
-			rmBuildArea(natArea3);
-	}
 	
 
 	// ------------------------------------------------------ KOTH ---------------------------------------------------------------------
@@ -549,12 +555,14 @@ void main(void)
 				rmSetAreaWaterType(pondAreaID, "andes pond"); 
 				rmAddAreaToClass(pondAreaID, rmClassID("pond"));
 				if (cNumberTeams <= 2 && cNumberNonGaiaPlayers <=2)
-					rmAddAreaConstraint(pondAreaID, avoidCenter);
+				rmAddAreaConstraint(pondAreaID, avoidCenter);
 				rmAddAreaConstraint(pondAreaID, avoidEdgeMore);
 				rmAddAreaConstraint(pondAreaID, avoidClassPlayer);
 				rmAddAreaConstraint(pondAreaID, avoidPond);
 				rmAddAreaConstraint(pondAreaID, avoidNativesFar);
 				rmAddAreaConstraint(pondAreaID, avoidKingsHill);
+				rmAddAreaConstraint(pondAreaID, avoidTradeRoute);
+				rmAddAreaConstraint(pondAreaID, avoidTradeRouteSocketShort);
 //				if (i < 1)
 //					rmAddAreaConstraint(pondAreaID, pondNorth);
 //				else if (i < 2)

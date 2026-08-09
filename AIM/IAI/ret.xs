@@ -118,6 +118,10 @@ void researchTech()
    if (kbGetCiv() == cCivBarbaryPirates)
       xsEnableRule("getAgeUps");
 
+   if ( (kbGetCiv() == cCivColombians) || (kbGetCiv() == cCivMexicans) )
+      xsEnableRule("getImmigrantTechs");
+
+
 	//static int lastRunTime = 0;
 	//if(functionDelay(lastRunTime, 10000,"researchTech") == false) return;
 	//lastRunTime = gCurrentGameTime;
@@ -830,5 +834,30 @@ minInterval 30
       speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAge5BigTechPlantation);
       if (speedPlanID < 0)
          createSimpleResearchPlan(cTechAge5BigTechPlantation, getUnit(cUnitTypePlantation), cEconomyEscrowID, 91);
+   }
+}
+
+
+rule getImmigrantTechs
+inactive
+minInterval 5
+{
+   int speedPlanID = -1;
+   int capPlanID = -1;  
+
+
+   if (kbTechGetStatus(cTechEuropeanEconomyColombians) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechEuropeanEconomyColombians);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechEuropeanEconomyColombians, getUnit(cUnitTypeTownCenter), cEconomyEscrowID, 99);
+   }
+
+
+   if (kbTechGetStatus(cTechEuropeanMilitaryColombians) == cTechStatusObtainable)
+   {
+      speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechEuropeanMilitaryColombians);
+      if (speedPlanID < 0)
+         createSimpleResearchPlan(cTechEuropeanMilitaryColombians, getUnit(cUnitTypeBarracks), cEconomyEscrowID, 99);
    }
 }
