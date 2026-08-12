@@ -121,6 +121,8 @@ void researchTech()
    if ( (kbGetCiv() == cCivColombians) || (kbGetCiv() == cCivMexicans) )
       xsEnableRule("getImmigrantTechs");
 
+      xsEnableRule("getPoliticianList");
+
 
 	//static int lastRunTime = 0;
 	//if(functionDelay(lastRunTime, 10000,"researchTech") == false) return;
@@ -850,7 +852,7 @@ minInterval 5
    {
       speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechEuropeanEconomyColombians);
       if (speedPlanID < 0)
-         createSimpleResearchPlan(cTechEuropeanEconomyColombians, getUnit(cUnitTypeTownCenter), cEconomyEscrowID, 99);
+         createSimpleResearchPlan(cTechEuropeanEconomyColombians, getUnit(cUnitTypeHacienda), cEconomyEscrowID, 99);
    }
 
 
@@ -858,6 +860,14 @@ minInterval 5
    {
       speedPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechEuropeanMilitaryColombians);
       if (speedPlanID < 0)
-         createSimpleResearchPlan(cTechEuropeanMilitaryColombians, getUnit(cUnitTypeBarracks), cEconomyEscrowID, 99);
+         createSimpleResearchPlan(cTechEuropeanMilitaryColombians, getUnit(cUnitTypeHacienda), cEconomyEscrowID, 99);
    }
+}
+
+
+rule getPoliticianList
+inactive
+minInterval 60
+{
+	aiPopulatePoliticianList();
 }
