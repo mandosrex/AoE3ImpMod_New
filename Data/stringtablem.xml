@@ -2033,11 +2033,11 @@
 		<String _locID="24926">Prevents enemies from entering a town.</String>
 		<String _locID="24927">Wall</String>
 		<String _locID="24929" symbol="cStringDiscoverResourceNugget" comment="1 - player name, 2 - amount, 3 - resource">%1s has discovered a cache of %2d %3s.</String>
-		<String _locID="24934" symbol="cStringDiscoverSpeedNugget" comment="1 - player name, 2 - unit">%1s has discovered how to change the speed of his %2s by %2.2f%%.</String>
-		<String _locID="24935" symbol="cStringDiscoverHPNugget" comment="1 - player name, 2 - unit">%1s has discovered how to change the hitpoints of his %2s by %2.2f%%.</String>
+		<String _locID="24934" symbol="cStringDiscoverSpeedNugget" comment="1 - player name, 2 - unit">%1s has discovered how to change the speed of his %2s by %2.0f%%.</String>
+		<String _locID="24935" symbol="cStringDiscoverHPNugget" comment="1 - player name, 2 - unit">%1s has discovered how to change the hitpoints of his %2s by %2.0f%%.</String>
 		<String _locID="24937" symbol="cStringResourceNuggetRollover" comment="1 - amount, 2 - resource">A hidden cache of  %1d %2s.</String>
-		<String _locID="24942" symbol="cStringSpeedNuggetRollover">Rare spices that improve the speed of the discoverer by %2.2f%%.</String>
-		<String _locID="24943" symbol="cStringHPNuggetRollover">An old Spanish breastplate that improves Explorer or Hero hitpoints of  by %2.2f%%.</String>
+		<String _locID="24942" symbol="cStringSpeedNuggetRollover">Rare spices that improve the speed of the discoverer by %2.0f%%.</String>
+		<String _locID="24943" symbol="cStringHPNuggetRollover">An old Spanish breastplate that improves Explorer or Hero hitpoints of  by %2.0f%%.</String>
 		<String _locID="24944">Fire</String>
 		<String _locID="24946">A pet black bear who loves honey and is good against guardians</String>
 		<String _locID="24947">Pet Bear</String>
@@ -3305,14 +3305,14 @@
 		<String _locID="27727">SHP Privateer</String>
 		<String _locID="27738">Galleon, heavy warship. Transport ship that can train infantry. Can garrison 75 units.</String>
 		<String _locID="27739">This tech doesn't do anything yet!</String>
-		<String _locID="27740" symbol="cStringNuggetSpeedBoost">The boots of El Pollo Guapo, which increases Hero speed by %2.2f%%.</String>
-		<String _locID="27741" symbol="cStringNuggetSpeedBoostActivate">%s has recovered the boots of El Pollo Guapo, which increases Hero speed by %2.2f%%.</String>
-		<String _locID="27742" symbol="cStringNuggetHPDouble">The cuirass of El Pollo Guapo, which increases Explorer or Hero hitpoints by %2.2f%%.</String>
-		<String _locID="27743" symbol="cStringNuggetHPDoubleActivate">%s has recovered the cuirass of El Pollo Guapo, which increases Hero hitpoints by %2.2f%%.</String>
-		<String _locID="27744" symbol="cStringNuggetHPBoost">The morion of El Pollo Guapo, which increases Explorer or Hero hitpoints by %2.2f%%.</String>
-		<String _locID="27745" symbol="cStringNuggetHPBoostActivate">%s has found the morion of El Pollo Guapo, which increases Hero hitpoints %2.2f%%.</String>
-		<String _locID="27746" symbol="cStringNuggetHPBoost2">The shield of El Pollo Guapo, which increases Explorer or Hero hitpoints by %2.2f%%.</String>
-		<String _locID="27747" symbol="cStringNuggetHPBoost2Activate">%s has recovered the shield of El Pollo Guapo, which increases Hero hitpoints by %2.2f%%.</String>
+		<String _locID="27740" symbol="cStringNuggetSpeedBoost">The boots of El Pollo Guapo, which increases Hero speed by %2.0f%%.</String>
+		<String _locID="27741" symbol="cStringNuggetSpeedBoostActivate">%s has recovered the boots of El Pollo Guapo, which increases Hero speed by %2.0f%%.</String>
+		<String _locID="27742" symbol="cStringNuggetHPDouble">The cuirass of El Pollo Guapo, which increases Explorer or Hero hitpoints by %2.0f%%.</String>
+		<String _locID="27743" symbol="cStringNuggetHPDoubleActivate">%s has recovered the cuirass of El Pollo Guapo, which increases Hero hitpoints by %2.0f%%.</String>
+		<String _locID="27744" symbol="cStringNuggetHPBoost">The morion of El Pollo Guapo, which increases Explorer or Hero hitpoints by %2.0f%%.</String>
+		<String _locID="27745" symbol="cStringNuggetHPBoostActivate">%s has found the morion of El Pollo Guapo, which increases Hero hitpoints %2.0f%%.</String>
+		<String _locID="27746" symbol="cStringNuggetHPBoost2">The shield of El Pollo Guapo, which increases Explorer or Hero hitpoints by %2.0f%%.</String>
+		<String _locID="27747" symbol="cStringNuggetHPBoost2Activate">%s has recovered the shield of El Pollo Guapo, which increases Hero hitpoints by %2.0f%%.</String>
 		<String _locID="27748" symbol="cStringNuggetPeanuts" comment="1 - amount, 2 - resource">A patch of peanuts worth %1d %2s.</String>
 		<String _locID="27749" symbol="cStringNuggetPeanutsActivate" comment="1 - player, 2 - amount, 3 - resource">%1s has discovered a patch of peanuts worth %2d %3s.</String>
 		<String _locID="27750" symbol="cStringNuggetManioc" comment="1 - amount, 2 - resource">A supply of manioc root (cassava) worth %1d %2s.</String>
@@ -3329,8 +3329,8 @@
 		<String _locID="27761" symbol="cStringNuggetRuttersActivate" comment="1 - player, 2 - amount, 3 - resource">%1s has found the rutters of El Pollo Guapo worth %2d %3s.</String>
 		<String _locID="27762" symbol="cStringNuggetBlanket" comment="1 - amount, 2 - resource">The lost blanket of Empress Zoe worth %1d %2s.</String>
 		<String _locID="27763" symbol="cStringNuggetBlanketActivate" comment="1 - player, 2 - amount, 3 - resource">%1s has found the lost blanket of Empress Zoe worth %2d %3s.</String>
-		<String _locID="27764" symbol="cStringNuggetHPBoost3">The armor of Arkantos, which increases Explorer or Hero hitpoints by %2.2f%%.</String>
-		<String _locID="27765" symbol="cStringNuggetHPBoost3Activate">%s has recovered the legendary armor of Arkantos, which increases hitpoints by %2.2f%%.</String>
+		<String _locID="27764" symbol="cStringNuggetHPBoost3">The armor of Arkantos, which increases Explorer or Hero hitpoints by %2.0f%%.</String>
+		<String _locID="27765" symbol="cStringNuggetHPBoost3Activate">%s has recovered the legendary armor of Arkantos, which increases hitpoints by %2.0f%%.</String>
 		<String _locID="27766" symbol="cStringNuggetBoisDarc" comment="1 - amount, 2 - resource">A grove of bois d'arc trees worth %1d %2s.</String>
 		<String _locID="27767" symbol="cStringNuggetBoisDarcActivate" comment="1 - player, 2 - amount, 3 - resource">%1s has found a grove of bois d'arc trees worth %2d %3s.</String>
 		<String _locID="27768" symbol="cStringNuggetRedwood" comment="1 - amount, 2 - resource">A stand of redwood trees worth %1d %2s.</String>
@@ -4760,16 +4760,16 @@
 		<String _locID="32769" symbol="cStringNuggetCibola5Activate">%s has rescued an Outpost Wagon from the Fifth Lost City of Cibola, who joins the cause.</String>
 		<String _locID="32770" symbol="cStringNuggetCibola6">Two Eagle Warriors from the Sixth Lost City of Cibola, eager to join your side.</String>
 		<String _locID="32771" symbol="cStringNuggetCibola6Activate">%s has rescued two Eagle Warriors from the Sixth Lost City of Cibola, who join the cause.</String>
-		<String _locID="32772" symbol="cStringNuggetCibola7">The King's Flute of the legendary Seventh Lost City of Cibola, which increases Explorer or Hero hitpoints by %2.2f%%.</String>
-		<String _locID="32773" symbol="cStringNuggetCibola7Activate">%s has recovered the Cibola King's Flute, which increases hitpoints by %2.2f%%.</String>
+		<String _locID="32772" symbol="cStringNuggetCibola7">The King's Flute of the legendary Seventh Lost City of Cibola, which increases Explorer or Hero hitpoints by %2.0f%%.</String>
+		<String _locID="32773" symbol="cStringNuggetCibola7Activate">%s has recovered the Cibola King's Flute, which increases hitpoints by %2.0f%%.</String>
 		<String _locID="32774" symbol="cStringNuggetElDorado1" comment="1 - amount, 2 - resource">Treasure from legendary El Dorado. It is worth %1d %2s.</String>
 		<String _locID="32775" symbol="cStringNuggetElDorado1Activate" comment="1 - player, 2 - amount, 3 - resource">%1s has recovered some treasure from legendary El Dorado worth %2d %3s.</String>
 		<String _locID="32776" symbol="cStringNuggetElDorado2" comment="1 - amount, 2 - resource">The sigil of legendary El Dorado. It is worth %1d %2s.</String>
 		<String _locID="32777" symbol="cStringNuggetElDorado2Activate" comment="1 - player, 2 - amount, 3 - resource">%1s has recovered the sigil of legendary El Dorado worth %2d %3s.</String>
 		<String _locID="32778" symbol="cStringNuggetElDorado3">Two Huaminca warriors from legendary El Dorado, eager to join your side.</String>
 		<String _locID="32779" symbol="cStringNuggetElDorado3Activate">%s has rescued two Huaminca warriors from legendary El Dorado who join the cause.</String>
-		<String _locID="32780" symbol="cStringNuggetElDorado4">The incredible girdle of El Dorado, which increases Explorer or Hero hitpoints by %2.2f%%.</String>
-		<String _locID="32781" symbol="cStringNuggetElDorado4Activate">%s has recovered the girdle of El Dorado, which increases hitpoints by %2.2f%%.</String>
+		<String _locID="32780" symbol="cStringNuggetElDorado4">The incredible girdle of El Dorado, which increases Explorer or Hero hitpoints by %2.0f%%.</String>
+		<String _locID="32781" symbol="cStringNuggetElDorado4Activate">%s has recovered the girdle of El Dorado, which increases hitpoints by %2.0f%%.</String>
 		<String _locID="32784">A swampy tree such as tupelo or cypress. Harvest for Wood.</String>
 		<String _locID="32785">Tree</String>
 		<String _locID="32786">Tree - Carolina Marsh</String>
@@ -12012,10 +12012,10 @@
 		<String _locID="41593">Select a Deck</String>
 		<String _locID="41594" symbol="cStringNuggetEyeOrnlu" comment="1 - amount, 2- resource">The legendary jewel known as the Eye of Ornlu worth %1d %2s.</String>
 		<String _locID="41595" symbol="cStringNuggetEyeOrnluActive" comment="1 - player, 2 - amount, 3 - resource">%1s has recovered the legendary Eye of Ornlu worth %2d %3s.</String>
-		<String _locID="41596" symbol="cStringNuggetBoneguardHelmet">A highly polished Boneguard helmet, which improves the collector's hitpoints by %2.2f%%.</String>
-		<String _locID="41597" symbol="cStringNuggetBoneguardHelmetActive">%s has recovered a Boneguard helmet, which improves hitpoints by %2.2f%%.</String>
-		<String _locID="41598" symbol="cStringNuggetBoneguardPistols">A pair of ornamental Boneguard pistols, which improve hitpoints by %2.2f%%.</String>
-		<String _locID="41599" symbol="cStringNuggetBoneguardPistolsActice">%s has recovered ornamental pistols, which improve the collector's hitpoints by %2.2f%%.</String>
+		<String _locID="41596" symbol="cStringNuggetBoneguardHelmet">A highly polished Boneguard helmet, which improves the collector's hitpoints by %2.0f%%.</String>
+		<String _locID="41597" symbol="cStringNuggetBoneguardHelmetActive">%s has recovered a Boneguard helmet, which improves hitpoints by %2.0f%%.</String>
+		<String _locID="41598" symbol="cStringNuggetBoneguardPistols">A pair of ornamental Boneguard pistols, which improve hitpoints by %2.0f%%.</String>
+		<String _locID="41599" symbol="cStringNuggetBoneguardPistolsActice">%s has recovered ornamental pistols, which improve the collector's hitpoints by %2.0f%%.</String>
 		<String _locID="41600" symbol="cStringNuggetBoneCodex" comment="1 - amount, 2 - resource">The secret Codex of the Circle of Ossus worth %1d %2s.</String>
 		<String _locID="41601" symbol="cStringNuggetBoneCodexActive" comment="1 - player, 2 - amount, 3 - resource">%1s has recovered the Codex of the Circle of Ossus worth %2d %3s.</String>
 		<String _locID="41602" symbol="cStringNuggetSeminoleMap" comment="1 - amount, 2 - resource">A Seminole map that may show the location of the Lake of the Moon worth %1d %2s.</String>
@@ -24736,8 +24736,8 @@
 		<String _locID="65446" symbol="cStringypRhinoActivate">%1s has tamed a rhino.</String>
 		<String _locID="65447" symbol="cStringypBuildingSpeedNugget">A Mughal architectural treatise that decreases building construction time by 5%.</String>
 		<String _locID="65448" symbol="cStringypBuildingSpeedNuggetActivate">%1s has recovered a Mughal architectural treatise that decreases building construction time by 5%.</String>
-		<String _locID="65449" symbol="cStringypBuildingHPNugget">A Mughal architectural treatise that increases building hitpoints by 15%.</String>
-		<String _locID="65450" symbol="cStringypBuildingHPNuggetActivate">%1s has recovered a Mughal architectural treatise that increases building hitpoints by 15%.</String>
+		<String _locID="65449" symbol="cStringypBuildingHPNugget">A Mughal architectural treatise that increases building hitpoints by %2.0f%%.</String>
+		<String _locID="65450" symbol="cStringypBuildingHPNuggetActivate">%1s has recovered a Mughal architectural treatise that increases building hitpoints by %2.0f%%.</String>
 		<String _locID="65451" symbol="cStringypMustard">A cache of mustard seeds worth %2d %3s.</String>
 		<String _locID="65452" symbol="cStringypMustardActivate">%1s has claimed a cache of mustard seeds worth %2d %3s.</String>
 		<String _locID="65453">Buildings build faster</String>
@@ -25780,8 +25780,8 @@
 		<String _locID="66490" symbol="cStringypNuggetBoatCostsActivate">%1s has recovered El Pollo Guapo's rod and reel, which increases the productivity of their fishing boats.</String>
 		<String _locID="66491" symbol="cStringypNuggetUrchin">Prickly sea urchins worth %2d %3s.</String>
 		<String _locID="66492" symbol="cStringypNuggetUrchinActivate">%1s has recovered prickly sea urchins worth %2d %3s.</String>
-		<String _locID="66493" symbol="cStringypNuggetBoatHP">El Halcon Sincero's secret tar and pitch recipe, which increases warship hitpoints by 5%.</String>
-		<String _locID="66494" symbol="cStringypNuggetBoatHPActivate">%1s recovered El Halcon Sincero's secret tar and pitch recipe, which increases warship hitpoints by 5%.</String>
+		<String _locID="66493" symbol="cStringypNuggetBoatHP">El Halcon Sincero's secret tar and pitch recipe, which increases warship hitpoints by %2.0f%%.</String>
+		<String _locID="66494" symbol="cStringypNuggetBoatHPActivate">%1s recovered El Halcon Sincero's secret tar and pitch recipe, which increases warship hitpoints by %2.0f%%.</String>
 		<String _locID="66495" symbol="cStringypNuggetLemuria">Preserved remnants of the lost continent Lemuria worth %2d %3s.</String>
 		<String _locID="66496" symbol="cStringypNuggetLemuriaActivate">%1s has recovered preserved remnants of the lost continent Lemuria worth %2d %3s.</String>
 		<String _locID="66497" symbol="cStringypNuggetSeaLion">A colony of sea lions worth %2d %3s.</String>
@@ -32555,8 +32555,8 @@
 		<String _locID="781843">%1s has uncovered a ruin of the Mausoleum of the First Qin Emperor. It contains wood worth %2d %3s.</String>
 		<String _locID="781844">%1s has uncovered a ruin of the Mausoleum of the First Qin Emperor. It contains coin worth %2d %3s.</String>
 		<String _locID="781845">%1s has uncovered a ruin of the Mausoleum of the First Qin Emperor. It contains XP worth %2d %3s.</String>
-		<String _locID="781846">The Guzheng of Qin Shi Huang, which increases Explorer or Hero hitpoints by %2.2f%%.</String>
-		<String _locID="781847">%s has recovered the Guzheng of Qin Shi Huang, which increases hitpoints by %2.2f%%.</String>
+		<String _locID="781846">The Guzheng of Qin Shi Huang, which increases Explorer or Hero hitpoints by %2.0f%%.</String>
+		<String _locID="781847">%s has recovered the Guzheng of Qin Shi Huang, which increases hitpoints by %2.0f%%.</String>
 		<String _locID="781848">A damaged cannon that looks salvageable.</String>
 		<String _locID="781849">%s has repaired a damaged cannon which is now ready for use.</String>
 		<String _locID="781850">Resume gatherer and healer spawn</String>
@@ -33540,23 +33540,23 @@
 		<String _locID="78123">Flying unit</String>
 		<String _locID="78124">Firebomb</String>
 		<String _locID="78125">Engulfs a large area in fire dealing damage over time to enemies inside it.</String>
-		<String _locID="78126">Cantonese Immigration</String>
+		<String _locID="78126">Cantonese Economy</String>
 		<String _locID="78127">Enables Asian economic technologies.</String>
-		<String _locID="78128">Quechuan Immigration</String>
+		<String _locID="78128">Quechuan Economy</String>
 		<String _locID="78129">Enables Native American economic technologies.</String>
-		<String _locID="78130">Criollo Immigration</String>
+		<String _locID="78130">Criollo Economy</String>
 		<String _locID="78131">Enables European economic technologies.</String>
-		<String _locID="78132">Cantonese Economy</String>
-		<String _locID="78133">Cantonese Military</String>
-		<String _locID="78134">Quechuan Economy</String>
-		<String _locID="78135">Quechuan Military</String>
-		<String _locID="78136">Criollo Economy</String>
-		<String _locID="78137">Criollo Military</String>
-		<String _locID="78138">Cantonese Immigrants</String>
+		<String _locID="78132">Cantonese Economic Immigration</String>
+		<String _locID="78133">Cantonese Military Immigration</String>
+		<String _locID="78134">Quechuan Economic Immigration</String>
+		<String _locID="78135">Quechuan Military Immigration</String>
+		<String _locID="78136">Criollo Economic Immigration</String>
+		<String _locID="78137">Criollo Military Immigration</String>
+		<String _locID="78138">Cantonese Military</String>
 		<String _locID="78139">Enables Asian military technologies.</String>
-		<String _locID="78140">Quechuan Immigrants</String>
+		<String _locID="78140">Quechuan Military</String>
 		<String _locID="78141">Enables Native American military technologies.</String>
-		<String _locID="78142">Criollo Immigrants</String>
+		<String _locID="78142">Criollo Military</String>
 		<String _locID="78143">Enables European military technologies.</String>
 		<String _locID="78144">Imazighen</String>
 		<String _locID="78145">All infantry train faster and see slightly further.</String>
@@ -33664,7 +33664,7 @@
 		<String _locID="78247">1 Priest\n4 Militia</String>
 		<String _locID="78248">1 Miner\n400 Coin</String>
 		<String _locID="78249">2 Envoys\n400 Wood</String>
-		<String _locID="78250">2 Gatlings\n2 Black Powder Wagons</String>
+		<String _locID="78250">2 Gatling Guns\n2 Black Powder Wagons</String>
 		<String _locID="78251">4 Marines\n2 Riflemen</String>
 		<String _locID="78252">4 Sabers\n2 Rangers</String>
 		<String _locID="78253">1 Corvette\n400 Wood</String>
@@ -33704,5 +33704,7 @@
 		<String _locID="78287">Supports 50 population</String>
 		<String _locID="78288">&lt;color=0.74901961, 0.74901961, 0.74901961&gt;Unlock more economic technology from the Hacienda.&lt;/color&gt;</String>
 		<String _locID="78289">&lt;color=0.74901961, 0.74901961, 0.74901961&gt;Unlock more military technology from the Hacienda.&lt;/color&gt;</String>
+		<String _locID="78290">Quaker Gun</String>
+		<String _locID="78291">Gatling Gun firing blanks. Good at drawing enemy fire.</String>
 	</Language>
 </StringTable>

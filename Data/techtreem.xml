@@ -64923,6 +64923,9 @@
 				<Target type="ProtoUnit">GoldMiner</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">USGatlingGunFake</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpAdvancedBalloon</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -76224,22 +76227,22 @@
 			<Effect status="obtainable" type="TechStatus">AIAutoRepair</Effect>
 			<Effect status="obtainable" type="TechStatus">AICheats</Effect>
 			<Effect status="obtainable" type="TechStatus">AICheatsAge4</Effect>
-			<Effect status="obtainable" type="TechStatus">PoliticianCundinamarca2</Effect>
-			<Effect status="obtainable" type="TechStatus">PoliticianEcuador2</Effect>
-			<Effect status="obtainable" type="TechStatus">PoliticianPanama2</Effect>
-			<Effect status="obtainable" type="TechStatus">PoliticianVenezuela2</Effect>
-			<Effect status="obtainable" type="TechStatus">PoliticianCundinamarca3</Effect>
-			<Effect status="obtainable" type="TechStatus">PoliticianEcuador3</Effect>
-			<Effect status="obtainable" type="TechStatus">PoliticianPanama3</Effect>
-			<Effect status="obtainable" type="TechStatus">PoliticianVenezuela3</Effect>
-			<Effect status="obtainable" type="TechStatus">PoliticianCundinamarca4</Effect>
-			<Effect status="obtainable" type="TechStatus">PoliticianEcuador4</Effect>
-			<Effect status="obtainable" type="TechStatus">PoliticianPanama4</Effect>
-			<Effect status="obtainable" type="TechStatus">PoliticianVenezuela4</Effect>
-			<Effect status="obtainable" type="TechStatus">PoliticianCundinamarca5</Effect>
-			<Effect status="obtainable" type="TechStatus">PoliticianEcuador5</Effect>
-			<Effect status="obtainable" type="TechStatus">PoliticianPanama5</Effect>
-			<Effect status="obtainable" type="TechStatus">PoliticianVenezuela5</Effect>
+			<Effect status="obtainable" type="TechStatus">RandomAgeCundinamarca2</Effect>
+			<Effect status="obtainable" type="TechStatus">RandomAgeEcuador2</Effect>
+			<Effect status="obtainable" type="TechStatus">RandomAgePanama2</Effect>
+			<Effect status="obtainable" type="TechStatus">RandomAgeVenezuela2</Effect>
+			<Effect status="obtainable" type="TechStatus">RandomAgeCundinamarca3</Effect>
+			<Effect status="obtainable" type="TechStatus">RandomAgeEcuador3</Effect>
+			<Effect status="obtainable" type="TechStatus">RandomAgePanama3</Effect>
+			<Effect status="obtainable" type="TechStatus">RandomAgeVenezuela3</Effect>
+			<Effect status="obtainable" type="TechStatus">RandomAgeCundinamarca4</Effect>
+			<Effect status="obtainable" type="TechStatus">RandomAgeEcuador4</Effect>
+			<Effect status="obtainable" type="TechStatus">RandomAgePanama4</Effect>
+			<Effect status="obtainable" type="TechStatus">RandomAgeVenezuela4</Effect>
+			<Effect status="obtainable" type="TechStatus">RandomAgeCundinamarca5</Effect>
+			<Effect status="obtainable" type="TechStatus">RandomAgeEcuador5</Effect>
+			<Effect status="obtainable" type="TechStatus">RandomAgePanama5</Effect>
+			<Effect status="obtainable" type="TechStatus">RandomAgeVenezuela5</Effect>
 			<Effect status="obtainable" type="TechStatus">XPRevolutionMosquera</Effect>
 			<Effect status="obtainable" type="TechStatus">XPRevolutionRodriguez</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -91097,5 +91100,561 @@
 		<Flag>Shadow</Flag>
 		<Flag>YPAlwaysDisableButtonInGrid</Flag>
 		<Flag>YPNoTextMessage</Flag>
+	</Tech>
+	<Tech name="RandomAgeCundinamarca2" type="Normal">
+		<DBID>3758</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="1" shared="true" status="obtainable" type="RandomTech">
+				<Tech>PoliticianCundinamarca2</Tech>
+				<Tech>PoliticianCundinamarcaAlt2</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="RandomAgeCundinamarca3" type="Normal">
+		<DBID>3759</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="1" shared="true" status="obtainable" type="RandomTech">
+				<Tech>PoliticianCundinamarca3</Tech>
+				<Tech>PoliticianCundinamarcaAlt3</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="RandomAgeCundinamarca4" type="Normal">
+		<DBID>3760</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="1" shared="true" status="obtainable" type="RandomTech">
+				<Tech>PoliticianCundinamarca4</Tech>
+				<Tech>PoliticianCundinamarcaAlt4</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="RandomAgeCundinamarca5" type="Normal">
+		<DBID>3761</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="1" shared="true" status="obtainable" type="RandomTech">
+				<Tech>PoliticianCundinamarca5</Tech>
+				<Tech>PoliticianCundinamarcaAlt5</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="RandomAgeEcuador2" type="Normal">
+		<DBID>3762</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="1" shared="true" status="obtainable" type="RandomTech">
+				<Tech>PoliticianEcuador2</Tech>
+				<Tech>PoliticianEcuadorAlt2</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="RandomAgeEcuador3" type="Normal">
+		<DBID>3763</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="1" shared="true" status="obtainable" type="RandomTech">
+				<Tech>PoliticianEcuador3</Tech>
+				<Tech>PoliticianEcuadorAlt3</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="RandomAgeEcuador4" type="Normal">
+		<DBID>3764</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="1" shared="true" status="obtainable" type="RandomTech">
+				<Tech>PoliticianEcuador4</Tech>
+				<Tech>PoliticianEcuadorAlt4</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="RandomAgeEcuador5" type="Normal">
+		<DBID>3765</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="1" shared="true" status="obtainable" type="RandomTech">
+				<Tech>PoliticianEcuador5</Tech>
+				<Tech>PoliticianEcuadorAlt5</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="RandomAgePanama2" type="Normal">
+		<DBID>3766</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="1" shared="true" status="obtainable" type="RandomTech">
+				<Tech>PoliticianPanama2</Tech>
+				<Tech>PoliticianPanamaAlt2</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="RandomAgePanama3" type="Normal">
+		<DBID>3767</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="1" shared="true" status="obtainable" type="RandomTech">
+				<Tech>PoliticianPanama3</Tech>
+				<Tech>PoliticianPanamaAlt3</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="RandomAgePanama4" type="Normal">
+		<DBID>3768</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="1" shared="true" status="obtainable" type="RandomTech">
+				<Tech>PoliticianPanama4</Tech>
+				<Tech>PoliticianPanamaAlt4</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="RandomAgePanama5" type="Normal">
+		<DBID>3769</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="1" shared="true" status="obtainable" type="RandomTech">
+				<Tech>PoliticianPanama5</Tech>
+				<Tech>PoliticianPanamaAlt5</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="RandomAgeVenezuela2" type="Normal">
+		<DBID>3770</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="1" shared="true" status="obtainable" type="RandomTech">
+				<Tech>PoliticianVenezuela2</Tech>
+				<Tech>PoliticianVenezuelaAlt2</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="RandomAgeVenezuela3" type="Normal">
+		<DBID>3771</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="1" shared="true" status="obtainable" type="RandomTech">
+				<Tech>PoliticianVenezuela3</Tech>
+				<Tech>PoliticianVenezuelaAlt3</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="RandomAgeVenezuela4" type="Normal">
+		<DBID>3772</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="1" shared="true" status="obtainable" type="RandomTech">
+				<Tech>PoliticianVenezuela4</Tech>
+				<Tech>PoliticianVenezuelaAlt4</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="RandomAgeVenezuela5" type="Normal">
+		<DBID>3773</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect select="1" shared="true" status="obtainable" type="RandomTech">
+				<Tech>PoliticianVenezuela5</Tech>
+				<Tech>PoliticianVenezuelaAlt5</Tech>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PoliticianCundinamarcaAlt2" type="Normal">
+		<DBID>3774</DBID>
+		<DisplayNameID>782157</DisplayNameID>
+		<Cost resourcetype="Food">800.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_ii</Icon>
+		<RolloverTextID>78246</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
+		<Effects>
+			<Effect type="SetAge">Age1</Effect>
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Cow">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="CrateofFood">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PoliticianEcuadorAlt2" type="Normal">
+		<DBID>3775</DBID>
+		<DisplayNameID>782161</DisplayNameID>
+		<Cost resourcetype="Food">800.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_ii</Icon>
+		<RolloverTextID>78247</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
+		<Effects>
+			<Effect type="SetAge">Age1</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Priest">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="USColonialMilitia">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PoliticianPanamaAlt2" type="Normal">
+		<DBID>3776</DBID>
+		<DisplayNameID>782163</DisplayNameID>
+		<Cost resourcetype="Food">800.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_ii</Icon>
+		<RolloverTextID>78248</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
+		<Effects>
+			<Effect type="SetAge">Age1</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="GoldMiner">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="CrateofCoin">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PoliticianVenezuelaAlt2" type="Normal">
+		<DBID>3777</DBID>
+		<DisplayNameID>782159</DisplayNameID>
+		<Cost resourcetype="Food">800.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_ii</Icon>
+		<RolloverTextID>78249</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
+		<Effects>
+			<Effect type="SetAge">Age1</Effect>
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Envoy">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PoliticianCundinamarcaAlt3" type="Normal">
+		<DBID>3778</DBID>
+		<DisplayNameID>782157</DisplayNameID>
+		<Cost resourcetype="Food">1400.0000</Cost>
+		<Cost resourcetype="Gold">1000.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_iii</Icon>
+		<RolloverTextID>78250</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
+		<Effects>
+			<Effect type="SetAge">Age2</Effect>
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="USGatlingGun">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="BlackPowderWagon">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PoliticianEcuadorAlt3" type="Normal">
+		<DBID>3779</DBID>
+		<DisplayNameID>782161</DisplayNameID>
+		<Cost resourcetype="Food">1400.0000</Cost>
+		<Cost resourcetype="Gold">1000.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_iii</Icon>
+		<RolloverTextID>78251</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
+		<Effects>
+			<Effect type="SetAge">Age2</Effect>
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Marine">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="RiflemanUS">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PoliticianPanamaAlt3" type="Normal">
+		<DBID>3780</DBID>
+		<DisplayNameID>782163</DisplayNameID>
+		<Cost resourcetype="Food">1400.0000</Cost>
+		<Cost resourcetype="Gold">1000.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_iii</Icon>
+		<RolloverTextID>78252</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
+		<Effects>
+			<Effect type="SetAge">Age2</Effect>
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Saber">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MountedRifleman">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PoliticianVenezuelaAlt3" type="Normal">
+		<DBID>3781</DBID>
+		<DisplayNameID>782159</DisplayNameID>
+		<Cost resourcetype="Food">1400.0000</Cost>
+		<Cost resourcetype="Gold">1000.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_iii</Icon>
+		<RolloverTextID>78253</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
+		<Effects>
+			<Effect type="SetAge">Age2</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Corvette">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="CrateofWood">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PoliticianCundinamarcaAlt4" type="Normal">
+		<DBID>3782</DBID>
+		<DisplayNameID>782157</DisplayNameID>
+		<Cost resourcetype="Food">2000.0000</Cost>
+		<Cost resourcetype="Gold">1400.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_iv</Icon>
+		<RolloverTextID>78254</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
+		<Effects>
+			<Effect type="SetAge">Age3</Effect>
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Falconet">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Culverin">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PoliticianEcuadorAlt4" type="Normal">
+		<DBID>3783</DBID>
+		<DisplayNameID>782161</DisplayNameID>
+		<Cost resourcetype="Food">2000.0000</Cost>
+		<Cost resourcetype="Gold">1400.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_iv</Icon>
+		<RolloverTextID>78255</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
+		<Effects>
+			<Effect type="SetAge">Age3</Effect>
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Marine">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Grenadier">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PoliticianPanamaAlt4" type="Normal">
+		<DBID>3784</DBID>
+		<DisplayNameID>782163</DisplayNameID>
+		<Cost resourcetype="Food">2000.0000</Cost>
+		<Cost resourcetype="Gold">1400.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_iv</Icon>
+		<RolloverTextID>78256</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
+		<Effects>
+			<Effect type="SetAge">Age3</Effect>
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypRepentantOutlawPistol">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="ypRepentantOutlawRifleman">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PoliticianVenezuelaAlt4" type="Normal">
+		<DBID>3785</DBID>
+		<DisplayNameID>782159</DisplayNameID>
+		<Cost resourcetype="Food">2000.0000</Cost>
+		<Cost resourcetype="Gold">1400.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_iv</Icon>
+		<RolloverTextID>78257</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
+		<Effects>
+			<Effect type="SetAge">Age3</Effect>
+			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="CrateofFood">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="CrateofCoin">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PoliticianCundinamarcaAlt5" type="Normal">
+		<DBID>3786</DBID>
+		<DisplayNameID>782157</DisplayNameID>
+		<Cost resourcetype="Food">3000.0000</Cost>
+		<Cost resourcetype="Gold">3000.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_v</Icon>
+		<RolloverTextID>78258</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
+		<Effects>
+			<Effect type="SetAge">Age4</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Cannon">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="12.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Marine">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PoliticianEcuadorAlt5" type="Normal">
+		<DBID>3787</DBID>
+		<DisplayNameID>782161</DisplayNameID>
+		<Cost resourcetype="Food">3000.0000</Cost>
+		<Cost resourcetype="Gold">3000.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_v</Icon>
+		<RolloverTextID>78259</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
+		<Effects>
+			<Effect type="SetAge">Age4</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Mortar">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="15.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="USColonialMilitia">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PoliticianPanamaAlt5" type="Normal">
+		<DBID>3788</DBID>
+		<DisplayNameID>782163</DisplayNameID>
+		<Cost resourcetype="Food">3000.0000</Cost>
+		<Cost resourcetype="Gold">3000.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_v</Icon>
+		<RolloverTextID>78260</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
+		<Effects>
+			<Effect type="SetAge">Age4</Effect>
+			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Falconet">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="10.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Saber">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PoliticianVenezuelaAlt5" type="Normal">
+		<DBID>3789</DBID>
+		<DisplayNameID>782159</DisplayNameID>
+		<Cost resourcetype="Food">3000.0000</Cost>
+		<Cost resourcetype="Gold">3000.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_v</Icon>
+		<RolloverTextID>78261</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
+		<Effects>
+			<Effect type="SetAge">Age4</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="xpIronclad">
+				<Target type="Player"/>
+			</Effect>
+			<Effect amount="10.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="USGatlingGun">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
 	</Tech>
 </TechTree>
