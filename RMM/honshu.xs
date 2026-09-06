@@ -622,7 +622,7 @@ void main(void)
     rmSetGroupingMinDistance(caribs5VillageID, 0.0);
     rmSetGroupingMaxDistance(caribs5VillageID, 10.0);
     rmAddGroupingConstraint(caribs5VillageID, avoidImpassableLand);
-    rmAddGroupingConstraint(caribs5VillageID, avoidWater8);
+    rmAddGroupingConstraint(caribs5VillageID, avoidWater20);
     rmAddGroupingConstraint(caribs5VillageID, avoidImportantItemFar);
     rmAddGroupingConstraint(caribs5VillageID, playerConstraintNative);
     
@@ -643,7 +643,7 @@ void main(void)
     rmSetGroupingMaxDistance(caribs6VillageID, 10.0);
     rmAddGroupingToClass(caribs6VillageID, rmClassID("importantItem"));
     rmAddGroupingConstraint(caribs6VillageID, avoidImpassableLand);
-    rmAddGroupingConstraint(caribs6VillageID, avoidWater8);
+    rmAddGroupingConstraint(caribs6VillageID, avoidWater20);
     rmAddGroupingConstraint(caribs6VillageID, avoidImportantItemFar);
     rmAddGroupingConstraint(caribs6VillageID, playerConstraintNative);
     

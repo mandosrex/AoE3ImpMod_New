@@ -44,6 +44,7 @@ void main(void)
   //Chooses which natives appear on the map
   int subCiv0=-1;
   int subCiv1=-1;
+  int subCiv2=-1;
 
   subCiv0=rmGetCivID(nativeCiv1);
   rmEchoInfo("subCiv0 is "+nativeCiv1+ " " +subCiv0);
@@ -54,6 +55,11 @@ void main(void)
   rmEchoInfo("subCiv1 is "+nativeCiv2+ " " +subCiv1);
   if (subCiv1 >= 0)
     rmSetSubCiv(1, nativeCiv2);
+
+  subCiv2=rmGetCivID(nativeCiv3);
+  rmEchoInfo("subCiv2 is "+nativeCiv3+ " " +subCiv2);
+  if (subCiv2 >= 0)
+    rmSetSubCiv(2, nativeCiv3);
 
    // Picks the map size
    int playerTiles=13000;

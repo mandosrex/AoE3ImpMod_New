@@ -7464,9 +7464,6 @@
 			<Effect status="obtainable" type="TechStatus">ypMonasteryShaolinWarrior</Effect>
 			<Effect status="obtainable" type="TechStatus">ypMonasteryDiscipleAura</Effect>
 			<Effect status="obtainable" type="TechStatus">ypVillagePopCapIncrease4</Effect>
-			<Effect amount="50.00" relativity="Absolute" subtype="PopulationCapExtra" type="Data">
-				<Target type="Player"/>
-			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">ypWarAcademy</Target>
 			</Effect>
@@ -7591,9 +7588,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect amount="50.00" relativity="Absolute" subtype="PopulationCapExtra" type="Data">
-				<Target type="Player"/>
-			</Effect>
 			<Effect amount="0.00" relativity="Assign" resource="Gold" subtype="Cost" type="Data">
 				<Target type="ProtoUnit">ypRepentantIronTroop</Target>
 			</Effect>
@@ -13617,6 +13611,9 @@
 			<Effect allactions="1" amount="1.20" relativity="BasePercent" subtype="Damage" type="Data">
 				<Target type="ProtoUnit">AbstractPet</Target>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Envoy">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ColonializeOttoman" type="Normal">
@@ -13981,6 +13978,9 @@
 			</Effect>
 			<Effect amount="1.25" relativity="BasePercent" subtype="Hitpoints" type="Data">
 				<Target type="ProtoUnit">xpPetard</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Envoy">
+				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -15529,6 +15529,9 @@
 			</Effect>
 			<Effect amount="1.50" relativity="BasePercent" subtype="Hitpoints" type="Data">
 				<Target type="ProtoUnit">xpPetard</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Envoy">
+				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -18350,6 +18353,9 @@
 			</Effect>
 			<Effect allactions="1" amount="1.30" relativity="BasePercent" subtype="Damage" type="Data">
 				<Target type="ProtoUnit">AbstractPet</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Envoy">
+				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -27506,7 +27512,7 @@
 		<RolloverTextID>37362</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="35.00" relativity="Absolute" subtype="PopulationCapAddition" type="Data">
+			<Effect amount="20.00" relativity="Absolute" subtype="PopulationCapAddition" type="Data">
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 			<Effect type="TextOutput">41938</Effect>
@@ -28007,7 +28013,10 @@
 		<Flag>HomeCity</Flag>
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
-			<Effect amount="20.00" relativity="Absolute" subtype="PopulationCapAddition" type="Data">
+			<Effect amount="0.00" relativity="Assign" resource="Wood" subtype="Cost" type="Data">
+				<Target type="ProtoUnit">HouseEast</Target>
+			</Effect>
+			<Effect amount="2.00" relativity="Absolute" subtype="PopulationCapAddition" type="Data">
 				<Target type="ProtoUnit">HouseEast</Target>
 			</Effect>
 			<Effect type="TextOutput">41890</Effect>
@@ -37942,7 +37951,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpColonialMilitia</Target>
 			</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="1.15" relativity="BasePercent" subtype="Hitpoints" type="Data">
@@ -38015,7 +38024,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpGatlingGun</Target>
 			</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="10.00" relativity="Assign" subtype="BuildLimit" type="Data">
@@ -38091,7 +38100,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpColonialMilitia</Target>
 			</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="5.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="SaloonOutlawPistol">
@@ -38167,7 +38176,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpColonialMilitia</Target>
 			</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="20.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="NatMercBlackwoodArcher">
@@ -38246,7 +38255,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpColonialMilitia</Target>
 			</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="3.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="xpIronclad">
@@ -38325,7 +38334,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpColonialMilitia</Target>
 			</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="4.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="Mortar">
@@ -38398,7 +38407,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpColonialMilitia</Target>
 			</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -38468,7 +38477,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpColonialMilitia</Target>
 			</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="10.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="MountedGrenadier">
@@ -58033,7 +58042,7 @@
 		<Cost resourcetype="Trade">2400.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\asians\consulate\british_brigade_icon_64</Icon>
+		<Icon>ui\armies\flag_british_icon</Icon>
 		<RolloverTextID>66601</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
@@ -58065,7 +58074,7 @@
 		<Cost resourcetype="Trade">2400.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\asians\consulate\germany_brigade</Icon>
+		<Icon>ui\armies\flag_german_icon</Icon>
 		<RolloverTextID>66602</RolloverTextID>
 		<Flag>ypConsulateImprovementImperial</Flag>
 		<Flag>CheckLandHCGatherPoint</Flag>
@@ -58097,7 +58106,7 @@
 		<Cost resourcetype="Trade">2400.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\asians\consulate\rus_brigade_icon_64</Icon>
+		<Icon>ui\armies\flag_russian_icon</Icon>
 		<RolloverTextID>66604</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
@@ -58129,7 +58138,7 @@
 		<Cost resourcetype="Trade">2400.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\asians\consulate\french_brigade_icon_64</Icon>
+		<Icon>ui\armies\flag_french_icon</Icon>
 		<RolloverTextID>66606</RolloverTextID>
 		<Flag>ypConsulateImprovementImperial</Flag>
 		<Flag>CheckLandHCGatherPoint</Flag>
@@ -58158,7 +58167,7 @@
 		<Cost resourcetype="Trade">2400.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\asians\consulate\dutch_brigade</Icon>
+		<Icon>ui\armies\flag_dutch_icon</Icon>
 		<RolloverTextID>66608</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
@@ -58190,7 +58199,7 @@
 		<Cost resourcetype="Trade">2400.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\asians\consulate\spanish_brigade</Icon>
+		<Icon>ui\armies\flag_spanish_icon</Icon>
 		<RolloverTextID>66610</RolloverTextID>
 		<Flag>ypConsulateImprovementImperial</Flag>
 		<Flag>CheckLandHCGatherPoint</Flag>
@@ -58222,7 +58231,7 @@
 		<Cost resourcetype="Trade">2400.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\asians\consulate\por_brigade_icon_64</Icon>
+		<Icon>ui\armies\flag_portuguese_icon</Icon>
 		<RolloverTextID>66612</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
@@ -58254,7 +58263,7 @@
 		<Cost resourcetype="Trade">2400.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\asians\consulate\ottoman_brigade</Icon>
+		<Icon>ui\armies\flag_ottoman_icon</Icon>
 		<RolloverTextID>66614</RolloverTextID>
 		<Flag>ypConsulateImprovementImperial</Flag>
 		<Flag>CheckLandHCGatherPoint</Flag>
@@ -64333,7 +64342,7 @@
 		<Cost resourcetype="Trade">2600.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\armies\american_militia_guns</Icon>
+		<Icon>ui\armies\flag_americans_icon</Icon>
 		<RolloverTextID>780911</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
@@ -64867,7 +64876,7 @@
 		<Cost resourcetype="Trade">2600.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\armies\swedish_horse_sakers</Icon>
+		<Icon>ui\armies\flag_swedish_icon</Icon>
 		<RolloverTextID>780988</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
@@ -69710,7 +69719,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpGatlingGun</Target>
 			</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="10.00" relativity="Assign" subtype="BuildLimit" type="Data">
@@ -75477,7 +75486,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpGatlingGun</Target>
 			</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="15.00" relativity="Assign" subtype="BuildLimit" type="Data">
@@ -75556,7 +75565,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpGatlingGun</Target>
 			</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="10.00" relativity="Assign" subtype="BuildLimit" type="Data">
@@ -75656,7 +75665,7 @@
 			<Effect type="SetAge">CivilWar</Effect>
 			<Effect culture="none" newName="781578" proto="USColonialMilitia" type="SetName"/>
 			<Effect culture="none" newName="781578" proto="xpColonialMilitia" type="SetName"/>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="InitiateRevolution"/>
@@ -75714,7 +75723,7 @@
 			<Effect type="SetAge">CivilWar</Effect>
 			<Effect culture="none" newName="781578" proto="USColonialMilitia" type="SetName"/>
 			<Effect culture="none" newName="781578" proto="xpColonialMilitia" type="SetName"/>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="InitiateRevolution"/>
@@ -75769,7 +75778,7 @@
 			<Effect status="unobtainable" type="TechStatus">FakeImperialAgeMal</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialAgeMaltese</Effect>
 			<Effect type="SetAge">Revolution</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="InitiateRevolution"/>
@@ -79953,7 +79962,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpGatlingGun</Target>
 			</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="10.00" relativity="Assign" subtype="BuildLimit" type="Data">
@@ -80509,7 +80518,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpGatlingGun</Target>
 			</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="10.00" relativity="Assign" subtype="BuildLimit" type="Data">
@@ -80588,7 +80597,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpGatlingGun</Target>
 			</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="10.00" relativity="Assign" subtype="BuildLimit" type="Data">
@@ -80661,7 +80670,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpGatlingGun</Target>
 			</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="10.00" relativity="Assign" subtype="BuildLimit" type="Data">
@@ -80731,7 +80740,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpColonialMilitia</Target>
 			</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -80807,7 +80816,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpColonialMilitia</Target>
 			</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -80883,7 +80892,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpColonialMilitia</Target>
 			</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -81854,7 +81863,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpGatlingGun</Target>
 			</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="10.00" relativity="Assign" subtype="BuildLimit" type="Data">
@@ -82147,7 +82156,7 @@
 			<Effect type="SetAge">CivilWar</Effect>
 			<Effect culture="none" newName="782167" proto="USColonialMilitia" type="SetName"/>
 			<Effect culture="none" newName="782167" proto="xpColonialMilitia" type="SetName"/>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="InitiateRevolution"/>
@@ -82190,7 +82199,7 @@
 			<Effect type="SetAge">CivilWar</Effect>
 			<Effect culture="none" newName="782167" proto="USColonialMilitia" type="SetName"/>
 			<Effect culture="none" newName="782167" proto="xpColonialMilitia" type="SetName"/>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="InitiateRevolution"/>
@@ -83608,6 +83617,11 @@
 		<ResearchPoints>0.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect amount="799.00" relativity="Absolute" subtype="PopulationCapExtra" type="Data">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
 	</Tech>
 	<Tech name="ImpImmigrantsOld" type="Normal">
 		<DBID>3407</DBID>
@@ -83716,7 +83730,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpColonialMilitia</Target>
 			</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -83786,7 +83800,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">xpColonialMilitia</Target>
 			</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
@@ -85242,7 +85256,7 @@
 			<Effect status="unobtainable" type="TechStatus">FakeImperialAgeMal</Effect>
 			<Effect status="unobtainable" type="TechStatus">ImperialAgeMaltese</Effect>
 			<Effect type="SetAge">Revolution</Effect>
-			<Effect amount="200.00" relativity="Absolute" subtype="PopulationCap" type="Data">
+			<Effect amount="100.00" relativity="Absolute" subtype="PopulationCap" type="Data">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="InitiateRevolution"/>
@@ -85468,7 +85482,7 @@
 		<RolloverTextID>782564</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="2.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="FactoryWagon">
+			<Effect amount="1.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="FactoryWagon">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -86357,7 +86371,7 @@
 		<Cost resourcetype="Trade">2400.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\armies\malta_boneguard</Icon>
+		<Icon>ui\armies\flag_malta_icon</Icon>
 		<RolloverTextID>782667</RolloverTextID>
 		<Flag>ypConsulateImprovementImperial</Flag>
 		<Flag>CheckLandHCGatherPoint</Flag>
@@ -88465,7 +88479,7 @@
 			<Effect amount="1.20" relativity="BasePercent" subtype="Hitpoints" type="Data">
 				<Target type="ProtoUnit">Outpost</Target>
 			</Effect>
-			<Effect amount="4.00" relativity="Absolute" subtype="PopulationCapAddition" type="Data">
+			<Effect amount="2.00" relativity="Absolute" subtype="PopulationCapAddition" type="Data">
 				<Target type="ProtoUnit">HouseMed</Target>
 			</Effect>
 		</Effects>
@@ -88596,10 +88610,10 @@
 		<RolloverTextID>78177</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect amount="10.00" relativity="Absolute" subtype="BuildLimit" type="Data">
+			<Effect amount="5.00" relativity="Absolute" subtype="BuildLimit" type="Data">
 				<Target type="ProtoUnit">HouseTorp</Target>
 			</Effect>
-			<Effect amount="10.00" relativity="Absolute" subtype="BuildLimit" type="Data">
+			<Effect amount="5.00" relativity="Absolute" subtype="BuildLimit" type="Data">
 				<Target type="ProtoUnit">CrateofWoodHouse</Target>
 			</Effect>
 			<Effect type="TextOutput">78178</Effect>
@@ -88725,7 +88739,7 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect amount="25.00" relativity="Absolute" subtype="PopulationCapExtra" type="Data">
+			<Effect amount="50.00" relativity="Absolute" subtype="PopulationCapAddition" type="Data">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -90782,6 +90796,9 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Mill</Target>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">SaloonUS</Target>
+			</Effect>
 			<Effect status="unobtainable" type="TechStatus">AsianEconomyColombians</Effect>
 			<Effect status="unobtainable" type="TechStatus">NativeEconomyColombians</Effect>
 		</Effects>
@@ -90806,6 +90823,9 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">ypRicePaddy</Target>
 			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">WarTent</Target>
+			</Effect>
 			<Effect status="unobtainable" type="TechStatus">EuropeanEconomyColombians</Effect>
 			<Effect status="unobtainable" type="TechStatus">NativeEconomyColombians</Effect>
 		</Effects>
@@ -90829,6 +90849,9 @@
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Farm</Target>
+			</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">NativeEmbassyN</Target>
 			</Effect>
 			<Effect status="unobtainable" type="TechStatus">EuropeanEconomyColombians</Effect>
 			<Effect status="unobtainable" type="TechStatus">AsianEconomyColombians</Effect>
@@ -90900,7 +90923,7 @@
 		<Flag>NativeDance</Flag>
 		<Effects>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
-				<Target type="ProtoUnit">NatHuaminca</Target>
+				<Target type="ProtoUnit">IncaSoldier</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">PetJaguar</Target>
@@ -90960,6 +90983,9 @@
 			<Effect status="obtainable" type="TechStatus">SeedDrill</Effect>
 			<Effect status="obtainable" type="TechStatus">ArtificialFertilizer</Effect>
 			<Effect status="obtainable" type="TechStatus">ImpLargeScaleAgriculture</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">RepentantMountedGrenadier</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="Age0EuropeanMilitary" type="Normal">
@@ -90997,6 +91023,9 @@
 			<Effect status="obtainable" type="TechStatus">GreatFeast</Effect>
 			<Effect status="obtainable" type="TechStatus">HarvestCeremony</Effect>
 			<Effect status="obtainable" type="TechStatus">ImpLargeScaleGathering</Effect>
+			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
+				<Target type="ProtoUnit">NatHuaminca</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="Age0NativeMilitary" type="Normal">
@@ -91012,7 +91041,7 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="SettlerAmerican">
 				<Target type="ProtoUnit">Hacienda</Target>
 			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="NatHuaminca">
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="IncaWarrior">
 				<Target type="ProtoUnit">Hacienda</Target>
 			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">

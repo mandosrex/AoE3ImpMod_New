@@ -10298,7 +10298,7 @@
 		<DBID>302</DBID>
 		<DisplayNameID>22841</DisplayNameID>
 		<EditorNameID>28145</EditorNameID>
-		<PopulationCapAddition>15</PopulationCapAddition>
+		<PopulationCapAddition>5</PopulationCapAddition>
 		<ObstructionRadiusX>5.0000</ObstructionRadiusX>
 		<ObstructionRadiusZ>5.0000</ObstructionRadiusZ>
 		<MaxVelocity>0.0000</MaxVelocity>
@@ -10886,7 +10886,7 @@
 		<Train column="6" page="0" row="0">SharpshooterS</Train>
 		<Train column="11" page="0" row="0">USColonialMilitia</Train>
 		<Train column="11" page="0" row="0">xpColonialMilitia</Train>
-		<Train column="11" page="0" row="0">NatHuaminca</Train>
+		<Train column="11" page="0" row="0">IncaSoldier</Train>
 		<Tech column="30" page="0" row="0">RandomMilitaryColombians</Tech>
 		<Train column="3" page="0" row="0">Marine</Train>
 		<Train column="5" page="0" row="0">RiflemanUS</Train>
@@ -15285,6 +15285,7 @@
 			<MaxRange>18.000000</MaxRange>
 			<ROF>2.000000</ROF>
 			<DamageCap>40.000000</DamageCap>
+			<DamageArea>1.000000</DamageArea>
 			<Projectile>ArrowCanoe</Projectile>
 		</ProtoAction>
 	</Unit>
@@ -20489,8 +20490,6 @@
 		<UnitType>DefensiveBuilding</UnitType>
 		<Train column="6" page="2" row="0">SharpshooterS</Train>
 		<Train column="1" page="2" row="0">Strelet</Train>
-		<Train column="11" page="2" row="0">USColonialMilitia</Train>
-		<Train column="11" page="2" row="0">xpColonialMilitia</Train>
 		<Train column="3" page="2" row="0">Marine</Train>
 		<Train column="5" page="2" row="0">RiflemanUS</Train>
 		<Train column="4" page="2" row="0">Schutze</Train>
@@ -20532,7 +20531,6 @@
 		<Train column="2" page="2" row="0">ypAshigaru</Train>
 		<Train column="0" page="2" row="0">Sohei</Train>
 		<Train column="2" page="4" row="0">PistolS</Train>
-		<Train column="5" page="4" row="0">BlackPowderWagon</Train>
 		<Train column="0" page="4" row="0">Saber</Train>
 		<Train column="1" page="4" row="0">Cavalaria</Train>
 		<Train column="1" page="4" row="0">Spahi</Train>
@@ -23713,8 +23711,6 @@
 		<UnitType>ConvertsHerds</UnitType>
 		<Train column="6" page="0" row="0">SharpshooterS</Train>
 		<Train column="1" page="0" row="0">Strelet</Train>
-		<Train column="11" page="0" row="0">USColonialMilitia</Train>
-		<Train column="11" page="0" row="0">xpColonialMilitia</Train>
 		<Train column="3" page="0" row="0">Marine</Train>
 		<Train column="5" page="0" row="0">RiflemanUS</Train>
 		<Train column="4" page="0" row="0">Schutze</Train>
@@ -23847,8 +23843,6 @@
 		<UnitType>ConvertsHerds</UnitType>
 		<Train column="6" page="0" row="0">SharpshooterS</Train>
 		<Train column="1" page="0" row="0">Strelet</Train>
-		<Train column="11" page="0" row="0">USColonialMilitia</Train>
-		<Train column="11" page="0" row="0">xpColonialMilitia</Train>
 		<Train column="3" page="0" row="0">Marine</Train>
 		<Train column="5" page="0" row="0">RiflemanUS</Train>
 		<Train column="4" page="0" row="0">Schutze</Train>
@@ -23919,6 +23913,7 @@
 			<ROF>2.000000</ROF>
 			<DamageCap>100.000000</DamageCap>
 			<DamageBonus type="AbstractArtillery">0.500000</DamageBonus>
+			<DamageBonus type="AbstractVillager">0.500000</DamageBonus>
 			<DamageArea>1.000000</DamageArea>
 			<DamageFlags>GAIAEnemy</DamageFlags>
 		</ProtoAction>
@@ -39371,8 +39366,6 @@
 		<UnitType>ConvertsHerds</UnitType>
 		<Train column="6" page="0" row="0">SharpshooterS</Train>
 		<Train column="1" page="0" row="0">Strelet</Train>
-		<Train column="11" page="0" row="0">USColonialMilitia</Train>
-		<Train column="11" page="0" row="0">xpColonialMilitia</Train>
 		<Train column="3" page="0" row="0">Marine</Train>
 		<Train column="5" page="0" row="0">RiflemanUS</Train>
 		<Train column="4" page="0" row="0">Schutze</Train>
@@ -64681,7 +64674,7 @@
 		<MaxHitpoints>400.0000</MaxHitpoints>
 		<LOS>30.0000</LOS>
 		<UnitAIType>HandCombative</UnitAIType>
-		<TrainPoints>10.0000</TrainPoints>
+		<TrainPoints>20.0000</TrainPoints>
 		<BuildLimit>5</BuildLimit>
 		<Bounty>25.0000</Bounty>
 		<BuildBounty>25.0000</BuildBounty>
@@ -64720,14 +64713,25 @@
 		<Flag>Tracked</Flag>
 		<Command column="0" page="10">Stop</Command>
 		<Command column="1" page="10">Delete</Command>
-		<Tactics>fireship.tactics</Tactics>
+		<Tactics>fireshipasian.tactics</Tactics>
 		<ProtoAction>
 			<Name>HandAttack</Name>
-			<Damage>500.000000</Damage>
+			<Damage>10.000000</Damage>
 			<DamageType>Siege</DamageType>
-			<DamageCap>1000.000000</DamageCap>
+			<ROF>2.000000</ROF>
+			<DamageCap>20.000000</DamageCap>
 			<DamageBonus type="Building">2.500000</DamageBonus>
-			<DamageArea>2.000000</DamageArea>
+			<DamageArea>4.000000</DamageArea>
+			<DamageFlags>GAIAEnemy</DamageFlags>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>SiegeAttack</Name>
+			<Damage>20.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>2.000000</ROF>
+			<DamageCap>40.000000</DamageCap>
+			<DamageBonus type="Building">2.500000</DamageBonus>
+			<DamageArea>8.000000</DamageArea>
 			<DamageFlags>GAIAEnemy</DamageFlags>
 		</ProtoAction>
 	</Unit>
@@ -93790,8 +93794,6 @@
 		<Train column="11" page="4" row="0">xpBowRider</Train>
 		<Train column="12" page="4" row="0">xpRifleRider</Train>
 		<Train column="14" page="2" row="0">xpPetardNative</Train>
-		<Train column="22" page="2" row="0">xpColonialMilitia</Train>
-		<Train column="17" page="2" row="0">USColonialMilitia</Train>
 		<Train column="18" page="4" row="0">MountedCrossbowman</Train>
 		<Train column="13" page="2" row="0">Marine</Train>
 		<Train column="15" page="2" row="0">RiflemanUS</Train>
@@ -93802,7 +93804,6 @@
 		<Train column="10" page="2" row="0">Azap</Train>
 		<Train column="15" page="4" row="0">Spahi</Train>
 		<Train column="17" page="4" row="0">MountedRifleman</Train>
-		<Train column="25" page="4" row="0">BlackPowderWagon</Train>
 		<Train column="13" page="2" row="0">Skirmisher</Train>
 		<Train column="13" page="2" row="0">Cacadore</Train>
 		<Train column="15" page="4" row="0">Hussar</Train>
@@ -107413,9 +107414,9 @@
 		<Tactics>fireship.tactics</Tactics>
 		<ProtoAction>
 			<Name>HandAttack</Name>
-			<Damage>600.000000</Damage>
+			<Damage>500.000000</Damage>
 			<DamageType>Siege</DamageType>
-			<DamageCap>1200.000000</DamageCap>
+			<DamageCap>1000.000000</DamageCap>
 			<DamageBonus type="Building">2.500000</DamageBonus>
 			<DamageArea>2.000000</DamageArea>
 			<DamageFlags>GAIAEnemy</DamageFlags>
@@ -117805,8 +117806,6 @@
 		<UnitType>HasBountyValue</UnitType>
 		<Train column="7" page="0" row="0">Grenadier</Train>
 		<Train column="1" page="0" row="0">Strelet</Train>
-		<Train column="9" page="0" row="0">USColonialMilitia</Train>
-		<Train column="9" page="0" row="0">xpColonialMilitia</Train>
 		<Train column="8" page="0" row="0">ManAtArms2</Train>
 		<Train column="3" page="0" row="0">Marine</Train>
 		<Train column="5" page="0" row="0">RiflemanUS</Train>
@@ -127501,6 +127500,7 @@
 		<Train column="23" page="0" row="0">ypRepentantJatLancer</Train>
 		<Train column="24" page="0" row="0">ypRepentantRonin</Train>
 		<Train column="25" page="0" row="0">ypRepentantHoopThrowers</Train>
+		<Train column="26" page="0" row="0">RepentantMountedGrenadier</Train>
 		<Flag>CollidesWithProjectiles</Flag>
 		<Flag>StartsAtFullEfficiency</Flag>
 		<Flag>Immoveable</Flag>
@@ -130872,8 +130872,6 @@
 		<UnitType>ConvertsHerds</UnitType>
 		<Train column="6" page="0" row="0">SharpshooterS</Train>
 		<Train column="1" page="0" row="0">Strelet</Train>
-		<Train column="11" page="0" row="0">USColonialMilitia</Train>
-		<Train column="11" page="0" row="0">xpColonialMilitia</Train>
 		<Train column="3" page="0" row="0">Marine</Train>
 		<Train column="5" page="0" row="0">RiflemanUS</Train>
 		<Train column="4" page="0" row="0">Schutze</Train>
@@ -134725,7 +134723,6 @@
 			<DamageType>Siege</DamageType>
 			<MaxRange>18.000000</MaxRange>
 			<ROF>2.000000</ROF>
-			<DamageCap>80.000000</DamageCap>
 		</ProtoAction>
 	</Unit>
 	<Unit id="1865" name="CanoeMerc">
@@ -134818,7 +134815,6 @@
 			<DamageType>Siege</DamageType>
 			<MaxRange>18.000000</MaxRange>
 			<ROF>2.000000</ROF>
-			<DamageCap>40.000000</DamageCap>
 			<Projectile>ArrowCanoe</Projectile>
 		</ProtoAction>
 		<ProtoAction>
@@ -134928,7 +134924,7 @@
 		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
 		<FormationCategory>Body</FormationCategory>
 		<MaxVelocity>5.7500</MaxVelocity>
-		<MaxRunVelocity>6.7500</MaxRunVelocity>
+		<MaxRunVelocity>7.7500</MaxRunVelocity>
 		<MovementType>land</MovementType>
 		<TurnRate>18.0000</TurnRate>
 		<AnimFile>units\spc\chilche_young\spc_chilche_young.xml</AnimFile>
@@ -136963,8 +136959,6 @@
 		<UnitType>ConvertsHerds</UnitType>
 		<Train column="6" page="2" row="0">SharpshooterS</Train>
 		<Train column="1" page="2" row="0">Strelet</Train>
-		<Train column="11" page="2" row="0">USColonialMilitia</Train>
-		<Train column="11" page="2" row="0">xpColonialMilitia</Train>
 		<Train column="3" page="2" row="0">Marine</Train>
 		<Train column="5" page="2" row="0">RiflemanUS</Train>
 		<Train column="4" page="2" row="0">Schutze</Train>
@@ -136990,7 +136984,6 @@
 		<Train column="2" page="2" row="0">BoneguardAge2</Train>
 		<Train column="0" page="2" row="0">Sohei</Train>
 		<Train column="2" page="4" row="0">PistolS</Train>
-		<Train column="5" page="4" row="0">BlackPowderWagon</Train>
 		<Train column="0" page="4" row="0">Saber</Train>
 		<Train column="1" page="4" row="0">Cavalaria</Train>
 		<Train column="1" page="4" row="0">Spahi</Train>
@@ -139186,8 +139179,6 @@
 		<UnitType>ConvertsHerds</UnitType>
 		<Train column="6" page="0" row="0">SharpshooterS</Train>
 		<Train column="1" page="0" row="0">Strelet</Train>
-		<Train column="11" page="0" row="0">USColonialMilitia</Train>
-		<Train column="11" page="0" row="0">xpColonialMilitia</Train>
 		<Train column="3" page="0" row="0">Marine</Train>
 		<Train column="5" page="0" row="0">RiflemanUS</Train>
 		<Train column="4" page="0" row="0">Schutze</Train>
@@ -141178,7 +141169,7 @@
 		<MaxHitpoints>250.0000</MaxHitpoints>
 		<LOS>16.0000</LOS>
 		<ProjectileProtoUnit>InvisibleProjectile</ProjectileProtoUnit>
-		<Cost resourcetype="Fame">125.0000</Cost>
+		<Cost resourcetype="Wood">300.0000</Cost>
 		<UnitAIType>Civilian</UnitAIType>
 		<TrainPoints>60.0000</TrainPoints>
 		<Bounty>60.0000</Bounty>
@@ -141444,8 +141435,8 @@
 		<DisplayNameID>78285</DisplayNameID>
 		<EditorNameID>78285</EditorNameID>
 		<PopulationCapAddition>50</PopulationCapAddition>
-		<ObstructionRadiusX>3.5000</ObstructionRadiusX>
-		<ObstructionRadiusZ>3.0000</ObstructionRadiusZ>
+		<ObstructionRadiusX>4.5000</ObstructionRadiusX>
+		<ObstructionRadiusZ>3.5000</ObstructionRadiusZ>
 		<MaxVelocity>0.0000</MaxVelocity>
 		<MovementType>land</MovementType>
 		<AnimFile>buildings\livestock pen\livestock pen.xml</AnimFile>
@@ -141467,7 +141458,7 @@
 		<BuildBounty>25.0000</BuildBounty>
 		<BuilderLimit>10</BuilderLimit>
 		<AllowedHeightVariance>4.0000</AllowedHeightVariance>
-		<Cost resourcetype="Wood">150.0000</Cost>
+		<Cost resourcetype="Wood">175.0000</Cost>
 		<BuildingWorkRate>1.0000</BuildingWorkRate>
 		<AllowedAge>0</AllowedAge>
 		<Armor type="Siege" value="0.0000"/>
@@ -141916,6 +141907,226 @@
 			<DamageBonus type="Ship">0.500000</DamageBonus>
 			<DamageBonus type="Building">0.500000</DamageBonus>
 			<DamageBonus type="xpArrowKnight">0.500000</DamageBonus>
+		</ProtoAction>
+	</Unit>
+	<Unit id="1956" name="RepentantMountedGrenadier">
+		<DBID>1957</DBID>
+		<DisplayNameID>78292</DisplayNameID>
+		<EditorNameID>78292</EditorNameID>
+		<PopulationCount>4</PopulationCount>
+		<ObstructionRadiusX>0.6900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.6900</ObstructionRadiusZ>
+		<FormationCategory>Mobile</FormationCategory>
+		<DeadReplacement>BloodSplat</DeadReplacement>
+		<MaxVelocity>6.7500</MaxVelocity>
+		<MaxRunVelocity>8.7500</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>10.0000</TurnRate>
+		<AnimFile>units\cavalry\chevauxleger\chevauxleger_horse.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>cav</PhysicsInfo>
+		<Icon>units\cavalry\chevauxleger\chevauxleger_icon</Icon>
+		<PortraitIcon>units\cavalry\chevauxleger\chevauxleger_portrait</PortraitIcon>
+		<RolloverTextID>781586</RolloverTextID>
+		<ShortRolloverTextID>781587</ShortRolloverTextID>
+		<InitialHitpoints>330.0000</InitialHitpoints>
+		<MaxHitpoints>330.0000</MaxHitpoints>
+		<LOS>16.0000</LOS>
+		<UnitAIType>RangedCombative</UnitAIType>
+		<ProjectileProtoUnit>Grenade</ProjectileProtoUnit>
+		<TrainPoints>47.0000</TrainPoints>
+		<Bounty>30.0000</Bounty>
+		<BuildBounty>30.0000</BuildBounty>
+		<Cost resourcetype="Fame">130.0000</Cost>
+		<AllowedAge>2</AllowedAge>
+		<Armor type="Ranged" value="0.3000"/>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>AbstractRangedCavalry</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>Ranged</UnitType>
+		<UnitType>AbstractCavalry</UnitType>
+		<UnitType>AbstractLightCavalry</UnitType>
+		<UnitType>AbstractSiegeTrooper</UnitType>
+		<UnitType>Mercenary</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Unit</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>ConstrainOrientation</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>Tracked</Flag>
+		<Command column="5" page="10">Patrol</Command>
+		<Command column="1" page="10">Stop</Command>
+		<Command column="0" page="10">Garrison</Command>
+		<Command column="2" page="10">Delete</Command>
+		<Tactics>grenadecavalry.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>65.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<MaxRange>12.000000</MaxRange>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendRangedAttack</Name>
+			<Damage>38.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<MaxRange>12.000000</MaxRange>
+			<ROF>3.000000</ROF>
+			<DamageCap>76.000000</DamageCap>
+			<DamageArea>3.000000</DamageArea>
+			<DamageFlags>GAIAEnemy</DamageFlags>
+			<DamageBonus type="AbstractHeavyCavalry">3.000000</DamageBonus>
+			<DamageBonus type="AbstractArtillery">2.000000</DamageBonus>
+			<DamageBonus type="AbstractCoyoteMan">2.500000</DamageBonus>
+			<DamageBonus type="AbstractVillager">0.500000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeHandAttack</Name>
+			<Damage>18.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type="AbstractHeavyCavalry">3.000000</DamageBonus>
+			<DamageBonus type="AbstractArtillery">2.000000</DamageBonus>
+			<DamageBonus type="AbstractCoyoteMan">2.500000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>StaggerRangedAttack</Name>
+			<Damage>38.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<MaxRange>12.000000</MaxRange>
+			<ROF>3.000000</ROF>
+			<DamageCap>76.000000</DamageCap>
+			<DamageArea>3.000000</DamageArea>
+			<DamageFlags>GAIAEnemy</DamageFlags>
+			<DamageBonus type="AbstractHeavyCavalry">3.000000</DamageBonus>
+			<DamageBonus type="AbstractArtillery">2.000000</DamageBonus>
+			<DamageBonus type="AbstractCoyoteMan">2.500000</DamageBonus>
+			<DamageBonus type="AbstractVillager">0.500000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>StaggerHandAttack</Name>
+			<Damage>18.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type="AbstractHeavyCavalry">3.000000</DamageBonus>
+			<DamageBonus type="AbstractArtillery">2.000000</DamageBonus>
+			<DamageBonus type="AbstractCoyoteMan">2.500000</DamageBonus>
+		</ProtoAction>
+	</Unit>
+	<Unit id="1957" name="IncaSoldier">
+		<DBID>1958</DBID>
+		<DisplayNameID>78293</DisplayNameID>
+		<EditorNameID>78293</EditorNameID>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>4.7500</MaxVelocity>
+		<MaxRunVelocity>6.7500</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\spc\chilche_young\spc_chilche_young.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<Icon>units\spc\chilche_young\chilche_young_icon</Icon>
+		<PortraitIcon>units\spc\chilche_young\chilche_young_portrait</PortraitIcon>
+		<RolloverTextID>78294</RolloverTextID>
+		<ShortRolloverTextID>32426</ShortRolloverTextID>
+		<InitialHitpoints>300.0000</InitialHitpoints>
+		<MaxHitpoints>300.0000</MaxHitpoints>
+		<LOS>12.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>30.0000</TrainPoints>
+		<Bounty>10.0000</Bounty>
+		<BuildBounty>10.0000</BuildBounty>
+		<Cost resourcetype="Food">60.0000</Cost>
+		<Cost resourcetype="Gold">30.0000</Cost>
+		<AllowedAge>1</AllowedAge>
+		<Armor type="Hand" value="0.2000"/>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>AbstractHandInfantry</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>RotateInPlace</Flag>
+		<Flag>Tracked</Flag>
+		<Command column="5" page="10">Patrol</Command>
+		<Command column="0" page="10">Garrison</Command>
+		<Command column="2" page="10">Stop</Command>
+		<Command column="0" page="11">Abilities</Command>
+		<Tactics>generalchilche.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>30.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>CoverBuildingAttack</Name>
+			<Damage>15.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>HandAttack</Name>
+			<Damage>30.000000</Damage>
+			<DamageCap>60.000000</DamageCap>
+			<DamageArea>2.000000</DamageArea>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type="AbstractCavalry">2.000000</DamageBonus>
+			<DamageBonus type="AbstractShockInfantry">1.250000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>CoverHandAttack</Name>
+			<Damage>15.000000</Damage>
+			<DamageCap>30.000000</DamageCap>
+			<DamageArea>2.000000</DamageArea>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type="AbstractCavalry">2.000000</DamageBonus>
+			<DamageBonus type="AbstractShockInfantry">1.250000</DamageBonus>
 		</ProtoAction>
 	</Unit>
 </Proto>

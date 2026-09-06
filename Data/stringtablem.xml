@@ -1485,7 +1485,7 @@
 		<String _locID="22837">Trading Post</String>
 		<String _locID="22838">Supports 10 population. Trains livestock.</String>
 		<String _locID="22839">House</String>
-		<String _locID="22840">Most important building and center of a settlement. Supports 15 population. Can garrison 100 units.</String>
+		<String _locID="22840">Most important building and center of a settlement. Supports 5 population. Can garrison 100 units.</String>
 		<String _locID="22841">Town Center</String>
 		<String _locID="22842">Harvest for Food with Fishing Boats.</String>
 		<String _locID="22843">Fish - Salmon</String>
@@ -1494,9 +1494,9 @@
 		<String _locID="22847">Barracks</String>
 		<String _locID="22849">Veteran Musketeers</String>
 		<String _locID="22851">Musketeer attack and hitpoints increased.</String>
-		<String _locID="22856" symbol="cStringCultureWEurope">Western Europe</String>
+		<String _locID="22856" symbol="cStringCultureWEurope">Western Europen</String>
 		<String _locID="22857" symbol="cStringCultureMediterranean">Mediterranean</String>
-		<String _locID="22858" symbol="cStringCultureEEurope">Eastern Europe</String>
+		<String _locID="22858" symbol="cStringCultureEEurope">Eastern Europen</String>
 		<String _locID="22861" symbol="cStringCivNameBritish">British</String>
 		<String _locID="22862" symbol="cStringCivNameFrench">French</String>
 		<String _locID="22863" symbol="cStringCivNameDutch">Dutch</String>
@@ -1629,7 +1629,7 @@
 		<String _locID="23328">Military Drummers</String>
 		<String _locID="23330">Infantry armed with muskets or rifles hitpoints increased.</String>
 		<String _locID="23331">Flint Lock</String>
-		<String _locID="23334">Infantry armed with muskets have their hand attack increased.</String>
+		<String _locID="23334">Infantry armed with muskets have their melee attack increased.</String>
 		<String _locID="23335">Socket Bayonet</String>
 		<String _locID="23340">Infantry armed with rifles do more damage to heavy infantry.</String>
 		<String _locID="23341">Counter Infantry Rifling</String>
@@ -3380,7 +3380,7 @@
 		<String _locID="28074" symbol="cStringRangedMode">Ranged Attack</String>
 		<String _locID="28075" symbol="cStringRangedDisabled">Ranged Attack Mode is currently unavailable.</String>
 		<String _locID="28076" symbol="cStringRangedActive">This unit is currently in Ranged Attack Mode.</String>
-		<String _locID="28077" symbol="cStringMeleeMode">Hand Attack</String>
+		<String _locID="28077" symbol="cStringMeleeMode">Melee Attack</String>
 		<String _locID="28078" symbol="cStringMeleeDisabled">Melee Attack Mode is currently unavailable.</String>
 		<String _locID="28079" symbol="cStringMeleeActive">This unit is currently in Melee Attack Mode.</String>
 		<String _locID="28082">Chilche</String>
@@ -4247,7 +4247,7 @@
 		<String _locID="31140">A friendly seal. Club him on the head for Food.</String>
 		<String _locID="31141">Harbor Seal</String>
 		<String _locID="31143">Gathers Coin and can fight</String>
-		<String _locID="31144">Task on Ice or Rock Bridges to cause them to collapse. Has ranged and hand attack.</String>
+		<String _locID="31144">Task on Ice or Rock Bridges to cause them to collapse. Has ranged and melee attack.</String>
 		<String _locID="31145">Miner</String>
 		<String _locID="31146">SPC Miner</String>
 		<String _locID="31153" symbol="cStringNuggetKinkajou" comment="1 - amount, 2 - resource">An adorable kinkajou worth %1d %2s.</String>
@@ -5604,7 +5604,7 @@
 		<String _locID="34133">VIL Bavarian</String>
 		<String _locID="34134">VIL Town Wagon</String>
 		<String _locID="34135">Swashbuckler Attack</String>
-		<String _locID="34136">A sweeping hand attack that damages all units in the area.</String>
+		<String _locID="34136">A sweeping melee attack that damages all units in the area.</String>
 		<String _locID="34137">Long-range Bombardment Attack</String>
 		<String _locID="34138">Fire a mortar shell over a great distance.</String>
 		<String _locID="34139">Americans</String>
@@ -6188,7 +6188,7 @@
 		<String _locID="35278">Duck</String>
 		<String _locID="35279">PROP Duck</String>
 		<String _locID="35280">Worker who can fight</String>
-		<String _locID="35281">Task on Ice or Rock Bridges to cause them to collapse. Has ranged and hand attack.</String>
+		<String _locID="35281">Task on Ice or Rock Bridges to cause them to collapse. Has ranged and melee attack.</String>
 		<String _locID="35282">Railroad Worker</String>
 		<String _locID="35283">SPC Railroad Worker</String>
 		<String _locID="35284">Follows an engine</String>
@@ -7831,7 +7831,7 @@
 		<String _locID="37359" symbol="cStringPUNotObtainable">%s is not obtainable by your civilization.</String>
 		<String _locID="37360">Lancers do increased damage to infantry.</String>
 		<String _locID="37361">Caballeros</String>
-		<String _locID="37362">Town Centers provide 50 population each.</String>
+		<String _locID="37362">Town Centers provide 25 population each.</String>
 		<String _locID="37363">Colonial Estancias</String>
 		<String _locID="37364">4 War Wagons</String>
 		<String _locID="37365">6 War Wagons</String>
@@ -8594,14 +8594,14 @@
 		<String _locID="38127" symbol="cStringVolleyRangedModeName">Ranged Attack</String>
 		<String _locID="38128" symbol="cStringCoverRangedModeName">Ranged Attack</String>
 		<String _locID="38129" symbol="cStringStaggerRangedModeName">Ranged Attack</String>
-		<String _locID="38130" symbol="cStringVolleyHandModeName">Hand Attack</String>
-		<String _locID="38131" symbol="cStringCoverHandModeName">Hand Attack</String>
-		<String _locID="38132" symbol="cStringStaggerHandModeName">Hand Attack</String>
+		<String _locID="38130" symbol="cStringVolleyHandModeName">Melee Attack</String>
+		<String _locID="38131" symbol="cStringCoverHandModeName">Melee Attack</String>
+		<String _locID="38132" symbol="cStringStaggerHandModeName">Melee Attack</String>
 		<String _locID="38133" symbol="cStringRangedAttackModeName">Ranged Attack</String>
-		<String _locID="38134" symbol="cStringHandAttackModeName">Hand Attack</String>
-		<String _locID="38135" symbol="cStringChargeAttackModeName">Hand Attack</String>
+		<String _locID="38134" symbol="cStringHandAttackModeName">Melee Attack</String>
+		<String _locID="38135" symbol="cStringChargeAttackModeName">Melee Attack</String>
 		<String _locID="38136" symbol="cStringDefendRangedModeName">Ranged Attack</String>
-		<String _locID="38137" symbol="cStringDefendHandModeName">Hand Attack</String>
+		<String _locID="38137" symbol="cStringDefendHandModeName">Melee Attack</String>
 		<String _locID="38138" symbol="cStringAvailableFoodFormatString">Available Food: %.0f</String>
 		<String _locID="38139" symbol="cStringAvailableWoodFormatString">Available Wood: %.0f</String>
 		<String _locID="38140" symbol="cStringAvailableCoinFormatString">Available Coin: %.0f</String>
@@ -8751,7 +8751,7 @@
 		<String _locID="38286" symbol="cStringHCNoteTitle3">Experience</String>
 		<String _locID="38287" symbol="cStringGatherPointMustBeVisible">You cannot set a gather point in the unexplored map area.</String>
 		<String _locID="38288">Tercio Pikeman</String>
-		<String _locID="38289">Rugged German colonial Houses provide much more population per building, +2 Uhlans.</String>
+		<String _locID="38289">Rugged German colonial Houses are free to build and support 2 more population each, +2 Uhlans.</String>
 		<String _locID="38290">Palatine Settlements</String>
 		<String _locID="38291">Estate</String>
 		<String _locID="38296">Light ranged cavalry attack and range increased.</String>
@@ -20570,7 +20570,7 @@
 		<String _locID="61119">Christian Schools</String>
 		<String _locID="61120">Along with their religion, the Jesuits bring smokeless powder to Asia, increasing gunpowder units building attack.</String>
 		<String _locID="61121">Smokeless Powder</String>
-		<String _locID="61122">Shaolin Masters reveal the secrets of the Clenched Fist fighting style, increasing ranged infantry hand attack.</String>
+		<String _locID="61122">Shaolin Masters reveal the secrets of the Clenched Fist fighting style, increasing ranged infantry melee attack.</String>
 		<String _locID="61123">Clenched Fist</String>
 		<String _locID="61124">The lost scrolls of the Dim Mak fighting style has been found, increasing Rattan Shields attack.</String>
 		<String _locID="61125">Dim Mak</String>
@@ -24546,7 +24546,7 @@
 		<String _locID="65255" gamecharacter="Chen" soundfilename="YCHEN0024" portraitfilename="units\asians\spc\chen\chen_icon_portrait">We have scoured the beaches for all evidence of our presence.</String>
 		<String _locID="65256" gamecharacter="Huang" soundfilename="YHUAN0034" portraitfilename="units\asians\spc\huang\huang_icon_portrait">Good. It is time the treasure fleet moved on to calmer waters: home.</String>
 		<String _locID="65257" gamecharacter="Huang" soundfilename="YHUAN0035" portraitfilename="units\asians\spc\huang\huang_icon_portrait">Hopefully, no one will even know we were here.</String>
-		<String _locID="65258" symbol="cStringPopulationCapAddition">%1s: Increase Population Cap by %2d</String>
+		<String _locID="65258" symbol="cStringPopulationCapAddition">%1s: Increase Population Cap by %2d.00</String>
 		<String _locID="65259">Treasure Map</String>
 		<String _locID="65260">Reduces the cost of all infantry.</String>
 		<String _locID="65261">Decrease Infantry Costs Nugget</String>
@@ -24906,7 +24906,7 @@
 		<String _locID="65616">1 Atakabune</String>
 		<String _locID="65617">2 Atakabune</String>
 		<String _locID="65618">1 Tekkousen</String>
-		<String _locID="65619">All hand attacks do more damage, +1 Shudra.</String>
+		<String _locID="65619">All melee attacks do more damage, +1 Shudra.</String>
 		<String _locID="65620">Dravidian Martial Arts</String>
 		<String _locID="65621">Infantry Resistance Shipment has arrived.</String>
 		<String _locID="65622">Urumi Critical Strike Shipment has arrived.</String>
@@ -28088,7 +28088,7 @@
 		<String _locID="68803" symbol="cStringShrineXP">Configure all Shrines to produce experience points.</String>
 		<String _locID="68804" symbol="cStringShrineXPActive">All Shrines are producing experience points.</String>
 		<String _locID="68805" symbol="cStringHotkeyGoldenPavillionRanged">Ranged Attack Bonus</String>
-		<String _locID="68806" symbol="cStringHotkeyGoldenPavillionHand">Hand Attack Bonus</String>
+		<String _locID="68806" symbol="cStringHotkeyGoldenPavillionHand">Melee Attack Bonus</String>
 		<String _locID="68807" symbol="cStringHotkeyGoldenPavillionHP">Hitpoints</String>
 		<String _locID="68808" symbol="cStringHotkeyFindCastle">Find Castle</String>
 		<String _locID="68809" symbol="cStringHotkeyFindWonder">Find Wonder</String>
@@ -28133,7 +28133,7 @@
 		<String _locID="68848">End Relations</String>
 		<String _locID="68849">Open Relations</String>
 		<String _locID="68850">Ranged Attack</String>
-		<String _locID="68851">Hand Attack</String>
+		<String _locID="68851">Melee Attack</String>
 		<String _locID="68852">Hitpoints</String>
 		<String _locID="68853" symbol="cStringHotkeyFindMilitary">Find all military</String>
 		<String _locID="68854" symbol="cStringHotkeyBuildLivestockPen">Build Stockyard or Sacred Field</String>
@@ -28241,7 +28241,7 @@
 		<String _locID="68956">Tree</String>
 		<String _locID="68957">Tree - Ceylon</String>
 		<String _locID="68958" symbol="cStringWonderGoldenPavillionRangeDmgInc">Ranged attack bonus</String>
-		<String _locID="68959" symbol="cStringWonderGoldenPavillionHandDmgInc">Hand attack bonus</String>
+		<String _locID="68959" symbol="cStringWonderGoldenPavillionHandDmgInc">Melee attack bonus</String>
 		<String _locID="68960" symbol="cStringWonderGoldenPavillionHPInc">Hitpoint bonus</String>
 		<String _locID="68961" symbol="cStringWonderGoldenTempleEconAura">Increased gather rate aura</String>
 		<String _locID="68962" symbol="cStringWonderWhitePagodaMonkDmg">Monk DMG Buff</String>
@@ -32175,7 +32175,7 @@
 		<String _locID="781463">Grapeshot</String>
 		<String _locID="781464">Increases the maximum area damage of artillery shots, inflicting more damage to nearby units.</String>
 		<String _locID="781465">Melee Proficiency</String>
-		<String _locID="781466">All infantry hand attack increased.</String>
+		<String _locID="781466">All infantry melee attack increased.</String>
 		<String _locID="781467">Melee Proficiency Shipment has arrived.</String>
 		<String _locID="781468">Early Mortars</String>
 		<String _locID="781469">Mortars can be trained in the Fortress Age.</String>
@@ -32568,7 +32568,7 @@
 		<String _locID="781856">Portuguese Empire</String>
 		<String _locID="781857">Dutch Republic</String>
 		<String _locID="781858">Russian Empire</String>
-		<String _locID="781859">Prussian Kingdom</String>
+		<String _locID="781859">German Confederation</String>
 		<String _locID="781860">Ottoman Empire</String>
 		<String _locID="781861">Qing Dynasty</String>
 		<String _locID="781862">Edo Shogunate</String>
@@ -32577,12 +32577,12 @@
 		<String _locID="781865">Sioux Nation</String>
 		<String _locID="781866">Aztec Empire</String>
 		<String _locID="781867">United States</String>
-		<String _locID="781868">Italian States</String>
+		<String _locID="781868">Italian Republic</String>
 		<String _locID="781869">Swedish Empire</String>
-		<String _locID="781870">Gran Colombia</String>
+		<String _locID="781870">Colombian Republic</String>
 		<String _locID="781871">Maltese Order</String>
 		<String _locID="781872">African Republic</String>
-		<String _locID="781873">Barbary States</String>
+		<String _locID="781873">Algerian Regency</String>
 		<String _locID="781874">Habsburg Empire</String>
 		<String _locID="781875">Source of water for the Lake of the Moon. Generates Coin when captured.</String>
 		<String _locID="781876">{E^&lt;icon="(32)(ui/ingame/resource_food)"&gt; Food source^}{J^&lt;icon="(16)(ui/ingame/stat_icon_huntable)"&gt; Enhances nearby Shrines^}</String>
@@ -32817,7 +32817,7 @@
 		<String _locID="782108">Templar</String>
 		<String _locID="782109">Improves your Maltese Explorer in combat, gives him the Fire Command ability to boost damage, and gives him a powerful canine companion.</String>
 		<String _locID="782110">Backstab Attack</String>
-		<String _locID="782111">A powerful hand attack that executes most units.</String>
+		<String _locID="782111">A powerful melee attack that executes most units.</String>
 		<String _locID="782112">Pistol Attack</String>
 		<String _locID="782113">A powerful ranged attack that executes most units.</String>
 		<String _locID="782114">Templar Shipment has arrived.</String>
@@ -33269,7 +33269,7 @@
 		<String _locID="782561">Trains sinister outlaws and mercenaries.</String>
 		<String _locID="782562">Tavern</String>
 		<String _locID="782563">1 Factory</String>
-		<String _locID="782564">Ships 1 Factory Wagon to your colony, allowing you to construct a powerful Factory to produce resources or heavy artillery.</String>
+		<String _locID="782564">Ships a Factory Wagon to your colony, allowing you to construct a powerful Factory to produce resources or heavy artillery.</String>
 		<String _locID="782565">Charged Attack</String>
 		<String _locID="782566">Passive Ability: This unit fires a special attack at the start of combat and every 10 seconds.</String>
 		<String _locID="782567">10 Ruyters</String>
@@ -33566,7 +33566,7 @@
 		<String _locID="78149">Tbourida Shipment has arrived.</String>
 		<String _locID="78150">Mercenary Consulate</String>
 		<String _locID="78151">Ghorfas</String>
-		<String _locID="78152">Mercenary Town Center, Dock, Barracks, Stable and Outpost hitpoints increased. Also Houses support 4 more population.</String>
+		<String _locID="78152">Mercenary Town Center, Dock, Barracks, Stable and Outpost hitpoints increased. Also Houses support 2 more population.</String>
 		<String _locID="78153">Ghorfas Shipment has arrived.</String>
 		<String _locID="78154">Matrakci School</String>
 		<String _locID="78155">All infantry train faster and move slightly faster.</String>
@@ -33591,7 +33591,7 @@
 		<String _locID="78174">This wagon is in galloping mode.</String>
 		<String _locID="78175">Logging Wagon</String>
 		<String _locID="78176">Vinland Saga</String>
-		<String _locID="78177">Increases Torp (and potted tree) build limit by 10.</String>
+		<String _locID="78177">Increases Torp (and potted tree) build limit by 5.</String>
 		<String _locID="78178">Vinland Saga Shipment has arrived.</String>
 		<String _locID="78179">Trainband Spontooners</String>
 		<String _locID="78180">Trainband: Call a handful of Spontooners to defend this colony!</String>
@@ -33607,7 +33607,7 @@
 		<String _locID="78190">Provides your Mosque and Command Post with more Ottoman improvements.</String>
 		<String _locID="78191">Royal Decree "Corsair Firman" Shipment has arrived.</String>
 		<String _locID="78192">Sunni Dogma</String>
-		<String _locID="78193">Your Sunni allies help you support 25 more total population.</String>
+		<String _locID="78193">Your Sunni allies help you support 50 population without houses.</String>
 		<String _locID="78194">Field Support</String>
 		<String _locID="78195">Ships 2 Flag Bearers, 2 Drummers and 2 Surgeons.</String>
 		<String _locID="78196">Stockade Buyruldu</String>
@@ -33706,5 +33706,8 @@
 		<String _locID="78289">&lt;color=0.74901961, 0.74901961, 0.74901961&gt;Unlock more military technology from the Hacienda.&lt;/color&gt;</String>
 		<String _locID="78290">Quaker Gun</String>
 		<String _locID="78291">Gatling Gun firing blanks. Good at drawing enemy fire.</String>
+		<String _locID="78292">Pardoned Granadero a Caballo</String>
+		<String _locID="78293">Champi</String>
+		<String _locID="78294">Inca warrior armed with a battle axe.</String>
 	</Language>
 </StringTable>
