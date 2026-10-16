@@ -51480,7 +51480,15 @@
 			<DamageBonus type="AbstractShockInfantry">4.000000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
-			<Name>HandAttack</Name>
+			<Name>DefendHandAttack</Name>
+			<Damage>20.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type="AbstractCavalry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractShockInfantry">4.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeHandAttack</Name>
 			<Damage>20.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
@@ -55296,7 +55304,7 @@
 	</Unit>
 	<Unit id="886" name="NatMercHolcanSpearman">
 		<DBID>887</DBID>
-		<DisplayNameID>48461</DisplayNameID>
+		<DisplayNameID>78295</DisplayNameID>
 		<EditorNameID>48462</EditorNameID>
 		<PopulationCount>0</PopulationCount>
 		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
@@ -55405,7 +55413,7 @@
 	</Unit>
 	<Unit id="887" name="NatMercLightningWarrior">
 		<DBID>888</DBID>
-		<DisplayNameID>48465</DisplayNameID>
+		<DisplayNameID>78296</DisplayNameID>
 		<EditorNameID>48466</EditorNameID>
 		<PopulationCount>0</PopulationCount>
 		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
@@ -55512,7 +55520,7 @@
 	</Unit>
 	<Unit id="888" name="NatMercRifleman">
 		<DBID>889</DBID>
-		<DisplayNameID>48469</DisplayNameID>
+		<DisplayNameID>78297</DisplayNameID>
 		<EditorNameID>48470</EditorNameID>
 		<PopulationCount>0</PopulationCount>
 		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
@@ -55674,7 +55682,7 @@
 	</Unit>
 	<Unit id="889" name="NatMercTracker">
 		<DBID>890</DBID>
-		<DisplayNameID>48477</DisplayNameID>
+		<DisplayNameID>78298</DisplayNameID>
 		<EditorNameID>48478</EditorNameID>
 		<PopulationCount>0</PopulationCount>
 		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
@@ -55836,7 +55844,7 @@
 	</Unit>
 	<Unit id="890" name="NatMercBlackwoodArcher">
 		<DBID>891</DBID>
-		<DisplayNameID>48481</DisplayNameID>
+		<DisplayNameID>78299</DisplayNameID>
 		<EditorNameID>48482</EditorNameID>
 		<PopulationCount>0</PopulationCount>
 		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
@@ -55998,7 +56006,7 @@
 	</Unit>
 	<Unit id="891" name="NatMercClubman">
 		<DBID>892</DBID>
-		<DisplayNameID>48485</DisplayNameID>
+		<DisplayNameID>78300</DisplayNameID>
 		<EditorNameID>48486</EditorNameID>
 		<PopulationCount>0</PopulationCount>
 		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
@@ -56105,7 +56113,7 @@
 	</Unit>
 	<Unit id="892" name="NatMercCheyenneRider">
 		<DBID>893</DBID>
-		<DisplayNameID>48489</DisplayNameID>
+		<DisplayNameID>78301</DisplayNameID>
 		<EditorNameID>48490</EditorNameID>
 		<PopulationCount>0</PopulationCount>
 		<ObstructionRadiusX>0.6900</ObstructionRadiusX>
@@ -56205,7 +56213,7 @@
 	</Unit>
 	<Unit id="893" name="NatMercHorseArcher">
 		<DBID>894</DBID>
-		<DisplayNameID>48493</DisplayNameID>
+		<DisplayNameID>78302</DisplayNameID>
 		<EditorNameID>48494</EditorNameID>
 		<PopulationCount>0</PopulationCount>
 		<ObstructionRadiusX>0.6900</ObstructionRadiusX>
@@ -56328,7 +56336,7 @@
 	</Unit>
 	<Unit id="894" name="NatMercHuronMantlet">
 		<DBID>895</DBID>
-		<DisplayNameID>48502</DisplayNameID>
+		<DisplayNameID>78303</DisplayNameID>
 		<EditorNameID>48503</EditorNameID>
 		<PopulationCount>0</PopulationCount>
 		<ObstructionRadiusX>0.6900</ObstructionRadiusX>
@@ -56592,7 +56600,7 @@
 	</Unit>
 	<Unit id="897" name="NatMercBlowgunWarrior">
 		<DBID>898</DBID>
-		<DisplayNameID>48952</DisplayNameID>
+		<DisplayNameID>78304</DisplayNameID>
 		<EditorNameID>48953</EditorNameID>
 		<PopulationCount>0</PopulationCount>
 		<SubCiv>Caribs</SubCiv>
@@ -65378,7 +65386,7 @@
 	</Unit>
 	<Unit id="984" name="ypNatMercChakram">
 		<DBID>985</DBID>
-		<DisplayNameID>61382</DisplayNameID>
+		<DisplayNameID>78305</DisplayNameID>
 		<EditorNameID>61383</EditorNameID>
 		<PopulationCount>0</PopulationCount>
 		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
@@ -65501,7 +65509,7 @@
 	</Unit>
 	<Unit id="985" name="ypNatMercConquistador">
 		<DBID>986</DBID>
-		<DisplayNameID>61386</DisplayNameID>
+		<DisplayNameID>78306</DisplayNameID>
 		<EditorNameID>61387</EditorNameID>
 		<PopulationCount>0</PopulationCount>
 		<ObstructionRadiusX>0.6900</ObstructionRadiusX>
@@ -65622,7 +65630,7 @@
 	</Unit>
 	<Unit id="986" name="ypNatMercRattanShield">
 		<DBID>987</DBID>
-		<DisplayNameID>61390</DisplayNameID>
+		<DisplayNameID>78307</DisplayNameID>
 		<EditorNameID>61391</EditorNameID>
 		<PopulationCount>0</PopulationCount>
 		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
@@ -65722,7 +65730,7 @@
 	</Unit>
 	<Unit id="987" name="ypNatMercTigerClaw">
 		<DBID>988</DBID>
-		<DisplayNameID>61394</DisplayNameID>
+		<DisplayNameID>78308</DisplayNameID>
 		<EditorNameID>61395</EditorNameID>
 		<PopulationCount>0</PopulationCount>
 		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
@@ -65833,7 +65841,7 @@
 	</Unit>
 	<Unit id="988" name="ypNatMercWarElephant">
 		<DBID>989</DBID>
-		<DisplayNameID>61418</DisplayNameID>
+		<DisplayNameID>78309</DisplayNameID>
 		<EditorNameID>61419</EditorNameID>
 		<PopulationCount>0</PopulationCount>
 		<ObstructionRadiusX>0.8900</ObstructionRadiusX>
@@ -73834,7 +73842,7 @@
 	</Unit>
 	<Unit id="1088" name="ypNatMercSohei">
 		<DBID>1089</DBID>
-		<DisplayNameID>60791</DisplayNameID>
+		<DisplayNameID>78310</DisplayNameID>
 		<EditorNameID>60792</EditorNameID>
 		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
 		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
@@ -103821,7 +103829,15 @@
 			<DamageBonus type="AbstractShockInfantry">4.000000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
-			<Name>HandAttack</Name>
+			<Name>DefendHandAttack</Name>
+			<Damage>20.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type="AbstractCavalry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractShockInfantry">4.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeHandAttack</Name>
 			<Damage>20.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
@@ -108605,7 +108621,6 @@
 		<ObstructionRadiusZ>0.9900</ObstructionRadiusZ>
 		<FormationCategory>Protected</FormationCategory>
 		<DeadReplacement>CrateofWood</DeadReplacement>
-		<PopulationCount>1</PopulationCount>
 		<MaxVelocity>4.0000</MaxVelocity>
 		<MaxRunVelocity>6.0000</MaxRunVelocity>
 		<MovementType>land</MovementType>
@@ -108616,7 +108631,7 @@
 		<MaxHitpoints>500.0000</MaxHitpoints>
 		<Icon>units\trade\spc_wagon_icon</Icon>
 		<PortraitIcon>units\trade\spc_wagon_portrait</PortraitIcon>
-		<RolloverTextID>32679</RolloverTextID>
+		<RolloverTextID>78312</RolloverTextID>
 		<ShortRolloverTextID>32678</ShortRolloverTextID>
 		<LOS>12.0000</LOS>
 		<BuildLimit>4</BuildLimit>

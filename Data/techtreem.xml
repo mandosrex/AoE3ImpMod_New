@@ -73610,11 +73610,8 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="Outpost">
 				<Target type="ProtoUnit">ExplorerEast</Target>
 			</Effect>
-			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="WoodWagon">
+			<Effect amount="1.00" relativity="Absolute" subtype="AddTrain" type="Data" unittype="SPCFortCenter">
 				<Target type="ProtoUnit">ExplorerEast</Target>
-			</Effect>
-			<Effect amount="-1.00" relativity="Absolute" subtype="AllowedAge" type="Data">
-				<Target type="ProtoUnit">WoodWagon</Target>
 			</Effect>
 			<Effect type="TextOutput">781374</Effect>
 		</Effects>
@@ -90074,6 +90071,9 @@
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">HouseEast</Target>
 			</Effect>
+			<Effect amount="10.00" relativity="Assign" subtype="BuildLimit" type="Data">
+				<Target type="ProtoUnit">HouseEast</Target>
+			</Effect>
 			<Effect amount="1.00" relativity="Absolute" subtype="Enable" type="Data">
 				<Target type="ProtoUnit">Mill</Target>
 			</Effect>
@@ -91684,6 +91684,17 @@
 			<Effect amount="10.00" relativity="Absolute" subtype="FreeHomeCityUnit" type="Data" unittype="USGatlingGun">
 				<Target type="Player"/>
 			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="BlockadeGlobal" type="Normal">
+		<DBID>3790</DBID>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect delay="10.00" type="Blockade"/>
+			<Effect status="unobtainable" type="TechStatus">HCBlockade</Effect>
+			<Effect status="unobtainable" type="TechStatus">HCBlockadeNative</Effect>
 		</Effects>
 	</Tech>
 </TechTree>

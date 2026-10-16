@@ -1791,7 +1791,7 @@
 		<String _locID="23830">German Skirmisher attack and hitpoints greatly increased.</String>
 		<String _locID="23831">Needle Gunner</String>
 		<String _locID="23833">British Hussar attack and hitpoints greatly increased.</String>
-		<String _locID="23834">King's Royal Hussars</String>
+		<String _locID="23834">Life Guard Hussars</String>
 		<String _locID="23835">Heavy swordsman with a sweep attack. Good against cavalry and shock infantry.</String>
 		<String _locID="23836">Doppelsoldner</String>
 		<String _locID="23837">Artillery that fires multiple projectiles. Better against infantry than buildings.</String>
@@ -4183,7 +4183,7 @@
 		<String _locID="31008">Imperial Skirmishers</String>
 		<String _locID="31010">Imperial Skirmisher</String>
 		<String _locID="31015">Imperial upgrade for Hussars.</String>
-		<String _locID="31016">Imperial Royal Hussars</String>
+		<String _locID="31016">Imperial Life Guards</String>
 		<String _locID="31020">Imperial upgrade for Musketeers.</String>
 		<String _locID="31021">Imperial Ordenancas</String>
 		<String _locID="31023">Imperial Ordenanca</String>
@@ -4473,7 +4473,7 @@
 		<String _locID="32325">Carabineer Reiter</String>
 		<String _locID="32326">Gardener Hussar</String>
 		<String _locID="32327">Garrochista Lancer</String>
-		<String _locID="32328">King's Royal Hussar</String>
+		<String _locID="32328">Life Guard Hussar</String>
 		<String _locID="32329">Olivenca Dragoon</String>
 		<String _locID="32330">Nassau Skirmisher</String>
 		<String _locID="32331">Tercio Pikeman</String>
@@ -4618,7 +4618,7 @@
 		<String _locID="32560">Destroy all the British buildings to unite Kanyenke and Nonahkee.</String>
 		<String _locID="32561">If the British attack the Iroquois, you may need to attack from the south side to draw attention. Start gathering resources to build a Barracks and a Stable to train units from.</String>
 		<String _locID="32562">You can train Mantlets out of the Trading Post in the Iroquois village. Mantlets are excellent unit for taking down buildings.</String>
-		<String _locID="32564">Imperial King's Royal Hussar</String>
+		<String _locID="32564">Imperial Life Guard</String>
 		<String _locID="32565">Royal Guard Musketeer</String>
 		<String _locID="32566">Advance to the Fortress Age and build an Artillery Foundry.</String>
 		<String _locID="32567">Remember you will need a reserve of Food and Coin to advance to Fortress Age.</String>
@@ -7538,8 +7538,8 @@
 		<String _locID="36996">Imperial Pavlov</String>
 		<String _locID="36997" symbol="cStringTeamMemberResearchingTech">One of your team members is already sending this Card.</String>
 		<String _locID="36998" symbol="cStringTeamMemberHasTech">One of your team members has already sent this Card.</String>
-		<String _locID="36999">King's Royal Hussar</String>
-		<String _locID="37000">Imperial Royal Hussar</String>
+		<String _locID="36999">Life Guard Hussar</String>
+		<String _locID="37000">Imperial Life Guard</String>
 		<String _locID="37001">Stationary artillery</String>
 		<String _locID="37002">Old and rusty fixed gun. Can be captured if no enemy units are in the area.</String>
 		<String _locID="37003">Fixed Gun Ruins</String>
@@ -14272,8 +14272,8 @@
 		<String _locID="43854">CAV Elmetto</String>
 		<String _locID="43855">Native American hand cavalry</String>
 		<String _locID="43856">Cheyenne horseman armed with a spear.</String>
-		<String _locID="43857">Cheyenne Rider</String>
-		<String _locID="43858">NAT Cheyenne Rider</String>
+		<String _locID="43857">Cheyenne Plains Rider</String>
+		<String _locID="43858">NAT Cheyenne Plains Rider</String>
 		<String _locID="43859">Bow Warrior attack and hitpoints increased.</String>
 		<String _locID="43860">Champion Bow Warrior</String>
 		<String _locID="43861">Champion Aenna</String>
@@ -14807,7 +14807,7 @@
 		<String _locID="44390">Cheyenne warrior attack and hitpoints increased.</String>
 		<String _locID="44391">Cheyenne Initiation Ceremony</String>
 		<String _locID="44392">Initiated Navajo Rifleman</String>
-		<String _locID="44393">Initiated Cheyenne Rider</String>
+		<String _locID="44393">Initiated Cheyenne Plains Rider</String>
 		<String _locID="44394">Klamath warrior attack and hitpoints increased.</String>
 		<String _locID="44395">Klamath Master Ceremony</String>
 		<String _locID="44396">Master Lightning Warrior</String>
@@ -14823,13 +14823,13 @@
 		<String _locID="44406">Cheyenne warrior attack and hitpoints increased.</String>
 		<String _locID="44407">Cheyenne Master Ceremony</String>
 		<String _locID="44408">Master Navajo Rifleman</String>
-		<String _locID="44409">Master Cheyenne Rider</String>
+		<String _locID="44409">Master Cheyenne Plains Rider</String>
 		<String _locID="44410">Legendary Lightning Warrior</String>
 		<String _locID="44411">Legendary Mantlet</String>
 		<String _locID="44412">Legendary Apache Cavalry</String>
 		<String _locID="44413">Legendary Klamath Rifleman</String>
 		<String _locID="44414">Legendary Navajo Rifleman</String>
-		<String _locID="44415">Legendary Cheyenne Rider</String>
+		<String _locID="44415">Legendary Cheyenne Plains Rider</String>
 		<String _locID="44416">&lt;icon="(32)(ui/ingame/resource_wood)"&gt; Wood source</String>
 		<String _locID="44417">A tree from the Grand Cayon region.</String>
 		<String _locID="44418">Tree</String>
@@ -15329,7 +15329,7 @@
 		<String _locID="44912">Legendary Apache Cavalry</String>
 		<String _locID="44913">Legendary Klamath Rifleman</String>
 		<String _locID="44914">Legendary Navajo Rifleman</String>
-		<String _locID="44915">Legendary Cheyenne Rider</String>
+		<String _locID="44915">Legendary Cheyenne Plains Rider</String>
 		<String _locID="44916">Starting Techs</String>
 		<String _locID="44917">Starting Techs</String>
 		<String _locID="44918">Native American Warrior from minor tribes have their attack and hitpoints greatly increased.</String>
@@ -15393,7 +15393,7 @@
 		<String _locID="44976">Legendary Apache Cavalry</String>
 		<String _locID="44977">Legendary Klamath Rifleman</String>
 		<String _locID="44978">Legendary Navajo Rifleman</String>
-		<String _locID="44979">Legendary Cheyenne Rider</String>
+		<String _locID="44979">Legendary Cheyenne Plains Rider</String>
 		<String _locID="44980">Native American Warrior from minor tribes have their attack and hitpoints greatly increased.</String>
 		<String _locID="44981">Traditions</String>
 		<String _locID="44982">Legendary Axe Rider</String>
@@ -15879,8 +15879,8 @@
 		<String _locID="45464">Kuechler</String>
 		<String _locID="45465">IGC Kuechler</String>
 		<String _locID="45466" symbol="cStringRMSUnknown">Unknown</String>
-		<String _locID="45467" symbol="cStringRMSUnknownDesc">Unknown: a mysterious uncharted wilderness.</String>
-		<String _locID="45468" symbol="cStringRMSUnknownLongDesc">The year is 1492.\n \nAdventuring into the mysterious Unknown!\n \nSnow or desert, land or water, Trade Routes or Natives or both - you never quite know what you're going to get. Expect the unexpected!</String>
+		<String _locID="45467" symbol="cStringRMSUnknownDesc">Unknown: a mysterious uncharted wilderness.\nNatives: Unknown\nOutlaws: Unknown</String>
+		<String _locID="45468" symbol="cStringRMSUnknownLongDesc">The year is 1492.\n \nAdventuring into the mysterious Unknown!\n \nSnow or desert, land or water, Trade Routes or Natives or both - you never quite know what you're going to get. Expect the unexpected!\n \n \nNatives: Unknown\nOutlaws: Unknown</String>
 		<String _locID="45469">Destroy Cornwallis' Capitol in Trenton.</String>
 		<String _locID="45470">General Cornwallis is using the Capitol in Trenton as a headquarters for his army. Use the help from the people of Princeton to build up an army and destroy this valuable target.</String>
 		<String _locID="45471" gamecharacter="Prisoner" soundfilename="XGENR9105">Thank you for rescuing us!</String>
@@ -16432,7 +16432,7 @@
 		<String _locID="46026">Legendary Apache Cavalry</String>
 		<String _locID="46027">Legendary Klamath Rifleman</String>
 		<String _locID="46028">Legendary Navajo Rifleman</String>
-		<String _locID="46029">Legendary Cheyenne Rider</String>
+		<String _locID="46029">Legendary Cheyenne Plains Rider</String>
 		<String _locID="46030">Legendary Ironwood</String>
 		<String _locID="46031">Heavy ranged infantry</String>
 		<String _locID="46032">Quick-training Native heavy ranged infantry who quickly loses hitpoints over time.</String>
@@ -17314,10 +17314,10 @@
 		<String _locID="46911">Champion Arrow Knights</String>
 		<String _locID="46912">Champion Axe Riders</String>
 		<String _locID="46913">Champion Bow Riders</String>
-		<String _locID="46914">Master Cheyenne Riders</String>
+		<String _locID="46914">Master Cheyenne Plains Riders</String>
 		<String _locID="46915">Champion Coup Riders</String>
 		<String _locID="46916">Champion Coup Rider</String>
-		<String _locID="46917">Master Cheyenne Rider</String>
+		<String _locID="46917">Master Cheyenne Plains Rider</String>
 		<String _locID="46918">Champion Axe Rider</String>
 		<String _locID="46919">Champion Arrow Knight</String>
 		<String _locID="46920">Champion Bow Rider</String>
@@ -18886,13 +18886,13 @@
 		<String _locID="48486">NAT MERC Nootka Clubman</String>
 		<String _locID="48487">Native American hand cavalry</String>
 		<String _locID="48488">Cheyenne horseman armed with a spear.</String>
-		<String _locID="48489">Cheyenne Rider</String>
-		<String _locID="48490">NAT MERC Cheyenne Rider</String>
+		<String _locID="48489">Cheyenne Plains Rider</String>
+		<String _locID="48490">NAT MERC Cheyenne Plains Rider</String>
 		<String _locID="48491">Native American ranged cavalry</String>
 		<String _locID="48492">Comanche light ranged cavalry. Good against shock cavalry and artillery.</String>
 		<String _locID="48493">Comanche Horse Archer</String>
 		<String _locID="48494">NAT MERC Comanche Horse Archer</String>
-		<String _locID="48495">Initiated Cheyenne Rider</String>
+		<String _locID="48495">Initiated Cheyenne Plains Rider</String>
 		<String _locID="48496">Initiated Cherokee Rifleman</String>
 		<String _locID="48497">Initiated Horse Archer</String>
 		<String _locID="48498">Initiated Cree Tracker</String>
@@ -18907,7 +18907,7 @@
 		<String _locID="48507">Initiated Blackwood Archer</String>
 		<String _locID="48508">Initiated Lightning Warrior</String>
 		<String _locID="48509">Master Cherokee Rifleman</String>
-		<String _locID="48510">Master Cheyenne Rider</String>
+		<String _locID="48510">Master Cheyenne Plains Rider</String>
 		<String _locID="48511">Master Horse Archer</String>
 		<String _locID="48512">Master Cree Tracker</String>
 		<String _locID="48513">Master Huron Mantlet</String>
@@ -18916,7 +18916,7 @@
 		<String _locID="48516">Master Lightning Warrior</String>
 		<String _locID="48517">Master Blackwood Archer</String>
 		<String _locID="48518">Legendary Blackwood Archer</String>
-		<String _locID="48519">Legendary Cheyenne Rider</String>
+		<String _locID="48519">Legendary Cheyenne Plains Rider</String>
 		<String _locID="48520">Legendary Clubman</String>
 		<String _locID="48521">Legendary Holcan</String>
 		<String _locID="48522">Legendary Horse Archer</String>
@@ -19254,10 +19254,10 @@
 		<String _locID="48854">Legendary Apache Cavalry</String>
 		<String _locID="48855">Legendary Klamath Rifleman</String>
 		<String _locID="48856">Legendary Navajo Rifleman</String>
-		<String _locID="48857">Legendary Cheyenne Rider</String>
+		<String _locID="48857">Legendary Cheyenne Plains Rider</String>
 		<String _locID="48858">Legendary Ironwood</String>
 		<String _locID="48859">Legendary Blackwood</String>
-		<String _locID="48860">Legendary Cheyenne Rider</String>
+		<String _locID="48860">Legendary Cheyenne Plains Rider</String>
 		<String _locID="48861">Legendary Clubman</String>
 		<String _locID="48862">Legendary Holcan</String>
 		<String _locID="48863">Legendary Horse Archer</String>
@@ -19331,7 +19331,7 @@
 		<String _locID="48931" symbol="cStringSupTrTotalXPTT">Supremacy Treaty Total XP: %s</String>
 		<String _locID="48932" symbol="cStringSupTrWinRatioTT">Supremacy Treaty Win Percentage: %s</String>
 		<String _locID="48933">Culture: Builds Fire Pits to boost the economy and military.\nBonus: No cavalry, but the Noble's Hut can train special units and has a fast attack. Gets free Eagle Scouts with every Age.\nTeam: Pet stats and train limits are increased.</String>
-		<String _locID="48934">Culture: Builds Fire Pits to boost the economy and military.\nBonus: Starts with a free Travois which constructs buildings for free, and can get more. Longhouses support more population.\nTeam: Livestock fatten faster over time and when tasked.</String>
+		<String _locID="48934">Culture: Builds Fire Pits to boost the economy and military.\nBonus: Starts with a free Travois which constructs buildings for free, and can get more every Age. Longhouses support more population.\nTeam: Livestock fatten faster over time and when tasked.</String>
 		<String _locID="48935">Culture: Builds Fire Pits to boost the economy and military.\nBonus: Starts with 200 population and can build Teepees to boost hitpoints of soldiers. Each Special (Big Button) upgrade sends bison.\nTeam: Building and unit line of sight increased.</String>
 		<String _locID="48936">Plaza</String>
 		<String _locID="48937">Palace</String>
@@ -19660,7 +19660,7 @@
 		<String _locID="60209">Trains and upgrades hand and ranged cavalry.</String>
 		<String _locID="60210">Caravanserai</String>
 		<String _locID="60211">Foreign troops / improvement building (costs Export)</String>
-		<String _locID="60212">Spend Export here to enter into relations with foreign powers and gain a powerful bonus. Also use Export to purchase European and American troops and improvements.</String>
+		<String _locID="60212">Spend Export here to enter into relations with foreign powers and gain a powerful bonus. Also use Export to purchase foreign troops and improvements.</String>
 		<String _locID="60213">Consulate</String>
 		<String _locID="60214">Cavalry building</String>
 		<String _locID="60215">Trains and upgrades hand and ranged cavalry.</String>
@@ -20235,11 +20235,11 @@
 		<String _locID="60784">NAT Gurkha</String>
 		<String _locID="60785">Native Shock Infantry, good against long-ranged infantry and artillery</String>
 		<String _locID="60786">Fast Chinese Shock Infantry warrior armed with a shield and a sword. Good against long-ranged infantry and artillery.</String>
-		<String _locID="60787">Rattan Shield</String>
+		<String _locID="60787">Shaolin Rattan Shield</String>
 		<String _locID="60788">NAT Rattan Shield</String>
 		<String _locID="60789">Hand infantry, good against cavalry, Shock Infantry and buildings</String>
 		<String _locID="60790">Japanese Monk armed with a large two-handed club. Good against cavalry, Shock Infantry and buildings.</String>
-		<String _locID="60791">Yamabushi</String>
+		<String _locID="60791">Zen Yamabushi</String>
 		<String _locID="60792">INF Yamabushi</String>
 		<String _locID="60793">Native hand cavalry</String>
 		<String _locID="60794">Indian horseman armed with a sword.</String>
@@ -20247,11 +20247,11 @@
 		<String _locID="60796">NAT Sowar</String>
 		<String _locID="60797">Native hand infantry, good against infantry</String>
 		<String _locID="60798">Indian warrior armed with sharp claws. Good against infantry.</String>
-		<String _locID="60799">Tiger Claw</String>
+		<String _locID="60799">Bhakti Tiger Claw</String>
 		<String _locID="60800">NAT Tiger Claw</String>
 		<String _locID="60801">Light cavalry, good against shock cavalry and artillery</String>
 		<String _locID="60802">European adventurer armed with a gun and riding horseback. Good against shock cavalry and artillery.</String>
-		<String _locID="60803">Conquistador</String>
+		<String _locID="60803">Jesuit Conquistador</String>
 		<String _locID="60804">NAT Conquistador</String>
 		<String _locID="60805">Heavy ranged infantry, good against cavalry and shock infantry.</String>
 		<String _locID="60806">Indian heavy infantry that has a slight bonus versus light cavalry at range and a large bonus versus cavalry and shock infantry at melee.</String>
@@ -20259,11 +20259,11 @@
 		<String _locID="60808">INF Sepoy</String>
 		<String _locID="60809">Light artillery, good against heavy infantry</String>
 		<String _locID="60810">Sikhs that throw hoops, causing splash damage. Good against heavy infantry.</String>
-		<String _locID="60811">Chakram Thrower</String>
+		<String _locID="60811">Udasi Chakram Thrower</String>
 		<String _locID="60812">NAT Chakram Thrower</String>
 		<String _locID="60813">Native African heavy Elephant, inflicts area damage in hand combat</String>
 		<String _locID="60814">Indian Heavy War Elephant powerful in close combat. Inflicts area damage. Good against archers and long-ranged infantry.</String>
-		<String _locID="60815">War Elephant</String>
+		<String _locID="60815">Company War Elephant</String>
 		<String _locID="60816">NAT War Elephant</String>
 		<String _locID="60817">Mercenary light cavalry, good against shock cavalry and artillery</String>
 		<String _locID="60818">Heavily armed mercenary light cavalry good with both a bow and a sword. Good against shock cavalry and artillery.</String>
@@ -20682,7 +20682,7 @@
 		<String _locID="61231">Ships Grenadiers and Musketeers and enables continued Grenadier shipment.</String>
 		<String _locID="61232">British Grenadiers +5 Redcoats</String>
 		<String _locID="61233">Ships Culverins and Hussars and enables continued Culverin shipments.</String>
-		<String _locID="61234">British Culverins +5 Royal Hussars</String>
+		<String _locID="61234">British Culverins +5 Life Guard Hussars</String>
 		<String _locID="61235">Ships Mortars and Highlanders and enables continued Mortar shipments.</String>
 		<String _locID="61236">British Mortars +5 Highlanders</String>
 		<String _locID="61237">Allows you to train Gurkhas at the Consulate.</String>
@@ -21502,7 +21502,7 @@
 		<String _locID="62051">Wokou Den Shipment has arrived.</String>
 		<String _locID="62052">Factory Food production increased.</String>
 		<String _locID="62053">Food Donation</String>
-		<String _locID="62054">Asian pirate, good against cavalry, Shock Infantry and buildings</String>
+		<String _locID="62054">Asian pirate, good against cavalry, shock infantry and buildings</String>
 		<String _locID="62055">An Eastern Wokou pirate in search of booty.</String>
 		<String _locID="62056">Smuggler</String>
 		<String _locID="62057">INF Wokou Smuggler</String>
@@ -21643,7 +21643,7 @@
 		<String _locID="62192">A dangerous Marathan highwayman armed with a pistol.</String>
 		<String _locID="62193">Marathan Dacoit</String>
 		<String _locID="62194">INF Marathan Dacoit</String>
-		<String _locID="62195">A pirate.</String>
+		<String _locID="62195">A pirate, good against cavalry and shock infantry</String>
 		<String _locID="62196">A dangerous pirate.</String>
 		<String _locID="62197">Thuggee</String>
 		<String _locID="62198">Thuggee</String>
@@ -22337,8 +22337,8 @@
 		<String _locID="62965">CON Redcoat</String>
 		<String _locID="62966">Light cavalry</String>
 		<String _locID="62967">Light hand cavalry, good against long-ranged infantry and artillery.</String>
-		<String _locID="62968">Royal Hussar</String>
-		<String _locID="62969">CON Royal Hussar</String>
+		<String _locID="62968">Life Guard Hussar</String>
+		<String _locID="62969">CON Life Guard Hussar</String>
 		<String _locID="62970">Defensive building</String>
 		<String _locID="62971">Tower that can be used to defend the frontier.</String>
 		<String _locID="62972">Outpost</String>
@@ -23045,8 +23045,8 @@
 		<String _locID="63712">Light artillery that throws grenades to defeat infantry or buildings.</String>
 		<String _locID="63713">Humbaraci Corps</String>
 		<String _locID="63714">CON Humbaraci Corps</String>
-		<String _locID="63715">Ships King's Royal Hussars.</String>
-		<String _locID="63716">5 Royal Hussar</String>
+		<String _locID="63715">Ships Life Guard Hussars.</String>
+		<String _locID="63716">5 Life Guard Hussars</String>
 		<String _locID="63717">Upgrades Basilisk Cannons into Imperial Basilisk Cannons.</String>
 		<String _locID="63718">Imperial Basilisk Cannon</String>
 		<String _locID="63719">Ships Ordenancas Musketeers.</String>
@@ -23554,7 +23554,7 @@
 		<String _locID="64256">Ships Redcoats and Falconets.</String>
 		<String _locID="64257">Levy: Call a handful of Minutemen to defend this colony!</String>
 		<String _locID="64258">Levy</String>
-		<String _locID="64259">Ships Royal Hussars and Mortars.</String>
+		<String _locID="64259">Ships Life Guard Hussars and Mortars.</String>
 		<String _locID="64260">2 Surgeons</String>
 		<String _locID="64261">Ships Petards and makes Falconets cheaper.</String>
 		<String _locID="64262">Smokeless Powder</String>
@@ -25128,7 +25128,7 @@
 		<String _locID="65838">British Expeditionary Force</String>
 		<String _locID="65839">British Expeditionary Force</String>
 		<String _locID="65840">Hand cavalry, good against archers, long-ranged infantry, and artillery / light artillery, good against infantry</String>
-		<String _locID="65841">An army of British Royal Hussars (Hussars) and Falconets.\n6 Royal Hussar: light cavalry.\n3 Falconet: light artillery that is better against infantry than buildings.</String>
+		<String _locID="65841">An army of British Life Guard Hussars (Hussars) and Falconets.\n6 Life Guard Hussars: light cavalry.\n3 Falconet: light artillery that is better against infantry than buildings.</String>
 		<String _locID="65842">British Expeditionary Army</String>
 		<String _locID="65843">British Expeditionary Army</String>
 		<String _locID="65844">Hand infantry, good against cavalry / light artillery, good against infantry</String>
@@ -28156,7 +28156,7 @@
 		<String _locID="68871">CAV Keshik</String>
 		<String _locID="68872">Recon unit</String>
 		<String _locID="68873">Mongolian reconnaissance unit. Good for exploration, but has a weak attack.</String>
-		<String _locID="68874">Mongol Rider</String>
+		<String _locID="68874">Tengri Mongol Rider</String>
 		<String _locID="68875">CAV Steppe Rider</String>
 		<String _locID="68876">TEAM 2 Mongol Riders</String>
 		<String _locID="68877">TEAM Dutch player sent everyone an Envoy.</String>
@@ -28876,7 +28876,7 @@
 		<String _locID="69592">Archer Monk with keen senses.</String>
 		<String _locID="69593">Pardoned Blind Monk</String>
 		<String _locID="69594">REP Monk</String>
-		<String _locID="69595">Asian pirate, good against cavalry, Shock Infantry and buildings</String>
+		<String _locID="69595">Asian pirate, good against cavalry, shock infantry and buildings</String>
 		<String _locID="69596">An Eastern pirate in search of booty.</String>
 		<String _locID="69597">Pardoned Cutthroat</String>
 		<String _locID="69598">REP Wokou Cutthroat</String>
@@ -29670,10 +29670,10 @@
 		<String _locID="70388">Legendary Apache Cavalry</String>
 		<String _locID="70389">Legendary Klamath Rifleman</String>
 		<String _locID="70390">Legendary Navajo Rifleman</String>
-		<String _locID="70391">Legendary Cheyenne Rider</String>
+		<String _locID="70391">Legendary Cheyenne Plains Rider</String>
 		<String _locID="70392">Legendary Ironwood</String>
 		<String _locID="70393">Legendary Blackwood</String>
-		<String _locID="70394">Legendary Cheyenne Rider</String>
+		<String _locID="70394">Legendary Cheyenne Plains Rider</String>
 		<String _locID="70395">Legendary Clubman</String>
 		<String _locID="70396">Legendary Holcan</String>
 		<String _locID="70397">Legendary Horse Archer</String>
@@ -31054,6 +31054,56 @@
 		<String _locID="71798">Ragnar Lothbrok</String>
 		<String _locID="71799">Philadelphia</String>
 		<String _locID="71800">Major Cooper</String>
+		<String _locID="71801">What chance does a single empire stand, against one republic out of many states.</String>
+		<String _locID="71802">Even our best firearms seem to be no match.</String>
+		<String _locID="71803">We must push them back!</String>
+		<String _locID="71804">We must not allow that to happen!</String>
+		<String _locID="71805">It seems that we are not the only nation that grows rich after expelling the British.</String>
+		<String _locID="71806">I fear that our defeat is imminent.</String>
+		<String _locID="71807">We have been cut down like a cherry tree.</String>
+		<String _locID="71808">That was not fair! They were supposed to lose!</String>
+		<String _locID="71809">How are we expected to win against a foe that knows these lands like their back pocket.</String>
+		<String _locID="71810">It is time to blow a little big horn of retreat.</String>
+		<String _locID="71811">So many unique units that we just could not counter all of them.</String>
+		<String _locID="71812">That was not a fair fight!</String>
+		<String _locID="71813">Whether the world economy booms or collapses, the banks always win. The medici would be handy now. Too bad they are dead.</String>
+		<String _locID="71814">Where, I ask, are the Carabinieri when you need them most? Not a single one!</String>
+		<String _locID="71815">My army is in stiches! - They seem encouraged to fight on!</String>
+		<String _locID="71816">A more enviable title than any crown could be, and greater than any merely mundane treasure.</String>
+		<String _locID="71817">I have had enough! Let us take it down!</String>
+		<String _locID="71818">Their unity makes them unbreakable.</String>
+		<String _locID="71819">Here's the plan: I have some old friends who can turn it into a boatload of money.</String>
+		<String _locID="71820">Unfortunately their troops cost less than our expensive mercenaries.</String>
+		<String _locID="71821">Let them pay for the losses, and we win the war!</String>
+		<String _locID="71822">Even the Forum Romanum looks more stable.</String>
+		<String _locID="71823">Now we're beating them with their own men, and it will lead to their defeat!</String>
+		<String _locID="71824">Time to launch an attack! Follow my lead.</String>
+		<String _locID="71825">It's getting serious. We should break camp, now!</String>
+		<String _locID="71826">We have nothing left for ourselves. We should surrender.</String>
+		<String _locID="71827">Now victory is literally out of reach... We should pull back.</String>
+		<String _locID="71828">I hate to admit it but, how could I fight against this? Their technique is formidable.</String>
+		<String _locID="71829">Let us attack now, or they will tip the odds in their favor.</String>
+		<String _locID="71830">An alliance will be in our interest for the next war.</String>
+		<String _locID="71831">A worthy foe for my lion hearted soldiers.</String>
+		<String _locID="71832">The smell of victory!</String>
+		<String _locID="71833">We should retreat to fight another day.</String>
+		<String _locID="71834">Free from tyranny!</String>
+		<String _locID="71835">Major</String>
+		<String _locID="71836">Major</String>
+		<String _locID="71837">Major</String>
+		<String _locID="71838">Major</String>
+		<String _locID="71839">Major</String>
+		<String _locID="71840">Major</String>
+		<String _locID="71841">Major</String>
+		<String _locID="71842">Major</String>
+		<String _locID="71843">Major</String>
+		<String _locID="71844">Major</String>
+		<String _locID="71845">Major</String>
+		<String _locID="71846">Major</String>
+		<String _locID="71847">Major</String>
+		<String _locID="71848">Major</String>
+		<String _locID="71849">Major</String>
+		<String _locID="71850">Major</String>
 		<String _locID="77726">Riddarholm Church</String>
 		<String _locID="77727">Original version of the Swedish Cathedral's color scheme.</String>
 		<String _locID="77728">Storkyrkan</String>
@@ -32040,8 +32090,8 @@
 		<String _locID="781328">Rich Harvest</String>
 		<String _locID="781329">Ivory</String>
 		<String _locID="781330">3. Water Maps</String>
-		<String _locID="781331">Tuareg Archer</String>
-		<String _locID="781332">Master Tuareg</String>
+		<String _locID="781331">Sufi Tuareg Archer</String>
+		<String _locID="781332">Master Tuareg Archer</String>
 		<String _locID="781333">Saltpeter Master Training</String>
 		<String _locID="781334">Saltpeter warrior attack and hitpoints increased.</String>
 		<String _locID="781335">Initiated Tuareg</String>
@@ -32081,7 +32131,7 @@
 		<String _locID="781369">20 Dahomey Allies</String>
 		<String _locID="781370">Native Ambush</String>
 		<String _locID="781371">Native warriors are stronger when fighting near Trading Posts.</String>
-		<String _locID="781372">Improves your Swedish Explorer in combat, allows him to build Outposts and train Logging Wagons, and gives him a powerful Flagship. Also Logging Wagons can be trained in the Discovery Age.</String>
+		<String _locID="781372">Improves your Swedish Explorer in combat, allows him to build Outposts and Command Posts, and gives him a powerful Flagship.</String>
 		<String _locID="781373">Skipper</String>
 		<String _locID="781374">Skipper Shipment has arrived.</String>
 		<String _locID="781375">Control Flags cannot be placed near other Control Flags.</String>
@@ -32707,7 +32757,7 @@
 		<String _locID="781997">Mark your territory with national pride.</String>
 		<String _locID="781998">Imperial Heavy Cannons</String>
 		<String _locID="781999">Imperial Heavy Cannon</String>
-		<String _locID="782000">Heroes</String>
+		<String _locID="782000">Docks</String>
 		<String _locID="782001">Town Centers</String>
 		<String _locID="782002">Wagons</String>
 		<String _locID="782003">Healers</String>
@@ -33013,7 +33063,7 @@
 		<String _locID="782305">Natal Company Station</String>
 		<String _locID="782306">Hedjaz Company Station</String>
 		<String _locID="782307">Idle Soldiers: {numIdle(LogicalTypeLandMilitary)}</String>
-		<String _locID="782308">Idle Warships: {numIdle(AbstractWarShip)}</String>
+		<String _locID="782308">Idle Warships: {numIdle(LogicalTypeNavalMilitary)}</String>
 		<String _locID="782309">Amabutho</String>
 		<String _locID="782310">Amabutho Garrison</String>
 		<String _locID="782311">Argentinian Rebels</String>
@@ -33678,7 +33728,7 @@
 		<String _locID="78261">1 Ironclad\n10 Gatling Guns</String>
 		<String _locID="78262">The Knights of St. John call for a new crusade! You receive a Shipment of 10 Hoop Throwers from Malta.</String>
 		<String _locID="78263">Habsburgs</String>
-		<String _locID="78264">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Villagers are Citizens, which don't take up population space. Has access to all common European units. Shipments send an extra unit for every higher Age.\nTeam: Start with 50 Experience Points.</String>
+		<String _locID="78264">Culture: Can use Fame and the Decree card for extra bonuses.\nBonus: Villagers are Citizens, which don't take up population space. Has access to all common European units and more Royal Guard upgrades.\nTeam: Start with 50 Experience Points.</String>
 		<String _locID="78265">Town Center and Dock attack increased, and you can call out an Irregular army from Town Centers.</String>
 		<String _locID="78266">TEAM Treasure Hunting</String>
 		<String _locID="78267">Outlaws can now pick up treasures. Also reveals all land treasures on the map.</String>
@@ -33709,5 +33759,23 @@
 		<String _locID="78292">Pardoned Granadero a Caballo</String>
 		<String _locID="78293">Champi</String>
 		<String _locID="78294">Inca warrior armed with a battle axe.</String>
+		<String _locID="78295">Hired Holcan Spearman</String>
+		<String _locID="78296">Hired Lightning Warrior</String>
+		<String _locID="78297">Hired Rifleman</String>
+		<String _locID="78298">Hired Tracker</String>
+		<String _locID="78299">Hired Blackwood Archer</String>
+		<String _locID="78300">Hired Clubman</String>
+		<String _locID="78301">Hired Plains Rider</String>
+		<String _locID="78302">Hired Horse Archer</String>
+		<String _locID="78303">Huron Mantlet</String>
+		<String _locID="78304">Hired Blowgunner</String>
+		<String _locID="78305">Hired Chakram Thrower</String>
+		<String _locID="78306">Hired Conquistador</String>
+		<String _locID="78307">Hired Rattan Shield</String>
+		<String _locID="78308">Hired Tiger Claw</String>
+		<String _locID="78309">Hired War Elephant</String>
+		<String _locID="78310">Hired Yamabushi</String>
+		<String _locID="78311">Heroes: {numUnits(Hero)}</String>
+		<String _locID="78312">Wagon that produces Wood and boosts nearby Wood gathering.</String>
 	</Language>
 </StringTable>

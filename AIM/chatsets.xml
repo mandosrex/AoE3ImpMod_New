@@ -37572,6 +37572,90 @@
 				<StringID>70721</StringID>
 			</Sentence>
 		</Tag>
+		<Tag type="AIChat" name="ToEnemyBattleStartMyFavor" priority="Background">
+			<Sentence>
+				<String>What chance does a single empire stand, against one republic out of many states.</String>
+				<Sound>imp\chats\WASHI010.mp3</Sound>
+				<StringID>71801</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToAllyIFailedToDestroyTown" priority="Background">
+			<Sentence>
+				<String>Even our best firearms seem to be no match.</String>
+				<Sound>imp\chats\WASHI015.mp3</Sound>
+				<StringID>71802</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToAllyIWillDefendTown" priority="Background">
+			<Sentence>
+				<String>We must push them back!</String>
+				<Sound>imp\chats\WASHI020.mp3</Sound>
+				<StringID>71803</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToAllyIWillDefendTradeSite" priority="Background">
+			<Sentence>
+				<String>We must not allow that to happen!</String>
+				<Sound>imp\chats\WASHI025.mp3</Sound>
+				<StringID>71804</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToEnemyWhenEnemyGetsTradeLead" priority="Background">
+			<Sentence>
+				<String>It seems that we are not the only nation that grows rich after expelling the British.</String>
+				<Sound>imp\chats\WASHI030.mp3</Sound>
+				<StringID>71805</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToAlly1MinuteLeftEnemy4OfKind" priority="Background">
+			<Sentence>
+				<String>I fear that our defeat is imminent.</String>
+				<Sound>imp\chats\WASHI035.mp3</Sound>
+				<StringID>71806</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToAllyIFailedToDestroyTradeSite" priority="Background">
+			<Sentence>
+				<String>We have been cut down like a cherry tree.</String>
+				<Sound>imp\chats\WASHI040.mp3</Sound>
+				<StringID>71807</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToAllyBattleFourOrMorePlayers" priority="Background">
+			<Sentence>
+				<String>That was not fair! They were supposed to lose!</String>
+				<Sound>imp\chats\WASHI045.mp3</Sound>
+				<StringID>71808</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToAllyIFailedToDestroyNativeSite" priority="Background">
+			<Sentence>
+				<String>How are we expected to win against a foe that knows these lands like their back pocket.</String>
+				<Sound>imp\chats\WASHI050.mp3</Sound>
+				<StringID>71809</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToEnemyHeDestroyedMyTC" priority="Background">
+			<Sentence>
+				<String>It is time to blow a little big horn of retreat.</String>
+				<Sound>imp\chats\WASHI055.mp3</Sound>
+				<StringID>71810</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToEnemyBattleFourOrMorePlayers" priority="Background">
+			<Sentence>
+				<String>So many unique units that we just could not counter all of them.</String>
+				<Sound>imp\chats\WASHI060.mp3</Sound>
+				<StringID>71811</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToEnemyBattleOverILostFromAhead" priority="Background">
+			<Sentence>
+				<String>That was not a fair fight!</String>
+				<Sound>imp\chats\WASHI065.mp3</Sound>
+				<StringID>71812</StringID>
+			</Sentence>
+		</Tag>
 	</Chatset>
 	<Chatset name="Alain">
 		<Tag type="AIChat" name="ToAlly1MinuteLeftEnemyMonopoly" priority="Emergency">
@@ -40405,6 +40489,83 @@
 				<StringID>71344</StringID>
 			</Sentence>
 		</Tag>
+		<Tag type="AIChat" name="ToAllyWhenHeClaimsFirstNative" priority="Background">
+			<Sentence>
+				<String>Now we're beating them with their own men, and it will lead to their defeat!</String>
+				<Sound>imp\chats\Gustav010.mp3</Sound>
+				<StringID>71823</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToAllyIWillAttackEnemyBase" priority="Background">
+			<Sentence>
+				<String>Time to launch an attack! Follow my lead.</String>
+				<Sound>imp\chats\Gustav015.mp3</Sound>
+				<StringID>71824</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToAllyWhenEnemyGetsTradeLead" priority="Background">
+			<Sentence>
+				<String>It's getting serious. We should break camp, now!</String>
+				<Sound>imp\chats\Gustav020.mp3</Sound>
+				<StringID>71825</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToAllyIFailedToDestroyTradeSite" priority="Background">
+			<Sentence>
+				<String>We have nothing left for ourselves. We should surrender.</String>
+				<Sound>imp\chats\Gustav025.mp3</Sound>
+				<StringID>71826</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToAlly1MinuteLeftEnemy4OfKind" priority="Background">
+			<Sentence>
+				<String>Now victory is literally out of reach... We should pull back.</String>
+				<Sound>imp\chats\Gustav030.mp3</Sound>
+				<StringID>71827</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToAllyIFailedToDestroyNativeSite" priority="Background">
+			<Sentence>
+				<String>I hate to admit it but, how could I fight against this? Their technique is formidable.</String>
+				<Sound>imp\chats\Gustav035.mp3</Sound>
+				<StringID>71828</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToAllyBattleFourOrMorePlayers" priority="Background">
+			<Sentence>
+				<String>Let us attack now, or they will tip the odds in their favor.</String>
+				<Sound>imp\chats\Gustav040.mp3</Sound>
+				<StringID>71829</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToAllyWhenIClaimFirstNative" priority="Background">
+			<Sentence>
+				<String>An alliance will be in our interest for the next war.</String>
+				<Sound>imp\chats\Gustav045.mp3</Sound>
+				<StringID>71830</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToEnemyBattleStartMyFavor" priority="Background">
+			<Sentence>
+				<String>A worthy foe for my lion hearted soldiers.</String>
+				<Sound>imp\chats\Gustav050.mp3</Sound>
+				<StringID>71831</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToEnemyBattleOverIWonAsExpected" priority="Background">
+			<Sentence>
+				<String>The smell of victory!</String>
+				<Sound>imp\chats\Gustav055.mp3</Sound>
+				<StringID>71832</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToAllyIFailedToDestroyTown" priority="Background">
+			<Sentence>
+				<String>We should retreat to fight another day.</String>
+				<Sound>imp\chats\Gustav060.mp3</Sound>
+				<StringID>71833</StringID>
+			</Sentence>
+		</Tag>
 	</Chatset>
 	<Chatset name="Garibaldi">
 		<Tag type="AIChat" name="ToAlly1MinuteLeftEnemyMonopoly" priority="Emergency">
@@ -41344,6 +41505,83 @@
 				<String>The Pope forbade the usury of our Lombards, so we had no choice but to fall back on a more honest type of business.</String>
 				<Sound>imp\chats\GARIB1115.mp3</Sound>
 				<StringID>71550</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToEnemyWhenWeGetMonopoly" priority="Background">
+			<Sentence>
+				<String>Whether the world economy booms or collapses, the banks always win. The medici would be handy now. Too bad they are dead.</String>
+				<Sound>imp\chats\GARIB010.mp3</Sound>
+				<StringID>71813</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToEnemyWhenWeGetMonopoly" priority="Background">
+			<Sentence>
+				<String>Where, I ask, are the Carabinieri when you need them most? Not a single one!</String>
+				<Sound>imp\chats\GARIB015.mp3</Sound>
+				<StringID>71814</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToEnemyWhenWeGetMonopoly" priority="Background">
+			<Sentence>
+				<String>My army is in stiches! - They seem encouraged to fight on!</String>
+				<Sound>imp\chats\GARIB020.mp3</Sound>
+				<StringID>71815</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToEnemyWhenWeGetMonopoly" priority="Background">
+			<Sentence>
+				<String>A more enviable title than any crown could be, and greater than any merely mundane treasure.</String>
+				<Sound>imp\chats\GARIB025.mp3</Sound>
+				<StringID>71816</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToEnemyWhenWeGetMonopoly" priority="Background">
+			<Sentence>
+				<String>I have had enough! Let us take it down!</String>
+				<Sound>imp\chats\GARIB030.mp3</Sound>
+				<StringID>71817</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToEnemyWhenWeGetMonopoly" priority="Background">
+			<Sentence>
+				<String>Their unity makes them unbreakable.</String>
+				<Sound>imp\chats\GARIB035.mp3</Sound>
+				<StringID>71818</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToEnemyWhenWeGetMonopoly" priority="Background">
+			<Sentence>
+				<String>Here's the plan: I have some old friends who can turn it into a boatload of money.</String>
+				<Sound>imp\chats\GARIB040.mp3</Sound>
+				<StringID>71819</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToEnemyWhenWeGetMonopoly" priority="Background">
+			<Sentence>
+				<String>Unfortunately their troops cost less than our expensive mercenaries.</String>
+				<Sound>imp\chats\GARIB045.mp3</Sound>
+				<StringID>71820</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToEnemyWhenWeGetMonopoly" priority="Background">
+			<Sentence>
+				<String>Let them pay for the losses, and we win the war!</String>
+				<Sound>imp\chats\GARIB050.mp3</Sound>
+				<StringID>71821</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToEnemyWhenWeGetMonopoly" priority="Background">
+			<Sentence>
+				<String>Even the Forum Romanum looks more stable.</String>
+				<Sound>imp\chats\GARIB055.mp3</Sound>
+				<StringID>71822</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="AIChat" name="ToAllyIWillAttackNativeSite" priority="Background">
+			<Sentence>
+				<String>Free from tyranny!</String>
+				<Sound>imp\chats\GARIB060.mp3</Sound>
+				<StringID>71834</StringID>
 			</Sentence>
 		</Tag>
 	</Chatset>

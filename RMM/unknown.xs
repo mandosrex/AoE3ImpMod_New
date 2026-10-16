@@ -2693,7 +2693,7 @@ void main(void)
       forestType = "NW Territory Forest";
       treeType = "TreeGreatPlains";   
 	riverType = "Northwest Territory Water";
-	cliffType = "Araucania Central";    
+	cliffType = "ozarks";    
 	pondType = "Northwest Territory Water";
       if (variantChance == 1)
 	{

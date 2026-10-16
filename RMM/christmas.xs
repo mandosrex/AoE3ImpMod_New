@@ -795,9 +795,7 @@ for (i=0;<=cNumberNonGaiaPlayers){
 	rmAddTriggerCondition("Always"); 
 	rmAddTriggerEffect("Forbid and Disable Unit");
 	rmSetTriggerEffectParamInt("PlayerID", i);
-    rmSetTriggerEffectParam("ProtoUnit", "YPDockAsian");
-	rmSetTriggerEffectParamInt("PlayerID", i);
-    rmSetTriggerEffectParam("ProtoUnit", "YPDockAsian");
+	rmSetTriggerEffectParam("ProtoUnit", "YPDockAsian");
 
 	rmCreateTrigger("Forbid_Native_Dock"+i);
 	rmSwitchToTrigger(rmTriggerID("Forbid_Dock"+i));
@@ -808,9 +806,7 @@ for (i=0;<=cNumberNonGaiaPlayers){
 	rmAddTriggerCondition("Always"); 
 	rmAddTriggerEffect("Forbid and Disable Unit");
 	rmSetTriggerEffectParamInt("PlayerID", i);
-    rmSetTriggerEffectParam("ProtoUnit", "DockNative");
-	rmSetTriggerEffectParamInt("PlayerID", i);
-    rmSetTriggerEffectParam("ProtoUnit", "DockNative");
+	rmSetTriggerEffectParam("ProtoUnit", "DockNative");
 
 	rmCreateTrigger("Forbid_Dock"+i);
 	rmSwitchToTrigger(rmTriggerID("Forbid_Dock"+i));
@@ -821,10 +817,7 @@ for (i=0;<=cNumberNonGaiaPlayers){
 	rmAddTriggerCondition("Always"); 
 	rmAddTriggerEffect("Forbid and Disable Unit");
 	rmSetTriggerEffectParamInt("PlayerID", i);
-    rmSetTriggerEffectParam("ProtoUnit", "Dock");
-	rmSetTriggerEffectParamInt("PlayerID", i);
-    rmSetTriggerEffectParam("ProtoUnit", "Dock");
-
+	rmSetTriggerEffectParam("ProtoUnit", "Dock");
 	}
 
 

@@ -638,6 +638,13 @@
 			<Param name="Status" dispName="$$22340$$Status" varType="techstatus">2</Param>
 			<Command>trTechSetStatus(%PlayerID%, %TechID%, %Status%);</Command>
 		</Effect>
+		<Effect name="Set Tech Status by Name">
+			<Param name="PlayerID" dispName="$$22301$$Player" varType="player">1</Param>
+			<Param name="Tech" dispName="$$22311$$Tech" varType="string">0</Param>
+			<Param name="Status" dispName="$$22340$$Status" varType="techstatus">2</Param>
+			<Command>for(techID=0; &lt;100000){if(kbGetTechName(techID)=="%Tech%"){break;}}</Command>
+			<Command>trTechSetStatus(%PlayerID%, techID, %Status%);</Command>
+		</Effect>
 		<Effect name="Unit Create">
 			<Param name="PlayerID" dispName="$$22301$$Player" varType="player">1</Param>
 			<Param name="ProtoName" dispName="$$22434$$ProtoName" varType="protounit">Villager</Param>

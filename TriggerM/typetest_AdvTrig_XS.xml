@@ -278,8 +278,15 @@
 		<Effect name="XS - Set Tech Status">
 			<Param name="PlayerID" dispName="Player" varType="string">0</Param>
 			<Param name="TechID" dispName="Tech" varType="tech">0</Param>
-			<Param name="Status" dispName="Status" varType="techstatus">4</Param>
+			<Param name="Status" dispName="Status" varType="techstatus">2</Param>
 			<Command>trTechSetStatus(%PlayerID%, %TechID%, %Status%);</Command>
+		</Effect>
+		<Effect name="XS - Set Tech Status by Name">
+			<Param name="PlayerID" dispName="$$22301$$Player" varType="player">1</Param>
+			<Param name="Tech" dispName="$$22311$$Tech" varType="string">0</Param>
+			<Param name="Status" dispName="$$22340$$Status" varType="techstatus">2</Param>
+			<Command>for(techID=0; &lt;100000){if(kbGetTechName(techID)=="%Tech%"){break;}}</Command>
+			<Command>trTechSetStatus(%PlayerID%, techID, %Status%);</Command>
 		</Effect>
 		<Effect name="XS - Send Chat">
 			<Param name="PlayerID" dispName="From Player" varType="string">0</Param>
